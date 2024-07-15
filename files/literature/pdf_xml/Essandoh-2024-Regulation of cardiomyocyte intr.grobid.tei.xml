@@ -1,0 +1,3389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Regulation of cardiomyocyte intracellular trafficking and signal transduction by protein palmitoylation</title>
+				<funder ref="#_ns7bVKj #_aVt3nnH">
+					<orgName type="full">American Heart Association</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Biochemical Society</orgName>
+				</funder>
+				<funder ref="#_yg8nmvC #_Zhd5zUA #_psgzJ52 #_bWdd7Sm">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-02-22">22 February 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kobina</forename><surname>Essandoh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Pharmacology</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><forename type="middle">P</forename><surname>Teuber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Pharmacology</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Matthew</forename><forename type="middle">J</forename><surname>Brody</surname></persName>
+							<email>majbrody@umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Pharmacology</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cardiovascular Medicine</orgName>
+								<orgName type="department" key="dep2">Department of Internal Medicine</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Regulation of cardiomyocyte intracellular trafficking and signal transduction by protein palmitoylation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-22">22 February 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0DD50494EE047DD24F730DD5AA946018</idno>
+					<idno type="DOI">10.1042/BST20221296</idno>
+					<note type="submission">Received: 18 December 2023 Revised: 8 February 2024 Accepted: 12 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite the well-established functions of protein palmitoylation in fundamental cellular processes, the roles of this reversible post-translational lipid modification in cardiomyocyte biology remain poorly studied. Palmitoylation is catalyzed by a family of 23 zinc finger and Asp-His-His-Cys domain-containing S-acyltransferases (zDHHC enzymes) and removed by select thioesterases of the lysophospholipase and α/β-hydroxylase domain (ABHD)-containing families of serine hydrolases. Recently, studies utilizing genetic manipulation of zDHHC enzymes in cardiomyocytes have begun to unveil essential functions for these enzymes in regulating cardiac development, homeostasis, and pathogenesis. Palmitoylation co-ordinates cardiac electrophysiology through direct modulation of ion channels and transporters to impact their trafficking or gating properties as well as indirectly through modification of regulators of channels, transporters, and calcium handling machinery. Not surprisingly, palmitoylation has roles in orchestrating the intracellular trafficking of proteins in cardiomyocytes, but also dynamically fine-tunes cardiomyocyte exocytosis and natriuretic peptide secretion. Palmitoylation has emerged as a potent regulator of intracellular signaling in cardiomyocytes, with recent studies uncovering palmitoylation-dependent regulation of small GTPases through direct modification and sarcolemmal targeting of the small GTPases themselves or by modification of regulators of the GTPase cycle. In addition to dynamic control of G protein signaling, cytosolic DNA is sensed and transduced into an inflammatory transcriptional output through palmitoylation-dependent activation of the cGAS-STING pathway, which has been targeted pharmacologically in preclinical models of heart disease. Further research is needed to fully understand the complex regulatory mechanisms governed by protein palmitoylation in cardiomyocytes and potential emerging therapeutic targets.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Cysteine palmitoylation or S-acylation is the reversible attachment of saturated fatty acids onto protein cysteine thiols that functions as a critical regulatory mechanism to modulate protein function by facilitating targeting to cellular membrane microdomains <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>. Palmitoylation consequently can impact intracellular trafficking, protein stability, and protein-protein interactions to exert dynamic control of intracellular signal transduction, secretory pathway activity, and/or cellular physiology <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr">[6]</ref>. Despite the increasing recognition of a central role for palmitoylation in regulating fundamental homeostatic and pathophysiological cellular processes, its functions in cardiomyocytes, the major cardiac cell type responsible for the contractile activity of the heart and predominant culprit in most idiopathic and inherited forms of cardiomyopathy and heart failure <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr">[9]</ref>, remain poorly studied. Palmitoylation is also nearly certain to play fundamental roles in cardiac fibroblasts that deposit extracellular matrix, immune cells (e.g. macrophages) that mediate inflammation in the injured heart, and other cardiac cell types, although this review will focus on established functions of palmitoylation in cardiomyocytes and future areas of investigation.</p><p>Palmitoylation is catalyzed by a family of 23 zinc finger and Asp-His-His-Cys domain-containing S-acyltransferases or zDHHC enzymes and reversed by acyl protein thioesterases of the lysophospholipase (LYPLA1, LYPLA2, and LYPLAL1 encoding Acyl Protein Thioesterase 1, 2, and -like-1, respectively) and α/β-hydroxylase domain-containing families (ABHD17A/B/C and ABHD10) <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. A majority of zDHHCs localize to intracellular membranes, predominantly the Golgi apparatus but also endoplasmic reticulum (ER) and intracellular vesicles, with a couple also found at the sarcolemma <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b13">14]</ref>. zDHHCs are 4-or 6-pass transmembrane proteins with divergent N-and C-termini and their highly conserved enzymatic DHHC domains in the cytosolic loop <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref>. As such, substrates are modified by zDHHCs on cytosolic or juxtamembrane cysteines to facilitate membrane association that alters trafficking, localization, structure, and/or function <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b16">17]</ref>. In contrast, the depalmitoylases, with the exception of ABHD10 that is found in mitochondria <ref type="bibr" target="#b17">[18]</ref>, are soluble cytoplasmic proteins <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b12">13]</ref>, although APT1 and APT2 can themselves be targeted to cellular membranes by cysteine palmitoylation <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylating and depalmitoylating enzymes in the heart</head><p>Although a majority of studies investigating zDHHC enzymes have focused on their functions in the context of neurology and several zDHHCs do indeed have central nervous system (CNS)-enriched expression, many zDHHCs are expressed and even enriched in cardiomyocytes <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>. In contrast, depalmitoylating thioesterases are rather ubiquitously expressed, including in the heart <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b25">26]</ref>. Transcript levels of genes encoding nodal Golgi enzymes (e.g. zDHHC3 and zDHHC7) are reported to be particularly abundant in the postnatal human and rodent heart <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b26">27]</ref>. However, difficulties in extraction and antibody-based detection of native zDHHC proteins have made reliable determination of zDHHC protein expression levels in the healthy and diseased heart challenging <ref type="bibr" target="#b24">[25]</ref>. Notably, transcript levels of many palmitoylating and depalmitoylating enzymes were found to be dysregulated (mostly down-regulated) in the myocardium of human heart failure patients <ref type="bibr" target="#b22">[23]</ref>. Cardiac protein levels of the sarcolemmal S-acyltransferase, zDHHC5, and the Golgi enzymes zDHHC3 and zDHHC7 are significantly increased in the murine heart after 8 weeks of pressure overload-induced hypertrophy <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>, suggesting a role for these enzymes and palmitoylation of their substrates in adaptation to cardiac stress. However, zDHHC5 levels are reduced in a porcine model of ischemia-reperfusion injury and in human ischemic heart failure <ref type="bibr" target="#b22">[23]</ref>, highlighting the potential for distinct and dynamic regulation of the expression of palmitoylation machinery in response to different pathological stimuli. Moreover, the potential for stimulus-dependent modulation of zDHHC enzyme activity, such as through post-translational modifications, and the lack of methodologies to quantify the activity of specific S-acyltransferases in vivo, makes it challenging to ascertain enzyme-substrate regulation in the context of cardiac pathophysiology. Additional gain-and loss-of-function animal models are needed to fully elucidate the functions of palmitoylation, zDHHCs, and depalmitoylating enzymes in cardiac physiology and stress adaptation.</p><p>Despite the limited number of studies investigating palmitoylation in cardiomyocytes in vivo, gene-targeted and transgenic mouse models have already uncovered indispensable functions of zDHHC enzymes in the heart. Genetic ablation of the ER-localized enzyme zDHHC16 results in perinatal lethality caused by cardiac developmental defects, including severe bradycardia and cardiomyocyte nuclear dysmorphology, in addition to abnormal eye development <ref type="bibr" target="#b27">[28]</ref>. In contrast, myocardium from Zdhhc5 gene-deleted mice exhibits more effective recovery of contractile force following anoxia <ref type="bibr" target="#b28">[29]</ref>. An in vivo gain-of-function screen with adeno-associated virus 9 (AAV9)-mediated overexpression of select zDHHC enzymes in the heart found no overt cardiac phenotype from overexpression of the sarcolemmal enzyme zDHHC5, Golgi-localized zDHHC13, or the ER enzyme zDHHC6, whereas overexpression of the closely related Golgi enzymes zDHHC3 or zDHHC7 caused severe lethal dilated cardiomyopathy <ref type="bibr" target="#b23">[24]</ref>. Cardiomyocyte-specific transgenic mice overexpressing zDHHC3 recapitulate this phenotype, exhibiting severe dilated cardiomyopathy and bradycardia followed by lethality around 6 weeks of age when zDHHC3 is overexpressed from around birth in ventricular cardiomyocytes (α-myosin heavy chain (MHC) promoter-driven expression) <ref type="bibr" target="#b23">[24]</ref>. However, when initiation of zDHHC3 transgene expression is delayed until young adulthood, it does not impact heart rate but results in congestive heart failure including peripheral edema, dyspnea, and cardiac hypertrophy <ref type="bibr" target="#b23">[24]</ref>. Notably, transgenic mice with cardiomyocyte-specific overexpression of an enzymatically dead mutant of zDHHC3 do not exhibit any discernable cardiac phenotype <ref type="bibr" target="#b23">[24]</ref>, indicating that cardiac dysfunction and maladaptive remodeling evoked by zDHHC3 overexpression is dependent on its S-acyltransferase activity. Transgenic mice with cardiomyocyte-specific overexpression of the Golgi enzyme, zDHHC9, exhibit normal cardiac function in young adulthood but develop dilated cardiomyopathy with advanced age <ref type="bibr" target="#b4">[5]</ref>, albeit relatively mild compared with overexpression of zDHHC3.</p><p>The relatively few studies interrogating zDHHC enzymes in cardiac myocytes in animal models have revealed essential functions in cardiac development, homeostasis, and disease pathogenesis. Future studies in mouse models with conditional deletion of zDHHC enzymes and depalmitoylating thioesterases in cardiomyocytes are needed to elucidate palmitoylation-regulated signaling and intracellular trafficking mechanisms that participate in cardiac disease pathogenesis. Palmitoylation has well-established roles in regulating cardiac electrophysiology through modulation of ion channel trafficking and activity (Table <ref type="table" target="#tab_0">1</ref>), which has been extensively reviewed elsewhere <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b13">14]</ref>. Here, we review what is currently known about the roles of protein palmitoylation in cardiomyocytes, focusing on its roles in the regulation of intracellular signaling, protein trafficking, and regulation of exocytosis and cardiac endocrinology (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electrophysiology and calcium cycling</head><p>Palmitoylation has been most extensively studied in cardiomyocytes in the context of regulation of ion channels, transporters, and exchangers that modulate the cardiomyocyte action potential and calcium handling <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b35">36]</ref>. Indeed, palmitoylation of the pore-forming subunits of cardiac voltage-gated sodium (Na v 1.5) and calcium (Ca v 1.2) channels modulates channel current and voltage sensitivity, respectively <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>. Notably, the sarcolemmal S-acyltransferase, zDHHC5, is particularly instrumental in modulating cardiomyocyte membrane potential and ion transport across the plasma membrane. The cardiac sodium pump (Na + /K + -ATPase) is </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cardiomyocyte exocytosis and endocytosis</head><p>Rab3gap1 zDHHC9 -Impaired Rab3 GTPase cycling and ANP release <ref type="bibr" target="#b4">[5]</ref> Membrane proteins (PLM, flotillin-2) zDHHC5 -Massive endocytosis (MEND) <ref type="bibr" target="#b28">[29]</ref> Palmitoylated proteins in cardiomyocytes as well the zDHHC S-acyltransferases modifying them, modified cysteine(s), and cellular effect are indicated. zDHHC, zinc finger and Asp-His-His-Cys domain containing; PLM, phospholemman, NCX1, sodium-calcium exchanger 1; XIP, exchange inhibitory peptide; Jph2, junctophilin-2; PLN, phospholamban; SERCA2a, sarcoendoplasmic reticulum ATPase 2a; KChIP2, potassium voltage-gated channel interacting protein 2; PKA, protein kinase A; sAC, soluble adenylyl cyclase; Rap1, Ras-related protein 1; STING, stimulator of interferon genes; IRF3, interferon regulatory factor 3; Rac1, Ras-related C3 botulinum toxin substrate 1; Rab3gap1, Rab3 GTPase activating protein 1; ANP, atrial natriuretic peptide; MEND: massive endocytosis. *Asterisks indicate that site-directed mutagenesis or functional effects of mutants of the listed cysteine residues have been assessed in either primary or iPSC-derived cardiomyocytes.</p><p>palmitoylated on its enzymatic α and β subunits but, more significantly, undergoes dynamic regulation of its activity by zDHHC5-catalyzed palmitoylation of its accessory regulatory subunit, phospholemman (PLM) <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b29">30]</ref>. The activity of the sodium-calcium exchanger 1 (NCX1) in cardiomyocytes is also intimately regulated by zDHHC5-mediated palmitoylation <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b42">43]</ref> and has been extensively reviewed elsewhere <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b13">14]</ref>, highlighting the complex and diverse mechanisms by which palmitoylation can alter cardiomyocyte excitability. Excitation-contraction coupling and sarcoplasmic reticulum (SR) calcium cycling, in addition to being impacted by palmitoylation-dependent modulation of the cardiomyocyte action potential, are also directly regulated by palmitoylation. Trafficking and membrane association of junctophilin-2 ( Jph2), which is critical for the maintenance of the structure of the dyad and effective excitation-contraction coupling <ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref>, are regulated by palmitoylation <ref type="bibr" target="#b32">[33]</ref>, which could indirectly impact intracellular calcium cycling in cardiomyocytes. In addition, SR calcium cycling can be more directly modulated by post-translational cysteine palmitoylation. Phospholamban (PLN), which inhibits the activity of sarcoendoplasmic reticulum ATPase 2a (SERCA2a) to modulate SR calcium reuptake, is palmitoylated by zDHHC16 at cysteine-36 <ref type="bibr" target="#b27">[28]</ref>. Hearts lacking zDHHC16 exhibited reduced palmitoylation of PLN that was associated with increased interaction of PLN with protein phosphatase 1α (PP1α) and reduced inhibitory phosphorylation of PLN at serine-16 <ref type="bibr" target="#b27">[28]</ref>. This suggests that palmitoylation of PLN promotes its dephosphorylation/inactivation and may serve to enhance SERCA2a pump activity, although SR calcium cycling was not directly examined in Zdhhc16-deleted cardiomyocytes.</p><p>It was recently discovered that the pore-forming α1C subunit of the L-type calcium channel (Ca v 1.2) is palmitoylated in ventricular cardiomyocytes <ref type="bibr" target="#b33">[34]</ref>. Comprehensive biochemical and biophysical characterization in HEK cells identified cysteine-136 within the N-terminus and cysteines-519 and -543 in the domain I-II linker region of the α1C subunit as the functionally modified residues impacting the voltage dependence of Ca v 1.2 current <ref type="bibr" target="#b33">[34]</ref>. Calcium transient amplitudes were reduced in human induced pluripotent stem cell-derived cardiomyocytes expressing the palmitoylation-deficient α1C C136/519/543A mutant <ref type="bibr" target="#b33">[34]</ref>, supporting a role for α1C palmitoylation in regulating Ca v 1.2 activity in cardiomyocytes. Thus, the duration and magnitude of elevation of cytosolic calcium levels during systole are controlled by palmitoylation of multiple calcium handling and regulatory proteins, providing multiple mechanisms by which palmitoylation can impact myofilament contraction downstream of alterations of cardiomyocyte electrophysiology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cardiomyocyte signal transduction</head><p>Intracellular signal transduction occurs predominantly through a series of transient protein-protein interactions and enzymatic activities (e.g. catalysis of post-translational modifications) at cellular membranes that initiate changes in protein structure and function and a cascade of activation of downstream effectors that ultimately elicits a cellular physiologic response. Consequently, the membrane microdomain localization, topography, and/or activity of a myriad of signaling molecules, including membrane-localized receptors and soluble cytosolic signal transducing proteins that transiently associate with cellular membranes, are controlled by dynamic cysteine palmitoylation. For instance, many G protein-coupled receptors (GPCRs) are palmitoylated on their C-terminal cytosolic tail, a majority of heterotrimeric Gα subunits are palmitoylated on their N-terminus, and some small GTPases have cysteines adjacent to the hypervariable region that undergo palmitoylation cycling (e. g. H-Ras, N-Ras) to dynamically control signaling output <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref>. Palmitoylation is an optimal mechanism to rapidly activate or impart spatiotemporal control to intracellular signal transduction in cardiomyocytes and profoundly influence cardiac function and pathophysiology. Nonetheless, there has been limited exploration of palmitoylation-dependent regulation of intracellular signaling in cardiac myocytes in vivo or in a pathophysiologic context.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>G protein signaling</head><p>Palmitoylation is an important determinant of β-adrenergic signaling in cardiomyocytes. Many GPCRs including β-adrenergic receptors are themselves regulated by palmitoylation <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b50">51]</ref> but notably, it has been demonstrated that Gαs and Gαi are palmitoylated in cardiomyocytes in response to isoproterenol (Figure <ref type="figure" target="#fig_0">1</ref>). Knockdown of zDHHC5 mitigated induction of Gαs and Gαi palmitoylation, cAMP levels, and calcium transient frequency in neonatal cardiac myocytes in response to β-adrenergic stimulation <ref type="bibr" target="#b51">[52]</ref>. The β 2 -adrenergic receptor (β 2 -AR) is palmitoylated in cardiomyocytes on cysteine-341 in its C-terminal cytosolic tail, where many GPCRs are canonically regulated by palmitoylation <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b50">51]</ref>. Palmitoylation of the β 2 -AR in cardiomyocytes appears to be essential for the termination of cAMP signaling by internalized β 2 -ARs <ref type="bibr" target="#b50">[51]</ref>. Expression of a palmitoylation-deficient β 2 -AR C341A mutant in neonatal mouse cardiomyocytes lacking both β 1 -AR and β 2 -AR resulted in normal expression at the sarcolemma but defective interaction with β-arrestin 2 and phosphodiesterase 4D (PDE4D) and elevated cytosolic cAMP levels and PKA activity in response to isoproterenol <ref type="bibr" target="#b50">[51]</ref>, suggesting that palmitoylation is required for recruitment of PDE4D to β 2 -AR at endosomes following β-arrestin-dependent internalization (Figure <ref type="figure" target="#fig_1">2</ref>). The β 2 -AR has also been shown to be palmitoylated at cysteine-265 within its third intracellular loop by the Golgi enzymes zDHHC9/14/18 in response to agonist stimulation that impacts its intracellular trafficking and cell surface expression <ref type="bibr" target="#b37">[38]</ref>, but whether this regulatory mechanism occurs in cardiomyocytes has not been tested. Moreover, soluble adenylyl cyclase (sAC) is palmitoylated in cardiomyocytes at cysteine-342 in response to high palmitate concentrations to evoke cAMP production and activation of the small GTPase Rap1 <ref type="bibr" target="#b52">[53]</ref>, highlighting palmitoylation-dependent control of not just GPCRs and Gα subunits, but also cross-talk and compartmentalization of second messenger signaling. Further research is needed to understand the complex regulation of adrenergic receptor signaling by palmitoylation, including the distinct mechanisms by which palmitoylation modulates β 1 -AR and β 2 -AR signaling from the sarcolemma and intracellular compartments, impacts on compartmentalized cAMP production and effector signaling, and ultimately how this modulates cardiomyocyte calcium handling and contractility.</p><p>Perhaps the best-characterized example of regulation of intracellular signal transduction by protein palmitoylation involves palmitoylation cycling on H-Ras and N-Ras that are necessary for membrane translocation and sustained signaling outputs <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b49">50]</ref>. Indeed, genetic or pharmacological inhibition of H/N-Ras palmitoylation or depalmitoylation impairs palmitoylation cycling and disrupts cancer cell growth and proliferation <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b49">50]</ref>. In addition to H-Ras and N-Ras, other small GTPases of the Ras superfamily undergo palmitoylation on their C-terminus, along with the canonical irreversible prenylation on the cysteine on the CAAX motif of the ultimate C-terminus <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b49">50]</ref>. Ras-related C3 botulinum toxin substrate 1 (Rac1) is a small GTPase within the Rho family with instrumental roles in regulating the actin cytoskeleton as well as inducing the catalytic activity of NADPH oxidase-2 (Nox2) to evoke superoxide production and oxidative stress <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref>. Rac1 is palmitoylated at cysteine-178 on its C-terminus to promote its activation, localization to lipid rafts, and cell migration in immortalized cell lines <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b48">49]</ref>. Proteomic studies identified Rac1 as a novel substrate of the Golgi-localized enzyme, zDHHC3, and subsequent studies found that cardiomyocyte-specific overexpression of zDHHC3 increased Rac1 palmitoylation in the heart <ref type="bibr" target="#b23">[24]</ref>. zDHHC3 overexpression also elicited robust enhancement of Rac1 activity and translocation to the sarcolemma (Figure <ref type="figure" target="#fig_0">1</ref>), along with induction of the protein levels of all Rho family small GTPases, all of which preceded heart failure in zDHHC3 transgenic mice <ref type="bibr" target="#b23">[24]</ref>. These studies demonstrate a critical role for palmitoylation of soluble signaling proteins at the surface of the cardiomyocyte Golgi in the regulation of intracellular signaling, including the promotion of pathogenic signaling by small GTPases associated with cardiac maladaptation and heart failure <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b58">59</ref>]. Further investigation is needed to determine the role of palmitoylated Rac1 in cardiomyocytes, including if there are differential effectors and functions of palmitoylated Rac1 versus depalmitoylated Rac1 (which can still associate with membranes via its C-terminal polybasic domain and geranylgeranyl lipidation) and if Rac1-dependent Nox2 activity, cardiac hypertrophy and oxidative stress <ref type="bibr" target="#b59">[60]</ref> require its palmitoylation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>cGAS-STING signaling</head><p>Owed to the current lack of S-acyltransferase inhibitors with specificity for particular zDHHC enzymes, perhaps the most tractable pharmacological strategy to target protein palmitoylation to date has been the development of small molecules that alkylate substrate cysteine residues to prevent their modification by palmitoylation <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref>. Indeed, modulation of the innate immune response and type I interferon signaling by palmitoylation of stimulator of interferon genes (STING) has been harnessed clinically through the development of small molecules that covalently bind to cysteine residues on STING that need to be palmitoylated for its proper activation. STING palmitoylation at the Golgi is required for its oligomerization, formation of protein signaling complexes, and activation of downstream effectors to ultimately induce a host defense gene program through the transcriptional activities of interferon regulatory factor 3 (IRF3) and nuclear factor kappa B (NFκB) <ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). Cyclic GMP-AMP synthase (cGAS) senses cytosolic DNA that originates from bacterial or viral infection or self-DNA released from mitochondria or dying cells and in turn generates 2 0 ,3 0 -cyclic GMP-AMP (cGAMP) that binds to STING and evokes its palmitoylation, activation, and downstream production of type I interferons as an integral cellular mechanism driving the innate immune response <ref type="bibr" target="#b63">[64,</ref><ref type="bibr" target="#b64">65,</ref><ref type="bibr" target="#b68">69]</ref>. High-throughput screening of inhibitors of interferon signaling identified multiple nitrofuran derivatives that alkylate the essential palmitoylated cysteine-91 residue of STING <ref type="bibr" target="#b60">[61]</ref>. Notably, nitro fatty acids, which are protective in cardiovascular disease <ref type="bibr" target="#b69">[70,</ref><ref type="bibr" target="#b70">71]</ref>, also alkylate STING to prevent its activation <ref type="bibr" target="#b63">[64]</ref>. Small molecule inhibitors of STING palmitoylation are being pursued for the treatment of autoinflammatory diseases including lupus erythematosus and psoriasis <ref type="bibr" target="#b61">[62,</ref><ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b67">68]</ref> and phase II clinical trials have been conducted for the treatment of focal segmental glomerulosclerosis with nitro fatty acids <ref type="bibr" target="#b61">[62]</ref>.</p><p>With regards to cardiac pathophysiology, the cGAS-STING pathway plays an essential role in cardiac inflammation after myocardial infarction by activating an IRF3-dependent interferon-stimulated gene program in response to sensing of DNA from dying or damaged cardiomyocytes/mitochondria <ref type="bibr" target="#b71">[72,</ref><ref type="bibr" target="#b72">73]</ref>. This promotes monocyte recruitment and macrophage activation in the heart, inflammatory cytokine expression, deterioration of cardiac function, and mortality, all of which can be ameliorated by genetic ablation of cGAS or IRF3 <ref type="bibr" target="#b71">[72,</ref><ref type="bibr" target="#b72">73]</ref>. Notably, pharmacological inhibition of STING activation with a small molecule inhibitor of STING palmitoylation reduces adverse cardiac remodeling and dysfunction in a mouse model of chronic kidney disease <ref type="bibr" target="#b73">[74]</ref> and nitro fatty acid treatment improves cardiac function and reduces myocardial fibrosis in a genetic mouse model of dilated cardiomyopathy <ref type="bibr" target="#b41">[42]</ref>. In addition to impairing cGAS-STING signaling and interferon production in macrophages to dampen maladaptive myocardial inflammation <ref type="bibr" target="#b71">[72]</ref>, the protective effects of inhibiting STING palmitoylation and activation in the heart also arise at least in part from its effects in cardiomyocytes and repressing STING-dependent cardiomyocyte pyroptosis <ref type="bibr" target="#b74">[75,</ref><ref type="bibr" target="#b75">76]</ref> as cardiomyocytespecific deletion of STING ameliorates cardiac hypertrophy and systolic dysfunction in response to chronic kidney injury <ref type="bibr" target="#b73">[74]</ref> and knockdown of STING expression in cardiomyocytes restores cardiac function and dampens myocardial inflammation in diabetic cardiomyopathy <ref type="bibr" target="#b74">[75]</ref>. Thus, targeting palmitoylation-dependent activation of the cGAS-STING signaling pathway in cardiomyocytes has the potential to mitigate cardiac remodeling in ischemic and non-ischemic heart diseases associated with adverse myocardial inflammation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cardiomyocyte exocytosis and endocytosis</head><p>The abundance of zDHHC enzymes localized at the ER, Golgi, and endomembranes and the inherent lipophilicity imparted by conjugation of a fatty acid onto a protein makes palmitoylation ideally suited to regulate the flux and anterograde trafficking of peripheral membrane proteins through the secretory pathway to their ultimate plasmalemmal or organellar cellular membrane destination <ref type="bibr" target="#b76">[77]</ref><ref type="bibr" target="#b77">[78]</ref><ref type="bibr" target="#b78">[79]</ref>. Indeed, regulated palmitoylation is an essential mechanism that can modulate intracellular protein trafficking through multiple mechanisms and consequently has profound impacts on cardiomyocyte signal transduction and electrophysiology (see above). Palmitoylation can regulate the trafficking and recycling of not just membrane proteins themselves, but also the molecular machinery and regulatory proteins controlling vectorial transport through the endomembrane system.</p><p>Palmitoylation has essential functions in the regulation of exocytic release of hormones, peptides, and neurotransmitters from secretory vesicles in specialized cell types <ref type="bibr" target="#b79">[80]</ref><ref type="bibr" target="#b80">[81]</ref><ref type="bibr" target="#b81">[82]</ref><ref type="bibr" target="#b82">[83]</ref><ref type="bibr" target="#b83">[84]</ref><ref type="bibr" target="#b84">[85]</ref>. A palmitoylation-dependent pathway governing sarcolemmal delivery of secretory vesicles and natriuretic peptide secretion by cardiomyocytes was recently uncovered <ref type="bibr" target="#b4">[5]</ref>. Proteomic studies identified Rab3 GTPase activating protein 1 (Rab3gap1) as a substrate of zDHHC9-mediated palmitoylation in cardiomyocytes. Rab3gap1 is the dedicated GTPase activating protein (GAP) that inactivates Rab3, a small GTPase primarily involved in exocytosis, to its GDP-bound state necessary for its dissociation from secretory vesicles to reinitiate the GTPase cycle (Figure <ref type="figure" target="#fig_1">2</ref>) <ref type="bibr" target="#b85">[86]</ref><ref type="bibr" target="#b86">[87]</ref><ref type="bibr" target="#b87">[88]</ref>. Palmitoylation of Rab3gap1 by zDHHC9 at the cardiomyocyte Golgi membrane resulted in Golgi retention of Rab3gap1 and repression of cellular GAP activity on Rab3 and consequently higher levels of active Rab3-GTP <ref type="bibr" target="#b4">[5]</ref>. zDHHC9-mediated palmitoylation promoted the movement of Rab3 from the Golgi to peripheral secretory vesicles in cardiomyocytes, but this was accompanied by a deficit in the release of atrial natriuretic peptide (ANP) due to impairment of the Rab3 GTPase cycle <ref type="bibr" target="#b4">[5]</ref>. ANP secretion is induced in cardiomyocytes in response to cardiac stress such as neurohumoral stimulation (increased circulating angiotensin-II, catecholamines) and increased blood volume (atrial distension) as an endocrine mechanism of cardiovascular protection that increases vasodilation, natriuresis, and diuresis to reduce blood pressure and cardiac workload <ref type="bibr" target="#b88">[89]</ref><ref type="bibr" target="#b89">[90]</ref><ref type="bibr" target="#b90">[91]</ref><ref type="bibr" target="#b91">[92]</ref>. Pathophysiologic stimulation of ANP secretion in cardiomyocytes with phenylephrine elicited robust release of ANP as expected, which was associated with enhanced Rab3 activity and localization of ANP to Rab3-positive peripheral secretory vesicles <ref type="bibr" target="#b4">[5]</ref>. Importantly, phenylephrine treatment enhanced Rab3gap1 palmitoylation in cardiomyocytes and knockdown of zDHHC9 expression prevented Rab3gap1 palmitoylation and Rab3-GTP loading in response to phenylephrine but promoted even greater release of ANP <ref type="bibr" target="#b4">[5]</ref>. A majority of ANP secreted by the diseased heart originates from atrial myocytes that contain specialized atrial granules loaded with processed ANP poised for exocytic release through a regulated secretory pathway <ref type="bibr" target="#b91">[92]</ref><ref type="bibr" target="#b92">[93]</ref><ref type="bibr" target="#b93">[94]</ref><ref type="bibr" target="#b94">[95]</ref><ref type="bibr" target="#b95">[96]</ref><ref type="bibr" target="#b96">[97]</ref><ref type="bibr" target="#b97">[98]</ref><ref type="bibr" target="#b98">[99]</ref> compared with the constitutive secretory pathway in neonatal ventricular cardiomyocytes in which a majority of the mechanistic studies of zDHHC9 and Rab3gap1 palmitoylation on ANP release were performed. Thus, this palmitoylation-dependent mechanism regulating cardiomyocyte exocytosis warrants further investigation in atrial cardiomyocytes that are by far the predominant source of the vast majority of natriuretic peptides released into the circulation. It is however noteworthy that pharmacological elevation of circulating natriuretic peptides by neprilysin inhibitor treatment, in combination with an angiotensin receptor antagonist, is efficacious and becoming widely used for the treatment of heart failure with reduced ejection fraction (HFrEF) <ref type="bibr" target="#b99">[100,</ref><ref type="bibr" target="#b100">101]</ref>. Thus, inhibition of zDHHC9 activity or palmitoylation of Rab3gap1 could potentially stimulate greater release and consequently greater circulating levels of natriuretic peptides in response to increased neurohumoral stimulation that occurs in cardiovascular disease, which may have therapeutic implications for the treatment of heart failure and/or hypertension.</p><p>Palmitoylation also plays an important role in controlling endocytosis to facilitate the internalization of receptors, turnover of plasma membrane domains, and/or phagocytosis of extracellular contents <ref type="bibr" target="#b101">[102]</ref><ref type="bibr" target="#b102">[103]</ref><ref type="bibr" target="#b103">[104]</ref>. Cardiomyocytes, like other cell types, possess heterogenous endocytic pathways to enable internalization and vesicular delivery of proteins, plasma membranes, and/or extracellular components to distinct intracellular compartments. As described above, palmitoylation of the β 2 -AR in cardiomyocytes is essential for the cessation of compartmentalized cAMP production evoked by internalized receptors presumably at endosomes (Figure <ref type="figure" target="#fig_1">2</ref>). Mutation of the β 2 -AR palmitoylation site causes aberrant internalization through a caveolin-dependent pathway rather than canonical β-arrestin-dependent endocytosis and elevation of cytosolic cAMP levels in response to isoproterenol <ref type="bibr" target="#b50">[51]</ref>, although the dynamics of β 2 -AR palmitoylation/depalmitoylation in its endocytic recycling and compartmentalized signaling are not fully understood. In cardiomyocytes exposed to anoxia and reoxygenation, mitochondrial damage and mitochondrial permeability transition pore opening result in massive endocytosis (MEND) in which a large portion of the plasma membrane is internalized in a process that requires the S-acyltransferase activity of the sarcolemmal enzyme zDHHC5 <ref type="bibr" target="#b28">[29]</ref>. Genetic ablation of zDHHC5 blunts the anoxia-reoxygenation MEND response in cardiomyocytes and improves contractility of reoxygenated myocardium <ref type="bibr" target="#b28">[29]</ref>, suggesting zDHHC5-regulated MEND and sarcolemmal turnover play fundamental roles in cardiac homeostasis and stress adaptation. Palmitoylation undoubtedly has additional functions in controlling endocytic pathways in cardiac myocytes, but more studies are needed to uncover mechanisms, targets, and physiologic consequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future directions</head><p>Many of the mechanistic and biochemical studies assessing functions of palmitoylation and enzymatic regulation by zDHHC enzymes have been performed in immortalized cell lines (e.g. HEK cells) and not in primary cardiomyocytes or in vivo. Although many of these findings do recapitulate the in vivo enzyme regulation and impacts on substrate functions, there are many examples of cell type-specific regulation of substrate palmitoylation, particularly in highly specialized cells with unique membrane domains (e.g. cardiomyocytes, neurons) <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b79">80,</ref><ref type="bibr" target="#b104">[105]</ref><ref type="bibr" target="#b105">[106]</ref><ref type="bibr" target="#b106">[107]</ref>. Moreover, many proteins regulated by palmitoylation are uniquely expressed or have distinct functions in cardiac myocytes that necessitate cell type-specific regulatory mechanisms to direct dynamic association with intracellular membrane microdomains. Furthermore, the morphogenetically distinct cytoarchitecture of cardiomyocytes and even the heterogeneity in subcellular organelle morphology and distribution of membrane domains amongst atrial versus ventricular cardiomyocytes present a distinct intracellular membrane environment and likely unique zDHHC-dependent mechanisms of regulation of protein substrate trafficking, membrane targeting, and function. The sarcolemmal enzyme, zDHHC5, has received a lot of attention with regards to enzymatic regulation of palmitoylation in cardiomyocytes, but other zDHHCs including Golgi-localized enzymes play fundamental roles in coordinating intracellular trafficking and secretory pathway activity as well as dynamic targeting and modulation of compartmentalized signaling in cardiomyocytes. Indeed, the palmitoylation machinery (zDHHCs and depalmitoylases) is optimally positioned to fine-tune protein trafficking in the context of the distinct intracellular membrane topography of cardiac myocytes, including targeting proteins to specific sarcolemmal microdomains such as the T-tubule, intercalated disc, and costamere. However, to date, there have been limited investigations of zDHHC enzymes and the functions of palmitoylation in the context of cardiac physiology and disease. Future in vivo studies with cardiomyocytespecific genetic manipulation of palmitoylating and depalmitoylating enzymes and substrate palmitoylation sites will facilitate translating biochemical and molecular discoveries of protein palmitoylation in cardiomyocyte biology to the physiology and pathophysiology of cardiac homeostasis and disease.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perspectives</head><p>• Palmitoylation has essential functions in cardiac physiology through the regulation of intracellular trafficking, secretory pathway function, and signal transduction in cardiomyocytes.</p><p>• The unique plasma membrane and organellar membrane landscape of cardiac myocytes make dynamic protein palmitoylation an ideal post-translational mechanism to impart regulatory control over protein trafficking and compartmentalization of intracellular signal transduction in this highly specialized cell type.</p><p>• Future studies in animal models and primary cardiomyocytes with genetic and pharmacologic manipulation of zDHHC enzymes, depalmitoylases, and substrate palmitoylation sites will help uncover mechanisms by which palmitoylation controls cardiomyocyte signaling, protein trafficking, and electrophysiology in the context of cardiac homeostasis and in cardiac pathologies such as myocardial ischemia, cardiac hypertrophy, and heart failure.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Regulation of cardiomyocyte signal transduction by protein palmitoylation. zDHHC3-mediated palmitoylation of Rac1 promotes sarcolemmal targeting and activation of Rac1. STING palmitoylation at the Golgi is triggered by binding of cGAS to cytosolic DNA and necessary for downstream nuclear translocation and transcriptional activities of IRF3 and NFκB. zDHHC5 promotes palmitoylation of Gαs and downstream induction of cAMP and cytosolic calcium in response to stimulation of the β 2 -adrenergic receptor. Rac1, Ras-related C3 botulinum toxin substrate 1; cGAS, cyclic GMP-AMP synthase; STING, stimulator of interferon genes; TBK1, TANK-binding kinase 1; NFκB, nuclear factor kappa B; IRF3, Interferon regulatory factor 3; β 2 -AR, β 2 -adrenergic receptor; NE, norepinephrine; Epi, epinephrine; dsDNA, double-stranded deoxyribonucleic acid; Gαs, G s alpha subunit; cAMP, cyclic adenosine monophosphate.</figDesc><graphic coords="5,42.86,77.27,450.21,319.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Regulation of cardiomyocyte exocytosis and endocytosis by protein palmitoylation. zDHHC9 promotes palmitoylation and increased Golgi retention of Rab3gap1 in cardiomyocytes resulting in impaired Rab3a nucleotide cycling and a deficit in ANP secretion. Palmitoylation of the C-terminal tail of the β 2 -AR is required for internalization via canonical β-arrestin-mediated endocytosis and for its association with PDE4D to terminate compartmentalized endosomal cAMP signaling by internalized β 2 -ARs following agonist stimulation. Rab3gap1, Rab3 GTPase activating protein 1; ANP, atrial natriuretic peptide; Rab3, Ras-related protein 3; β 2 -AR, β 2 -adrenergic receptor; PDE4D, phosphodiesterase 4D.</figDesc><graphic coords="6,102.39,77.27,450.21,308.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Protein substrates for which critical roles of cysteine palmitoylation have been established in cardiomyocytes</figDesc><table><row><cell>Target</cell><cell>zDHHC(s)</cell><cell>Site(s)</cell><cell>Effect(s)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2024 The Author(s). This is an open access article published by Portland Press Limited on behalf of the Biochemical Society and distributed under the Creative Commons Attribution License 4.0 (CC BY).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Biochemical Society Transactions (2024) 52 41-53 https://doi.org/10.1042/BST20221296</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>This work was supported by grants from the <rs type="funder">National Institutes of Health</rs> (<rs type="grantNumber">R00HL136695</rs>, <rs type="grantNumber">R01HL167778</rs>, and <rs type="grantNumber">R01HL166274</rs> to M.J.B. and <rs type="grantNumber">F31HL165680</rs> to J.P.T.) and the <rs type="funder">American Heart Association</rs> (<rs type="grantNumber">827440</rs> to K.E. and <rs type="grantNumber">898429</rs> to J.P.T.).</p></div>
+<div><head>Open Access</head><p>Open access for this article was enabled by the participation of the <rs type="affiliation">University of Michigan</rs> in an all-inclusive <rs type="person">Read &amp; Publish</rs> agreement with <rs type="person">Portland Press</rs> and the <rs type="funder">Biochemical Society</rs> under a transformative agreement with UM.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_yg8nmvC">
+					<idno type="grant-number">R00HL136695</idno>
+				</org>
+				<org type="funding" xml:id="_Zhd5zUA">
+					<idno type="grant-number">R01HL167778</idno>
+				</org>
+				<org type="funding" xml:id="_psgzJ52">
+					<idno type="grant-number">R01HL166274</idno>
+				</org>
+				<org type="funding" xml:id="_bWdd7Sm">
+					<idno type="grant-number">F31HL165680</idno>
+				</org>
+				<org type="funding" xml:id="_ns7bVKj">
+					<idno type="grant-number">827440</idno>
+				</org>
+				<org type="funding" xml:id="_aVt3nnH">
+					<idno type="grant-number">898429</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors declare that there are no competing interests associated with the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>K.E. and M.J.B. prepared the original draft and figures and edited the manuscript. J.P.T., K.E., and M.J.B.</p><p>prepared and edited the revised manuscript and figures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head><p>β2-AR, beta-2 adrenergic receptor; ABHD, α/β-hydroxylase domain containing; ANP, atrial natriuretic peptide; cGAMP, 2 0 ,3 0 -cyclic GMP-AMP; cGAS, cyclic GMP-AMP synthase; GAP, GTPase activating protein; GPCR, G protein coupled receptor; HFrEF, heart failure with reduced ejection fraction; IRF3, interferon regulatory factor 3; Jph2, junctophilin-2; KChIP2, potassium channel interacting protein 2; LYPLA, lysophospholipase; MEND, massive endocytosis; NCX1, sodium-calcium exchanger 1; NFκB, nuclear factor kappa B; Nox2, NADPH oxidase-2; PDE4D, phosphodiesterase 4D; PLM, phospholemman; PLN, phospholamban; Rab3gap1, Rab3 GTPase activating protein 1; Rac1, Ras-related C3 botulinum toxin substrate 1; sAC, soluble adenylyl cyclase; SERCA2a, sarcoendoplasmic reticulum ATPase 2a; SR, sarcoplasmic reticulum; STING, stimulator of interferon genes; zDHHC, zinc finger and Asp-His-His-Cys domain containing.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Palmitoylation: a fatty regulator of myocardial electrophysiology</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Essandoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Philippe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brody</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2020.00108</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2020.00108" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The physiology of protein S-acylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00032.2014</idno>
+		<ptr target="https://doi.org/10.1152/physrev.00032" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="341" to="376" />
+			<date type="published" when="2014">2015. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Protein lipidation: occurrence, mechanisms, biological functions, and enabling technologies</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aramsangtienchai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.6b00750</idno>
+		<ptr target="https://doi.org/10.1021/acs.chemrev.6b00750" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="919" to="988" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ion channel regulation by protein S-acylation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+		<idno type="DOI">10.1085/jgp.201411176</idno>
+		<ptr target="https://doi.org/10.1085/jgp.201411176" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Gen. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="659" to="678" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">zDHHC9 regulates cardiomyocyte Rab3a activity and atrial natriuretic peptide secretion through palmitoylation of Rab3gap1</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Essandoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Subramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Ferro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Teuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koripella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brody</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jacbts.2022.11.003</idno>
+		<ptr target="https://doi.org/10.1016/j.jacbts.2022.11.003" />
+	</analytic>
+	<monogr>
+		<title level="j">JACC Basic Transl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="518" to="542" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An acylation cycle regulates localization and activity of palmitoylated Ras isoforms</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peyker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kahms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Verveer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Koerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lumbierres</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1105654</idno>
+		<ptr target="https://doi.org/10.1126/science.1105654" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="page" from="1746" to="1752" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">NADPH oxidases in diastolic dysfunction and heart failure with preserved ejection fraction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Teuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Essandoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Madamanchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brody</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/antiox11091822</idno>
+		<ptr target="https://doi.org/10.3390/antiox11091822" />
+	</analytic>
+	<monogr>
+		<title level="j">Antioxidants (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="1822">2022. 1822</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The role of leucine-rich repeat containing protein 10 (LRRC10) in dilated cardiomyopathy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2016.00337</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2016.00337" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Leveraging signaling pathways to treat heart failure with reduced ejection fraction</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pinilla-Vera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kass</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCRESAHA.119.313682</idno>
+		<ptr target="https://doi.org/10.1161/CIRCRESAHA.119.313682" />
+	</analytic>
+	<monogr>
+		<title level="j">Circ. Res</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="1618" to="1632" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">ABHD17 proteins are novel protein depalmitoylases that regulate N-Ras palmitate turnover and subcellular localization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Conibear</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.11306</idno>
+		<ptr target="https://doi.org/10.7554/eLife.11306" />
+		<imprint>
+			<date type="published" when="2015">2015. 11306</date>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Identification of PSD-95 palmitoylating enzymes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Adesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2004.12.005</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2004.12.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="987" to="996" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Discovery of protein-palmitoylating enzymes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00424-008-0465-x</idno>
+		<ptr target="https://doi.org/10.1007/s00424-008-0465-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Pflugers Arch</title>
+		<imprint>
+			<biblScope unit="volume">456</biblScope>
+			<biblScope unit="page" from="1199" to="1206" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Identification of PSD-95 depalmitoylating enzymes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yokoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.0419-16.2016</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.0419-16.2016" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="6431" to="6444" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Protein S-Palmitoylation: advances and challenges in studying a therapeutically important lipid modification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/febs.15781</idno>
+		<ptr target="https://doi.org/10.1111/febs.15781" />
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="861" to="882" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The Golgi S-acylation machinery comprises zDHHC enzymes with major differences in substrate affinity and S-acylation activity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lemonidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Gorleku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Sanchez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grefen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.E14-06-1169</idno>
+		<ptr target="https://doi.org/10.1091/mbc.E14-06-1169" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3870" to="3883" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Substrate recruitment by zDHHC protein acyltransferases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I P</forename><surname>Malgapo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsob.210026</idno>
+		<ptr target="https://doi.org/10.1098/rsob.210026" />
+	</analytic>
+	<monogr>
+		<title level="j">Open Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2021">2021. 210026</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Fatty acyl recognition and transfer by an integral membrane S-acyltransferase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Rajashankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Banerjee</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aao6326</idno>
+		<ptr target="https://doi.org/10.1126/science.aao6326" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">ABHD10 is an S-depalmitoylase affecting redox homeostasis through peroxiredoxin-5</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Thorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41589-019-0399-y</idno>
+		<ptr target="https://doi.org/10.1038/s41589-019-0399-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1232" to="1240" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Palmitoylated acyl protein thioesterase APT2 deforms membranes to extract substrate acyl chains</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Audagnotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Marcaida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Mesquita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">U</forename><surname>Anwar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41589-021-00753-2</idno>
+		<ptr target="https://doi.org/10.1038/s41589-021-00753-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="438" to="447" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A STAT3 palmitoylation cycle promotes TH17 differentiation and colitis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Komaniecki</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-020-2799-2</idno>
+		<ptr target="https://doi.org/10.1038/s41586-020-2799-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page" from="434" to="439" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Dynamic palmitoylation links cytosol-membrane shuttling of acyl-protein thioesterase-1 and acyl-protein thioesterase-2 with that of proto-oncogene H-ras product and growth-associated protein-43</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Bagh</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M112.421073</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M112.421073" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="9112" to="9125" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Substrate recognition by the cell surface palmitoyl transferase DHHC5</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M V</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L J</forename><surname>Ashford</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1413627111</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1413627111" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="17534" to="17539" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Dynamic but discordant alterations in zDHHC5 expression and palmitoylation of its substrates in cardiac pathologies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boguslavskyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rankin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Burton</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2022.1023237</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2022.1023237" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022. 1023237</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Palmitoylation-dependent regulation of cardiomyocyte Rac1 signaling activity and minor effects on cardiac hypertrophy</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Teuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuwabara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Subramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kanisicak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbc.2023.105426</idno>
+		<ptr target="https://doi.org/10.1016/j.jbc.2023.105426" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<date type="published" when="2023">2023. 105426</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Global identification of S-palmitoylated proteins and detection of palmitoylating (DHHC) enzymes in heart</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">T</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Little</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yjmcc.2021.02.007</idno>
+		<ptr target="https://doi.org/10.1016/j.yjmcc.2021.02.007" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Cell Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Synthetic fluorogenic peptides reveal dynamic substrate specificity of depalmitoylases</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Amara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T</forename><surname>Foe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Onguka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bogyo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chembiol.2018.10.005</idno>
+		<ptr target="https://doi.org/10.1016/j.chembiol.2018.10.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="35" to="47" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Dynamic expression of palmitoylation regulators across human organ development and cancers based on bioinformatics</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/cimb44100306</idno>
+		<ptr target="https://doi.org/10.3390/cimb44100306" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Issues Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="4472" to="4489" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Palmitoyl acyltransferase Aph2 in cardiac function and the development of cardiomyopathy</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jia</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1518368112</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1518368112" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="15666" to="15671" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Massive palmitoylation-dependent endocytosis during reoxygenation of anoxic cardiac muscle</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hilgemann</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.01295</idno>
+		<ptr target="https://doi.org/10.7554/eLife.01295" />
+		<imprint>
+			<date type="published" when="1295">2013. 01295</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The inhibitory effect of phospholemman on the sodium pump requires its palmitoylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Tulloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M111.282145</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M111.282145" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="36020" to="36031" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the Na/Ca exchanger cytoplasmic loop controls its inactivation and internalization during stress signaling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Ashford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hilgemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.15-276493</idno>
+		<ptr target="https://doi.org/10.1096/fj.15-276493" />
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="4532" to="4543" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Dynamic palmitoylation of the sodium-calcium exchanger modulates its structure, affinity for lipid-ordered domains, and inhibition by XIP</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Plain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2020.107697</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep.2020.107697" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<date type="published" when="2020">2020. 107697</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">S-Palmitoylation of junctophilin-2 is critical for its role in tethering the sarcoplasmic reticulum to the plasma membrane</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K H</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Klymchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Murthy</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.RA118.006772</idno>
+		<ptr target="https://doi.org/10.1074/jbc.RA118.006772" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="page" from="13487" to="13501" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the pore-forming subunit of Ca(v)1.2 controls channel voltage sensitivity and calcium transients in cardiac myocytes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dobi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Da Silva Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Robertson-Gray</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.2207887120</idno>
+		<ptr target="https://doi.org/10.1073/pnas.2207887120" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<date type="published" when="2023">2023. 2207887120</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Cardiac sodium channel palmitoylation regulates channel availability and myocyte excitability with implications for arrhythmia generation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hudmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Cummins</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms12035</idno>
+		<ptr target="https://doi.org/10.1038/ncomms12035" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2016">2016. 12035</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Dynamic palmitoylation regulates trafficking of K channel interacting protein 2 (KChIP2) across multiple subcellular compartments in cardiac myocytes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Murthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Workman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sifa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bernas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yjmcc.2019.07.013</idno>
+		<ptr target="https://doi.org/10.1016/j.yjmcc.2019.07.013" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Cell Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the human beta 2-adrenergic receptor. Mutation of Cys341 in the carboxyl tail leads to an uncoupled nonpalmitoylated form of the receptor</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>O'dowd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hnatowich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Caron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lefkowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bouvier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0021-9258(18)83271-9</idno>
+		<ptr target="https://doi.org/10.1016/S0021-9258" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="page" from="83271" to="83279" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">S-Palmitoylation of a novel site in the beta2-adrenergic receptor associated with a novel intracellular itinerary</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Stamler</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M116.725762</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M116.725762" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page" from="20232" to="20246" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The palmitoylation state of the beta(2)-adrenergic receptor regulates the synergistic action of cyclic AMP-dependent protein kinase and beta-adrenergic receptor kinase involved in its phosphorylation and desensitization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moffett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rousseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lagace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bouvier</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1471-4159.2001.00005.x</idno>
+		<ptr target="https://doi.org/10.1046/j.1471-4159.2001.00005.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="269" to="279" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Palmitoylacyltransferase Zdhhc9 inactivation mitigates leukemogenic potential of oncogenic Nras</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/leu.2015.293</idno>
+		<ptr target="https://doi.org/10.1038/leu.2015.293" />
+	</analytic>
+	<monogr>
+		<title level="j">Leukemia</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1225" to="1228" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Genetic disruption of N-RasG12D palmitoylation perturbs hematopoiesis and prevents myeloid transformation in mice</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Zambetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Firestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Remsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Long</surname></persName>
+		</author>
+		<idno type="DOI">10.1182/blood.2019003530</idno>
+		<ptr target="https://doi.org/10.1182/blood.2019003530" />
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="1772" to="1782" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">OA) improves systolic function in dilated cardiomyopathy by attenuating myocardial fibrosis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Nettersheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mehrkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bokredenghel</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms22169052</idno>
+		<ptr target="https://doi.org/10.3390/ijms22169052" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>Nitro-oleic acid</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">S-palmitoylation and the regulation of NCX1</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hilgemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/19336950.2015.1099329</idno>
+		<ptr target="https://doi.org/10.1080/19336950.2015.1099329" />
+	</analytic>
+	<monogr>
+		<title level="j">Channels (Austin)</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="75" to="77" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Disrupted junctional membrane complexes and hyperactive ryanodine receptors after acute junctophilin knockdown in mice</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Van Oort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garbino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Dixit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Landstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gaur</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCULATIONAHA.110.006437</idno>
+		<ptr target="https://doi.org/10.1161/CIRCULATIONAHA.110.006437" />
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="979" to="988" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Critical roles of junctophilin-2 in T-tubule and excitation-contraction coupling maturation during postnatal development</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cvr/cvt180</idno>
+		<ptr target="https://doi.org/10.1093/cvr/cvt180" />
+	</analytic>
+	<monogr>
+		<title level="j">Cardiovasc. Res</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="54" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Overexpression of junctophilin-2 does not enhance baseline function but attenuates heart failure development after cardiac stress</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Iyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kutschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1412729111</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1412729111" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="12240" to="12245" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Microtubule-mediated defects in junctophilin-2 trafficking contribute to myocyte transverse-tubule remodeling and Ca 2+ handling dysfunction in heart failure</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCULATIONAHA.113.008452</idno>
+		<ptr target="https://doi.org/10.1161/CIRCULATIONAHA.113.008452" />
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="1742" to="1750" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cardiac decompensation and promiscuous prenylation of small GTPases in cardiomyocytes in response to local mevalonate pathway disruption</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Essandoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Auchus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brody</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/path.5837</idno>
+		<ptr target="https://doi.org/10.1002/path.5837" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Pathol</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page" from="249" to="252" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A palmitoylation switch mechanism regulates Rac1 function and membrane organization</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Navarro-Lerida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sanchez-Perales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rentero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Enrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/emboj.2011.446</idno>
+		<ptr target="https://doi.org/10.1038/emboj.2011.446" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="page" from="31" to="534" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">ABHD17 regulation of plasma membrane palmitoylation and N-Ras-dependent cancer growth</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Remsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Suciu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Zambetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Hanigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Firestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inguva</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41589-021-00785-8</idno>
+		<ptr target="https://doi.org/10.1038/s41589-021-00785-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="856" to="864" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Palmitoylation regulates intracellular trafficking of beta2 adrenergic receptor/arrestin/ phosphodiesterase 4D complexes in cardiomyocytes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hizon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Xiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0042658</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0042658" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2012">2012. 42658</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">DHHC5 mediates beta-adrenergic signaling in cardiomyocytes by targeting galpha proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Marsden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Akimzhanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boehning</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2019.08.018</idno>
+		<ptr target="https://doi.org/10.1016/j.bpj.2019.08.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="826" to="835" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Cyclic AMP-binding protein Epac1 acts as a metabolic sensor to promote cardiomyocyte lipotoxicity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laudette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sainte-Marie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cousin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bergonnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Belhabib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brun</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41419-021-04113-9</idno>
+		<ptr target="https://doi.org/10.1038/s41419-021-04113-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Regulation of NADPH oxidases: the role of Rac proteins</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Hordijk</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/01.RES.0000204727.46710.5e</idno>
+		<ptr target="https://doi.org/10.1161/01.RES.0000204727.46710.5e" />
+	</analytic>
+	<monogr>
+		<title level="j">Circ. Res</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="453" to="462" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">NADPH oxidases in cardiovascular disease: insights from in vivo models and clinical studies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sirker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Shah</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00395-011-0190-z</idno>
+		<ptr target="https://doi.org/10.1007/s00395-011-0190-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Basic Res. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="735" to="747" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The NOX family of ROS-generating NADPH oxidases: physiology and pathophysiology</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bedard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Krause</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00044.2005</idno>
+		<ptr target="https://doi.org/10.1152/physrev.00044.2005" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="245" to="313" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">NADPH oxidases and oxidase crosstalk in cardiovascular diseases: novel therapeutic targets</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Murugesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41569-019-0260-8</idno>
+		<ptr target="https://doi.org/10.1038/s41569-019-0260-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="170" to="194" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Cardiac-specific overexpression of RhoA results in sinus and atrioventricular nodal dysfunction and contractile failure</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Sah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Minamisawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename><surname>Dorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jr</surname></persName>
+		</author>
+		<idno type="DOI">10.1172/JCI6842</idno>
+		<ptr target="https://doi.org/10.1172/JCI6842" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="1627" to="1634" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Altered focal adhesion regulation correlates with cardiomyopathy in mice expressing constitutively active rac1</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klevitsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Hewett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Price</surname></persName>
+		</author>
+		<idno type="DOI">10.1172/JCI8497</idno>
+		<ptr target="https://doi.org/10.1172/JCI8497" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="875" to="886" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Requirement of Rac1 in the development of cardiac hypertrophy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Satoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ogita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takeshita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kwiatkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0510444103</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0510444103" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="7432" to="7437" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Targeting STING with covalent small-molecule inhibitors</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Haag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Gulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gibelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Decout</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-018-0287-8</idno>
+		<ptr target="https://doi.org/10.1038/s41586-018-0287-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">559</biblScope>
+			<biblScope unit="page" from="269" to="273" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Potential therapeutic value of the STING inhibitors</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules28073127</idno>
+		<ptr target="https://doi.org/10.3390/molecules28073127" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">3127</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">STING palmitoylation as a therapeutic target</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Schopfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Taguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Holm</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41423-019-0205-5</idno>
+		<ptr target="https://doi.org/10.1038/s41423-019-0205-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="236" to="241" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Nitro-fatty acids are formed in response to virus infection and are potent inhibitors of STING palmitoylation and signaling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Buchan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Salvatore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ogawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1806239115</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1806239115" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="7768" to="E7775" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Activation of STING requires palmitoylation at the Golgi</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Konno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Akiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waguri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms11932</idno>
+		<ptr target="https://doi.org/10.1038/ncomms11932" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2016">2016. 11932</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">4-Octyl itaconate restricts STING activation by blocking its palmitoylation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2023.113040</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep.2023.113040" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<date type="published" when="2023">2023. 113040</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Post-translational modifications of STING: a potential therapeutic target</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ren</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fimmu.2022.888147</idno>
+		<ptr target="https://doi.org/10.3389/fimmu.2022.888147" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The cGAS-STING pathway as a therapeutic target in inflammatory diseases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Decout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venkatraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ablasser</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41577-021-00524-z</idno>
+		<ptr target="https://doi.org/10.1038/s41577-021-00524-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="548" to="569" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms and cellular functions of cGAS-STING signalling</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Hopfner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hornung</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41580-020-0244-x</idno>
+		<ptr target="https://doi.org/10.1038/s41580-020-0244-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="501" to="521" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Protection from hypertension in mice by the Mediterranean diet is mediated by nitro fatty acid inhibition of soluble epoxide hydrolase</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rudyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Prysyazhna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kamynina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Morisseau</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1402965111</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1402965111" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="8167" to="8172" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Nitro-oleic acid inhibits angiotensin II-induced hypertension</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Villacorta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hamblin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCRESAHA.110.218404</idno>
+		<ptr target="https://doi.org/10.1161/CIRCRESAHA.110.218404" />
+	</analytic>
+	<monogr>
+		<title level="j">Circ Res</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="540" to="548" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">IRF3 and type I interferons fuel a fatal response to myocardial infarction</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Aguirre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Roh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Jr</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nm.4428</idno>
+		<ptr target="https://doi.org/10.1038/nm.4428" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1481" to="1487" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Recognition of self-DNA drives cardiac inflammation: why broken hearts fail</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Lavine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nm.4455</idno>
+		<ptr target="https://doi.org/10.1038/nm.4455" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1400" to="1401" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Targeting myocardial mitochondria-STING-polyamine axis prevents cardiac hypertrophy in chronic kidney disease</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xiong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jacbts.2022.03.006</idno>
+		<ptr target="https://doi.org/10.1016/j.jacbts.2022.03.006" />
+	</analytic>
+	<monogr>
+		<title level="j">JACC Basic Transl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="820" to="840" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Mitochondrial damage and activation of the cytosolic DNA sensor cGAS-STING pathway lead to cardiac pyroptosis and hypertrophy in diabetic cardiomyopathy mice</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41420-022-01046-w</idno>
+		<ptr target="https://doi.org/10.1038/s41420-022-01046-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Discov</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2022">2022. 258</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">GSDMD (gasdermin D) mediates pathological cardiac hypertrophy and generates a feed-forward amplification cascade via mitochondria-STING (stimulator of interferon genes) axis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhong</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/HYPERTENSIONAHA.122.20004</idno>
+		<ptr target="https://doi.org/10.1161/HYPERTENSIONAHA.122" />
+	</analytic>
+	<monogr>
+		<title level="j">Hypertension</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="2505" to="2518" />
+			<date type="published" when="2022">2022. 20004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">S-Palmitoylation sorts membrane cargo for anterograde transport in the Golgi</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ernst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Syed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bottanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hacke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2018.10.024</idno>
+		<ptr target="https://doi.org/10.1016/j.devcel.2018.10.024" />
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="479" to="493" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">The palmitoylation machinery is a spatially organizing system for peripheral membrane proteins</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gerauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vartak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pechlivanis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2010.04.007</idno>
+		<ptr target="https://doi.org/10.1016/j.cell.2010.04.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="458" to="471" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Acylation -a new means to control traffic through the Golgi</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ernst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Toomre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bogan</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fcell.2019.00109</idno>
+		<ptr target="https://doi.org/10.3389/fcell.2019.00109" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">The X-linked intellectual disability gene Zdhhc9 is essential for dendrite outgrowth and inhibitory synapse formation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Shimell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thouta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kuhlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tatarnikov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2019.10.065</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep.2019.10.065" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="2422" to="2437" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the synaptic vesicle fusion machinery</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Prescott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Gorleku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-4159.2009.06205.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1471-4159.2009.06205.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1135" to="1149" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Regulation of SNAP-25 trafficking and function by palmitoylation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Prescott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Gorleku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BST0380163</idno>
+		<ptr target="https://doi.org/10.1042/BST0380163" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="163" to="166" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Differential palmitoylation regulates intracellular patterning of SNAP25</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.079095</idno>
+		<ptr target="https://doi.org/10.1242/jcs.079095" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="1351" to="1360" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Huntingtin-interacting protein 14 is a type 1 diabetes candidate protein regulating insulin secretion and beta-cell apoptosis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Berchtold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Storling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ortis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bang-Berthelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bergholdt</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1104384108</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1104384108" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="681" to="E688" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Palmitoylation couples insulin hypersecretion with beta cell failure in diabetes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spyropoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmet.2022.12.012</idno>
+		<ptr target="https://doi.org/10.1016/j.cmet.2022.12.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="332" to="344" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Rab3 GTPase-activating protein regulates synaptic transmission and plasticity through the inactivation of Rab3</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sakane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishizaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka-Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kiyokage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Toida</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0600304103</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0600304103" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="10029" to="10034" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Biochemical characterization of Rab3-GTPase-activating protein reveals a mechanism similar to that of Ras-GAP</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clabecq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Darchen</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M003705200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M003705200" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="31786" to="31791" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Isolation and characterization of a GTPase activating protein specific for the Rab3 subfamily of small G proteins</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Imazumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takai</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.272.8.4655</idno>
+		<ptr target="https://doi.org/10.1074/jbc.272.8.4655" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="4655" to="4658" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Natriuretic peptides and cardiac troponins: markers of disease progression and risk in light chain cardiac amyloidosis</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Hendren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Grodin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11897-023-00616-y</idno>
+		<ptr target="https://doi.org/10.1007/s11897-023-00616-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Heart Fail Rep</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="350" to="357" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Cardiac endocrinology: heart-derived hormones in physiology and disease</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pei</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jacbts.2020.05.007</idno>
+		<ptr target="https://doi.org/10.1016/j.jacbts.2020.05.007" />
+	</analytic>
+	<monogr>
+		<title level="j">JACC Basic Transl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="949" to="960" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Neonatal atria and ventricles secrete atrial natriuretic factor via tissue-specific secretory pathways</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Bloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Seidman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Naftilan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Fallon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Seidman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0092-8674(86)90512-x</idno>
+		<ptr target="https://doi.org/10.1016/0092-8674(86)90512-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="695" to="702" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Cardiac natriuretic peptides</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Goetze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Bruneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>De Bold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>De Bold</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41569-020-0381-0</idno>
+		<ptr target="https://doi.org/10.1038/s41569-020-0381-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="698" to="717" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Dissociation of cardiac hypertrophy, myosin heavy chain isoform expression, and natriuretic peptide production in DOCA-salt rats</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yokota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Bruneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>De Bold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Piazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eid</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0895-7061(94)00210-3</idno>
+		<ptr target="https://doi.org/10.1016/0895-7061(94)00210-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hypertens</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="301" to="310" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Gene expression, processing, and secretion of natriuretic peptides: physiologic and diagnostic implications</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>De Bold</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.hfc.2006.08.005</idno>
+		<ptr target="https://doi.org/10.1016/j.hfc.2006.08.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Heart Fail. Clin</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="255" to="268" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Evidence for load-dependent and load-independent determinants of cardiac natriuretic peptide production</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Linz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stevenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Bruneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Kuroski De Bold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/01.cir.93.11.2059</idno>
+		<ptr target="https://doi.org/10.1161/01.cir.93.11.2059" />
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="2059" to="2067" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">New insights into the mechanism of the elevation of plasma brain natriuretic polypeptide levels in patients with left ventricular hypertrophy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Katoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1294" to="1300" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">The endocrine function of the heart</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Mcgrath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>De Bold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>De Bold</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tem.2005.10.007</idno>
+		<ptr target="https://doi.org/10.1016/j.tem.2005.10.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="469" to="477" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Specific granules in atrial muscle cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Palade</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.23.1.151</idno>
+		<ptr target="https://doi.org/10.1083/jcb.23.1.151" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="151" to="172" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">A rapid and potent natriuretic response to intravenous injection of atrial myocardial extract in rats</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>De Bold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Borenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Veress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sonnenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0024-3205(81)90370-2</idno>
+		<ptr target="https://doi.org/10.1016/0024-3205(81)90370-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="89" to="94" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Angiotensin-neprilysin inhibition in acute decompensated heart failure</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Velazquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Morrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Devore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Ambrosy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mccague</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMoa1812851</idno>
+		<ptr target="https://doi.org/10.1056/NEJMoa1812851" />
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="page" from="380" to="539" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Angiotensin-neprilysin inhibition versus enalapril in heart failure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mcmurray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Packer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lefkowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Rizkala</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMoa1409077</idno>
+		<ptr target="https://doi.org/10.1056/NEJMoa1409077" />
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page" from="993" to="1004" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Examining the underappreciated role of S-acylated proteins as critical regulators of phagocytosis and phagosome maturation in macrophages</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mekhail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Fairn</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fimmu.2021.659533</idno>
+		<ptr target="https://doi.org/10.3389/fimmu.2021.659533" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">659533</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Inhibition of the receptor-mediated endocytosis of diferric transferrin is associated with the covalent modification of the transferrin receptor with palmitic acid</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Girones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0021-9258(17)46270-3</idno>
+		<ptr target="https://doi.org/10.1016/S0021-9258(17)46270-3" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="16644" to="16655" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">CD36 facilitates fatty acid uptake by dynamic palmitoylation-regulated endocytosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-18565-8</idno>
+		<ptr target="https://doi.org/10.1038/s41467-020-18565-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Ankyrin-G palmitoylation and betaII-spectrin binding to phosphoinositide lipids drive lateral membrane assembly</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Abdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bennett</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201401016</idno>
+		<ptr target="https://doi.org/10.1083/jcb.201401016" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="page" from="273" to="288" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Regulation of T cell function by protein S-acylation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boehning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Akimzhanov</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2022.1040968</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2022.1040968" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022. 1040968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Activity-regulated trafficking of the palmitoyl-acyl transferase DHHC5</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Brigidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Santyr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shimell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jovellar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Bamji</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms9200</idno>
+		<ptr target="https://doi.org/10.1038/ncomms9200" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

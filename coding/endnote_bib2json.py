@@ -1,9 +1,9 @@
 import json
 import os
-output_path = r"D:\SYSU\RenLab\Lab\PTM\palmitoylation_literature\palmitoylation_bib_json"
-with open(r"C:\Users\china-2\Downloads\palmitoylation2.txt",encoding='utf-8') as f:
+output_path = r"files\literature\palmitoylation_bib_json"
+with open(r"files\literature\endnote\palmitoylation.txt",encoding='utf-8') as f:
     lines = f.readlines()
-    i = 165
+    i = 0
     for line in lines:
         i+=1
         doi = line.split("$$$")[0]

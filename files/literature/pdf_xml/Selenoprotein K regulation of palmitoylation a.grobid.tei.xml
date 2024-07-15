@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Selenoprotein K regulation of palmitoylation and calpain cleavage of ASAP2 is required for efficient FcgR-mediated phagocytosis</title>
+				<funder ref="#_yCqJkAV #_7jSsCEm #_ahTeyBW">
+					<orgName type="full">NIH National Institute of General Medical Sciences</orgName>
+				</funder>
+				<funder ref="#_Ypre9yJ">
+					<orgName type="full">U.S. National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_TbZgQR5">
+					<orgName type="full">NIH National Institute on Minority Health and Health Disparities</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-06-04">04 June 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Norton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>Hawaii</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gregory</forename><forename type="middle">J</forename><surname>Fredericks</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>Hawaii</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhi</forename><surname>Huang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Biotechnology</orgName>
+								<orgName type="department" key="dep2">College of Life Science and Technology</orgName>
+								<orgName type="institution">Jinan University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">D</forename><surname>Fay</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>Hawaii</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fukun</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>Hawaii</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Peter</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+							<email>peterrh@hawaii.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>Hawaii</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<addrLine>651 Ilalo Street</addrLine>
+									<postCode>96813</postCode>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Selenoprotein K regulation of palmitoylation and calpain cleavage of ASAP2 is required for efficient FcgR-mediated phagocytosis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-06-04">04 June 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B6672FA7FCA17E6AD5E0FA96BFFCF160</idno>
+					<idno type="DOI">10.1189/jlb.2A0316-156RR</idno>
+					<note type="submission">RECEIVED MARCH 28, 2016; REVISED AUGUST 7, 2016; ACCEPTED AUGUST 10, 2016.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-04T08:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Effective activation of macrophages through phagocytic Fcg receptors (FcgR) has been shown to require selenoprotein K (Selk). We set out to determine whether the FcgR-mediated uptake process itself also requires Selk and potential underlying mechanisms. Macrophages from Selk knockout (KO) mice were less efficient compared with wild-type (WT) controls in engulfing IgGcoated fluorescent beads. Using LC-MS/MS to screen for Selk-binding partners involved in FcgR-mediated phagocytosis, we identified Arf-GAP with SH3 domain, ANK repeat, and PH domain-containing protein 2 (ASAP2). Coimmunoprecipitation assays confirmed interactions between Selk and ASAP2. Selk was required for ASAP2 to be cleaved by calpain-2 within the Bin/ Amphiphysin/Rvs (BAR) domain of ASAP2. BAR domains promote membrane association, which was consistent with our data showing that Selk deficiency led to retention of ASAP2 within the phagocytic cup. Because Selk was recently identified as a cofactor for the palmitoylation of certain proteins, we investigated whether ASAP2 was palmitoylated and whether this was related to its cleavage by calpain-2. Acyl/biotin exchange assays and MALDI-TOF analysis showed that cysteine-86 in ASAP2 was palmitoylated in WT, but to a much lesser extent in KO, mouse macrophages. Inhibitors of either palmitoylation or calpain-2 cleavage and rescue experiments with different versions of Selk demonstrated that Selk-dependent palmitoylation of ASAP2 leads to cleavage by calpain-2 within the BAR domain, which releases this protein from the maturing phagocytic cup. Overall, these findings identify ASAP2 as a new target of Selk-dependent palmitoylation and reveal a new mechanism regulating the efficiency of FcgR-mediated phagocytosis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The selenoprotein family is a diverse group of proteins that share the common feature of containing the unique amino acid Sec <ref type="bibr" target="#b0">[1]</ref>. Twenty-five selenoproteins are found in humans, which exhibit a wide range of tissue distribution and perform a variety of biologic functions <ref type="bibr" target="#b1">[2]</ref>. One of these family members, Selk, is enriched in immune tissues and its optimal expression depends on adequate levels of dietary selenium in several different types of leukocytes <ref type="bibr" target="#b2">[3]</ref>. The generation of Selk KO mice revealed that this selenoprotein is required for effective calcium flux during the activation of immune cells, and Selkdeficient immune cells were impaired in their capacity to proliferate, migrate, and secrete cytokines <ref type="bibr" target="#b3">[4]</ref>. Taken together, these findings suggest that Selk may represent a key mechanism by which dietary selenium levels affect immune cell function.</p><p>One aspect of innate immunity for which selenium is important is the phagocytosis and killing of pathogens <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Ab-coated pathogens and particles are engulfed through the FcgR system present on phagocytes, such as macrophages, dendritic cells, and neutrophils <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. Stimulation of macrophages through FcgR not only promotes uptake but also leads to the secretion of mediators for initiating immune responses. Our previous work <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b8">9]</ref> showed that Selk was required for macrophage activation through FcgR and mediator secretion, but it was not determined whether the uptake process also required Selk. Selk expression is regulated by levels of selenium intake, but this protein is also regulated in macrophages through proteolytic modulation by the calpain/calpastatin system <ref type="bibr" target="#b9">[10]</ref>. Thus, there appears to be a particularly important role for Selk in affecting immune cell function and gaining insights into the underlying mechanisms through which Selk regulates functions such as phagocytosis requires further investigation.</p><p>A breakthrough in understanding the molecular actions of Selk came in a recent study <ref type="bibr" target="#b10">[11]</ref> showing that Selk binds to the enzyme DHHC6 to catalyze protein palmitoylation in the ER membrane. Palmitoylation is a posttranslational modification involving the reversible addition of the 16-carbon fatty acid palmitate to cysteine residues through a thioester bond <ref type="bibr" target="#b11">[12]</ref>. This modification can facilitate membrane association of proteins or stable expression of transmembrane proteins. Two proteins found to be palmitoylated by the DHHC/Selk complex in macrophages, thus far, include the IP3R and the oxidized low-density lipoprotein receptor CD36 <ref type="bibr" target="#b12">[13]</ref>. Because other proteins are likely palmitoylated by the DHHC6/Selk complex and because Selk may be important for FcgR-mediated phagocytosis, we set out to find proteins involved in this process that require Selk for their palmitoylation and their function. In the current study, we identify Arf-GAP with SH3 domain, ANK repeat, and PH domain-containing protein 2 (ASAP2) as a protein that requires Selk for palmitoylation. ASAP2 has been linked to FcgR-mediated phagocytosis, with a key role in promoting focal accumulation of F-actin <ref type="bibr" target="#b13">[14]</ref>. This scaffolding protein was found to associate with structural and adapter proteins, such as paxillin, thereby promoting kinase-dependent cytoskeletal rearrangement in macrophages and other cell types <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. Our new data show that ASAP2 localizes to the phagocytic cup in macrophages and that Selk-dependent palmitoylation on a specific cysteine residue of ASAP2 leads to its proteolytic modulation. This cleavage event allows ASAP2 to leave the phagocytic cup and is required for efficient uptake of immune complexes by macrophages, highlighting a novel pathway regulating phagocytosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mice and cells</head><p>C57BL/6J WT controls were generated from mice originally purchased from The Jackson Laboratory (Bar Harbor, ME, USA). Generation of Selk KO mice was previously described <ref type="bibr" target="#b3">[4]</ref>. All animal protocols were approved by the University of Hawaii Institutional Animal Care and Use Committee. For BMDM, marrow was flushed from femurs and tibiae with HBSS, using a syringe with a 25-gauge needle, and cell suspensions were then passed through a 40-mm pore cell strainer (BD Falcon; BD Biosciences, Bedford, MA, USA) to remove tissue debris. The cells were plated in DMEM containing 10% FCS, 1% penicillin/streptomycin/L-glutamine (Thermo Fisher Scientific Life Sciences, Waltham, MA, USA), and 10% L929-conditioned medium and used on d 6 of culture. The RAW264.7 and HEK293 cell lines were purchased from ATCC (Manassas, VA, USA) and were maintained in the same medium as the BMDM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abs and reagents</head><p>Abs for Western blots included anti-Selk (1:100 dilution; Epigenomics, Berlin, Germany), anti-calpain-1 (1:1000 dilution; EMD Millipore, Billerica, MA, USA), anti-FLAG (1:1000; Sigma-Aldrich, St. Louis, MO, USA), anti-V5, anti-calpain-2, anti-GAPDH, and anti-ASAP2 (1:500, 1:1000, 1:5000, 1:500 dilutions, respectively; all from Santa Cruz Biotechnology, Santa Cruz, CA, USA). Secondary Abs were purchased from Li-Cor Biosciences (Lincoln, NE, USA). IgG-coated, polystyrene, fluorescent beads were constructed, as previously described <ref type="bibr" target="#b8">[9]</ref>. Inhibitors were purchased against calpain-1 (Santa Cruz Biotechnology), calpain-2 (EMD Millipore), and both isoforms of calpain (Sigma-Aldrich), and recombinant calpain-1 and -2 were purchased from Millipore (Calbiochem). Conditions for calpain experiments have been described <ref type="bibr" target="#b9">[10]</ref>. To inhibit protein palmitoylation, 2-bromopalmitate (Sigma-Aldrich) was used at 50 mM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasmid constructs and transfections</head><p>The cDNA-encoding, full-length mouse SelK was synthesized by GenScript (Piscataway Township, NJ, USA) and subcloned into the expression plasmid pcDNA3.1 + (Thermo Fisher Scientific Life Sciences), as previously described <ref type="bibr" target="#b9">[10]</ref>. We then subcloned Selk from this plasmid into a V5-tagged expression vector (Thermo Fisher Scientific Life Sciences). In addition, EGFP-Selk full-length and EGFP-Selk-DSH3BD plasmids have been previously described <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. A pCMV6 plasmid with a transgene encoding FLAG-tagged ASAP2 or RFP-ASAP2 (OriGene, Rockville, MD, USA) corresponded to NM_001098168. For introducing the Cys-86 to Ala-86 mutation, inverse PCR was used as previously described <ref type="bibr" target="#b9">[10]</ref>. Expression plasmids were transfected into BMDM using a Neon transfection system (Thermo Fisher Scientific Life Sciences) and 1 mg pDNA/10 6 cells, or were transfected into RAW264.7 or HEK293 cells using Lipofectamine 3000 (Thermo Fisher Scientific Life Sciences).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoprecipitation, acyl-biotin exchange, and Western blots</head><p>Magnetic Protein G-coupled Dynabeads (50 ml; Thermo Fisher Scientific Life Sciences) were incubated with 2 mg Abs for precipitation of proteins, as recommended by manufacturer. Abs were cross-linked to Dynabeads using 5-mM bis(sulfosuccinimidyl)suberate (Thermo Fisher Scientific Life Sciences). Proteins were eluted by boiling for 5 min, followed by centrifugation, and SDS-PAGE gels (Bio-Rad Laboratories, Hercules, CA, USA) were used to separate eluted proteins. In some cases, the proteins were transferred to polyvinylidene difluoride, and blocking was performed with low-fluorescence blocking solution (Li-Cor Biosciences), per manufacturer's instructions for Western blotting. In some cases, SDS-PAGE was stained with Simply Blue (Thermo Fisher Scientific Life Sciences), per manufacturer's instructions. For peptide identification in SDS-PAGE, gel slices were sent to Applied Biomics (Hayward, CA, USA) for LC-MS/MS analyses. SDS-PAGE and Western blotting methods were followed, as described previously <ref type="bibr" target="#b12">[13]</ref>, and bands were visualized using a Li-Cor Odyssey. Coimmunoprecipitation and experimental methods for calpain cleavage and inhibition assays were previously described <ref type="bibr" target="#b9">[10]</ref>. Acyl-biotin exchange assays were performed, as previously described <ref type="bibr" target="#b10">[11]</ref>, with modifications. In brief, pDNA encoding FLAG-ASAP2 was transfected into HEK293 cells for 24 h, and lysates were treated or not treated with 1 M HAM for 1 h. These solutions were incubated with anti-ASAP2 Dynabeads to intraperitoneal FLAG-ASAP2, and biotin exchange was performed to covalently link biotin to cysteine residues that were previously palmitoylated. The presence of biotin was detected using IRDye 800CW (1:1000; Li-Cor Biosciences), and FLAG-ASAP2 pulled down confirmed using anti-ASAP2 and Li-Cor Biosciences secondary Abs. The bands were visualized on an Odyssey scanner (Li-Cor Biosciences). MALDI-TOF was performed by Applied Biomics, as described previously <ref type="bibr" target="#b10">[11]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phagocytosis assays and immunofluorescence</head><p>BMDMs were plated on 10-15-mm 2 glass coverslips in 24-well plates with 0.5 3 10 6 cells/well in 10% L929-conditioned medium. IgG-coated fluorescent beads (Thermo Fisher Scientific Life Sciences) were added at a ratio of 10:1 (beads/cells) for 20 min. BMDMs were washed with PBS and fixed with 4% paraformaldehyde. Beads were visualized by fluorescence microscopy using a Zeiss Axiovert 200M attached to a Zeiss LSM 5 Pascal imaging system (Carl Zeiss Microscopy, Thornwood, NY, USA). Internalization was confirmed using z stacks, as described previously <ref type="bibr" target="#b3">[4]</ref>. Beads per cell, as well as number of cells positive for at least 1 bead, were enumerated, and both values were multiplied to generate the phagocytic index. For imaging endogenous ASAP2 localization, cells were prepared and fixed as described above, then permeabilized with 0.02% Triton X-100. The cells were blocked with 0.2% gelatin for 1 h and then incubated with Fc Block (BD Pharmingen; BD Biosciences), followed by anti-ASAP2 (1:500 final dilution) on ice for 1 h. The cells were washed with PBS, and secondary Abs were added at a 1:1000 final dilution for 1 h. After washing, the coverslips were mounted onto glass slides for confocal imaging using the Zeiss imaging system described above. Each bead was identified by transmitted light, and the fluorescence intensity for the phagocytic cup was measured using ImageJ (National Institutes of Health, Bethesda, MD, USA). Data were collected for .50 cells that had phagocytosed 1-5 beads. For rescue experiments, Selk KO BMDMs were transfected with pDNA encoding RFP-ASAP2, together with either a control GFP vector, with a plasmid encoding GFP-tagged WT Selk or a GFP-tagged Selk with the SH3binding domain deleted (DSH3BD). After 18 h, IgG-coated beads were added (10 beads/cell) for 20 min, cells were washed and fixed, and coverslips were mounted on slides. ImageJ software was used to calculate the corrected total cell fluorescence with corrections for background fluorescence. The ImageJ plug-in RGB Profile Plot was used to measure total ASAP2 fluorescence of each cell and ASAP2 in phagocytic cups for a minimum of 30 cells/group. Relative levels of ASAP2 in cups were calculated as total/cups and expressed as mean fluorescence in arbitrary units.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses</head><p>Comparison of means was carried out using an unpaired Student's t test and Prism version 4.0 software (GraphPad Software, La Jolla, CA, USA). In assays involving 3 groups, such as the rescue experiments, a 1-way ANOVA was used to determine effect of the rescue plasmid used on ASAP2 in the phagocytic cup, with Tukey posttest used to compare the means of each group. All comparisons were considered significant at P , 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Online supplemental material</head><p>Supplemental Fig. <ref type="figure" target="#fig_0">1A</ref> shows that WT, full-length Selk, and Selk with a deleted SH3 binding domain (DSH3BD-Selk) were able to interact with ASAP2, suggesting that SH3-SH3BD interactions are probably not involved. Supplemental Fig. <ref type="figure" target="#fig_0">1B</ref> shows that high selenium (75 nM) compared with low selenium (25 nM) as selenite in the culture medium led to higher levels of Selk in RAW264.7 cells but did not increase Selk that coimmunoprecipitated with ASAP2.  were transfected with plasmids, encoding either V5-tagged Selk or GFP as a control. Anti-V5 coated magnetic beads were incubated with lysates from both sets of cells, and immunoprecipitated V5-Selk was detected by Western blotting using anti-Selk in cells transfected with V5-Selk-encoding plasmid but not GFP-encoding plasmid. (B) The lysates described above (40 mg total protein) were separated by SDS-PAGE and stained with Coomassie Brilliant Blue, and gels slices were excised for each lane corresponding to ;50-120 kDa. Proteins were eluted and digested with trypsin to generate peptides that were then analyzed by LC-MS/MS for amino acid sequence. One peptide present in V5-Selk lysates, which was absent from GFP lysates, was EIISEVQR, which corresponded to ASAP2. co-i.p., coimmunoprecipitation. (C) Interactions between Selk and ASAP2 were investigated using coimmunoprecipitation. RAW264.7 cells (2 3 10 6 ) were transfected with a plasmid encoding FLAG-ASAP2 (left panel) or V5-Selk (right panel) for 24 h, and then, IgG-coated beads were fed to these cells for 30 min, followed by lysis. Immunoprecipitation of the overexpressed protein was confirmed in each case, along with coimmunoprecipitation of the endogenous Selk (left panel) or ASAP2 (right panel). Beads with no bound Ab were used as negative controls.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selk is required for efficient FcgRmediated phagocytosis</head><p>Previous work <ref type="bibr" target="#b8">[9]</ref> showed that Selk-deficient macrophages exhibited lower levels of cytokine secretion upon FcgR engagement compared with controls, but it was not determined whether efficient uptake through these receptors required Selk. Thus, assays were performed to compare phagocytosis of IgG-coated beads by Selk KO macrophages to WT controls. Results showed that Selk deficiency led to decreased uptake of IgG-coated beads (Fig. <ref type="figure" target="#fig_0">1</ref>). Importantly, FcgR-mediated uptake was specifically affected by Selk deficiency because no differences were found in the uptake of control beads that were not coated by IgG. We next set out to find the mechanisms by which Selk may regulate FcgRmediated uptake.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A screening of binding partners for Selk in macrophages identifies ASAP2</head><p>To identify potential Selk-interacting proteins relevant to FcgR-mediated phagocytosis, we transfected mouse macrophage RAW 264.7 cells with a plasmid encoding V5-tagged Selk or GFP as a negative control. Lysates from both sets of cells were subjected to immunoprecipitation with anti-V5-coated beads, and proteins were eluted from the beads. Western blot showed that V5-Selk was immunoprecipitated from lysates of transfected cells but not in the negative-control GFP lysates (Fig. <ref type="figure" target="#fig_1">2A</ref>). The coimmunoprecipitated proteins were then subjected to SDS-PAGE, followed by Coomassie Brilliant Blue staining (Fig. <ref type="figure" target="#fig_1">2B</ref>). Gel slices extracted from the V5-Selk immunoprecipitate and the negative control lanes (;50-120 kDa) were analyzed by LC-MS/MS for potential binding partners. There were peptides from only 2 proteins identified in the V5-Selk lane that were not present in the GFP-control lane, and 1 of those peptides corresponded to a protein involved in FcgR-mediated phagocytosis: the multidomain protein ASAP2 (NCBI: NP_001091637) <ref type="bibr" target="#b13">[14]</ref>. Thus, we focused on ASAP2 as a potential binding partner for Selk. Coimmunoprecipitation experiments were performed to confirm the interaction between Selk and ASAP2, and pulling down either protein clearly coimmunoprecipitated the other (Fig. <ref type="figure" target="#fig_1">2C</ref>). Interestingly, the interactions between ASAP2 and Selk were not affected by changes in bioavailable selenium in the culture medium or deletion of the SH3-binding domain in Selk (Supplemental Fig. <ref type="figure" target="#fig_0">1A</ref> and<ref type="figure">B</ref>).</p><p>Selk deficiency leads to retention of ASAP2 in the phagocytic cup ASAP2 (aka PAG3 or Pyk2) is a multidomain protein that exhibits GAP activity for ARF6 and localizes with paxillin in the cell periphery <ref type="bibr" target="#b16">[17]</ref>, and during the phagocytosis of IgG-opsonized beads in mouse P388D1 macrophage cells, ASAP2 localized with ARF6 and F-actin at phagocytic cups formed beneath the beads <ref type="bibr" target="#b17">[18]</ref>. Because movement to and from the phagocytic cup is crucial for ASAP2 function, we investigated how a Selk deficiency may affect localization of ASAP2 during FcgR-mediated phagocytosis. Immunofluorescence microscopy was used to visualize ASAP2 at different times after uptake of IgG-coated beads by Selk KO BMDMs and WT controls. At the stage of a mature phagocytic cup (20 min), there was a striking difference, with visibly enriched ASAP2 present in KO cells compared with diffused ASAP2 in WT controls (Fig. <ref type="figure" target="#fig_2">3A</ref>). Using ImageJ to quantify the ASAP2 signal, we found that Selk deficiency did not affect the ability of ASAP2 to localize to phagocytic cups but led to prolonged retention within the cups (Fig. <ref type="figure" target="#fig_2">3B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ASAP2 is cleaved by calpain-2 in a Selkdependent manner</head><p>The retention of ASAP2 in the phagocytic cup suggests that Selk may be required for dissociation of ASAP2 from the mature cup. ASAP2 contains a BAR domain at its N terminus, which is a module that binds membranes and promotes membrane sculpting <ref type="bibr" target="#b18">[19]</ref>. Because another BAR domain-containing protein involved in FcgR-mediated phagocytosis-amphiphysin-is cleaved by calpain-2 as a mechanism for dissociating from membranes <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>, we explored the possibility that ASAP2 is not properly cleaved by calpain-2 under Selk-deficient conditions. We initially compared WT and Selk KO BMDMs for phosphorylated ASAP using immunoprecipitation and found no differences, but we found that, in Selk KO cells, there were 2 bands at 112 and 97 kDa, whereas WT cells predominantly had more of the smaller form of ASAP2 at 97 kDa (Fig. <ref type="figure" target="#fig_3">4A</ref>). To investigate the role of calpains, WT or Selk KO BMDMs were transfected with a plasmid encoding ASAP2 with a C-terminal FLAG tag, and detection of cleaved or uncleaved proteins was performed by Western blot. In WT BMDMs, 2 bands were again detected, and the lower band corresponding to the smaller ASAP2 product was eliminated when the cells were treated with a calpain inhibitor (Fig. <ref type="figure" target="#fig_3">4B</ref>). In Selk KO BMDMs, only the higher band corresponding to full-length ASAP2 protein was detected, and the calpain inhibitor had no effect, suggesting that Selk deficiency prevents calpain cleavage of ASAP2. The difference in size between the full-length and the cleaved form of ASAP2 was ;15 kDa. In addition, the C-terminal FLAG was retained on cleaved ASAP2, suggesting that the ;15 kDa calpain cleaved the portion of ASAP2 that resides toward the N terminus. In fact, a cleavage site that resides at ;15 kDa into the N-terminal side of ASAP2 corresponds to a cleavage site within the BAR domain.</p><p>We performed 2 different experiments to determine which of the 2 main isoforms of calpain, calpain-1 or -2, was responsible for ASAP2 cleavage. First, specific inhibitors for calpain-1 or -2 were added to WT BMDM, and it was found that the calpain-2 inhibitor, but not the calpain-1 inhibitor, decreased levels of the cleaved version of ASAP2 (Fig. <ref type="figure" target="#fig_3">4C</ref>). In the second experiment, FLAG-tagged ASAP2 was immunoprecipitated with anti-FLAG beads, and recombinant calpain-1 or -2 was added to the beads. We found that both isoforms were capable of cleaving ASAP2 and that calpain-2 was slightly more efficient (Fig. <ref type="figure" target="#fig_3">4D</ref>). Together, these data suggest that both calpain-1 and -2 are capable of cleaving ASAP2, but in macrophages, calpain-2 is the predominant isoform responsible for cleavage.</p><p>To determine whether calpain inhibition has the same effect as Selk deficiency on ASAP2 retention in the phagocytic cup, the ASAP2 localization in the phagocytic cup was imaged during Fcgmediated uptake of IgG-coated fluorescent beads, as described above, was repeated in BMDMs pretreated with the calpain-2 inhibitor or the vehicle control. Fluorescence microscopy showed that the effect of the calpain-2 inhibitor treatment was similar to that found with Selk deficiency because ASAP2 was retained in the mature phagocytic cup (Fig. <ref type="figure" target="#fig_3">4E-F</ref>). Taken together, these data suggest that ASAP2 in the phagocytic cup is cleaved by calpain-2 to disrupt the membrane-associated BAR region of ASAP2, and this releases the smaller form of ASAP2, and the question we next addressed was how Selk may be involved in regulating that process. were transfected with pDNA-expressing FLAG-ASAP2 for 5 h, followed by incubation with IgG-coated beads for 20 min. Cells were lysed, anti-FLAG beads were used to immunoprecipitate FLAG-ASAP2, and Western blot performed for total ASAP2 and p-Tyr. Although levels of p-Tyr were similar between WT and KO BMDMs, 2 bands were detected in KO BMDM, whereas 1 band was predominant in WT BMDM. (B) WT and Selk KO BMDMs (2 3 10 6 each) were treated with 20 ng/ml pan calpain inhibitor or DMSO as a vehicle control for 1 h before addition of IgG-coated beads. IgG-coated beads were added for 20 min instead of 30 min in an attempt to detect more full-length ASAP2-FLAG; cells were lysed and lysates were analyzed by Western blot. Vehicle control, treated WT cells, had 2 bands at 112 and 97 kDa, and the latter was eliminated by calpain inhibition. In Selk KO BMDM, only the higher band was detected, and no effect was observed with the calpain inhibitor. Note that WT cells had higher levels of the upper ASAP2 band compared with those in Fig. <ref type="figure" target="#fig_3">4A</ref>. This is due to enrichment in the lower band during immunoprecipitation, and no immunoprecipitation was performed for the inhibitor experiments in Fig. <ref type="figure" target="#fig_3">4B</ref>. (C) ASAP2-FLAG was overexpressed in WT BMDM, followed by treatment with 3 different calpain inhibitors (20 ng/ml) for 1 h before 20 min of incubation with IgG-coated beads. Cells (2 3 10 6 ) were lysed, and Western blot results showed that calpain-2 and pan calpain inhibitors were effective at reducing levels of the small-size ASAP2. GAPDH was used as the loading control for the above Western blots. (D) FLAG-ASAP2 was overexpressed in RAW264.7 mouse macrophages, and 100 mg total protein was used to immunoprecipitate with anti-FLAG beads and was incubated with DMSO control or 1 mg recombinant calpain-1 or -2 at 37°C for 1 h. Both isoforms of calpain were able to cleave the full-length ASAP2, resulting in lower levels of the upper band. (E-F) WT BMDMs were treated with either the DMSO control or the calpain-2 inhibitor (20 ng/ml), followed by 20 min incubation with IgG-coated beads (10 beads/cell). Representative immunofluorescence microscopy images show levels of endogenous ASAP2 in the phagocytic cups (arrows) relative to whole cell during FcgR-mediated uptake of IgG-coated beads, and methods for quantifying those levels were used, as described for Fig. <ref type="figure" target="#fig_2">3</ref>. Results included .50 cells per condition and are expressed as means 6 SEM. *P , 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation of ASAP2 is required for calpain cleavage</head><p>Because Selk acts as a cofactor for the palmitoylation of certain proteins, we investigated whether ASAP2 was palmitoylated and whether that represented a mechanism by which Selk regulates calpain-2 cleavage of ASAP2. Using a standard acyl/biotin exchange assay to identify palmitoylated proteins <ref type="bibr" target="#b21">[22]</ref>, we found that ASAP2 is palmitoylated when overexpressed in HEK293 cells (Fig. <ref type="figure">5A</ref>). The incorporation of biotin into the full-length, but not the cleaved, form of ASAP2 is consistent with the notion that the palmitoylated cysteine residue is located within the 15-kDa region released after calpain cleavage. To identify the palmitoylation site in ASAP2, the band corresponding to ASAP2 was excised from a Coomassie Brilliant Blue-stained SDS-PAGE gel and analyzed by MALDI-TOF MS for cysteine residues covalently bound to a palmitoyl group via a thioester bond. Results identified one peptide-FGGNCVCRDDPDLGSAF-with a palmitoylated cysteine residue, as indicated with the bold underline. This demonstrates that Cys-86 is a palmitoylated amino acid in ASAP2 and is within the BAR domain (Fig. <ref type="figure">5B</ref>). Because other proteins require palmitoylation for calpain cleavage <ref type="bibr" target="#b22">[23]</ref>, we explored the possibility that ASAP2 requires Selk for palmitoylation leading to calpain cleavage for proper dissociation of ASAP2 from membranes enveloping the phagocytic cup. Acyl/ biotin exchange experiments showed that palmitoylation occurs in WT, but to a lesser extent in Selk KO, BMDMs (Fig. <ref type="figure">5C</ref>). Consistent with these results, inhibition of palmitoylation using 2-bromopalmitic acid in BMDMs for a short period (8 h) decreased the levels of the cleaved form of ASAP2 (Fig. <ref type="figure">5D-E</ref>). These data suggest that Selk promotes palmitoylation and that this has an important role in calpain cleavage of ASAP2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation of ASAP2 is required for its release from the phagocytic cup and efficient phagocytosis</head><p>Selk requires its SH3 binding domain to bind to the DHHC6 enzyme and carry out palmitoylation <ref type="bibr" target="#b10">[11]</ref>, so we performed a rescue experiment in which GFP-Selk (the positive control) and a version lacking the SH3-binding domain (GFP-Selk-DSH3BD) were expressed in Selk KO BMDMs, and the effects on ASAP2 localization in the phagocytic cup were analyzed. GFP alone served as a negative control (no rescue). Results showed that GFP-Selk lowered the amount of ASAP2 in the phagocytic cup compared with GFP alone (Fig. <ref type="figure" target="#fig_4">6</ref>). It is noteworthy that expression of GFP-Selk-DSH3 did not rescue the effects of Selk KO on retention of ASAP2 in the phagocytic cup, further supporting the notion that the palmitoylation function of Selk is required for proper localization of ASAP2 during phagocytosis. We next overexpressed WT ASAP2 or ASAP2 containing a Cys-86 to Ala-86 mutation (C86→A) in RAW264.7 cells to determine whether an abundance of this protein, which was mutated at the palmitoylation site, would affect phagocytosis of IgGcoated beads. Results showed a lower phagocytic capacity through the FcgR in cells overexpressing the C86→A ASAP2 compared with WT ASAP2, suggesting this palmitoylation site is functionally important (Fig. <ref type="figure" target="#fig_5">7</ref>). A schematic diagram is presented in Fig. <ref type="figure">8</ref> summarizing the role of palmitoylation and calpain cleavage of ASAP2 during immune complex phagocytosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The role of Selk as a cofactor for the palmitoylation of proteins in cells is important because low dietary selenium levels can affect Figure <ref type="figure">5</ref>. ASAP2 is palmitoylated, and Selk has an important role in that modification. (A) An Acyl/ biotin exchange assay was conducted in which FLAG-ASAP2 was overexpressed in HEK293 cells, and lysis was performed in the presence of N-ethylmaleimide to cap cysteine residues on all proteins. Two aliquots of this lysate were generated: 1 was treated with HAM to uncap the cysteine residues that had palmitoyl groups attached, and 1 aliquot with no HAM added was used as the control. Biotin was then conjugated to uncapped, reactive cysteines, and these samples were analyzed by Western blot using anti-ASAP2 or streptavidin to detect incorporated biotin in place of palmitate. Results show incorporation of biotin into the 112-kDa band of ASAP2 when HAM was included but not when HAM was excluded (negative control). (B) A diagram of ASAP2 showing palmitoylated Cys-86 within the BAR domain, as detected by MALDI-TOF. (C) Acyl/biotin assay shows a stronger band in the WT lane treated with HAM than in the lane with no HAM treatment (negative control), but much less biotin incorporation in the KO lane treated with HAM. This indicates that ASAP2 was palmitoylated in WT but to a much lesser extent in Selk KO BMDM. (D-E) BMDMs were transfected with FLAG-ASAP2 in the presence of 2-bromopalmitate or methanol as a vehicle control for 8 h, and lysates were analyzed by Western blot for presence of the smaller form of ASAP2 ;97 kDa. A light band detected in the vehicle controls was decreased in the presence of the inhibitor of palmitoylation. GAPDH was used a loading control. This experiment was repeated in 3 times independently, and ImageJ was used to perform densitometry for levels of full-length compared with truncated ASAP2. Results are expressed as means 6 SEM (N = 3). *P , 0.05. its expression and function, leading to decreased palmitoylation of target proteins. Because Selk is enriched in immune cells, this may represent an important mechanism by which levels of dietary selenium affect immune cell function. This led us previously <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b12">13]</ref> to identify 2 proteins palmitoylated in a Selk-dependent manner: CD36 and the IP3R. Using both dietary and genetic approaches, we found that both CD36 and IP3R were functionally impaired in Selk-deficient immune cells. In the current study, we identified a third target of Selkdependent palmitoylation: ASAP2. Instead of serving to stabilize the expression of ASAP2, such as was the case with IP3R and CD36, we found that palmitoylation was a posttranslational modification that marks the ASAP2 molecule for cleavage by calpain-2. The role of ASAP2 in FcgR-mediated uptake has largely focused on its GTPase-activating properties <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b15">16]</ref>, but our new data uncovered palmitoylation and calpain-2 cleavage as important events that regulate ASAP2 localization and affect phagocytic efficiency. In fact, we detected some palmitoylation and calpain cleavage of ASAP2 in the absence of active phagocytosis, which suggests the association/dissociation of ASAP2 with plasma membranes or organelle membranes may happen to some extent before the engagement of FcgR. We used macrophages that were fed immune complexes as our activating event for our coimmunoprecipitations, but inactivated RAW264.7 also demonstrated interactions between ASAP2 and Selk. Thus, the activation state of macrophages may not have a discernable role in ASAP2-Selk interactions.</p><p>It is noteworthy that, in the absence of Selk, there was some detectable palmitoylation of ASAP2, which may reflect compensation or redundancy by palmitoyl acyl transferases other than the DHHC6/Selk complex. Our findings reveal that palmitoylation of ASAP2 is a necessary step for calpain-2 cleavage, which promotes membrane dissociation within the phagocytic cups of macrophages. The recruitment of proteins and the organization of actin to phagocytic cups surrounding the engulfed IgG-opsonized particle are complex and highly regulated processes <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>. Equally important to the assembly of these cups is the efficient disassembly, which allows the mature phagosomes to interact with endocytic compartments and eventually to fuse with lysosomes leading to oxidative and proteolytic particle degradation <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>. The requirement of Selk for the completion of this process is consistent with our previous work <ref type="bibr" target="#b3">[4]</ref> showing that the oxidative burst produced through FcgRs on macrophages is diminished in Selk KO BMDM. Without proper maturation and dissociation of cellular factors from phagocytic cups, the relocation of these factors and the reorganization of actin to other FcgRs within the same cell would be impaired, and overall phagocytic efficiency would be reduced. This is supported by the current study showing less-efficient FcgR-mediated phagocytosis in Selk KO BMDM compared with WT controls. Thus, Selk appears to influence uptake of IgG-opsonized particles, at least in part, by promoting the ability of ASAP2 to leave the mature phagocytic cup during the late stages of phagosome maturation. These data presented in this study suggest that, in the absence of Selk, ASAP2 is retained in the phagocytic cup because of inadequate calpain-2 cleavage, which relies on Selk-dependent palmitoylation. Exactly how palmitoylation promotes calpain cleavage of ASAP2 is not clear from the data in this study. Addition of the palmitoyl moiety may render the cleavage site in ASAP2 sterically accessible for calpain cleavage. Alternatively, palmitoylation of ASAP2 may promote interactions between ASAP2 and the membranes within the cell, thereby providing a stable surface for substrate and enzyme interactions to occur. Membrane association of target proteins with calpain may allow stable interactions to occur between substrate and enzyme. There are examples of other proteins requiring palmitoylation for proper localization and interaction with calpains <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b25">26]</ref>. In addition to palmitoylation, myristoylation has a role in facilitating the membrane association that allows calpains to cleave proteins like p35 in neurons <ref type="bibr" target="#b26">[27]</ref>. Membrane surfaces within cells very likely represent important sites of proteolytic activity for calpain enzymes <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref> and the regulation of the assembly of targets and enzymes, thereby regulating cellular functions that rely on calpain cleavage. In this sense, the membrane surface serves as a cofactor for increasing the catalytic efficiency of calpain cleavage, and the addition of lipids to the targets to enhance proteolysis may be much more common than currently known.</p><p>The mechanics of Fcg-mediated phagocytosis have been the focus of much research, and a role for ASAP2 in regulating this process has been previously described. In particular, ASAP2 has been shown to exhibit GTPase activity for ARF6 <ref type="bibr" target="#b13">[14]</ref>, which is an isoform of the ARF family GTPases that also belong to Ras superfamily of small GTPases. ARF6 regulates actin rearrangement beneath the plasma membrane during cell spreading as well as Fcg-mediated phagocytosis <ref type="bibr" target="#b29">[30]</ref>. The GTP binding to ARF6 is related to its ability to move between the plasma membrane and recycling endosomes <ref type="bibr" target="#b30">[31]</ref>, but no role for the calpain cleavage of ASAP2 or palmitoylation at Cys-86 has, to our knowledge, been previously described. Interestingly, calpain proteolysis targets proteins in a limited manner rather than completely digesting them. This often serves to modulate functions of the substrate proteins by cutting their interdomain regions <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref>. Our new data suggest that the ;15-kDa N-terminal region of ASAP2 and the remaining ;97-kDa portion of ASAP2 represent 2 domains of this protein that are separated by the calpain-2 cleavage. Furthermore, the <ref type="bibr">Figure 8</ref>. Schematic diagram of the role that DHHC6/Selk-driven palmitoylation of ASAP2 has in FcgR-mediated phagocytosis. At the ER membrane, the DHHC6/Selk enzyme complex palmitoylates ASAP2, which then localizes to the phagocytic cup. Calpain-2 cleaves ASAP2 in the BAR domain in a manner that is dependent on the palmitoyl moiety. The release of ASAP2 allows maturation of the phagocytic cup, perhaps, because of the loss of the membrane-sculpting function of ASAP2 or to signaling events subsequent to its departure or a combination of both. separation occurs within the BAR domain and is necessary for ASAP2 to leave the mature phagocytic cup. BAR domains function to interact with membranes and to sculpture their shapes in a manner that permits nascent vesicle formation <ref type="bibr" target="#b33">[34]</ref>. This function of the BAR domain, containing proteins such as ASAP2, is an important determinant in the dynamic reconstruction. The cleavage of ASAP2 within this region by calpain-2 may allow cellular factors to dissociate from the mature phagosome and to be reorganized around a new phagocytic cup. This would be consistent with these data presented here, showing that Selk deficiency leads to less cleavage of ASAP2 and less overall phagocytosis by macrophages. The current study does not fully determine how retention of ASAP2 in phagocytic cups leads to less-efficient Fcg-mediated phagocytosis, but the release of ASAP2 from the membranes in those cups appears to be important for the capacity of macrophages to engulf IgG-opsonized particles. These findings may have implications for diseases related to impaired uptake of immune complexes. Efficient phagocytosis of IgG-coated pathogens is particularly important for clearing infection in diseases driven by extracellular pathogens <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref>. Ineffective clearance of immune complexes can also result in glomerular disease or, possibly, the development of autoimmune diseases like lupus erythematosus <ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref>.</p><p>Overall, investigations into the mechanisms by which FcgRdriven uptake occurs may provide insight into how particular defects contribute to these disorders. AUTHORSHIP R.L.N. and G.J.F. designed and performed experiments and contributed to writing the manuscript; Z.H., J.D.F., and F.W.H. performed key experiments; and P.R.H. contributed to study's conception and to the design and writing of the manuscript.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Selk is required for effective FcgR-mediated uptake by macrophages. Carboxylated, fluorescent beads of 1 mm diameter were covalently coated with BSA alone or BSA followed by anti-BSA IgG. The beads were incubated with BMDM from WT or Selk KO mice at a ratio of 10 beads/cell for 30 min to allow complete ingestion. Cells were washed, fixed, and visualized by microscopy for phagocytosis of the beads. Internalization was confirmed using z-stack imaging, as described in the Materials and Methods section. (A) Representative images of BMDM show fewer IgG-coated beads internalized by Selk KO BMDM. Scale bar, 10 mm. (B) The phagocytic index (number of beads/cell multiplied by the percentage of cells with $1 bead) was calculated for .200 cells per condition. Results are expressed as means 6 SEM (N = 3). *P , 0.05.</figDesc><graphic coords="3,88.91,80.81,87.12,84.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. ASAP2 interacts with Selk in macrophages. (A) To identify binding partners of Selk, RAW264.7 mouse macrophages (4 3 10 6 )were transfected with plasmids, encoding either V5-tagged Selk or GFP as a control. Anti-V5 coated magnetic beads were incubated with lysates from both sets of cells, and immunoprecipitated V5-Selk was detected by Western blotting using anti-Selk in cells transfected with V5-Selk-encoding plasmid but not GFP-encoding plasmid. (B) The lysates described above (40 mg total protein) were separated by SDS-PAGE and stained with Coomassie Brilliant Blue, and gels slices were excised for each lane corresponding to ;50-120 kDa. Proteins were eluted and digested with trypsin to generate peptides that were then analyzed by LC-MS/MS for amino acid sequence. One peptide present in V5-Selk lysates, which was absent from GFP lysates, was EIISEVQR, which corresponded to ASAP2. co-i.p., coimmunoprecipitation. (C) Interactions between Selk and ASAP2 were investigated using coimmunoprecipitation. RAW264.7 cells (2 3 10 6 ) were transfected with a plasmid encoding FLAG-ASAP2 (left panel) or V5-Selk (right panel) for 24 h, and then, IgG-coated beads were fed to these cells for 30 min, followed by lysis. Immunoprecipitation of the overexpressed protein was confirmed in each case, along with coimmunoprecipitation of the endogenous Selk (left panel) or ASAP2 (right panel). Beads with no bound Ab were used as negative controls.</figDesc><graphic coords="3,45.23,481.13,309.74,220.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Selk deficiency leads to accumulation of ASAP2 in the phagocytic cups during FcgR-mediated uptake in macrophages.IgG-coated, 4-mm beads, which were better visualized than 1-mm beads, were incubated with WT or Selk KO BMDM (10 beads added per cell) and were stained for localization of ASAP2 over time. (A) Phagocytic cups were fully formed after 20 min, and ASAP2 was found to accumulate in the cups in Selk KO BMDM compared with WT controls. Scale bar, 10 mm. (B) ImageJ was used to quantify the levels of endogenous ASAP2 in the phagocytic cups in each cell containing beads, as described in the "Materials and Methods" section, and results showed higher levels were retained in mature phagocytic cups in Selk KO BMDM. Results are expressed as means 6 SEM (N = 3). *P , 0.05.</figDesc><graphic coords="4,327.59,88.97,229.10,189.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Calpain-2 cleavage of ASAP2 is important for movement of ASAP2 from the phagocytic cup. (A) WT and Selk KO BMDM (2 3 10 6 each)were transfected with pDNA-expressing FLAG-ASAP2 for 5 h, followed by incubation with IgG-coated beads for 20 min. Cells were lysed, anti-FLAG beads were used to immunoprecipitate FLAG-ASAP2, and Western blot performed for total ASAP2 and p-Tyr. Although levels of p-Tyr were similar between WT and KO BMDMs, 2 bands were detected in KO BMDM, whereas 1 band was predominant in WT BMDM. (B) WT and Selk KO BMDMs (2 3 10 6 each) were treated with 20 ng/ml pan calpain inhibitor or DMSO as a vehicle control for 1 h before addition of IgG-coated beads. IgG-coated beads were added for 20 min instead of 30 min in an attempt to detect more full-length ASAP2-FLAG; cells were lysed and lysates were analyzed by Western blot. Vehicle control, treated WT cells, had 2 bands at 112 and 97 kDa, and the latter was eliminated by calpain inhibition. In Selk KO BMDM, only the higher band was detected, and no effect was observed with the calpain inhibitor. Note that WT cells had higher levels of the upper ASAP2 band compared with those in Fig.4A. This is due to enrichment in the lower band during immunoprecipitation, and no immunoprecipitation was performed for the inhibitor experiments in Fig.4B. (C) ASAP2-FLAG was overexpressed in WT BMDM, followed by treatment with 3 different calpain inhibitors (20 ng/ml) for 1 h before 20 min of incubation with IgG-coated beads. Cells (2 3 10 6 ) were lysed, and Western blot results showed that calpain-2 and pan calpain inhibitors were effective at reducing levels of the small-size ASAP2. GAPDH was used as the loading control for the above Western blots. (D) FLAG-ASAP2 was overexpressed in RAW264.7 mouse macrophages, and 100 mg total protein was used to immunoprecipitate with anti-FLAG beads and was incubated with DMSO control or 1 mg recombinant calpain-1 or -2 at 37°C for 1 h. Both isoforms of calpain were able to cleave the full-length ASAP2, resulting in lower levels of the upper band. (E-F) WT BMDMs were treated with either the DMSO control or the calpain-2 inhibitor (20 ng/ml), followed by 20 min incubation with IgG-coated beads (10 beads/cell). Representative immunofluorescence microscopy images show levels of endogenous ASAP2 in the phagocytic cups (arrows) relative to whole cell during FcgR-mediated uptake of IgG-coated beads, and methods for quantifying those levels were used, as described for Fig.3. Results included .50 cells per condition and are expressed as means 6 SEM. *P , 0.05.</figDesc><graphic coords="5,59.75,87.53,475.70,153.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Rescue of Selk KO BMDM with WT Selk reduces levels of ASAP2 in phagocytic cups. Fluorescence microscopy was used to identify those cells that were successfully expressed, rescue plasmids (GFP + ) and had phagocytosed IgG-coated beads. (A) Representative images of cells rescued with GFP-tagged Selk and RFP-ASAP2 that had phagocytosed 2 IgG-coated beads. Scale bar, 10 mm. (B) ImageJ was used to measure the total ASAP2 fluorescence (region 6) and ASAP2 in 5 phagocytic cups (regions 1-2) for a minimum of 25 cells/group. Ratio of ASAP2 in cups to ASAP2 outside of cups was calculated, e.g., (1 + 2)/3, for $30 cells/condition and was expressed as the mean fluorescence. Green fluorescence was analyzed and confirmed to be equivalent on a per-cell basis across conditions. (C) Quantities of ASAP2 in the phagocytic cups showed lower accumulation of ASAP2 in KO BMDMs rescued with WT Selk but not in Selk-DSH3BD. Results represent 2 independent experiments and are expressed as means 6 SEM. *P , 0.05.</figDesc><graphic coords="7,71.27,74.69,464.18,205.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Overexpression of ASAP2 with a C86→A mutation leads to lower phagocytic capacity through the FcgR. RAW264.7 cells were transfected with a plasmid encoding RFP-ASAP2 or RFP-ASAP2C86→A. The latter plasmid encoded for a version of ASAP2 with the palmitoylation site mutated from a Cys to Ala. Transfected cells were plated onto cover slips, and green fluorescent, IgG-coated microspheres (1 mm) were added to the cells for 30 min; then, the cells were washed and fixed and analyzed for phagocytosed beads by fluorescent microscopy. (A) Representative images show higher phagocytic capacity in the RAW264.7 cells rescued with WT ASAP2 compared to those rescued with the C86→A mutant ASAP2. Scale bar, 10 mm. (B) Phagocytic index (number of beads per cell multiplied by the percentage of cells with $1 bead) was calculated for .100 cells/group. Results are expressed as means 6 SEM. *P , 0.05.</figDesc><graphic coords="8,38.87,97.37,140.31,208.34" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>www.jleukbio.org Downloaded from https://academic.oup.com/jleukbio/article/101/2/439/6933048 by Sun Yat-Sen University user on 04 June 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>www.jleukbio.org Volume 101, February 2017 Journal of Leukocyte Biology 441 Downloaded from https://academic.oup.com/jleukbio/article/101/2/439/6933048 by Sun Yat-Sen University user on 04 June 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="442" xml:id="foot_2"><p>Journal of Leukocyte Biology Volume 101, February 2017 www.jleukbio.org Downloaded from https://academic.oup.com/jleukbio/article/101/2/439/6933048 by Sun Yat-Sen University user on 04 June 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>www.jleukbio.org Volume 101, February 2017 Journal of Leukocyte Biology 443 Downloaded from https://academic.oup.com/jleukbio/article/101/2/439/6933048 by Sun Yat-Sen University user on 04 June 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>www.jleukbio.org Volume 101, February 2017 Journal of Leukocyte Biology 445 Downloaded from https://academic.oup.com/jleukbio/article/101/2/439/6933048 by Sun Yat-Sen University user on 04 June 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>www.jleukbio.org Volume 101, February 2017 Journal of Leukocyte Biology 447 Downloaded from https://academic.oup.com/jleukbio/article/101/2/439/6933048 by Sun Yat-Sen University user on 04 June 2024</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This research was supported by <rs type="funder">U.S. National Institutes of Health (NIH) National Institute of Allergy and Infectious Diseases</rs> Grant <rs type="grantNumber">R01AI089999</rs>, and the core facilities were supported by <rs type="funder">NIH National Institute of General Medical Sciences</rs> Grants <rs type="grantNumber">P30GM114737</rs>, <rs type="grantNumber">P30GM103341</rs>, and <rs type="grantNumber">G12RR003061</rs> and <rs type="funder">NIH National Institute on Minority Health and Health Disparities</rs> Grant <rs type="grantNumber">G12MD007601</rs>. The authors sincerely thank <rs type="person">Ann Hashimoto</rs> for her hard work in maintaining mouse colonies for this study.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Ypre9yJ">
+					<idno type="grant-number">R01AI089999</idno>
+				</org>
+				<org type="funding" xml:id="_yCqJkAV">
+					<idno type="grant-number">P30GM114737</idno>
+				</org>
+				<org type="funding" xml:id="_7jSsCEm">
+					<idno type="grant-number">P30GM103341</idno>
+				</org>
+				<org type="funding" xml:id="_ahTeyBW">
+					<idno type="grant-number">G12RR003061</idno>
+				</org>
+				<org type="funding" xml:id="_TbZgQR5">
+					<idno type="grant-number">G12MD007601</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCLOSURES</head><p>The authors declare no competing financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Characterization of mammalian selenoproteomes</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Kryukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Castellano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Novoselov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Lobanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zehtab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guig Ó</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Gladyshev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="1439" to="1443" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The human selenoproteome: recent insights into functions and regulation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="2457" to="2478" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The role of selenium in inflammation and immunity: from molecular mechanisms to therapeutic opportunities</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antioxid. Redox Signal</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="705" to="743" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Selenoprotein K knockout mice exhibit deficient calcium flux in immune cells and impaired immune responses</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Roe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nguyen-Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="2127" to="2137" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Macrophage bactericidal activities against Staphylococcus aureus are enhanced in vivo by selenium supplementation in a dosedependent manner</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aribi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Meziane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Habi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Boulatika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Marchandin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Aymeric</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">135515</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Selenium deficiency impairs host innate immune response and induces susceptibility to Listeria monocytogenes infection</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Immunol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">FcgR dependent mechanisms of cytotoxic, agonistic, and neutralizing antibody activities</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nimmerjahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Immunol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="325" to="336" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Fc receptor biology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Daëron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="203" to="234" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Stimulation of unprimed macrophages with immune complexes triggers a low output of nitric oxide by calcium-dependent neuronal nitric-oxide synthase</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Fay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Chapagain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Kaufusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="4492" to="4502" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Selenoprotein K is a novel target of m-calpain, and cleavage is regulated by Toll-like receptor-induced calpastatin in macrophages</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Norton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="34830" to="34838" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Stable expression and function of the inositol 1,4,5-triphosphate receptor requires palmitoylation by a DHHC6/selenoprotein K complex</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Fredericks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Osterheld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mercier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="16478" to="16483" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The on-off story of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bijlmakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="32" to="42" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Selenoprotein K is required for palmitoylation of CD36 in macrophages: implications in foam cell formation and atherogenesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Meiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Baumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Fredericks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Norton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Boisvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Leukoc. Biol</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="771" to="780" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">PAG3/ Papa/KIAA0400, a GTPase-activating protein for ADP-ribosylation factor (ARF), regulates ARF6 in Fcg receptor-mediated phagocytosis of macrophages</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Uchida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoshimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="955" to="966" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Human endothelial Pyk2 is expressed in two isoforms and associates with paxillin and p130Cas</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Keogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Houliston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Wheeler-Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="page" from="1470" to="1477" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A novel mode of action of an ArfGAP, AMAP2/PAG3/Papa, in Arf6 function</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mizoguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="37677" to="37684" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A new paxillin-binding protein, PAG3/Papalpha/KIAA0400, bearing an ADP-ribosylation factor GTPase-activating protein activity, is involved in paxillin recruitment to focal adhesions and cell migration</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nagayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1315" to="1327" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Identification of a new Pyk2 target protein with Arf-GAP activity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Andreev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Sabatini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Plowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Randazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schlessinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2338" to="2350" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Roles of F-BAR/PCH proteins in the regulation of membrane dynamics and actin reorganization</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aspenström</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Rev. Cell Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="1" to="31" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Amphiphysin I and regulation of synaptic vesicle endocytosis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tomizawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Med. Okayama</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="305" to="323" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Truncations of amphiphysin I by calpain inhibit vesicle endocytosis during neural hyperexcitation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ohmori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tomizawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2981" to="2990" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Labeling and quantifying sites of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Drisdel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechniques</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="276" to="285" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Interactions of postsynaptic density-95 and the NMDA receptor 2 subunit control calpain-mediated cleavage of the NMDA receptor</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Waxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Lynch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="11035" to="11045" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of phagocytic uptake in mammalian cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Groves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Dart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Covarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1957" to="1976" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Shaping cups into phagosomes and macropinosomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Swanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="639" to="649" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fatty acid acylation regulates trafficking of the unusual Plasmodium falciparum calpain to the nucleolus</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oksman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Goldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="229" to="245" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Membrane association facilitates degradation and cleavage of the cyclin-dependent kinase 5 activators p35</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Minegishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Asada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Miyauchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fuchigami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hisanaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="5482" to="5493" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Characteristic properties of endoplasmic reticulum membrane m-calpain, calpastatin and lumen m-calpain: a comparative study between membrane and lumen m-calpains</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Samanta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chakraborti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shaikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="765" to="779" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Submitochondrial localization of associated mu-calpain and calpastatin</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chakraborti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Samanta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Biochem. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">470</biblScope>
+			<biblScope unit="page" from="176" to="186" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A requirement for ARF6 in Fcg receptor-mediated phagocytosis in macrophages</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Donaldson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Greenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="19977" to="19981" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">ARF6 targets recycling vesicles to the plasma membrane: insights from an ultrastructural investigation</title>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Souza-Schorey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Donselaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="603" to="616" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Structure and physiological function of calpains</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sorimachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ishiura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suzuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="721" to="732" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The calpain system</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Goll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">F</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="731" to="801" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">BAR domain proteins regulate Rho GTPase signaling</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aspenström</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small GTPases</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">FcgR mediates TLR2-and Syk-dependent NLRP3 inflammasome activation by inactivated Francisella tularensis LVS immune complexes</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Periasamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Harton</surname></persName>
+		</author>
+		<idno>doi:jlb.2A1215-555RR</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Leukoc. Biol</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Epub ahead of print</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">CD14(hi)CD16 + monocytes phagocytose antibody-opsonised Plasmodium falciparum infected erythrocytes more efficiently than other monocyte subsets, and require CD16 and complement to do so</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beeson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Hogarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rogerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jaworowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">154</biblScope>
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+	<note>BMC Med.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Dual role for Fcg receptors in host defense and disease in Borrelia burgdorferi-infected mice</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Belperron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Bockenstedt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell. Infect. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Unraveling the immunopathogenesis of glomerular disease</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Dickinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="89" to="97" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A transmembrane polymorphism of Fcg receptor IIb is associated with kidney deficiency syndrome in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evid. Based Complement. Alternat. Med</title>
+		<imprint>
+			<date type="published" when="2016">2016. 2016, 3214657</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">FcgRIIa and FcgRIIIb polymorphisms and associations with clinical manifestations in systemic lupus erythematosus patients</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Vigato-Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Toller-Kawahisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pancoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Mendes-Junior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Z</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Donadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Louzada-J Únior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Del Lama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Marzocchi-Machado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autoimmunity</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="451" to="458" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">KEY WORDS: selenium • palmitate • immune complex • macrophage • phagocytic cup</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

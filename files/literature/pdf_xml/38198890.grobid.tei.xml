@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dynamic palmitoylation of STX11 controls injuryinduced fatty acid uptake to promote muscle regeneration</title>
+				<funder ref="#_FyewzwA">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_AFgy9hm #_WFfpMeW #_2VYdpmK #_sRynMkq #_kSkv6xe">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_TNPgQQg">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-09">January 9, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Tianjian Laboratory of Advanced Biomedical Sciences</orgName>
+								<orgName type="institution">Zhengzhou University</orgName>
+								<address>
+									<postCode>450001</postCode>
+									<settlement>Zhengzhou, Henan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dong-Lin</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lang-Fan</forename><surname>Zheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hai-Meng</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="laboratory">Zhejiang Provincial Key Laboratory of Applied Enzymology</orgName>
+								<orgName type="institution">Yangtze Delta Region Institute of Tsinghua University</orgName>
+								<address>
+									<postCode>314006</postCode>
+									<settlement>Jiaxing, Zhejiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peng</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Tianjian Laboratory of Advanced Biomedical Sciences</orgName>
+								<orgName type="institution">Zhengzhou University</orgName>
+								<address>
+									<postCode>450001</postCode>
+									<settlement>Zhengzhou, Henan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Tong-Jin</forename><surname>Zhao</surname></persName>
+							<email>zhaotj@fudan.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Tianjian Laboratory of Advanced Biomedical Sciences</orgName>
+								<orgName type="institution">Zhengzhou University</orgName>
+								<address>
+									<postCode>450001</postCode>
+									<settlement>Zhengzhou, Henan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Su</forename><surname>Ren</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="laboratory">State Key Laboratory of Cellular Stress Biology</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361102</postCode>
+									<settlement>Xiamen, Fujian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zi-Qin</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ying</forename><surname>Tao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ziyu</forename><surname>Liu</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Huai&apos;an Second People&apos;s Hospital</orgName>
+								<orgName type="institution" key="instit1">Huai&apos;an Hospital</orgName>
+								<orgName type="institution" key="instit2">Xuzhou Medical University</orgName>
+								<address>
+									<postCode>220005</postCode>
+									<settlement>Xuzhou, Jiangsu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yanxia</forename><surname>Shang</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">School of Athletic Performance</orgName>
+								<orgName type="institution">Shanghai University of Sport</orgName>
+								<address>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dejian</forename><surname>Pang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Huiling</forename><surname>Guo</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="laboratory">State Key Laboratory of Cellular Stress Biology</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361102</postCode>
+									<settlement>Xiamen, Fujian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Taoling</forename><surname>Zeng</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="laboratory">State Key Laboratory of Cellular Stress Biology</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361102</postCode>
+									<settlement>Xiamen, Fujian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hong-Rui</forename><surname>Wang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="laboratory">State Key Laboratory of Cellular Stress Biology</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361102</postCode>
+									<settlement>Xiamen, Fujian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">He</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xingrong</forename><surname>Du</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Haobin</forename><surname>Ye</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metabolism and Integrative Biology</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Genetic Engineering</orgName>
+								<orgName type="laboratory" key="lab2">Shanghai Key Laboratory of Metabolic Remodeling and Health</orgName>
+								<orgName type="institution" key="instit1">Zhongshan Hospital</orgName>
+								<orgName type="institution" key="instit2">Fudan University</orgName>
+								<address>
+									<addrLine>Shanghai Qi Zhi Institute</addrLine>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dynamic palmitoylation of STX11 controls injuryinduced fatty acid uptake to promote muscle regeneration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-09">January 9, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">64654ED28453BA9A9CF4F7B7F29423FA</idno>
+					<idno type="DOI">10.1016/j.devcel.2023.12.005</idno>
+					<note type="submission">Received: June 5, 2023 Revised: October 17, 2023 Accepted: December 8, 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Highlights d Fatty acids from adipose tissues and dietary fat promote muscle regeneration d Fatty acids function as both fuels and growth signals to promote MuSC proliferation d Injury-induced translocation of CD36 to the PM facilitates fatty acid uptake in MuSCs</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Fatty acids (FAs) are essential nutrients involved in various cellular activities, including b-oxidation, energy storage, membrane synthesis, lipid hormones synthesis, and lipid modification. <ref type="bibr" target="#b0">1</ref> Uptake of FAs across the plasma membrane (PM) is the first step for their metabolism. <ref type="bibr" target="#b1">2</ref> Although almost all tissues are capable of using FAs, they uptake FAs in response to different physiological conditions or stimuli. <ref type="bibr" target="#b2">3</ref> It remains largely unknown how context-specific FA uptake is achieved.</p><p>CD36 is a transmembrane protein that directly binds FAs <ref type="bibr" target="#b3">4</ref> and facilitates FA uptake in many tissues including adipose tissue, skeletal muscle, heart, and liver. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> CD36 is a palmitoylated protein, <ref type="bibr" target="#b8">9</ref> and it is palmitoylated by the Asp-His-His-Cys (DHHC)motif-containing acyltransferases DHHC4 and DHHC5. <ref type="bibr" target="#b9">10</ref> We have previously shown that in adipocytes, dynamic palmitoylation and depalmitoylation of CD36 provide a key regulatory mechanism for its FA uptake activity. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> Palmitoylation is required for targeting CD36 to the PM to capture extracellular FAs, <ref type="bibr" target="#b9">10</ref> whereas binding of FAs to CD36 triggers its depalmitoylation that facilitates endocytosis of FAs through the LYN/SYK/ JNK signaling pathway. <ref type="bibr" target="#b10">11</ref> As CD36 is essential for FA uptake in many types of cells, <ref type="bibr" target="#b0">1</ref> theoretically the activity of CD36 should be differentially regulated in different cells; however, little is known about cell-type-specific regulation of CD36.</p><p>Skeletal muscle is the largest organ in our body, and it goes through constant self-renewal to maintain muscle mass. After muscle injury, muscle stem cells (MuSCs, also called satellite cells) switch from quiescent to proliferating state for muscle repair. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> Activated MuSCs undergo remarkably metabolic shifts to meet the energy demands for rapid proliferation. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> Mitochondrial oxidative phosphorylation is essential for maintaining the regenerative competence of MuSCs for an effective energy production. <ref type="bibr" target="#b15">16</ref> Yet, it remains unclear about the sources of the nutrients and how they are sensed and utilized by MuSCs.</p><p>Here, in both humans and mice, we observed an increase in plasma FAs after muscle injury. We demonstrated that FAs (legend continued on next page) were mobilized from adipose tissue and dietary fat to promote muscle regeneration by functioning as both fuels and signal molecules. Furthermore, we identified the regulatory mechanism of injury-induced FA uptake in MuSCs. We showed that muscle injury induced the translocation of CD36 from cytosol to the PM and demonstrated a critical role of palmitoylated STX11 in the process. Our findings uncovered the critical role of FAs in muscle regeneration and the regulatory mechanism of injurydependent FA uptake in MuSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>FAs mobilized from adipose tissues and dietary fat promote muscle regeneration After muscle injury, MuSCs rapidly proliferate to repair damaged muscle, and it is an energy-demanding process. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> Recently, lipid droplets were shown to be dynamically accumulated in proliferating MuSCs, and blocking biogenesis or lipolysis of the lipid droplets inhibited muscle regeneration. <ref type="bibr" target="#b16">17</ref> We hypothesized that FAs might play a potential role in muscle regeneration. To test the hypothesis, we performed muscle injury in mice using barium chloride (BaCl 2 ) or cardiotoxin (CTX), two commonly used muscle injury reagents, <ref type="bibr" target="#b17">18</ref> and monitored the changes in plasma FAs and fat mass every 3 days (Figure <ref type="figure" target="#fig_0">1A</ref>). In both models, plasma FAs significantly increased on day 3 and returned to normal on day 6 after injury (Figures <ref type="figure" target="#fig_0">1B</ref> and<ref type="figure" target="#fig_0">S1A</ref>). Meanwhile, there was a significant drop in fat mass after muscle injury (4% in BaCl 2 -treated group, and 2% in CTX-treated group), and it gradually recovered in 24 days (Figures <ref type="figure" target="#fig_0">1B</ref> and<ref type="figure" target="#fig_0">S1A</ref>). These results indicate that muscle injury induces the mobilization of FAs from adipose tissues.</p><p>We next asked whether the mobilized FAs were uptaken by the damaged muscle for repair. We performed a more-detailed curve by collecting plasma and muscle samples on days 0, 1, 3, 5, and 7 after muscle injury. Consistent with the increased level of plasma FAs, there was an accumulation of triglycerides in the damaged muscle, peaking on day 3 (Figure <ref type="figure" target="#fig_0">1C</ref>). Lipidomic analysis revealed that many lipid species were dynamically accumulated in the damaged muscle (Figure <ref type="figure" target="#fig_0">S1B</ref>; Table <ref type="table">S1</ref>), which was further illustrated by the triglyceride species (Figure <ref type="figure" target="#fig_0">1D</ref>).</p><p>To further confirm the results, we performed eccentric exercise, which can efficiently induce muscle damage in human, <ref type="bibr" target="#b18">19</ref> in 8 volunteers. As MuSC activity peaks around 48 h after damaging exercise, <ref type="bibr" target="#b19">20</ref> we collected plasma at 0, 3, 24, and 48 h after the exercise and subjected to lipidomic analysis (Figure <ref type="figure" target="#fig_0">1E</ref>; Table <ref type="table">S2</ref>). There was no clear change in other lipid species such as triglycerides and phospholipids (Figure <ref type="figure" target="#fig_0">S1C</ref>), while many species of plasma FAs dramatically increased at 3 h, dropped at 24 h, but increased again at 48 h post-exercise (Figure <ref type="figure" target="#fig_0">1F</ref>). These results were further validated by a direct measurement of plasma FAs (Figure <ref type="figure" target="#fig_0">1G</ref>). Therefore, FAs might play a role in muscle regeneration in mice and humans.</p><p>To verify that adipose tissue is the source of FAs, we first performed muscle injury and regeneration in Fsp27 À/À mice, which have a very small amount of fat mass. <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> In wild-type (WT) mice, large amounts of nascent myofibers (eMyHC + ) were observed on day 3.5 after muscle injury, and the number decreased afterward. On day 5.5, regenerated myofibers (Dystrophin + , or centrally nucleated fibers) were readily observed. On day 14, more mature myofibers were observed, and by day 28, muscle regeneration was finished (Figures <ref type="figure" target="#fig_0">1H,</ref><ref type="figure" target="#fig_0">1I</ref>, S1D, and S1E). However, in Fsp27 À/À mice, the occurrence of both nascent and regenerated myofibers was delayed by 2 days (Figures <ref type="figure" target="#fig_0">1H</ref> and<ref type="figure" target="#fig_0">1I</ref>). Quantification of Dystrophin + myoblasts showed that Fsp27 À/À muscles had smaller regenerated area on days 7 and 14 compared with WT muscles (Figure <ref type="figure" target="#fig_0">S1E</ref>). On day 28, there was no difference between the two groups (Figure <ref type="figure" target="#fig_0">S1E</ref>). Consistent with the decreased fat mass, plasma level of FAs and muscle triglyceride content were significantly lower in Fsp27 À/À mice on day 3.5 (Figure <ref type="figure" target="#fig_0">1J</ref>).</p><p>To further confirm the results, we limited the supply of FAs by blocking lipolysis of adipose tissue with acipimox <ref type="bibr" target="#b22">23</ref> and performed muscle injury. As shown in Figures <ref type="figure" target="#fig_0">S1F-S1I</ref>, acipimox treatment blocked damaged-induced increase in plasma level of FAs and muscle triglyceride content on day 3.5 and significantly slowed down muscle regeneration.</p><p>We then investigated whether dietary supplementation of FAs could accelerate muscle regeneration. We performed muscle injury in chow-fed mice and switched to high-fat diet (HFD) feeding afterward (Figure <ref type="figure" target="#fig_0">1K</ref>). Compared with chow feeding, acute HFD feeding significantly accelerated muscle regeneration, as illustrated by earlier occurrence of nascent and regenerated myofibers and larger myofibers on day 6 (Figures <ref type="figure" target="#fig_0">1L-1N</ref>, S1J, and S1K).</p><p>Taken together, these results indicate that FAs mobilized from adipose tissues and dietary fat are the essential nutrient for muscle regeneration (Figure <ref type="figure" target="#fig_0">1O</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FAs function as more than fuels to promote MuSC proliferation</head><p>As MuSCs are key players in muscle regeneration, we hypothesized that FAs might be uptaken by MuSCs to support muscle regeneration. We performed muscle injury in one hindlimb of a mouse and used the other one as a control (Figure <ref type="figure" target="#fig_1">2A</ref>). We (C and D) Muscle injury was performed as in (A), (n = 4). Plasma NEFA and muscle triglyceride (TG) content were measured at the indicated time (C). Muscle lipids were extracted for lipidomic analysis. A heatmap of representative TG species is shown in (D). (E-G) Eight volunteers performed a 3-h eccentric exercise. Blood was collected at the indicated time for lipidomic analysis. The heatmap of representative species of FAs is shown in (F). Plasma NEFA was measured (G). (H-J) On day 0, muscle injury was induced in WT and Fsp27 À/À mice (8 weeks old, male, n = 3). On the indicated days, soleus was collected for immunostaining analysis with indicated antibodies (H). Quantification of eMyHC + and Dystrophin + myofibers was performed using ImageJ (I). Plasma NEFA and muscle TG content were measured on days 0 and 3.5 after injury (J). (K-N) On day 0, muscle injury was induced in chow-fed C57BL6/J mice (8 weeks old, male, n = 3). Shortly after injury, one group of the mice was kept on chow diet, and the other groups were switched to HFD. At indicated time, soleus was dissected and subjected to immunostaining analysis and quantification. For (H)-(J) and (M), each value represents mean ± SEM obtained from 3 samples. (O) A schematic illustration that FAs from adipose tissues or dietary fat support muscle regeneration. See also Figure <ref type="figure" target="#fig_0">S1</ref>. (legend continued on next page) isolated single myofibers and examined the accumulation of triglycerides in MuSCs. Indeed, a strong signal of BODIPY was observed in PAX7 + MuSCs on the damaged myofiber but not in those on control myofiber (Figure <ref type="figure" target="#fig_1">2B</ref>), indicating that activated MuSCs uptake and store FAs.</p><p>To directly test the effect of FAs on MuSC proliferation, we isolated single myofibers from WT C57BL6 mice and found that delipidated FCS (D-FCS) significantly slowed down growth of PAX7 + myoblasts (Figures <ref type="figure" target="#fig_1">2C</ref> and<ref type="figure" target="#fig_1">2D</ref>). Similar observations were made in primary MuSCs isolated from Pax7 GFP mice <ref type="bibr" target="#b23">24</ref> and C2C12 cells (Figures <ref type="figure" target="#fig_1">2E</ref> and<ref type="figure" target="#fig_1">S2A</ref>).</p><p>We went on to explore how FAs promote MuSC proliferation. We first treated single myofibers with etomoxir, a CPT1a inhibitor that blocks FA oxidation, and found that it dramatically inhibited growth of PAX7 + myoblasts (Figures <ref type="figure" target="#fig_1">2F</ref> and<ref type="figure" target="#fig_1">2G</ref>). Similar observations were made in primary MuSCs (Figure <ref type="figure" target="#fig_1">2H</ref>) and C2C12 cells (Figure <ref type="figure" target="#fig_1">S2B</ref>). These results indicate that FAs are utilized as fuels.</p><p>We then asked whether FAs function as more than fuels. Besides long-chain FAs, medium-chain FAs can also be used as energy source. <ref type="bibr" target="#b24">25</ref> If FAs just function as fuels, both medium-chain and long-chain FAs should be able to accelerate MuSC proliferation. However, when supplemented into D-FCS, oleate (C18:1), but not octanoate (C8:0), significantly increased growth of PAX7 + myoblasts (Figures <ref type="figure" target="#fig_1">2I</ref> and<ref type="figure" target="#fig_1">2J</ref>). Similar observations were made in primary MuSCs and C2C12 cells (Figures <ref type="figure" target="#fig_1">2K</ref> and<ref type="figure" target="#fig_1">S2C</ref>). Furthermore, other long-chain FAs, such as palmitate (C16:0) and arachidonate (C20:4), also accelerated MuSC proliferation (Figure <ref type="figure" target="#fig_1">S2D</ref>). These results indicate that long-chain FAs are more than fuels to promote MuSC proliferation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FAs trigger a CD36-dependent growth signaling pathway to promote MuSC proliferation</head><p>To investigate the fuel-independent function of FAs, we started to identify the key protein that might mediate the effect of FAs. As CD36 has been shown to facilitate FA uptake in skeletal muscles, <ref type="bibr" target="#b4">5</ref> we subjected Cd36 À/À mice to muscle injury. Compared with WT mice, they showed a 2-day delay in muscle regeneration (Figures <ref type="figure" target="#fig_2">3A, 3B,</ref> and<ref type="figure" target="#fig_2">S3A</ref>). Quantification of Dystrophin + myoblasts showed that Cd36 À/À muscles had smaller regenerated area on days 7, 14, and 28 after injury (Figure <ref type="figure" target="#fig_2">S3B</ref>). Meanwhile, in WT mice, large amounts of PAX7 + MuSCs were observed on day 3.5, and the number decreased afterward and returned on day 28 (Figures <ref type="figure" target="#fig_2">3D</ref> and<ref type="figure" target="#fig_2">S3C</ref>). However, in Cd36 À/À mice, the number of PAX7 + MuSCs was much smaller on day 3.5, and it increased on day 5.5 and declined subsequently (Figures <ref type="figure" target="#fig_2">3D</ref> and<ref type="figure" target="#fig_2">S3C</ref>). Due to decreased FA uptake, muscle triglyceride content was lower in Cd36 À/À mice on day 3.5 (Figure <ref type="figure" target="#fig_2">S3E</ref>). Plasma level of FAs was also lower in Cd36 À/À mice on day 3.5, probably due to the smaller fat mass. <ref type="bibr" target="#b4">5</ref> To directly test the effect of CD36 on FA uptake during MuSCs proliferation, we isolated single myofibers from WT and Cd36 À/À mice on days 0 and 5.5 and found that injury-induced FA uptake was inhibited in Cd36 À/À MuSCs (Figure <ref type="figure" target="#fig_2">S3F</ref>). Furthermore, Cd36 À/À myoblasts grew significantly slower than WT controls in FCS-containing medium (Figures <ref type="figure" target="#fig_2">3C</ref> and<ref type="figure" target="#fig_2">3D</ref>). Similar observations were made in Cd36 À/À MuSCs and C2C12 cells (Figures <ref type="figure" target="#fig_2">S3G</ref> and<ref type="figure" target="#fig_2">S3H</ref>). These results indicate that CD36 facilitates FA uptake in MuSCs to promote muscle regeneration.</p><p>In adipocytes and macrophages, binding of ligands to CD36 can activate an SRC family kinase (SFK)/SYK/JNK signaling pathway. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b25">26</ref> Although they are terminally differentiated cells, these kinases are well-known growth signaling molecules. <ref type="bibr" target="#b26">27</ref> We thus hypothesized that FAs might trigger a growth signaling pathway in MuSCs. To test the point, we treated WT single myofibers with inhibitors of SFKs (PP2), SYK (entospletinib), or JNK (SP600125), and found that all three inhibitors significantly inhibited growth of PAX7 + myoblasts (Figures <ref type="figure" target="#fig_2">3E</ref> and<ref type="figure" target="#fig_2">3F</ref>). Furthermore, inhibitors of JNK or SYK dramatically inhibited muscle regeneration (Figures 3G, 3H, S3I, and S3J). These results indicate that FAs might trigger an SFK/SYK/JNK signaling pathway to promote muscle regeneration.</p><p>As there are 8 members in the SFK family, we knocked down each of the 5 SFKs that show relatively abundant expression in C2C12 cells (Figure <ref type="figure" target="#fig_2">S3K</ref>). Knocking down FYN, not the others, dramatically inhibited growth of C2C12 cells (Figures <ref type="figure" target="#fig_2">S3K</ref> and<ref type="figure" target="#fig_2">S3L</ref>). Meanwhile, oleate treatment caused phosphorylation of FYN, SYK, and JNK in control cells but not in CD36 knockdown C2C12 cells (Figures <ref type="figure" target="#fig_2">3I</ref> and<ref type="figure" target="#fig_2">S3M</ref>). Furthermore, oleate-induced phosphorylation of SYK and JNK was significantly lower in Cd36 À/À primary MuSCs (Figure <ref type="figure" target="#fig_2">S3N</ref>). These results indicate that FAs trigger a CD36-dependnent FYN/SYK/JNK pathway in MuSCs.</p><p>We moved on to dissect the two functions of FAs, as fuels and signal molecules. We first knocked down CD36 in C2C12 cells and cultured the cells in D-FCS so that both functions of FAs were disrupted. To recover the function of fuels, we treated cells with octanoate, which does not need CD36 to enter the cells. To recover the function of signal molecules, we artificially activated the signaling pathway by expressing a constitutively active form of FYN (Y531F) or SYK (Y131E). As shown in Figure <ref type="figure" target="#fig_2">3J</ref>, treatment with octanoate did not accelerate the growth of CD36 knockdown (C) Single myofibers were isolated from WT C57BL6 mice (8 weeks old, male) and cultured in medium containing FCS or D-FCS for 3 days, followed by immunostaining. (D) Quantification of PAX7 + myoblasts per cluster (n = 17 for FCS-treated group; n = 20 for D-FCS-treated group). (E) On day 0, primary MuSCs were isolated from Pax7-EGFP mice and set up at 8 3 10 3 cells per 35-mm dish in medium containing FCS or D-FCS. Cells were counted every day. (F and G) Single myofibers from WT mice were cultured in FCS containing medium supplemented with DMSO or etomoxir (40 mM) for 3 days, followed by immunostaining and quantification (n = 16 for DMSO-treated group; n = 17 for etomoxir-treated group). (H) Primary MuSCs were treated with DMSO or etomoxir (40 mM) for 3 days and counted every day. (I and J) Single myofibers were isolated from WT mice and cultured in medium containing D-FCS supplemented with BSA, C8:0 (100 mM), or C18:1 (100 mM) for 3 days, followed by immunostaining and quantification (n = 24 for BSA-treated group; n = 26 for C8-treated group; n = 26 for C18-treated group). (K) Primary MuSCs were isolated from WT mice and cultured in medium containing D-FCS supplemented with BSA, C8:0 (100 mM), or C18:1 (100 mM) for 3 days. For (E), (H), and (K), each value represents mean ± SEM obtained from 3 samples. See also Figure <ref type="figure" target="#fig_1">S2</ref>. (legend continued on next page) cells. When FYN-Y531F was introduced into the cells, it slightly increased cell growth on day 4 (Figure <ref type="figure" target="#fig_2">3J</ref>). However, when both octanoate and FYN-Y531F were present, the growth of CD36 knockdown C2C12 cells was dramatically increased (Figure <ref type="figure" target="#fig_2">3J</ref>). Similarly, although SYK-Y131E itself did not accelerate cell growth, a further treatment with octanoate significantly increased cell growth (Figure <ref type="figure" target="#fig_2">3K</ref>). Thus, both functions of FAs are required to promote MuSC proliferation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation of STX11 facilitates the translocation of CD36 from cytosol to the the PM in activated MuSCs</head><p>We next asked how the context-specific regulation of CD36 was achieved in muscle regeneration. As cell surface localization is required for binding of CD36 to extracellular FAs, we isolated primary MuSCs from Pax7 GFP mice and examined total and surface levels of CD36 on days 0, 3.5, 5.5., and 7 after muscle injury. The total expression level of CD36 in MuSCs did not show much difference before and after muscle injury (Figure <ref type="figure" target="#fig_3">4A</ref>). However, the surface content of CD36 significantly increased after injury, with about 40% of the MuSCs showing surface CD36 localization on days 3.5 and 5.5 (Figure <ref type="figure" target="#fig_3">4B</ref>). These results suggest that CD36 is translocated to the PM after muscle injury.</p><p>To further validate the results, we examined the subcellular localization of CD36 in C2C12 cells by immunostaining. CD36 was primarily localized in the cytosol under basal conditions but translocated to the PM when cells were treated with IGF1 (Figure <ref type="figure" target="#fig_3">4C</ref>), a growth factor that is released by damaged muscle to promote muscle regeneration. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref> Surface biotinylation analysis further confirmed the results (Figure <ref type="figure" target="#fig_3">S4A</ref>).</p><p>In adipocytes, PM localization of CD36 depends on its palmitoylation. <ref type="bibr" target="#b9">10</ref> We therefore hypothesized that the cytosolic localization of CD36 in C2C12 cells might be due to depalmitoylation or lack of palmitoylation. Indeed, palmostatin B (Palm B), an inhibitor of the depalmitoylases, <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> increased PM localization of CD36 in C2C12 cells (Figures <ref type="figure" target="#fig_3">4C</ref> and<ref type="figure" target="#fig_3">S4A</ref>). However, the palmitoylation of either CD36 or its palmitoylating enzyme DHHC5 did not show much difference before and after IGF1 or Palm B treatment (Figure <ref type="figure" target="#fig_3">4D</ref>), suggesting that PM translocation of CD36 does not rely on palmitoylation of itself, but some other protein(s).</p><p>To search for the protein(s), we treated C2C12 cells with IGF1, isolated palmitoylated proteins, and performed silver staining. A band around 35 kD caught our attention, as it was enriched in IGF1-treated cells (Figure <ref type="figure" target="#fig_3">4E</ref>). Mass spectrometry analysis identified this protein as STX11, a palmitoylated SNARE protein (Figure <ref type="figure" target="#fig_3">4F</ref>). <ref type="bibr" target="#b34">35</ref> Indeed, STX11 was dynamically palmitoylated by IGF1 treatment, peaking at 15 min (Figure <ref type="figure" target="#fig_3">4G</ref>).</p><p>We then generated a Stx11 À/À C2C12 cell line (Figure <ref type="figure" target="#fig_3">S4B</ref>) and found that IGF1 failed to induce PM translocation of CD36 in the knockout cells (Figure <ref type="figure" target="#fig_3">4H</ref>). Consistently, knocking out Stx11 blocked IGF1-induced FA uptake (Figures <ref type="figure" target="#fig_3">4I</ref> and<ref type="figure" target="#fig_3">S4C</ref>) and inhibited cell growth (Figure <ref type="figure" target="#fig_3">S4D</ref>).</p><p>To investigate the effect of palmitoylation on STX11, we mutated all 6 palmitoylation sites of STX11 from Cys to Ser and generated a non-palmitoylated mutant (6CS) (Figure <ref type="figure" target="#fig_3">S4E</ref>). When re-introduced into Stx11 À/À cells, the 6CS mutant could not restore IGF1-induced translocation of CD36 to the PM (Figure <ref type="figure" target="#fig_3">4I</ref>) or FA uptake (Figure <ref type="figure" target="#fig_3">S4F</ref>).</p><p>To further consolidate the results, we generated knockin mice that express the non-palmitoylated form of STX11 (Stx11-KI) (Figure <ref type="figure" target="#fig_3">S4G</ref>). In WT primary MuSCs, palmitoylation of STX11 dramatically increased on day 3.5 (Figure <ref type="figure" target="#fig_3">S4H</ref>); however, in Stx11-KI MuSCs, STX11 remained unpalmitoylated before and after injury. In either MuSCs, palmitoylation of CD36 did not change before and after injury. Surface localization of CD36 was significantly increased after injury in WT MuSCs, but it was dramatically abolished in Stx11-KI myoblasts (Figure <ref type="figure" target="#fig_3">4J</ref>). Consistently, injury-induced FA uptake was dramatically lower in Stx11-KI MuSCs (Figure <ref type="figure" target="#fig_3">4K</ref>), and the Stx11-KI myoblasts and MuSCs growth significantly slower (Figures <ref type="figure" target="#fig_3">4L, S4J,</ref> and<ref type="figure" target="#fig_3">S4K</ref>).</p><p>When subjected to muscle injury, Stx11-KI mice showed a significant delay in muscle regeneration (Figures <ref type="figure" target="#fig_3">4M,</ref><ref type="figure" target="#fig_3">4N</ref>, and S4M-S4O). As a control, mutations of STX11 did not affect damage-induced increase in plasma level of FAs but blocked accumulation of muscle triglyceride (Figure <ref type="figure" target="#fig_3">S4P</ref>).</p><p>Taken together, palmitoylation of STX11 facilitates MuSC proliferation and muscle regeneration by stimulating injury-induced PM translocation of CD36.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation facilitates fusion between CD36-and STX11-containing vesicles</head><p>We next sought to explore how palmitoylated STX11 promoted PM translocation of CD36. We first examined the subcellular localization of STX11 and CD36. Under basal conditions, STX11 and CD36 were localized on different vesicles (Figure <ref type="figure" target="#fig_4">5A</ref>). CD36 was co-localized with Rab11A, the endosome recycling compartment marker (Figure <ref type="figure" target="#fig_4">S5B</ref>). At 5 min after IGF1 treatment, these two vesicles started to fuse. At 15 min, CD36 started to show PM localization. By 30 min, the majority of CD36 was sorted to the PM (Figures <ref type="figure" target="#fig_4">5A</ref> and<ref type="figure" target="#fig_4">S5A</ref>).</p><p>To characterize the two vesicles and explore how they were fused, we isolated CD36-or STX11-containing vesicles (Figure <ref type="figure" target="#fig_4">5B</ref>).</p><p>(C and D) Single myofibers were isolated from WT and Cd36 À/À mice and cultured in FCS-containing medium for 3 days, followed by immunostaining and quantification (n = 14 for WT; n = 12 for Cd36 À/À mice). (E and F) Single myofibers were isolated from WT mice, cultured in FCS-containing medium, and treated with PP2 (15 mM), piceatannol (40 mM), or SP600125 (20 mM). On day 3, myofibers were harvested for immunostaining and quantification (n = 49 for DMSO-treated group; n = 47 for PP2-treated group; n = 42 for piceatannol-treated group; n = 49 for SP600125-treated group). (G and H) WT mice were subjected to muscle injury and treated with a daily gavage of vehicle (0.5% methyl cellulose), SP600125 (20 mg/kg), or entospletinib (10 mg/kg). Soleus was dissected at indicated time for immunostaining and quantification. (I) Control and CD36 knockdown C2C12 cells were set up, treated with oleate (100 mM) for indicated time, and harvested for detection of the phosphorylation of SYK and JNK. FYN was immunoprecipitated and blotted with anti-pY antibody. (J and K) On day 0, control and C2C12 stabling expressing FYN-S531F (J) or SYK-Y131E (K) were set up at 2 3 10 3 cells per well in a 12-well plate. From days 1 to 3, cells were harvested and counted each day after BSA or C8:0 (100 mM) treatment. Each value represents the mean ± SEM of a triplicate. (L) A working model showing that FAs function both as fuels and signal molecules to promote MuSC proliferation. See also Figure <ref type="figure" target="#fig_2">S3</ref>.</p><p>Mass spectrometry analysis revealed that the SNARE proteins VAMP4 and SNAP23 were on CD36-and STX11-containing vesicles, respectively (Table <ref type="table">S3</ref>), which was confirmed by immunostaining (Figures <ref type="figure" target="#fig_4">5C</ref> and<ref type="figure" target="#fig_4">5D</ref>). Immunoprecipitation analysis revealed that VAMP4, STX11, and SNAP23 formed a complex (Figure <ref type="figure" target="#fig_4">S5C</ref>). Furthermore, knockdown of either VAMP4 or SNAP23 abolished IGF1-induced fusion of the vesicles and the subsequent PM translocation of CD36 (Figure <ref type="figure" target="#fig_4">5E</ref>). Consistently, knocking down either of them inhibited growth of C2C12 cells (Figures <ref type="figure" target="#fig_4">5F,  5G, S5D,</ref> and<ref type="figure" target="#fig_4">S5E</ref>). These results indicate that STX11 forms a SNARE complex with VAMP4 and SNAP23 to facilitate vesicle fusion and PM translocation of CD36.</p><p>We next investigated the role of palmitoylation in regulating the function of STX11. We first performed immunostaining and found that the 6CS mutant was still localized on the same vesicles with SNAP23 (Figure <ref type="figure" target="#fig_4">S5F</ref>). We then examined the effect of palmitoylation on the conformation of STX11 by performing a trypsin digestion analysis. Compared with WT STX11, the 6CS mutant was relatively resistant to trypsin digestion and showed different digestion patterns (Figures <ref type="figure" target="#fig_4">5H</ref> and<ref type="figure" target="#fig_4">S5G</ref>), suggesting that palmitoylation regulates the conformation of STX11.</p><p>To further verify the results, we performed fluorescence resonance energy transfer (FRET) analysis by fusing mCherry and EGFP at the N and C terminus of STX11, respectively (Figure <ref type="figure" target="#fig_4">5I</ref>). In the WT version of the fusion protein, IGF1 treatment caused a dramatic decrease in the FRET efficiency (Figure <ref type="figure" target="#fig_4">5J</ref>), indicating the separation of the N and C terminus. By contrast, in the 6CS mutant of the fusion protein, the FRET efficiency remained high before and after IGF1 treatment (Figure <ref type="figure" target="#fig_4">5J</ref>).</p><p>We moved on to study the effect of palmitoylation of STX11 on the formation of the SNARE complex. We noticed that SNAP23 is a palmitoylated protein (Figure <ref type="figure" target="#fig_4">S5H</ref>). <ref type="bibr" target="#b35">36</ref> Similar to STX11, SNAP23 showed a dynamic palmitoylation after IGF1 treatment (Figure <ref type="figure" target="#fig_4">S5I</ref>). We fused EGFP and mCherry at the C terminus of STX11 and SNAP23, respectively, and perform FRET (Figure <ref type="figure" target="#fig_4">5K</ref>). When the WT version of the two proteins was subjected to the assay, IGF1 treatment increased FRET efficiency. However, when the non-palmitoylated mutants of the two proteins were used, the effect of IGF1 was abolished (Figures <ref type="figure" target="#fig_4">5L</ref> and<ref type="figure" target="#fig_4">S5J</ref>). Furthermore, co-immunoprecipitation analysis revealed that lack of palmitoylation in either STX11 or SNAP23 largely decreased their interaction (Figure <ref type="figure" target="#fig_4">S5K</ref>).</p><p>Taken together, these results indicate that palmitoylation of STX11 releases the locked conformation of STX11, thereby facilitating the formation of the STX11/SNAP23/VAMP4 complex and the subsequent fusion of CD36-and STX11-containing vesicles (Figure <ref type="figure" target="#fig_4">5M</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DHHC20 palmitoylates STX11 to promote MuSC proliferation and muscle regeneration</head><p>To further verify the results, we sought to identify the palmitoylating enzyme of STX11. We went through the mass spectrometry data and identified that DHHC20 was on the STX11-containing vesicles (Table <ref type="table">S3</ref>) and confirmed the results by immunostaining (Figure <ref type="figure" target="#fig_5">6A</ref>). Overexpressing DHHC20 increased palmitoylation of STX11 (Figure <ref type="figure" target="#fig_5">6B</ref>), and knockdown of DHHC20 largely abolished palmitoylation of STX11 under either basal or IGF1-treated condition (Figure <ref type="figure" target="#fig_5">6C</ref>). Furthermore, knockdown of DHHC20 blocked IGF1-induced PM translocation of CD36 (Figure <ref type="figure" target="#fig_5">6D</ref>) and FA uptake (Figure <ref type="figure" target="#fig_5">6E</ref>) and significantly inhibited cell growth (Figure <ref type="figure" target="#fig_5">S6B</ref>). These results indicate that DHHC20 is the palmitoylating enzyme of STX11.</p><p>We then generated Dhhc20 À/À mice (Figures <ref type="figure" target="#fig_5">S6C</ref> and<ref type="figure" target="#fig_5">S6D</ref>). As expected, knockout of Dhhc20 abolished palmitoylation of STX11 before and after muscle injury (Figure <ref type="figure" target="#fig_5">S6E</ref>). Furthermore, injury-induced PM translocation of CD36 was dramatically inhibited in Dhhc20 À/À MuSCs (Figure <ref type="figure" target="#fig_5">6F</ref>). Consistently, knockout of Dhhc20 inhibited injury-induced FA uptake (Figure <ref type="figure" target="#fig_5">S6G</ref>) and MuSC proliferation (Figures <ref type="figure" target="#fig_5">6G-6I</ref>).</p><p>When subjected to muscle injury, Dhhc20 À/À mice showed delayed muscle regeneration with decreased muscle triglyceride accumulation on day 3.5 (Figures <ref type="figure" target="#fig_5">6J,</ref><ref type="figure" target="#fig_5">6K</ref>, and S6H-S6L). These results indicate that DHHC20 palmitoylates STX11 to promote MuSC proliferation and muscle regeneration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inactivation of the depalmitoylase ABHD17A promotes muscle regeneration</head><p>We next asked whether the dynamic palmitoylation of STX11 was due to dynamic activation of DHHC20. Palmitoylation of DHHCs is frequently used to evaluate the activity, as DHHCs tend to form self-palmitoylated intermediates. <ref type="bibr" target="#b36">37</ref> However,  <ref type="figure">(A</ref> and<ref type="figure">B</ref>) Primary MuSCs were isolated from Pax7 GFP mice muscle using flow cytometry at different time points after muscle injury. One part of the cells was permeabilized and stained with anti-CD36 to evaluate total CD36 expression level (A), and the other part was directly stained with anti-CD36 antibody to evaluate surface content of CD36 (B). Each value represents mean ± SEM obtained from 3 samples. (C and D) C2C12 cells expressing CD36-mCherry and EXOC70-GFP were pretreated in serum-free medium overnight, then treated with IGF1 (30 ng/mL) for 1 h or Palm B (20 mM) for 12 h, and harvested for immunostaining (C) or acyl-resin-assisted capture (acyl-RAC) assay (D). (E) C2C12 cells were pretreated in serum-free medium overnight and then treated with IGF1 (30 ng/mL) for 1 h. Palmitoylated proteins were isolated from membrane fractions and subjected to silver staining and mass spectrometry analysis. (F) The upper panel shows a schematic illustration of the domain structure and palmitoylation sites of STX11. (G) C2C12 cells stably expressing STX11-FLAG were set up and pre-treated with serum-free medium as in (C). On day 3, cells were treated with 30 ng/mL IGF1 for indicated time and harvested for the acyl-RAC assay. (H and I) WT and Stx11 À/À C2C12 cells were set up, transfected with indicated plasmids, and subjected to immunostaining as in (C). (J) Primary MuSCs were isolated from WT and Stx11-KI mice muscle on days 0 and 3.5 after injury and stained with anti-CD36 antibody to analyze surface content of CD36. (K) Single myofibers were isolated in WT and Stx11-KI mice on day 0, 5.5 after injury, and subjected to BODIPY staining. (L) Single myofibers were isolated in WT and Stx11-KI mice, cultured for 3 days, and subjected to immunostaining. (M and N) WT and Stx11-KI mice (8 week old, male, n = 3) were subjected to muscle injury and quantification of myofibers as in Figures <ref type="figure" target="#fig_0">1H</ref> and<ref type="figure" target="#fig_0">1I</ref>. See also Figure <ref type="figure" target="#fig_3">S4</ref>. (legend continued on next page) palmitoylation of DHHC20 did not change before and after IGF1 treatment (Figure <ref type="figure" target="#fig_5">S6M</ref>), suggesting that the activity of DHHC20 might not be regulated by injury.</p><p>We then hypothesized that the dynamic palmitoylation of STX11 might be due to dynamic inactivation of the depalmitoylase, especially considering inhibiting depalmitoylation by PalmB stimulated PM translocation of CD36 (Figures <ref type="figure" target="#fig_3">4A</ref> and<ref type="figure" target="#fig_3">4B</ref>). Mass spectrometry analysis revealed that ABHD17A, a depalmitoylase, was on the STX11-containing vesicles (Table <ref type="table">S3</ref>), which was confirmed by immunostaining (Figure <ref type="figure">7A</ref>). Knocking down ABHD17A dramatically increased palmitoylation of STX11 in control cells (ÀIGF1), to a similar level of that in IGF1-treated cells (Figure <ref type="figure">7B</ref>). Consistently, knockdown of ABHD17A promoted CD36 translocation to the PM even without IGF1 treatment (Figures <ref type="figure">7C</ref> and<ref type="figure">S7A</ref>). These results indicate that ABHD17A is the depalmitoylase of STX11.</p><p>To explore whether the activity of ABHD17A is regulated, we set up an in vitro enzymatic assay system (Figure <ref type="figure">7D</ref>). Although ABHD17A purified from control cells (ÀIGF1) efficiently depalmitoylated STX11, the enzyme from IGF1-treated cells failed to do so (Figure <ref type="figure">7E</ref>), indicating that ABHD17A is inactivated by IGF1 treatment.</p><p>To investigate how the IGF1 signaling leads to the inactivation of ABHD17A, we first examined phosphorylation of ABHD17A, as IGF1 usually triggers a phosphorylation pathway. Indeed, IGF1 treatment triggered an increase in Ser phosphorylation of ABHD17A, and it was blocked by inhibiting the IGF1 downstream kinases MEK1/2 with U0126 (Figure <ref type="figure">7F</ref>). Mass spectrometry analysis identified Ser212 as a phosphorylation site (Figure <ref type="figure">S7B</ref>), which is spatially close to the active site Ser190 (Figure <ref type="figure">7G</ref>). We then mutated Ser212 to Asp and Ala to mimic the phosphorylated and unphosphorylated form, respectively. Although WT and S212A could efficiently depalmitoylate STX11, S212D failed to do so (Figure <ref type="figure">7H</ref>). Furthermore, when re-introduced into Stx11 À/À cells, S212A failed to restore IGF1induced PM translocation of CD36, but S212D promoted PM localization of CD36 even without IGF1 treatment (Figure <ref type="figure">S7C</ref>). These results indicate that phosphorylation at Ser212 inactivates ABHD17A.</p><p>We moved on to identify the kinase that phosphorylates ABHD17A. Treatment with U0126 blocked IGF1-induced palmitoylation of STX11 (Figure <ref type="figure">S7D</ref>), suggesting that ERK1 or ERK2, the downstream kinases of MEK1/2, might be candidates. Knockdown of ERK2, not ERK1, inhibited IGF1-induced palmitoylation of STX11 (Figure <ref type="figure">7I</ref>) and PM translocation of CD36 (Figure <ref type="figure">7J</ref>). This is consistent with the previous findings that ERK2 is required for myoblast proliferation. <ref type="bibr" target="#b37">38</ref> Furthermore, U0126 blocked injury-induced translocation of CD36 to thr PM (Figure <ref type="figure">S7E</ref>) and significantly inhibited growth of PAX7 + myoblasts (Figures <ref type="figure">7K</ref> and<ref type="figure">7L</ref>). When administrated to WT mice, U0126 dramatically inhibited muscle regeneration and injury-induced accumulation of muscle triglycerides (Figures 7M, 7N, S7F, and S7G).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Essentially all cells need FAs, but they uptake FAs under different conditions <ref type="bibr" target="#b2">3</ref> ; however, little is known about the regulatory mechanism of context-dependent FA uptake. Several proteins have been reported to facilitate FA uptake. <ref type="bibr" target="#b1">2</ref> Among them, CD36 gains the most attention as it directly binds FAs and has been shown to facilitate FA uptake in both mice and human. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7</ref> CD36 is widely expressed in various types of cells, including adipocytes, myocytes, hepatocytes, and endothelia cells. <ref type="bibr" target="#b0">1</ref> Currently, most of the studies on CD36 focus on the transcriptional regulation and simply link FA uptake to the expression level of CD36. It remains largely unknown about how CD36 activity is differentially regulated in different cells. We have previously shown that in adipocytes, CD36 is usually localized on PM, which requires its palmitoylation by DHHC4 and DHHC5. <ref type="bibr" target="#b9">10</ref> Here, we identify a different regulatory mechanism of CD36 in MuSCs. In quiescent MuSCs, CD36 is localized in the cytosol, but it is translocated to the PM in activated MuSCs. The spatial and temporal regulation of PM localization of CD36 in MuSCs sets a good example of understanding the context-specific FA uptake in response to different physiological conditions or stimuli.</p><p>In adipocytes, palmitoylation of CD36 is required for its PM localization. <ref type="bibr" target="#b9">10</ref> The small GTPase ARF6 plays a crucial role in sorting palmitoylated CD36 from Golgi to the PM. <ref type="bibr" target="#b38">39</ref> However, in MuSCs, palmitoylation of CD36 itself is not enough to target CD36 to the PM. Instead, palmitoylation of another protein, STX11, is required for the translocation of CD36 to the PM. Palmitoylation of STX11 unlocks the closed confirmation, thereby facilitating the formation of STX11/SNAP23/VAMP4 complex and subsequent fusion of CD36-and STX11-containing vesicles. Therefore, the sorting machineries for targeting CD36 to the PM are different in adipocytes and MuSCs. It will provide more insights into the different sorting mechanisms by figuring out more components of the machineries in the future.</p><p>We have also identified FAs as essential nutrients for muscle regeneration, demonstrated adipose tissues and dietary lipids as the major sources of FAs, and figured out the underlying (B) C2C12 cells stably expressing CD36-HA or STX11-HA were lysed and subjected to vesicle purification and mass spectrometry analysis as in STAR Methods. (C and D) C2C12 cells were set up, transfected with indicated plasmids, and subjected to immunostaining as in Figure <ref type="figure" target="#fig_3">4C</ref>. (E) C2C12 cells with knockdown of indicated genes were set up, transfected, treated with IGF1, and subjected to immunostaining as in Figure <ref type="figure" target="#fig_3">4C</ref>. (F and G) Control, VAMP4 (F) or SNAP23 (G) knockdown C2C12 cells were set up, cultured, and counted as in Figure <ref type="figure" target="#fig_1">2E</ref>. Each value represents the mean ± SEM of a triplicate. (H-L) (H) Membrane fractions were isolated from C2C12 cells expressing WT or 6CS mutant of STX11 and subjected to trypsin digestion. Arrows indicate unique bands in the 6CS mutant (I-L) C2C12 cells were set up, transfected with indicated plasmids, and pretreated with serum-free medium as in Figure <ref type="figure" target="#fig_3">4C</ref>. On day 3, cells were treated with IGF1(30 ng/mL) for 30 min and subjected to FRET analysis. (M) An illustration of the role of STX11 palmitoylation on IGF1-induced fusion of CD36-and STX11-containing vesicles. See also Figure <ref type="figure" target="#fig_4">S5</ref>. (legend continued on next page) mechanism of how FAs promote MuSC proliferation. We show that dietary supplementation of lipids by acute HFD feeding dramatically accelerated muscle regeneration. Notably, chronic HFD feeding has been shown to attenuate MuSCs function. <ref type="bibr" target="#b39">40</ref> It will be interesting to investigate how long-term exposure of FAs affects the functions of MuSCs. Notably, FAs have been shown to play essential role in controlling the fate and proliferation of several stem cells, <ref type="bibr" target="#b40">41</ref> but the roles were mainly attributed to FA oxidation. <ref type="bibr" target="#b41">42</ref> Our findings that FAs can function as signal molecules might help to explain their role in stemness maintenance.</p><p>In addition, the regulation of STX11 by dynamic palmitoylation makes it special from the syntaxin family. Different from the other members of the syntaxin family, STX11 does not have the transmembrane domain but has 6 palmitoylation sites at the C terminus, which were thought to be required for its membrane localization. <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b42">43</ref> Here, we show that palmitoylation of STX11 releases the lock confirmation by separating its N terminus from C terminus. Such a regulation might put STX11 as a key node in context-specific vesicle fusion event. Notably, STX11 is abundantly expressed in the immune cells, <ref type="bibr" target="#b43">44</ref> and lack of STX11 results in familial hemophagocytic lymphohistiocytosis. <ref type="bibr" target="#b44">45</ref> As immune cells are constantly exposed to changes in the microenvironment, it will be interesting to know whether and how dynamic palmitoylation of STX11 regulates the activity of the immune cells.</p><p>In summary, our findings have uncovered a context-specific regulatory mechanism of CD36 in response to muscle injury. CD36 is localized in the cytosol in quiescent MuSCs but translocated to the PM in activated MuSCs. The process requires the dynamic palmitoylation of STX11, which is achieved by inactivation of ABHD17A and palmitoylation by DHHC20. Meanwhile, we identify FAs, mobilized from adipose tissues or dietary fats, as essential nutrients to promote muscle regeneration. We show that FAs function not only as fuels but also as signal molecules to trigger a FYN/SYK/JNK signaling pathway. Our findings shed lights on context-specific regulation of FA uptake and nutritional regulation of muscle regeneration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations of the study</head><p>Although we have identified the pivotal role of FAs in muscle regeneration, we could not rule out that other nutrients might also play essential roles in the process. Besides, we show that FAs are mobilized from adipose tissues after muscle injury. We do not know how muscle injury triggers lipolysis of adipose tissues.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mice</head><p>Cd36 -/-mice 46 from Jackson laboratory were generously provided by Dr. Bin Liang from Yunnan University. Pax7-EGFP transgenic mice <ref type="bibr" target="#b23">24</ref> on C57BL6 background were kindly provided by Dr. Dahai Zhu at Bio-island laboratory. Fsp27 -/-mice were generated as previously described. 22 Dhhc20 -/-mice were generated by targeting exon 3 using the CRISPR-Cas9 technique at Shanghai Model Organisms, China. Stx11-KI mice were generated by mutating all 6 palmitoylation sites to alanines at GemPharmatech (Nanjing, China). All mice used in the manuscript are male on a C57BL6 background.</p><p>Mice were housed in colony cages at 25 o C with 12-h light/12-h dark cycles, with 20-60% humidity. The dark cycle began at 7 pm. Mice were housed and maintained in the animal facility with free access to standard rodent chow and water. Male mice are used in the studies. All animal studies were performed with the approval of the Institutional Animal Care and Research Advisory Committee at Fudan University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasmids</head><p>Mouse Cd36 was cloned in our previous studies. <ref type="bibr" target="#b9">10</ref> Full length cDNAs of mouse Dhhc20, Abhd17a, Stx11, Snap23 and Vamp4 were cloned from a cDNA library prepared from C2C12 cells. These genes were cloned into pCDH-EF1-MCS-IRES-Puro (System Biosciences) with indicated tags. For knockdown, shRNAs were cloned into pLKO.1 (Addgene, 10878). SgRNA was cloned into pLenti-CRISPR (Addgene, 52961). Site-directed mutagenesis was performed using commercial kits from New England Biolabs. The primers were listed in Table <ref type="table">S4</ref>.</p><p>Cell culture C2C12, HEK293T cells were cultured in Medium A (Dulbecco's modified Eagle's medium (4.5 g/L glucose), supplemented with 10% (v/v) FBS, 100 U/ml penicillin, and 100 mg/ml streptomycin) at 37 o C in an atmosphere of 5% CO 2 .</p><p>Stx11 -/-C2C12 cells were generated using the CRISPR/Cas9 system. Two sgRNAs flanking the coding regions of Stx11 were designed and cloned into pLentiCRISPR for lentivirus packaging. C2C12 cells were infected with lentivirus encoding these two sgRNAs and selected with 2 mg/ml puromycin. Cells were then seeded into 96-well plates and single clones were tested to confirm knockout of Stx11. A subclone of STX11 -/-C2C12 cells was used for the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD DETAILS</head><p>Isolation of primary MuSCs PAX7 + MuSCs were isolated from the gastrocnemius muscle of Pax7 EGFP transgenic mice by fluorescence-activated cell sorting (FACS). Briefly, muscles were chopped, digested with 0.1% collagenase (Sigma, C-0130) for 45 min, and filtered through 300-mm and 100-mm cell strainers. The resultant mononuclear muscle-derived cells were directly sorted with a BD Aria II Cell Sorting System, and PAX7 hi subpopulations were sorted based on intensity of EGFP expression levels. To analyze the surface content of CD36, we first incubated cells with monoclonal antibody 2.4G2 to block Fcg receptors, and then incubated with the anti-CD36 antibodies (1:400, BD Biosciences, 562744) in PBS containing 2% bovine serum on ice for 30 min. To analyze total levels of CD36, cells were processed for intracellular staining using CytoFix/CytoPerm Buffer Kit (Invitrogen), according to the manufacturer's instructions. Cells were analyzed with Fortessa (BD Biosciences).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lentivirus production and infection</head><p>For lentivirus packaging, indicated genes on pCDH-puro, shRNA on pLKO.1 or sgRNA on pLentiCRISPR was co-transfected with psPAX2 and pMD2.G into HEK293T cells as described. <ref type="bibr" target="#b9">10</ref> For infection, cells were infected at 30% confluence with lentivirus in medium containing 10 mg/ml polybrene. Cells were selected against 2 mg/ml (C2C12) puromycin for at least 48 h before use for the described experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence</head><p>Immunofluorescence was performed as previously described. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b38">39</ref> Images were taken using a Zeiss LSM880 confocal microscopy. Co-localization analysis was performed using ZEN2.3 software. The following primary antibodies were used: anti-Flag (1:200, Sigma-Aldrich, F3165), anti-HA (1:200, Roche, 11867423001), and anti-PAX7(1:10, DSHB, #PAX7). The secondary antibodies were Donkey anti-Mouse IgG Alexa Fluor 488 (Thermo Fisher Scientific, A21202), Goat anti-mouse IgG Alexa Fluor 647 (Thermo Fisher Scientific, A21236), Goat anti-Rat IgG Alexa Fluor 594 (Thermo Fisher Scientific, A11007), Donkey anti-Rabbit IgG Alexa Fluor 647 (Thermo Fisher Scientific, A31573), and Goat anti-Rabbit IgG Alexa Fluor Plus 555 (Thermo Fisher Scientific, A21429), Rhodamine-labeled phalloidin (1:80, Abclonal Technology, RM02835) Fluorescence resonance energy transfer (FRET) analysis EGFP (donor) and mCherry (acceptor) are the pair for the FRET analysis. To check the intramolecular confirmation of STX11, mCherry and EGFP were fused at the N-and C-terminus, respectively. To examine the interaction of STX11 and SNAP23, EGFP and mCherry were fused at the C-terminus of STX11 and SNAP23, respectively. On day 0, C2C12 cells were transfected with the indicated constructs. On day 2, cells were treated with or without IGF1 (30 ng/ml) for 30 min. Imaging and photobleaching of mCherry were performed and analyzed on a Zeiss LSM-880 microscopy.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. FAs mobilized from adipose tissues and dietary fat promote muscle regeneration (A and B) Muscle injury was performed in C57BL6 mice (8 weeks old, male, n = 4) in STAR Methods. Plasma non-esterified Fas (NEFA) and fat mass were monitored every 3 days (B).</figDesc><graphic coords="3,82.89,101.59,430.53,597.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. FAs function as more than fuels to promote MuSC proliferation (A and B) On day 0, NaCl and BaCl 2 were injected to the left and right hindlimb of a C57BL6 mice (8 weeks old, male, n = 3), respectively. On day 5.5, single myofibers were isolated and subjected to immunostaining with anti-PAX7 and BODIPY staining.</figDesc><graphic coords="5,56.13,101.59,484.29,596.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. FAs trigger a CD36-dependent growth signaling pathway to promote MuSC proliferation (A and B) WT and Cd36 À/À mice (8 weeks old, male, n = 3) were subjected to muscle injury. On the indicated days, soleus was dissected and subjected to immunostaining and quantification.</figDesc><graphic coords="7,82.21,101.59,432.00,597.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Palmitoylation of STX11 facilitates the translocation of CD36 from cytosol to the PM in activated MuSCs</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Palmitoylation facilitates fusion between CD36-and STX11-containing vesicles (A) C2C12 cells were set up, transfected with indicated plasmids. On day 3, cells were treated with IGF1, then harvested at indicated time and subjected to immunostaining.</figDesc><graphic coords="11,77.56,101.59,441.33,597.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. DHHC20 palmitoylates STX11 to promote MuSC proliferation and muscle regeneration (A) C2C12 cells were set up, transfected with indicated plasmids, and subjected to immunostaining as in Figure 4C. (B) HEK293T cells were set up, and transfected with indicated plasmids for acyl-RAC analysis.</figDesc><graphic coords="13,56.13,101.59,484.29,593.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="1,55.16,194.12,285.82,285.68" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Developmental Cell 59, 384-399, February 5, 2024 385</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Developmental Cell 59, 384-399, February 5, 2024 387</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>(legend on next page)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Developmental Cell 59, 384-399, February 5, 2024 391</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Developmental Cell 59, 384-399, February 5, 2024 395</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Developmental Cell 59, 384-399, February 5, 2024 397</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>Developmental Cell 59, 384-399.e1-e5, February 5, 2024 e2</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>e5 Developmental Cell 59, 384-399.e1-e5, February 5, 2024</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work was supported by the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">32230053</rs>, <rs type="grantNumber">32125022</rs>, <rs type="grantNumber">92157301</rs>, <rs type="grantNumber">32100539</rs>, and <rs type="grantNumber">32071150</rs>), the <rs type="funder">National Key R&amp;D Program of China</rs> (<rs type="grantNumber">2020YFA0803601</rs>), and the <rs type="institution">Shanghai Basic Research Field Project ''Science and Technology Innovation Action Plan''</rs> (<rs type="grantNumber">21JC1400400</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_AFgy9hm">
+					<idno type="grant-number">32230053</idno>
+				</org>
+				<org type="funding" xml:id="_WFfpMeW">
+					<idno type="grant-number">32125022</idno>
+				</org>
+				<org type="funding" xml:id="_2VYdpmK">
+					<idno type="grant-number">92157301</idno>
+				</org>
+				<org type="funding" xml:id="_sRynMkq">
+					<idno type="grant-number">32100539</idno>
+				</org>
+				<org type="funding" xml:id="_kSkv6xe">
+					<idno type="grant-number">32071150</idno>
+				</org>
+				<org type="funding" xml:id="_FyewzwA">
+					<idno type="grant-number">2020YFA0803601</idno>
+				</org>
+				<org type="funding" xml:id="_TNPgQQg">
+					<idno type="grant-number">21JC1400400</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STAR+METHODS</head><p>Detailed methods are provided in the online version of this paper and include the following: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTAL INFORMATION</head><p>Supplemental information can be found online at https://doi.org/10.1016/j. devcel.2023.12.005.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>J.W., D.-L.L., L.-F.Z., S.R., Z.L., Y.S., Z.-Q.H., Y.T., D.P., and H.G. performed the experiments. T.Z., H.-R.W., H.H., X.D., H.Y., H.-M.Z., and P.L. provided (C) Control and DHHC20 knockdown C2C12 cells were set up, transfected with STX11-HA/pCDH-Puro, treated with IGF1, and harvested for acyl-RAC analysis as in Figure <ref type="figure">4B</ref>. (D) Control and DHHC20 knockdown C2C12 cells were set up, transfected, and subjected to immunostaining as in Figure <ref type="figure">4C</ref>. (E) Control and DHHC20 knockdown C2C12 cells were set up and subjected to FA uptake analysis. (F) Primary MuSCs were isolated from WT and Dhhc20 À/À mice on days 0 and 3.5 post-injury and stained with anti-CD36 antibody to analyze surface content of CD36. (G) Primary MuSCs were isolated from WT and Dhhc20 À/À mice, set up at 2 3 10 3 cells per 35-mm dish, and counted every day. For (E)-(G), each value represents mean ± SEM obtained from 3 samples. (H and I) Single myofibers were isolated from WT and Dhhc20 À/À mice (12 weeks old, male), cultured in FCS-containing medium, and counted on day 3 (n = 13 for WT; n = 11 for Dhhc20 À/À mice). (J and K) WT and Dhhc20 À/À mice (12 weeks old, male, n = 3) were subjected to muscle injury, and soleus was collected for analysis of muscle regeneration as in Figure <ref type="figure">1H</ref>. See also Figure <ref type="figure">S6</ref>. materials and expertise. J.W. and T.-J.Z. designed the experiments, analyzed the data, and wrote the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATION OF INTERESTS</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 7. Inactivation of the depalmitoylase ABHD17A promotes muscle regeneration</head><p>(A) C2C12 cells were set up, transfected with indicated plasmids, and subjected to immunostaining as in Figure <ref type="figure">6A</ref>. (B) Control and ABHD17A knockdown C2C12 cells were set up, transfected with STX11-HA/pCDH-Puro, treated with IGF1, and harvested for acyl-RAC analysis as in Figure <ref type="figure">6C</ref>. (C) Control and ABHD17A knockdown C2C12 cells were set up, transfected, and subjected to immunostaining as in Figure <ref type="figure">6D</ref>. (D and E) ABHD17A-FLAG was purified from HEK293T cells treated with or without IGF1 and incubated with membrane fractions containing palmitoylated STX11. The palmitoylation of STX11 was monitored by acyl-RAC to evaluate the depalmitoylase activity of ABHD17A. (F) ABHD17A-FLAG expressing cells were set up and treated with IGF1 in the presence or absence of U0126 (25 mM) as in Figure <ref type="figure">4C</ref>. Cells were harvested and subjected to immunoprecipitation using anti-FLAG M2 beads and blotted with antibodies against phosphor-Ser or phosphor-Thr antibody. (G) A structural analysis of Ser212 in ABHD17A (predicted by AlphaFold, DB Q99JW1). (H) WT, S212D, and S212A of ABHD17A were purified and subjected to activity analysis as in (D). (I) Control, ERK1 or ERK2 knockdown C2C12 cells were set up, transfected, and harvested for acyl-RAC as in (B). (J) Control and ERK2 knockdown C2C12 cells were set up, transfected, and subjected to immunostaining as in (C). (K and L) Single myofibers were isolated from C57BL6 mice and treated with U0126 (25 mM) for 3 days. Immunostaining of PAX7 and quantification of the myoblasts were as in Figure <ref type="figure">2C</ref> (n = 20 for DMSO-treated group; n = 17 for U0126-treated group). (M and N) WT mice were injured as in Figure <ref type="figure">1D</ref>. After that, mice were daily gavaged with vehicle (0.5% methyl cellulose) or U0126 (30 mg/kg). At the indicated time, soleus was collected for immunostaining and quantification as in Figures <ref type="figure">1H</ref> and<ref type="figure">1I</ref>. See also Figure <ref type="figure">S7</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STAR+METHODS KEY RESOURCES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESOURCE AVAILABILITY</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lead contact</head><p>Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Tong-Jin Zhao (zhaotj@fudan.edu.cn).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials availability</head><p>This study did not generate new unique reagents. All plasmids and mouse lines generated in this study can be provided by request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and code availability</head><p>Original western blot images have been deposited at Mendeley and are publicly available as of the date of publication. The DOI is listed in the key resources table. Microscopy data reported in this paper will be shared by the lead contact upon request. This paper does not report original code. Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS</head><p>Human study Eight healthy male student volunteers were recruited for the eccentric exercise study. The exercise included a 1-h warmup, 1-h workout and 1-h post-exercise stretching, and it was supervised with professional coaches. Blood samples were collected at 0, 3, 24 and 48 h after the exercise. The study was approved by the Human Research Ethics Committee of Fudan University (FE23155I). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Surface biotinylation</head><p>Surface biotinylation was performed as previously described. <ref type="bibr" target="#b9">10</ref> Briefly, cells were treated with freshly prepared sulfo-NHS-SS-biotin (0.5 mg/ml) in PBS for 30 min on ice. After 3 washes with ice-cold PBS containing 50 mM glycine, cells were lysed in PBS containing 1% triton X-100, and supernatant was incubated with streptavidin agarose at 4 o C for 2 h. Beads were washed 5 times with PBS containing 1% triton X-100, eluted with SDS loading buffer at 37 o C for 1 h and subjected to western blot analysis with indicated antibodies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatty acid uptake</head><p>For FA uptake in C2C12 Cells, cells were pretreated in serum-free medium for 12h, treated with PP2 (20 mM), SP6 (10 mM) or piceatannol (40 mM) in the presence or absence of IGF1 (30 ng/ml) for 1 h, and incubated with 100 mM BSA-conjugated oleate for 4 h. Cells were harvested and stained with BODIPY493/503 (Thermo Fisher, D3922), and subjected to imaging under a Zeiss LSM-880 confocal microscopy or quantification of the fluorescent intensity by flow cytometry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vesicle purification</head><p>To purify CD36-and STX11 containing vesicles, C2C12 cells stably expressing CD36-HA or STX11-HA were generated by lentivirus.</p><p>The vesicles were purified according to a previously published protocol. <ref type="bibr" target="#b46">47</ref> The purified vesicles were treated with SDS sampling buffers, separated by SDS-PAGE, and subjected to mass spectrometry analysis for protein identification.</p><p>Isolation and detection of palmitoylated proteins C2C12 cells with indicated treatments were harvested, and membrane fractions were isolated as previously described. <ref type="bibr" target="#b38">39</ref> Palmitoylated proteins were isolated by resin-assisted capture of S-acylated proteins (Acyl-RAC). <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b47">48</ref> The palmitoylated proteins were eluted from thiopropyl sepharose 6B (GE Healthcare) and subjected to western blot or silver staining.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Activity analysis of ABHD17A</head><p>WT and mutants of ABHD17A-Flag were expressed and purified from HEK293T cells. Briefly, HEK293T cells were transfected with ABHD17A-Flag/pCDH-puro. After 48 h, cells were treated with or without IGF1 (30 ng/ml) for 15 min, followed by lysis in Buffer A (20 mM Hepes, pH7.4, 150 mM NaCl, 1% Triton) containing protease and phosphatase inhibitors. The lysate was immunoprecipitated with anti-Flag M2 beads for 3 h at 4 C and eluted with 3 x Flag peptide (0.2 mg/ml). For substrate preparation, STX11-HA/ pCDH-puro and DHHC20/pcDNA3.3 were co-transfected into HEK293T cells. Cells were harvested 48 h after transfection for preparation of post-nuclear membrane fractions which were used as the substrate. The enzyme and the substrate were incubated in Buffer B (20 mM Hepes, pH7.4, 150 mM NaCl) at 37 C for 30 min. The reaction was stopped by adding SDS to a final concentration of 2%. Protein palmitoylation was analyzed using the Acyl-RAC assay as previously described. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b47">48</ref> Muscle injury and muscle regeneration analysis To create muscle injury, 5 ml of barium chloride (1.2% mg/ml) or CTX (10 mM in saline solution, MCE) was intramuscularly injected into 7 spots of the hindlimb using an insulin syringe. At indicated time after injury, soleus was dissected and fixed in 10% (v/v) paraformaldehyde in PBS for 20-48 h. The fixed tissues were dehydrated in the following concentrations: 75% ethanol for 2 h, 85% ethanol for 2 h, 95% ethanol for 2 h, 100% ethanol for 2 h, and dimethylbenzene for 1 h. The dehydrated tissues were embedded in paraffin and cut into 5 mm serial cross-sections. Slides were dried overnight at 37 C and stained with hematoxylin and eosin (H&amp;E).</p><p>For immunofluorescence, the residual paraffin was washed by dimethylbenzene and different concentration gradients of ethanol. The slides were boiled in 10 mM sodium citrate (pH 6.0) for at least 30 min. After cooling to room temperature, the slides were washed by PBS and blocked with PBS containing 4% BSA and 0.1% Triton X at 37 C for 1 h. The slides were then incubated with anti-eMyHC (1:100, DSHB, F1.652) and anti-Dystrophin (1:100, Abcam, ab15277) in 4% BSA at 4 C overnight. Immunostaining was performed as above. The number and diameter of the myofibers were quantified with ImageJ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isolation of single myofibers</head><p>Single myofibers were isolated from soleus according to a previously established protocol. <ref type="bibr" target="#b48">49</ref> Isolated single myofibers were cultured in conditions as adescribed in the figure legends for 3 or 4 days, fixed with 4% (vol/vol) formaldehyde and immunostained with anti-PAX7. The number of PAX7 + myoblasts on each fiber was quantified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lipidomic analysis</head><p>For lipidomic analysis, lipids were extracted from plasma or muscle samples using the methanol/MTBE based extraction method. For plasma samples, 50 ml samples was incubated with 1.5 ml methanol and vigorously vortexed for 1 min. For muscle samples, gastrocnemius ($100 mg) was homogenized in 1 ml of PBS before incubation with methanol. After that, 5 ml of MTBE was added to the mixture and vortexed vigorously for 1 min. The mixture was incubated at room temperature for 1 h with vigorous shaking, followed by addition of 1.25 ml water. The mixture was centrifuged at 1,000 g for 10 min, and the organic solution was transferred to a new tube and dried under nitrogen. The dried lipids were resuspended and subjected to LC-MS/MS for lipidomic analysis on an Orbitrap Exploris 480 LC-MS/MS mass spectrometer (Thermo Fisher).</p><p>For solid-phase extraction of FA, 50 ml plasma sample was mixed with 30% cold methanol (contain 0.1% acetic acid and 0.002% BHT) and vortexed for 30 s. After centrifuging at 10,000 g for 15 min at 4 o C, the supernatant (1.4 ml) was collected. The SPE column was activated by adding 3 ml of methanol (containing 0.1% BHT) followed by 3 ml water, and dried for 30 s. The sample was loaded onto the SPE column, followed by washing with 3 ml of ice-cold water and 3 ml of 20% ice-cold methanol. The column was eluted twice with 1 ml of methanol. The eluent was then evaporated to dryness under a stream of nitrogen and reconstituted with 30-50 ml of methanol. The extracted lipid samples were stored at À80 C before LC-MS/MS analysis on an Orbitrap Exploris 480 LC-MS/MS mass spectrometer (Thermo Fisher).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Western blot</head><p>The following primary antibodies were used: anti-STX11 (1:1000, Sigma-Aldrich, HPA007992), anti-Flag (1:1000, Sigma-Aldrich, F3165), anti-HA (1:1000, Roche, 11867423001), anti-GAPDH (1:1000, Proteintech, 60004-1-lg), anti-ATP1A1 (1:1000, Abcam, ab167390), anti-ERK1/2 antibody (1:1000,11257-1-AP), anti-pSer (1:1000, Abcam, ab9332) and anti-pThr (1:1000, Abcam, ab9337).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>QUANTIFICATION AND STATISTICAL ANALYSIS</head><p>All the statistical analysis was performed by student's two-tailed paired t-test using EXCEL2010. All the values represent mean ± SEM. All the statistical details of the experiments can be found in the figure legends, including the exact number of cells or mice. No data were excluded from any of the experiments. Asterisks (*) denote level of statistical significance (Student's t test). *, p &lt; 0.05; **, p &lt; 0.01; ***, p &lt; 0.001.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Structure-function of CD36 and importance of fatty acid signal transduction in fat metabolism</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Pepino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Samovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Abumrad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="281" to="303" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Cellular fatty acid uptake: a pathway under construction</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Abumrad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="72" to="77" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fatty acid transport proteins, implications in physiology and disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kazantzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1821</biblScope>
+			<biblScope unit="page" from="852" to="857" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Cloning of a rat adipocyte membrane protein implicated in binding or transport of long-chain fatty acids that is induced during preadipocyte differentiation. Homology with human CD36</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Abumrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>El-Maghrabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Z</forename><surname>Amri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Grimaldi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="17665" to="17668" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Defective uptake and utilization of long chain fatty acids in muscle and adipose tissues of CD36 knockout mice</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Coburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Knapp</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Febbraio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Beets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Silverstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Abumrad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="32523" to="32529" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Defect in human myocardial long-chain fatty acid uptake is caused by FAT/CD36 mutations</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kusaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sohmiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Itakura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="751" to="759" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Free fatty acid uptake in humans with CD36 deficiency</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Hames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="3606" to="3614" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Hepatocyte-specific disruption of CD36 attenuates fatty liver and improves insulin sensitivity in HFD-fed mice</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Erion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Vera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Febbraio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endocrinology</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="570" to="585" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">CD36 is palmitoylated on both N-and C-terminal cytoplasmic tails</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lublin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="22315" to="22320" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">DHHC4 and DHHC5 facilitate fatty acid uptake by palmitoylating and targeting CD36 to the plasma membrane</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="209" to="221" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>e5</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">CD36 facilitates fatty acid uptake by dynamic palmitoylation-regulated endocytosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">4765</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The aged niche disrupts muscle stem cell quiescence</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Chakkalakal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Basson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Brack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page" from="355" to="360" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A muscle stem cell support group: coordinated cellular responses in muscle regeneration</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Wosczyna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Rando</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="135" to="143" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Control of satellite cell function in muscle regeneration and its disruption in ageing</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sousa-Victor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Garcı ´a-Prat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mun ˜oz-Ca ´noves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="204" to="226" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Orienting muscle stem cells for regeneration in homeostasis, aging, and disease</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Feige</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Brun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ritso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rudnicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stem Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="653" to="664" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Mitochondrial dynamics maintain muscle stem cell regenerative competence throughout adult life by regulating metabolism and mitophagy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Isern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Campanario</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Perdiguero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ramı ´rez-Pardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segale ´s</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hernansanz-Agustı ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Curtabbi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Deryagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polla ´n</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stem Cell</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1298" to="1314" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>e10</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Lipid droplet dynamics regulate adult muscle stem cell fate</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Oprescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Narayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">110267</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Comparative study of injury models for studying muscle regeneration in mice</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Besnard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Latil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jouvion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Briand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pascal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Guguin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gayraud-Morel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cavaillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">147198</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>The ´penier,</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Exercise-induced muscle damage: mechanism, assessment and nutritional factors to accelerate recovery</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Markus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Constantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bartolomei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gepner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="969" to="992" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Exercise-induced muscle damage: what is it, what causes it and what are the nutritional solutions?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Owens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Twist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Cobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Close</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="71" to="85" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">FSP27 contributes to efficient energy storage in murine white adipocytes by promoting the formation of unilocular lipid droplets</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nishino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tamori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tateya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shibakusa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mizunoya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kitazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="2808" to="2821" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Up-regulation of mitochondrial activity and acquirement of brown adipose tissue-like property in the white adipose tissue of fsp27 deficient mice</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Toh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">2890</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Inhibition of lipolysis by nicotinic acid and by acipimox</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Fuccella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goldaniga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lovisolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Musatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mandelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Sirtori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Pharmacol. Ther</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="790" to="795" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Distinct regulatory cascades govern extraocular and pharyngeal arch muscle progenitor cell fates</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sambasivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gayraud-Morel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dumas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cimper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paisant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tajbakhsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="810" to="821" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Role of medium-chain fatty acids in healthy metabolism: a clinical perspective</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="351" to="366" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">CD36, a scavenger receptor involved in immunity, metabolism, angiogenesis, and behavior</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Silverstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Febbraio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Signal</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">e3</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">JNK signaling: regulation and functions based on complex protein-protein partnerships</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Misheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reme ´nyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bogoyevitch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="793" to="835" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Localized Igf-1 transgene expression sustains hypertrophy and regeneration in senescent skeletal muscle</title>
+		<author>
+			<persName><forename type="first">`</forename><surname>Musaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mccullagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dobrowolny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Molinaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Sweeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="195" to="200" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">IGF-1, inflammation and stem cells: interactions during muscle regeneration</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mourkioti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rosenthal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Immunol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="535" to="542" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">MicroRNA-33a negatively regulates myoblast proliferation by targeting IGF1, follistatin and cyclin D1</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<date type="published" when="2020">2020. 20191327</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Actions and interactions of IGF-I and MMPs during muscle regeneration</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Barton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="11" to="22" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Akt2-mediated phosphorylation of Pitx2 controls Ccnd1 mRNA decay during muscle cell differentiation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gherzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trabucchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ponassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">E</forename><surname>Gallouzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Briata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="975" to="983" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Small-molecule inhibition of APT1 affects Ras localization and signaling</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vartak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Menninger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hedberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Balamurugan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Renner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gerauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scho ¨lermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="449" to="456" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">ABHD17 proteins are novel protein depalmitoylases that regulate N-Ras palmitate turnover and subcellular localization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Conibear</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">11306</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Dynamic cycling of t-SNARE acylation regulates platelet exocytosis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Whiteheart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="page" from="3593" to="3606" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">SNAP-23 and SNAP-25 are palmitoylated in vivo</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Roche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">258</biblScope>
+			<biblScope unit="page" from="407" to="410" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">DHHC palmitoyl transferases: substrate interactions and (patho)physiology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biochem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="245" to="253" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">ERK1/2 is required for myoblast proliferation but is dispensable for muscle gene expression and cell fusion</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Olwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="104" to="115" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Targeting EGFR-dependent tumors by disrupting an ARF6-mediated sorting system</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">6004</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Loss of CD36 protects against dietinduced obesity but results in impaired muscle stem cell function, delayed muscle regeneration and hepatic steatosis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verpoorten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sfyri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tzimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mougios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsakas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol</title>
+		<imprint>
+			<biblScope unit="page">13395</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Lipid metabolism in focus: how the build-up and breakdown of lipids affects stem cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ramosaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knobloch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<date type="published" when="2021">2021. 191924</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Lipid mediated regulation of adult stem cell behavior</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cle ´mot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Se ˆnos Demarco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">115</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Syntaxin 11 is an atypical SNARE abundant in the immune system</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prekeris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klumperman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Scheller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="771" to="780" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Syntaxin 11 binds Vti1b and regulates late endosome to lysosome fusion in macrophages</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Offenh€ Auser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Stow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Murray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="762" to="773" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Linkage of familial hemophagocytic lymphohistiocytosis (FHL) type-4 to chromosome 6q24 and identification of mutations in syntaxin 11</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Zur Stadt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Beutel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Diler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Henter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kabisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schneppenheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>N€ Urnberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Janka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="827" to="834" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A null mutation in murine CD36 reveals an important role in fatty acid and lipoprotein metabolism</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Febbraio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Abumrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Hajjar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Pearce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Silverstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="19055" to="19062" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Lysosomal metabolomics reveals V-ATPase-and mTOR-dependent regulation of amino acid efflux from lysosomes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abu-Remaileh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Wyant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Laqtom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Freinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Sabatini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="page" from="807" to="813" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Site-specific analysis of protein S-acylation by resin-assisted capture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Forrester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hultman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moseley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Stamler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Casey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="393" to="398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Isolation and culture of individual myofibers and their satellite cells from adult skeletal muscle</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pasut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rudnicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vis. Exp. e</title>
+		<imprint>
+			<biblScope unit="volume">50074</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

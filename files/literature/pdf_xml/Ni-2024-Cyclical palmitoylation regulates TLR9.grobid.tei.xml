@@ -1,0 +1,2154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cyclical palmitoylation regulates TLR9 signalling and systemic autoimmunity in mice</title>
+				<funder ref="#_P9ExzHh">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_ZZjMKVj #_WZCePPN #_D6s5DFR #_gQyd7mN">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_JNK5HuW">
+					<orgName type="full">Shanghai Municipal Science and Technology Major Project</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Shanghai Laboratory Animal Program 23141902200</orgName>
+				</funder>
+				<funder ref="#_rwhnnrm">
+					<orgName type="full">Guangdong Innovative and Entrepreneurial Research Team Program</orgName>
+				</funder>
+				<funder ref="#_8vceqdE #_YMad5dp">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Hai</forename><surname>Ni</surname></persName>
+							<idno type="ORCID">0009-0004-0156-1704</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Rheumatology and Immunology</orgName>
+								<orgName type="institution" key="instit1">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yinuo</forename><surname>Wang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">CAS Key Laboratory of Molecular Virology and Immunology</orgName>
+								<orgName type="department" key="dep2">Shanghai Institute of Immunity and Infection</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">University of Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><surname>Yao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ling</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiancheng</forename><surname>Huang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yongfang</forename><surname>Xiao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hongyao</forename><surname>Chen</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Bo</forename><surname>Liu</surname></persName>
+							<email>bliu@ips.ac.cn</email>
+							<idno type="ORCID">0000-0002-5008-296X</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">CAS Key Laboratory of Molecular Virology and Immunology</orgName>
+								<orgName type="department" key="dep2">Shanghai Institute of Immunity and Infection</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Shanghai Huashen Institute of Microbes and Infections</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cliff</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+							<idno type="ORCID">0000-0002-2162-2912</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Ministry of Education</orgName>
+								<orgName type="laboratory">Key Laboratory of Tropical Disease Control (Sun Yat-sen University)</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jijun</forename><surname>Zhao</surname></persName>
+							<idno type="ORCID">0000-0002-6374-6438</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Rheumatology and Immunology</orgName>
+								<orgName type="institution" key="instit1">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou, Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cyclical palmitoylation regulates TLR9 signalling and systemic autoimmunity in mice</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">690FAB32B5BD747BBEE4D21D02B8C6D1</idno>
+					<idno type="DOI">10.1038/s41467-023-43650-z</idno>
+					<note type="submission">Received: 3 April 2023 Accepted: 15 November 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Toll-like receptor 9 (TLR9) recognizes self-DNA and plays intricate roles in systemic lupus erythematosus (SLE). However, the molecular mechanism regulating the endosomal TLR9 response is incompletely understood. Here, we report that palmitoyl-protein thioesterase 1 (PPT1) regulates systemic autoimmunity by removing S-palmitoylation from TLR9 in lysosomes. PPT1 promotes the secretion of IFNα by plasmacytoid dendritic cells (pDCs) and TNF by macrophages. Genetic deficiency in or chemical inhibition of PPT1 reduces anti-nuclear antibody levels and attenuates nephritis in B6.Sle1yaa mice. In healthy volunteers and patients with SLE, the PPT1 inhibitor, HDSF, reduces IFNα production ex vivo. Mechanistically, biochemical and mass spectrometry analyses demonstrated that TLR9 is S-palmitoylated at C258 and C265. Moreover, the protein acyltransferase, DHHC3, palmitoylates TLR9 in the Golgi, and regulates TLR9 trafficking to endosomes. Subsequent depalmitoylation by PPT1 facilitates the release of TLR9 from UNC93B1. Our results reveal a posttranslational modification cycle that controls TLR9 response and autoimmunity.</p><p>Toll-like receptors (TLRs) play essential roles in initiating innate immune responses <ref type="bibr" target="#b6">[1]</ref><ref type="bibr" target="#b7">[2]</ref><ref type="bibr" target="#b8">[3]</ref> . Although the majority of TLRs are located on the plasma membrane, TLR3, TLR7, TLR8 and TLR9 recognize pathogenic nucleic acids in endosomes 4 . These endosomal TLRs require the chaperone protein UNC93B1 for both stability and transportation from the endoplasmic reticulum (ER)-Golgi to endolysosomes <ref type="bibr" target="#b10">[5]</ref><ref type="bibr" target="#b11">[6]</ref><ref type="bibr" target="#b12">[7]</ref><ref type="bibr" target="#b13">[8]</ref> . Once in endosomes, the ectodomains of these TLRs must be cleaved by endopeptidases before TLRs can efficiently sense nucleic acids <ref type="bibr" target="#b14">[9]</ref><ref type="bibr" target="#b15">[10]</ref><ref type="bibr" target="#b16">[11]</ref><ref type="bibr" target="#b17">[12]</ref> . Improper trafficking of endosomal TLRs results in severe autoimmunity in mice <ref type="bibr" target="#b18">13</ref> . In addition to pathogen-derived nucleic acids, TLR7, TLR8, and TLR9 can recognize endogenous nucleic acids and have been associated with autoimmune diseases such as psoriasis, systemic sclerosis, and systemic lupus erythematosus (SLE) <ref type="bibr" target="#b19">[14]</ref><ref type="bibr" target="#b20">[15]</ref><ref type="bibr" target="#b21">[16]</ref><ref type="bibr" target="#b22">[17]</ref> .</p><p>In SLE, RNA sensing by TLR7 and DNA sensing by TLR9 are key to disease pathogenesis, but the underlying molecular mechanisms differ greatly <ref type="bibr" target="#b23">18,</ref><ref type="bibr" target="#b24">19</ref> . For example, overexpression of TLR7 results in spontaneous systemic inflammation in mice, and a TLR7 gain-of-function variant has been reported in SLE patients <ref type="bibr" target="#b25">[20]</ref><ref type="bibr" target="#b26">[21]</ref><ref type="bibr" target="#b27">[22]</ref> . However, overexpression of TLR9 does not cause lupus-like autoimmunity 18 . In addition, TLR7 deficiency ameliorated symptoms in SLE mouse models <ref type="bibr" target="#b28">23</ref> . In contrast, TLR9 deficiency exacerbated SLE symptoms, suggesting that TLR9 might confer protection from this disease <ref type="bibr" target="#b23">18,</ref><ref type="bibr" target="#b29">24</ref> . Moreover, cleaved TLR9 requires an additional release step by</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>UNC93B1, whereas cleaved TLR7 does not <ref type="bibr" target="#b28">23</ref> . TLR9 cleavage requires an acidic environment, but TLR7 cleavage does not <ref type="bibr" target="#b30">25</ref> . Nevertheless, TLR9 has recently been shown to exacerbate SLE pathogenesis via a MYD88dependent pathway, while simultaneously protect against SLE via a MYD88-independent pathway in B cells <ref type="bibr" target="#b31">26</ref> . Overall, compared to that of TLR7, the regulation of the TLR9 response seems to be much more complex.</p><p>Activated plasmacytoid dendritic cells (pDCs) express high levels of TLR7 and TLR9 and secrete large amounts of type-I and type-III interferons (IFN) <ref type="bibr" target="#b32">27</ref> . This rapid cytokine response is mediated by constitutive expression of IRF7 and NF-κB in pDCs, whereas the NF-κB molecular pathway is the predominant response mediator in other immune cells, such as macrophages <ref type="bibr" target="#b33">28,</ref><ref type="bibr" target="#b34">29</ref> . pDCs represent a unique lineage of dendritic cells that require the transcription factor E2-2 for both the development and maintenance of their identity <ref type="bibr" target="#b35">30</ref> . pDCs can be activated by self-nucleic acids via endosomal TLR7 and TLR9 and produce massive amounts of IFN-I <ref type="bibr" target="#b36">31</ref> . In turn, pDC-derived IFN-I can activate myeloid cells and directly regulate T and B cell differentiation <ref type="bibr" target="#b37">32,</ref><ref type="bibr" target="#b38">33</ref> . SLE pathogenesis in humans and mouse models is characterized by excessive IFN-I signaling <ref type="bibr" target="#b39">34,</ref><ref type="bibr" target="#b40">35</ref> . Dysregulation of IFN production in pDCs contributes to pathogenic amplification in multiple autoimmune diseases, such as type-I diabetes, psoriasis, systemic sclerosis, and SLE <ref type="bibr" target="#b19">14,</ref><ref type="bibr" target="#b41">[36]</ref><ref type="bibr" target="#b42">[37]</ref><ref type="bibr" target="#b43">[38]</ref><ref type="bibr" target="#b44">[39]</ref> . In mice, pDC deficiency effectively prevents the pathogenesis of systemic sclerosis and SLE <ref type="bibr" target="#b45">[40]</ref><ref type="bibr" target="#b46">[41]</ref><ref type="bibr" target="#b47">[42]</ref> . Therefore, the aberrant production of IFN-I by pDCs is an important driver of autoimmunity.</p><p>S-Palmitoylation is a reversible posttranslational modification in which a cysteine residue is covalently attached to a saturated C16 lipid palmitate <ref type="bibr" target="#b48">43,</ref><ref type="bibr" target="#b49">44</ref> . Palmitoylation status can contribute to protein structure and stability, vesicle trafficking and membrane anchoring <ref type="bibr" target="#b50">[45]</ref><ref type="bibr" target="#b51">[46]</ref><ref type="bibr" target="#b52">[47]</ref><ref type="bibr" target="#b53">[48]</ref> . A large family of DHHC protein acyltransferases can S-palmitoylate proteins in the Golgi, cytosol or cell membrane <ref type="bibr" target="#b54">49,</ref><ref type="bibr" target="#b55">50</ref> . Several types of hydrolases, such as acyl protein thioesterases and palmitoyl-protein thioesterases, can depalmitoylate proteins in the cytosol or lysosomes, respectively <ref type="bibr" target="#b56">[51]</ref><ref type="bibr" target="#b57">[52]</ref><ref type="bibr" target="#b58">[53]</ref> . In the immune system, the palmitoylation cycle has been shown to be important to several key cellular pathways and immune processes, such as the STAT3, MYD88 or NOD1/2 signaling pathways, and immune processes, such as PD-L1 degradation and antigen cross-presentation <ref type="bibr" target="#b52">47,</ref><ref type="bibr" target="#b59">[54]</ref><ref type="bibr" target="#b60">[55]</ref><ref type="bibr" target="#b61">[56]</ref><ref type="bibr" target="#b62">[57]</ref> . However, the importance of palmitoylation has not been shown in autoimmune diseases such as SLE.</p><p>In this study, we show that S-palmitoylation regulates the TLR9 response in pDCs and macrophages. TLR9 carries at least two S-palmitoylation sites in the ectodomain. The palmitoylation cycle begins in the Golgi, where DHHC3 palmitoylates TLR9 and ends in lysosomes, where PPT1 depalmitoylates TLR9. The TLR9 palmitoylation cycle directly regulates ligand binding and cytokine secretion by pDCs and macrophages. As a result, PPT1 genetic deficiency or PPT1 inhibitors reduce autoantibody levels and attenuate nephritis in a transgenic SLE mouse model. Palmitoylation inhibitors also repress IFNα production by human pDCs from patients with SLE. Our study outlines a posttranslational modification mechanism that regulates the TLR9 response and suggests a potential immunotherapeutic target for treating autoimmune diseases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PPT1 deficiency protects SLE mice from autoantibodies and nephritis</head><p>We previously studied the role of palmitoyl-protein thioesterase 1 (PPT1) in antigen presentation <ref type="bibr" target="#b62">57</ref> . Since we found that PPT1-deficient classical dendritic cells type 1 (cDC1s) were much more efficient at antigen cross-presentation than wildtype cDC1s, we further explored the role of PPT1 in autoimmunity <ref type="bibr" target="#b62">57</ref> . We crossed PPT1-deficient mice with B6.Sle1yaa mice, which carry the NZM2410/Aeg-derived SLE susceptibility 1 locus (Sle1) and the BXSB/MpJ-derived Yaa-containing Y chromosome (yaa) <ref type="bibr" target="#b20">15</ref> . To our surprise, at 16 weeks, Ppt1 -/-B6.Sle1yaa mice exhibited a smaller spleen and fewer splenic lymphocytes than Ppt1 +/+ B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_2">1A</ref>). We next examined a hallmark of SLE, anti-nuclear antibodies (ANAs), using a previously established ELISA method <ref type="bibr" target="#b63">58</ref> . We found that Ppt1 -/-B6.Sle1yaa mice exhibited lower serum anti-DNA antibody levels than Ppt1 +/+ B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_2">1B</ref>). Anti-RNP/Sm antibodies were also lower at 16 weeks (Fig. <ref type="figure" target="#fig_2">1C</ref>). The total serum IgG level was also lower in Ppt1 -/-B6.Sle1yaa mice than it was in Ppt1 +/+ B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_2">1D</ref>). These experiments showed that PPT1 regulated ANA levels in B6.Sle1yaa mice.</p><p>Next, we examined nephritis, a lethal clinical manifestation of SLE. Using H&amp;E staining of kidney sections, we found that Ppt1 -/-B6.Sle1yaa mice presented with a smaller glomerulus than Ppt1 +/+ B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_2">1E</ref>). Applying immunofluorescence staining, we found that Ppt1 -/- B6.Sle1yaa mice exhibited less intense IgG and C3 staining in the nephritic glomerulus than Ppt1 +/+ B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_2">1F</ref>). Our data suggested that PPT1 modulated nephritis in B6.Sle1yaa mice.</p><p>Finally, we analyzed the immune phenotype by flow cytometry. The spleens of Ppt1 -/-B6.Sle1yaa mice exhibited fewer CD11b + myeloid cells than those of Ppt1 +/+ B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_2">1G</ref>). Ppt1 -/-B6.Sle1yaa mice also presented with fewer activated CD44 + CD62L -CD4 + and CD8 + T cells (Fig. <ref type="figure" target="#fig_2">1H, I</ref> and<ref type="figure" target="#fig_2">S1A-D</ref>). The number of MHCII + CXCR3 + antibodyforming B cells was also reduced in Ppt1 -/-B6.Sle1yaa mice compared to Ppt1 +/+ B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_2">1J</ref>). Our results demonstrated that PPT1 controlled myeloid, effector T-cell and plasma B-cell expansion in B6.Sle1yaa mice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PPT1 inhibitor HDSF suppresses IFNα in SLE patients and SLE pathogenesis in mice</head><p>Since we showed that PPT1 may play a major role in SLE pathogenesis, we investigated the possible therapeutic value of its small molecule inhibitor HDSF <ref type="bibr" target="#b64">59</ref> . First, we obtained peripheral blood from SLE patients and treated their mononuclear cells (PBMCs) with DMSO or HDSF in vitro. Consistent with the effect on mice, PPT1 inhibitors suppressed IFNα production (Fig. <ref type="figure" target="#fig_3">2A</ref>). To examine the therapeutic potential of PPT1 in vivo, we injected HSDF into B6.Sle1yaa mice for 8 weeks. At the end of the treatment period, HDSF-treated B6.Sle1yaa mice presented with a smaller spleen and fewer splenic lymphocytes than DMSOtreated B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_3">2B</ref>). Four weeks after treatment, we began to find that HDSF-treated B6.Sle1yaa mice showed lower serum anti-DNA antibody levels (Fig. <ref type="figure" target="#fig_3">2C</ref>). Anti-RNP/Sm antibodies in HSDFtreated mice were also lower than that of DMSO-treated B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_3">2D</ref>). Eight weeks after treatment, we observed that HDSFtreated B6.Sle1yaa mice exhibited a lower total serum IgG level than DMSO-treated B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_3">2E</ref>). Correspondingly, HDSFtreated B6.Sle1yaa mice presented with a smaller glomerulus and less intense IgG and C3 staining in the nephritic glomerulus than DMSO-treated B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_3">2F,</ref><ref type="figure">G</ref>). Similarly, we detected fewer CD11b + myeloid cells; CD44 + CD62L -CD4 + and CD8 + T cells; and MHCII + CXCR3 + antibody forming cells (Fig. <ref type="figure" target="#fig_3">2H</ref>-K and S2A-D). Our results demonstrated that the PPT1 inhibitor HDSF was effective in controlling autoimmunity in B6.Sle1yaa mice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PPT1 controls the cytokine response by pDCs, B cells and macrophages</head><p>Since pDC-derived IFN-I play an important role in SLE pathogenesis, we further explored the role of PPT1 in pDCs. Using enriched pDCs from healthy volunteers, we found that HDSF markedly reduced IFNα production in human pDCs (Fig. <ref type="figure" target="#fig_5">3A</ref>). PPT1 is highly expressed in cDC1s and our previous study demonstrated that PPT1-deficiency promoted CD8 + T cell response, which is against our current phenotype in SLE (Fig. <ref type="figure" target="#fig_5">S3A</ref>) <ref type="bibr" target="#b62">57</ref> . To explain this contradiction, we began to investigate other cells heavily involved in SLE, such as macrophages, B cells and pDCs. Reanalysis of IMMGEN RNA-seq showed that the Ppt1 transcript level was higher in macrophages (3.3-fold) and pDCs (1.85-fold) than in B cells (Fig. <ref type="figure" target="#fig_5">S3A</ref>) <ref type="bibr" target="#b65">60</ref> . In particular, the Ppt1 transcript level was upregulated again in pDCs after CpG A stimulation (Fig. <ref type="figure" target="#fig_5">3B</ref>). This increase occurred at the same time that the Ifna transcript was produced (Fig. <ref type="figure" target="#fig_5">3B</ref>), before IFNα protein was secreted by pDCs (Fig. <ref type="figure" target="#fig_5">S3B</ref>). In order to study the function of PPT1 in pDCs, we FACS-sorted bone marrow pDCs from PPT1-deficient mice, and measured their IFNα and TNF secretion ex vivo after TLR9 or TLR7/8 stimulation. CpG A stimulation of pDCs ex vivo yielded copious amounts of IFNα, while CpG B and R848 activation yielded mostly TNF <ref type="bibr" target="#b22">17</ref> . PPT1-deficient pDCs produced less IFNα and TNF than littermate wild-type controls, as measured by ELISA and intracellular staining (Fig. <ref type="figure" target="#fig_5">3C</ref> and S3C, D). To observe the effect of PPT1 on pDC function in vivo, we infected PPT1-sufficient and PPT1deficient mice with herpes simplex virus (HSV, Type I), a DNA virus. We observed a reduced IFNα serum concentration in PPT1-deficient mice after infection with HSV (Fig. <ref type="figure" target="#fig_5">3D</ref>). pDCs are known to die after sufficient activation by IFN-I <ref type="bibr" target="#b66">61</ref> . Correspondingly, pDC cell number was higher in PPT1-deficient mice than PPT1-sufficient mice after infection with HSV (Fig. <ref type="figure" target="#fig_5">S3E</ref>). Although pDCs are thought to be the predominant producers of IFNα in the early antiviral response, it has been difficult to ascertain the cellular sources of serum IFNα <ref type="bibr" target="#b67">62</ref> . Therefore, we generated BDCA2-DTR:Ppt1 +/+ and BDCA2-DTR:Ppt1 -/-mixed chimeras to modulate PPT1 expression in pDCs (Fig. <ref type="figure" target="#fig_5">S3F</ref>). After HSV infection, the level of IFNα secreted by PPT1-deficient pDCs in vivo was reduced compared to that of the mixed chimera controls (Fig. <ref type="figure" target="#fig_5">S3G</ref>). Here, we showed that PPT1 regulated IFNα and TNF production by pDCs. In addition to pDCs, we also examined the role of PPT1 in B cells and macrophages. We treated B220 + CD19 + B cells, peritoneal cavity macrophages (Per.MΦ) and bone marrow-derived macrophages (BMDMs) from Ppt1 +/+ and Ppt1 -/-mice with TLR9 agonists, and found that PPT1deficient B cells secreted less IL-6 and PPT1-deficient macrophages less TNF (Fig. <ref type="figure" target="#fig_5">3E</ref>). PPT1-deficient B cells also had less cell proliferation after CpG stimulation (Fig. <ref type="figure" target="#fig_5">S3H</ref>). Moreover, we found that PPT1 inhibitor HDSF repressed cytokine secretion by TLR9-activated pDCs, B cells and macrophages (Fig. <ref type="figure" target="#fig_5">3F</ref> and<ref type="figure" target="#fig_5">S3I</ref>). HDSF-treated B cells also had less cell proliferation after CpG stimulation (Fig. <ref type="figure" target="#fig_5">S3J</ref>). Since HDSF almost completely abolished IFNα and TNF production, it is a possibility that HDSF-treated pDCs died ex vivo. However, after performing Annexin V </p><formula xml:id="formula_0">Ppt1 +/+ B6.Sle1yaa B6 Ppt1 -/- B6.Sle1yaa Ppt1 +/+ B6.Sle1yaa B6 Ppt1 -/- B6.Sle1yaa SSC CD11b-PerCP Cy5.5</formula><p>Gate on live cells    staining, we found that HDSF did not affect pDC viability (Fig. <ref type="figure" target="#fig_5">S3K</ref>). In summary, we found that PPT1 also regulates cytokine production by B cells and macrophages.</p><formula xml:id="formula_1">Ppt1 +/+ B6.Sle1yaa B6 Ppt1 -/- B6.Sle1yaa<label>CD44</label></formula><p>TLR9 and TLR7 are S-palmitoylated PPT1 is an enzyme involved in depalmitoylating proteins. To investigate the possible role of palmitoylation in SLE, we analyzed several palmitoylation proteomic profile studies <ref type="bibr" target="#b68">[63]</ref><ref type="bibr" target="#b69">[64]</ref><ref type="bibr" target="#b70">[65]</ref> . TLR9 was found to be present in one of the proteome databases <ref type="bibr" target="#b68">63</ref> . Therefore, we began to explore the possibility that TLR9 might be palmitoylated. The use of click chemistry can lead to the accurate detection of all sites of palmitoylation, including S-palmitoylation and O-palmitoylation sites <ref type="bibr" target="#b71">66,</ref><ref type="bibr" target="#b72">67</ref> .</p><p>Using azido palmitate acid (also called Click-iT palmitic acid, azide) labeling, we showed that murine TLR9 (mTLR9) expressed in the RAW264.7 murine macrophage cell line was palmitoylated (Fig. <ref type="figure" target="#fig_6">4A</ref>). Acyl-biotin exchange (ABE) is another traditional method to specifically detect S-palmitoylation <ref type="bibr" target="#b73">68,</ref><ref type="bibr" target="#b74">69</ref> . We performed ABE and confirmed that mTLR9 was S-palmitoylated (Fig. <ref type="figure" target="#fig_6">4B</ref>). Calnexin, a wellcharacterized S-palmitoylated protein, was used as a positive control, and RAB7 was used as a negative control (Fig. <ref type="figure" target="#fig_6">S4A</ref>). Both biochemical assays demonstrated that murine TLR9 was palmitoylated.</p><p>Based on a principle similar to that of ABE, we subjected mTLR9 to mass spectrometry analysis (Fig. <ref type="figure" target="#fig_6">4C</ref>). We found that two cysteine residues, C258 and C265, were S-palmitoylated (Fig. <ref type="figure" target="#fig_6">4D</ref> and<ref type="figure" target="#fig_6">S4B</ref>). These two amino acids are located in a small loop between the leucine rich repeat 8 (LRR8) and LRR9 in the ectodomain. However, these two palmitoylated sites were not in the Z-loop, the actual ligand-binding groove <ref type="bibr" target="#b14">9</ref> . We then proceeded to substitute these two cysteines with alanines (C258A + C265A, Mut2) and stably expressed this mutant in a TLR9-deficient RAW264.7 macrophage cell line (Fig. <ref type="figure" target="#fig_6">S4C-E</ref>). In ABE assays, we found that C258A and C265A mutations reduced the palmitoylation level of mTLR9 by 3-fold (Fig. <ref type="figure" target="#fig_6">4E</ref>). Since TLR7 also plays an important role in SLE pathogenesis, we examined the palmitoylation status of TLR7. Using click chemistry and ABE assays, we found that mTLR7 was S-palmitoylated (Fig. <ref type="figure" target="#fig_6">4F,</ref><ref type="figure">G</ref>). In summary, we found that murine TLR9 and TLR7 were S-palmitoylated.</p><p>We next examined the palmitoylation status of human TLR9 (hTLR9). The ABE assays demonstrated that hTLR9 expressed in the human monocyte cell line THP-1 or 293 T cells was also S-palmitoylated (Fig. <ref type="figure" target="#fig_6">4H,</ref><ref type="figure">I</ref>). Here we showed that TLR9 was S-palmitoylated in human cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DHHC3 palmitoylates TLR9 in the Golgi</head><p>A large family of integral membrane enzymes, known as DHHC acyltransferases, are critical for protein palmitoylation in the ER, Golgi, and plasma membrane <ref type="bibr" target="#b55">50,</ref><ref type="bibr" target="#b75">70</ref> . To identify the DHHC proteins involved in mTLR9 palmitoylation, we screened all murine DHHC proteins (23 in total) in 293 T cell lines overexpressing mTLR9 and individual DHHC proteins via ABE assays (Fig. <ref type="figure" target="#fig_7">5A</ref>). Among the 23 DHHC proteins we screened, we found that four proteins, DHHC3, DHHC17, DHHC18, and DHHC20, palmitoylated mTLR9 when overexpressed in vitro (Fig. <ref type="figure" target="#fig_7">5A</ref>). All DHHC proteins carried a cysteine site in the conserved DHHC motif   that was key to enzymatic activity <ref type="bibr" target="#b76">[71]</ref><ref type="bibr" target="#b77">[72]</ref><ref type="bibr" target="#b78">[73]</ref> . Therefore, we replaced the cysteine with serine in these four potential DHHC candidates. Of these mutants, only DHHC3, DHHC17, and DHHC18 showed reduced mTLR9 palmitoylation levels, suggesting that DHHC20 may have been a falsepositive hit (Fig. <ref type="figure" target="#fig_7">5B</ref>). Since mutated DHHC3 led to the most deleterious phenotype, we knocked out DHHC3 in RAW264.7 cells and found that the mTLR9 palmitoylation rate was reduced in DHHC3-deficient cell lines (Fig. <ref type="figure" target="#fig_7">5C</ref> and<ref type="figure" target="#fig_7">S5E</ref>). DHHC3, DHHC17 and DHHC18 had been previously found to be located in the Golgi and ubiquitously expressed in pDCs and macrophages (Fig. <ref type="figure" target="#fig_7">S5A</ref>, B) <ref type="bibr" target="#b65">60,</ref><ref type="bibr" target="#b79">[74]</ref><ref type="bibr" target="#b80">[75]</ref><ref type="bibr" target="#b81">[76]</ref><ref type="bibr" target="#b82">[77]</ref> . However, DHHC3 could not palmitoylate mTLR7 in vitro (Fig. <ref type="figure" target="#fig_7">5D</ref>), suggesting that TLR7 palmitoylation process is different from that of TLR9 (Fig. <ref type="figure" target="#fig_7">5A</ref>). Based on mTLR9 results, we also screened four human DHHC proteins with ABE assays in 293 T cells expressing hTLR9. Only DHHC3 and DHHC17 could palmitoylate hTLR9s in vitro (Fig. <ref type="figure" target="#fig_7">5E</ref>). Human DHHC3 and DHHC17 were also located in the Golgi, and expressed in human pDCs (Fig. <ref type="figure" target="#fig_7">S5C,</ref><ref type="figure">D</ref>). Here we showed that Golgi-bound DHHC proteins could palmitoylate human TLR9 in vitro.</p><formula xml:id="formula_2">Ppt1 +/+ Ppt1 -/- Ppt1 +/+ Ppt1 -/- Ppt1 +/+ Ppt1 -/-</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DMSO HDSF</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PPT1 depalmitoylates TLR9 in lysosomes</head><p>S-Palmitoylation is a reversible reaction <ref type="bibr" target="#b48">43</ref> . We noticed that the cellular palmitoylation profile was markedly changed in bone marrow-derived pDCs (Flt3L-pDCs) and RAW264.7 cells that were stimulated with a TLR9 agonist CpG A (Fig. <ref type="figure" target="#fig_8">S6A</ref>). Using a variety of TLR agonists, we found that only the TLR9 agonists CpG A and CpG B reduced the mTLR9 palmitoylation levels in RAW264.7 cells, as shown by ABE assays (Figs. <ref type="figure" target="#fig_8">6A</ref> and<ref type="figure" target="#fig_8">S6B</ref>). TLR2, TLR3, TLR4 or TLR7 agonists failed to alter mTLR9 palmitoylation (Figs. <ref type="figure" target="#fig_8">6A</ref> and<ref type="figure" target="#fig_8">S6B</ref>). In contrast, TLR7 was not depalmitoylated after R848 stimulation (Fig. <ref type="figure" target="#fig_8">6B</ref>). In this experiment, we showed that only TLR9 S-palmitoylation, but not TLR7, was reduced after activation.</p><p>Next, we sought to identify enzymes that depalmitoylate TLR9. Hydrolases, such as acyl protein thioesterases (APTs) in the cytosol, alpha/beta-hydrolase domain (ABHD) proteins and palmitoyl-protein thioesterases (PPTs) in lysosomes, can depalmitoylate proteins <ref type="bibr" target="#b57">52,</ref><ref type="bibr" target="#b83">78,</ref><ref type="bibr" target="#b84">79</ref> . Since TLR9 is trafficked from the Golgi to endosomes without being exposed its ectodomain to the cytosol, we considered only endosomal enzymes such as ABHD and PPT family members. Among the ABHD family members, ABHD10, ABHD17a, ABHD17b and ABHD17c had been previously shown to exhibit depalmitoylation ability <ref type="bibr" target="#b85">80,</ref><ref type="bibr" target="#b86">81</ref> . Of these candidates, only ABHD17a and ABHD17b were highly enriched in pDCs (Fig. <ref type="figure" target="#fig_8">S6C</ref>). In the PPT family, PPT1 has been shown to be a potent depalmitoylating enzyme in mice and humans, while PPT2 has been shown to exhibit specific affinity for palmitoyl-CoA but not proteins <ref type="bibr" target="#b87">82</ref> . Therefore, we analyzed palmitoylation levels of mTLR9 co-expressed with ABHD17a, ABHD17b or PPT1 in 293 T cells via ABE assay. We found that only PPT1 depalmitoylated mTLR9 in vitro (Fig. <ref type="figure" target="#fig_8">6C</ref>). In comparison, PPT1 could not depalmitoylate mTLR7 at all (Fig. <ref type="figure" target="#fig_8">6D</ref>).</p><p>Through an ABE assay using Flt3L-pDCs from PPT1-deficient mice, we confirmed that the loss of PPT1 resulted in increased TLR9 palmitoylation in CpG A-activated Fl3tL-pDCs at 4 h and 24 h (Fig. <ref type="figure" target="#fig_8">6E</ref>). Depalmitoylation of TLR9 after CpG A or CpG B activation was not evident in PPT1-deficient macrophages, suggesting that PPT1 played a role in depalmitoylation of TLR9 (Figs. <ref type="figure" target="#fig_8">6F</ref> and<ref type="figure" target="#fig_8">S6D, E</ref>). Treatment with a general palmitoylation inhibitor 2-BP or a PPT1-specific inhibitor HDSF decreased or increased mTLR9 palmitoylation, respectively (Fig. <ref type="figure" target="#fig_8">S6F</ref>) <ref type="bibr" target="#b56">51,</ref><ref type="bibr" target="#b88">83</ref> . We found that chemical inhibition of PPT1 was sufficient to abolish TLR9 depalmitoylation after CpG A and CpG B activation (Figs. 6G and S6G) <ref type="bibr" target="#b64">59</ref> . Accordingly, 2-BP could decrease mTLR7 palmitoylation, while HDSF could not increase mTLR7 palmitoylation (Fig. <ref type="figure" target="#fig_8">S6H</ref>). Collectively, our data suggested that PPT1, a lysosomal depalmitoylating enzyme, could depalmitoylate TLR9 upon CpG activation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation regulates TLR9 trafficking and depalmitoylation regulates TLR9 release</head><p>Since TLR9 undergoes a cycle of palmitoylation and depalmitoylation, we sought to examine the impact of this cycle on TLR9 function.</p><p>Through intracellular cytokine staining, we found that the loss of two palmitoylation sites (C258A and C265A) in mTLR9 led to reduced TNF production upon CpG B stimulations (Fig. <ref type="figure" target="#fig_9">7A</ref>). Using biotinylated CpG B in an immunoprecipitation assay, we found that these two mutations reduced the amount of cleaved mTLR9 bound to a labeled CpG ligand (Fig. <ref type="figure" target="#fig_9">7B</ref>). Our data suggested that S-palmitoylation might regulate TLR9's binding to CpG.</p><p>Next, we examined the impact of DHHC3 and PPT1, the two key enzymes involved in the palmitoylation cycle, on mTLR9 ligand binding capability. Through ELISAs, we found that DHHC3-deficient RAW264.7 cells secreted a reduced level of TNF (Fig. <ref type="figure" target="#fig_9">7C</ref>). Similarly, we found a reduction in TLR9-bound ligand level in DHHC3-deficient RAW264.7 cells (Fig. <ref type="figure" target="#fig_9">7D</ref>). PPT1-deficient RAW264.7 cells also produced less TNF when stimulated with CpG B (Fig. <ref type="figure" target="#fig_9">7E</ref>). Correspondingly, the ligand binding rate was reduced in PPT1-deficient cell lines (Fig. <ref type="figure" target="#fig_9">7F</ref>). Disruption of the palmitoylation cycle by adding either 2-BP or HDSF reduced TNF production and the ligand-binding rates of TLR9 (Fig. <ref type="figure" target="#fig_9">7G,</ref><ref type="figure">H</ref>). Interestingly, less cleaved TLR9 was observed in mTLR9 Mut2 cells before the pulldown, whereas there was no such phenomenon in DHHC3 or PPT1-deficent cells (Fig. <ref type="figure" target="#fig_9">S7A</ref>). Our results showed that the Golgi-to-lysosome palmitoylation cycle regulated TLR9 ligand binding. Next, we sought to differentiate the distinct function of palmitoylation and depalmitoylation. Regarding palmitoylation, we performed cell fractionation experiments, and found that more full length (FL) mTLR9 was retained in the Golgi fractions of DHHC3-deficient cells, which suggested that palmitoylation mediated by DHHC3 supported mTLR9 traffic into early endosomes where mTLR9 is cleaved to generate its functional form (Fig. <ref type="figure" target="#fig_9">7I</ref>). However, mTLR9 Mut2 had no obvious trafficking defect (Fig. <ref type="figure" target="#fig_9">S7B</ref>). Regarding depalmitoylation in lysosomes, we performed Co-IP experiments to detect the release of mTLR9 from UNC93B1 in lysosomes, which is essential for TLR9 signal initiation. We found that HDSF reduced the amount of UNC93B1 release from mTLR9 (Fig. <ref type="figure" target="#fig_9">7J</ref>). Our results suggest that palmitoylation regulated the trafficking of mTLR9 from the Golgi to endosomes; while depalmitoylation regulated the release of TLR9 from UNC93B1 in endolysosomes.</p><p>Lastly, general palmitoylation inhibitor 2-BP lowered IFNα secretion by PBMCs from SLE patients (Fig. <ref type="figure" target="#fig_9">S7C</ref>). 2-BP also reduced IL-6 production by B cells and their proliferation in vitro (Fig. <ref type="figure" target="#fig_9">S7D,</ref><ref type="figure">E</ref>). However, 2-BP did not reduce the levels of anti-DNA antibodies or total IgG in B6.Sle1yaa mice (Fig. <ref type="figure" target="#fig_9">S7F,</ref><ref type="figure">G</ref>). Therefore, we conclude that 2-BP regulated cytokine expression and immune cell proliferation in vitro.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we showed that TLR9 is palmitoylated in human and mice. Furthermore, we found that the palmitoylation and depalmitoylation of TLR9 were mediated by Golgi-resident DHHC3 and lysosomal-resident PPT1, respectively. This palmitoylation cycle regulated cytokine production in pDCs, B cells, and macrophages. We also demonstrated the significance of the TLR9 palmitoylation cycle in a murine model of SLE in vivo.</p><p>Our results suggested that the ligand binding of TLR9 is regulated by the endosomal palmitoylation cycle. We utilized several biochemical methods, such as click chemistry, ABE assay, and mass spectrometry, to show that human and mouse TLR9 are S-palmitoylated. Click chemistry and ABE assays can only predict the general palmitoylation status of a protein. We found that TLR9 is palmitoylated at the miniloop between LRRs. This pattern suggests that the palmitoylated amino acids may directly or indirectly facilitate the binding of CpG ligands. However, none of the potential palmitoylated sites were located in the CpG binding Z-loop <ref type="bibr" target="#b89">84</ref> . Palmitoylation has been shown to be important for endosomal trafficking of membrane associated proteins, such as Rab GTPases <ref type="bibr" target="#b90">85</ref> . Besides ligand binding and receptor trafficking, changes in palmitoylation level of TLR9 downstream signaling adapters, such as MYD88, might contribute to our observed phenotypes, especially in experiments using palmitoylation inhibitors <ref type="bibr" target="#b59">54</ref> . Lastly, previous studies of palmitoylated proteins have consistently identified only one or two cysteine residues as S-palmitoylation sites. However, our two point mutations (Mut2) did not completely abolish TLR9 palmitoylation in ABE assays. This suggested that TLR9 may have additional palmitoylation sites. In summary, S-palmitoylation may simultaneously regulate TLR9 and TLR7 trafficking, membrane stability, and downstream signaling pathway.</p><p>Regarding the TLR9 Mut2, we have consistently noticed the weaker cleaved TLR9 bands in TLR9-Mut2 cells. However, we did not see such clearly weakened cleavage bands in our DHHC3 or PPT1-deficient cells. We also performed cellular fractionation experiments on Mut2 cells, and they had no defect in trafficking of TLR9 from Golgi to endosomes. This indicated that this Mut2 phenotype is not entirely due to the loss of palmitoylation. One possible explanation could be that these two mutations play a role in TLR9 cleavage process itself. Multiple lysosomal proteases are required for TLR9 cleavage. These two mutations may result in an altered structure, or may interfere with enzymatic process. Given that TLR9 is a highly conserved protein, these two sites may have additional functions beyond palmitoylation.</p><p>Despite our identification of DHHC3 and PPT1 as main enzymes in the endosomal palmitoylation cycle, other acyltransferases or thioesterases may be capable of palmitoylating or depalmitoylating TLR9. For example, we showed that Golgi-based DHHC17 and DHHC18 possessed the potential to palmitoylate TLR9 in vitro. To overcome the limitation of in vitro assays, experiments with mice deficient in different DHHCs may be useful for determining the function and redundancy of these enzymes in vivo. Compared to DHHC screening, only 5 lysosomal enzymes are known to depalmitoylate proteins. We screened PPT1, ABHD17a, and ABHD17b based on their high expression in pDCs, but not ABHD17c or ABHD10. Because our depalmitoylation enzyme screening was limited, we could possibly miss other proteins besides PPT1 that has a similar capacity for depalmitoylating TLR9. Additionally, it is not clear why the endosomal palmitoylation cycle must occur in the Golgi and lysosomes. The co-localization of TLR9 with DHHC3, PPT1, and other potential interacting proteins, warrants further investigation via cellular fractionation or super resolution microscopy in pDCs and macrophages. It is unclear whether specific organelles provide favorable conditions for palmitoylation depalmitoylation of TLR9. It would be interesting to investigate which molecules signal the key lysosomal depalmitoylation step after TLR9 activation. Lastly, we have yet to confirm the human homolog of DHHC3 and PPT1 in the hTLR9 palmitoylation cycle. The endosomal locations of murine and human DHHCs are highly conserved, as indicated by human DHHC3, DHHC17, and DHHC18 being located in the Golgi. The effect of the palmitoylation inhibitor treatment of human samples support the hypothesis that the murine and human TLR9 palmitoylation mechanisms might be similar.</p><p>Our results suggest that the TLR9 palmitoylation cycle has two major steps: palmitoylation in the Golgi, and depalmitoylation in endosomes. By performing cellular fractionation experiments, we found that DHHC3-deficient cells retained more full-length TLR9 in the Golgi, and less cleaved TLR9 was found in endosomes. Thus, palmitoylation is required for the trafficking of TLR9 from the Golgi to endosomes. Less cleaved TLR9 in the endosomes would result in a decrease of TNF secretion that was observed in DHHC3-deficient cells. Regarding the depalmitoylation step, using Co-IP experiment to probe the amount of retained TLR9 on UNC93B1, we found that there was less TLR9 bound to UNC93B1 in HDSF-treated cells, which also led to reduced TLR9 signaling. In summary, TLR9 palmitoylation regulates TLR9 trafficking from the Golgi to endosomes, and TLR9 depalmitoylation controls the release of TLR9 from UNC93B1 in endosomes. Inhibition of either step would result in less free cleaved TLR9 in the endosomes and thus reduced signaling. In accordance, HDSFtreatment and PPT1-deficiency both markedly slowed SLE pathogenesis. However, 2-BP treatment had little effect on autoantibody production in vivo. Further studies with DHHC3-deficient mice should further clarify the importance of TLR7/9 palmitoylation.</p><p>TLR7 has been shown to be an important signaling pathway for SLE pathogenesis. Using click chemistry and ABE assays, we found that TLR7 was also S-palmitoylated. However, DHHC3 overexpression could not palmitoylate TLR7, suggesting that other DHHCs might be responsible for TLR7 palmitoylation. More importantly, ABE assays showed that TLR7 was not depalmitoylated after R848 activation. In contrast, TLR9 was quickly depalmitoylated after CpG activation and stayed depalmitoylated even after 24 h. Moreover, overexpression of PPT1 do not cause TLR7 to depalmitoylate. Neither could PPT1 inhibitor HDSF change TLR7 palmitoylation level. In conclusion, TLR7 is not involved in the same cycle of palmitoylation/depalmitoylation as TLR9. Cleaved TLR7 does not need to be released from UNC93B1, while TLR9 does. The depalmitoylation of TLR9 by PPT1 facilitated its release from UNC93B1 before ligand-binding in lysosomes, while the TLR7 may not require depalmitoylation to initiate downstream signaling. Thus, it is less likely that the phenotypes we observed in the PPT1deficient mice are mainly due to perturbed depalmitoylation of TLR7.</p><p>B cells, which are also activated by TLR7 and TLR9, arguably play a direct role in SLE pathogenesis. Although PPT1 expression in B cells was lower than pDCs and macrophages, the impact of the palmitoylation cycles on B cells should not be overlooked. Regarding the palmitoylation step, we found that 2-BP decreased IL-6 production and cell proliferation in B cells in vitro. Unfortunately, 2-BP treatment had little effect on autoantibody production in vivo. Regarding the depalmitoylaton step, we sorted B cells from Ppt1 +/+ or Ppt1 -/-mice and examined their IL-6 production with ELISA. We found that PPT1 had an impact on IL-6 production by B cells, though the difference was very modest. Next, we examined Ppt1 +/+ or Ppt1 -/-B cell proliferation after TLR9 stimulation. We also found that there was a slight difference. PPT1 inhibitor HSDF had a stronger effect on B cell cytokine secretion and proliferation. This pattern is consistent as in pDCs and macrophages. In conclusion, the TLR9 palmitoylation cycle had a modest impact in B cells, and may contribute partially to the phenotypes we observed in PPT1-deficient mice. Since TLR9 may be both inflammatory and suppressive in B cells, our results suggest that TLR9 palmitoylation may play a pathogenic role in B cells. It would also be intriguing to compare the differences in PPT1 expression levels in macrophages and pDCs from healthy volunteers and SLE patients, as well as changes in response to CpG A stimulation, and to detect differences and changes in TLR9 palmitoylation modification and inflammatory factor secretion.</p><p>Our previously published results regarding PPT1 in cDC1s complicates our current finding <ref type="bibr" target="#b62">57</ref> . We reported that PPT1-deficient cDC1s enhanced the priming of naive CD8 + T cells into tissue-resident effectors and memory T cells, resulting in rapid clearance of tumors and Listeria monocytogenes <ref type="bibr" target="#b62">57</ref> . Mechanistically, we showed that PPT1 protected steady-state DCs from viral infection by promoting antigen degradation and endosomal acidification via V-ATPase recruitment <ref type="bibr" target="#b84">79</ref> . We also previously demonstrated that PPT1-deficient cDCs and MoDCs exhibit upregulated cytokine production and costimulatory molecules when activated with the TLR4 agonist LPS <ref type="bibr" target="#b62">57</ref> . In the present study, we demonstrated that PPT1-deficient pDCs and macrophages under TLR9 stimulation are less activated, leading to the acquisition of a phenotype that is opposite of hyperactivated PPT1-deficient cDC1s. In PPT1-deficient mice, hyperactivated cDC1s and hypoactivated pDCs coexist, complicating the study of the overall inflammatory phenotype. In tumors and intracellular bacterial and chronic viral infection, PPT1 deficiency in cDC1s enhances the cross-presentation-specific CTL response. In SLE, PPT1 deficiency in pDCs weakens the overall T cell responses.</p><p>Originally used to treat malaria, the chloroquine derivative hydroxychloroquine (HCQ) is an effective medication to treat SLE <ref type="bibr" target="#b91">86</ref> . HCQ accumulates in endosomes and prevents endosomal TLRs from binding to their ligands <ref type="bibr" target="#b92">87,</ref><ref type="bibr" target="#b93">88</ref> . One of the possible inhibitory targets of HCQ is palmitoyl-protein thioesterase 1 (PPT1) <ref type="bibr" target="#b94">89</ref> . HDSF may also exert effects by mediating the activation of the same immunosuppressive pathway as that mediated by HCQ, which also inhibits PPT1 <ref type="bibr" target="#b94">89</ref> . HSDF action may also inhibit MYD88 and STAT3 activation, as both proteins are palmitoylated <ref type="bibr" target="#b59">54,</ref><ref type="bibr" target="#b60">55</ref> . In addition, it is possible that HDSF could increase endosomal pH, which may reduce the TLR9 cleavage rate dependent on acidic lysosomes <ref type="bibr" target="#b62">57,</ref><ref type="bibr" target="#b84">79</ref> . Our results indicated a more robust inhibition of the TLR9 pathway than TLR7, which is consistent with previous findings with HCQ <ref type="bibr" target="#b95">90</ref> . This further supports the notion that the most commonly used SLE therapeutic is the correct agent for inhibiting TLR9 signaling.</p><p>PPT1 may be a great drug target to treat IFN-I-mediated autoimmunity, because its inhibition may simultaneously enhance cDC1dependent cross-priming and suppress pDC-dependent IFN-I production. Many immunosuppressive drugs have the same drawback: they have been associated with frequent opportunistic infections and tumorigenesis due to weakened immunity in patients. In this study, we demonstrated that PPT1 inhibitor HDSF effectively controls IFN-I production in mice and humans. We previously showed that PPT1-deficient mice had a lower tumor burden and a higher survival rate than PPT1-sufficient mice in xenograft tumor models, possibly due to 4-fold expansion of tissue-resident memory CD8 + T cells <ref type="bibr" target="#b62">57</ref> . PPT1-deficient mice also had 30-fold lower bacterial load when infected with Listeria monocytogenes, an intracellular bacterium, due to 3-fold expansion of KLRG-1 + short-lived effector CD8 + T cells <ref type="bibr" target="#b62">57</ref> . In addition, PPT1-deficient mice had 3-fold lower viral titers when infected with lymphocytic choriomeningitis virus (LCMV) clone 13, a chronic infection variant <ref type="bibr" target="#b62">57</ref> . Similarly, adoptive transfer of WT BMDCs treated with HDSF was able to extend mice survival in xenograft tumor transplantation models and lower bacterial load by 50-fold in Listeria monocytogenes infection models <ref type="bibr" target="#b62">57</ref> . PPT1 inhibitors such as HDSF may be the first drug in its class to suppress autoimmunity while enhancing immunity against tumorigenesis and infection.</p><p>In conclusion, our data reveal a Golgi-to-lysosomal palmitoylation pathway that regulates the TLR9 and TLR7 response in mice and humans. We showed that disruption of this endosomal palmitoylation/ depalmitoylation cycle suppressed TLR9 ligand binding and cytokine production in pDCs and macrophages. PPT1 genetic deficiency or chemical inhibition suppressed anti-DNA autoantibodies and attenuated nephritis in B6.Sle1yaa mice. Given its opposite action in cDC1s and pDCs, PPT1 may be a potential pharmaceutical inhibitory target for SLE treatment, due to possible added benefit of enhancing the CTL response against cancer and pathogens.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transgenic mice</head><p>All mice were bred and maintained in specific pathogen-free conditions at GemPharmatech Co., Ltd., and BSL3 facilities at Sun Yat-sen University, according to the institutional guidelines and protocols approved by the Animal Ethics Committee of Sun Yat-sen University, Guangzhou, Guangdong, China. C57BL/6 J (WT), B6.SJL-Ptprc a Pepc b / BoyJ (Strain #: 002014, CD45.1 + ), B6.129S6-Ppt1 tm1Hof /SopJ, (Strain #: 006566, Ppt1 -/-) <ref type="bibr" target="#b96">91</ref> , B6. Cg-Sle1 NZM2410/Aeg Yaa/DcrJ (Strain #: 021569, B6. Sle1yaa) <ref type="bibr" target="#b20">15</ref> , and C57BL/6-Tg (CLEC4C-HBEGF)956Cln/J (Strain #: 014176, BDCA2-DTR) <ref type="bibr" target="#b67">62</ref> mice were purchased from the Jackson Laboratory. B6.129S6-Ppt1tm1Hof/SopJ (Ppt1 -/-) mice were back-crossed for ≥10 generations with C57BL/6 J. Ppt1 -/-B6.Sle1yaa, and Ppt1 +/+ B6.Sle1yaa mice were generated by crossing B6.Cg-Sle1 NZM2410/Aeg Yaa/DcrJ (B6.Sle1yaa) males with backcrossed B6.129S6-Ppt1tm1Hof/SopJ (Ppt1 -/ -) females for two generations. Age-and sex-matched mice at 6-16 weeks of age were used in this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generation of chimeras</head><p>The chimeras were generated as previously described <ref type="bibr" target="#b67">62</ref> . To establish BDCA2-DTR: Ppt1 +/+ or BDCA2-DTR: Ppt1 -/-mixed chimeras, CD45.1 + mice were lethally irradiated and then injected i.v. with 5 × 10 6 bone marrow cells harvested from Ppt1 +/+ or Ppt1 -/-littermates and 5 × 10 6 bone marrow cells from age-and sex-matched BDCA2-DTR mice. All chimeras were fed antibiotics for 2 weeks and then rested for at least an additional 8 weeks to allow reconstitution of immune cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Murine SLE model</head><p>Measurement of anti-dsDNA antibodies in serum was previously described <ref type="bibr" target="#b37">32</ref> . Briefly, 96-well flat bottom ELISA plates were coated with 50 µl of 50 µg/ml poly-L-lysine (Sigma, P8920) diluted in 1x PBS overnight at 4 °C. The plates were washed with 1x PBS/0.05% Tween, coated with 10 µg/ml dsDNA (Invitrogen, 15633019) diluted in PBS and incubated overnight at 4 °C. Excess antigen was washed off using 1x PBS/ 0.05% Tween. Antigen-coated plates were blocked with 250 ml/well of 1x PBS/1%BSA for at least 2 h at RT. Blocked plates were washed once with 1x PBS/0.05% Tween, coated with diluted serum in PBS and incubated overnight at 4 °C. Unbound serum antibodies were washed off the plates with 1x PBS/0.05% Tween. Bound IgG was detected using a 1:1000 dilution of goat AP-conjugated anti-mouse IgG (Invitrogen, G-21060) diluted in 1x PBS/1% BSA for 2 h. Unbound secondary antibody was washed off the plates with 1x PBS/0.05% Tween and developed using diethanolamine substrate buffer (Thermo Fisher Scientific, 34064) and PNPP phosphatase substrate tablets (Sigma, SIG-MAS0942). For relative quantitation of antigen-specific IgG titers, serum from an anti-DNA-positive animal (B6.Sle1yaa &gt; 16 weeks old) was used as the standard after serial double dilution. The O.D. at the lowest serum dilution was arbitrarily assigned a value of 100 µ/ml. The standard curve was plotted as O.D. at 405 nm versus antigen concentration (µ/ml).</p><p>Total serum IgG titers were measured by coating ELISA plates with IgG-positive serum and adding samples after serial double dilution. The bound serum antibody was detected with goat AP-conjugated antimouse IgG (Invitrogen, G-21060).</p><p>Serum anti-RNP/Sm antibodies titers were measured by RNP/Sm IgG ELISA kit (Calbiotech, RN038G-KIT) according to the manufacturer's instructions.</p><p>For kidney H&amp;E analysis, mouse kidneys were fixed in formalin and embedded in paraffin, and tissue sections were stained with H&amp;E. Glomerular size was analyzed in a blinded manner using ImageJ software (Version: 2.1.0/1.53c). Glomerular size was determined from an area with at least 10 glomeruli per kidney section from at least 3 mice in each group.</p><p>For kidney immunofluorescence analysis, mouse kidneys were frozen in OCT (Tissue Tek). Five-to ten-micrometer-thick kidney sections were fixed using chilled acetone for 10 min. Sections were stained with DAPI, rabbit anti-mouse IgG (Thermo Fisher Scientific, A27022) and rat anti-mouse C3 (Abcam, ab11862). Images were captured using a Keyence BZ-X710 fluorescence microscope at 40X magnification. Immunofluorescence intensity was quantitated in a blinded manner using ImageJ (Version: 2.1.0/1.53c). Immunofluorescence intensity of at least 10 glomeruli per kidney section from 3 or 4 mice in each group was measured.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Viral infections</head><p>The viral infections were previously described <ref type="bibr" target="#b97">92</ref> . For HSV-1 infection, 5 × 10 6 PFU of virus was diluted in PBS and injected i.v. into Ppt1 +/+ and Ppt1 -/-mice. Serum was collected at 5 h post infection. 200 ng/mouse of diphtheria toxin (Sigma, D0564) was injected i.p. into BDCA2-DTR:Ppt1 +/+ and BDCA2-DTR:Ppt1 -/-mixed chimeras 24 h before infection with HSV-1. Serum was collected at 5 h post infection. Serum was stored at -80 °C until analyzed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation inhibitors</head><p>For in vitro palmitoylation inhibitor treatment, cells were pretreated overnight at 37 °C with 50 µM 2-BP (Sigma, 21,604), 10 µg/mL HDSF (APExBio, C5608) or DMSO as the control. For in vivo treatments, palmitoylation inhibitor treatment was initiated in 8-week-old B6.Sle1yaa mice. Dissolved HDSF or DMSO was diluted in saline and intravenously injected at 20 mg/kg every other day. For 2-BP injection, dissolved 2-BP or DMSO was diluted in saline and intraperitoneally injected at 40 mg/kg every other day.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation assays</head><p>Click chemistry assays were previously described <ref type="bibr" target="#b72">67</ref> . Cells were treated with 100 µM azido palmitic acid (Click-iT palmitic acid-azide) (Thermo Fisher Scientific, C10265) in complete DMEM and then incubated at 37 °C under 5% CO 2 for 6 h. After incubation, the medium was removed, and the cells were washed three times with phosphatebuffered saline before the addition of lysis buffer containing a protease inhibitor cocktail (Thermo Fisher Scientific, 78443). Insoluble material was eliminated from the protein-containing cell lysates by centrifugation. Protein concentrations were measured using the BCA assay (Beyotime, P0012). 100 μg of protein was transferred to a fresh tube to serve as 'input'. 200 μg of azide-labeled protein sample was reacted with biotin-alkyne using a Click-iT Protein Reaction Buffer Kit (Thermo Fisher Scientific, C10276) following protocols on the manufacturer's instruction sheet. Then, the biotin alkyne-azide-palmiticprotein complex was pulled down by streptavidin-agarose beads (Thermo Fisher Scientific, 20361). Proteins after enrichment were labeled as "output". After washing, bead-bound samples were resuspended in 0.2 ml of 2× reducing SDS-PAGE sample buffer and boiled for 10 min at 95 °C.</p><p>Acyl-biotin exchange (ABE) assays were previously described <ref type="bibr" target="#b74">69</ref> . Samples were suspended in 1 ml of lysis buffer (Thermo Fisher Scientific, 87787) containing a protease inhibitor cocktail (Thermo Fisher Scientific, 78443) and 50 mM N-ethylmaleimide (Sigma, E3876) and incubated overnight at 4 °C. Samples were precipitated with chloroform/methanol, briefly air-dried, and resuspended in 1 mL of resuspension buffer (50 mM Tris-HCl, pH 7.2; 2% SDS; 8 M urea; and 5 mM EDTA). Samples were then divided into 2 solutions; 1 aliquot was combined with 0.5 mL 1 M hydroxylamine (Macklin, H811237), and the negative control was combined with 0.5 mL 1 M NaCl. Samples were incubated at RT for 1 h, and then proteins were precipitated by chloroform-methanol treatment. Protein pellets were resuspended in 1 mL of resuspension buffer containing 10 μM EZ-Link HPDP-Biotin (Thermo Fisher Scientific, 21341) and incubated at RT for 2 h. Excess biotin was removed via chloroform-methanol precipitation. Protein pellets were dissolved in 0.25 mL of resuspension buffer. Protein concentrations were measured by BCA assay. 100 μg of protein was transferred to a fresh tube to serve as 'input'. 800 μg of protein in solution was diluted 1:10 with PBS and mixed with 20 µL of streptavidin-agarose beads (Thermo Fisher Scientific, 20361) for 1 h. The beads were washed 3 times with PBS containing 1% SDS. Beadbound samples were labeled as "output", and were resuspended in 0.2 ml of 2× reducing SDS-PAGE sample buffer (Sigma, S3401). The samples were boiled for 10 min at 95 °C before SDS-PAGE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mass spectrometry</head><p>Sample preparation with ABE was previously described <ref type="bibr" target="#b73">68,</ref><ref type="bibr" target="#b74">69</ref> . RAW264.7 cells carrying mTLR9-Flag were lysed, solubilized and immunoprecipitated with anti-FLAG affinity beads (Sigma, A2220). After washing with 1 ml of lysis buffer three times at 4 °C, the beads were subjected to the ABE assay preparation procedure and an alkylation reaction using an IP-ABE Palmitoylation Kit for MS (Aims, AM10417) following the protocols on the manufacturer's instruction sheet. The eluted sample was used for further MS analysis.</p><p>Samples were digested into peptides by trypsin, and then analyzed by liquid chromatography-tandem mass spectrometry using a nanoflow UPLC system (Thermo Fisher Scientific) and Q Exactive Hybrid Quadrupole-Orbitrap mass spectrometer (Thermo Fisher Scientific). Peptide mixtures were separated on an Easy-nLC 1200 system on a C18 nanocolumn (3 μm, 75 μm × 15 cm, made in house) at a flow rate of 600 nL/min. A 66-min linear gradient was established as follows: 4% B to 8% B in 2 min, 8% B to 28% B in 43 min, 28% B to 40% B in 10 min, 40% B to 95% B in 1 min and held for 10 min at 95% B. For data acquisition, a top 20 scan mode with an MS scan range of m/z 300-1800 was used. To better identify modified amino acid sites, each precursor ion was fragmented with HCD. The collision energy of the HCD was set to 28, and the ETD reaction time was set automatically according to the m/z and ion charge state of each precursor. The raw MS files were analyzed and searched against a target protein database based on the sample species using Byonic (Version 4.3). The parameters were set as follows: the protein modifications were carbamidomethylation (C) (+57.0215), acetyl (protein N-term) (variable), oxidation (M) (variable), and palmitoylation (C, K, S, T, protein N-term) (+238.230); the enzyme specificity was set to trypsin; the maximum number of missed cleavages was set to 3; the precursor ion mass tolerance was set to 20 ppm, and the MS/MS tolerance was 20 ppm. Only peptides identified with high confidence were chosen for downstream protein identification analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ligand binding</head><p>Ligand binding immunoprecipitation methods were previously prescribed <ref type="bibr" target="#b98">93</ref> . Cells were fed 1 μM CpG B-biotin (InvivoGen, tlrl-1826b) for 4 h. Then, the medium was removed, and the cells were washed three times with phosphate-buffered saline followed by lysis buffer containing a protease inhibitor cocktail. Insoluble materials were eliminated from the protein-containing cell lysates by centrifugation. Protein concentrations were measured by BCA assay. Protein from the lysates (1 mg per 1 mL) were suspended in 1 ml of lysis buffer containing a protease inhibitor cocktail and incubated with 20 µL of streptavidin-agarose beads overnight at 4 °C with end-over-end rotation. Unbound proteins were removed by washing 4 times with 1 ml of lysis buffer. Bead-bound proteins were denatured in 2× reducing SDS-PAGE sample buffer and boiled for 5 min at 95 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Human samples</head><p>This study was approved by the Ethics Committee of First Affiliated Hospital, Sun Yat-sen University (Approval No. 2022-436). Informed consent was obtained from all subjects. All patients met the American College of Rheumatology classification criteria for systemic lupus erythematosus <ref type="bibr" target="#b99">94</ref> . Patients with concurrent infection, malignancy or other autoimmune diseases were excluded from the study. There was no exclusion criterion for healthy volunteers.</p><p>Peripheral blood mononuclear cells (PBMCs) were isolated from whole blood by using a Hisep LSM (Ficoll). pDCs were enriched from freshly isolated PBMCs (purity &gt;50%) by negative selection using human Plasmacytoid Dendritic Cell Isolation Kit II (Miltenyi, 130-097-415), according to the manufacturer's instructions. Cells were cultured in complete RPMI-1640. For cytokine production, cells were preincubated with DMSO, 2-BP or HDSF and then stimulated with 1 μM CpG A (InvivoGen, tlrl-2216-1). Cytokine production was measured by ELISA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primary cell culture</head><p>To establish Fl3tL-pDCs, 3 × 10 6 bone marrow cells per well were cultured in tissue culture-treated 6-well plates in 3 ml of complete RPMI-1640 (RPMI-1640 supplemented with 10% FCS, 1% L-glutamate, 1% sodium pyruvate, 1% MEM with nonessential amino acids, 1% penicillin/ streptomycin, and 55 μM 2-mercaptoethanol). Fl3tL-B16 culture supernatant was added as conditioned medium to account for 20% of the medium and provide Flt3L to cells. Fl3tL-B16 (ATCC, CRL-6475) cells were retrovirally transduced in house with murine Flt3l plasmid. Flt3L-pDCs were gated as live + CD11c + B220 + SiglecH + cells. These cells were harvested on Day 7.</p><p>To establish BMDMs, 5 × 10 6 bone marrow cells per well were cultured in 90-mm nonpyrogenic sterilized petri dishes in complete DMEM (DMEM supplemented with 10% FCS, 1% L-glutamine, 1% sodium pyruvate, 1% MEM with nonessential amino acids, 1% penicillin/streptomycin, and 55 μM 2-mercaptoethanol) and L929 mouse fibroblast (ATCC, CRL-6364TM) culture supernatant was added as conditioned medium to account for 30% of the medium and provide macrophage colony stimulating factor (M-CSF). One-half of the medium was replenished on Day 3 and Day 6, and the cells were harvested on Day 7. To harvest the macrophages, the cultured cells were washed once with ice-cold PBS and then incubated in PBS containing 20 mM EDTA and 20% FCS at 37 °C for 5 min. BMDMs were gated as live + CD45 + CD11b + F4/80 + cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immune cell isolation</head><p>To harvest immune cells from lymphoid tissue, organs were minced, ground, and passed through a 70-μm nylon mesh. Erythrocytes were removed using ammonium-chloride-potassium lysis buffer (150 mM ammonium chloride, 10 mM potassium bicarbonate, and 0.1 mM EDTA). The cells were counted using a Beckman Coulter CytoFLEX flow cytometer. Before cell sorting, pDCs were negatively enriched by the addition of the following cocktail of biotinylated antibodies to the culture: anti-IgG, anti-IgD, anti-CD19, anti-CD93, anti-CD5, anti-Ly6G, anti-Ter119, anti-CD41, anti-NK1.1, anti-TCRb, anti-CD3, anti-CD11b, anti-CD24 and anti-F4/80 antibodies at a 1:1000 dilution for 20 min at 4 °C. Unlabeled cells were collected, and pDCs were sorted as B220 lo CD11c lo SiglecH + BST-2 + (purity &gt;95%). Cell-sorting experiments were conducted on a BD FACSAria III flow cytometer. Staining was performed at 4 °C in the presence of an Fc blocker (BD, Clone 2.4G2) and FACS buffer (PBS, 0.5% BSA, 2 mM EDTA, and 0.1% sodium azide). Peritoneal cavity macrophages (Per. MΦ) were obtained by peritoneal cavity lavage twice with 5 mL of ice-cold PBS. Per. MΦ were collected in a 15-ml tube and centrifuged at 500 × g for 5 min. After short incubation on tissue-culture plates and washing of unattached cells, Per. MΦ were considered purified (purity &gt;90%).</p><p>A table with details of the biotinylated antibodies is presented below:</p><p>Invitrogen </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Flow cytometry</head><p>Flow cytometry was performed on a Beckman Coulter CytoFLEX and analyzed using FlowJo software (Tree Star, version X). MFI was calculated on the basis of the genomic mean with FlowJo software. Staining was performed at 4 °C in the presence of an Fc blocker (Clone 2.4G2; BD) and FACS buffer (PBS, 0.5% BSA, 2 mM EDTA, and 0.1% sodium azide). For intracellular cytokine staining, 10 µg/ml brefeldin A (BFA, eBioscience) was added to TLR ligands with the following factors at the following concentrations: 1 µg/ml R848 (InvivoGen, tlrl-r848), 1 µM CpG A (InvivoGen, tlrl-1585), 1 µM CpG B (InvivoGen, tlrl-1668), 1 µg/mL Pam3CSK4 (InvivoGen, tlrl-pms), 100 ng/mL LPS (Sigma, L2654-1MG), and 500 ng/mL poly(I:C) (InvivoGen, tlrl-pic) for 4-16 h before staining using an intracellular staining kit (Thermo Fisher Scientific, 88-8824-00). The number of apoptotic cells was measured using an Annexin V-FITC Apoptosis Detection Kit (Invitrogen, BMS500FI) according to the manufacturer's instructions.</p><p>A detailed table of the antibodies used for flow cytometry is presented below.</p><p>The following antibodies were used at a dilution of 1:400 (unless otherwise indicated):</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | PPT1 deficiency protects SLE mice from autoantibodies and nephritis. C57BL/6 J (B6), Ppt1 +/+ B6.Sle1yaa and Ppt1 -/-B6.Sle1yaa mice were sacrificed at 16 weeks (n = 5 mice for B6; n = 15 mice for Ppt1 +/+ B6.Sle1yaa and Ppt1 -/-B6.Sle1yaa for the entire figure). A Spleen image (left), weight (center) and cell numbers (right) are shown. B Serum anti-DNA antibodies were measured by ELISAs. C Serum anti-RNP/Sm antibodies were measured by ELISAs at 16 weeks. D Serum total IgG were measured by ELISAs. E Glomerulus size was calculated from H&amp;E-stained kidney sections (left). Each dot represents an individual glomerulus (n = 40 in B6; n = 44 in Ppt1 +/+ B6.Sle1yaa and Ppt1 -/-B6.Sle1yaa). F Representative images from kidney immunofluorescence sections are shown (left). IgG (top) and C3 (bottom) staining in individual glomerulus was quantified (n = 40 glomeruli in B6; n = 42 glomeruli in Ppt1 +/+ B6.Sle1yaa and Ppt1 -/-B6.Sle1yaa). G Splenic CD11b + cell distribution is indicated by FACS plots (left), percentages (middle), and cell numbers (right). H Splenic CD4 + T cell activation is indicated by FACS plots (left), percentages (middle), and cell numbers (right). I Splenic CD8 + T cell activation is indicated by FACS plots (left), percentages (middle), and cell numbers (right). J Splenic plasma cell distribution is indicated by FACS plots (left), percentages (middle), and cell numbers (right). All data are pooled from three independent experiments (mean ± SEM.; P values were calculated by two-way Student's t test).</figDesc><graphic coords="3,70.87,273.02,361.00,343.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | PPT1 inhibitor HDSF suppresses IFNα in SLE patients and SLE pathogenesis in mice. A PBMCs of SLE patients were treated with DMSO or HDSF overnight. After CpG A stimulation, IFNα levels was evaluated by ELISAs (n = 17 individuals for DMSO/HDSF). B 8-weeks-old B6.Sle1yaa mice (n = 7 mice per group for the rest of figure) were treated with DMSO or HDSF for 8 weeks before sacrifice at 16 weeks. Spleen image (left), weight (center) and cell numbers (right) are shown. C Serum anti-DNA antibodies were measured by ELISAs at indicated weeks of treatment. D Serum anti-RNP/Sm antibodies were measured by ELISAs at the end of treatment. E Serum total IgG were measured by ELISAs at indicated weeks of treatment. F Glomerulus size at 16 weeks is calculated from H&amp;E-stained kidney sections (left). Each dot represents an individual glomerulus (n = 40 glomeruli per group). G Representative images from kidney immunofluorescence sections are shown (left). IgG (middle) and C3 (right) staining in individual glomerulus was quantified (n = 50 glomerulus per group). H Splenic CD11b + cell distribution is indicated by FACS plots (left), percentages (middle), and cell numbers (right). I Splenic CD4 + T cell activation is indicated by FACS plots (left), percentages (middle), and cell numbers (right). J Splenic CD8 + T cell activation is indicated by FACS plots (left), percentages (middle), and cell numbers (right). K Splenic plasma cell distribution is indicated by FACS plots (left), percentages (middle), and cell numbers (right). All data are representative of three independent experiments (mean ± SEM.; P values were calculated by two-way Student's t test), except for those presented in (A), which were pooled from five independent experiments (P values were calculated by two-tailed Wilcoxon matched-pair signed rank test).</figDesc><graphic coords="4,86.89,78.80,343.72,481.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | PPT1 controls the cytokine response by pDCs, B cells and macrophages. A pDCs enriched from PBMCs of healthy volunteers were treated with DMSO or HDSF overnight. After CpG A stimulation, IFNα levels was evaluated by ELISAs (n = 9 individuals). B Sorted Flt3L-pDCs were treated with CpG A at the indicated timepoints. Ppt1 (left) and Ifna (right) qPCR results are shown (n = 3 mice per group). C Sorted Ppt1 +/+ or Ppt1 -/-BM pDCs were treated with TLR9/TLR7 agonizts (left). CpG A and R848 ELISA results are shown (n = 4 mice per group). D Ppt1 +/+ or Ppt1 -/-mice were infected with HSV (left). Serum IFNα ELISAs for HSV (right) are shown (n = 5 mice for HSV). E Ppt1 +/+ or Ppt1 -/-indicated immune cells were treated with CpG B treatment. TNF ELISA results for CD19 + B cells, Per.MΦ and BMDMs are shown (n = 4 mice per group for CD19 + B cells and Per.MΦ, n = 3 mice per group for BMDMs). F WT indicated immune cells were treated with DMSO or HDSF, followed by a CpG A (pDCs) or CpG B (B cells and macrophages) pulse. TNF ELISA results for sorted BM pDCs, CD19 + B cells, Per.MΦ and BMDMs are shown (n = 4 mice per group for sorted BM pDCs, CD19 + B cells and Per.MΦ, n = 3 mice per group for BMDMs). All data are representative of three (mean ± SEM.; P values were calculated by two-way Student's t test), except for those presented in (A), which were pooled from three independent experiments (P values were calculated by two-tailed Wilcoxon matched-pair signed rank test).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | TLR9 and TLR7 are S-palmitoylated. A Click chemistry reactions with azido palmitic acid (PA) were performed on RAW264.7 cells transduced with mTLR9-FLAG. A representative blot (left) and mTLR9 relative palmitoylation levels (right, quantified as the output-to-input ratio of signals from all TLR9 bands, n = 3 replicates). B ABE assays were performed in RAW264.7 cells transduced with mTLR9-FLAG (n = 3 replicates). C ABE sample preparation for mass spectrometry. D Selected MS spectra for mTLR9 C258 and C265. E ABE assays were performed on Tlr9 -/-RAW264.7 cells transduced with TLR9 C258A + C265A (Mut2). mTLR9 S-palmitoylation was quantified as the mTLR9 output to calnexin output ratio (n = 4 replicates). F Click chemistry reactions with azido palmitic acid (PA) were performed on RAW264.7 cells transduced with mTLR7-HA. A representative blot (left) and mTLR7 relative palmitoylation levels (right, quantified as the output-toinput ratio of signals from all TLR7 bands, n = 3 replicates). G ABE assays were performed in RAW264.7 cells transduced with mTLR7-HA (n = 3 replicates). H ABE assays were performed in THP-1 cells (n = 3 replicates). I ABE assay of hTLR9-FLAG in 293 T cells (n = 3 replicates). All data are pooled from four (E) and three (A, B, F-I) independent experiments (mean ± SEM. P values were calculated by two-way Student's t test), except for those described in (C, D), which were obtained from one mass spectrometry run.</figDesc><graphic coords="6,101.38,82.16,337.00,374.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | DHHC3 palmitoylates TLR9 in the Golgi. A ABE assays were performed in 293 T cells transfected with indicated murine DHHCs and mTLR9-FLAG. A representative blot (left) and mTLR9 relative palmitoylation levels (right, quantified as a ratio of mTLR9-FLAG signal compared to empty vector) are shown (n = 3 replicates). B ABE assays were performed in 293 T cells transfected with murine DHHC3 wild-type (WT) or C157S mutant, DHHC17 WT or C467S mutant, DHHC18 WT or C214S mutant, DHHC20 WT or C214S mutant, along with mTLR9-FLAG. A representative blot (left) and mTLR9 relative palmitoylation levels (right, quantified as a ratio of WT DHHC signal compared to respective mutants) are shown (n = 3 replicates) C TLR9 palmitoylation in DHHC3-deficient cells. ABE assays were performed on DHHC3-deficient RAW264.7 cells retrovirally transduced with mTLR9-HA. A representative blot (left) and mTLR9 relative palmitoylation levels (right, quantified as a ratio of WT signals compared to KO) are shown (n = 3 replicates). D ABE assays were performed in 293 T cells transfected with murine DHHC3 wild-type (WT) along with mTLR7-FLAG. A representative blot (left) and mTLR7 relative palmitoylation levels (right, quantified as a ratio of mTLR7-FLAG signal compared to empty vector) are shown (n = 3 replicates). E ABE assays were performed in 293 T cells transfected with indicated human DHHCs and hTLR9-FLAG. A representative blot (left) and mTLR9 relative palmitoylation levels (right, quantified as a ratio of hTLR9-FLAG signal compared to empty vector) are shown (n = 3 replicates). All data are pooled from three independent experiments (mean ± SEM, P values were calculated by two-way Student's t test).</figDesc><graphic coords="7,96.70,73.25,373.24,391.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 6 |</head><label>6</label><figDesc>Fig. 6 | PPT1 depalmitoylates TLR9 in lysosomes. A ABE assays were performed on RAW264.7 cells transduced with mTLR9-HA after 4 h treatment of indicated TLR agonizts. A representative blot (left) and relative mTLR9 S-palmitoylation (right, quantified as the ratio of the mTLR9 output to the calnexin output, n = 3 replicates). B ABE assays were performed on RAW264.7 cells transduced with mTLR7-HA after 4 h treatment of R848. A representative blot (left) and relative mTLR7 S-palmitoylation (right, quantified as the ratio of the mTLR7 output to the calnexin output, n = 3 replicates). C ABE assays were performed on 293 T cells transfected with indicated depalmitoylating enzymes and mTLR9-FLAG (n = 3 replicates).D ABE assays were performed on 293 T cells transfected with PPT1 and mTLR7-FLAG (n = 3 replicates). E ABE assays were performed on Ppt1 +/+ or Ppt1 -/-Flt3L-pDCs after 4 h (top) and 24 h (bottom) of CpG A treatment (n = 3 replicates). F ABE assays were performed on Ppt1 +/+ or Ppt1 -/-RAW264.7 cells transduced with mTLR9-HA after 4 h of CpG A treatment (n = 3 replicates). G RAW264.7 cells transduced with mTLR9-HA were treated with DMSO or HDSF overnight. ABE assays were performed after the addition of CpG A (n = 3 replicates). All data are pooled from three independent experiments (mean ± SEM. P values were calculated by two-way Student's t test).</figDesc><graphic coords="8,83.77,83.15,372.28,351.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 7 |</head><label>7</label><figDesc>Fig. 7 | The palmitoylation cycle regulates TLR9 ligand binding. A TNF production was measured by intracellular staining in CpG B-treated Tlr9 -/-RAW264.7 cells transduced with TLR9 Mut2 (n = 4 replicates). B Immunoprecipitation assay with CpG B-biotin were performed on Tlr9 -/-RAW264.7 cells transduced with TLR9 WT or Mut2. A representative blot (left) and relative ligand binding (right, calculated as the ratio of CpG B-bound on cleaved mTLR9 to the total mTLR9 in input) are shown (n = 3 replicates). C TNF production was measured by ELISAs in CpG B-treated Zdhhc3 +/+ or Zdhhc3 -/-RAW264.7 cells transduced with mTLR9-HA (n = 3 replicates). D Immunoprecipitation assays with CpG B-biotin were performed on Zdhhc3 +/+ or Zdhhc3 -/-RAW264.7 cells transduced with mTLR9-HA (n = 3 replicates). E TNF production was measured by ELISAs in CpG B-treated Ppt1 -/-or Ppt1 -/- RAW264.7 cells transduced with mTLR9-HA (n = 4 replicates). F Immunoprecipitation assays with CpG B-biotin were performed on Ppt1 +/+ or Ppt1 -/-RAW264.7 cells transduced with mTLR9-HA (n = 3 replicates). G RAW264.7 cells were treated with 2-BP or HDSF overnight. TNF production was measured by intracellular staining after addition of CpG B (n = 4 replicates). H Immunoprecipitation assays with CpG B-biotin were performed on RAW264.7 cells treated with 2-BP or HDSF (n = 3 replicates). I Cell fractionation of Zdhhc3 +/+ or Zdhhc3 -/-RAW264.7 cells transduced with mTLR9-HA showing the distributions of TLR9 in the indicated organelle markers. A representative blot (left) and the ratio of the full length mTLR9 in Golgi (right, quantified as the ratio of boxed fractions to all fractions, n = 3 replicates). J Immunoprecipitation of TLR9-HA from the DMSO or HDSF treated RAW macrophage lines in a followed by immunoblot of UNC93B1-FLAG. UNC93B1 levels in whole-cell lysates are also shown. A representative blot (left) and the ratio of the IP UNC93B1-FLAG in HDSF treated cells to the IP UNC93B1-FLAG in DMSO treated cells, n = 3 replicates. All data are representative of three independent experiment (mean ± SEM. P values were calculated by two-way Student's t test).</figDesc><graphic coords="9,87.31,83.90,361.00,324.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head></head><label></label><figDesc>IgG Catalog #: 13-4013-85 Invitrogen IgD clone: 11-26 Catalog #: 13-5993-82 Invitrogen CD93 clone: AA4.1 Catalog #: 13-5892-82 Invitrogen CD5 clone: 53-7.3 Catalog #: 13-0051-82 Invitrogen CD49b clone: DX5 Catalog #: 13-5971-85 Invitrogen TCR β clone: H57-597 Catalog #: 13-5961-85 Invitrogen CD11b clone: M1170 Catalog #: 13-0112-82 Invitrogen CD24 clone: M1/69 Catalog #: 13-0242-82 Invitrogen F4/80 clone: BM8 Catalog #: 13-4801-81 BioLegend Ly6G/Ly6C (Gr-1) clone: R86-8C5 Catalog #: 108404 BioLegend CD41 clone: MWReg30 Catalog #: 133930 TONBO CD19 clone: 1D3 Catalog #: 30-0193-U500 TONBO TER-119 clone: TER-119 Catalog #: 30-5921-U500 TONBO CD3 clone: 145-2C11 Catalog #: 30-0031-U500 All antibodies were used at a dilution of 1:1000.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Article https://doi.org/10.1038/s41467-023-43650-z Nature Communications | (2024) 15:1</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Dr. Juncao Cai</rs> for plasmids and <rs type="person">Dr. Jun Cui</rs> for HSV-1. We are grateful to <rs type="person">Dr. Vanja Sisirak</rs> and <rs type="person">Dr. Xiaojun Xia</rs> for critically reading of the manuscript. We thank <rs type="person">Dr. Weibin Cai</rs> for technical assistance at the animal facilities. This research was supported by the <rs type="funder">National Key R&amp;D Program of China</rs> (<rs type="grantNumber">2018YFA0508300</rs>, to C.Y.Y.), the <rs type="funder">Shanghai Laboratory Animal Program 23141902200</rs> (to B.L.), the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">32250610206</rs> to C.Y.Y.), the <rs type="funder">Guangdong Innovative and Entrepreneurial Research Team Program</rs> (<rs type="grantNumber">2016ZT06S638</rs> to C.Y.Y.), the 111 Project (Grant No. <rs type="grantNumber">B12003</rs> to C.Y.Y.), the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">82271819</rs> and <rs type="grantNumber">82071820</rs> to J.Z.), the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">32170881</rs> to B.L.), the <rs type="programName">Shanghai Pujiang Program</rs> (<rs type="grantNumber">21PJ1414500</rs> to B.L.), and the <rs type="funder">Shanghai Municipal Science and Technology Major Project</rs> (<rs type="grantNumber">HS2021SHZX001</rs> to B.L.).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_P9ExzHh">
+					<idno type="grant-number">2018YFA0508300</idno>
+				</org>
+				<org type="funding" xml:id="_ZZjMKVj">
+					<idno type="grant-number">32250610206</idno>
+				</org>
+				<org type="funding" xml:id="_rwhnnrm">
+					<idno type="grant-number">2016ZT06S638</idno>
+				</org>
+				<org type="funding" xml:id="_WZCePPN">
+					<idno type="grant-number">B12003</idno>
+				</org>
+				<org type="funding" xml:id="_8vceqdE">
+					<idno type="grant-number">82271819</idno>
+				</org>
+				<org type="funding" xml:id="_D6s5DFR">
+					<idno type="grant-number">82071820</idno>
+				</org>
+				<org type="funding" xml:id="_gQyd7mN">
+					<idno type="grant-number">32170881</idno>
+					<orgName type="program" subtype="full">Shanghai Pujiang Program</orgName>
+				</org>
+				<org type="funding" xml:id="_JNK5HuW">
+					<idno type="grant-number">21PJ1414500</idno>
+				</org>
+				<org type="funding" xml:id="_YMad5dp">
+					<idno type="grant-number">HS2021SHZX001</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>No novel datasets or reagents are generated in this study. All data supporting the findings of this study are included in the manuscript and its supplementary files are available. Source data are provided with this paper.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>transcribed with HiScript II 1st Strand cDNA Synthesis Kit (Vazyme, Cat#R212-02) from the mRNA of PBMCs. Flag (DYKDDDDK) or hemagglutinin (YPYDVPDYA) was fused to the C-terminus of the indicated target genes, and then, all the genes were cloned into the lentivirus package vector pWPI (Addgene, 12254).</p><p>Point mutations of the genes encoding Tlr9 (C258A, C265A), Zdhhc3 (C157S), Zdhhc17 (C467S), Zdhhc18 (C214S), Zdhhc20 (C156S) were established with Mut Express II Fast Mutagenesis Kit V2 (Vazyme, Cat# C214-02). Flag (DYKDDDDK) or hemagglutinin (YPYDVPDYA) was fused to the C-terminus of the indicated target genes, and then, all the genes were cloned into the lentivirus package vector pWPI (Addgene, 12254).</p><p>To generate RAW264.7 Ppt1 -/-, RAW264.7 Tlr9 -/-and RAW264.7 Zdhhc3 -/-cells, sgRNA-targeted lentiCRISPR v2 was transduced into RAW264.7 cells. Puromycin (2 µg/mL) was added to the cells 24 h posttransduction and maintained for 2 weeks. On Day 14, individual cells were seeded in a 96-well plate, and cells were monitored for growth before genomic DNA extraction and analysis. Gene disruption was confirmed by immunoblot analysis of target proteins or by functional analysis. The guide RNA sequences (Ppt1: GCTGGTGATCTGG-CATGGGA;</p><p>Tlr9: GCTGAAGCCTCATGGCCTGG; Zdhhc3: GCCATGTGGTTTATCCGAGA) were designed and synthesized after codon optimization by the Tsingke Biotechnology Synthesis Service and subcloned into a lentiCRISPR v2 plasmid (Addgene, 52961).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell lines</head><p>All cell lines used in this study tested negative for mycoplasma. The 293 T (ATCC, CRL-3216) and RAW264.7 macrophage cell lines (ATCC, TIB-71) were cultured in complete DMEM. Human monocytic THP-1 cells (ATCC, TIB-202) were grown in complete RPMI-1640. The cells were cultured at 37 °C in a humidified atmosphere with 5% CO 2 . For the 293 T cells, transient transfection was performed using polyethylenimine (PEI) (Polysciences, 24765). For lentiviral transduction of RAW264.7 cells, 293 T cells were transfected with the lentiviral vectors pWPI, psPAX2 (Addgene, 12260) and pMD2.G (Addgene, 12259) using polyethylenimine (PEI) (Polysciences, 24765). Forty-eight hours after transfection, the virus-containing culture supernatant was used to infect target cells. GFP + target cells were sorted with a BD FACSAria III flow cytometer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoprecipitation</head><p>IP protocol was previously described <ref type="bibr" target="#b98">93</ref> . Protein lysates (1 mg per 1 ml) were suspended in 1 ml of lysis buffer containing a protease inhibitor cocktail and incubated with 20 µL anti-Flag matrix (Sigma, A2220) or anti-HA matrix (Roche, 11815016001) overnight at 4 °C with end-overend rotation. Unbound proteins were removed by washing 4 times with 1 ml of lysis buffer and with spinning at 2500 rcf for 1 min each time. Precipitated proteins were denatured in 2× reducing SDS-PAGE sample buffer and boiled for 5 min at 95 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell fractionation by sucrose density-centrifugation</head><p>Cells in 3 confluent 15-cm dishes were washed in ice-cold PBS, scraped in 10 ml SHB and pelleted by centrifugation. Cells were resuspended in 2 ml SHB buffer (0.25 M sucrose, 1 mM EDTA, 10 mM HEPES, pH = 7.4) plus protease inhibitor cocktail with EDTA (Roche) and 1 mM PMSF and disrupted by 30 strokes in a steel dounce homogenizer. The disrupted cells were centrifuged for 12 min at 1400 g to remove nuclei. Supernatants were loaded onto continuous sucrose gradients (percentage iodixanol: 0, 10, 20, 30) and ultracentrifuged in an SW41 rotor at 181,299 x g for 1 h (Optima L-90K Ultracentrifuge, Beckman Coulter). Twenty-two fractions of 420 µl were collected from top to bottom, and 100 µl of each fraction were denatured in SDS buffer for western blot analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Western blotting</head><p>Protein samples were run on SDS-PAGE with a 4-12% gradient gel and then transferred. The membranes were blocked with 5% dried milk and incubated with primary antibodies overnight. After washing with PBS with Tween 20, secondary antibodies were incubated with the membranes for 1.5 h. Bands were visualized by chemical composition using ChemiDoc Touch (Bio-Rad). The relative gray areas of different bands were calculated by Image J (Version: 2.1.0/1.53c).</p><p>The following primary antibodies used for Western blotting were all used at a dilution Abcam goat anti-rat IgG H&amp;L (HRP) Catalog #: ab97057 (1:5000 dilution) ELISA Supernatants were collected 16 h after TLRs stimulation. Samples were placed on precoated plates with anti-mouse TNFα (Thermo Fisher Scientific, 88-7324-88), anti-IFNα (Invitrogen, BMS6027), and antihuman IFNα (DAKEWE, 1110012) antibodies according to the manufacturer's instructions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA extraction and quantitative PCR</head><p>TRIzol reagent (Genstar, P118-05) and chloroform were added to homogenize single cells, and then, RNA precipitation, washing and resuspension were performed following the manufacturer's protocol. The extracted RNA was used for reverse transcription according to the manufacturer's protocol (HiScript III RT SuperMix for qPCR, Vazyme, R323-01). Quantitative RT-PCR analysis was performed with SYBR Select Master Mix (Genstar, A301-10) using StepOne Plus (Life Sciences). All data were normalized to β-Actin expression. The following primers were used for the quantification of transcripts by real-time quantitative PCR: Ppt1: forward, 5'-TTGTGGACCCTGTCGACTCT-3', reverse, 5'-GATGGTCCCCTTCCTTAGCC-3'; Ifna: forward, 5'-AACCTCCTCTGACCCAGGAA-3', reverse, 5'-GGCTCTCCAGACTTCTGCTC-3'; β-actin: forward, 5'-GTGACGTTGACATCCGTAAAGA-3', reverse, 5'-GCCGGACTCATCGTACTCC-3'</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunological Genome Project</head><p>The RNA-seq datasets that support the findings of this study are publicly available from The Immunological Genome Project (ImmGen) (https://www.immgen.org), and these data were directly downloaded from the website, after searching for the appropriate gene name at http://rstats.immgen.org/Skyline/skyline.html.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Statistical analysis was performed in Prism 8 (GraphPad) software. For murine samples, comparisons between two groups were performed with two-tailed Student's t test. For human samples, statistical analysis was performed with a two-tailed Wilcoxon matched-pair signed rank test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.</p><p>Author contributions </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Invitrogen IgD APC-Cyanine7 clone: 11-26c Catalog #: 47-5993-82 Invitrogen IgM PE clone: II/41 Catalog</title>
+		<idno>#: 12-5790-82 Invitrogen B220 FITC clone: RA3-6B2 Catalog #: 11-0452-82 Invitrogen CD38 PE-Cyanine7 clone: 90 Catalog #: 25-0381-82 Invitrogen GL7 eFluor 450 clone: GL-7 Catalog #: 48-5092-82 Invitrogen CD1d PE clone: 1B1 Catalog #: 12-0011-82 Invitrogen CD21/CD35 APC-Cyanine7 clone: 8D9 Catalog #: 47- 0211-82 Invitrogen TCR β PE clone: H57-597 Catalog #: 12-5961-82 Invitrogen CD69 eFluor 450 clone: H1.2F3 Catalog #: 48-0691-82 Invitrogen CD62L PE-Cyanine7 clone: MEL-14 Catalog #: 25- 0621-82 Invitrogen BST2FITC clone: eBio927 Catalog #: 11-3172-82</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Siglec-Hapc</forename><surname>Invitrogen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Clone</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="17" to="0333" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Tnf</forename><surname>Invitrogen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pe-Cyanine</surname></persName>
+		</author>
+		<idno>clone: MP6-XT22 Catalog #: 25- 7321-82 Invitrogen CD45.1 PE-Cyanine7 Clone: A20 Catalog #: 25-0453-82 Invitrogen CD45.2 APC-Cyanine7 Clone: 104 Catalog #: 47- 0454-82 BioLegend CD44 APC-Cyanine7 clone: IM7 Catalog #: 103028 BioLegend CD44 APC clone: IM7 Catalog #: 103012 BioLegend B220 PE clone: RA3-6B2 Catalog #: 103208</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Ia/Ie</forename><surname>Biolegend</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Apc-Cyanine</surname></persName>
+		</author>
+		<idno>M5/114.15.2 Catalog #: 107628</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">BioLegend Ly6C FITC clone: HK1</title>
+		<imprint>
+			<biblScope unit="page">128006</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Zdhhc23 (NM_001007460.2) and Zdhhc24 (NM_027476.3) were reverse transcribed with HiScript II 1st Strand cDNA Synthesis Kit (Vazyme, R212-02) from the mRNA of spleen</title>
+		<idno>BioLegend CD45 APC clone: 30-F11 Catalog #: 103112 Pblassay IFNa FITC clone: RMMA-1 Catalog #:22100-3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Abhd17b (XM_011247228.4), Ppt1 (NM_008917.3), Zdhhc1 (NM_175160.5), Zdhhc2 (NM_178395.4), Zdhhc3 (NM_026917.6), Zdhhc4 (NM_028379.5), Zdhhc5 (NM_144887.4), Zdhhc6 (NM_025883.4), Zdhhc7 (NM_133967.3), Zdhhc8 (NM_172151.4), Zdhhc9 (NM_172465.4)</title>
+		<imprint/>
+	</monogr>
+	<note>Molecular cloning Mouse cDNA of Tlr7 (NM_001290755.1). Human cDNA of TLR9 (NM_017442.4), ZDHHC3 (NM_016598.3), ZDHHC17 (NM_015336.4), ZDHHC18 (NM_032283.3) and ZDHHC20 (NM_153251.4) were reverse References</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="373" to="384" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Toll-like receptors and the control of immunity</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="1044" to="1066" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor control of the adaptive immune responses</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iwasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medzhitov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="987" to="995" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A cell biological view of Toll-like receptor function: regulation through compartmentalization</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="535" to="542" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">UNC93B1 delivers nucleotide-sensing toll-like receptors to endolysosomes</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Paquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Ploegh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">452</biblScope>
+			<biblScope unit="page" from="234" to="238" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Unc93B1 biases Toll-like receptor responses to nucleic acid in dendritic cells toward DNA-but against RNAsensing</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fukui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="page" from="1339" to="1350" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">UNC93B1 mediates differential trafficking of endosomal TLRs</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">291</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The Chaperone UNC93B1 regulates Toll-like receptor stability independently of endosomal TLR transport</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pelka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">917</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Proteolytic cleavage in an endolysosomal compartment is required for activation of Toll-like receptor 9</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1407" to="1414" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The ectodomain of Toll-like receptor 9 is cleaved to generate a functional receptor</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ewald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">456</biblScope>
+			<biblScope unit="page" from="658" to="662" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Critical role for asparagine endopeptidase in endocytic Toll-like receptor signaling in dendritic cells</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Sepulveda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="737" to="748" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Nucleic acid recognition by Toll-like receptors is coupled to stepwise processing by cathepsins and asparagine endopeptidase</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ewald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="643" to="651" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Unc93B1 restricts systemic lethal inflammation by orchestrating Toll-like receptor 7 and 9 trafficking</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fukui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="69" to="81" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid dendritic cells promote systemic sclerosis with a key role for TLR8</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ah Kioon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Transl. Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">8458</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A Tlr7 translocation accelerates systemic autoimmunity in murine lupus</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Subramanian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="9970" to="9975" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Immunology of psoriasis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lowes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suarez-Farinas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Krueger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="227" to="255" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid dendritic cells sense self-DNA coupled with antimicrobial peptide</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lande</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="page" from="564" to="569" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor 7 and TLR9 dictate autoantibody specificity and have opposing inflammatory and regulatory roles in a murine model of lupus</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="417" to="428" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Regulation of the nucleic acid-sensing Toll-like receptors</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Lind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Rael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pestal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Barton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="224" to="235" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Control of toll-like receptor 7 expression is essential to restrict autoimmunity and dendritic cell proliferation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Deane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="801" to="810" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Autoreactive B cell responses to RNA-related antigens due to TLR7 gene duplication</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pisitkun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="1669" to="1672" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">TLR7 gain-of-function genetic variation causes human lupus</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">605</biblScope>
+			<biblScope unit="page" from="349" to="356" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor 7 (TLR7)-driven accumulation of a novel CD11c(+) B-cell population is important for the development of autoimmunity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Rubtsov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1305" to="1315" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor 9 controls anti-DNA autoantibody production in murine lupus</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="321" to="331" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Processing of human toll-like receptor 7 by furinlike proprotein convertases is required for its accumulation and activity in endosomes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hipp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="711" to="721" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Genetic dissection of TLR9 reveals complex regulatory and cryptic proinflammatory roles in mouse lupus</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leibler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1457" to="1469" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid dendritic cells: development, regulation, and function</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Reizis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="37" to="50" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Virus-induced interferon alpha production by a dendritic cell subset in the absence of feedback signaling in vivo</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Barchet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="507" to="516" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Interferon alpha/beta and interleukin 12 responses to viral infections: pathways regulating dendritic cell cytokine expression in vivo</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dalod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="517" to="528" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Transcription factor E2-2 is an essential and specific regulator of plasmacytoid dendritic cell development</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cisse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="37" to="48" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid dendritic cells in immunity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colonna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trinchieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1219" to="1226" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid dendritic cells and type I interferon promote extrafollicular B cell responses to extracellular self-DNA</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Soni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">1027</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid dendritic cells control T-cell response to chronic viral infection</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cervantes-Barragan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="3012" to="3017" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Possible induction of systemic lupus erythematosus by interferon-alpha treatment in a patient with a malignant carcinoid tumour</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Ronnblom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Alm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Oberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Intern. Med</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="page" from="207" to="210" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Mouse type I IFN-producing cells are immature APCs with plasmacytoid morphology</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Asselin-Paturel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1144" to="1150" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid predendritic cells initiate psoriasis through interferon-alpha production</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">O</forename><surname>Nestle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="135" to="143" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Self-RNA-antimicrobial peptide complexes activate human dendritic cells through TLR7 and TLR8</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ganguly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<date type="published" when="1983">1983-1994 (2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Crosstalk between neutrophils, B-1a cells and plasmacytoid dendritic cells initiates autoimmune diabetes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="65" to="73" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A pathogenic role of plasmacytoid dendritic cells in autoimmunity and chronic viral infection</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Barrat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<date type="published" when="1974">1974-1985 (2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Genetic evidence for the role of plasmacytoid dendritic cells in systemic lupus erythematosus</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sisirak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="1969" to="1976" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Early, transient depletion of plasmacytoid dendritic cells ameliorates autoimmunity in a lupus model</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Rowland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="1977" to="1991" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Targeting human plasmacytoid dendritic cells through BDCA2 prevents skin inflammation and fibrosis in a novel xenotransplant mouse model of scleroderma</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Rheum. Dis</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="920" to="929" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Dynamic protein acylation: new substrates, mechanisms, and drug targets</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lanyon-Hogg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Faronato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Serwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Tate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biochem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="566" to="581" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Global profiling of dynamic protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adibekian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Tully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="84" to="89" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The intracellular dynamic of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salaun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="1229" to="1238" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Palmitoylation-dependent activation of MC1R prevents melanomagenesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">549</biblScope>
+			<biblScope unit="page" from="399" to="403" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of NOD1 and NOD2 is required for bacterial sensing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="460" to="467" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Palmitoylation: policing protein stability and traffic</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Structure and function of DHHC protein S-acyltransferases</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Gottlieb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="923" to="928" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Global analysis of protein palmitoylation in yeast</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="1003" to="1013" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Small-molecule inhibition of APT1 affects Ras localization and signaling</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dekker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="449" to="456" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Lysosomal targeting of palmitoylprotein thioesterase</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Verkruyse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="15831" to="15836" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">GFAP hyperpalmitoylation exacerbates astrogliosis and neurodegenerative pathology in PPT1-deficient mice</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yuan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">2022261118</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor mediated inflammation requires FASN-dependent MYD88 palmitoylation</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="907" to="916" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A STAT3 palmitoylation cycle promotes TH17 differentiation and colitis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page" from="434" to="439" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Inhibiting PD-L1 palmitoylation enhances T-cell immune responses against tumours</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="306" to="317" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Thioesterase PPT1 balances viral resistance and efficient T cell crosspriming in dendritic cells</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="2091" to="2112" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Digestion of chromatin in apoptotic cell microparticles prevents autoimmunity</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sisirak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="88" to="101" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Structural basis for the insensitivity of a serine enzyme (palmitoyl-protein thioesterase) to phenylmethylsulfonyl fluoride</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Das</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="23847" to="23851" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Immunological Genome Project, C. The Immunological Genome Project: networks of gene expression in immune cells</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Heng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Painter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1091" to="1094" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Type I interferon negatively controls plasmacytoid dendritic cell numbers in vivo</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swiecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="2367" to="2374" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Plasmacytoid dendritic cell ablation impacts early interferon responses and antiviral NK and CD8(+) T cell accrual</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swiecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gilfillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vermi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colonna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="955" to="966" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Chemoproteomics reveals Toll-like receptor fatty acylation</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Chesarino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">91</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Proteomic profiling of S-acylated macrophage proteins identifies a role for palmitoylation in mitochondrial targeting of phospholipid scramblase 3</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Merrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell Proteom</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">6007</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Selective enrichment and direct analysis of protein S-Palmitoylation sites</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thinon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Molina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Proteom. Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1907" to="1922" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Chemical probes for the rapid detection of Fattyacylated proteins in Mammalian cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="2744" to="2745" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Large-scale profiling of protein palmitoylation in mammalian cells</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="135" to="138" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Palmitoylated proteins: purification and identification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1573" to="1584" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Maleimide scavenging enhances determination of protein S-palmitoylation state in acyl-exchange methods</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Turnbull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Plain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hemsley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechniques</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="69" to="75" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Protein lipidation: occurrence, mechanisms, biological functions, and enabling technologies</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="919" to="988" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Fatty acyl recognition and transfer by an integral membrane S-acyltransferase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page">6326</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">DHHC palmitoyl transferases: substrate interactions and (patho)physiology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biochem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="245" to="253" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Structure and mechanism of DHHC protein acyltransferases</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Faraldo-Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">432</biblScope>
+			<biblScope unit="page" from="4983" to="4998" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Phosphatidylinositol 4-kinase IIalpha is palmitoylated by Golgi-localized palmitoyltransferases in cholesterol-dependent manner</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="21856" to="21865" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">The gamma2 subunit of GABA(A) receptors is a substrate for palmitoylation by GODZ</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Keller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="5881" to="5891" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Dissociation of Golgi-associated DHHC-type Zinc Finger Protein (GODZ)-and Sertoli Cell Gene with a Zinc Finger Domain-beta (SERZ-beta)-mediated Palmitoylation by loss of function analyses in Knock-out Mice</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Kilpatrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page" from="27371" to="27386" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">S-Palmitoylation of Tyrosinase at Cysteine(500) Regulates Melanogenesis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Niki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Investig. Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page">316</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">ABHD17 proteins are novel protein depalmitoylases that regulate N-Ras palmitate turnover and subcellular localization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Conibear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">11306</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Misrouting of v-ATPase subunit V0a1 dysregulates lysosomal acidification in a neurodegenerative lysosomal storage disease model</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Bagh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">14612</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Identification of PSD-95 Depalmitoylating Enzymes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yokoi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="6431" to="6444" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">ABHD10 is an S-depalmitoylase affecting redox homeostasis through peroxiredoxin-5</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1232" to="1240" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">The metabolic serine hydrolases and their functions in mammalian physiology and disease</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="6022" to="6063" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Palmitoyl acyltransferase assays and inhibitors (Review)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Draper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Membr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="5" to="13" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Structure and function of Toll receptors and their ligands</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gangloff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="141" to="165" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Role of Rab GTPases in membrane traffic and cell physiology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Hutagalung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Novick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="119" to="149" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Mechanisms of action of hydroxychloroquine and chloroquine: implications for rheumatology</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schrezenmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dorner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="155" to="166" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Mechanism of endosomal TLR inhibition by antimalarial drugs and imidazoquinolines</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuznik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="4794" to="4804" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Hydroxychloroquine efficiently suppresses inflammatory responses of human class-switched memory B cells via Toll-like receptor 9 inhibition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Torigoe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">PPT1 promotes tumor growth and is the molecular target of chloroquine derivatives in cancer</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">W</forename><surname>Rebecca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Discov</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="220" to="229" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Hydroxychloroquine is associated with impaired interferon-alpha and tumor necrosis factor-alpha production by plasmacytoid dendritic cells in systemic lupus erythematosus</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sacre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Criswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mccune</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res. Ther</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">155</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Disruption of PPT1 or PPT2 causes neuronal ceroid lipofuscinosis in knockout mice</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="13566" to="13571" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Broad and diverse mechanisms used by deubiquitinase family members in regulating the type I interferon signaling pathway during antiviral responses</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">2824</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Release from UNC93B1 reinforces the compartmentalized activation of select TLRs</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Majer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">575</biblScope>
+			<biblScope unit="page" from="371" to="374" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aringer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">European League Against Rheumatism/ American College of Rheumatology Classification Criteria for Systemic Lupus Erythematosus</title>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1400" to="1412" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

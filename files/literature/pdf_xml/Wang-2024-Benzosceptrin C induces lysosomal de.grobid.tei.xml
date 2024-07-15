@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Benzosceptrin C induces lysosomal degradation of PD-L1 and promotes antitumor immunity by targeting DHHC3</title>
+				<funder ref="#_nbdcKja">
+					<orgName type="full">Science and Technology Commission of Shanghai Municipality</orgName>
+				</funder>
+				<funder ref="#_s3pMZPj #_TQqpRVJ #_B9tDzak #_RnDjTfr">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_vmYBAWF">
+					<orgName type="full">Shanghai Municipal Science and Technology Major Project</orgName>
+				</funder>
+				<funder ref="#_H7BDzXu #_Xq55tsD">
+					<orgName type="full">Innovation Team and Talents Cultivation Program of the National Administration of Traditional Chinese Medicine</orgName>
+				</funder>
+				<funder ref="#_vRQBXhc">
+					<orgName type="full">Organizational Key Research and Development Program of Shanghai University of Traditional Chinese Medicine</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-17">January 17, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Qun</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jinxin</forename><surname>Wang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Phytochemistry</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Second Military Medical University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dianping</forename><surname>Yu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qing</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hongmei</forename><surname>Hu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mengting</forename><surname>Xu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hongwei</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Saisai</forename><surname>Tian</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Phytochemistry</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Second Military Medical University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guangyong</forename><surname>Zheng</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dong</forename><surname>Lu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiajia</forename><surname>Hu</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Nuclear Medicine</orgName>
+								<orgName type="institution" key="instit1">Ruijin Hospital</orgName>
+								<orgName type="institution" key="instit2">Shanghai JiaoTong University School of Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mengmeng</forename><surname>Guo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Minchen</forename><surname>Cai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiangxin</forename><surname>Geng</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yanyan</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jianhua</forename><surname>Xia</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xing</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ang</forename><surname>Li</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Center for Excellence in Molecular Synthesis</orgName>
+								<orgName type="department" key="dep2">Shanghai Institute of Organic Chemistry</orgName>
+								<orgName type="laboratory">State Key Laboratory of Bioorganic and Natural Products Chemistry</orgName>
+								<orgName type="institution" key="instit1">University of Chinese Academy of Sciences</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sanhong</forename><surname>Liu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Weidong</forename><surname>Zhang</surname></persName>
+							<email>wdzhangy@hotmail.com</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Shanghai Frontiers Science Center of TCM Chemical Biology</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Phytochemistry</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Second Military Medical University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Medicinal Plant Development</orgName>
+								<orgName type="institution" key="instit1">Chinese Academy of Medical Sciences</orgName>
+								<orgName type="institution" key="instit2">Peking Union Medical College</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">The Research Center for Traditional Chinese Medicine</orgName>
+								<orgName type="department" key="dep2">Institute of Interdisciplinary Integrative Medicine Research</orgName>
+								<orgName type="institution" key="instit1">Shanghai Institute of Infectious Diseases and Biosafety</orgName>
+								<orgName type="institution" key="instit2">Shanghai University of Traditional Chinese Medicine</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>Jinxin Wang, Dianping Yu, Sanhong Liu</addrLine>
+									<settlement>Qun Wang, Ang Li, Weidong Zhang</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Benzosceptrin C induces lysosomal degradation of PD-L1 and promotes antitumor immunity by targeting DHHC3</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-17">January 17, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">698636539C8F3E53262095EA4C3C8D77</idno>
+					<idno type="DOI">10.1016/j.xcrm.2023.101357</idno>
+					<note type="submission">Received: April 29, 2023 Revised: October 9, 2023 Accepted: December 11, 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Highlights d Benzosceptrin C promotes PD-L1 degradation in a lysosomal pathway d Inhibition of DHHC3 activity destabilizes PD-L1 d Benzosceptrin C enhances the cytotoxicity of T cells d Combination of benzosceptrin C and anti-CTLA4 effectively suppresses tumor growth</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Benzosceptrin C induces lysosomal degradation of PD-L1 and promotes antitumor immunity by targeting DHHC3</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Immunotherapy is no stranger to cancer patients. In the past decade, immunotherapy has become one of the hottest fields of cancer research, fundamentally changing the way many physicians treat diseases. It not only gives cancer patients the hope of a ''cure,'' but has also ushered in a new era of cancer therapy. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> During the development of cancer, immune checkpoint molecules can be utilized by tumor cells. Tumor cells can evade immune surveillance by overexpressing immune checkpoint molecules, causing immune cells to induce apoptosis or lose their immune response ability, thereby reducing attacks from the immune system. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> Programmed cell death ligand-1 (PD-L1) is a type I integral membrane glycoprotein that is expressed in different types of tumors. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Under normal circumstances, activated antigen-specific cytotoxic T lymphocytes can recognize and produce a direct killing response against tumor cells. However, tumor cells overexpressing PD-L1 have special viability. When PD-L1 binds to programmed cell death-1 (PD-1), it can cause the depletion of CD8 + cytotoxic T cells that have entered the tumor, damage tumor-reactive cytolytic T cell responses, exert the function of inhibiting regulatory T cells (Tregs), suppress immune activation, escape the surveillance of the immune system, and then invade adjacent tissues. <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> PD-L1 not only has immunosuppressive effects but also can prevent tumor cell apoptosis. Therefore, blocking the PD-1/ PD-L1 axis is considered an attractive treatment strategy for cancer immunotherapy. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> However, less than 10% of patients benefit clinically and they experience many side effects. Thus, novel strategies are needed to modulate either PD-1 or PD-L1 expression to achieve immunotherapeutic efficacy. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> The expression of PD-L1 in cells is regulated by various factors; for example, the upregulation of PD-L1 in tumors may be directly driven by the gene encoding CD274 or induced by transcription factors such as NF-kB, Myc, AP-1, and STAT in the tumor environment. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> Posttranslational modifications (PTMs) are also important for PD-L1 regulation. Ubiquitination, glycosylation, and phosphorylation are the main posttranslational modifications in cells and jointly participate in the regulation of PD-L1 expression. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> Ubiquitination is mainly involved in the degradation of intracellular proteins, and proteasomes specifically recognize and degrade ubiquitin-labeled proteins. For example, speckle-type POZ protein (SPOP) can ubiquitinate the PD-L1 protein, causing it to be downregulated in prostate cancer cells. <ref type="bibr" target="#b17">18</ref> However, glycosylation in B cell lymphoma could enhance the stability of PD-L1, thus promoting immunosuppression and tumor growth. <ref type="bibr" target="#b18">19</ref> PD-L1 has two GSK3b phosphorylation motifs at T180 and S184, and after phosphorylation, PD-L1 can be further degraded by ubiquitination. Phosphorylation and glycosylation of the PD-L1 protein regulate each other, and glycosylated PD-L1 cannot interact with GSK-3b. Therefore, blocking PD-L1 glycosylation can increase its ubiquitination and phosphorylation, which contributes to the suppression of antitumor immunity. <ref type="bibr" target="#b19">20</ref> Studies have shown that inhibiting the palmitoylation of PD-L1 through DHHC3 can also lead to its transport to late-stage endosomes and lysosomes with subsequent degradation. Palmitoylation modification can significantly inhibit the ubiquitination of PD-L1, promote the binding of the endosomal sorting transport complex (ESCRT) to PD-L1, and introduce polysomes (MVBs) and lysosomal degradation. <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> Through this mechanism, we could promote PD-L1 degradation in tumor cells by inhibiting palmitoylation, thereby enhancing the tumor-killing effect of T cells. In this study, we screened a panel of 300 drugs from a complex library of traditional Chinese medicines and found that benzosceptrin C (BC) induced potent degradation of PD-L1. Our mechanistic findings suggest that BC can block the palmitoylation of PD-L1 by inhibiting the activity of DHHC3, thus promoting the lysosomal degradation of PD-L1 and activating antitumor immunity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BC is a new negative regulator of PD-L1</head><p>Our work starts by screening a natural compound library to find potential inhibitors of PD-L1 and improve the efficacy of PD-L1related immunotherapy. A brief description of the experimental process is shown in Figure <ref type="figure" target="#fig_0">1A</ref>. First, the screening of different colorectal cancer (CRC) cell lines revealed that only RKO cells highly expressed PD-L1. Therefore, RKO cells were selected as the tool cell to screen the effects of the compound library on PD-L1 expression (Figure <ref type="figure" target="#fig_0">1B</ref>). As a positive control for the drug-induced PD-L1 level decline, we used berberine (Ber), a deubiquitinase inhibitor. As expected, PD-L1 levels were blocked by Ber treatment. The compounds (10 mM) were added to the culture medium of RKO cells, and the PD-L1 levels were detected by western blot analysis after 24 h of incubation. Among the 300 selected candidate drugs in compound library, only BC was found to reduce the PD-L1 level (Figures <ref type="figure" target="#fig_0">1C</ref> and<ref type="figure" target="#fig_0">1D</ref>). We further examined the ability of BC to downregulate PD-L1 in other CRC cells. The changes in constitutive PD-L1 expression in RKO and HCT116 cells were examined by immunoblotting (IB). BC treatment significantly reduced constitutive PD-L1 expression in RKO and HCT116 cells in both time-and concentration-dependent manners (Figures <ref type="figure" target="#fig_0">1E-1G</ref>). Next, we examined whether BC regulates membranous PD-L1 expression. Flow cytometry assays revealed that BC significantly reduced cell-surface PD-L1 in RKO and HCT116 cells, indicating that BC could also reduce PD-L1 transport to the plasma membrane (Figure <ref type="figure" target="#fig_0">1H</ref>). The effects of BC on PD-L1 expression were also confirmed by immunofluorescence (Figure <ref type="figure" target="#fig_0">1I</ref>). In addition, BC exhibited little or no direct toxicity toward RKO and HCT116 cells at concentrations of 0-10 mM (Figure <ref type="figure" target="#fig_0">1J</ref>). This result was also confirmed by 5-ethynyl-2 0 -deoxyuridine (EdU) experiments (Figure <ref type="figure" target="#fig_0">1K</ref>). Therefore, 0-10 mM BC was used in the following experiments in this study. Taken together, these results suggest that BC decreased PD-L1 expression in CRC cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BC enhances the cytotoxicity of T cells</head><p>Once PD-L1 on tumor cells binds to the PD-L1 receptor on tumor-infiltrating lymphocytes (TILs), lymphocytes can transmit negative regulatory signals, causing T cells to be unable to recognize cancer cells, resulting in immune escape from tumor cells. Next, we tested whether BC weakened the ability of cancer cells to bind to PD-1. BC-treated RKO cells were incubated with recombinant PD-1 protein together with a fluorescent antibody, and then the interaction between PD-L1 and PD-1 was detected by confocal microscopy. The strength of the green fluorescent protein reflects the interaction of PD-1 and PD-L1. BC-treated RKO cells had reduced green fluorescence, indicating that BC (C) Screening of 300 molecules in the natural compound library. RKO cells were treated with the drugs at 10 mM for 24 h. Berberine (Ber) was used as a positive control. The hit compounds that induced a decrease in PD-L1 levels are shown in blue. The depth of blue represents a decreased level of PD-L1. The reduction in PD-L1 levels in RKO cells treated with 300 drugs was measured by western blot. (D) Chemical structure of BC. (E and F) RKO and HCT116 cells were treated with different concentrations of BC for 24 h or treated with 10 mM BC for the indicated times. (G) Quantitative results of BC on PD-L1 in RKO and HCT116 cells are shown. (H) RKO and HCT116 cells were treated with BC (1, 5, and 10 mM) for 24 h, and plasma membrane PD-L1 was detected by flow cytometry. The IFN-g (50 ng/mL) function is to increase PD-L1 expression in tumor cells. (I) RKO and HCT116 cells were treated with BC (10 mM) for 24 h. Immunofluorescence staining showed PD-L1 labeling in red and nuclei in blue with Hoechst. Scale bar, 200 mm. (J) RKO and HCT116 cells were treated with BC (1, 5, and 10 mM) for 24 h, and the effect of the drug on cell viability was determined with a CCK-8 kit. (K) RKO and HCT116 cells were treated with BC (1, 5, and 10 mM) for 24 h, and the effect of the drug on cells was detected with an EdU kit. The data shown are the mean value ± standard error of the mean (SEM; t test). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the PBS group. reduces the ability of cancer cells to bind to PD-1 by decreasing PD-L1 levels (Figures <ref type="figure" target="#fig_1">2A</ref> and<ref type="figure" target="#fig_1">2B</ref>). To examine the functional changes in BC-mediated PD-L1 downregulation in cancer cells, RKO cells were cocultured with Jurkat cells transfected with PD-1 and NFAT luciferase. PD-1/PD-L1 binding leads to T cell inactivation and loss of luminescence signals, whereas blockade of PD-1/PD-L1 binding reactivates NFAT and excites luminescence signals. In RKO cells, BC significantly induced transcription-mediated bioluminescence signaling in a dose-dependent manner, suggesting that BC disrupted PD-L1 checkpoint activity, thereby promoting T cell activation (Figure <ref type="figure" target="#fig_1">2C</ref>). Consistently, the ability of T cells to kill tumor cells can be enhanced by reducing PD-L1 on tumor cell membranes, as demonstrated by the cytotoxicity of T cells against cocultured cancer cells. To further evaluate the antitumor effect of BC, RKO or HCT116 cells were cocultured with T cells, and the surviving tumor cells were detected by crystal violet staining. BC decreased the survival rate of RKO and HCT116 cells in a dose-dependent manner compared with that of control cells (Figures <ref type="figure" target="#fig_1">2D-2G</ref>). To determine whether PD-L1 downregulation is the main antitumor mechanism, we used anti-PD-1 (and anti-PD-L1) to block the PD-1 receptor (and PD-L1 receptor) on T cells (and RKO cells) and then performed a T cell killing experiment. The results showed that the blockade of PD-L1 (or PD-1) had results similar to those of BC (or combined with BC) (Figure <ref type="figure" target="#fig_0">S1</ref>). Taken together, BC enhanced the cytotoxicity of T cells to CRC cells mainly by downregulating the expression of PD-L1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BC inhibits the growth of MC38 tumors in vivo by activating tumor-infiltrating T cells</head><p>To validate the potential antitumor activity of BC in vivo, we treated mice vaccinated with MC38 tumors with either PBS or BC once a day for 16 days. Because it is difficult to obtain sufficient BC in natural products, we fully synthesized BC to meet the needs of animal experiments (Figures <ref type="figure" target="#fig_1">S2,</ref><ref type="figure" target="#fig_2">S3</ref>, and S4). BC treatment showed significant inhibition of mouse growth of MC38 tumors, with inhibition rates of 30.4% and 43.1% at 25 and 50 mg/kg, respectively (Figure <ref type="figure" target="#fig_1">2I</ref>). However, there was no significant difference between the 5 mg/kg group and the PBS group (Figure <ref type="figure" target="#fig_1">2J</ref>). In addition, BC treatment with 25 and 50 mg/kg also significantly reduced the tumor size and weight compared with the controls (Figures <ref type="figure" target="#fig_1">2J</ref> and<ref type="figure" target="#fig_1">2K</ref>). There was no significant difference in body weight between the different groups of mice (Figure <ref type="figure" target="#fig_1">2L</ref>). Furthermore, we analyzed the tumor tissue by western blot and found that BC could reduce PD-L1 in tumor tissue in a dose-dependent manner compared with the control group (Figure <ref type="figure" target="#fig_1">2M</ref>). Interestingly, the ability of BC to inhibit MC38 tumor growth was abolished in T cell-deficient nude mice, indicating that BC mediates antitumor activity by activating T cell immunity (Figures <ref type="figure" target="#fig_1">2O-2Q</ref>). Consistent with the antitumor effect, immunohistochemistry results showed that the expression of CD3 and cleaved caspase-3 was significantly upregulated in BC-treated mice, while the levels of PD-L1 and FOXP3 (an immunosuppressive molecule) were significantly decreased, indicating that BC induced significant apoptosis of tumor cells in mice by activating T cell immunity (Figures <ref type="figure" target="#fig_1">2R</ref> and<ref type="figure" target="#fig_1">2S</ref>). To further illustrate that BC attenuates cancer development, we also examined the expression levels of tumor markers CK8/18, MHL1, Ki-67, and CEA. The results showed that these cancer markers in the colon were significantly reduced after BC treatment, suggesting that BC could effectively inhibit the occurrence of CRC (Figure <ref type="figure" target="#fig_4">S5</ref>). BC did not cause significant changes in mouse body weight and had no significant systemic toxicity to mice, and none of the mice died during treatment. Moreover, immunohistochemical results also showed no obvious toxicity in the heart, liver, spleen, lung, or kidney (Figures <ref type="figure" target="#fig_7">S6</ref> and<ref type="figure">S7</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BC promotes PD-L1 degradation in a lysosomal pathway</head><p>Next, we sought to explore the mechanism by which BC negatively regulates PD-L1 expression. Real-time PCR assays showed that BC had no significant effect on the PD-L1 mRNA level of RKO cells in either time or concentration gradients, and further results showed that BC also could not alter the mRNA levels of PD-L1 in IFN-g-stimulated RKO cells, suggesting that BC does not downregulate the expression of PD-L1 through transcription (Figures <ref type="figure" target="#fig_2">3A-3C</ref>). To confirm that the degradation of PD-L1 by BC is the result of posttranslational regulation, we exposed RKO cells to the protein translation inhibitor cycloheximide (CHX). In the presence of CHX, the turnover rate of PD-L1 in BC-treated cells was faster than that in untreated cells, indicating that BC-triggered PD-L1 downregulation is mainly controlled at the protein level (Figures <ref type="figure" target="#fig_2">3D</ref> and<ref type="figure" target="#fig_2">3E</ref>).</p><p>At present, the protein degradation system in eukaryotic cells mainly includes lysosome-and proteasome-dependent degradation pathways. To clarify which pathway BC participates in PD-L1 degradation, we cotreated BC with the proteasome inhibitor MG132, the lysosomal inhibitor bafilomycin (Baf) or chloroquine (CQ), or the autophagy inhibitor wortmannin (VM) in RKO cells. The accelerated degradation of PD-L1 by BC in RKO cells could be rescued by CQ and Baf but not by MG132 or VM (Figures <ref type="figure" target="#fig_2">3F-3M</ref>). To confirm that lysosomal function is indeed regulated by BC, lysosomal activity was detected using a red lysosomal tracker. Interestingly, there was a significant increase in BC-induced red staining, similar to the result of Torin1, a positive-control drug that can increase lysosomal levels. In addition, the effect of BC on lysosomal function was also abolished by CQ (Figures <ref type="figure" target="#fig_2">3N</ref> and<ref type="figure" target="#fig_2">3O</ref>), further illustrating that BC mediates the degradation of PD-L1 through the lysosomal pathway. In addition, consistent with the western blot results, immunofluorescence and flow cytometry assays showed that the degradation of PD-L1 on cell membranes could also be reversed by lysosomal inhibitors (Figures <ref type="figure" target="#fig_2">3P-3W</ref>). Meanwhile, BC had no effect on the ubiquitination of PD-L1 (Figure <ref type="figure">S8</ref>).</p><p>To explore the molecular mechanism of BC degradation of PD-L1, we analyzed the transcriptome sequencing of BCtreated RKO cells. We identified 2,511 differentially expressed genes in RKO cells (false discovery rate [FDR] &lt;0.1, fold change R1.5; Figure <ref type="figure">S9</ref>). To evaluate the repeatability of duplication, we used principal-component analysis (PCA) to visualize the variation between different genotypes. Based on the random clustering of repeats in the PCA graph, we observed a high degree of homogeneity between repeats (Figure <ref type="figure" target="#fig_0">S10</ref>). In the BC-treated group, 262 gene mRNA levels increased, and 172 gene mRNA levels decreased (Figure <ref type="figure" target="#fig_0">S10B</ref>). Among them, several lysosome-related genes were upregulated, including RAB7A, lysosome-associated membrane protein 1 (LAMP1), LDLR, and NPC1, and this result further confirmed that BC can affect the function of lysosomes (Figures <ref type="figure" target="#fig_3">4A</ref> and<ref type="figure" target="#fig_3">4B</ref>). Given that PD-L1 degradation through the lysosomal pathway mainly involves changes in protein levels, we also performed a proteomic analysis of cells treated with BC. As expected, we found that the lysosomal pathway ranked first (Figure <ref type="figure" target="#fig_3">4C</ref>). Next, we mainly focused on the genes responsible for the activation of lysosomal degradation proteins and found that several lysosome-related proteins were significantly upregulated or downregulated, such as KAT77, FLG2, HAGH, and BLOC1S3 (Figure <ref type="figure" target="#fig_3">4D</ref>). Moreover, CD274 (PD-L1) can also be enriched from protein degradation. Therefore, we speculate that BC can regulate the function of lysosomes, leading to the accelerated degradation of PD-L1. Taken together, these results indicate that BC-mediated PD-L1 degradation is mediated by a lysosomal-dependent pathway.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BC inhibits DHHC3 activity through direct binding to DHHC3</head><p>To explore the targets of BC in PD-L1 degradation, we used drug affinity responsive target (DARTS) to identify the protein targets that directly interact with BC. The flowchart of DARTS is shown in Figure <ref type="figure" target="#fig_3">4E</ref>. DARTS predicted 221 potential target proteins (unique peptides R2 and intensity ratio R1.5). When analyzing the top-ranked genes, we found that BC may act directly on palmitoyltransferases (Figure <ref type="figure" target="#fig_0">S11</ref>). To identify the major palmitoyltransferases in CRC, we established a screening method for binding protein expression, subcellular localization, and functional deletion tests. First, we listed all DHHCs expressed in CRC from the human protein map. We further excluded DHHCs located in the nucleus (lack of space overlap with PD-L1) and proposed candidate genes to be verified by experiments, including DHHC2, DHHC3, DHHC4, DHHC6, DHHC8, DHHC11, DHHC13, DHHC17, DHHC21, and DHHC24 (Figures <ref type="figure" target="#fig_3">4F</ref> and<ref type="figure" target="#fig_3">4G</ref>). Then, specific small interfering RNAs (siRNAs) were used to silence these genes to screen for enzymes that affect PD-L1 expression. Interestingly, knocking down DHHC3, but not other palmitoyltransferases, reduced PD-L1 protein expression and inhibited the palmitoylation of PD-L1 (Figure <ref type="figure" target="#fig_3">4H</ref>). Moreover, loss of DHHC3 also significantly downregulated PD-L1 expression in CRC cells, such as RKO, HCT116, and MC38 cells (Figures <ref type="figure" target="#fig_3">4I</ref> and<ref type="figure" target="#fig_3">4J</ref>). Similarly, overexpression of DHHC3 also upregulated PD-L1 expression in these cells (Figures <ref type="figure" target="#fig_3">4K</ref> and<ref type="figure" target="#fig_3">4M</ref>). It was reported that palmitoyltransferase can interact with its substrate, so we tested whether DHHC3 could bind to PD-L1 in CRC cells. (R-W) Flow cytometry measuring PD-L1 expression in RKO cells pretreated with the indicated concentrations of MG132, Baf, or CQ, followed by BC treatment for As expected, coimmunoprecipitation showed an interaction between PD-L1 and DHHC3 in tumor cells (Figure <ref type="figure" target="#fig_3">4L</ref>). Consistent with this, immunofluorescence experiments also showed that endogenously expressed DHHC3 colocalized with PD-L1 (Figure <ref type="figure" target="#fig_3">4N</ref>). Therefore, from the above results, we speculate that BC may degrade PD-L1 by targeting DHHC3.</p><p>To identify whether BC is directly bound to the DHHC3 protein, we used a cellular thermal shift assay (CETSA), which is based on the biophysical principle that the potential target protein exhibits thermal stabilization upon binding to a ligand. Since long incubation of proteins in the lysate with the drug may induce a cascade of proteins with metabolites, we chose to incubate the drug with lysate for 1 min to detect the direct interaction between them. As shown in Figures <ref type="figure" target="#fig_4">5A</ref> and<ref type="figure" target="#fig_4">5B</ref>, BC significantly increased the accumulation of DHHC3 at 30 C to 50 C, suggesting a direct BC interaction with DHHC3 by affecting thermal stability. To further validate the CETSA results, we treated the lysate with different concentrations of BC at 45 C and found that DHHC3 stability was enhanced with increasing concentrations (Figures <ref type="figure" target="#fig_4">5C</ref> and<ref type="figure" target="#fig_4">5D</ref>). Consistent with the results of CETSA, DHHC3 also accumulated with increasing BC concentration when the enzyme-lysate ratio was 1:300 (Figures <ref type="figure" target="#fig_4">5E</ref> and<ref type="figure" target="#fig_4">5F</ref>). To further determine which amino acid residues of DHHC3 are the binding sites of BC, the binding mode of BC to DHHC3 was modeled by docking simulation using Maestro software (Schro ¨dinger, version 9.0) (Figure <ref type="figure" target="#fig_4">5G</ref>). Subsequently, we performed further direct binding analysis between BC and DHHC3 by microscale thermophoresis (MST) using exogenous DHHC3 protein with a GFP tag. As expected, BC readily bound to DHHC3 proteins with K d values estimated at 385 nM. As shown in Figure <ref type="figure" target="#fig_4">5H</ref>, three stable hydrogen bonds formed between the backbone of Thr176, Glu223, Cys156, and BC. Since palmitoylation consists of a class of palmitoyl transferases containing Asp-His-His-Cys (DHHC) in the active center, we performed a cellular MST assay of GFP-tagged DHHC3 upon overexpression of wild-type DHHC3 and the Cys156 disruptive mutants. As expected, compared with wildtype DHHC3, when Cys156 was mutated to alanine, its K d value became 85 times that of wild-type DHHC3. Next, we also examined the ability of the Thr176 and Glu223 mutants to bind BC and found that K d was also 20-fold higher than that of the wild type. However, once Thr176, Glu223, and Cys156 were all mutated to alanine, the combination of DHHC3 and BC disappeared.</p><p>Cys272 has been reported to be a palmitoylation site of PD-L1. Next, we will determine whether the 272 mutations can accelerate PD-L1 degradation. As shown in Figure <ref type="figure" target="#fig_4">5I</ref>, the Cys272A mutation reduced PD-L1 protein expression, similar to the effect of BC treatment, but did not affect its RNA expression. We further overexpressed the mutant PD-L1C272A in HCT116 cells and found that PD-L1 could be rescued by CQ and Baf but not by MG132 or 3-MA (Figures <ref type="figure" target="#fig_4">5J-5L</ref>). It has been reported that PD-L1 is glycosylated by Golgi-resident enzymes and transported to the cell membrane, on which PD-L1 can also be recycled by recycling endosomes or degraded by the late endosome-lysosome pathway. To explore the effect of palmitoylation on the transport of PD-L1 in recycling endosomes, we blocked the palmitoylation of PD-L1 and investigated the interaction of PD-L1 with DHHC3 in different subcellular organelles. As expected, BC treatment significantly reduced the colocalization of PD-L1 on Rab11-labeled circulating endosomes and increased its colocalization with Lamp1-labeled lysosomes and Rab7b-labeled late endosomes (Figures <ref type="figure" target="#fig_4">5M-5Q</ref>). Consistently, these results suggest that BC blocks the palmitoylation of PD-L1 by targeting DHHC3, which subsequently accelerates PD-L1 degradation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The combination of BC and anti-CTLA4 effectively suppresses tumor growth</head><p>Clinically, the combination of anti-PD-1 and anti-CTLA4 drugs has a higher response rate than PD-1 monotherapy and can significantly improve the response rate and survival rate of cancer patients. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> Next, we investigated whether BC combined with anti-CTLA4 therapy had synergistic antitumor effects. Therefore, MC38 mice were treated with PBS, BC, anti-CTLA4 antibodies, or the combination drug. We found that although BC, or anti-CTLA4 alone, significantly decreased the growth rate of tumors in mice, the growth rate, volume, and weight were further decreased after combination treatment with BC and anti-CTLA4 antibody compared with the control group (Figure <ref type="figure" target="#fig_1">S12</ref>). To explore whether BC treatment is superior to anti-PD-L1, we simultaneously compared the effects of BC and anti-PD-L1 treatment, and the results showed that BC alone was comparable to anti-PDL-1 or anti-CTLA4 treatment. When comparing the therapeutic effects of anti-PD-L1 plus anti-CTLA4 and BC plus anti-CTLA4, it was surprising that their therapeutic effects were almost equivalent, which further proves the   potential clinical application value of BC. When considering whether BC works only by reducing the expression of PD-L1, we also compared the therapeutic effects of BC and BC plus anti-PD-L1 and found that the combination therapy did not enhance the efficacy of BC alone or anti-PD-L1 alone. Therefore, the results suggest that BC and anti-PD-L1 do not have a synergistic effect (Figures <ref type="figure" target="#fig_7">6A-6E</ref>). By analyzing TILs, we found that the number of CD8 + T cells and the ratio of CD8 + to CD4 + T cells in the combination group were higher than those in the group treated with monotherapy alone (Figure <ref type="figure" target="#fig_1">S12</ref>). The level of granzyme B in TILs represents the activity of cytotoxic T cells, which also supports that the efficacy will be better after the combination of BC and anti-CTLA4 treatment. Myeloidderived suppressor cells (MDSCs) and Tregs are considered to be two major immunosuppressive populations in the tumor microenvironment that can lead to tumor immune escape by inhibiting T lymphocyte immunity. Flow cytometry analysis showed that the combination group showed a significant reduction in MDSC (CD11b + Gr1 + ) and Treg (CD4 + CD25 + FOXP3 + ) accumulation compared with the single-treatment group (Figures <ref type="figure" target="#fig_7">6F-6H</ref>). In addition, this result was also confirmed by immunohistochemistry (Figure <ref type="figure" target="#fig_7">6I</ref>). Taken together, our data show that BC is a promising drug to improve antitumor immunity and block immunotherapy at the anti-CTLA4 immune checkpoint.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>protein expression levels of DHHC3 and PD-L1 in human tumor tissue</head><p>To validate the above model in human tumor tissue, we evaluated the protein expression levels of DHHC3 and PD-L1 in paracancerous and tumor tissues from six colon cancer patients. As shown in Figure <ref type="figure">7A</ref>, we observed that the expression of paracancerous and cancerous tissues in four patients was consistent with our expectations. In addition, our gender equity policy institute (GEPI) analysis in the TCGA database also showed that the expression of CD274 and DHHC3 in cancer tissues was higher than that in paracancerous tissues, but there was no significant difference (Figures <ref type="figure">7B</ref> and<ref type="figure">7C</ref>). Consistent with the western blot results, four CRC tissue immunohistochemistry samples showed a positive correlation between DHHC3 and PD-L1 expression (Figure <ref type="figure">7D</ref>). Furthermore, the correlation coefficients were 0.21 and 0.25 in colorectal and total cancer, respectively (Figures <ref type="figure">7E</ref> and<ref type="figure">7F</ref>). Interestingly, DHHC3 and PD-L1 responded similarly to anti-PD-L1 treatment in colon cancer patients (Figure <ref type="figure">7G</ref>). Consistently, these results indicate that PD-L1 palmitoylation by DHHC3 enables its stabilization in CRC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Among immune checkpoints, PD-1/PD-L1 has been considered a target for anticancer drugs for many years. <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> Currently, many small-molecule drugs have achieved encouraging results in tumor therapy by targeting the PD-1/PD-L1 signaling pathways. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> Based on western blot screening, we identified BC as a prime candidate for reducing PD-L1 abundance, suggesting that the marine natural compound BC may be used for tumor immunotherapy in the future. Here, we show for the first time that BC significantly inhibits MC38 tumor growth by modulating immune cells in tumors. In previous studies, BC mainly focused on total synthesis but had little biological activity. <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> In the CCK-8 assay, we found that BC showed little significant toxicity to cancer cells at concentrations below 10 mM. Moreover, BC can attenuate the abundance of PD-L1 in cancer cell membranes, thus blocking the direct interaction between PD-1 on T cells and PD-L1 on tumor cells and activating the immune microenvironment in tumors. Thus, BC can suppress tumor growth by regulating the immune system.</p><p>Palmitoylation is a reversible proteolipid modification that can regulate protein transport, stability, cell-membrane binding, and other processes. <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> In this study, the potential target of BC, namely, DHHC3, was predicted and verified by DARTS/ MS, CETSA, and MST methods. Although palmitoylation is known to regulate protein expression and functions, the exact molecular mechanism is yet to be fully understood. By studying palmitoylation, we found that the palmitoylation of PD-L1 by DHHC3 inhibited the monoubiquitination of PD-L1, thus preventing its transport to the MVB via ESCRT. This blocks the lysosomal degradation of PD-L1, leading to increased PD-L1 expression and inhibition of T cytotoxicity. However, BC can block the palmitoylation of PD-L1 by inhibiting the activity of DHHC3, thus promoting the lysosomal degradation of PD-L1 and activating antitumor immunity. It is known that the active center of palmitoyl transferase contains Asp-His-His-Cys, and the molecular docking results suggest that BC may act directly on the Cys156, Thr176, and Glu223 residues. <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> In the MST experiment, the binding effect of three amino acids to BC was significantly reduced when mutated, while the binding effect of DHHC3 to BC was lost when simultaneously mutated to alanine. Consistent with this view, our results show that DHHC3 is a key enzyme in the palmitoylation and stabilization of PD-L1 in CRC cells. Interference of DHHC3 expression by siRNA reduced PD-L1 expression in tumor cells, suggesting that the stabilization of PD-L1 requires the palmitoylation modification of the DHHC3 enzyme.</p><p>In solid tumors, immune rejection and the immunosuppressive tumor microenvironment are the major obstacles to successful treatment. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> Blocking PD-L1 on tumor cells binds to PD-1 on T cells in the tumor microenvironment, and reactivating T cell-mediated antitumor immunity is a promising clinical anticancer therapy. <ref type="bibr" target="#b39">40</ref> Our animal experiment results show that BC can activate T cells in the tumor microenvironment. In addition, BC not only reduces PD-L1 levels in tumor cells but also increases CD8 + T cell infiltration to promote antitumor immunity. Furthermore, our data also indicated that BC indirectly activated T cells to exert antitumor immunity by inhibiting the infiltration and aggregation of MDSCs and Tregs. It has been demonstrated that Tregs and MDSCs secrete inhibitory cytokines such as IL-10, TGF-b, and IL-35 to suppress the antitumor immunity of effector T cells (Teff), natural killer (NK) cells, and dendritic cells (DCs). <ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b41">42</ref> Our results suggest that BC alleviates the accumulation of MDSCs and Tregs in the tumor microenvironment by inhibiting the DHHC3-dependent PD-1/ PD-L1 interaction. DHHC3 was significantly upregulated in malignant human breast cancer and to an even greater extent in metastatic breast cancer samples in addition to prostate and colon cancers. <ref type="bibr" target="#b42">43</ref> However, the correlation between DHHC3 and PD-L1 was not as strong in the TCGA database, which may be due to DHHC3 being an enzyme that can exhibit strong enzyme activity and function at low expression levels. These findings suggest that inhibition of the activity of DHHC3 enzymes in cancer cells can play a role in tumor immunity.</p><p>The development of immune checkpoint blockade (ICB) began by targeting two immunosuppressive molecular pathways, PD-1/PD-L1 and CTLA4/B7-1/2, and achieved significant clinical therapeutic effects in terms of their blocking effects. <ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref> Based on this, since BC blocks the PD-L1/PD-1 pathway, combination treatment with BC and anti-CTLA4 may enhance tumor immunity. The MC38 mouse model showed that the combination treatment significantly increased CD8 + T cell infiltration and markedly increased tumor regression compared with BC or anti-CTLA4 antibody monotherapy, while the combination treatment also led to severe tumor necrosis. Meanwhile, we compared the combination treatment effects of anti-PD-L1 and anti-CTLA4 with those of BC and anti-CTLA4 and found that the treatment effects were generally consistent. Furthermore, when comparing the therapeutic effects of BC and BC combined with anti-PD-L1, BC did not show any superiority over the use of anti-PD-L1 and BC alone, indicating that BC may exert antitumor effects only by targeting DHHC3 to mediate the degradation of PD-L1 and suggesting that BC may be a natural drug similar to anti-PD-L1, with great potential clinical application value. In addition, lower doses of BC did not cause significant toxicity compared with immune-related adverse events (irAEs) that accompanied antibody-based ICB. Therefore, the above results indicate that the combination of BC and CTLA4 blockade enhances the antitumor effect and is expected to be used in clinical practice in the future.</p><p>In summary, our work demonstrated that BC can block the palmitoylation of PD-L1 by inhibiting the activity of DHHC3, thus promoting the lysosomal degradation of PD-L1, implying that BC could block the direct interaction of PD-L1 and PD-1 and exert an immune antitumor effect. More importantly, BC showed significant antitumor effects in MC38-tumor-bearing C57BL/6 mice by reducing PD-L1 expression and enhancing tumor-infiltrating T cell immunity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations of the study</head><p>The limitations of our study include examining only the effect of BC on colon cancer cells. The palmitoyltransferases acting by BC may be a family, although only DHHC3 has an effect on PD-L1 regulation during the validation process, and whether the influence of the same family has an effect on cancer needs further research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STAR+METHODS</head><p>Detailed methods are provided in the online version of this paper and include the following:  the predicted binding pocket. Induced fit docking for all the conformers of BC to the selected active site was performed by the UNI-IFD module of the Hermite Platform after energy minimization using the prepared ligand protocol. A score was assigned to the docked compound according to its binding mode onto the binding site.</p><formula xml:id="formula_0">d KEY RESOURCES</formula><p>Cellular thermal shift assay (CETSA) RKO cells were lysed with liquid nitrogen, the lysate samples were centrifuged, and the supernatant was collected. BC (100 mM) or the solvent control (DMSO) was added and incubated at room temperature for 15 min. The sample was divided into 100 mL/tube, heated within a certain temperature range for 3 min, cooled at room temperature for 3 min, and stored on ice. All samples were centrifuged, and the supernatant was analyzed by Western blot.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microscale thermophoresis (MST)</head><p>To verify the ability of BC to bind wild-type and mutant DHHC3, we expressed a plasmid carrying the GFP target protein in 293T cells, and cell lysates were obtained 48 h later. This was then tested with MonolithTM NT.115 MST equipment (Nano temper, Germany).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Statistical analysis was performed with an unpaired t-test when comparing two different groups or one-way ANOVA with Tukey's multiple comparison tests. All calculated values are shown as the mean ± standard deviation (SEM). All statistical analyses were performed using GraphPad Prism 8 software.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. BC can promote the degradation of PD-L1 in RKO cells (A) Brief description of our drug screening and validation workflow. (B) Screening of colon cancer cell lines with high expression of PD-L1. (C) Screening of 300 molecules in the natural compound library. RKO cells were treated with the drugs at 10 mM for 24 h. Berberine (Ber) was used as a positive control. The hit compounds that induced a decrease in PD-L1 levels are shown in blue. The depth of blue represents a decreased level of PD-L1. The reduction in PD-L1 levels in RKO cells treated with 300 drugs was measured by western blot. (D) Chemical structure of BC. (E and F) RKO and HCT116 cells were treated with different concentrations of BC for 24 h or treated with 10 mM BC for the indicated times. (G) Quantitative results of BC on PD-L1 in RKO and HCT116 cells are shown.(H) RKO and HCT116 cells were treated with BC (1, 5, and 10 mM) for 24 h, and plasma membrane PD-L1 was detected by flow cytometry. The IFN-g (50 ng/mL) function is to increase PD-L1 expression in tumor cells. (I) RKO and HCT116 cells were treated with BC (10 mM) for 24 h. Immunofluorescence staining showed PD-L1 labeling in red and nuclei in blue with Hoechst. Scale bar, 200 mm. (J) RKO and HCT116 cells were treated with BC (1, 5, and 10 mM) for 24 h, and the effect of the drug on cell viability was determined with a CCK-8 kit. (K) RKO and HCT116 cells were treated with BC (1, 5, and 10 mM) for 24 h, and the effect of the drug on cells was detected with an EdU kit. The data shown are the mean value ± standard error of the mean (SEM; t test). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the PBS group.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. BC can attenuate the ability of tumor cells to bind PD-1, enhance the cytotoxicity of T cells, and mediate a T cell-dependent antitumor effect (A) PD-L1/PD-1 binding assay in RKO cells treated with BC (10 mM, 24 h). The nuclei were stained with Hoechst. Scale bar, 100 mm. (B) Bound PD-1 was calculated according to the intensity of green fluorescence (n = 3, t test). ***p &lt; 0.001 compared with the DMSO group. (C) PD-L1/PD-1 blockade assay performed with RKO cells treated with 1, 5, and 10 mM BC for 12 h. Jurkat NFAT-luciferase reporter cells (10,000 cells/well) were added, and the cells were cocultured for 4 h. Data are presented as the fold induction over the untreated control (n = 3, t test). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the DMSO group. (D-G) T cells were cocultured with RKO and HCT116 cells in 12-well plates for 24 days in the presence of BC, and the surviving tumor cells were visualized by crystal violet staining. Relative fold ratios of surviving cell intensity are shown (n = 3, one-way ANOVA). ## p &lt; 0.01 compared with the RKO and HCT116 DMSO groups; **p &lt; 0.01 and ***p &lt; 0.001 compared with the RKO + T cell or HCT116 + T cell groups. (H) MC38 cells were injected into C57BL/6 mice on day À5, and BC was administered as indicated. (I) Ex vivo observation of the tumors from the treated mice (0, 5, 25, and 50 mg/kg). (J) C57BL/6 mice with MC38 tumors were treated intraperitoneally (i.p.) with PBS or BC, and tumor growth was monitored. (K) Comparison of the weight of the tumors from the mice treated with PBS or BC. (L) The body weight curves of the mice measured every 2 days. (M) Expression of PD-L1 in the tumors of mice treated with PBS or BC. (N) Nude mice bearing MC38 tumors received daily i.p. injections of PBS or BC (50 mg/kg) for 12 days (O-Q) (O) Ex vivo observation of the tumors from the treated mice (0 and 50 mg/kg), and (P) tumor growth and (Q) tumor weight were measured. (R) Representative immunohistochemistry (IHC) staining results for PD-L1, CD3, cleaved caspase 3, and FOXP3 in PBS-or BC (50 mg/kg)-treated C57BL/6 mice.Representative positive expressions are indicated by arrows. Scale bar, 10 mm. (S) Quantification of IHC staining. The data shown are the mean value ± SEM (one-way ANOVA). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the PBS group.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. BC induces lysosome-dependent degradation of PD-L1 (A-C) Quantitative RT-PCR was used to analyze the mRNA level of PD-L1 in RKO cells treated with BC at different concentrations or at different times or in RKO cells treated with BC (10 mM) and 50 ng/mL IFN-g for 12 h. (D) Immunoblotting detecting the PD-L1 abundance in RKO cells treated with DMSO or BC (10 mM) for the indicated time periods in the presence of CHX (50 mg/mL). (E) Quantification of the PD-L1 intensity from (D). (F-M) The degradation of PD-L1 in RKO cells was evaluated by lysosome (CQ, Baf), proteasome (MG132), and autophagy (VM) inhibitors, and quantification of the intensity was determined by the relative level of PD-L1. (N) LysoTracker red staining in RKO cells treated with BC (10 mM) or Torin1 (1 mM) for 12 h (scale bar, 200 mm). (O) Quantification of the LysoTracker intensity from (N). (P) The degradation of PD-L1 in RKO cells was evaluated by lysosome (CQ) and proteasome (MG132) inhibitors. (Q) Quantification of PD-L1 intensity from (P). (R-W) Flow cytometry measuring PD-L1 expression in RKO cells pretreated with the indicated concentrations of MG132, Baf, or CQ, followed by BC treatment for 12 h. Quantification of the MFI of PD-L1 is shown in (S), (U), and (W). The data shown are the mean value ± SEM (t test). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the PBS group.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. BC affects the palmitoylation of PD-L1 by DHHC3 acetyltransferase (A) Heatmap showing the expression of mRNAs in BC-treated RKO cells. (B) Volcano plot showing the significantly upregulated (red dots) and downregulated (blue dots) mRNAs in BC-treated RKO cells. (C) KEGG analysis of differentially expressed mRNAs in RKO cells. (D) Heatmap showing proteomics in RKO cells after BC treatment. (E) Flowchart of the DARTS experiment. (F) The expression of different DHHCs in colorectal cancer (CRC) was determined according to the immunohistochemistry results of the human protein profile. (G) Venn diagram showing the expression and distribution of different DHHCs in CRC, including the expression level and subcellular distribution. (H) Expression of PD-L1 in RKO cells transfected with siRNA from different DHHCs. (I) Expression of PD-L1 after transfection of DHHC3 interfering RNA into RKO, HCT116, and MC38 cells. (J) Immunofluorescence staining showed PD-L1 expression after transfection of DHHC3 interfering RNA into RKO cells. (K) Expression of PD-L1 after transfection of the DHHC3 plasmid into RKO, HCT116, and MC38 cells. (L) The reciprocal coimmunoprecipitation of PD-L1 and DHHC3 revealed a physical interaction between endogenously expressed PD-L1 and DHHC3 in RKO cells. (M) Immunofluorescence staining showed PD-L1 expression after transfection of the DHHC3 plasmid into HCT116 cells. (N) RKO cells were immunostained for PD-L1 and DHHC3. The white arrows indicates the interaction between PD-L1 and DHHC3. Scale bars, 10 mm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. BC directly binds to and inhibits DHHC3 activity</figDesc><graphic coords="11,62.82,101.59,484.29,581.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>(A) The CETSA determined the thermal stabilization of the DHHC3 interaction with BC at a series of temperatures from 30 C to 50 C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>(</head><label></label><figDesc>D and F) Quantification of the DHHC3 intensity of (C) and (E). **p &lt; 0.01 and ***p &lt; 0.001 compared with the control group (one-way ANOVA). (E) Stability of different concentrations of BC on DHHC3 when the ratio of Pronase to protein was 1:300. (G) Molecular docking of BC to DHHC3. (H) The cellular MST assay of GFP-tagged DHHC3 upon overexpression of wild-type DHHC3 and the disruptive mutants. (I-L) The degradation of PD-L1 or the C272A mutant in HCT116 cells was evaluated by CHX assay in the presence of inhibitors for CQ, MG132, and 3-MA. Quantification of the PD-L1 intensity is shown on the right. (M-O) Representative immunofluorescence images show the colocalization between heterotopic PD-L1 and Rab11b, Rab7b, and Lamp1. (P) Schematic diagram of PD-L1 transport from the plasma membrane to vesicles, early endosomes, circulating endosomes (labeled with Rab11), late endosomes (Rab7b), and lysosomes (Lamp1). (Q) Statistical results of the colocalization between PD-L1 and Rab11/Rab7b/Lamp1 in RKO cells treated with BC or DMSO. The data shown are the mean value ± SEM (one-way ANOVA). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the control group.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Combined BC and CTLA4 inhibited tumor growth C57BL/6 mice bearing MC38 cells were treated with PBS, anti-PD-L1, anti-CTLA4, BC, BC + anti-PD-L1, anti-PD-L1 + anti-CTLA4, and BC + anti-CTLA4. (A) MC38 cells were injected into C57BL/6 mice on day À5, and BC, anti-PD-L1, and anti-CTLA4 were administered as indicated. (B-E) The MC38 tumor volume (B), tumor weight (C), mouse weight (D), and tumor images (E) were measured for 16 days.(F-H) Flow cytometry detecting GzmB + (F), Gr-1 + CD11b + (G), and FOXP3 + CD25 + (H) in the PBS, anti-PD-L1, anti-CTLA4, BC, BC + anti-PD-L1, anti-PD-L1 + anti-CTLA4, and BC + anti-CTLA4 groups. Quantification of GzmB + , Gr-1 + CD11b + , and FOXP3 + CD25 + populations in the PBS, anti-PD-L1, anti-CTLA4, BC, BC + anti-PD-L1, anti-PD-L1 + anti-CTLA4, and BC + anti-CTLA4 groups is shown on the right. (I) Representative IHC staining results for CD3, FOXP3, PD-L1, Ki-67, and cleaved caspase-3 in PBS-, anti-PD-L1-, anti-CTLA4-, BC-, BC + anti-PD-L1-, anti-PD-L1 + anti-CTLA4-, and BC + anti-CTLA4-treated C57BL/6 mice. Scale bar, 10 mm. Quantification of IHC staining is shown on the right. The data shown are the mean value ± SEM (one-way ANOVA). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the control group.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="1,55.16,194.51,285.82,285.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE</head><label></label><figDesc></figDesc><table /><note><p>d RESOURCE AVAILABILITY B Lead contact B Materials availability B Data and code availability d EXPERIMENTAL MODEL AND STUDY PARTICIPANT DE-TAILS B Cell lines and cell culture B Human samples B Animal experiments d METHOD DETAILS B Quantitative real-time PCR B Cell transfections for gene silencing B Membrane PD-L1 analysis B PD-L1/PD-1 blockade assay</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p>Cell Reports Medicine 5, 101357, February 20, 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>(legend on next page) 4 Cell Reports Medicine 5, 101357, February 20, 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>(legend on next page) 6 Cell Reports Medicine 5, 101357, February 20, 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12" xml:id="foot_3"><p>h. Quantification of the MFI of PD-L1 is shown in (S), (U), and (W). The data shown are the mean value ± SEM (t test). *p &lt; 0.05, **p &lt; 0.01, and ***p &lt; 0.001 compared with the PBS group.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>(legend on next page) 8 Cell Reports Medicine 5, 101357, February 20, 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>(legend on next page)<ref type="bibr" target="#b11">12</ref> Cell Reports Medicine 5, 101357, February 20, 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14" xml:id="foot_6"><p>Cell Reports Medicine 5, 101357, February 20, 2024Article</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="16" xml:id="foot_7"><p>Cell Reports Medicine 5, 101357, February 20, 2024 Article</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work was funded by the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">82141203</rs>, <rs type="grantNumber">82104459</rs>, <rs type="grantNumber">82003624</rs>, <rs type="grantNumber">82374086</rs>), <rs type="funder">Shanghai Municipal Science and Technology Major Project</rs> (<rs type="grantNumber">ZD2021CY001</rs>), <rs type="programName">Three-Year Action Plan for Shanghai TCM Development and Inheritance Program</rs> (ZY (<rs type="grantNumber">2021-2023)-0401</rs>), <rs type="funder">Innovation Team and Talents Cultivation Program of the National Administration of Traditional Chinese Medicine</rs> (<rs type="grantNumber">ZYYCXTDD-202004</rs>), <rs type="funder">Science and Technology Commission of Shanghai Municipality</rs> (<rs type="grantNumber">20YF1458700</rs>), and <rs type="funder">Organizational Key Research and Development Program of Shanghai University of Traditional Chinese Medicine</rs> (<rs type="grantNumber">2023YZZ02</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_s3pMZPj">
+					<idno type="grant-number">82141203</idno>
+				</org>
+				<org type="funding" xml:id="_TQqpRVJ">
+					<idno type="grant-number">82104459</idno>
+				</org>
+				<org type="funding" xml:id="_B9tDzak">
+					<idno type="grant-number">82003624</idno>
+				</org>
+				<org type="funding" xml:id="_RnDjTfr">
+					<idno type="grant-number">82374086</idno>
+				</org>
+				<org type="funding" xml:id="_vmYBAWF">
+					<idno type="grant-number">ZD2021CY001</idno>
+					<orgName type="program" subtype="full">Three-Year Action Plan for Shanghai TCM Development and Inheritance Program</orgName>
+				</org>
+				<org type="funding" xml:id="_H7BDzXu">
+					<idno type="grant-number">2021-2023)-0401</idno>
+				</org>
+				<org type="funding" xml:id="_Xq55tsD">
+					<idno type="grant-number">ZYYCXTDD-202004</idno>
+				</org>
+				<org type="funding" xml:id="_nbdcKja">
+					<idno type="grant-number">20YF1458700</idno>
+				</org>
+				<org type="funding" xml:id="_vRQBXhc">
+					<idno type="grant-number">2023YZZ02</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTAL INFORMATION</head><p>Supplemental information can be found online at https://doi.org/10.1016/j. xcrm.2023.101357. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATION OF INTERESTS</head><p>All authors declare that they have no competing interests. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STAR+METHODS KEY RESOURCES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESOURCE AVAILABILITY</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lead contact</head><p>Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Weidong Zhang (wdzhangy@hotmail.com).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials availability</head><p>This study did not generate new unique reagents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and code availability d</head><p>The RNA-seq data analyzed in this study were obtained from the GEO under accession numbers GSE 1043103. Proteomics and DARTS data is available at PRIDE (http://proteomecentral.proteomexchange.org; Accession # PXD047153 for proteomics and Accession # PXD047186 for DARTS). All other data are available in the main text or the supplementary materials. d This paper does not report original code. d Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS</head><p>Cell lines and cell culture RKO, MC38, and HCT116 cells were obtained from the Shanghai Institute of Cell Biology, Chinese Academy of Sciences (Shanghai, China). RKO cells were cultured in MEM. MC38 and HCT116 cells were cultured in DMEM and McCoy's 5A medium, respectively. All media were purchased from Meilunbio (Dalian, China). Then, 100 mg/mL streptomycin, 100 U/mL penicillin and 10% fetal bovine serum (Biological Industries, Cromwell, CT, USA) were added to the culture medium, and the cells were cultured in an incubator containing 5% carbon dioxide.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Human samples</head><p>All patients were treated at Ruijin Hospital, Shanghai Jiaotong University School of Medicine (Shanghai, China). All samples were collected after written informed consent was obtained from patients and/or their parents. The study protocol was approved by the Ethics Committee of Ruijin Hospital, Shanghai Jiaotong University School of Medicine. C57BL/6 mice were inoculated subcutaneously with MC38 cells (53105 cells). When the average tumor volume reached approximately 50 mm3. Then, the mice were randomly divided into 4 groups (nR5) and given 0, 12.5, 25 and 50 mg/kg BC intraperitoneally. The tumor volume and tumor volume of the mice were measured every other day. After the experiment, the main organs were collected for HE staining. The tumor tissue was generally immersed in 4% paraformaldehyde for immunohistochemistry, and the other half was stored in a -80 C refrigerator for other experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD DETAILS</head><p>Quantitative real-time PCR Total RNA was extracted from RKO cells using RNAiso Plus (Takara, Dalian, China). According to the instructions, 1 mg RNA was reverse transcribed into cDNA using the Prime Foot RT Reagent Kit (Takara, Dalian, China), and quantitative RT-PCR was performed using a LightCyclerâ 96 Instrument (Roche, Basel, Switzerland). The results were finally normalized to the b-actin gene expression levels. Relative gene expression data were analyzed using the 2 ÀDDCT method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell transfections for gene silencing</head><p>The siRNA of DHHCs were purchased from GenePharma (Shanghai, China), and the sequences are shown in Supporting Information Table <ref type="table">S1</ref>. A negative control (NC) was used as a control. Cells were seeded at 2 3 10 5 per well in 6-well plates and cultured for 24 h. Cells were transfected with siRNA duplexes by Lipofectamine 3000 (Invitrogen, Carlsbad, CA) and incubated for 48 h.</p><p>Membrane PD-L1 analysis RKO cells were treated with BC for the indicated time, and then the cells were harvested and incubated with the PD-L1 antibody at 4 degrees for 30 min. Cells were washed twice with PBS and then resuspended in 5000 mL PBS. Finally, PD-L1 expression was measured by flow cytometry.</p><p>PD-L1/PD-1 blockade assay RKO cells expressing PD-L1 were pretreated with BC for 16 hours. Then, the medium was removed, and luciferase substrate was added to Jurkat cells stably transfected with PD-1 and activated T-cell nuclear factor NFAT. The result of coculture of these cells is the activation of NFAT luciferase, and the interaction between PD-L1 and PD-1 reduces NFAT luciferase. After 8 hours, Bio-Glo reagent was added to each well, and the data were taken by Cytation 5 (BioTek, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>T cell-mediated tumor cell-killing assay</head><p>To obtain activated T cells, PBMCs from healthy donors were cultured in CTSTM AIIM VTM SFM (Gibco) containing 1000 U/mL recombinant human IL-2 and human CD3/CD28/CD2 T cell activator for seven days. The experiments were carried out with 100 ng/mL anti-CD3 antibody and 1000 U/mL IL-2. RKO and HCT116 cells were seeded in a 12-well plate, treated with the indicated conditions of BC for 24 h, and then cocultured with activated T cells for 24 h at an RKO or HCT116 cell:T cell ratio of 1:3. The plates were then washed with PBS to remove cell debris and T cells. The remaining living RKO cells were stained with crystal violet. These images were taken with Cytation 5 (BioTek, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tumor-infiltrating lymphocyte isolation and T cell profile analysis</head><p>Tumor tissue was collected from mice treated with PBS or BC (50 mg/kg), cut into small pieces, and then digested with type 4 collagenase (1 mg/mL, Yeasen) and DNase 1 (0.1 mg/mL, Yeasen) for 1 hour at 37 C. Then, the surface-labeled antibodies CD25, CD3, CD8, Gr-1, CD11b, and FOXP 3 were incubated for 30 min at 4 C. Finally, the cells were labeled with anti-mouse GzmB for 30 min. Subsequently, all samples were tested by flow cytometry (Beckman Coulter, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DARTS/MS proteomics analysis</head><p>The DARTS assay was conducted with slight modification according to a previous description. <ref type="bibr" target="#b46">47</ref> BC (100 mM) or solvent control (DMSO) was added to the cell lysate for 1 hour at room temperature. Then, the samples were digested at room temperature for 30 min with different proportions of enzyme. After stopping digestion, loading buffer was added. The sample was boiled for Western blot analysis. For proteomic analysis, the samples were separated by SDS-PAGE and then subjected to LC-MS/MS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular docking of BC to DHHC3</head><p>The amino acid sequence of DHHC3 (code: Q9NYG2) was obtained from UniProt. The 3D structure of DHHC3 was predicted by the Alph-Fold and Hermite Platform (https://hermite.dp.tech, DP Technology), and the molecular docking model of BC with the 3D structure of DHHC3 was carried out by the Hermite Platform. The regularized protein was used to determine the important amino acids in</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">How to make the best use of immunotherapy as first-line treatment of advanced/metastatic non-small-cell lung cancer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Smit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hellmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="884" to="896" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Immune checkpoint signaling and cancer immunotherapy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="660" to="669" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Immune escape and immunotherapy of acute myeloid leukemia</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gojo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="1552" to="1564" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The impaired antitumoral effect of immune surveillance cells in the immune microenvironment of gastric cancer</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page">108551</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Role of the tumor microenvironment in PD-L1/PD-1-mediated tumor immune escape</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cancer</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Canagliflozin primes antitumor immunity by triggering PD-L1 degradation in endocytic recycling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page">154754</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">PD-1 and its ligands in tolerance and immunity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Keir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Butte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Sharpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="677" to="704" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Regulation and Function of the PD-L1 Checkpoint</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mezzadra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Schumacher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="434" to="452" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Contribution of NK cells to immunotherapy mediated by PD-1/PD-L1 blockade</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Hodgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marathe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Nicolai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Bourgeois-Daigneault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Trevino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Azimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Scheer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Randolph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="4654" to="4668" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Combination strategies with PD-1/PD-L1 blockade: current advances and future directions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cancer</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Tumor-Associated Macrophages Regulate PD-1/ PD-L1 Immunosuppression</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ji</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">874589</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Anti-PD-1/PD-L1 therapy of human cancer: past, present, and future</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="3384" to="3391" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Checkpoint inhibitors for gastroesophageal cancers: dissecting heterogeneity to better understand their role in first-line and adjuvant therapy</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gambardella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cervantes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fleitas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="590" to="599" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Regulation of PD-L1: a novel role of pro-survival signalling in cancer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="409" to="416" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A snapshot of the PD-1/PD-L1 pathway</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cancer</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2735" to="2746" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Post-translational regulations of PD-L1 and PD-1: Mechanisms and opportunities for combined immunotherapy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Cancer Biol</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="246" to="252" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mechanisms Controlling PD-L1 Expression in Cancer</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Cha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="359" to="370" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cyclin D-CDK4 kinase destabilizes PD-L1 via cullin 3-SPOP to control cancer immune surveillance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Geng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Nihira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">553</biblScope>
+			<biblScope unit="page" from="91" to="95" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">PD-1 expression and clinical PD-1 blockade in B-cell lymphomas</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Xu-Monette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="68" to="83" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">eEF2K promotes PD-L1 stabilization through inactivating GSK3b in melanoma</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunother. Cancer</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">4026</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Inhibiting PD-L1 palmitoylation enhances T-cell immune responses against tumours</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Brosseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="306" to="317" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">PD-L1 in the palm of your hand: palmitoylation as a target for immuno-oncology</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Von Knethen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Br€ Une</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct. Target. Ther</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Distinct Immune Cell Populations Define Response to Anti-PD-1 Monotherapy and Anti-PD-1/Anti-CTLA-4 Combined Therapy</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Gide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Menzies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Tasker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Holst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Madore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Velickovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wongchenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Cell</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="238" to="255" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Distinct Cellular Mechanisms Underlie Anti-CTLA-4 and Anti-PD-1 Checkpoint Blockade</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Cogdill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A A S</forename><surname>Anang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pe'er</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Allison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Cell-targeted PD-1 agonists that mimic PD-L1 are potent T cell inhibitors</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Curnock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kumaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Bawden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Figueiredo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tawar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wiseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hoong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gonzalez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCI Insight</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">152468</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">PD-L1/PD-1 axis as a potent therapeutic target in breast cancer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bastaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Irandoust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hojjat-Farsangi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ambrose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hallaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Edalati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ghalamfarsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yousefi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page">117437</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Study and analysis of antitumor resistance mechanism of PD1/PD-L1 immune checkpoint blocker</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="8086" to="8121" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Mechanisms regulating PD-L1 expression in cancers and associated opportunities for novel small-molecule therapeutics</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Clin. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="287" to="305" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Development of small-molecule immune checkpoint inhibitors of PD-1/PD-L1 as a new therapeutic strategy for tumour immunotherapy</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Drug Target</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="244" to="256" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Small molecule inhibitors targeting the PD-1/PD-L1 signaling pathway</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Pharmacol. Sin</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">De novo synthesis of benzosceptrin C and nagelamide H from 7-15N-oroidin: implications for pyrrole-aminoimidazole alkaloid biosynthesis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Stout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Morinaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Romo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Molinski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nat. Prod</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="527" to="530" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Agelastatin E, agelastatin F, and benzosceptrin C from the marine sponge Agelas dendromorpha</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tilvi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moriou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Gallard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sorres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Debitus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ermolenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Mourabit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nat. Prod</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="720" to="723" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Protein S-palmitoylation in immunity</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2021">2021. 200411</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation in cancer: molecular functions and therapeutic potential</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="3" to="26" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation and cancer</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">46666</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">S-acylation by the DHHC protein family</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="522" to="524" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">2-Bromopalmitate analogues as activity-based probes to explore palmitoyl acyltransferases</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="7082" to="7085" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The Nature of Myeloid-Derived Suppressor Cells in the Tumor Microenvironment</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tcyganov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Gabrilovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Immunol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="208" to="220" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Systemic Immunity Is Required for Effective Cancer Immunotherapy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Spitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Carmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Reticker-Flynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kwek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Madhireddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Gherardini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Prestwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chabon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Bendall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="487" to="502" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Regulation of PD-L1 expression in the tumor microenvironment</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hematol. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Tumor-induced neurogenesis and immune evasion as targets of innovative anti-cancer therapies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Cervantes-Villagrana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Albores-Garcı ´a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cervantes-Villagrana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Garcı ´a-Acevez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct. Target. Ther</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">99</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Oxidative stress controls regulatory T cell apoptosis and suppressor activity and PD-L1-blockade resistance in tumor</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crespo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vatan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Szeliga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1332" to="1341" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Antioxidant and Anticancer Functions of Protein Acyltransferase DHHC3</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hemler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antioxidants</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">960</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Immune-related adverse events of checkpoint inhibitors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ramos-Casals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Brahmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flores-Cha ´vez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Keegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Khamashta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lambotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mariette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Prat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Sua ´rez-Almazor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Dis. Primers</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">38</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Combination of CTLA-4 and PD-1 blockers for treatment of cancer</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Clin. Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">255</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Molecular Interactions of Antibody Drugs Targeting PD-1, PD-L1, and CTLA-4 in Immuno-Oncology</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Heo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">1190</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Tracking cancer drugs in living cells by thermal profiling of the proteome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Savitski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B M</forename><surname>Reinhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Franken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Werner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Savitski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eberhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martinez Molina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jafari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Dovega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page">1255784</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

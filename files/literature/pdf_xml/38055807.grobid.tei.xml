@@ -1,0 +1,3390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mechanistic Insights into S-Depalmitolyse Activity of Cln5 Protein Linked to Neurodegeneration and Batten Disease: A QM/MM Study</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2023-12-06">December 6, 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yuvraj</forename><surname>Dangat</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marek</forename><surname>Freindorf</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elfi</forename><surname>Kraka</surname></persName>
+						</author>
+						<title level="a" type="main">Mechanistic Insights into S-Depalmitolyse Activity of Cln5 Protein Linked to Neurodegeneration and Batten Disease: A QM/MM Study</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-12-06">December 6, 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">56E83B5815E72B267C8DA4546C096E73</idno>
+					<idno type="DOI">10.1021/jacs.3c06397</idno>
+					<note type="submission">Received: June 16, 2023 Revised: November 21, 2023 Accepted: November 22, 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Ceroid lipofuscinosis neuronal protein 5 (Cln5) is encoded by the CLN5 gene. The genetic variants of this gene are associated with the CLN5 form of Batten disease. Recently, the first crystal structure of Cln5 was reported. Cln5 shows cysteine palmitoyl thioesterase S-depalmitoylation activity, which was explored via fluorescent emission spectroscopy utilizing the fluorescent probe DDP-5. In this work, the mechanism of the reaction between Cln5 and DDP-5 was studied computationally by applying a QM/ MM methodology at the ωB97X-D/6-31G(d,p):AMBER level. The results of our study clearly demonstrate the critical role of the catalytic triad Cys 280 -His 166 -Glu 183 in Sdepalmitoylation activity. This is evidenced through a comparison of the pathways catalyzed by the Cys 280 -His 166 -Glu 183 triad and those with only Cys 280 involved. The computed reaction barriers are in agreement with the catalytic efficiency. The calculated Gibb's free-energy profile suggests that S-depalmitoylation is a rate-limiting step compared to the preceding S-palmitoylation, with barriers of 26.1 and 25.3 kcal/mol, respectively. The energetics were complemented by monitoring the fluctuations in the electron density distribution through NBO charges and bond strength alterations via local mode stretching force constants during the catalytic pathways. This comprehensive protocol led to a more holistic picture of the reaction mechanism at the atomic level. It forms the foundation for future studies on the effects of gene mutations on both the S-palmitoylation and S-depalmitoylation steps, providing valuable data for the further development of enzyme replacement therapy, which is currently the only FDA-approved therapy for childhood neurodegenerative diseases, including Batten disease.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ INTRODUCTION</head><p>Neuronal ceroid lipofuscinoses (NCLs) are rare genetic disorders of the nervous system that typically start in childhood and are commonly referred to as Batten disease. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> These disorders interfere with a cell's ability to recycle a cellular residue called lipofuscin. Currently, mutations in 14 genes are known to be associated with the development of Batten disease; these genes are denoted as CLN1, CLN2, ...CLN14, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> where CLN stands for ceroid lipofuscinosis neuronal and the associate number stands for the number of the particular gene. Mutation in gene CLN x (x = 1, ...14) leads to the development of the CLN x form of Batten disease. Thus, 14 different forms of Batten disease have been reported so far. <ref type="bibr" target="#b4">5</ref> Children with Batten disease experience a range of symptoms that worsen over time, including cognitive impairment, seizures, and a progressive loss of vision and motor skills. <ref type="bibr" target="#b5">6</ref> As the disease progresses, affected individuals become blind or bedridden and may also suffer from dementia. Infantile Batten disease is typically fatal in early childhood. <ref type="bibr" target="#b6">7</ref> Despite efforts to treat Batten disease and reverse its symptoms, there has been limited success to date. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b8">8</ref> Enzyme replacement therapy, cerliponase alfa 2, (marketed in the U.S. as Brineura, BioMarin), has been approved by the U.S. Food and Drug Administration (FDA) to slow the progression of symptoms associated with CLN2. <ref type="bibr" target="#b9">[9]</ref><ref type="bibr" target="#b10">[10]</ref><ref type="bibr" target="#b11">[11]</ref> However, it must be administered directly to the brains of children with CLN2 disease. Furthermore, there is currently no specific treatment available for the other forms of Batten disease. <ref type="bibr" target="#b4">5</ref> A precise understanding of the three-dimensional structures of enzymes and proteins plays a vital role in identifying potential drug targets and developing effective therapeutic interventions. <ref type="bibr" target="#b12">12,</ref><ref type="bibr" target="#b13">13</ref> Among the various methods used to determine these structures, X-ray crystallography is highly effective and can provide essential insights into the underlying mechanisms of diverse diseases. <ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref> In the context of Batten disease, researchers have conducted numerous studies aimed at uncovering the 3D structures of relevant enzymes and proteins. These efforts have predominantly focused on identifying and exploring the biological role of these macromolecules in the development of disease at the molecular level. Clardy and his team reported the crystal structures of two enzymes, palmitoyl protein thioesterase 1 (PPT1) and palmitoyl protein thioesterase 2 (PPT2) and provided evidence for their nonredundant roles in lysosomal thioester catabolism. <ref type="bibr" target="#b18">18,</ref><ref type="bibr" target="#b19">19</ref> The gene CLN1 encodes PPT1, and mutations in this gene result in symptoms associated with the CLN1 forms of Batten disease. Pal et al. <ref type="bibr" target="#b20">20</ref> successfully crystallized the fully glycosylated precursor of tripeptidyl-peptidase I (TPP1), an enzyme encoded by the CLN2 gene. The TPP1 structure revealed steric constraints on the substrate pocket, which explains its preference for cleaving tripeptides from the unsubstituted N terminus of proteins. Moreover, researchers have resolved the crystal structures of cathepsin D, which is encoded by the CLN10 gene. <ref type="bibr" target="#b21">21</ref> This lysosomal protein serves various functions and is linked to late infantile neuronal ceroid lipofuscinosis. Recently, Luebben et al. <ref type="bibr" target="#b22">22</ref> resolved the crystal structure of the Cln5 protein, encoded by the CLN5 gene, mutations of which are associated with the CLN5 disease (the acronym CLN is generally used to refer to the gene, while Cln represents the protein that is encoded by the CLN gene). The study revealed a new cysteine-based catalytic mechanism for Sdepalmitoylation, which was probed using fluorescent substrates. S-depalmitoylation is a crucial post-translational modification process wherein a palmitic group attached to a cysteine residue of a protein gets hydrolyzed to form palmitic acid. <ref type="bibr" target="#b23">23</ref> This modification primarily occurs on cytoplasmic proteins and exhibits the reverse process known as Spalmitoylation. The X-ray crystal structures of the proteins discussed above are summarized in Figure <ref type="figure" target="#fig_0">1</ref>. Crystal structure information for the enzymes related to the other forms of CLNs has been missing so far, causing a substantial hurdle for Journal of the American Chemical Society the development of related treatments. More such efforts in this direction need to be encouraged.</p><p>Despite X-ray crystallography being a powerful tool to gain a molecular-level understanding of protein and enzyme structures, it has certain limitations when it comes to designing effective therapeutic interventions. <ref type="bibr" target="#b24">[24]</ref><ref type="bibr" target="#b25">[25]</ref><ref type="bibr" target="#b26">[26]</ref> While it provides detailed information on the static structure of proteins, it cannot capture dynamic conformational changes or proteinprotein interactions that occur in living organisms. <ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b28">28</ref> Apart from that, it cannot provide detailed mechanistic pathways, which are necessary for designing new drug molecules and therapeutic strategies. To supplement X-ray crystallography, computational studies have become increasingly important in providing additional insights into the behavior and function of proteins. <ref type="bibr" target="#b29">29,</ref><ref type="bibr" target="#b30">30</ref> Furthermore, computer-aided drug design-based computational approaches are playing a crucial role in enabling the development of more effective and targeted therapies. <ref type="bibr" target="#b31">[31]</ref><ref type="bibr" target="#b32">[32]</ref><ref type="bibr" target="#b33">[33]</ref><ref type="bibr" target="#b34">[34]</ref><ref type="bibr" target="#b35">[35]</ref> However, there is a scarcity of computational studies for Batten disease. To the best of our knowledge, no reports have yet been published on the mechanistic aspects of enzymatic reactions related to Batten disease using computational tools. Therefore, our study was aimed to fill this gap by exploring the catalytic mechanism of the recently reported S-depalmitoylation activity of the Cln5 protein. <ref type="bibr" target="#b22">22</ref> This is particularly significant due to the initial discovery of CLN5-related disorders in Finland, specifically late infantile NCL OMIM 256731, followed by their identification in diverse ethnic populations. To date, more than 50 sequence variations and mutations in the CLN5 gene have been reported, <ref type="bibr" target="#b22">22,</ref><ref type="bibr" target="#b36">36,</ref><ref type="bibr" target="#b37">37</ref> which have been associated with a range of diseases, including late infantile epileptic encephalopathy <ref type="bibr" target="#b39">38</ref> and Alzheimer's. <ref type="bibr" target="#b40">39</ref> Furthermore, Cln5 is a soluble protein primarily located in lysosomes <ref type="bibr">[40]</ref><ref type="bibr" target="#b41">[41]</ref><ref type="bibr" target="#b42">[42]</ref> and has been implicated in endolysosomal dysfunction. <ref type="bibr" target="#b43">[43]</ref><ref type="bibr" target="#b44">[44]</ref><ref type="bibr" target="#b45">[45]</ref> Additionally, S-depalmitoylation has a significant impact on neuronal development and synaptic plasticity and is associated with various neurological diseases such as Alzheimer's, Huntington's, and Parkinson's. <ref type="bibr" target="#b46">46,</ref><ref type="bibr" target="#b47">47</ref> Luebben et al. <ref type="bibr" target="#b22">22</ref> conducted the reaction depicted in Scheme 1 to mimic the process of S-depalmitoylation by utilizing fluorescent emission spectroscopy techniques. <ref type="bibr" target="#b48">48</ref> A recently synthesized fluorescent probe called DPP-5 <ref type="bibr" target="#b49">49</ref> was employed, comprising a long-chain palmitic group (tail) connected to a fluorescent group R (head) by a sulfur atom. DPP-5 can be regarded as a model for proteins with attached dangling palmitic groups. The fluorescent group R serves as the active substrate for emission spectroscopy. Notably, when the thioester bond undergoes hydrolysis, a distinct change in the fluorescence spectra is observed. This alteration in spectra provides evidence for the presence and activity of proteins that exhibit S-depalmitoylation activity. By quantifying the intensity of the change in the spectra, we determined the level of protein activity.</p><p>Based on mutation experiments, the authors concluded that the S-depalmitoylation activity of the Cln5 protein depends on a specific set of three amino acids, known as the catalytic triad (Cys 280 -His 166 -Glu 183 ) <ref type="bibr" target="#b22">22</ref> Two mutations were introduced: His 166 was substituted with an Ala residue (His 166 Ala), and Cys 280 was replaced with a Ser residue (Cys 280 Ser). The experimental results exhibited a significant decrease in Sdepalmitoylation activity when these mutations were tested against the DPP-5 substrate, thus providing strong evidence for the critical involvement of the catalytic triad (Cys 280 -His 166 -Glu 183 ) in the overall S-depalmitoylation process.</p><p>To validate these findings, we delved into the detailed and stepwise reaction mechanism that underlies the catalytic role of the triad. We explored two aspects: hydrolysis of the thioester bond involving the catalytic triad (Cys 280 -His 166 -Glu 183 ) and hydrolysis solely mediated by the Cys 280 residue. The first aspect comprises two pivotal reactions. First, it involves the cleavage of the thioester bond, which represents the sulfurcarbonyl bond in DPP-5, followed by the formation of a bond between the palmitic group and the Cys 280 residue of the Cln5 protein. This step replicates the biological process of Spalmitoylation, where a palmitic group is transferred from the substrate to the cysteine residue. Second, the bond between Cys 280 and the palmitic group undergoes hydrolysis, leading to the generation of palmitic acid as a hydrolysis product. This hydrolysis step emulates the biological process of Sdepalmitoylation. Whereas, the second aspect exclusively focuses on the S-depalmitoylation process.</p><p>As a tool, we applied in this work a hybrid QM/MM (quantum mechanics/molecular mechanics) methodology <ref type="bibr" target="#b50">50,</ref><ref type="bibr" target="#b51">51</ref> to obtain first-hand molecular-level insights into the Spalmitoylation and depalmitoylation activities of Cln5 and the special role of the catalytic triad, with the following specific research objectives:</p><p>1. Perform an in-depth investigation of the hydrolysis reaction mechanism involving the DPP-5 fluorophore and the wild-type Cln5 protein.</p><p>2. Calculate the corresponding Gibb's free-energy profile to gain valuable insights into the enzymatic activity of Cln5, with a specific emphasis on identifying the rate-limiting step.</p><p>3. Examine the catalytic role of the Cys 280 -His 166 -Glu 183 triad by investigating the alternate mechanism in which solely Cys 280 participates in the S-depalmitoylation process. Furthermore, conduct a comparative analysis of the Gibbs free-energy profiles for both the triadassisted and the Cys 280 -assisted mechanisms.</p><p>4. Provide complementary insights into the efficiency of the S-depalmitoylation activity through the analysis of natural bond orbital (NBO) charges.</p><p>5. Assess the strength of noncovalent interactions and covalent bonds formed and broken during the catalytic process with the local vibrational mode analysis (LMA) developed in our group. <ref type="bibr" target="#b52">52,</ref><ref type="bibr" target="#b53">53</ref> 6. Examine the impact of changes in the strengths of noncovalent interactions and covalent bonds during the reaction catalytic process on the S-depalmitoylation activity of Cln5.</p><p>The structure of this article is organized as follows: we begin with a concise overview of the methodology employed for our investigation, including details on structure preparation, docking studies, molecular dynamics (MD) simulations, <ref type="bibr" target="#b54">54,</ref><ref type="bibr" target="#b55">55</ref> ONIOM (N-layered integrated molecular orbital and molecular mechanics) QM/MM implementation, <ref type="bibr" target="#b56">56</ref> and LMA. Subsequently, we present a thorough discussion of the explored reaction mechanisms, divided into two aspects: (i) hydrolysis mechanism with the catalytic triad (Cys 280 -His 166 -Glu 183 ) and (ii) hydrolysis mechanism with only the Cys 280 residue. We conclude by summarizing the key findings of our study and discussing future applications of our work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of the American Chemical Society</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ METHODOLOGY</head><p>In the following section, we provide a comprehensive overview of the specific computational tools and methodologies utilized in this work.</p><p>Preparing the Structure. In this study, the crystallographic structure of the Cln5 protein, deposited in the Protein Data Bank under the reference code 6R99, was utilized. <ref type="bibr" target="#b22">22</ref> To prepare the structure for the investigation, the UCSF Chimera software package <ref type="bibr" target="#b57">57</ref> was employed to remove the BMA and NAG residues, as well as crystallographic water molecules. The BMA and NAG residues were located in the peripheral part of the protein and did not contribute directly to the active catalytic pocket. Therefore, their removal would not significantly impact the catalytic mechanism. Additionally, selenomethionine (Mse) was converted to methionine (Met) using the Doc Prep module of Chimera. The molecular representation of the deposited Cln5 protein, 6R99, is shown in Figure <ref type="figure" target="#fig_0">S1</ref> of the Supporting Information. This figure illustrates the peripheral placement of the BMA and NAG residues. Additionally, it highlights the positions of the selenomethionine (Mse) residues, indicating their location relative to the reaction center, with a focus on residue Cys 280 . The depalmitoylase substrate DDP-5 structure was prepared using the Avogadro software <ref type="bibr" target="#b58">58</ref> and subsequently minimized using the MMFF94 59 level of theory, as implemented in Avogadro.</p><p>Classical Docking. Since the deposited protein structure did not include the DPP-5 molecule in the active catalytic pocket, we employed the molecular docking software, Smina <ref type="bibr" target="#b60">60</ref> to dock DPP-5. The Open Babel package <ref type="bibr" target="#b62">61</ref> was used to convert PDB (Protein Data Bank) coordinates into the PDBQT (Protein Data Bank, Partial Charge (Q), and Atom Type (T)) format for both protein and DPP-5. This format includes partial charges ("Q") and AutoDock 4 (AD4) atom types ("T"). <ref type="bibr" target="#b62">61</ref> In addition to the formatted input files, we used the binding pocket coordinates of Cln5, Cys 280 , His 166 , and Glu 183 for the Smina docking simulation, where specifically the sulfur atom of Cys 280 was targeted. Initially, we intended to dock the entire DPP-5 molecule in the active catalytic pocket. However, the considerable size of the DPP-5 molecule presented a significant challenge. Therefore, after conducting thorough docking studies and critical evaluation, we achieved the successful placement of a DPP-5 substrate into the catalytic pocket. This substrate served as the foundation for all of the subsequent calculations. For a detailed description of the DPP-5 substrate placement, please see Section S2 of the Supporting Information.</p><p>MD Simulations. To ensure the stability of the DPP-5 substrate within the catalytic pocket, the Cln5 protein-DPP-5 ligand complex was equilibrated via molecular dynamics (MD) simulations. <ref type="bibr" target="#b63">62</ref> The equilibration was performed to guarantee the accuracy of the subsequent QM/MM calculations (as described below) and to refine the geometry of the Cln5 protein-DPP-5 ligand complex. The AMBER software package's <ref type="bibr" target="#b54">54</ref> Sander module and the FF14SB <ref type="bibr" target="#b64">63</ref> version of the AMBER force field were used for the simulations, with DPP-5 topologies generated using the general AMBER force field (GAFF) and atomic partial charges determined using the RESP method in ANTECHAMBER. <ref type="bibr" target="#b65">64</ref> The prepared protein structure underwent initial processing using the tleap module of AMBER, during which missing atoms and hydrogens were added. The system was further neutralized with three Na + counterions and solvated in an 18 Å TIP3P <ref type="bibr" target="#b67">65</ref> water box. The geometry was relaxed through an explicit water relaxation procedure, <ref type="bibr" target="#b54">54</ref> which involved the following steps. To begin with, added water molecules were minimized while restraining the rest of the system using the steepest descent and conjugate gradient methods for 600 steps. After that, three rounds of MD simulations were performed at constant pressure and 298 K, with gradually decreasing restraints on the protein backbone and Na + ions. The first round involved heating the system from 100 to 298 K over 500 ps, with protein, DPP-5, and Na + ions constrained with positional restraints of 100 kcal mol -1 Å -2 . In the second round, the box density was allowed to relax while maintaining the system at 298 K for another 500 ps, with restraints on the protein backbone, the other atoms of protein were allowed to relax, and Na + ions were kept at 100 kcal mol -1 Å -2 . The third round involved running the simulation for 500 ps at constant pressure and 298 K, with smaller restraints of 10 kcal mol -1 Å -2 on the backbone and Na + ions. After that, the entire system was again minimized for 600 steps with restraints of 10 kcal mol -1 Å -2 on the backbone and Na + ions. Three more rounds of simulations were then performed for 500 ps with progressively smaller restraints of 10, 1.0, and 0.1 kcal mol -1 Å -2 . Finally, the system was simulated for another 500 ps at constant pressure to allow the protein-ligand complex to equilibrate. The restraints on the protein backbone were completely removed, but the restraints on the Na + ions were maintained at 0.1 kcal mol -1 Å -2 to keep them in close proximity to the protein. Our goal was to achieve an equilibrated Cln5 protein-DPP-5 complex with a 5 Å shell of simulated water for the enzymatic studies utilizing a QM/ MM approach. If left unconstrained, Na + ions would have a tendency to migrate away from the Cln5 protein-DPP-5 complex, which would have increased the size of our QM/MM model. Therefore, we introduced constraints on the Na + ions during the final stage of equilibration. Importantly, it should be noted that the constrained Na + ions did not alter the protein structure, as demonstrated in Figure <ref type="figure" target="#fig_6">S6</ref> of the Supporting Information, which compares the geometries of the equilibrated Cln5 protein-DPP-5 complex with and without constraints on Na + ions.</p><p>Considering that the DPP-5 substrate was initially placed inside the catalytic pocket, monitoring its stability within the pocket was imperative. Therefore, we conducted a 20 ns production run on the equilibrated structure from the preceding step. During this production run, the DPP-5 substrate exhibited remarkable stability, remaining securely within the catalytic pocket throughout the simulation. Snapshots of the production run, taken every 5 ns, are presented in Figure <ref type="figure">S7</ref> in the Supporting Information to visualize the DPP-5 substrate stability. Furthermore, to reinforce the stability argument, we show the rmsd plot relative to the starting structure of the production run, as depicted in Figure <ref type="figure">S8</ref> of the Supporting Information. From a detailed analysis of the changes in the geometry during the production run, we observed an increase in the distance between the carbon carbonyl atom of the DPP-5 substrate and the sulfur atom of the Cys 280 residue, both of which are crucial reaction centers; further details are provided in Figure <ref type="figure">S9</ref> of the Supporting Information. Given the objective of this work to elucidate the reaction mechanism of the palmitoylation/ depalmitoylation processes, implying the necessity for the reaction centers to be in close proximity, we chose the Journal of the American Chemical Society equilibrated geometry as the basis for the construction of the QM/MM model, i.e., the selection was made based on the closest distance between the reaction centers observed during the equilibration. Additional details regarding the QM/MM calculations are provided in the next section.</p><p>QM/MM Calculations. The equilibrated geometry obtained from the previous MD simulation was used to construct the QM/MM model, utilizing the CPPTRAJ module <ref type="bibr" target="#b68">66</ref> within the AMBER package. <ref type="bibr" target="#b54">54</ref> The QM/MM model consisted of the protein-DPP-5 substrate complex, Na + ions, and a 5.0 Å water coating surrounding the entire system, see Figure <ref type="figure" target="#fig_1">2</ref>. This approach is a widely used protocol for investigating enzyme mechanisms. <ref type="bibr" target="#b69">67</ref> CPPTRAJ was employed to accurately extract the water coating.</p><p>To create input files for the QM/MM calculations, the TAO package, <ref type="bibr" target="#b70">68</ref> a toolkit designed for QM/MM calculations ONIOM, <ref type="bibr" target="#b56">56</ref> was utilized. The QM/MM system was divided into two regions: the high-level (HL) layer, where the electronic structure was described using density functional theory (DFT) methods, and the low-level (LL) layer, where the classical mechanics of the molecular environment was described using MM methods. A link hydrogen atom method was utilized to connect the two regions, allowing for a seamless interface.</p><p>The HL layer initially contained 103 atoms in total, including all important atoms from the catalytic triad Cys 280 -His 166 -Glu 183 , the DPP-5 substrate molecule, and one water molecule, in order to represent the protein catalytic pocket most effectively (see Figure <ref type="figure" target="#fig_1">2</ref> and Scheme 1). All remaining atoms in the system were included in the low-level (LL) layer. It is to be noted that the HL layer was expanded to 109 atoms through the addition of two water molecules, specifically for the study of the hydrolysis process involving only Cys 280 and the water-assisted Cys 280 residue.</p><p>The QM/MM calculations were performed using the ONIOM method, as implemented in the Gaussian 16 suite <ref type="bibr" target="#b71">69</ref> of quantum chemical programs. The geometries of the reactants, intermediates, and transition states in the highlevel (HL) layer were optimized with the ωB97X-D <ref type="bibr" target="#b72">70</ref> density functional and the 6-31G(d,p) basis set. <ref type="bibr" target="#b73">71</ref> Normal vibrational mode analyses performed for all stationary points identified all transition states to be of first-order saddle point (single imaginary frequency), and the correct transition vectors were assigned. The minima were also subject to vibrational frequency calculations, with no imaginary frequencies observed. The internal reaction coordinate (IRC) approach <ref type="bibr" target="#b74">72</ref> was applied for each reaction step to connect each transition state with the correct reactant and product.</p><p>Working with high-level (HL) and low-level (LL) layers and considering the size of the system, the mechanical embedding method of the ONIOM was employed instead of the electronic embedding option. The Gibbs free energies of the transition states and intermediates were obtained by adding thermal and entropic corrections. All of the energy values presented here are in kcal/mol, unless stated otherwise. Since the investigated mechanism included anions, it was crucial to determine whether the inclusion of diffuse functions in the basis set had any effect on the computed barrier heights. To explore this aspect, we conducted a single-point energy calculation using the 6-31G+(d,p) basis set. A comparison of the single-point energy calculations with and without diffuse functions is illustrated in Figure <ref type="figure" target="#fig_0">S10</ref> of the Supporting Information, revealing that inclusion of diffuse functions does not lead to significant differences in the barrier heights. Hence, all energy values reported in the article were calculated at the ωB97X-D/ 6-31G(d,p):AMBER level of theory.</p><p>Local Vibrational Mode Analysis. To gain additional insights into the changes of the intrinsic strength of the chemical bonds or weak interactions to be broken and/or formed during the entire catalytic process, we applied LMA <ref type="bibr" target="#b52">52,</ref><ref type="bibr" target="#b53">53</ref> at all identified stationary points, i.e., intermediates and transition states (TSs). LMA extracts specific information about the electronic structure and bonding of a molecule from the normal vibrational modes, which are produced during a routine frequency calculation. <ref type="bibr" target="#b75">73</ref> Normal vibrational modes are generally delocalized over a molecule; <ref type="bibr" target="#b76">[74]</ref><ref type="bibr" target="#b77">[75]</ref><ref type="bibr" target="#b78">[76]</ref><ref type="bibr" target="#b79">[77]</ref> therefore, associated normal-mode frequencies and normal-mode force constants cannot serve as a direct measure of bond strength. The delocalization is caused by two types of normal mode coupling, kinematic and electronic coupling. The electronic coupling which is reflected by the off-diagonal elements of the force constant matrix expressed in Cartesian coordinates x or internal coordinates q is effectively removed during the frequency calculation via the Wilson GF-formalism. <ref type="bibr" target="#b78">76,</ref><ref type="bibr" target="#b80">78,</ref><ref type="bibr" target="#b81">79</ref> This involves transforming Cartesian coordinates x to normal mode coordinates Q and related normal modes, resulting in the diagonal force constant matrix K Q . However, this procedure does not eliminate the kinematic (mass) coupling reflected by the Wilson G (the so-called inverse kinetic energy matrix), which has often been overlooked. Konkoli and Cremer solved this problem by solving mass-decoupled Euler-Lagrange equations in which the masses of all atoms of the molecule are set to zero except for those of the molecular fragment (such as bond, angle, or dihedral) undergoing the localized vibration of interest. <ref type="bibr" target="#b82">80,</ref><ref type="bibr" target="#b83">81</ref> By doing so, they were able to account for the effect of kinetic (mass) coupling and to derive for each molecular fragment being described by an internal coordinate q n , the associated local vibrational mode a n , which is given by the following equation <ref type="bibr" target="#b52">52,</ref><ref type="bibr" target="#b53">53,</ref><ref type="bibr" target="#b82">80,</ref><ref type="bibr" target="#b83">81</ref>  where d n corresponds to a row vector of the normal mode matrix D in internal coordinates q n . <ref type="bibr" target="#b78">76</ref> For each local vibrational mode a n , a corresponding local mode frequency n a , local mode mass m n a , and local force constant k n a can be defined. The local mode frequency n a is defined by</p><formula xml:id="formula_0">= † † a K d d K d n n n n 1 1<label>(1)</label></formula><formula xml:id="formula_1">= c k m 1 2 n a n a n a (<label>2</label></formula><formula xml:id="formula_2">)</formula><p>and the corresponding local force constant k n a by</p><formula xml:id="formula_3">= † k d K d ( ) n a n n 1 1<label>(3)</label></formula><p>The local mode force constants k a have proven to be a reliable tool to quantify the strength of covalent chemical bonds <ref type="bibr" target="#b85">[82]</ref><ref type="bibr" target="#b86">[83]</ref><ref type="bibr" target="#b87">[84]</ref><ref type="bibr" target="#b88">[85]</ref><ref type="bibr" target="#b89">[86]</ref><ref type="bibr" target="#b90">[87]</ref><ref type="bibr" target="#b91">[88]</ref> and weak chemical interactions such as halogen bonds, <ref type="bibr" target="#b92">[89]</ref><ref type="bibr" target="#b93">[90]</ref><ref type="bibr" target="#b94">[91]</ref><ref type="bibr" target="#b95">[92]</ref><ref type="bibr" target="#b96">[93]</ref><ref type="bibr" target="#b97">[94]</ref> chalcogen bonds, <ref type="bibr" target="#b98">[95]</ref><ref type="bibr" target="#b99">[96]</ref><ref type="bibr" target="#b100">[97]</ref> pnicogen bonds, <ref type="bibr" target="#b99">96,</ref><ref type="bibr" target="#b101">[98]</ref><ref type="bibr" target="#b102">[99]</ref><ref type="bibr" target="#b103">[100]</ref> tetrel bonds, <ref type="bibr" target="#b104">101</ref> and hydrogen bonds. <ref type="bibr" target="#b105">[102]</ref><ref type="bibr" target="#b106">[103]</ref><ref type="bibr" target="#b107">[104]</ref><ref type="bibr" target="#b108">[105]</ref><ref type="bibr" target="#b109">[106]</ref><ref type="bibr" target="#b110">[107]</ref><ref type="bibr" target="#b111">[108]</ref><ref type="bibr" target="#b112">[109]</ref><ref type="bibr" target="#b113">[110]</ref><ref type="bibr" target="#b114">[111]</ref><ref type="bibr" target="#b115">[112]</ref><ref type="bibr" target="#b116">[113]</ref> A more in-depth discussion of the underlying theory of LMA can be found in refs 52 and 53 and the literature cited therein. LMA was performed with the LModeA software package. <ref type="bibr" target="#b117">114,</ref><ref type="bibr" target="#b119">115</ref> LMA was complemented in this work with the NBO analysis <ref type="bibr" target="#b120">116,</ref><ref type="bibr" target="#b121">117</ref> performed at all identified intermediates and TSs. In particular, fluctuations in the NBO atomic charges of the key atoms involved in each catalytic reaction step were analyzed.</p><p>The Cartesian coordinates and PDB files for all stationary points (i.e., reactants, products, and intermediates) are provided in the Supporting Information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ RESULTS AND DISCUSSION</head><p>Our findings yield a comprehensive understanding of the Spalmitoylation mechanism facilitated by the wild-type Cln5 protein and the subsequent S-depalmitoylation mediated by the catalytic triad during its action on the DPP-5 substrate. We commence with a detailed analysis of the hydrolysis mechanism involving the catalytic triad (Cys 280 -His 166 -Glu 183 ), as illustrated in Figure <ref type="figure" target="#fig_2">3</ref>. The energetic aspects of this reaction mechanism are summarized in Figure <ref type="figure" target="#fig_0">S10</ref> of the Supporting Information. Figure <ref type="figure" target="#fig_3">4</ref> highlights the changes in NBO charges of key atoms during the catalytic hydrolysis of DPP-5, while Figure <ref type="figure" target="#fig_4">5</ref> demonstrates variations in local mode force constants k a of critical bonds and nonbonded interactions involved in the process, providing a more comprehensive insight into the associated electronic structure changes throughout the reaction. Additionally, we explored an alternative competitive reaction pathway in which the  hydrolysis exclusively involves the Cys 280 residue. The resulting reaction mechanisms, along with the associated energetics, are documented in Figure <ref type="figure" target="#fig_6">6</ref>.</p><p>Hydrolysis Mechanism with the Catalytic Triad (Cys 280 -His 166 -Glu 183 ). As depicted in Figure <ref type="figure" target="#fig_2">3</ref>, the reaction begins with the formation of the enzyme-substrate complex ES, which we used as a reference point. DPP-5, which consists of a bulky headgroup, a fluorophore, and a long tail, the palmitic group, docks into the active catalytic pocket of Cln5. Section S2 of the Supporting Information provides further details on the docking process. Once the enzyme-substrate complex is formed and reaches equilibrium, the palmitoylation reaction commences.</p><p>Step 1 of the reaction transforming ES into I1 proceeds via proton transfer from the Cys 280 residue to His 166 and subsequent proton transfer from His 166 to Glu 183 , leading to the formation of a nucleophilic Cys 280 residue. Step 1 is found to be exoergic by ΔG of -2.9 kcal/mol, see Figure <ref type="figure" target="#fig_2">3</ref>. Step 2 of the reaction from I1 to I2 processes through TS1, characterized by one imaginary frequency of 127.6i cm -1 . The free-energy barrier ΔG ⧧ for this step is 21.3 kcal/mol, calculated relative to I1, leading to the transfer of the palmitic group to the Cys 280 residue of Cln5 and the resulting intermediate I2.</p><p>Step 2 is found to be endoergic by 16 The following steps, Step 4 and Step 5, are responsible for removal of the palmitic group from Cys 280 , known as Sdepalmitoylation. Step 4 focuses on hydrolysis, which removes the palmitic group from the Cys 280 residue of Cln5. The process occurs via the concerted transition state TS3 characterized by an imaginary frequency of 893.9i cm -1 , resulting in the formation of intermediate I4. The overall barrier ΔG ⧧ for this process is 26.1 kcal/mol, relative to I1.</p><p>Step 5 involves a proton transfer to regenerate the original enzyme.</p><p>The free-energy profile of both processes (illustrated in Figure <ref type="figure" target="#fig_0">S10</ref> of the Supporting Information) strongly supports the feasibility of both the S-palmitoylation and S-depalmitoylation processes. However, energy is a cumulative property. To gain a deeper understanding of the electronic structure changes accompanied by the S-palmitoylation and S-depalmitoylation processes, we conducted an in-depth analysis of the changes in NBO charges of all key atoms throughout the catalytic hydrolysis of DPP-5 as depicted in Figure <ref type="figure" target="#fig_3">4</ref>. These data were complemented with the analysis of the variations in the local force constants k a of crucial bonds and nonbonded interactions that are critical to the overall process illustrated in Figures <ref type="figure" target="#fig_3">4</ref> and<ref type="figure" target="#fig_4">5</ref>, respectively. The discussion of these results is summarized below. To facilitate clarity in the discussion, the atoms involved in the reaction mechanism are named accordingly. For instance, atoms associated with Cys 280 residues are denoted by X, where the sulfur atom of Cys 280 is denoted as SX, and hydrogen is denoted as HX. Similarly, atoms associated with His 166 residues are denoted by Y, with nitrogen represented as NY1 and NY2 and hydrogen as HY. The oxygen atom of Glu 183 residue is denoted as OZ. In addition, the sulfur and carbon atoms of the substrate DDP-5 are represented as S1 and C1, respectively. The atoms of water are molecules, named OW for oxygen and HW1 for hydrogen. It should be noted that this nomenclature is based on the initial positions of the atoms in the enzyme-substrate complex and associated labels X, Y, and Z do not change further as the atoms move between residues while bonds form and break.</p><p>The support of the proton transfer via the catalytic residues Cys 280 -His 166 -Glu 183 in Step 1 can be attributed to the basic nature of the nonprotonated Glu 183 . This is evident from the NBO charge on the OZ atom in ES, which is -0.8948 au Furthermore, this basic character of nonprotonated Glu 183 is supported by the NBO charges of other atoms in the catalytic triad, specifically the SX, HX, NY1, NY2, HY, and OZ atoms in ES, which are -0.1517, 0.2046, -0.6115, -0.5738, 0.4895, and -0.8948 au, respectively. This proton transfer triggered by nonprotonated Glu 183 generates a relatively stable Cys 280 nucleophile, referred to as I1. The stability of I1 can be attributed to the formation of stronger bonds between HX-NY1 and HY-OZ, as evidenced by the increase in the local mode force constants (k a ) for these bonds from 0.169 to 6.969 and 0.219 to 5.424 mdyn/Å, respectively. The nucleophilic nature of Cys 280 is evident through a decrease in the NBO charge of the SX atom by 0.5006 au in I1 compared to ES. Furthermore, the formation of the Cys 280 nucleophile has a significant effect on the strength and polarity of the C1-S1 bond of the substrate, as seen from the decrease in the local mode force constant k a by 0.726 mdyn/Å and changes in NBO charges on atoms C1 and S1, from 0.4070 to 0.4539 and 0.3129 to 0.2417 au, respectively. This overall effect of the increased nucleophilic nature of Cys 280 and decrease in the C1-S1 bond strength, along with increased polarity of the C1-S1 bond, sets the stage for the transfer of the palmitic group from the substrate to the Cys 280 residue, i.e., Spalmitoylation.</p><p>In Step 2, the nucleophilic Cys 280 (NBO charge -0.6523 au) attacks the electrophilic carbonyl of the substrate, C1 (NBO charge 0.4539 au). This results in the cleavage of the C1-S1 bond and the formation of a new bond, C1-SX, between the palmitic group and the Cys 280 residue, ultimately forming intermediate I2. The breaking of the C1-S1 bond and the formation of the C1-SX bond are evident from the changes in the local mode force constants k a for these bonds, transitioning from 2.361 to 0.114 and from 0.054 to 0.976 mdyn/Å, respectively. The stability of transition state TS2 can be attributed to the strength of the important interactions SX••• HX and S1•••HX, represented by an increase in the local mode force constants k a from 0.067 to 0.147 and 0.083 to 0.221 mdyn/Å, respectively. It is important to note that noncovalent interactions between two atoms are denoted by a dashed line, while covalent bonds are represented by a solid line. The resulting intermediate I2 is endoergic, which can be explained by the formation of an RS nucleophile, representing the fluorophore portion of the DPP-5 substrate (see Figure <ref type="figure" target="#fig_2">3</ref>). The anionic of the RS nucleophile is demonstrated by the decrease in the NBO charge on S1 by 0.8405 au. This anionic character of the RS nucleophile aids in the abstraction of a proton from the His 166 residue, generating an RSH molecule, one of the products of DPP-5 hydrolysis via TS2, which is Step 3. This proton transfer is of low barrier, measuring 6.1 kcal/mol, with respect to I2. The reason behind this low barrier can be attributed to the synergy between the RS nucleophile and the His 166 -Glu 183 dyad, which is evident from the NBO charges on the atoms in intermediate I2, namely, S1, HX, NY1, NY2, HY, and OZ, with values of -0.5988, 0.4354, -0.5906, -0.6075, 0.5440, and -0.8123 au, respectively. Furthermore, this process forms a very stable S1-HX bond, as seen in the increase in the local mode force constant k a by 3.984 mdyn/Å in I3 compared to I2.</p><p>The next part of the investigated mechanism focused on the hydrolysis of the C1-SX bond, which results in the removal of the palmitic group from the Cys 280 residue of the Cln5 protein, i.e., S-depalmitoylation. Initially, a water molecule aligns between the C1 atom of the palmitic group and the NY1 atom of the His 166 residue in I3. After alignment and equilibration, the hydrolysis process, Step 4, begins. This alignment of the water molecule weakens the crucial bonds C1-SX and OW-HW1, leading to a decrease in the local mode force constants k a by 0.115 and 2.535 mdyn/Å in I3 compared to I2, respectively. Furthermore, it changes the polarity of the C1-SX bond, as evidenced by changes in NBO charges for atoms C1 and SX, shifting from 0.4943 to 0.4942 and 0.1446 to 0.1308 au in I3 compared to I2, respectively.</p><p>These changes collectively facilitate the hydrolysis of the C1-SX bond via the concerted transition state TS3. During this process, the OH group from water reacts with the C1 atom, breaking the C1-SX bond and forming a C1-OH bond. The catalytic residue His 166 facilitates this process by forming a new covalent bond with the HW1 atom of the water molecule. Thus, TS3 represents a concerted transition state in which the C1-SX bond breaks, the OW-C1 bond forms, the OW-HW1 bond breaks, and the NY1-HW1 bond forms, resulting in the formation of a new intermediate I4. The product of this hydrolysis is stable. The stability of intermediate I4 can be attributed to the formation of a stable palmitic acid product and the strength of hydrogen bonds within residues Cys 280 , Glu 183 , and His 166 . This can be observed from the NBO charges and the local mode force constants depicted in Figures <ref type="figure" target="#fig_3">4</ref> and<ref type="figure" target="#fig_4">5</ref>, and Sections S6 and S7 of the Supporting Information. Furthermore, the anionic Cys 280 residue abstracts a proton to regenerate the starting enzyme EP, Step 5, the last step of the process. The feasibility of the entire process from ES to EP is attributed to the catalytic triad, which plays a vital role in the dynamic interplay between S-palmitoylation and Sdepalmitoylation, and these unique characteristics identify Cln5 as an enzyme specialized for S-depalmitoylation.</p><p>The presented Figure <ref type="figure" target="#fig_4">5</ref> offers a wealth of information pertaining to the formation and breaking of covalent bonds throughout the catalytic cycle. It goes beyond that by providing a quantitative measure of the strength of noncovalent interactions that are formed in each intermediate and transition state. These local mode force constants serve to elucidate the underlying reasons behind the stability observed Journal of the American Chemical Society in the intermediate and transition states. Additionally, the variations in bond strengths observed among the intermediates effectively capture the dynamic changes occurring within the catalytic pocket at each step of the reaction mechanism. This level of detail proves directions for enzyme design and the investigation of mutation effects. For precise numerical values of the local mode force constants, refer to Section S7 of the Supporting Information. Another possible mechanism which can compete with the mechanism depicted in Figure <ref type="figure" target="#fig_2">3</ref> was investigated as well and is discussed in the following.</p><p>Hydrolysis Mechanism with the Cys 280 Residue. In order to assess the importance of the catalytic triad Cys 280 , His 166 , and Glu 183 for S-depalmitoylation, we investigated for comparison the hydrolysis of the palmitic group solely based on the Cys 280 residue as an alternative pathway, as depicted in Figure <ref type="figure" target="#fig_6">6</ref>. We included for this purpose two additional water molecules in the QM part, increasing the total QM atom count to 109. The additional water molecules are highlighted in red in Figure <ref type="figure" target="#fig_6">6</ref>, which also shows the extended reactant ES′, product EP′, intermediate I3′, and transition states TS3′a and TS3′b. Two different pathways considered: (a) one of the two additional water molecules assists the Cys 280 residue in the hydrolysis process and (b) both water molecules assist. The additional water molecules in the HL-layer of our QM/ MM calculation were essential for these alternative pathways because the already included water molecules (HW1 and OW shown in green) are located between the NY1 atom of His 166 and the C1 atom of the palmitic group, leading directly to the triad-assisted mechanism.</p><p>In the following discussion, we focus on the Sdepalmitoylation activity of Cln5, monitoring the two different catalytic mechanisms via Cys 280 , excluding the S-palmitoylation steps, Step 1-Step 3. The first important finding is that in contrast to the two-step S-depalmitoylation via the catalytic triad Cys 280 , His 166 , and Glu 183 (i.e., Step 4 and Step 5, Figure <ref type="figure" target="#fig_2">3</ref>), Cys 280 -assisted S-depalmitoylation is a concerted process, leading to the final product in one step via TS3′a or TS3′b for the Cys 280 plus one water molecule and the Cys 280 plus two water molecules pathways, respectively.</p><p>In the case of Cys 280 plus one water molecule, the hydrolysis process starting from intermediate I3′ proceeds via the fourmembered transition state TS3′a to result in the Sdepalmitoylase product EP′, with a free-energy barrier ΔG ⧧ of 42.2 kcal/mol calculated relative to I3′. In the case of Cys 280 plus two water molecules, the hydrolysis process starting from intermediate I3′ proceeds via the six-membered transition state TS3′b with a free-energy barrier ΔG ⧧ of 55.1 kcal/mol calculated relative to I3′. These barriers are significantly higher than those found for the triadic transition state TS3. In TS3, the residues His 166 and Glu 183 play a pivotal role in facilitating the cleavage of the HW1-OW bond, primarily due to the strongly basic nature of the unprotonated Glu 183 (NBO charge -0.8073 au). Moreover, the charges of other atoms, specifically OW, HW1, NY1, NY2, HY, and OZ (NBO charges of -0.9728, 0.4977, -0.5995, -0.6398, 0.5351, and -0.8073 au, respectively), further substantiate the S-depalmitoylation process. In contrast, this favorable electronic charge distribution is not available in transition states TS3′a and TS3′b, where residues His 166 and Glu 183 do not participate in the HW1-OW bond breaking. Consequently, these transition states exhibit higher energy barriers compared to TS3. In summary, Cys 280 -based processes cannot compete with the triad-assisted hydrolysis of DPP-5, i.e., they are not likely to happen, thus confirming previous suggestions that Sdepalmitoylation predominantly occurs through the triadcatalyzed mechanism for the first time at the atomic level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ CONCLUSIONS</head><p>The overall objective of this work was to gain insight into the catalytic mechanism of DPP-5 hydrolysis by the wild-type Cln5 protein. We focused on two aspects: the involvement of the catalytic triad Cys 280 -His 166 -Glu 183 in the hydrolysis process and the hydrolysis process mediated solely by the Cys 280 residue. Our efforts and exploration of the reaction mechanism led to the following conclusions.</p><p>• Analysis of the energetics revealed that the catalytic triad-mediated hydrolysis exhibited low barriers, indicating its likely mode of operation. The triad-mediated process consists of two steps: attachment of the palmitic group to the Cys 280 residue mimicking S-palmitoylation with a free-energy barrier of 25.3 kcal/mol and subsequent removal of the palmitic group from the Cys 280 residue, S-depalmitoylation, a rate-limiting step with a barrier of 26.1 kcal/mol.</p><p>• Detailed analysis of the fluctuations of NBO charges and changes of local mode force constants along the Spalmitoylation/S-depalmitoylation pathways provided molecular insights into the initiation of the reaction, stabilization of intermediates, transition states, and changes in bond strengths during each steps, which in turn led to a deeper understanding of the dynamic changes occurring throughout the process.</p><p>• The high energy barriers observed for the Cys 280 only assisted S-depalmitoylation could be rationalized, and the significance of the catalytic triad for this process could be confirmed for the first time at the atomic level.</p><p>In summary, our new protocol exploring free-energy profiles of S-palmitoylation/S-depalmitoylation, complemented with a comprehensive analysis of fluctuations in the electronic charge distribution and changes in bond strengths along the reaction pathways, has led to a more holistic picture of the underlying mechanism at the atomic-level, applied to the wild-type Cln5 protein. It forms the foundation for future studies on the effects of gene mutations on both the S-palmitoylation and Sdepalmitoylation steps, providing valuable data for the further development of enzyme replacement therapy, which is currently the only FDA-approved therapy for childhood neurodegenerative diseases, including Batten disease.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ ASSOCIATED CONTENT</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>* sı Supporting Information</head><p>The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/jacs.3c06397.</p><p>Cartesian coordinate files for the extracted QM portion of all stationary points and PDB files for all stationary points containing both the QM and MM parts, representing the complete structure of these stationary points (ZIP) Structure preparation, docking studies, substrate positioning, stability analysis, structural comparison, energy profiles, NBO charges, and local mode force constants (PDF)</p><p>Journal of the American Chemical Society</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. X-ray crystal structures of proteins reported so far, which are associated with neuronal ceroid lipofuscinoses disease. Scheme 1. Reaction Scheme for the Hydrolysis of the DPP-5 Fluorescent Probe Catalyzed by the Cln5 Protein 22</figDesc><graphic coords="2,396.42,359.03,68.06,66.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (a) Visualization of the Cln5 protein-DPP-5 substrate complex solvated in an 18.0 Å water box. (b) Extracted protein-substrate complex with 5.0 Å coating of simulated water. (c) High-level (HL) layer atoms, shown in a ball and stick (carbon atoms, gray; nitrogen atoms, blue; oxygen atoms, red; sulfur atoms, yellow; and hydrogen atoms, white). Total HL layer atoms 109; 39 atoms from the DPP-5 substrate, 17 from Cys 280 , 23 from His 166 , 21 from Glu 183 , and 3 from the water molecule. All remaining QM/MM atoms are included in the low-level (LL) layer.</figDesc><graphic coords="5,150.92,60.44,305.01,147.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Schematic representation of the DPP-5 hydrolysis mechanism with the catalytic triad (Cys 280 -His 166 -Glu 183 ); Step 1-Step 3: Spalmitoylation, Step 4-Step 5: S-depalmitoylation. The catalytic triad is labeled in blue, and atoms primarily involved in the catalytic mechanism are labeled in green. For an explanation of ES, EP, intermediates I1•••I4, and transition states TS1•••TS3, see the text. Free-energy values in kcal/ mol with regard to ES are given in parentheses. Free-energy barriers ΔG # (in kcal/mol) relative to intermediate I1, the stable precursor for all TSs, are depicted in circles together with the imaginary frequencies. ωB97X-D/6-31G(d,p):AMBER level of theory.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Charge fluctuations of key atoms during the catalytic DPP-5 hydrolysis with the catalytic triad (Cys 280 -His -Glu 183 ). For an explanation of the legend, refer to Figure 3. ωB97X-D/6-31G(d,p):AMBER level of theory.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Fluctuations in local mode force constants of the key bonds taking place in the catalytic DPP-5 hydrolysis with a catalytic triad (Cys 280 -His 166 -Glu 183 ). For an explanation of the legend refer to Figure 3. ωB97X-D/6-31G(d,p):AMBER level of theory.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>.3 kcal/mol with respect to ES. The intermediate I2 undergoes proton transfer in Step 3, resulting in the formation of intermediate I3 via TS2, characterized by an imaginary frequency of 971.2i cm -1 . The free-energy barrier ΔG ⧧ of Step 3 is 25.3 kcal/mol with regard to intermediate I1. Step 1-Step 3 collectively represent the S-palmitoylation process, where the palmitic group is effectively transferred from the DPP-5 substrate to the Cln5 protein.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Schematic representation of S-palmitoylation/S-depalmitoylation via the Cys 280 residue. Reactant ES′, product EP′, intermediate I3′, and transition states TS3′a and TS3′b were computed with a 109 atom HL-layer, including two additional water molecules (red color). Two pathways were investigated. (a) Cys 280 plus one water (via TS3′a) and (b) Cys 280 plus two water molecules (via TS3′b). Free-energy values (in kcal/mol) relative to ES′ are given in parentheses. In addition, free-energy barriers ΔG # (in kcal/mol) relative to intermediate I3 are given in italics. ωB97X-D/6-31G(d,p):AMBER level of theory.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://doi.org/10.1021/jacs.3c06397 J. Am. Chem. Soc. 2024, 146, 145-158</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ ACKNOWLEDGMENTS</head><p>We thank SMU's Center for Scientific Computing for providing generous computational resources. This work was financially supported by the National Science Foundation, Grant CHE 2102461, and the Children's Brain Diseases Foundation (501c3).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Neuronal Ceroid-Lipofuscinoses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haltia</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jnen/62.1.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neuropathol. Exp. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Batten disease through different in vivo and in vitro models: A review</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nittari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tomassoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Martinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Tayebati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Amenta</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jnr.25147</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci. Res</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="298" to="315" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Genetics of the neuronal ceroid lipofuscinoses (Batten disease)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Mole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Cotman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbadis.2015.05.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1852</biblScope>
+			<biblScope unit="page" from="2237" to="2241" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Genetic Basis of Phenotypic Heterogeneity in the Neuronal Ceroid Lipofuscinoses</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Mole</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fneur.2021.754045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Neurol. 2021</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">754045</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Therapeutic landscape for Batten disease: current treatments and future prospects</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramirez-Montealegre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Pearce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Weimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41582-019-0138-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="161" to="178" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Juvenile neuronal ceroid lipofuscinosis (Batten disease): current insights</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ostergaard</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/DNND.S111967</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Degener. Neurol. Neuromuscular Dis</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="73" to="83" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rakheja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bennett</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/TRD-180024</idno>
+		<imprint>
+			<publisher>Neuronal Ceroid-lipofuscinoses</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Transl. Sci. Rare Dis</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="83" to="95" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On the cusp of cures: Breakthroughs in Batten disease research</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Brudvig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Weimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.conb.2021.08.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="48" to="54" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Cerliponase Alfa: First Global Approval</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Markham</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40265-017-0771-8</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1247" to="1249" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Immunogenicity to cerliponase alfa intracerebroventricular enzyme replacement therapy for CLN2 disease: Results from a Phase 1/2 study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cherukuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Tuyl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Slasor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ajayi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jacoby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schweighardt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clim.2018.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="68" to="76" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Presymptomatic treatment of classic late-infantile neuronal ceroid lipofuscinosis with cerliponase alfa</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schaefers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Van Der Giessen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sieverdink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H G</forename><surname>Dremmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K H</forename><surname>Spoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Van Der Ploeg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M P</forename><surname>Van Den Hout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Huidekoper</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13023-021-01858-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Orphanet J. Rare Dis</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">221</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Structural insights into adrenergic receptor function and pharmacology</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Kobilka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tips.2011.02.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Pharmacol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ligand Macromolecule Interactions: Theoretical Principles of Molecular Recognition</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Mccurdy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ligand-Macromolecular Interactions in Drug Discovery: Methods and Protocols</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">C A</forename><surname>Roque</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Totowa</addrLine></address></meeting>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="13" to="29" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Chapter 11-Advances in X-ray crystallography methods to study structural dynamics of macromolecules</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Kermani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aggarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghanbarpour</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advanced Spectroscopic Methods to Study Biomolecular Structure and Dynamics</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Saudagar</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Tripathi</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="page" from="309" to="355" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Protein Crystallography: Achievements and Challenges</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Timofeev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Samygina</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/cryst13010071</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crystals</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">71</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Drug discovery in the era of cryo-electron microscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Meyerowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Skiniotis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tibs.2021.06.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biochem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="124" to="135" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">X-Ray Crystallography in Drug Discovery</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trincaõ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Romaõ</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-60761-244-5_3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">572</biblScope>
+			<biblScope unit="page" from="31" to="56" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The crystal structure of palmitoyl protein thioesterase 1 and the molecular basis of infantile neuronal ceroid lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bellizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Widom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clardy</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.080508097</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="4573" to="4578" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Crystal Structure of Palmitoyl Protein Thioesterase-2 (PPT2) Reveals the Basis for Divergent Substrate Specificities of the Two Lysosomal Thioesterases, PPT1 and PPT2</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Calero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Nonato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Biehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clardy</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M301225200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="37957" to="37964" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Structure of Tripeptidyl-peptidase I Provides Insight into the Molecular Basis of Late Infantile Neuronal Ceroid Lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kraetzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gruene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grønborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Urlaub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Asif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gärtner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Sheldrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Steinfeld</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M806947200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="3976" to="3984" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Crystal structures of native and inhibited forms of human cathepsin D: implications for lysosomal targeting and drug design</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gulnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Hosur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Sowder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Cachau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Erickson</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.90.14.6796</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="6796" to="6800" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Cln5 represents a new type of cysteine-based S-depalmitoylase linked to neurodegeneration</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Luebben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Crowther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Erven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Söding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Klemp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bellotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stäuble</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.abj8633</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">8633</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Trafficking of β-Adrenergic Receptors: Implications in Intracellular Receptor Signaling. Prog</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Xiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/bs.pmbts.2015.03.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Transl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="151" to="188" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">X-ray crystallography over the past decade for novel drug discovery-where are we heading next? Expert Opin</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Handing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Shabalin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Almo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Minor</surname></persName>
+		</author>
+		<idno type="DOI">10.1517/17460441.2015.1061991</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Discovery</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="975" to="989" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Protein X-ray Crystallography and Drug Discovery</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maveyraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mourey</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules25051030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">1030</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Application and Limitations of X-ray Crystallographic Data in Structure-Based Ligand and Drug Design</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Teague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Kleywegt</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200200539</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="2718" to="2736" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The role of protein dynamics in the evolution of new enzyme function</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaltenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Correy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Porebski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Livingstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Afriat-Jurnou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Buckle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tokuriki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.2175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="944" to="950" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Molecular ensembles make evolution unpredictable</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">R</forename><surname>Sailer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Harms</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1711927114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="11938" to="11943" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Role of Computational Methods in Going beyond X-ray Crystallography to Explore Protein Structure and Dynamics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Miyashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tama</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms19113401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">3401</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Drug Discovery and Molecular Dynamics: Methods, Applications and Perspective Beyond the Second Timescale</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martínez-Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Giorgino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Fabritiis</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1568026617666170414142549</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Top. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="2617" to="2625" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Advances of Artificial Intelligence in Anti-Cancer Drug Design: A Review of the Past Decade</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ph16020253</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmaceuticals</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">253</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Computer-aided multi-objective optimization in small molecule discovery</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fromer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Coley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patter.2023.100678</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Patterns</title>
+		<imprint>
+			<date type="published" when="2023">2023, 4, 100678</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Structure-based drug design: aiming for a perfect fit</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Van Montfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Workman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Van Montfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Workman</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/ebc20170052</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Essays Biochem</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="431" to="437" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Current trends in computer aided drug design and a highlight of drugs discovered via computational techniques: A review</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">T</forename><surname>Sabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ntombela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Jhamba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Maguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Govender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Naicker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Kruger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejmech.2021.113705</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="page" from="113705" to="113726" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Structure-based drug design with geometric deep learning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Isert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Atz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schneider</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sbi.2023.102548</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">102548</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Update of the mutation spectrum and clinical correlations of over 360 mutations in eight genes that underlie the neuronal ceroid lipofuscinoses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kousi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-E</forename><surname>Lehesjoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Mole</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/humu.21624</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mutat</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="42" to="63" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Savukoski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Klockars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Holmberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Santavuori</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">CLN5, a novel gene encoding a putative transmembrane protein mutated in Finnish variant late infantile neuronal ceroid lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Lander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peltonen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/975</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="286" to="288" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">CLN5 mutations are frequent in juvenile and late-onset non-Finnish patients with NCL</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Mullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kiely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>O'malley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chu-Shore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Mole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Goebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sims</surname></persName>
+		</author>
+		<idno type="DOI">10.1212/WNL.0b013e3181cff70d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="565" to="571" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">An Alzheimer&apos;s Disease-Linked Loss-of-Function CLN5 Variant Impairs Cathepsin D Maturation, Consistent with a Retromer Trafficking Defect</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Qureshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kothiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Neufeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vardarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reyes-Dumeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lantigua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Medrano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Jiménez-Velázquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jules</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sauvageau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dumaresq-Doiron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mazzaferri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haug-Kröper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fluhrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Costantino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lefrancois</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yexcr.2017.04.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="40" to="50" />
+			<date type="published" when="2017">2018. 2017</date>
+		</imprint>
+	</monogr>
+	<note>Exp. Cell Res</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The neuronal ceroid lipofuscinosis protein CLN5: new insights into cellular maturation, transport, and consequences of mutations</title>
+		<author>
+			<persName><forename type="first">M.-L</forename><surname>Schmiedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bessa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Heine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jalanko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kyttälä</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/humu.21195</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mutat</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="356" to="365" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Lysosomal localization of the neuronal ceroid lipofuscinosis CLN5 protein</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Isosomppi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jalanko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peltonen</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/11.8.885</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="885" to="891" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Deficiency of the Lysosomal Protein CLN5 Alters Lysosomal Function and Movement</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Basak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/biom11101412</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomolecules</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">1412</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Cln5-deficiency in mice leads to microglial activation, defective myelination and changes in lipid metabolism</title>
+		<author>
+			<persName><forename type="first">M.-L</forename><surname>Schmiedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Blom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Blom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kopra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Von Schantz-Fant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ikonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuronen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jauhiainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jalanko</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nbd.2011.12.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol. Dis</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="19" to="29" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">CLN5 and CLN3 function as a complex to regulate endolysosome function</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sauvageau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Modica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lefrancois</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BCJ20210171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">478</biblScope>
+			<biblScope unit="page" from="2339" to="2357" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the Parkinson&apos;s disease-associated protein synaptotagmin-11 links its turnover to α-synuclein homeostasis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P H</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Wilkie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Selkoe</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/scisignal.add7220</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Signaling</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>eadd7220</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Palmitoylation in Alzheimer&apos;s disease and other neurodegenerative diseases</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phrs.2016.06.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol. Res</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="133" to="151" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Measuring S-Depalmitoylation Activity In Vitro and In Live Cells with Fluorescent Probes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Protein Lipidation: Methods and Protocols</title>
+		<meeting><address><addrLine>New York: New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="99" to="109" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A Fluorescent Probe with Improved Water Solubility Permits the Analysis of Protein S-Depalmitoylation Activity in Live Cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.biochem.7b00835?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="221" to="225" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">QM/MM Methods for Biomolecular Systems</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Senn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Thiel</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200802019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1198" to="1229" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vennelakanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nazemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mehmood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Steeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kulik</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Harder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sbi.2021.07.004</idno>
+	</analytic>
+	<monogr>
+		<title level="m">better, faster, stronger: Large-scale QM and QM/ MM for predictive modeling in enzymes and proteins</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="9" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The Local Vibrational Mode Theory and Its Place in the Vibrational Spectroscopy Arena</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Quintano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W L</forename><surname>Force</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Antonio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpca.2c05962?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. A</title>
+		<imprint>
+			<biblScope unit="page">8781</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Decoding Chemical Information from Vibrational Spectroscopy Data: Local Vibrational Mode Theory</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/wcms.1480</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wiley Interdiscip. Rev.: Comput. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="1480">2020. 1480</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Y</forename><surname>Ben-Shalom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Brozell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Cerutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cheatham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">W D</forename><surname>Cruzeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Darden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Duke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ghoreishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Gilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gohlke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AMBER</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2016">2016</date>
+			<publisher>San Francisco</publisher>
+			<pubPlace>University of California</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Molecular Dynamics Simulation for All</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hollingsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Dror</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2018.08.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1129" to="1143" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M C</forename><surname>Sameera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hatanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Petrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morokuma</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr5004419?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="5678" to="5796" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">UCSF Chimera-A visualization system for exploratory research and analysis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Pettersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Goddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Couch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Greenblatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Ferrin</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20084</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1605" to="1612" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Avogadro: An advanced semantic chemical editor, visualization, and analysis platform</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hanwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Lonie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vandermeersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zurek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Hutchison</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1758-2946-4-17</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cheminf</title>
+		<imprint>
+			<date type="published" when="2012">2012, 4, 17</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">AM1: a new general purpose quantum mechanical molecular model</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J S</forename><surname>Dewar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Zoebisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Healy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J P</forename><surname>Stewart</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00299a024?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="3902" to="3909" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note>Development and use of quantum mechanical molecular models</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Koes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Baumgartner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Camacho</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ci300604z?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<title level="m">Lessons Learned in Empirical Scoring with smina from the CSAR 2011</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Benchmarking</forename><surname>Exercise</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ci300604z?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Model</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1893" to="1904" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Open Babel: An open chemical toolbox</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>O'boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Banck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Morley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vandermeersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Hutchison</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1758-2946-3-33</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cheminf</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Molecular Dynamics Simulation for All</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hollingsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Dror</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2018.08.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1129" to="1143" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">ff14SB: Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kasavajhala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wickstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Hauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Simmerling</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.5b00255?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3696" to="3713" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kollman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Case</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Development and testing of a general amber force field</title>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1157" to="1174" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Comparison of simple potential functions for simulating liquid water</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Jorgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chandrasekhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Madura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Impey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Klein</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.445869</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="926" to="935" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular Dynamics Trajectory Data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Roe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E I</forename><surname>Cheatham</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ct400341p?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3084" to="3095" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Protocol for Computational Enzymatic Reactivity Based on Geometry Optimisation</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M F S A</forename><surname>Cerqueira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ramos</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cphc.201700339</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemPhysChem</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="669" to="689" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">A toolkit to assist ONIOM calculations</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Schlegel</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.21524</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2363" to="2369" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Frisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Trucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Schlegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Scuseria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Robb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scalmani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Barone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Petersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakatsuji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gaussian</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2016">2016</date>
+			<publisher>Wallingford CT</publisher>
+		</imprint>
+	</monogr>
+	<note>Revision C.01</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Long-range corrected hybrid density functionals with damped atom-atom dispersion corrections</title>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Head-Gordon</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b810189b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="6615" to="6620" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Self-Consistent Molecular-Orbital Methods. IX. An Extended Gaussian-Type Basis for Molecular-Orbital Studies of Organic Molecules</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ditchfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Hehre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pople</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1674902</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="724" to="728" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The path of chemical reactions-the IRC approach</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukui</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ar00072a001?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="363" to="368" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Identification and treatment of internal rotation in normal mode vibrational analysis</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Ayala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Schlegel</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.475616</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="2314" to="2325" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Leventhal</surname></persName>
+		</author>
+		<title level="m">Problems in Classical and Quantum Mechanics: Normal Modes and Coordinates</title>
+		<meeting><address><addrLine>Berlin, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page">95</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Califano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>States</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wiley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<pubPlace>London, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Molecular Vibrations: The Theory of Infrared and Raman Vibrational Spectra</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Decius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Cross</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1955">1955</date>
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">The Nature of the Chemical Bond and the Structure of Molecules and Crystals: An Introduction to Modern Structural Chemistry</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Pitzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja01500a088?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="4121" to="4122" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">A Method of Obtaining the Expanded Secular Equation for the Vibration Frequencies of a Molecule</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1750363</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1047" to="1052" />
+			<date type="published" when="1939">1939</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Vibrational states</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Orville-Thomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-2860(77)85047-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Struct</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="155" to="156" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">A New Way of Analyzing Vibrational Spectra. I. Derivation of Adiabatic Internal Modes</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Konkoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(SICI)1097-461X(1998)67:1&lt;1::AID-QUA1&gt;3.0.CO;2-Z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Quantum Chem</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Konkoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Cremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Way</forename><surname>New</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Of</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(SICI)1097-461X(1998)67:1&lt;11::AID-QUA2&gt;3.0.CO;2-1</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Analyzing Vibrational Spectra. II. Comparison of Internal Mode Frequencies</title>
+		<idno type="DOI">10.1002/(SICI)1097-461X(1998)67:1&lt;11::AID-QUA2&gt;3.0.CO;2-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Quantum Chem</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="11" to="27" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<title level="m" type="main">Generalization of the Badger Rule Based on the Use of Adiabatic Vibrational Modes</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<editor>Computational Spectroscopy</editor>
+		<editor>Grunenberg, J.</editor>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Wiley</publisher>
+			<biblScope unit="page" from="105" to="149" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Identification of the Strongest Bonds in Chemistry</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kalescky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp406200w?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="8981" to="8995" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Characterization of CF Bonds with Multiple-Bond Character: Bond Lengths, Stretching Force Constants, and Bond Dissociation Energies</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cphc.200800699</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemPhysChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="686" to="698" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Re-Evaluation of the Bond Length-Bond Strength Rule: The Stronger Bond Is not Always the Shorter Bond</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Setiawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.24207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="130" to="142" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">C 2 in a Box: Determining its Intrinsic Bond Strength for the X 1Σg+Ground State</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/chem.201503750</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem.�Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="4087" to="4099" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">From Strong to Weak NF Bonds: On the Design of a New Class of Fluorinating Agents</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Setiawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sethio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C8CP03843K</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="23913" to="23927" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Exceptionally Long Covalent CC Bonds-A Local Vibrational Mode Study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A A</forename><surname>Delgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Humason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kalescky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules26040950</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">950</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Halogen Bonding Involving I 2 and d 8 Transition-Metal Pincer Complexes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yannacone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/cryst11040373</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crystals</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">373</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">The Intrinsic Strength of the Halogen Bond: Electrostatic and Covalent Contributions Described by Coupled Cluster Theory</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C6CP06613E</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="33031" to="33046" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Quantitative Assessment of Halogen Bonding Utilizing Vibrational Spectroscopy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.inorgchem.6b02358?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="488" to="502" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Transition from Metal-Ligand Bonding to Halogen Bonding Involving a Metal as Halogen Acceptor: A Study of Cu, Ag, Au, Pt, and Hg Complexes</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cplett.2017.05.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">681</biblScope>
+			<biblScope unit="page" from="56" to="63" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yannacone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/inorganics7040047</idno>
+		<title level="m">A Continuum from Halogen Bonds to Covalent Bonds: Where Do λ 3 Iodanes Fit? Inorganics</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">47</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Metal-Halogen Bonding Seen through the Eyes of Vibrational Spectroscopy</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Marcial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B C</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma13010055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">The Many Facets of Chalcogen Bonding: Described by Vibrational Spectroscopy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpca.7b06479?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="6845" to="6862" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Systematic Coupled Cluster Study of Noncovalent Interactions Involving Halogens, Chalcogens, and Pnicogens</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpca.7b10196?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="9544" to="9556" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Hidden Bond Anomalies: The Peculiar Case of the Fluorinated Amine Chalcogenides</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Setiawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpca.5b05157?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="9541" to="9556" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Strength of the Pnicogen Bond in Complexes Involving Group VA Elements N, P, and As</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Setiawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp508270g?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="1642" to="1656" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Description of Pnicogen Bonding with the help of Vibrational Spectroscopy-The Missing Link Between Theory and Experiment</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Setiawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cplett.2014.09.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">614</biblScope>
+			<biblScope unit="page" from="136" to="142" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Super-Pnicogen Bonding in the Radical Anion of the Fluorophosphine Dimer</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Setiawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cplett.2016.09.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">662</biblScope>
+			<biblScope unit="page" from="182" to="187" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Quantitative Assessment of Tetrel Bonding Utilizing Vibrational Spectroscopy</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sethio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules23112763</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">2763</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">A Comprehensive Analysis of Hydrogen Bond Interactions Based on Local Vibrational Modes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/qua.24118</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Quantum Chem</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="3174" to="3187" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Interaction: A New Type of Nonclassical Hydrogen Bonding</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>B-H••</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.6b01249?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="4334" to="4337" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Different Ways of Hydrogen Bonding in Water-Why Does Warm Water Freeze Faster than Cold Water?</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.6b00735?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="55" to="76" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Strengthening of Hydrogen Bonding With the Push-Pull Effect</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cplett.2017.07.065</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">685</biblScope>
+			<biblScope unit="page" from="251" to="258" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Description of an Unusual Hydrogen Bond Between Carborane and a Phenyl Group</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jorganchem.2018.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Organomet. Chem</title>
+		<imprint>
+			<biblScope unit="volume">865</biblScope>
+			<biblScope unit="page" from="114" to="127" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Interplay of Ring Puckering and Hydrogen Bonding in Deoxyribonucleosides</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Beiranvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpca.9b05452?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="7087" to="7103" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Quantitative Assessment of Intramolecular Hydrogen Bonds in Neutral Histidine</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yannacone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sethio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00214-020-02631-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Chem. Acc</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Comment on Exploring Nature and Predicting Strength of Hydrogen Bonds: A Correlation Analysis Between Atoms-in-Molecules Descriptors, Binding Energies, and Energy Components of Symmetry-Adapted Perturbation Theory</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nanayakkara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.26475</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="516" to="521" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Systematic Detection and Characterization of Hydrogen Bonding in Proteins via Local Vibrational Modes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.0c11392?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="2551" to="2565" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Hydrogen Bonding in Natural and Unnatural Base Pairs�A Local Vibrational Mode Study</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Beiranvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules26082268</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">2268</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Capturing Individual Hydrogen Bond Strengths in Ices via Periodic Local Vibrational Mode Theory: Beyond the Lattice Energy Picture</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nanayakkara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.1c00357?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="562" to="579" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<analytic>
+		<title level="a" type="main">Dihydrogen Bonding-Seen through the Eyes of Vibrational Spectroscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mccutcheon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Beiranvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules28010263</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">263</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Z</forename><surname>Makos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.3c06397?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<ptr target="https://doi.org/10.1021/jacs.3c06397" />
+		<title level="m">Local Vibrational Mode Analysis (LModeA)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="145" to="158" />
+			<date type="published" when="2022">2024. 2022</date>
+			<pubPlace>Dallas, TX, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Computational and Theoretical Chemistry Group (CATCO); Southern Methodist University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">A revised formulation of the generalized subsystem vibrational analysis (GSVA)</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nanayakkara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freindorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kraka</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00214-021-02727-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Chem. Acc</title>
+		<imprint>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title level="a" type="main">Natural Bond Orbital and Extensions of Localized Bonding Concepts</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Weinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Landis</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B1RP90011K</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Educ. Res. Pract</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="91" to="104" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title level="a" type="main">What is NBO analysis and how is it useful?</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Weinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Landis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Glendening</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.3c06397?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<ptr target="https://doi.org/10.1021/jacs.3c06397" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. Rev. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="399" to="440" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="145" to="158" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

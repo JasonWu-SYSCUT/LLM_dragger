@@ -1,0 +1,2572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">PRMT1 Sustains De Novo Fatty Acid Synthesis by Methylating PHGDH to Drive Chemoresistance in Triple-Negative Breast Cancer</title>
+				<funder ref="#_MB59Tpn">
+					<orgName type="full">Takeda Science Foundation</orgName>
+				</funder>
+				<funder ref="#_FwAfNcP">
+					<orgName type="full">AMED-Moonshot</orgName>
+				</funder>
+				<funder ref="#_vupvWqF">
+					<orgName type="full">JST ERATO Suematsu Gas Biology Project</orgName>
+				</funder>
+				<funder ref="#_W4KZfFT">
+					<orgName type="full">JST Moonshot</orgName>
+				</funder>
+				<funder ref="#_pE7x438">
+					<orgName type="full">MEXT</orgName>
+				</funder>
+				<funder ref="#_hhBPXAg">
+					<orgName type="full">AMED-CREST</orgName>
+				</funder>
+				<funder ref="#_sjseFwt">
+					<orgName type="full">Human Biology Microbiome Quantum Research Center</orgName>
+				</funder>
+				<funder ref="#_rA5VKeK">
+					<orgName type="full">Japan Society for the Promotion of Science 21K06072</orgName>
+					<orgName type="abbreviated">C</orgName>
+				</funder>
+				<funder ref="#_e5xjgfh">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Research Foundation for Opto-Science and Technology in Hamamatsu City, Japan</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Takehiro</forename><surname>Yamamoto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tetsu</forename><surname>Hayashida</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yohei</forename><surname>Masugi</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Pathology</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kiyotaka</forename><surname>Oshikawa</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Omics and Systems Biology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Medical and Dental Sciences</orgName>
+								<orgName type="institution">Niigata University</orgName>
+								<address>
+									<settlement>Niigata</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Noriyo</forename><surname>Hayakawa</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Central Institute for Experi-mental Medicine and Life Science</orgName>
+								<address>
+									<settlement>Kawasaki</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mai</forename><surname>Itoh</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Central Institute for Experi-mental Medicine and Life Science</orgName>
+								<address>
+									<settlement>Kawasaki</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chiyoko</forename><surname>Nishime</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Central Institute for Experi-mental Medicine and Life Science</orgName>
+								<address>
+									<settlement>Kawasaki</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masami</forename><surname>Suzuki</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Central Institute for Experi-mental Medicine and Life Science</orgName>
+								<address>
+									<settlement>Kawasaki</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aiko</forename><surname>Nagayama</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuko</forename><surname>Kawai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takako</forename><surname>Hishiki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tomomi</forename><surname>Matsuura</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Clinical Translational Research Center</orgName>
+								<orgName type="institution">Keio University Hospital</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yoshiko</forename><surname>Naito</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Clinical Translational Research Center</orgName>
+								<orgName type="institution">Keio University Hospital</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Akiko</forename><surname>Kubo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Arisa</forename><surname>Yamamoto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yujiro</forename><surname>Yoshioka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tomokazu</forename><surname>Kurahori</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Misa</forename><surname>Nagasaka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Minako</forename><surname>Takizawa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Naoharu</forename><surname>Takano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Koji</forename><surname>Kawakami</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michiie</forename><surname>Sakamoto</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Pathology</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masatoshi</forename><surname>Wakui</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Lab-oratory Medicine</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takushi</forename><surname>Yamamoto</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="laboratory">Solutions COE Analytical &amp; Measuring Instruments Division</orgName>
+								<orgName type="institution">Shimadzu Corporation</orgName>
+								<address>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuko</forename><surname>Kitagawa</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yasuaki</forename><surname>Kabe</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kenichi</forename><surname>Horisawa</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Medical Institute of Bioregulation</orgName>
+								<orgName type="laboratory">Division of Organogenesis and Regeneration</orgName>
+								<orgName type="institution">Kyushu University</orgName>
+								<address>
+									<settlement>Fukuoka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Atsushi</forename><surname>Suzuki</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Medical Institute of Bioregulation</orgName>
+								<orgName type="laboratory">Division of Organogenesis and Regeneration</orgName>
+								<orgName type="institution">Kyushu University</orgName>
+								<address>
+									<settlement>Fukuoka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masaki</forename><surname>Matsumoto</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Omics and Systems Biology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Medical and Dental Sciences</orgName>
+								<orgName type="institution">Niigata University</orgName>
+								<address>
+									<settlement>Niigata</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Makoto</forename><surname>Suematsu</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Central Institute for Experi-mental Medicine and Life Science</orgName>
+								<address>
+									<settlement>Kawasaki</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="institution">Keio University WPI-Bio2Q Research Center</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takehiro</forename><surname>Yamamoto</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Keio University School of Medicine</orgName>
+								<address>
+									<addrLine>35 Shinanomachi, Shinjuku-ku</addrLine>
+									<postCode>160-8582</postCode>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">PRMT1 Sustains De Novo Fatty Acid Synthesis by Methylating PHGDH to Drive Chemoresistance in Triple-Negative Breast Cancer</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A7C10AA536711EB0E3F6AB021793F4E9</idno>
+					<idno type="DOI">10.1158/0008-5472.CAN-23-2266</idno>
+					<note type="submission">Received August 9, 2023; revised December 20, 2023; accepted February 5, 2024;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-27T04:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Triple-negative breast cancer (TNBC) chemoresistance hampers the ability to effectively treat patients. Identification of mechanisms driving chemoresistance can lead to strategies to improve treatment. Here, we revealed that protein arginine methyltransferase-1 (PRMT1) simultaneously methylates D-3-phosphoglycerate dehydrogenase (PHGDH), a critical enzyme in serine synthesis, and the glycolytic enzymes PFKFB3 and PKM2 in TNBC cells. 13 C metabolic flux analyses showed that PRMT1-dependent methylation of these three enzymes diverts glucose toward intermediates in the serine-synthesizing and serine/glycine cleavage pathways, thereby accelerating the production of methyl donors in TNBC cells. Mechanistically, PRMT1-dependent methylation of PHGDH at R54 or R20 activated its enzymatic activity by stabilizing 3-phosphoglycerate binding and suppressing polyubiquitination. PRMT1mediated PHGDH methylation drove chemoresistance independently of glutathione synthesis. Rather, activation of the serine synthesis pathway supplied a-ketoglutarate and citrate to increase palmitate levels through activation of fatty acid synthase (FASN). Increased palmitate induced protein S-palmitoylation of PHGDH and FASN to further enhance fatty acid synthesis in a PRMT1dependent manner. Loss of PRMT1 or pharmacologic inhibition of FASN or protein S-palmitoyltransferase reversed chemoresistance in TNBC. Furthermore, IHC coupled with imaging MS in clinical TNBC specimens substantiated that PRMT1-mediated methylation of PHGDH, PFKFB3, and PKM2 correlates with chemoresistance and that metabolites required for methylation and fatty acid synthesis are enriched in TNBC. Together, these results suggest that enhanced de novo fatty acid synthesis mediated by coordinated protein arginine methylation and protein S-palmitoylation is a therapeutic target for overcoming chemoresistance in TNBC.</p><p>Significance: PRMT1 promotes chemoresistance in TNBC by methylating metabolic enzymes PFKFB3, PKM2, and PHGDH to augment de novo fatty acid synthesis, indicating that targeting this axis is a potential treatment strategy.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Breast cancer is one of the most common malignancies and the second leading cause of cancer-related death among women <ref type="bibr" target="#b0">(1)</ref>. Among the subtypes of breast cancer, triple-negative breast cancer (TNBC), which expresses none of estrogen receptor (ER), progesterone receptor (PR), and HER2, is the most aggressive type of breast cancer <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b2">3)</ref>. Compared with other subtypes, TNBC lacks specific therapeutic targets and is resistant to chemotherapy <ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref>. Therefore, the molecular mechanisms underlying TNBC chemoresistance require further investigation.</p><p>In recent years, metabolic remodeling has attracted considerable attention as a mechanism by which cancer cells acquire chemoresistance <ref type="bibr" target="#b6">(7)</ref>. Among the many pathways in metabolic systems, transmethylation via the serine synthesis pathway (SSP) and glycine cleaving enzymes, the transfer of C1 unit to specific substrates, and the remethylation cycle play important roles in DNA methylation and/or histone modifications to determine the fate of cancer cells. However, the roles of posttranslational modifications of proteins/enzymes by methylation mechanisms remain unclear. We previously showed that protein arginine methylation of 6-phosphofructo-2kinase/fructose-2,6-bisphosphatase 3 (PFKFB3) is methylated by protein arginine methyltransferase-1 (PRMT1) to activate phosphofructokinase-1 (PFK-1; ref. <ref type="bibr" target="#b7">8)</ref>. Such a post-translational modification of PFKFB3 contributes to a metabolic shift towards the pentose phosphate pathway (PPP) to accelerate the synthesis of nicotinamide adenine dinucleotide phosphate (NADPH), a reducing equivalent for recycling reduced glutathione (GSH), which may help chemoresistance <ref type="bibr" target="#b7">(8)</ref>. In addition, many studies have shown that PRMTs methylate several enzymes that regulate carbohydrate metabolism such as pyruvate kinase M2 (PKM2), GAPDH, and malate dehydrogenase 1 (MDH1; refs. <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>. Of the PRMT subtypes, PRMT1 and PRMT4 have been reported to be highly expressed in progressive breast cancers <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>; however, their roles in arginine methylation in tumorigenesis and the acquisition of malignant traits remain unclear.</p><p>This study aimed to examine whether TNBC chemoresistance is mediated by protein arginine methylation of enzymes belonging to the central carbon metabolisms. In this study, 13 C 6 -glucose-assisted fluxome analyses were performed using several drug-resistant TNBC cell lines to explore unidentified aberrant metabolic pathways that facilitate chemoresistance. Our analyses showed that PRMT1, which possesses major methyltransferase activity <ref type="bibr" target="#b13">(14)</ref>, not only increases methylated PFKFB3 and PKM2, but also methylates 3-phosphoglycerate dehydrogenase (PHGDH), the rate-limiting enzyme in SSP, which accelerates the directional conversion of 3-phosphoglycerate (3-PG), a glycolytic intermediate, towards SSP. Mechanistically, PRMT1 simultaneously activates de novo fatty acid synthesis through the production of a-ketoglutarate (aKG), a product of phosphoserine aminotransferase 1 (PSAT1), the second enzyme in the SSP. Furthermore, either inhibition of fatty acid synthase (FASN) by orlistat or blockade of PRMT1-involving protein S-palmitoylation by 2-bromopalmitate (2-Br-Pal) unlocks chemoresistance in TNBC cells. Here, we provide evidence that PRMT1-mediated protein arginine methylation of PHGDH, PFKFB3, and PKM2, not only accounts for the positive biomarkers of TNBC but also serves as a therapeutic target for unlocking TNBC chemoresistance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Establishment of paclitaxel-resistant MDA-MB-231 cell</head><p>An in vivo paclitaxel-resistant (Ptx-R) cell line was established from the parental human breast cancer cell line MDA-MB-231 by stepwise increasing concentrations of paclitaxel administrated to tumorbearing mice. Briefly, BALB/c female nude mice were purchased from CLEA Japan, Inc. at 6 weeks of age. Each mouse was inoculated subcutaneously in the dorsal flank with 1 Â 10 6 cells in 0.1 mL serumfree medium containing 50% Matrigel (BD Biosciences). Paclitaxel treatment starts at day14 after tumor inoculation. Tumor-bearing mice were intraperitoneally administered paclitaxel (20 mg/kg) eight times every 3 to 4 days. After a dosing period, tumors were excised and digested into a residual metastatic nodule-free MDA-MB-231 suspension using the Tumor Dissociation Kit (#130-095-929; Miltenyi Biotech) according to the manufacturer's instruction. The cells were retransplanted subcutaneously into fresh mice. The schedule of paclitaxel administration was as mentioned above, with 30 mg/kg for the second rounds, and 60 mg/kg for the third rounds, respectively. After three rounds of this procedures, three different sublines of Ptx-R MDA-MB-231 cells were established. Unless otherwise stated, the subclone#2 cells were used in this study. Ptx-R cells were maintained with the medium containing 5 nmol/L Ptx. We also established in vitro Ptx-resistant model. The resistant cells were generated by stepwise increasing the concentration of paclitaxel (4, 10, 20, and 40 nmol/L) in the medium over 3 to 4 months.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reagents and cell culture</head><p>A detailed description of reagents and cell culture was shown in Supplementary Materials and Method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antibodies and immunoblotting</head><p>The primary antibodies used in this study are listed in Supplementary Table <ref type="table">S1</ref>. A rabbit polyclonal antibody for asymmetrically di-methylated R131/R134 PFKFB3 was described in our previous study <ref type="bibr" target="#b7">(8)</ref>. Antibodies against asymmetric dimethylated PKM2 (R445/447) were generated by Sigma-Aldrich Japan and Cell Engineering Corporation for Western blotting (rabbit polyclonal) and IHC (mouse monoclonal), respectively. The peptide sequences containing asymmetric dimethylarginine for the antigen were as follows: 432-CKSGRSAHQVARY(R)P(R)API-450. Antisera or culture medium from the hybridoma was purified over a peptide-affinity column. Three clones (3C1, 4C9, and 7C1) of anti-mPKM2 (R445/447) mAbs were generated. Rabbit polyclonal antibody against monomethylated PHGDH (R54) was generated by Cosmo Bio Co., Ltd. The peptide sequence containing monomethylarginine for the antigen was as follows: 48-CEGLIV(R)SATKVT-60. The validation of these antibodies was described in Supplementary Information. The antisera were purified over peptide-affinity column. Western blotting was performed as described in our previous study <ref type="bibr" target="#b7">(8)</ref>. The signals were visualized using EzWestLumi Plus (ATTO).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell death assay</head><p>Using several different human-derived cell lines, cell viability was assessed using the CellTOX Green Cytotoxicity Assay Kit (G8710; Promega; refs. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16)</ref> according to the manufacturer's instructions. The detailed information was described in Supplementary Materials and Methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IHC of breast cancer needle biopsy</head><p>For IHC, specimens were frozen-sectioned at 5-mm thickness, and then fixed on a slide glass for 20 minutes with 4% (w/v) paraformaldehyde. IHC was performed using anti-PHGDH, mPHGDH, PFKFB3, mPFKFB3, PKM2, mPKM2, PRMT1, and FASN rabbit polyclonal antibodies (dilution rate: 1/50-100, described in Supplementary Table <ref type="table">S1</ref>) for 16 hours with blocking solution. After extensive washing with PBS, the slides were incubated with the secondary antibody (anti-rabbit IgG-HRP conjugated, W4011 or anti-mouse IgG-HRP conjugated, W4021, Promega; 250 Â dilution each). Immunoreactivity was visualized using a DAB Substrate Kit (SK-4100; Vector Laboratories) according to the manufacturer's instructions. Following visualization, the slides were counterstained with hematoxylin (#30011; Muto Pure Chemicals).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasmid constructions and site-directed mutagenesis</head><p>All experiments requiring gene recombination and transfection in this study were carried out in accordance with the institutional guidelines of Keio University School of Medicine. The expression vectors of PHGDH, PRMT1, PRMT4, PKM2, and RNF5 were constructed as follows: the coding regions in each of the genes were amplified with primers described in Supplementary Table <ref type="table">S2</ref>, and then subcloned into the pENTR-D vector (Thermo Fisher Scientific) or p3xFLAG-CMV-7.1 (SIGMA). The insert was converted into an N-terminal 3xFLAG-, hemagglutinin (HA)-, or V5-tagged destination vector (for expression in mammalian cells) using the GATEWAY conversion system (Thermo Fisher Scientific). To construct site-directed (C18S, C19S, R20K, K21R, R54K, C116S, C234S, R236E, and R268K) and truncated (DSB1, DNB, DSB2, DASB, and DACT domains) mutants of PHGDH, primers were used as shown in Supplementary Table <ref type="table">S2</ref>. Site-directed mutagenesis was performed using KOD Plus Mutagenesis Kit (TOYOBO) according to the manufacturer's instructions.</p><p>shRNA knockdown and CRISPR/Cas9 knockout cells PRMT1-, PRMT4-, and PHGDH-deficient breast cancer cell lines were generated using CRISPR/Cas9-mediated knockout. Targeting sequences are described in Supplementary Table <ref type="table">S3</ref>. The DNA fragments were subcloned into the pLentiCRISPR v2 vector (#52961, Addgene, RRID: Addgene_169885). Lentivirus for sgRNA was used to infect the breast cancer cell lines MDA-MB-231 and MDA-MB-468. Following puromycin selection (1 mg/mL for 2 weeks), PRMT1-or PRMT4-and PHGDH-deficient cells were obtained. The empty vector pLentiCRISPR v2 was used as a control (sgControl). Mixed cell populations were used in this study.</p><p>PRMT1-and PRMT4-knockdown vectors were purchased from Open Biosystems. PKM1-, PKM2-, and tetracycline-induced shPRMT1 vectors were purchased from Sigma-Aldrich. The target sequences are listed in Supplementary Table <ref type="table">S3</ref>. As a negative control, The GIPZ nonsilencing lentiviral shRNA control vector (RHS4346; Open Biosystems) was used as the negative control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In vivo ubiquitination assay of PHGDH and FASN</head><p>Expression vectors for FLAG-tagged PHGDH (or FASN), myctagged PHGDH, and HA-tagged ubiquitin were transfected for 24 hours (5 mg plasmid each). The cells were then treated with 10 mmol/L MG132 for 6 hours before sample collection. To detect polyubiquitination of PHGDH or FASN, whole cell lysates (1 mg) were incubated with anti-Flag M2 mAb affinity gel (A2220; Sigma) for 16 hours at 4 C. The resin was then washed with RIPA buffer three times, followed by eluted with 1 Â sample buffer. Immunoprecipitates were analyzed by SDS-PAGE, followed by immunoblotting with an anti-HA antibody (Proteintech). Whole cell extracts were analyzed with anti-FLAG, anti-c-Myc, and anti-GAPDH antibodies as inputs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoprecipitation</head><p>HEK293T cells were transiently transfected with various FLAG-PHGDH deletion mutants and HA-PRMT1 or HA-RNF5 (5 mg each). Cell lysates were extracted after 24 hours. The 1 mg of lysates were immunoprecipitated using an anti-FLAG M2 mAb. Twenty-four hours later, the gel was washed three times with RIPA buffer and then eluted with sample buffer. To detect the PHGDH-PRMT1 or PHGDH-RNF5 interaction, HA-PRMT1 or HA-RNF5 were detected using an anti-HA antibody.</p><p>Determination of PHGDH activity and glucose-loading flux assay PHGDH activity was assessed in the direction of 3-PG oxidation to p-Pyr by coupling the reaction with a resazurin reduction reaction by NADH to allow fluorescence detection, according to a previous paper <ref type="bibr" target="#b16">(17)</ref>. MDA-MB-231 and MDA-MB-468 cells were incubated with 13 C 6 -labeled glucose to determine glycolytic intermediates and saturated fatty acids using CE/MS and LC/MC, respectively. Detailed information is described separately in Supplementary Materials and Methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Imaging mass spectrometry</head><p>A MALDI-TOF mass spectrometer (iMScope, Shimadzu Corporation) was used for 25 mm interval imaging mass spectrometry (IMS). The mass peaks of metabolites collected from tissue sections were identified by comparing the MS-MS fragment patterns with those collected from standard reagents. The 9-aminoacridine (Merck) and 2,5-dihidroxybenzoic acid (Bruker Daltonics) were used as matrix for ionization according to our previous methods <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19)</ref>. For free amino acid ionization, we performed on-tissue derivatization of amino residues with p-N,N,N,-trimethylammonioanilyl N'-hydroxysuccinimidyl carbamate iodide (TAHS), according to our previous study <ref type="bibr" target="#b19">(20)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acyl-biotin exchange assay for the detection of protein S-palmitoylation</head><p>Acyl-biotin exchange (ABE) assays were carried out to determine protein S-palmitoylation according to previous methods <ref type="bibr" target="#b20">(21)</ref>. The details are described in Supplementary Materials and Methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Determination of methylated arginine residues of human PHGDH</head><p>We attempted to determine the methylated arginine residues of human PHGDH using MS. Purified FLAG-tagged human PHGDH from HEK293T cells was separated using SDS-PAGE and stained with CBB. Gel slices were excised, destained, dehydration with 25 mmol/L (NH 4 )HCO 3 /50% acetonitrile, and washed with 100% acetonitrile. The gel pieces were rehydrated with freshly prepared 100 mmol/L DTT at 56 C for 1 hour. The proteins were alkylated with 55 mmol/L iodoacetamide in the dark for 45 minutes at room temperature. The gel pieces were washed with 25 mmol/L (NH 4 )HCO 3 /50% acetonitrile, dehydrated, and digested with Trypsin Gold-Mass spec grade (V5280; Promega) at 37 C overnight. Trypsin-digested peptides were extracted by adding a 50% acetonitrile/5% TFA solution. The peptides were desalted with an SDB-STAGE-tip (GL science), dried, dissolved in solvent A (0.1% acetonitrile, 2% TFA in water), and loaded onto a reversed-phase analytical column. The samples were analyzed on a Dionex Ultimate 3000 HPLC system coupled to a Q-Exactive quadrupole Orbitrap mass spectrometer (Thermo Fisher Scientific). More information on the identification of modified peptides was described in Supplementary Materials and Methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study approval and patients</head><p>The study protocols for xenograft experiments were approved by the Institutional Review Boards of Keio University for Animal Ethics Committee (#08037) and Central Institute for Experimental Medicine and Life Science (AIA230102 and AGM230044), which followed the Declaration of Helsinki. In these experiments, nude mice and superimmunodeficient NOG mice were used to establish xenograft transplantation in vivo according to our previous studies <ref type="bibr" target="#b7">(8)</ref>.</p><p>The clinical study was performed in accordance with the approval of the Institutional Review Board on Ethical Issues of the Keio University School of Medicine. The patient-derived frozen breast cancer needlebiopsy specimen and surgical resection after the neo-adjuvant therapy were obtained under the written form of informed consents (ID: 20100143, PI: Associate Professor Masatoshi Wakui) in the Keio University Hospital. All tissue samples were collected from the biobank system in the Department of Surgery, Keio University Hospital. Needle-biopsied samples from 11 patients who were diagnosed as TNBC with the pathologic examination of FFPE, whereas one sample per patient were immediately frozen to examine both IHC and IMS in serial sections as shown later in the results.</p><p>Separately, the FFPE-treated tissue samples from surgical resection following the neoadjuvant therapy were collected from 9 patients with written forms of informed consent to examine whether they were pathologic complete response (pCR) or nonpathologic complete response (non-pCR) according to the criteria described elsewhere <ref type="bibr" target="#b21">(22)</ref>. As shown in the results, immunostaining in the FFPE samples showed nuclear localization of PRMT1 and mPFKFB3 in cancer cells, and differences in immunostaining between pCR and non-pCR were compared with the morphometrical analyses <ref type="bibr" target="#b22">(23)</ref>. Briefly, PRMT1and mPFKFB3-positive cancer cell nuclei and those with negative immunoreactivities were enumerated at representative microscopic regions within nine specimens. Cancer cells with any level of brown nuclear staining were considered positive ones. On average, 560 invasive carcinoma cells in a range of 432 to 657 were examined in each immunostained slide. To compare the mean percentage of positive cancer cells between pCR and non-pCR groups, differences were examined by Welch t test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA sequencing and data analysis</head><p>For RNA sequencing (RNA-seq) analysis, total RNA was isolated from cultured cells using an RNeasy Mini Kit (74134; Qiagen). RNAseq libraries were prepared using TruSeq Stranded mRNA LT Sample Prep Kit (Illumina), according to the manufacturer's instructions and sequenced on an Illumina NovaSeq X instrument with NovaSeq X Series 10B Reagent Kit (Illumina) in paired-end sequencing mode. The sequence reads were aligned to the human reference genome assembly (GRCh38) using HISAT2 program (v2.1.0; ref. <ref type="bibr" target="#b23">24)</ref> after trimming of low-quality bases, adapters, and other illumina-specific sequences by using Trimmomatic program (v0.38; RRID: SCR_011848; ref. <ref type="bibr" target="#b24">25)</ref>. Raw mapped read count of each gene was calculated from bam files after mapping with featureCount program <ref type="bibr" target="#b25">(26)</ref> in subread software (v2.0.6; ref. <ref type="bibr" target="#b26">27)</ref>. Differentially expressed genes (DEG) were extracted from the raw mapped read count data using edgeR (v4.0.2; with P-value of &lt;0.05 and absolute logFC of &gt;2) packages for R (v4.3.2). Functional enrichment analyses of the DEGs were performed using the Database for Annotation, Visualization, and Integrated Discovery (DAVID; v2023q3; refs. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29)</ref>. Whole-transcriptome data were visualized using a volcano plot generated by ggVolcanoR <ref type="bibr" target="#b29">(30)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Unless otherwise stated, all quantitative results are presented as the mean AE SE of independent experiments. Statistical differences in comparison to the control group were analyzed using Student t test or Mann-Whitney U test. For experiments with multiple comparisons, data were first analyzed using ANOVA with Fisher least significant difference, unless otherwise mentioned. Statistical significance was set at P &lt; 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The publicly available METABRIC and TCGA cohort breast cancer datasets analyzed in this study were obtained from cBioPortal (http://www.cbioportal.org/).</p><p>MDA-MB-468 (sgControl vs. sgPRMT1) RNA-seq data in this study are publicly available in the Gene Expression Omnibus (GEO, RRID: SCR_005012) under accession number GSE250022. All other raw data generated in the study are available from the corresponding author upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Serine-synthesizing pathway is upregulated in chemoresistant TNBC cells</head><p>To investigate the differences in metabolic characteristics between chemosensitive and chemoresistant breast cancer cell lines, sensitivity to doxorubicin or paclitaxel (Ptx), two major anticancer reagents clinically used for the standard therapy of breast cancer <ref type="bibr" target="#b30">(31)</ref>, was examined in several cell lines. MCF7, generated from HER2-positive breast cancer <ref type="bibr" target="#b31">(32)</ref>, was sensitive to increased concentrations of doxorubicin, whereas TNBC cell lines such as BT-20, MDA-MB-231, and MDA-MB-468 were significantly less sensitive to doxorubicin (Fig. <ref type="figure" target="#fig_0">1A</ref>). Among the three doxorubicin-resistant TNBC cell lines, the most resistant to paclitaxel was MDA-MB-468 as compared with MDA-MB-231 and BT-20 (Fig. <ref type="figure" target="#fig_0">1B</ref>). On the basis of these data, MDA-MB-468 is an innately chemoresistant TNBC cell line that can be used as anticancer reagents.</p><p>We have previously reported the switching mechanism of central carbon metabolism to sustain antioxidative capacity through PRMT1involving PFKFB3 methylation in colon cancer cells <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b14">15)</ref>. Therefore, we first investigated the expression and methylation levels of key enzymes involved in carbohydrate and sulfur-containing amino acid metabolism in these TNBC cell lines. Among the four cell lines, MDA-MB-468, which was an innately Ptx-resistant line, showed higher methylation of PFKFB3 and PKM2 than Ptx-sensitive MDA-MB-231 cells (Fig. <ref type="figure" target="#fig_0">1C</ref>). We confirmed that PKM2 was methylated by PRMT1, leading to a transition to dimerization (Supplementary Figs. <ref type="figure" target="#fig_0">S1A-S1J</ref>). Another important difference between MDA-MB-468 and MDA-MB-231 cells was the overexpression of PHGDH, PSAT1, and PSPH, which are enzymes belonging to SSP (Fig. <ref type="figure" target="#fig_0">1C</ref>).</p><p>To define the clinical relevance of SSP enzymes and PRMT1 gene expression in drug-resistant TNBC patients, we analyzed the public cancer genome database Molecular Taxonomy of Breast Cancer International Consortium (METABRIC) and The Cancer Genome Atlas (TCGA) databases <ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref>. Analyses of large-scale transcriptomic datasets showed significantly greater expression of PRMT1, PHGDH, and PSAT1 in patients classified as having basal-like type breast cancer, including TNBC in different datasets (Supplementary Figs. S2A, S2D, S2G, and S3A-S3C). The expression levels of these genes were positively correlated with histologic tumor grades (Supplementary Figs. S2B, S2E, and S2H); however, higher expression was also observed in patients receiving adjuvant chemotherapy (Supplementary Figs. S2C, S2F, and S2I). These results led us to imply that, similar to the results of the current cell line experiments, the augmentation of de novo serine-synthesizing pathway in patients with TNBC may determine sensitivity to chemotherapy.</p><p>Therefore, we investigated whether chemoresistance in Ptxsensitive MDA-MB-231 cells enhance the expression of SSP enzymes and arginine-methylated PFKFB3 and PKM2. To establish Ptx-    resistant (Ptx-R) MDA-MB-231, the tumor was transplanted into the subcutaneous tissue of nude mice, followed by Ptx injection for a certain period, after which, the tumor was removed, digested, dispersed, and transplanted again. This cycle was repeated three times with increasing concentrations of Ptx to obtain chemoresistant MDA-MB-231 cells (Fig. <ref type="figure" target="#fig_0">1D</ref>). Notably, the arginine methylation of PFKFB3 and PKM2 was elevated in all three established clones (#1, #2, and #3), consistent with the expression of the drug resistance marker ABCG1 <ref type="bibr" target="#b35">(36)</ref> as well as the induction of the three SSP enzymes, PHGDH, PSAT1, and PSPH (Fig. <ref type="figure" target="#fig_0">1E</ref>; Supplementary Fig. <ref type="figure" target="#fig_3">S4A</ref>). These characteristics were shared with the innately Ptx-R MDA-MB-468 cells (Fig. <ref type="figure" target="#fig_0">1C</ref>). Parental cells exhibited augmentation of cell death with increasing Ptx concentrations, whereas the established Ptx-R cells displayed significant suppression of cell death (Fig. <ref type="figure" target="#fig_0">1F</ref>). We further established in vitro Ptx-R model with stepwise increasing concentration of Ptx, showing that established cells in vitro also showed similar patterns of enzyme expression (Supplementary Fig. <ref type="figure" target="#fig_3">S4B</ref>).</p><p>The protein arginine methylation of PFKFB3 and PKM2 coincided with chemoresistance against Ptx (Figs. <ref type="figure" target="#fig_0">1C</ref> and<ref type="figure">E</ref>). Therefore, we investigated whether PRMT1 and/or PRMT4, which have been reported as methyltransferases for metabolic enzymes in various type of cancers <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b36">37)</ref>, play an important role in chemotherapy resistance to Ptx. The Ptx-induced cell death of the parent cell was not altered by treatment with sgPRMT1 (Fig. <ref type="figure" target="#fig_0">1G</ref>), whereas the Ptxresistant MDA-MB-231 cells displayed no significant increase in cell death with increasing Ptx concentrations, which was significantly unlocked with sgPRMT1 but not with sgPRMT4 (Fig. <ref type="figure" target="#fig_0">1H</ref>). These results suggested that PRMT1, but not PRMT4, plays a critical role in Ptx-induced cell death. The resistance seen in Fig. <ref type="figure" target="#fig_0">1</ref> was not a generalized but Ptx-dependent event, because MDA-MB-468 exhibited greater sensitivity than MDA-MB-231 against cisplatin (Supplementary Fig. <ref type="figure" target="#fig_4">S5A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PHGDH is R20-or R54-methylated by PRMT1 to maintain the enzymatic activities</head><p>PHGDH catalyzes the rate-limiting step of the SSP. To date, many studies have reported that its activity is regulated by various posttranslational modifications <ref type="bibr" target="#b37">(38)</ref><ref type="bibr" target="#b38">(39)</ref><ref type="bibr" target="#b39">(40)</ref>. The observation that the increased arginine methylation of PFKFB3 and PKM2 by PRMT1 and the simultaneous upregulation of SSP enzymes in TNBC (Fig. <ref type="figure" target="#fig_0">1C</ref>) led us to investigate whether PHGDH undergoes PRMT1-mediated arginine methylation to alter catalytic activities. To determine the domain(s) of PHGDH responsible for binding to PRMT1, several deletion mutants were prepared as shown in Fig. <ref type="figure" target="#fig_1">2A</ref>; the nucleotide binding domain (NBD)-deficient mutant (DNBD) did not show immunoprecipitated signals (Fig. <ref type="figure" target="#fig_1">2B</ref>), suggesting that the NBD plays a critical role in binding to PRMT1. According to previous studies <ref type="bibr" target="#b40">(41)</ref>, the sequence around the 295th amino acid called "THW loop," is responsible for stabilizing the peptidyl-arginine substrate pocket cooperated with the catalytic core. We have also shown that D295 mutant, which disrupted the structure near the THW loop, showed a remarkable decrease in the binding to FLAG-tagged PHGDH (Supplementary Fig. <ref type="figure" target="#fig_5">S6</ref>).</p><p>To identify the methylated residues of PHGDH by PRMT1, HEK293 cells expressing FLAG-tagged human PHGDH were established. Finally, we identified three arginine residues involved in arginine methylation (R20, R54, and R268). As seen in the MS data, R20 was modified with dimethylarginine, whereas R54 and R268, and a portion of R20 contained monomethyl-arginine (Figs. <ref type="figure" target="#fig_1">2C</ref> and<ref type="figure">D</ref>; Supplementary Figs. <ref type="figure" target="#fig_6">S7A-S7D</ref>). HEK293T cells expressing several PHGDH site-directed mutants revealed that the mutation at R268K increased enzyme activity, whereas the R20K or R54K mutant significantly reduced enzymatic activity (Fig. <ref type="figure" target="#fig_1">2E</ref>). Putative relationship between methylation of different R residues and the activities was shown in Supplementary Fig. <ref type="figure" target="#fig_8">S8</ref>. Our results suggested that the reduced activity of the R54K mutant is due to the reduced affinity for 3-PG and NAD þ , the substrate or coenzyme of PHGDH consistent with the previous findings. (Fig. <ref type="figure" target="#fig_1">2F</ref>; Supplementary Fig. <ref type="figure" target="#fig_8">S8A;</ref><ref type="figure"></ref> refs. <ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43)</ref>. On the other hand, R20K showed similar substrate affinity compared with WT, suggesting the obvious functional differences between R20 and R54 arginine methylation. As seen later, polyubiquitination serves as a critical mechanism for stability of the enzyme. Therefore, we focused on R20 and R54, which are present in the substrate recognition domain affecting their enzyme activity. We also raised a polyclonal antibody against R54-monomethylated PHGDH, which reacted specifically with monomethylated peptides (R54). The signals corresponding to arginine methylation of PHGDH disappeared in PRMT1 knockout cells, suggesting that this event is mediated by PRMT1 (Supplementary Figs. <ref type="figure" target="#fig_8">S8B</ref> and<ref type="figure" target="#fig_8">S8C</ref>). Among the four breast cancer cell lines, MDA-MB-468 cells showed the greatest level of PHGDH methylation, similar to the methylation of PFKFB3 and PKM2 (Figs. <ref type="figure" target="#fig_0">1C</ref> and<ref type="figure" target="#fig_1">2G</ref>). Moreover, PHGDH methylation was increased in Ptx-resistant strains, whereas such methylation was abolished in MDA-MB-231 cells with the PRMT1 knockout (Fig. <ref type="figure" target="#fig_1">2H</ref>). We also examined whether knocking out either PRMT1 or PRMT4 alters the enzymatic activities of PHGDH: treatment with sgPRMT1, but not with sgPRMT4, significantly suppresses the enzymatic activity of PHGDH in both MDA-MB-468 and Ptx-R MDA-MB-231 (Fig. <ref type="figure" target="#fig_1">2I</ref>; Supplementary Fig. <ref type="figure" target="#fig_8">S8D</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Paclitaxel-resistant cells shift glucose utilization into the serine synthetic pathway</head><p>Fig. <ref type="figure" target="#fig_2">3A</ref> illustrates the effects of PRMT1-knockout on the biotransformation of 13 C 6 -glucose during the 30 minutes incubation in MDA-MB-468 cells. sgPRMT1 treatment caused a significant elevation of 13 C-labeled metabolites in the pentose phosphate pathway (PPP) that coincided with increases in the sum of 3-PG and 2-PG, phosphoenolpyruvate (PEP), and pyruvate, which is in good agreement with our previous observation that demethylation of PFKFB3 caused by shPRMT1 plays a role in these events <ref type="bibr" target="#b7">(8)</ref>. Another important event is the elevation of TCA cycle intermediates, such as citrate, aconitate, isocitrate, and aKG, which is consistent with the notion that PRMT1-(Continued.) D, Effects of orlistat on Ptx-induced cell death in MDA-MB-468 cells. Ã , P &lt; 0.05, compared with the Ptx-and orlistat-free controls. †, P &lt; 0.05, compared with sgControl at each Ptx concentration. z, P &lt; 0.05, compared with sgPRMT1 without Ptx. x, P &lt; 0.05, compared with sgControl at each Ptx concentration. #, P &lt; 0.05, compared with sgPRMT1 at each Ptx concentration. Data are presented as mean AE SE (n ¼ 4; two-way ANOVA with Fisher LSD test). E, Effects of dmKG or 2-Br-Pal on sgPRMT1-induced cell death in MDA-MB-468 cells. Data express mean AE SE (n ¼ 4). Ã , P &lt; 0.05, compared with the Ptxfree control in sgCont.-treated cells. †, P &lt; 0.05, compared with the Ptx-free control of sgPRMT1-treated cells. Differences were tested using one-way ANOVA with Fisher LSD test. F and G, Effects of orlistat (F) and dmKG (G) on Ptx-induced cell death in MDA-MB-231 cells. Ã , P &lt; 0.05; †, P &lt; 0.05; z, P &lt; 0.05, compared with the orlistat-free, parental cells, and parental with orlistat, respectively (F) and dmKG-free control (G), respectively. Data are presented as the mean AE SE (n ¼ 4; two-way ANOVA with Fisher LSD test). H, Effect of 2-Br-Pal on Ptx-induced cell death in MDA-MB-231 cells. Ã , P &lt; 0.05 and †, P &lt; 0.05 between the groups shown in the panel (n ¼ 4, one-way ANOVA with Fisher LSD test). N.D., not detected; n.s., not significant. induced methylation of PKM2 plays a role in limiting the incorporation of the glycolytic intermediate into the TCA cycle. We also examined 13 C-metabolites with shorter incubation period of time at 15 minutes, where increases in PPP metabolites and the elevation of TCA cycle intermediates seems smaller than those measured at 30 minutes (Supplementary Fig. <ref type="figure">S9</ref>). On the other hand, 13 C 6 -assisted fluxome analyses revealed that the Ptx-resistant MDA-MB-231 cells upregulated G-6-P, F-1,6-BP, glycerol-3P, serine (mþ1), methionine (mþ1), and SAM (mþ1), suggesting that acquisition of Ptx chemoresistance coincided with increased glucose biotransformation into the SSP and serine/glycine cleavage system (Supplementary Fig. <ref type="figure" target="#fig_0">S10A</ref>). These results suggest that coordinated methylation of three enzymes shifts glucose utilization into the serine synthesizing pathway. These metabolic changes can be partly explained by PRMT1-mediated changes in PK activity. Namely, methylated PKM2 showed reduced activity due to its dimerization, whereas demethylated PKM2 was tetrameric and highly active in PRMT1-deficient cells (Supplementary Figs. <ref type="figure" target="#fig_0">S1H-S1J</ref>, S10B, and S10C).</p><p>Alterations in many metabolites in metabolome analyses often consider a possibility that a metabolite belonging to distal pathways can influence the proximal pathway of the interest, therefore, nonbiased bird's eye view with volcano plots is useful (Supplementary Fig. <ref type="figure" target="#fig_0">S11A</ref>). In PRMT1-KO MDA-MB-468, many metabolites in PPP and glycolysis and TCA intermediates were elevated, presumably because of reduction of the carbon flux into SSP and fatty acid synthesis as discussed later. Furthermore, the exogenous application of 2-PG, an allosteric activator of PHGDH <ref type="bibr" target="#b43">(44)</ref>, actually increases the catalytic activity of PHGDH, which might mask the inhibitory effect of PRMT1-KO on SSP (Supplementary Fig. <ref type="figure" target="#fig_0">S11B</ref>). Furthermore, SSP provides aKG, which is also delivered through the TCA cycle. We thus inquired how many percentages PHGDH contributes to aKG supply from SSP: as seen in Supplementary Fig. <ref type="figure" target="#fig_0">S11C</ref>, the PHGDH-deficient MDA-MB-468 caused a significant suppression of aKG by 60%, suggesting that SSP started by PHGDH plays a major role for aKG supply at least in the cultured cell.</p><p>Notably, sgPRMT1 treatment elevated the GSH/GSSG ratio, which coincided with increased PPP metabolites in MDA-MB-468 cells (Fig. <ref type="figure" target="#fig_2">3A</ref>). These results were in good agreement with our previous studies showing the effects of demethylation of PFKFB3, which delivers glucose into the PPP to increase NADPH and potentiate the antioxidative capacity in different cancer cell lines <ref type="bibr" target="#b7">(8)</ref>. We also examined the chemosensitivity of the PRMT1-deficient MDA-MB-468 cells to Ptx. Surprisingly, knocking out of PRMT1 rendered MDA-MB-468 cells significantly sensitive to Ptx, despite the increased GSH/GSSG ratio (Figs. <ref type="figure" target="#fig_2">3B</ref> and<ref type="figure">C</ref>; Supplementary Figs. <ref type="figure" target="#fig_4">S5B</ref> and<ref type="figure" target="#fig_4">S5C</ref>), suggesting that GSH is not attributable to the chemoresistance of the cells.</p><p>Although the most recent paper reported that PRMT1 regulates several glycolytic enzymes through the histone H4R3 methylation <ref type="bibr" target="#b44">(45)</ref>, metabolic enzymes or previously known epigenetic regulators were not mined in our RNA-seq data illustrated with the volcano plot between the PRMT1-KO and wild-type TNBC cells (Supplementary Figs. <ref type="figure" target="#fig_1">S12A</ref> and<ref type="figure" target="#fig_1">S12B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Paclitaxel chemoresistance coincides with increased de novo fatty acid synthesis in TNBC</head><p>Both chemoresistant and acquired Ptx-resistant cells activate glycolysis via mPFKFB3 induction under incomplete PK inhibition through increased mPKM2, thereby supplying carbon units from glycolysis towards SSP via mPHGDH; methylation of PFKFB3, PKM2, and PHGDH is dependent on PRMT1 (Fig. <ref type="figure" target="#fig_2">3A</ref>; Supplementary Fig. <ref type="figure" target="#fig_0">S10A</ref>), however, PRMT1-involving, and SSP-induced chemore-sistance led us to identify unidentified mechanisms for cancer survival in addition to GSH. As seen in MDA-MB-468 cells, metabolites of the TCA cycle, such as citrate, aconitate, isocitrate, and aKG, were elevated significantly by knocking out of PRMT1 (Fig. <ref type="figure" target="#fig_2">3A</ref>). In addition to being derived from the TCA cycle, aKG is also derived from the PSAT1-coupling reaction that belongs to SSP <ref type="bibr" target="#b42">(43,</ref><ref type="bibr" target="#b45">46)</ref>, which plays a critical role as a source of aKG as mentioned previously (Supplementary Fig. <ref type="figure" target="#fig_0">S11C</ref>), and could be converted to citrate and acetyl-CoA for fatty acid synthesis <ref type="bibr" target="#b46">(47,</ref><ref type="bibr" target="#b47">48)</ref>. This notion led us to hypothesize that the increases in these metabolites in PRMT1-knockout cells reflect a reduced utilization and resultant overflow of the metabolites for fatty acid synthesis. The 13 C 6 -glucose utilization assay for fatty acids (Fig. <ref type="figure" target="#fig_3">4A</ref>) revealed that the amounts of 13 C-labeled palmitate species was significantly decreased by sgPRMT1 treatment of MDA-MB-468 cells (Fig. <ref type="figure" target="#fig_3">4B</ref>), while Ptx-resistant MDA-MB-231 cells also showed a significant elevation in 13 C-labeled palmitate (Fig. <ref type="figure" target="#fig_3">4C</ref>). These results suggest that PRMT1 augments de novo fatty acid synthesis in TNBC cells with Ptx chemoresistance.</p><p>Various compounds that alter fatty acid synthesis were examined (Fig. <ref type="figure" target="#fig_3">4A</ref>): orlistat, which is an inhibitor of FASN <ref type="bibr" target="#b48">(49)</ref>, and significantly unlocked the chemoresistance of MDA-MB-468 cells. The unlocking effects of orlistat were mimicked by knocking out PRMT1 but not PRMT4 (Fig. <ref type="figure" target="#fig_3">4D</ref>). Treatment with dimethyl-ketoglutarate (dmKG), which provides aKG into cells (50), or 2-Br-Pal, a potent inhibitor of protein S-palmitoylation <ref type="bibr" target="#b50">(51,</ref><ref type="bibr" target="#b51">52)</ref>, induced the suppression or enhancement of Ptx-induced cell death, respectively, in MDA-MB-468 cells (Fig. <ref type="figure" target="#fig_3">4E</ref>). Treatment with orlistat did not alter Ptx-induced cell death in the parental MDA-MB-231 cells, while increasing significantly the death of Ptx-R cells (Fig. <ref type="figure" target="#fig_3">4F</ref>). Increasing concentrations of dmKG reduced cell death in parental MDA-MB-231 cells (Fig. <ref type="figure" target="#fig_3">4G</ref>; Supplementary Fig. <ref type="figure" target="#fig_2">S13A</ref>). Notably, treatment with 2-Br-Pal dose-dependently unlocked chemoresistance in Ptx-resistant MDA-MB-231 cells (Fig. <ref type="figure" target="#fig_3">4H</ref>; Supplementary Fig. <ref type="figure" target="#fig_2">S13B</ref>). We examined effects of orlistat or 2-Br-Pal on BT-20 with lower methylation level (Figs. <ref type="figure" target="#fig_0">1C</ref> and<ref type="figure" target="#fig_1">2G</ref>), showing no significant elevation of the cell death (Supplementary Fig. <ref type="figure" target="#fig_2">S13C</ref>). Likewise, in MDA-MB-468 cells, treatment with MS023, a potent inhibitor of PRMT1 <ref type="bibr" target="#b52">(53)</ref>, or with 2-Br-Pal cancelled the chemoresistance against Ptx (Supplementary Fig. <ref type="figure" target="#fig_2">S13D</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PRMT1 mediates increased fatty acid accumulation in the Ptx-resistant cancer cell</head><p>Supplementary Figs. S14A and S14B showed fatty acid accumulation in the Ptx-resistant MDA-MB-231 in culture; panels A and B showed elevation of the endogenous fatty acid storage and incorporation of the fluorescence-tagged palmitate into the Ptx-resistant cells, respectively. The magnified images exhibited intracellular localization of the incorporated fatty acid; in the parent cells, the fluorescence appeared to occur in mitochondria and partly in the endoplasmic reticulum, whereas the Ptx-resistant cells were filled with enhanced fluorescence at perinuclear region being spared. These events of fatty acid accumulation and incorporation were markedly attenuated by treatment with sgPRMT1. On the other hand, the baseline fatty acid b-oxidation was unlikely to differ among the parent, Ptx-resistant, and sgPRMT1-treated Ptx-R cells (Supplementary Fig. <ref type="figure" target="#fig_3">S14C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PRMT1-mediated S-palmitoylation of PHGDH and FASN prevents their polyubiquitination</head><p>The observation that 2-Br-Pal cancelled the chemoresistance in TNBC cell lines (Fig. <ref type="figure" target="#fig_3">4E</ref> and<ref type="figure">H</ref>) led us to hypothesize that protein S-palmitoylation plays a crucial role in the amelioration of Ptx-induced cancer cell death. Among the enzymes contributing to the accelerated transformation of 3-PG towards SSP and fatty acid synthesis, we herein identified PHGDH and FASN as targets. The ABE method (Fig. <ref type="figure" target="#fig_4">5A</ref>; ref. <ref type="bibr" target="#b20">21)</ref> allowed us to show that PHGDH, FASN, and the EGF receptor (EGFR) were protein S-palmitoylated in MDA-MB-468 cells, and were repressed by knocking out PRMT1 but not PRMT4 (Fig. <ref type="figure" target="#fig_4">5B</ref>; Supplementary Fig. <ref type="figure" target="#fig_4">S15</ref>). Acquisition of chemoresistance to Ptx enhanced S-palmitoylation of PHGDH, FASN, and EGFR, which was also suppressed by knocking out PRMT1, but not PRMT4, in MDA-MB-231 cells (Fig. <ref type="figure" target="#fig_4">5C</ref>; Supplementary Fig. <ref type="figure" target="#fig_4">S15</ref>). Furthermore, conditional downregulation/upregulation of PRMT1 using the doxycycline (DOX)-on/off system of shPRMT1 has shown that S-palmitoylation of PHGDH and FASN alters reversibly (Figs. <ref type="figure" target="#fig_4">5D</ref> and<ref type="figure">E</ref>; Supplementary Fig. <ref type="figure" target="#fig_4">S15</ref>). Recent studies have suggested that PHGDH overexpression is regulated by several ubiquitin ligases in various cancer cells <ref type="bibr" target="#b37">(38,</ref><ref type="bibr" target="#b38">39)</ref>. Thus, we examined the roles of RNF5, an E3 ubiquitin ligase that binds to PHGDH <ref type="bibr" target="#b37">(38)</ref> through the SBD1 domain, where R20 and K21 of PHGDH are located (Supplementary Fig. <ref type="figure" target="#fig_5">S16A</ref>). HEK293 cells expressing deletion mutants (DelM) of PHGDH were prepared, and the cells lacking SBD1 did not show binding to RNF5. Notably, PHGDH and FASN protein were accumulated in RNF5knockout MDA-MB-231 cells (Supplementary Fig. <ref type="figure" target="#fig_5">S16B</ref>). Compared with the parental cells, Ptx-R MDA-MB-231 cells displayed reduced Ub-dependent degradation, while treatment with sgPRMT1, but not sgPRMT4, accelerated PHGDH degradation (Fig. <ref type="figure" target="#fig_4">5F</ref>). Comparable results were achieved in MDA-MB-468 cells, which were innately resistant to Ptx (Fig. <ref type="figure" target="#fig_4">5G</ref>). Since R20K-mutated PHGDH activates polyubiquitination to decrease enzymatic activity, the unmethylable mutant may induce hyperpolyubiquitination at the adjacent K21 (Fig. <ref type="figure" target="#fig_4">5H</ref>), thereby decreasing the catalytic activity of PHGDH.</p><p>Several studies have shown that FASN activity is also regulated by polyubiquitination <ref type="bibr" target="#b53">(54,</ref><ref type="bibr" target="#b54">55)</ref>. As shown in Supplementary Figs. S17A and S17B, MDA-MB-468 and Ptx-R MDA-MB-231 cells exhibited marked enhancement of FASN polyubiquitination in response to knockout of PRMT1, but not PRMT4. We also demonstrated that the introduction of unmethylable PHGDH mutants (R20K or R54K) or pharmacological PHGDH blockade augmented the polyubiquitination of FASN (Supplementary Figs. <ref type="figure" target="#fig_6">S17C</ref> and<ref type="figure" target="#fig_6">S17D</ref>). These results suggest that PRMT1-mediated PHGDH activation prevents polyubiquitination and stabilizes FASN for fatty acid synthesis in TNBC. We further examined the possibility of cross-talk between arginine methylation and other post-translational modifications (S-palmitoylation, phosphorylation, and acetylation) in Supplementary Figs. S18A to S18D. As a result, we showed that arginine methylation acted to sustain the PHGDH enzymatic activity cooperated with S-palmitoylation and acetylation (Supplementary Figs. <ref type="figure" target="#fig_8">S18A</ref> and<ref type="figure" target="#fig_8">S18C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PRMT1 mediates TNBC xenograft growth in superimmunodeficient mice</head><p>We compared differences in xenograft growth of the wild-type and Ptx-chemoresistant MDA-MB-231 cells which were transplanted subcutaneously in superimmunodeficient NOG mice according to our previous method <ref type="bibr" target="#b7">(8)</ref>. The sensitivity for Ptx was also examined with 3-series of intravenous Ptx administration (Supplementary Fig. <ref type="figure" target="#fig_0">S19A</ref>) to monitor the tumor volume. Results indicated that the Ptx-resistant cell xenograft displayed responses to lesser extents after the Ptx administration as compared with the parent cell xenograft. To note is that pretreatment of the Ptx-resistant cell with sgPRMT1 significantly suppressed the tumor volume compared with that of Ptx-R cells, suggesting unlocks to the resistance partially (Supplementary Figs. <ref type="figure" target="#fig_0">S19B</ref> and<ref type="figure" target="#fig_0">S19C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Coordinated arginine methylation correlates with TNBC patients</head><p>We further examined whether PRMT1 was activated to increase the methylation of glycolytic enzymes in specimens from patients with TNBC. Figure <ref type="figure" target="#fig_5">6A, a</ref> and<ref type="figure">A</ref>, b indicate a frozen needle-biopsied sample stained with H&amp;E staining and the magnified region in which a boardcertified pathologist digitally drew cancer cell clusters and stromal regions in yellow and white, respectively. PRMT1 expression was confined to the nuclei of TNBC cells (Fig. <ref type="figure" target="#fig_5">6A,</ref><ref type="figure">c</ref>). PHGDH and FASN coincided in the regions enriched in cancer cell clusters to a greater extent than in the stromal regions (Figs. <ref type="figure" target="#fig_5">6A, d</ref> and<ref type="figure">A, e</ref>, respectively), although we confirmed that both areas were not stained with secondary antibodies only (Fig. <ref type="figure" target="#fig_5">6A,</ref><ref type="figure">k</ref>). Notably, methylated PHGDH (R54), methylated PFKFB3 (R131/134), and methylated PKM2 (R445/447) were detected in the nuclei of cancer cells, whereas the total expression of these enzymes in the stromal regions was negligible (Figs. <ref type="figure" target="#fig_5">6A,</ref><ref type="figure">j</ref>; Supplementary Fig. <ref type="figure" target="#fig_0">S1K</ref>). These results are in good agreement with the data collected from the two different chemoresistant TNBC cell lines.</p><p>Using serial frozen sections, we challenged to examine using IMS whether samples derived from patients with TNBC showed alterations in metabolites in chemoresistant TNBC cell lines. IMS in frozen serial tissue slices derived from the same TNBC block showed the accumulation of upstream metabolites in glycolysis [G-1-P/G-6-P, F-1,6-BP, GA3P, and phosphoglycerates (PG)], citrate, and palmitoylcarnitine (Fig. <ref type="figure" target="#fig_5">6B</ref>). To visualize amino acids that are hardly ionized in IMS, we applied a sensitive derivatization method with p-N,N,N,-trimethylammonioanilyl N'-hydroxysuccinimidyl carbamate iodide (TAHS) to semi-serial frozen TNBC tissue sections <ref type="bibr" target="#b19">(20)</ref>. A combination of TAHSdependent derivatization IMS revealed that glycine-TAHS, methionine-TAHS, glutamate-TAHS, and SAM accumulated in cancer cell nests (Fig. <ref type="figure" target="#fig_5">6B</ref>), suggesting the upregulation of free fatty acid synthesis. These results are in good agreement with those collected from chemoresistant TNBC cell lines (Fig. <ref type="figure" target="#fig_2">3</ref>; Supplementary Fig. <ref type="figure" target="#fig_0">S10A</ref>). Furthermore, IMS provided evidence that sulfonated forms of glutathione persulfide (GSSO 3</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>À</head><p>) or cysteine persulfide (Cys-SSO 3 À ), which are generated from parent persulfides, are relatively lower in cancer cell nests than in the surrounding stromal regions <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b17">18)</ref>. These data in cancer cells but not in the stroma suggested the accumulation of the major glycolytic intermediates. While lactate remained at a low level, and stromal regions, respectively. c-j, IHC analyses of the corresponding enzymes. k, IHC of the negative control (without primary antibody). Serial sections of 5 mm thickness were prepared. Scale bars in b-k, 250 mm. B, Representative images of IMS to determine the regional contents of metabolites in needle biopsy derived from a patient with TNBC. Serial or semiserial frozen sections that were adjacent to the slices in A were used. To visualize the free amino acid distributions, TAHS was used as a derivatization reagent (Gly-TAHS, Met-TAHS, and Glu-TAHS on the bottom panels). Images were captured in the same microscopic field as that of the serial frozen slices shown in A. Accordingly, the white and magenta lines indicate regions enriched in cancer cell nests and stromal regions, respectively. Pseudocolor bars indicate the apparent contents of metabolites, with red and blue representing high and low amounts, respectively. Scale bars, 200 mm. citrate and palmitoylcarnitine for fatty acid synthesis were detectable. Another important result is the observation that C1 units provided for the SSP is not transferred towards glutathione or persulfide pathways but towards fatty acid synthesis. These results were in agreement with the notion that the metabolites required for methylation and fatty acid synthesis are enriched in TNBC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PRMT1-associated arginine methylation as a predictor of pCR in TNBC</head><p>Immunohistologic results collected from frozen needle biopsied samples in Fig. <ref type="figure" target="#fig_5">6</ref> exhibited localization of PRMT1 and the methylated enzymes (mPHGDH, mPFKFB3l, and mPKM2) in the TNBC cell nuclei. We thus confirmed their nuclear localization of these enzymes by using Western blotting in the nuclear fraction of Ptx-R MDA-MB-231 (Supplementary Fig. <ref type="figure" target="#fig_1">S20</ref>). Since not all patients recruited for frozen needle biopsy have experienced chemotherapy yet, we attempted to collect a small cohort including 9 TNBC patients who experienced needle biopsy followed by neoadjuvant therapy to diagnose pCR/non-pCR. In these patients, needle-biopsied samples were all treated with FFPE. In the FFPE samples, the antibodies for mPKM2 and mPHGDH were unable to be used, but those PRMT1 and mPFKFB3 were able to detect the antigens. As seen, the FFPE samples collected from patients who were diagnosed as TNBC and later experienced adjuvant chemotherapy suggested significant increases in the number of nuclear immunostaining of PRMT1 and mPFKFB3 in the cancer cells in non-pCR cases than pCR cases (Fig. <ref type="figure" target="#fig_6">7A</ref> and<ref type="figure">B</ref>). On the other hand, immunostaining of breast cancer markers was absent in the TNBC patients in Supplementary Fig. <ref type="figure" target="#fig_1">S21</ref>. As seen in the inset, morphometry showed that the numbers of PRMT1-and mPFKFB3positive cancer cell nuclei were significantly greater in chemoresistant non-pCR patients than those in pCR patients (Fig. <ref type="figure" target="#fig_6">7C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we demonstrated that PHGDH, the rate-limiting serine synthesizing enzyme, is methylated by PRMT1 in chemoresistant TNBC. We also showed that PRMT1-involving coordinated methylation of three enzymes (PHGDH, PFKFB3, and PKM2) catalyzes the biotransformation of glucose into SSP, which branches out of glycolysis to deliver substrates for the survival of TNBC cell lines (Figs. 1C, 2G, 2H, and 6A). PHGDH is highly expressed in many solid cancers with poor prognosis <ref type="bibr" target="#b31">(32)</ref>. Furthermore, the open database of breast cancer patients suggested that higher mRNA expression of PRMT1, PHGDH, and PSAT1 correlated with malignancy (Supplementary Figs. <ref type="figure" target="#fig_1">S2</ref> and<ref type="figure" target="#fig_2">S3</ref>).</p><p>In recent reports, several types of post-translational modifications, such as phosphorylation, acetylation, and ubiquitination, have been reported to regulate PHGDH activity <ref type="bibr" target="#b37">(38)</ref><ref type="bibr" target="#b38">(39)</ref><ref type="bibr" target="#b39">(40)</ref>. In this study, we identified the residues of PHGDH (R20 and R54) methylated by PRMT1 (Figs. <ref type="figure" target="#fig_1">2C</ref> and<ref type="figure">D</ref>). We have shown that dimethylation of R20, located in substrate binding domain1 (SDB1), competes with the polyubiquitination of K21 to stabilize the active enzyme, while R54 acts to stabilize the affinity for the substrate (Figs. <ref type="figure" target="#fig_1">2E</ref> and<ref type="figure" target="#fig_4">5H</ref>; Supplementary Fig. <ref type="figure" target="#fig_8">S8A</ref>). Furthermore, site-specific antibodies allowed the detection of R54 hypermethylation in paclitaxel-resistant strains and specimens from patients with TNBC (Figs. <ref type="figure" target="#fig_1">2G, 2H,</ref> and<ref type="figure" target="#fig_5">6A</ref>). These results collectively unveiled that arginine methylation of R20 and R54 is necessary to support the enzymatic activity of PHGDH. Recent studies have reported that R54 acts on substrate selectivity depending on the phosphorylation state of the neighboring S55 <ref type="bibr" target="#b39">(40,</ref><ref type="bibr" target="#b55">56)</ref>, suggesting that the methylation of R54 may be involved in these processes.</p><p>Further investigation of the feedback loops between PRMT1-mediated arginine methylation and the other modification is obviously necessary to understand the whole picture of regulatory mechanisms for TNBC chemoresistance.</p><p>Another research group reported that the activation of PHGDH through the monomethylation of different arginine residue R236 (located at the substrate recognition site) by PRMT1 shunts into the glutathione synthetic pathway to reduce ROS levels for hepatocellular carcinoma progression <ref type="bibr" target="#b56">(57)</ref>. However, our results indicate a glutathione-independent mechanism to acquire chemoresistance of TNBC (Fig. <ref type="figure" target="#fig_2">3</ref>; Supplementary Fig. <ref type="figure" target="#fig_0">S10A</ref>). Further investigation of PRMT1involving regulatory mechanisms for PHGDH methylation and activity among cancer types is warranted.</p><p>PRMTs have recently attracted greater attention as potential targets for cancer therapy <ref type="bibr" target="#b57">(58)</ref><ref type="bibr" target="#b58">(59)</ref><ref type="bibr" target="#b59">(60)</ref>. Remarkably, we have shown that the role of PRMT1 in regulating glucose metabolism in TNBC is not a local effect on PHGDH but multicentric effects of PRMT1-mediated methylation of PFKFB3 and PKM2 (Figs. <ref type="figure" target="#fig_1">1C, 2G,</ref> and<ref type="figure" target="#fig_1">2H</ref>). Such coordinated methylation of enzymes by PRMT1 exerts critical actions on the following three steps of central carbon metabolism towards SSP through arginine methylation: (i) activation of glycolysis by methylated PFKFB3 <ref type="bibr" target="#b7">(8)</ref>, and (ii) acting as a "priming water" to switch the carbon source to serine metabolism by suppressing PKM2 activity through methylation (Supplementary Figs. <ref type="figure" target="#fig_0">S10B</ref> and<ref type="figure" target="#fig_0">S10C</ref>), and (iii) augmentation of fatty acid synthesis by activated PHGDH via arginine methylation at R20 and R54 (Figs. <ref type="figure" target="#fig_3">2, 4B,</ref> and<ref type="figure" target="#fig_3">4C</ref>). Taken together, PRMT1 acts on metabolic remodeling to support the maintenance of vigorous proliferative capacity and drug resistance through the cooperative arginine methylation of the three enzymes (Fig. <ref type="figure" target="#fig_8">8</ref>). These results were further confirmed in clinical specimens. Higher expression of metabolic enzymes (PRMT1, mPFKFB3, mPKM2, and mPHGDH) and most of the corresponding metabolites were observed in chemoresistant cancer cell nests of needle biopsies (Figs. <ref type="figure" target="#fig_5">6</ref> and<ref type="figure" target="#fig_6">7</ref>). Regarding the role of SSP in chemoresistance, our group has recently revealed that the same pathway contributes to the upregulation of reactive sulfur species, including polysulfides, which play a critical role in rendering cancer cells resistant to anticancer reagents in ovarian clear cell carcinoma <ref type="bibr" target="#b15">(16)</ref> and invasive breast cancer <ref type="bibr" target="#b17">(18)</ref>. While the mechanisms remain unknown, reactive sulfur species and polysulfides are enriched in cancer-associated stromal regions of invasive breast cancer. The results shown in Fig. <ref type="figure" target="#fig_5">6B</ref> are in good agreement with those of our previous report <ref type="bibr" target="#b17">(18)</ref>. Further investigation is necessary to decipher the mechanisms underlying the regulation of metabolic systems to provide specific metabolites to specific regions of cancer tissues.</p><p>Our results also showed that PRMT1-mediated PHGDH methylation accelerates SSP, which activates fatty acid synthesis through the stabilization of FASN by S-palmitoylation in Ptx-resistant TNBC (Figs. <ref type="figure" target="#fig_4">5</ref> and<ref type="figure" target="#fig_8">8</ref>; Supplementary Fig. <ref type="figure" target="#fig_6">S17</ref>). Activation of SSP via PHGDH has attracted attention for its important role in the acquisition of malignancy, including the enhancement of folate metabolism via the serine/glycine cleavage system to activate the synthesis of nucleic acids and the production of sulfur-containing antioxidants such as glutathione and hypotaurine in progressive cancer cells <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b61">62)</ref>. It has recently been reported that SSP also contributes to the synthesis of aKG, derived from the PSAT1-coupling reaction, which acts as a cofactor for the demethylation of DNA and histones <ref type="bibr" target="#b45">(46)</ref>. aKG is used as a source of fatty acid synthesis to produce citrate and acetyl-CoA in progressive cancer cells <ref type="bibr" target="#b31">(32,</ref><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b62">63)</ref>. In the present study, we demonstrated that PHGDH-driven aKG, estimated to be about 60% derived from SSP, also serves as a source of fatty acids (Fig. <ref type="figure" target="#fig_3">4</ref>; Supplementary   <ref type="figure" target="#fig_0">S11C</ref>). Fatty acid metabolism has been demonstrated to be augmented in progressive breast cancer, and FASN inhibitors are used in preclinical anticancer trials <ref type="bibr" target="#b63">(64,</ref><ref type="bibr" target="#b64">65)</ref>. As shown in Fig. <ref type="figure" target="#fig_3">4</ref>, Ptxresistant MDA-MB-231 and MDA-MB-468 cells with higher methylation levels of PHGDH showed a greater fatty acid-synthesizing capacity. This study also revealed that the addition of orlistat to MDA-MB-468 cells unlocked the resistance to Ptx, whereas dmKG treatment of the Ptx-sensitive MDA-MB-231 parental line conferred Ptx resistance (Figs. <ref type="figure" target="#fig_3">4E</ref> and<ref type="figure">G</ref>). These results support the notion that PRMT1dependent SSP activation accelerates fatty acid synthesis and triggers chemoresistance.</p><p>We also showed that PRMT1-involving regulation of S-palmitoylation of PHGDH and FASN occurs during the acquisition of paclitaxel resistance (Fig. <ref type="figure" target="#fig_8">8</ref>). De novo synthesis of fatty acids is used as a source of cellular fuel, a building block to synthesize cell membranes, and an acyl-donor for protein S-palmitoylation <ref type="bibr" target="#b64">(65)</ref><ref type="bibr" target="#b65">(66)</ref><ref type="bibr" target="#b66">(67)</ref><ref type="bibr" target="#b67">(68)</ref>. Protein S-palmitoy-lation affects protein localization, stabilization, activity regulation, and cell migration <ref type="bibr" target="#b50">(51)</ref>. Several studies have reported that signaling molecules such as Hedgehog, Wnt, and Ras are S-palmitoylated proteins in cancer cells <ref type="bibr" target="#b68">(69)</ref>. Interestingly, EGFR resistance to tyrosine kinase inhibitors has been shown to be highly S-palmitoylation in squamous non-small cell lung cancer <ref type="bibr" target="#b69">(70)</ref>. This study showed that the activation of PHGDH by PRMT1 enhanced the S-palmitoylation of PHGDH and FASN through the activation of fatty acid synthesis in a positive feedback manner in chemoresistant cells (Fig. <ref type="figure" target="#fig_8">8</ref>). Moreover, we demonstrated that the administration of 2-Br-Pal to inhibit protein S-palmitoylation abolished chemoresistance in Ptx-R MDA-MB-231 and MDA-MB-468 cells (Figs. <ref type="figure" target="#fig_3">4E</ref> and<ref type="figure">H</ref>), implying that the intervention of PRMT1-regulated S-palmitoylation also appears to be a promising therapeutic target for chemoresistance in TNBC.</p><p>In conclusion, we have herein provided a novel mechanism by which PRMT1 is responsible for the methylation of PHGDH and Schematic diagram of metabolic rewiring mechanisms in drug-resistant breast cancer cells. Drug-sensitive cells have lower methylation levels of PFKFB3, PKM2, and PHGDH, increasing polyubiquitination of PFKFB3, PHGDH, and FASN to reduce influx from the glycolytic system into the serine synthesizing pathway (top). PRMT1 methylates PFKFB3, PKM2, and PHGDH to determine the fate of the carbon source for fatty acid synthesis to support chemoresistance in TNBC (bottom). Arginine methylation of PHGDH (R20/54) stabilizes the enzyme to enhance the serine synthetic pathway and de novo fatty acid synthesis through augmentation of aKG coupled with a PSAT1involving reaction. Enhanced fatty acid synthesis sustains enzyme activity by S-palmitoylation of PHGDH and FASN through de novo synthesis of palmitate, promoting positive feedback between the serine synthetic pathway and fatty acid synthesis to acquire malignant traits in TNBC. Blockade of this feedback system using the PRMT1 inhibitor MS023 or S-palmitoyltransferase inhibitor 2-Br-Pal unlocks chemoresistance to paclitaxel. consequently induces protein S-palmitoylation, allowing TNBC to acquire its chemoresistance. The combined inhibition of PRMT1 activity and intervention in protein S-palmitoylation unlocked chemoresistance and induced cell death more effectively in TNBC. The synthetic lethality effects of this kind of compound deserve further study to improve therapeutics for future development.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Enhanced arginine methylation of glycolytic enzymes and activation of serine synthetic pathway in the chemoresistant breast cancer cell lines. A and B, Magnitudes of cell death were assessed using the CellTOX Green Cytotoxicity Assay kit. Chemosensitivity to doxorubicin (A) and paclitaxel (B). Mean AE SE (n ¼ 4) Ã , P &lt; 0.05, versus MCF7 (yellow), an ER-positive breast cancer cell line. Comparisons among all four groups were performed using one-way ANOVA with Fisher LSD test. C, Left, Western blot analyses showing basal expression of enzymes in glycolysis, serine-synthesizing system, and trans-sulfuration pathways in human breast cancerderived cell lines. Right, each enzyme was mapped to a metabolic pathway. The dataset is representative of at least three independent experiments. D, Protocols to generate Ptx-resistant MDA-MB-231 cells, in which the cells were transplanted into nude mice. E, Western blot analyses showing expression of enzymes in glycolysis, the serine-synthesizing system, and the trans-sulfuration pathway in three different cell lines of Ptx-resistant (Ptx-R) MDA-MB-231 (#1-3). F, Effects of increasing concentration of Ptx on cell death, which was assessed using the CellTOX Green Cytotoxicity Assay kit. Ã , P &lt; 0.05, compared with parenteral cell death. Data indicate mean AE SE (n ¼ 6). Ã , P &lt; 0.05 versus parental cells. Differences were tested using two-way ANOVA with Fisher LSD test. G and H, Effects of sgPRMT1 on the cell death of parental (G) and Ptx-R (H) MDA-MB-231 cells. Ã and †, P &lt; 0.05, two-way ANOVA with Fisher least significant difference test. Data indicate mean AE SE (n ¼ 4). n.s, not significant.</figDesc><graphic coords="5,124.72,99.16,393.12,529.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Site-specific arginine methylation at R20 and R54 by PRMT1 stabilizes PHGDH to sustain enzymatic activity. A, Schematic drawing of PHGDH deletion mutant constructs and a summary of their binding capacity to PRMT1. PHGDH contains distinct five subdomains (SBD1, substrate-binding domain 1; NBD; SBD2, substratebinding domain 2; ASBD, allosteric substrate-binding domain; and ACTD, aspartate kinase, chorismate mutase, and TyrA domain). B, PRMT1-binding assay to FLAGtagged human PHGDH several deletion mutants. HA-tagged PRMT1 was transfected into HEK293T cells. The lysates were immunoprecipitated with anti-FLAG M2 agarose, and the eluates were separated by SDS-PAGE. Protein-protein interactions were visualized using an anti-HA antibody. C and D, Determination of arginine residues responsible for the methylation of human PHGDH expressed in HEK293 cells by Orbitrap mass spectrometry. Representative mass spectrum showing mass fragments of PHGDH. Differences in mass values of fragments show that R20 is asymmetrically di-methylated (ADMA; C) and R54 is monomethylated (MMA; D). The mass of each b ion (red) and y ion (blue) is shown. E, Effects of unmethylated PHGDH mutants on enzymatic activity in HEK293T cells. Data express mean AE SE (n ¼ 6). Ã , P &lt; 0.05, compared with WT. Differences were analyzed using one-way ANOVA with Fisher LSD test. F, Summary of protein arginine methylation sites in human PHGDH. In addition to dimethylation of R20 in the SBD1 domain, R54 in the SBD1 domain and R268 in the NBD are responsible for monomethylation. 3-PG, 3-phosphoglycerate; NAD, oxidized form of nicotinamide adenine dinucleotide. G and H, Differences in R54 monomethylation of PHGDH among four breast cancer cell lines (G) or in MDA-MB-231 cells (H). Arrowhead, signal from methylated PKM2. I, Alterations in PHGDH enzymatic activities in MDA-MB-468 and Ptx-R MDA-MB-231 cells. Data are expressed as mean AE SE of 4 (MDA-MB-468) or 5 (MDA-MB-231) separate sets of experiments. Ã , P &lt; 0.05 and †, P &lt; 0.05 between the groups shown in the panel. Differences were analyzed using one-way ANOVA with Fisher LSD test. n.s., not significant.</figDesc><graphic coords="6,128.07,99.16,386.28,491.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3.Flux analyses in MDA-MB-468 cells treated with13 C 6 -glucose loading. A, Metabolome analyses indicating the effects of13 C 6 -glucose loading for 30 minutes on metabolic intermediates in glycolysis and the serine/glycine cleavage system (left bar; sgControl, right bar; sgPRMT1 cells).13 C-labeled intermediate metabolites were determined using CE-MS. Data showing amounts of 13 C 6 -labeled intermediates in central carbon and sulfur-containing amino acid metabolism, are expressed as mean AE SE (mmol/g protein) of six to eight separate experiments. Fraction of labeling of the different mass isotopologs (mþn; n, number of13 C-labeled carbon atom). Ã , P &lt; 0.05; # , P &lt; 0.05 versus sgCont. (unpaired Student t test; N.D., not detected). G-6-P, glucose 6-phosphate; F-6-P, fructose 6-phosphate; F-1,6-BP, fructose 1,6bisphosphate; GA3P, glyceraldehyde 3-phosphate; 3-PG, 3-phosphoglycerate; 2-PG, 2-phosphoglycerate; PEP, phosphoenolpyruvate; 6-PG, 6-phosphogluconate; Ru-5-P, ribulose-5-phosphate; R-5-P, ribose-5-phosphate; S-7-P, sedoheptulose-7-phosphate; E-4-P, erythrose-4-phosphate; PRPP, phosphoribosyl pyrophosphate; Pyr, Pyruvate; Lac, Lactate; AcCoA, acetyl-CoA; Suc-CoA, succinyl-CoA; OAA, oxaloacetate; Glu, glutamic acid; 3-PHP, 3-phosphohydroxypyruvate; pSer, phosphoserine; Ser, serine; Gly, glycine; Met, methionine; SAM, S-adenosylmethionine; SAH, S-adenosylhomocysteine; Hcy, homocysteine; Cys, cysteine; g-Glu-Cys, gamma glutamylcysteine; GSH, reduced glutathione; GSSG, oxidized glutathione. B and C, Effects of sgPRMT1 (B) and sgPRMT4 (C) on the cell death of MDA-MB-468. Ã , P &lt; 0.05 versus sgCont. Differences were tested by two-way ANOVA using Fisher LSD test (n ¼ 4). n.s., not significant.</figDesc><graphic coords="7,122.57,95.07,396.84,523.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Increased glucose biotransformation into fatty acid synthesis to potentiate chemoresistant in paclitaxel-resistant TNBC cells. A, Schematic diagram indicating conversion of 13 C 6 -glucose towards 13 C 2 -labeled acetyl-CoA (Ac-CoA) and malonyl-CoA (Mal-CoA) for fatty acid synthesis. OAA, oxaloacetate; ACLY, ATPcitrate lyase; ACC, acetyl-CoA carboxylase; Schematic diagram indicating the points of action of reagents. dmKG is a membrane-permeable analog of aKG. Orlistat and 2-Br-Pal are FASN and palmitoyltransferase inhibitors, respectively. B and C, Differences in the capacity for fatty acid synthesis in MDA-MB-468 cells (sgCont. vs. sgPRMT1; B), and MDA-MB-231 (parent vs. Ptx-R; C), respectively. Measurements of 13 C-labeled palmitate were performed by LC/MS. Graphs are expressed as the mean AE SE (mmol/g protein). Ã , P &lt; 0.05, versus the values in sgCont.-treated MDA-MB-468 in B (n ¼ 8, unpaired Student t test), and the values in parental MDA-MB-231 (n ¼ 8, unpaired Student t test; C). Fraction of labeling of the different mass isotopologs (mþn; n, number of 13 C-labeled carbon atom). (Continued on the following page.)</figDesc><graphic coords="8,107.04,99.16,428.40,540.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Effects of PRMT1-involving protein S-palmitoylation on PHGDH stability in MDA-MB-468 and paclitaxel-resistant MDA-MB-231. A, Schematic diagram of the ABE method for detecting protein S-palmitoylation. MMTS, S-methylmethane-thiosulfonate. S-Pal, S-palmitoylation; SA, streptavidin; HAM, hydroxylamine. B and C, Results of the ABE assay in MDA-MB-468 (B) and Ptx-R MDA-MB-231(C) cells, respectively. D and E, Reversibility of S-palmitoylation of PHGDH, FASN, and PRMT1 by a doxycycline (DOX)-mediated shRNA switching on-off system for PRMT1 expression (D). Results of ABE assay. The elute blotting indicated that the addition of DOX reduced and DOX-w/d recovered the S-palmitoylation of PHGDH and FASN (E). F and G, Knockout of PRMT1, but not PRMT4, enhances polyubiquitination of FLAG-tagged human PHGDH in Ptx-R MDA-MB-231 (F) and MDA-MB-468 (G). H, Effect of the PHGDH R20K mutants on their protein stability.</figDesc><graphic coords="11,127.50,99.16,387.48,540.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Coordinated methylation of three enzymes correlates with human TNBC malignancy and progression. A, IHC of needle biopsy samples from a patient with TNBC with antibodies against PRMT1, PHGDH, mPHGDH (R54MMA), PFKFB3, mPFKFB3, (R131/134ADMA), PKM2, mPKM2 (R445/447ADMA), and FASN. A representative picture among 11 patients with TNBC is shown. a, A low-power image of the hematoxylin and eosin (H&amp;E) staining slice collected from the biopsied specimen. The open bar indicates 2.5 mm. The square indicates the cancer site. b, Magnified images with pathological annotations. Yellow and white indicate the cancer cell nests and stromal regions, respectively. c-j, IHC analyses of the corresponding enzymes. k, IHC of the negative control (without primary antibody). Serial sections of 5 mm thickness were prepared. Scale bars in b-k, 250 mm. B, Representative images of IMS to determine the regional contents of metabolites in needle biopsy derived from a patient with TNBC. Serial or semiserial frozen sections that were adjacent to the slices in A were used. To visualize the free amino acid distributions, TAHS was used as a derivatization reagent (Gly-TAHS, Met-TAHS, and Glu-TAHS on the bottom panels). Images were captured in the same microscopic field as that of the serial frozen slices shown in A. Accordingly, the white and magenta lines indicate regions enriched in cancer cell nests and stromal regions, respectively. Pseudocolor bars indicate the apparent contents of metabolites, with red and blue representing high and low amounts, respectively. Scale bars, 200 mm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Nuclear immunostaining of PRMT1 and mPFKFB3 is augmented in TNBC cancer cells derived from non-pCR patients. A and B, FFPE IHC of PRMT1, mPFKFB3, and total PFKFB3 in four different patients with TNBC showing non-pCR (A) and in five different patients with TNBC showing pCR (B), respectively. Scale bars, 100 mm. C, Differences in the number of PRMT1-and mPFKFB3-positive nuclei in TNBC cancer cells between non-pCR and pCR patients. Ã , P &lt; 0.05 versus non-pCR. The differences were examined by Welch t test. H&amp;E, hematoxylin and eosin.</figDesc><graphic coords="15,113.33,99.16,415.68,572.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig.</head><label></label><figDesc>Fig.S11C). Fatty acid metabolism has been demonstrated to be augmented in progressive breast cancer, and FASN inhibitors are used in preclinical anticancer trials<ref type="bibr" target="#b63">(64,</ref><ref type="bibr" target="#b64">65)</ref>. As shown in Fig.4, Ptxresistant MDA-MB-231 and MDA-MB-468 cells with higher methylation levels of PHGDH showed a greater fatty acid-synthesizing capacity. This study also revealed that the addition of orlistat to MDA-MB-468 cells unlocked the resistance to Ptx, whereas dmKG treatment of the Ptx-sensitive MDA-MB-231 parental line conferred Ptx resistance (Figs.4E and G). These results support the notion that PRMT1dependent SSP activation accelerates fatty acid synthesis and triggers chemoresistance.We also showed that PRMT1-involving regulation of S-palmitoylation of PHGDH and FASN occurs during the acquisition of paclitaxel resistance (Fig.8). De novo synthesis of fatty acids is used as a source of cellular fuel, a building block to synthesize cell membranes, and an acyl-donor for protein S-palmitoylation<ref type="bibr" target="#b64">(65)</ref><ref type="bibr" target="#b65">(66)</ref><ref type="bibr" target="#b66">(67)</ref><ref type="bibr" target="#b67">(68)</ref>. Protein S-palmitoy-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Schematic diagram of metabolic rewiring mechanisms in drug-resistant breast cancer cells. Drug-sensitive cells have lower methylation levels of PFKFB3, PKM2, and PHGDH, increasing polyubiquitination of PFKFB3, PHGDH, and FASN to reduce influx from the glycolytic system into the serine synthesizing pathway (top). PRMT1 methylates PFKFB3, PKM2, and PHGDH to determine the fate of the carbon source for fatty acid synthesis to support chemoresistance in TNBC (bottom). Arginine methylation of PHGDH (R20/54) stabilizes the enzyme to enhance the serine synthetic pathway and de novo fatty acid synthesis through augmentation of aKG coupled with a PSAT1involving reaction. Enhanced fatty acid synthesis sustains enzyme activity by S-palmitoylation of PHGDH and FASN through de novo synthesis of palmitate, promoting positive feedback between the serine synthetic pathway and fatty acid synthesis to acquire malignant traits in TNBC. Blockade of this feedback system using the PRMT1 inhibitor MS023 or S-palmitoyltransferase inhibitor 2-Br-Pal unlocks chemoresistance to paclitaxel.</figDesc><graphic coords="16,82.09,96.15,354.00,452.04" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Cancer Res; 84(7) April 1, 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>AACRJournals.orgCancer Res; 84(7) April 1, 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Cancer Res; 84(7) April 1, 2024CANCER RESEARCH</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank the present and past members of the <rs type="institution">Suematsu Laboratory at Keio University</rs> for their ample support in the form of fruitful discussions and useful advice. We thank <rs type="person">Dr. Sakino Toue</rs> (<rs type="affiliation">Ajinomoto Co. Inc.</rs>) for the technical support of the IMS using TAHS. We would also like to thank <rs type="person">Drs. Kenji Kawai</rs> and <rs type="person">Hitomi Sato</rs> in CIEM for the technical support of animal experiments. We appreciate <rs type="person">Drs. Naoko Irie</rs> and <rs type="person">Carlos LeSage</rs> in CIEM for providing experimental platforms. This work was supported by <rs type="grantName">Grants-in-Aid for Scientific Research</rs> from the <rs type="funder">Japan Society for the Promotion of Science 21K06072(C)</rs> and <rs type="grantNumber">15H04355</rs>(B) to <rs type="person">T. Yamamoto</rs>, <rs type="grantName">Grant-in-Aid for Challenging Research Exploratory</rs> (<rs type="grantNumber">17K19614</rs>) to <rs type="person">T. Yamamoto</rs>, <rs type="grantName">Research Grant</rs> from <rs type="funder">Takeda Science Foundation</rs> (to T. Yamamoto), and <rs type="funder">Research Foundation for Opto-Science and Technology in Hamamatsu City, Japan</rs> (to T. Yamamoto). IMS system was a product of the <rs type="funder">JST ERATO Suematsu Gas Biology Project</rs> (<rs type="grantNumber">2010-2015</rs>, grant number <rs type="grantNumber">JPMJER0906</rs>) and the <rs type="funder">AMED-CREST</rs> (<rs type="person">Y. Kabe as Lead</rs>, grant number <rs type="grantNumber">19gm0710010h006</rs>). This study was partly supported by the <rs type="funder">AMED-Moonshot</rs> under grant number <rs type="grantNumber">JP22zf0127007</rs> and <rs type="funder">Human Biology Microbiome Quantum Research Center</rs> (<rs type="grantNumber">WPI-Bio2Q</rs>) supported by <rs type="funder">MEXT</rs> (<rs type="affiliation">Professor Kenya Honda in Keio University</rs> as the Lead). The generation of antibodies was supported by <rs type="funder">JST Moonshot</rs> <rs type="grantNumber">R&amp;D JPMJPS2022</rs> (to Y. Kabe). This work was partly performed in the Cooperative Research Project Program of the <rs type="affiliation">Medical Institute of Bioregulation, Kyushu University</rs> (to T. Yamamoto and <rs type="person">K. Horisawa</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rA5VKeK">
+					<idno type="grant-number">15H04355</idno>
+					<orgName type="grant-name">Grants-in-Aid for Scientific Research</orgName>
+				</org>
+				<org type="funding" xml:id="_e5xjgfh">
+					<idno type="grant-number">17K19614</idno>
+					<orgName type="grant-name">Grant-in-Aid for Challenging Research Exploratory</orgName>
+				</org>
+				<org type="funding" xml:id="_MB59Tpn">
+					<orgName type="grant-name">Research Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_vupvWqF">
+					<idno type="grant-number">2010-2015</idno>
+				</org>
+				<org type="funding" xml:id="_hhBPXAg">
+					<idno type="grant-number">JPMJER0906</idno>
+				</org>
+				<org type="funding" xml:id="_FwAfNcP">
+					<idno type="grant-number">19gm0710010h006</idno>
+				</org>
+				<org type="funding" xml:id="_sjseFwt">
+					<idno type="grant-number">JP22zf0127007</idno>
+				</org>
+				<org type="funding" xml:id="_pE7x438">
+					<idno type="grant-number">WPI-Bio2Q</idno>
+				</org>
+				<org type="funding" xml:id="_W4KZfFT">
+					<idno type="grant-number">R&amp;D JPMJPS2022</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' Disclosures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' Contributions</head><p>T. Yamamoto: Conceptualization, resources, data curation, formal analysis, supervision, funding acquisition, validation, investigation, visualization, methodology, writing-original draft, project administration, writing-review and editing. T. Hayashida: Resources, data curation, supervision, validation, writing-review and editing. Y. Masugi: Data curation, formal analysis, supervision, validation, writingreview and editing. K. Oshikawa: Resources, formal analysis, methodology, writingreview and editing. N. Hayakawa: Data curation, formal analysis, writing-review and editing. M. Itoh: Data curation, formal analysis, writing-review and editing. C. Nishime: Data curation, formal analysis, validation, writing-review and editing. M. Suzuki: Formal analysis, supervision, writing-review and editing. A. Nagayama: Formal analysis, validation, writing-review and editing. Y. Kawai: Data curation, formal analysis, validation, investigation, writing-review and editing. T. Hishiki: Resources, data curation, supervision, investigation, methodology, writing-review and editing. T. Matsuura: Data curation, formal analysis, writing-review and editing. Y. Naito: Data curation, formal analysis, writing-review and editing. A. Kubo: Data curation, formal analysis, supervision. A. Yamamoto: Data curation, formal analysis, investigation, writing-review and editing. Y. Yoshioka: Data curation, formal analysis, investigation, writing-review and editing. T. Kurahori: Data curation, formal analysis, investigation, writing-review and editing. M. Nagasaka: Data curation, formal analysis, investigation, writing-review and editing. M. Takizawa: Data curation, formal analysis, validation, writing-review and editing. N. Takano: Resources, data curation, formal analysis, investigation, methodology, writing-review and editing. K. Kawakami: Data curation, formal analysis, investigation, writingreview and editing. M. Sakamoto: Resources, supervision, investigation, writingreview and editing. M. Wakui: Resources, writing-review and editing. T. Yamamoto: Data curation, supervision, visualization, writing-review and editing. Y. Kitagawa: Resources, writing-review and editing. Y. Kabe: Formal analysis, funding acquisition, writing-original draft. K. Horisawa: Data curation, formal analysis, validation, investigation, writing-original draft, writing-review and editing. A. Suzuki: Formal analysis, supervision, writing-review and editing. M. Matsumoto: Resources, data curation, supervision, writing-original draft, writing-review and editing. M. Suematsu: Resources, supervision, funding acquisition, validation, methodology, writing-original draft, project administration, writing-review and editing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Note</head><p>Supplementary data for this article are available at Cancer Research Online (http://cancerres.aacrjournals.org/).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Trends in cancer incidence in US adolescents and young adults</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Stoltzfus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Tchelebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Trifiletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lehrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Netw Open</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1973" to="2015" />
+			<date type="published" when="2020">2020. 2027738</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Neoadjuvant endocrine therapy for estrogen receptor-positive breast cancer: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Spring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gadd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Ellisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Isakoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Oncol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1477" to="1486" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">BOP1 confers chemoresistance of triple-negative breast cancer by promoting CBP-mediated b-catenin acetylation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="page" from="265" to="278" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Inhibition of interferon-signalling halts cancer-associated fibroblast-dependent protection of breast cancer cells from chemotherapy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Broad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Teske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Wastall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hanby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Thorne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Cancer</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="1110" to="1120" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Targeting lysyl oxidase (LOX) overcomes chemotherapy resistance in triple negative breast cancer</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Saatci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaymak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Raza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ersan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Akbulut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Banister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2416</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Updates on breast biomarkers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Najjar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Allison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virchows Arch</title>
+		<imprint>
+			<biblScope unit="volume">480</biblScope>
+			<biblScope unit="page" from="163" to="176" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The hallmarks of cancer metabolism: still emerging</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Pavlova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="355" to="377" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reduced methylation of PFKFB3 in cancer cells shunts glucose towards the pentose phosphate pathway</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Takano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ishiwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohmura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nagahata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">3480</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Arginine methylation of MDH1 by CARM1 inhibits glutamine metabolism and suppresses pancreatic cancer</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="673" to="687" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">PKM2 methylation by CARM1 activates aerobic glycolysis to promote tumorigenesis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1358" to="1370" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">PRMT1 negatively regulates activationinduced cell death in macrophages by arginine methylation of GAPDH</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">E</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">368</biblScope>
+			<biblScope unit="page" from="50" to="58" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">CARM1 methylates chromatin remodeling factor BAF155 to enhance tumor progression and metastasis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Cell</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="179" to="180" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Methylation of C/EBPa by PRMT1 inhibits its tumor-suppressive function in breast cancer</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="2865" to="2877" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">PRMT1 is the predominant type I protein arginine methyltransferase in mammalian cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frankel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Paik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="7723" to="7730" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Gold-nanof eve surface-enhanced Raman spectroscopy visualizes hypotaurine as a robust anti-oxidant consumed in cancer survival</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shiota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Naya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hishiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1561</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">On-tissue polysulfide visualization by surface-enhanced Raman spectroscopy benefits patients with ovarian cancer to predict post-operative chemosensitivity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hishiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Miura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kubo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">101926</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A PHGDH inhibitor reveals coordination of serine synthesis and one-carbon unit fate</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Pacold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Brimacombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rohde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Swier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="452" to="458" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Polysulfide serves as a hallmark of desmoplastic reaction to differentially diagnose ductal carcinoma in situ and invasive breast cancer by SERS imaging</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Masugi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nagashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takizawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antioxidants (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">240</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Impacts of CD44 knockdown in cancer cells on tumor and host metabolic systems revealed by quantitative imaging mass spectrometry</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohmura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hishiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsuchihashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nitric Oxide</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="102" to="113" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microscopic imaging mass spectrometry assisted by on-tissue chemical derivatization for visualizing multiple amino acids in human colon cancer xenografts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Toue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sugiura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohmura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mizukoshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="810" to="819" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Palmitoylated proteins: purification and identification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1573" to="1584" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cortazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Untch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Costantino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wolmark</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">384</biblScope>
+			<biblScope unit="page" from="164" to="172" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Postoperative mortality and recurrence patterns in pancreatic cancer according to KRAS mutation and CDKN2A, p53, and SMAD4 expression</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Masugi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takamatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hamada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pathol Clin Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="339" to="353" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">HISAT: a fast spliced aligner with low memory requirements</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="357" to="360" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Trimmomatic: a flexible trimmer for Illumina sequence data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bolger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Usadel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2114" to="2120" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">featureCounts: an efficient general purpose program for assigning sequence reads to genomic features</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="923" to="930" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The Subread aligner: fast, accurate andscalable read mapping by seed-and-vote</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">108</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">DAVID: a web server for functional enrichment analysis and functional annotation of gene lists (2021 update)</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Baseler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Lane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="216" to="221" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lempicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Protoc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="44" to="57" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">ggVolcanoR: a shiny app for customizable visualization of differential expression datasets</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Mullan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Bramberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Munday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goncalves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Revote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Mifsud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Struct Biotechnol J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="5735" to="5740" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Significantly longer progression-free survival with nab-paclitaxel compared with docetaxel as first-line therapy for metastatic breast cancer</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Gradishar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krasnojon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cheporov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Makhson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Manikhas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clawson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Oncol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3611" to="3619" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Functional genomics reveal that the serine synthesis pathway is essential in breast cancer</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Possemato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Marks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Shaul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Pacold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Birsoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">476</biblScope>
+			<biblScope unit="page" from="346" to="350" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The genomic and transcriptomic architecture of 2,000 breast tumours reveals novel subgroups</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Turashvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Rueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dunning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">486</biblScope>
+			<biblScope unit="page" from="346" to="352" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The somatic mutation profiles of 2,433 breast cancers refines their genomic and transcriptomic landscapes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Rueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Vollan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Provenzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Bardwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11479</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Cancer Genome Atlas Network. Comprehensive molecular portraits of human breast tumours</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page" from="61" to="70" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Taxane resistance in breast cancer: mechanisms, predictive biomarkers and circumvention strategies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Briasoulis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Linardou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bafaloukos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Papadimitriou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Treat Rev</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="890" to="903" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Protein arginine methyltransferases and cancer</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Bedford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Cancer</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="37" to="50" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Acetylation stabilizes phosphoglycerate dehydrogenase by disrupting the interaction of E3 Ligase RNF5 to promote breast tumorigenesis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wan</forename><forename type="middle">X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">108021</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Parkin ubiquitinates phosphoglycerate dehydrogenase to suppress serine synthesis and tumor progression</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="3253" to="3269" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The alternative activity of nuclear PHGDH contributes to tumour growth under nutrient stress</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Metab</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1357" to="1371" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Structure, activity, and function of PRMT1</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thiebaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Eve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Poulard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Romancer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1147</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Neulaxova syndrome, an inborn error of serine metabolism, is caused by mutations in PHGDH</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shaheen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Rahbeeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alhashem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Faqeih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Hum Genet</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="898" to="904" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Control of nutrient stress-induced metabolic reprogramming by PKCz in tumorigenesis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Llado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galvez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Barger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="599" to="611" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Phosphoglycerate mutase 1 coordinates glycolysis and biosynthesis to promote tumor growth</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hitosugi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Elf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Cell</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="585" to="600" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Histone tyrosine sulfation by SULT1B1 regulates H4R3me2a and gene transcription</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="855" to="864" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Psat1-dependent fluctuations in a-ketoglutarate affect the timing of ESC differentiation</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Y</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="494" to="501" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Glutamine-utilizing transaminases are a metabolic vulnerability of TAZ/ YAP-activated cancer cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stampouloglou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Kingston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Monti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Varelas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">43577</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Reductive glutamine metabolism by IDH1 mediates lipogenesis under hypoxia</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Metallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gameiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mattaini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hiller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">481</biblScope>
+			<biblScope unit="page" from="380" to="384" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthesis is indispensable for survival of human pluripotent stem cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tanosaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tohyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Someya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hishiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">101535</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Triggering and amplification of insulin secretion by dimethyl alpha-ketoglutarate, a membrane permeable alphaketoglutarate analogue</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Willenborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Panten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rustenbeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">607</biblScope>
+			<biblScope unit="page" from="41" to="46" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Palmitoylation: policing protein stability and traffic</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Mobile DHHC palmitoylating enzyme mediates activity-sensitive synaptic targeting of PSD-95</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Noritake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hosomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Matsuda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="147" to="160" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A potent, selective, and cell-active inhibitor of human type I protein arginine methyltransferases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Eram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Senisterra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="772" to="781" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Destabilization of fatty acid synthase by acetylation inhibits de novo lipogenesis and tumor cell growth</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="6924" to="6936" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Proteome-wide analysis of USP14 substrates revealed its role in hepatosteatosis via stabilization of FASN</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">4770</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Biophysical and biochemical properties of PHGDH revealed by studies on PHGDH inhibitors</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">PHGDH arginine methylation by PRMT1 promotes serine synthesis and represents a therapeutic vulnerability in hepatocellular carcinoma</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1011</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">PRMT1 promotes the tumor suppressor function of p14ARF and is indicative for pancreatic cancer prognosis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Repenning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Happel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bouchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meixner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Verel-Yilmaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Raifer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">e106777</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Protein arginine methylation: from enigmatic functions to therapeutic targeting</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schapira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Arrowsmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Barsyte-Lovejoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="509" to="530" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">A genome-scale CRISPR screen reveals PRMT1 as a critical regulator of androgen receptor signaling in prostate cancer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sethunath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Metaferia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Nogueira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gallant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Garner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">110417</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Serine metabolism supports the methionine cycle and DNA/RNA methylation through de novo ATP synthesis in cancer cells</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">D</forename><surname>Maddocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Labuschagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Vousden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="210" to="221" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">The importance of serine metabolism in cancer</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mattaini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Brignole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Fiske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Drennan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="249" to="257" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Phosphoglycerate dehydrogenase diverts glycolytic flux and contributes to oncogenesis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Locasale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Grassian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Melman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lyssiotis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mattaini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Genet</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="869" to="874" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The metabolism of cancer cells during metastasis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bergers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Fendt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Cancer</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="162" to="180" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Lipid metabolism in cancer: new perspectives and emerging mechanisms</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Broadfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Pane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Talebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Swinnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Fendt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1363" to="1393" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Acylation of CD44 and its association with lipid rafts are required for receptor and hyaluronan endocytosis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Thankamony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Knudson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="34601" to="34609" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Inhibition of fatty acid synthase attenuates CD44-associated signaling and reduces metastasis in colorectal cancer</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zaytseva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Rychahou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gulhati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Mustain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1504" to="1517" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Serine restriction alters sphingolipid diversity to constrain tumour growth</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Muthusamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cordes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Handzlik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gengatharan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page" from="790" to="795" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation and cancer</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">46666</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthase mediates EGFR palmitoylation in EGFR mutated non-small cell lung cancer</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Levantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Teo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Clohessy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">8313</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

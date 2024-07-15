@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The oxidized phospholipid PGPC impairs endothelial function by promoting endothelial cell ferroptosis via FABP3</title>
+				<funder ref="#_xw85aU8">
+					<orgName type="full">Sun Yat-sen University Clinical Research 5010 Program</orgName>
+				</funder>
+				<funder ref="#_QR3Uvts">
+					<orgName type="full">Non-profit Central Research Institute Fund of Chinese Academy of Medical Sciences</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Program of National Key Clinical Specialties</orgName>
+				</funder>
+				<funder ref="#_67aVhfq #_P4SXNVb #_2tvmQBc #_QqEzejD">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_v2Z32Ey">
+					<orgName type="full">Science and Technology Planning Project of Guangzhou, China</orgName>
+				</funder>
+				<funder ref="#_WKfDbsm">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_4fzdzMk">
+					<orgName type="full">Guangdong Basic and Applied Basic Research Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Si</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jian-Jun</forename><surname>Gao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu-Jia</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhi-Wei</forename><surname>Mo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fang-Yuan</forename><surname>Wu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Hypertension and Vascular Diseases</orgName>
+								<orgName type="department" key="dep2">Department of Cardiology</orgName>
+								<orgName type="institution">Cardiovascular Diseases Institute</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zuo-Jun</forename><surname>Hu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Division of Vascular Surgery</orgName>
+								<orgName type="institution" key="instit1">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yue-Ming</forename><surname>Peng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiao-Qin</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Hypertension and Vascular Diseases</orgName>
+								<orgName type="department" key="dep2">Department of Cardiology</orgName>
+								<orgName type="institution">Cardiovascular Diseases Institute</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhen-Sheng</forename><surname>Ma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ze-Long</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jian-Yun</forename><surname>Yan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Cardiology</orgName>
+								<orgName type="department" key="dep2">Laboratory of Heart Center</orgName>
+								<orgName type="institution">Zhujiang Hospital</orgName>
+								<address>
+									<settlement>Heart Center</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">Southern Medical University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="laboratory">Guangdong Provincial Key Laboratory of Cardiac Function and Microcirculation</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Guangdong Provincial Biomedical Engineering Technology Research Center for Cardiovascular Disease</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhi-Jun</forename><surname>Ou</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Hypertension and Vascular Diseases</orgName>
+								<orgName type="department" key="dep2">Department of Cardiology</orgName>
+								<orgName type="institution">Cardiovascular Diseases Institute</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yan</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jing-Song</forename><surname>Ou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Cardiac Surgery</orgName>
+								<orgName type="institution" key="instit1">Cardiovascular Diseases Institute</orgName>
+								<orgName type="institution" key="instit2">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit3">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Guangdong Provincial Engineering and Technology Center for Diagnosis and Treatment of Vascular Diseases</orgName>
+								<orgName type="laboratory" key="lab1">National-Guangdong Joint Engineering Laboratory for Diagnosis and Treatment of Vascular Diseases, NHC Key Laboratory of Assisted Circulation and Vascular Diseases (Sun Yat-sen University)</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Assisted Circulation and Vascular Diseases</orgName>
+								<orgName type="institution">Chinese Academy of Medical Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Guangdong Provincial Key Laboratory of Brain Function and Disease</orgName>
+								<orgName type="institution" key="instit1">Zhongshan School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The oxidized phospholipid PGPC impairs endothelial function by promoting endothelial cell ferroptosis via FABP3</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FAAAA17898F4B4F9460E5AAF5534FBC5</idno>
+					<idno type="DOI">10.1016/j.jlr.2024.100499</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Ferroptosis is a novel cell death mechanism that is mediated by iron-dependent lipid peroxidation. It may be involved in atherosclerosis development. Products of phospholipid oxidation play a key role in atherosclerosis. 1-palmitoyl-2glutaroyl-sn-glycero-3-phosphocholine (PGPC) is a phospholipid oxidation product present in atherosclerotic lesions. It remains unclear whether PGPC causes atherosclerosis by inducing endothelial cell ferroptosis. In this study, human umbilical vein endothelial cells (HUVECs) were treated with PGPC. Intracellular levels of ferrous iron, lipid peroxidation, superoxide anions (O 2</p><p>•¡ ), and glutathione were detected, and expression of fatty acid binding protein-3 (FABP3), glutathione peroxidase 4 (GPX4), and CD36 were measured. Additionally, the mitochondrial membrane potential (MMP) was determined. Aortas from C57BL6 mice were isolated for vasodilation testing. Results showed that PGPC increased ferrous iron levels, the production of lipid peroxidation and O 2</p><p>•¡ , and FABP3 expression. However, PGPC inhibited the expression of GPX4 and glutathione production and destroyed normal MMP. These effects were also blocked by ferrostatin-1, an inhibitor of ferroptosis. FABP3 silencing significantly reversed the effect of PGPC. Furthermore, PGPC stimulated CD36 expression. Conversely, CD36 silencing reversed the effects of PGPC, including PGPC-induced FABP3 expression. Importantly, E06, a direct inhibitor of the oxidized 1palmitoyl-2-arachidonoyl-phosphatidylcholine IgM</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>natural antibody, inhibited the effects of PGPC. Finally, PGPC impaired endothelium-dependent vasodilation, ferrostatin-1 or FABP3 inhibitors inhibited this impairment. Our data demonstrate that PGPC impairs endothelial function by inducing endothelial cell ferroptosis through the CD36 receptor to increase FABP3 expression.</p><p>Our findings provide new insights into the mechanisms of atherosclerosis and a therapeutic target for atherosclerosis.</p><p>Supplementary key words Oxidized lipids • PGPC • Fatty acid binding protein-3 • CD36 • Endothelial function • Atherosclerosis Endothelial dysfunction is the early stage of atherosclerosis. A variety of oxidized phospholipids have been found in atherosclerotic plaque <ref type="bibr" target="#b0">(1)</ref>. A recent study demonstrated that a reduction in oxidized phospholipids inhibits atherosclerosis <ref type="bibr" target="#b1">(2)</ref>. We have previously reported that a component of oxidized phospholipid 1-palmitoyl-2-(5-oxovaleroyl)-sn-glycero-3-phosphocholine (POVPC) and 25-hydroxycholesterol found in atherosclerotic plaque can impair endothelial function, which may contribute to the development of atherosclerosis <ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>. 1-palmitoyl-2glutaroyl-sn-glycero-3-phosphocholine (PGPC) is another major component of oxidized phospholipids found in atherosclerotic plaque <ref type="bibr" target="#b5">(6)</ref>. However, it remains unclear whether PGPC impairs endothelial function and contributes to the development of atherosclerosis.</p><p>Ferroptosis is a novel cell death mechanism mainly mediated by iron-dependent lipid peroxidation <ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref>. Previous studies have found that the inactivation of glutathione peroxidase 4 (GPX4), an antioxidant enzyme that neutralizes lipid peroxides, can cause the accumulation of lipid reactive oxygen species (ROS) and eventually occurrence of ferroptosis <ref type="bibr" target="#b9">(10)</ref>. It has been shown that ferroptosis involved in the development of various cardiovascular diseases including cardiomyopathy, myocardial infarction, heart failure, myocardial ischemia-reperfusion injury, and vascular calcification <ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref>. Importantly, ferroptosis is involved in the development of atherosclerosis <ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref>. A previous study showed that induction of endothelial cell (EC) ferroptosis promotes atherosclerosis in Apolipoprotein E -/-(ApoE -/-) mice <ref type="bibr" target="#b22">(23)</ref>. They found that oxidized lowdensity lipoprotein (oxLDL) can cause ferroptosis to damage ECs, suggesting that EC ferroptosis may contribute to atherosclerosis <ref type="bibr" target="#b22">(23)</ref>. Indeed, inhibition of ferroptosis alleviates atherosclerosis by reducing lipid peroxidation and endothelial dysfunction <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>. A previous study also showed that overexpressed GPX4 can improve endothelial function and inhibited atherosclerosis <ref type="bibr" target="#b24">(25)</ref>. More importantly, recent studies have shown that oxidized phospholipids can induce ferroptosis <ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref>. It is possible that vascular ECs may uptake the oxidized phospholipids to induce ferroptosis contributing to endothelial dysfunction, which may be involved in the development of atherosclerosis. However, how ECs uptake oxidized phospholipids to induce endothelial dysfunction by promoting ferroptosis remains unclear. Whether PGPC (one of the major components of oxidized phospholipids) induces endothelial cell ferroptosis is unknown.</p><p>In the present study, we found that PGPC could impair endothelial function by inducing EC ferroptosis through the receptor of CD36 to increase fatty acid binding protein-3 (FABP3). E06, a natural antibody against oxidized palmitoylarachidonyl phosphatidylcholine IgM <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b28">29)</ref>, inhibits PGPC-induced EC ferroptosis. Our findings highlight the importance of some oxidized phospholipids in the promotion of atherosclerosis by inducing EC ferroptosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture</head><p>Human umbilical vein endothelial cells (HUVECs) were purchased from ScienCell. HUVECs between passages 4 and 6 were used in all experiments. The HUVECs were plated in 6well or 24-well or 96-well plates, and grown in endothelial cell medium (ECM, catalog no.: 1,001; ScienCell) containing 5% fetal bovine serum (FBS), 1% endothelial cell growth factor supplement, and 1% antibiotic and maintained at 37 • C in a humidified atmosphere of 95% air and 5% CO 2 until confluent. The cells were maintained in 0.5% FBS overnight before treatment <ref type="bibr" target="#b29">(30)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell viability assay</head><p>The Cell Counting Kit-(CCK-8) assay was used to determine whether PGPC causes cytotoxicity in HUVECs. Briefly, HUVECs (2 × 10 4 cells/well) were plated in 96-well plates, and PGPC (catalog no.: 870602P; Avanti Polar Lipids, Inc) was then added to each well and incubated at 37 • C. The cell viability was detected after incubation with 12.5, 25, or 50 μM PGPC for 12, 24, and 48 h, respectively, to observe the dose-and timedependent effects. CCK-8 solution (10 μl, CellorLab, guangzhou, China) was then added to each well and incubated for 4 h at 37 • C. The absorbance was measured at 450 nm using a microplate reader (Thermo). The percentage of living cells in the treated cultures was calculated relative to that in the untreated cultures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantitative real-time RT-PCR</head><p>The expression of various genes was analyzed using quantitative RT-PCR (qRT-PCR). Total RNA was extracted using TRIzol reagent (Sigma-Aldrich), according to the manufacturer's instructions. cDNA was synthesized using the Transcriptor First Strand cDNA Synthesis Kit (Roche). RT-PCR was carried out using a Light-Cycler®480 SYBR Green I Master (Roche). Primer sequences used were as follows: FABP3, forward: 5′-TATGGTGGACGCTTTCCTGG-3 and reverse: 5′-AA CCCACACCGAGTGACTTC-3′; FABP4, forward: 5′-TAGATG GGGGTGTCCTGGTA-3′ and reverse: 5′-TCGTGGAAGTG ACGCCTTTC-3′; FABP5, forward: 5′-GGAGCTAGGAGTGGG AATAGC-3′ and reverse: 5′-CTGATGCTGAACCAATGCA CC-3′; ACSL3, forward: 5′-ACGTTCGTCCCCTCGCAT-3′ and reverse: 5′-GTTGGACGGGGTCGCATAC-3; ACSL4, forward: 5′-ACACTCTCTGACCAGTCCAGC-3′ and reverse: 5′-GCAGC CATAAGTGTGGGCTT-3; CD36, forward: 5′-GCAACAAAC CACACACTGGG-3 and reverse: 5′-AGTCCTACACTGCA GTCCTCA-3; GAPDH, forward: 5′-AATGGGCAGCCGTTAG-GAAA-3′ and reverse: 5′-GCGCCCAATACGACCAAATC-3′. All samples were analyzed using a real-time Bio-Rad analyzer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA interference (RNAi)</head><p>The gene expression was knocked down by RNA silencing using Lipofectamine® RNAiMAX and the corresponding manufacturer's protocol. siRNA (10 nmol each) was transfected into cells using Lipofectamine® RNAiMAX transfection reagent (catalog no.:13778150; Invitrogen) following the manufacturer's guidelines. The siRNA was synthesized by Guangzhou RiboBio Co., Ltd.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement of superoxide anion (O 2</head><p>•¡ ) generation</p><p>The HUVECs were cultured to 90% confluence then serum starved with 0.5% FBS. Based on the cell viability data showing that 25 μM of PGPC and treatment for 24 h obtained significant effect, the HUVECs were pretreated with PGPC (25 μM), tumor necrosis factor alpha (TNF-α;10 μM; catalog no.: H8916; Sigma-Aldrich, as a positive control), and N-acetylcysteine (NAC; 1 mM; catalog no.: A7250; Sigma-Aldrich) for 24 h. Then, the cells were washed twice with Hank's balanced salt solution (HBSS) and incubated with dihydroethidium (DHE; 10 μM; catalog no.: D7008; Sigma-Aldrich) containing L-arginine (25 μM) and A23187 (5 μM) for 30 min at 37 • C. Fluorescence images were obtained using a fluorescence microscope (DMi8; Leica, Wetzlar, Germany), and relative changes were analyzed using ImageJ software as previously described <ref type="bibr" target="#b30">(31,</ref><ref type="bibr" target="#b31">32)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence staining and immunohistochemistry</head><p>HUVECs were cultured to 90% confluence, serum-starved with 0.5% FBS, and treated with PGPC (25 μM) for 24 h. They were fixed in 4% paraformaldehyde at about 25 • C for 30 min and then washed with phosphate buffer saline (PBS). Nonspecific immunoreactions were blocked using 5% bovine serum albumin (BSA) + 0.1% Triton X + 0.1% Tween 20 in PBS for 1 h at about 25 • C. Cells were then washed in PBS and incubated with a primary antibody against FABP3 (1:200 dilution; catalog no.:10676-1-AP; Proteintech) overnight at 4 • C. Following washing, the cells were incubated in goat anti-rabbit IgG secondary antibody conjugated to Alexa Fluor 488 (1:1,000 dilution; catalog no.:4412S; Cell Signaling Technology) overnight at 4 • C. F-actin was stained with phalloidin (1:1,000 dilution; 8953S; Cell Signaling Technology). Cells were then washed with PBS and counterstained with Hoechst 33342 (1 μg/ml; catalog no.:4082S; Cell Signaling Technology) for 5 min. Images were obtained using a laser-scanning confocal microscope (LSM780; Carl Zeiss, Jena, Germany), and the relative changes were analyzed using ImageJ software. The atherosclerotic lesion tissues were collected at the First Affiliated Hospital, Sun Yat-sen University. Atherosclerotic lesion tissues were formalin-fixed and paraffinembedded. This study was approved by the Ethics Review Board of the First Affiliated Hospital, Sun Yat-sen University, and abided by the Declaration of Helsinki principles. Written informed consent forms were obtained from all patients. Slides were dewaxed in xylene, boiled for 20 min in citrate buffer (10 mM, pH 6.0) for antigen retrieval, and then rehydrated for use with paraffin sections. Tissue slices were washed 3 times with PBS and blocked using a blocking solution (5% bovine serum albumin (BSA) + 0.1% Triton X + 0.1% Tween 20 in PBS). Sections were incubated with primary antibodies CD31 (1:1,000 dilution; catalog no.: 3528S; Cell Signaling Technology); CD31 (1:100 dilution; catalog no.: ab28364; Abcam) and GPX4 (1:500; catalog no.: ab125066; Abcam) overnight at 4 • C. Sections were washed three times with PBS and incubated with appropriate Alexa Fluor 488 (1:1,000 dilution; catalog no.: 4412S; Cell Signaling Technology), Alexa Fluor 555 (1:1,000 dilution; catalog no.: 4413S; Cell Signaling Technology) conjugated secondary antibodies and horseradish peroxidase-coupled secondary antibody diluted 1:1,000 in blocking solution for 1 h at room temperature; washed again three times, and mounted on slides with Mounting medium with DAPI (catalog no.: ab104139; Abcam) or hematoxylin (catalog no.: G1080; Solarbio). Images were obtained using a laserscanning confocal microscope (LSM780; Carl Zeiss, Jena, Germany) and a positive fluorescence microscope (BX63; Olympus, Japan) as previously described <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b32">33)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement of mitochondrial reactive oxygen species (MtROS)</head><p>The intensity of MtROS was detected using confocal microscopy. MtSOX Deep Red (10 μM; catalog no.: MT14; DOJINDO) was used to incubate HUVECs to conduct fluorescence microscopy assay. The cells were then washed with PBS and counterstained with Hoechst 33342 (1 μg/ml; catalog no.:4082S; Cell Signaling Technology) for 5 min. Images were observed using a laser-scanning confocal microscope (LSM780; Carl Zeiss), and the relative changes were analyzed using ImageJ software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Western blot analysis</head><p>HUVECs were cultured in ECM supplemented with 5% FBS, 1% growth factor, and 1% penicillin/streptomycin. The cells were treated with PGPC (25 μM) ± ferrostatin-1 (Fer-1;1 μM; catalog no.: SML0583; Sigma-Aldrich) or E06 mAb (E06; 10 μg/ml, catalog no.:330001S, Avanti Polar Lipids, Inc) or erastin (5 μM; catalog no.: B1524; APExBIO) for 24 h. The cells were then washed three times with PBS and lysed in RIPA lysis buffer (catalog no.: 9806S; Cell Signaling Technology). Proteins were separated using SDS-PAGE and transferred to PVDF membranes. The membranes were blocked with 5% BSA in TBS with 0.1% Tween®20 detergent for 2 h at about 25 • C. The primary antibodies against FABP3 (1:1,000; catalog no.: 0676-1-AP; Proteintech), FABP4 (1:1,000; catalog no.: ab92501; Abcam), FABP5 (1:1,000; catalog no.: 39926T; Cell Signaling Technology), ACSL4 (1:1,000; catalog no.: sc-271800; Santa Cruz), GPX4 (1:1,000; catalog no.: ab125066; Abcam), CD36 (1:1,000; catalog no.: ab133625; Abcam), and GAPDH (1:1,000; catalog no.: 97166S; Cell Signaling Technology) were used for detecting the proteins by overnight incubation at 4 • C. The membranes were washed three times with Tris Buffered saline (TBS) with 0.1% Tween®20 detergent and incubated with a horseradish peroxidase-coupled secondary antibody (HRP Goat anti-Mouse/Rabbit IgG; 1:10,000; catalog no.: SA00001-1/SA00001-2; Proteintech) for 1 h at about 25 • C. Protein bands were detected using a chemiluminescence detection kit (Millipore, Billerica, MA, USA). The blots were quantified using the ImageJ software as previously described <ref type="bibr" target="#b31">(32,</ref><ref type="bibr" target="#b33">34)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement of glutathione</head><p>Briefly, after HUVECs were pretreated with PGPC, the cells were washed once with PBS and centrifuged for fine collection. After the supernatant was abandoned, the protein removal reagent S solution was added to the cell precipitation, and the samples were freeze-thawed twice with liquid nitrogen and a 37 • C water bath. Cells were centrifuged at 10,000 g for 5 min after 5 min of standing at 4 • C or ice bath. The supernatant was used to determine the total glutathione content. Total glutathione in the cell lysates was measured using a glutathione detection kit (catalog no.: S0052, Beyotime), according to the manufacturer's instructions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement of mitochondrial membrane potential (MMP)</head><p>MMP was measured using the JC-1 MitoMP Detection Kit. The cells were treated with PGPC (25 μM) and stained with JC-1 (2 μM; catalog no.: MT09; Dojindo; Japan) for 30 min at 37 • C protected from light, washed twice with PBS, and counterstained with Hoechst 33342 (1 μg/ml; catalog no.:4082S; Cell Signaling Technology) for 5 min. Images were obtained using a laser-scanning confocal microscope (LSM780; Carl Zeiss, Jena, Germany), and the red/green fluorescence intensity ratio was analyzed using ImageJ analysis software. In the healthy mitochondria, JC-1 aggregates to form a polymer in the mitochondrial matrix, which emits intense red fluorescence. In unhealthy mitochondria, JC-1 monomers are presented in the cytoplasm due to the decline/loss of mitochondrial membrane potential, which generates green fluorescence. Therefore, changes in the ratio of red fluorescence/green fluorescence reflected the change in mitochondrial membrane potential.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fluorescence-activated cell sorting (FACS) assays</head><p>The HUVECs were cultured to 90% confluence. They were then serum starved with 0.5% FBS and pretreated with PGPC (25 μM) ± Fer-1 (1 μM) and erastin (5 μМ, as a positive control) for 24 h. Then, the cells were washed twice with HBSS and incubated with BODIPY™ 581/591 C11 (C11-BODIPY, Lipid Peroxidation Sensor; 5 μM; catalog no.: D3861; Invitrogen) for 30 min at 37 • C. The stained cells were then washed twice with HBSS. FACS was performed as previously described <ref type="bibr" target="#b34">(35)</ref>. C11-BODIPY was applied to detect lipid peroxides. All FACS experiments were performed on BD flow cytometry (BD Biosciences) and results were analyzed using the FlowJo software 10.6.2 (Treestar).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transmission electron microscopy (TEM) assays</head><p>For TEM assays, after fixation with 2.5% glutaraldehyde fixative at room temperature, HUVECs were scraped down and deposited into a centrifuge tube. The cells were centrifuged at 1,000 RPM for 5 min and fixed in the dark for 30 min. Subsequently, the cells were dehydrated at room temperature in a graded series of ethanol and acetone solutions. Ultrathin sections were obtained using an ultramicrotome (Leica Microsystems) and stained with a 2% uranium acetate-saturated alcohol solution. The cuprum grids were observed under an HT7800/HT7700 transmission electron microscope (Hitachi), and images were captured.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ferrous iron content assay</head><p>FerroOrange (1 μM; catalog no.: F374; DOJINDO) was used to measure intracellular ferrous iron (Fe 2+ ) according to the manufacturer's protocol. HUVECs were treated with PGPC (25 μM) ± Fer-1 (1 μM) or erastin (5 μM) for the indicated amount of time and stained with a final concentration of 1 μM FerroOrange or for 30 min at 37 • C. The cells were then washed with PBS and counterstained with Hoechst 33342 (1 μg/ml; catalog no.:4082S; Cell Signaling Technology) for 5 min. Images were obtained using a laser scanning confocal microscope (LSM780; Carl Zeiss). Relative changes were analyzed using the ImageJ software. The mean fluorescence intensity of each group was normalized to that of the control group.</p><p>The aorta tissues isolated from humans were homogenized in Saline and PBS and followed by centrifugation. The blood samples were collected and stood for 1 h and centrifuged, then the serum was collected for testing. The levels of iron in the blank (ddH 2 O), ferrous iron standard solution, and test tissue samples were examined by using a Ferrous Iron Colorimetric Assay Kit (catalog no.: E-BC-K773-M, Elabscience, China) according to the manufacturer's instructions. The reaction mix was incubated at room temperature for 15 min. The absorbance at 562 nm was measured by using a microplate reader (BioTek SynergyH1, BioTek). This study was approved by the Ethics Review Board of the First Affiliated Hospital, Sun Yat-sen University, and abided by the Declaration of Helsinki principles. Written informed consent forms were obtained from all patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vasodilation study</head><p>The experimental protocol was approved by the Animal Ethics Commission of the First Affiliated Hospital, Sun Yatsen University. All animals were purchased from the Experimental Animal Center of Sun Yat-sen University. A vasodilation assay was performed as described in our previous studies <ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref><ref type="bibr" target="#b37">(38)</ref>. Briefly, the aortas were isolated from C57BL6 mice or ApoE -/-mouse after anesthesia with pentobarbital. For atherosclerosis modeling, ApoE -/-mice were fed a Western diet (Junke Biological Co, LTD) for a total of 4 weeks. The ApoE -/-+ Fer-1 group mice were intraperitoneally injected with 1 mg/kg of Fer-1 every day for 4 weeks <ref type="bibr" target="#b22">(23)</ref>. The mice in ApoE -/-group were received 100 μl of PBS by intragastric gavage. After 4-weeks treatment, the mice were sacrificed, and the aortas were isolated for further data analysis. Four 3 mm wide aortic rings were obtained and transferred to Krebs-solution (pH 7.4,119 mM NaCl; 25 mM NaHCO 3 ; 1.6 mM CaCl 2 ; 4.7 mM KCl; 1.2 mM KH 2 PO 4 ; 1.2 mM MgSO 4 ⋅7H 2 O; and 11.1 mM D-glucose). The aortic rings were equilibrated for 1 h, and the solution was changed every 15 min. Aortic rings were pretreated with PGPC (80 μM) or without Fer-1 (10 μM) and HTS01037 (pan-specific FABP inhibitor, 200 μM, catalog no.: HY-101503, MCE) or erastin (50 μM) for 30 min. Subsequently, the aortic rings were pre-constricted with 10 -7 mol/L 5-hydroxy tryptamine (5-HT, catalog no.:50679; Sigma-Aldrich). Endothelium-dependent vasodilation was detected with 10 -7 -10 -4 mol/L acetylcholine (Ach, catalog no.: A6625; Sigma-Aldrich). As a control, the aortic rings were not pretreated as previously described (4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perls' blue staining</head><p>Briefly, the aorta tissue sections isolated from mice were first deparaffinized and rehydrated. Perls' blue staining was performed as previously described <ref type="bibr" target="#b38">(39)</ref>. For Perls' blue staining, the sections were stained with a 1:1 mixture of Prussian blue (catalog no.: G1424; Solarbio) staining solution A and solution B for 30 min, washed twice with distilled water, stained with Prussian blue staining solution C for 3 min, and washed with running water. They were dehydrated with three changes of 100% ethanol and two changes of xylene for 5 min each and sealed with neutral balsam. Images were obtained using a positive fluorescence microscope (BX63; Olympus).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Statistical analyses were performed using GraphPad Prism 8.0 (GraphPad Software). Significant differences in mean values were determined using one-way analysis of variance (ANOVA), followed by Tukey's test for more than two groups or Student's t test for two groups (P &lt; 0.05). Data are expressed as mean ± SEM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PGPC caused ferroptosis in ECs</head><p>To determine whether PGPC can induce the death of vascular ECs, cell viability after treatment with 12.5, 25, 50 μM PGPC were detected. Figure <ref type="figure" target="#fig_0">1A</ref> shows that PGPC can induce the death of HUVECs in a dose-dependent manner. In instance, 25 μM of PGPC treatment significantly reduced the cell viability of HUVECs (Fig. <ref type="figure" target="#fig_0">1A</ref>). Accordingly, we decided to use 25 μM PGPC in our subsequent cell-cultured experiments. The effects of PGPC on HUVEC proliferation after 12, 24, and 48 h of treatment were also assessed using the CCK-8 assay. As seen in Fig. <ref type="figure" target="#fig_0">1B</ref>, the cell viability was significantly altered after exposed to PGPC (25 μM) for 24 h with a timedependent effect. To investigate whether PGPC causes ferroptosis in HUVECs, intracellular Fe 2+ was measured in HUVECs treated with PGPC. Figure <ref type="figure" target="#fig_0">1C,</ref><ref type="figure">D</ref> showed that both erastin, an activator of ferroptosis,  and PGPC increased Fe 2+ levels. PGPC-induced increase in Fe 2+ levels was inhibited by Fer-1, an inhibitor of erastin-induced ferroptosis (Fig. <ref type="figure" target="#fig_0">1C,</ref><ref type="figure">D</ref>). Both PGPC and erastin significantly stimulated O 2</p><p>•-production (Fig. <ref type="figure" target="#fig_0">1E,</ref><ref type="figure">F</ref>). NAC, an antioxidant, almost completely prevented PGPC-induced O 2</p><p>•-generation (Fig. <ref type="figure" target="#fig_0">1E,</ref><ref type="figure">F</ref>). Ferroptosis is characterized by the formation of mitochondria that are smaller than usual and have condensed densities in the mitochondrial membrane <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b39">40)</ref>. Figure <ref type="figure" target="#fig_0">1G</ref> shows that the mitochondria were smaller and had more condensed mitochondrial membranes in the PGPC group than in the control group. PGPC also increased the expression of the lipid peroxidation sensor C11-BODIPY, which was reduced by Fer-1 (41) (Fig. <ref type="figure" target="#fig_0">1H,</ref><ref type="figure">I</ref>). Furthermore, PGPC decreased GSH levels (Fig. <ref type="figure" target="#fig_0">1J</ref>). Finally, we measured the level of GPX4, a protein associated with lipid peroxidation. Both PGPC and erastin reduced the expression of GPX4 (Fig. <ref type="figure" target="#fig_0">1K</ref>), whereas Fer-1 reversed the PGPCinduced inhibition of GPX4 expression (Fig. <ref type="figure" target="#fig_0">1L</ref>). These findings suggest that PGPC induces ferroptosis in HUVECs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PGPC activated FABP3 in ECs</head><p>To further explore the mechanisms by which PGPC induced ferroptosis, we performed a comparative proteome study in HUVECs treated with or without PGPC. The Enriched Kyoto Encyclopedia of Genes and Genomes revealed a distinct difference between the control and PGPC treatment. Among these differences, the expression of FABP3 and fatty acid metabolism signaling pathways showed the most striking changes (Fig. <ref type="figure" target="#fig_1">2A,</ref><ref type="figure">B</ref>). Next, the fatty acid metabolic pathway genes ACSL3, ACSL4, FABP3, FABP4, and FABP5 were examined in PGPC-treated endothelial cells (ECs), with FABP3 expression being the most pronounced (Fig. <ref type="figure" target="#fig_1">2C</ref>). Western blotting also showed that PGPC significantly upregulated the expression of FABP3 (Fig. <ref type="figure" target="#fig_1">2D,</ref><ref type="figure">E</ref>), and immunofluorescence staining showed that FABP3 was mainly expressed in the cytoplasm (Fig. <ref type="figure" target="#fig_1">2F</ref>). Both the ferroptosis activators (erastin and PGPC) increased the expression of FABP3 (Fig. <ref type="figure" target="#fig_1">2G,</ref><ref type="figure">H</ref>), and the ferroptosis inhibitor Fer-1 significantly reduced the upregulation of FABP3 induced by PGPC (Fig. <ref type="figure" target="#fig_1">2I,</ref><ref type="figure">J</ref>). These dates clearly show that FABP3 plays a significant regulatory role in PGPC-induced ferroptosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Knockdown of FABP3 rescued PGPC-induced ferroptosis</head><p>To verify whether PGPC induces ferroptosis by upregulating FABP3, FABP3 was knocked down in the HUVECs. FABP3-siRNA2 and FABP3-siRNA3 were selected to knock down FABP3 because of their maximal silencing effects (supplemental Fig. <ref type="figure" target="#fig_0">S1A</ref>). When FABP3 was knocked down, the amount of intercellular Fe 2+ induced by PGPC was significantly reduced (Fig. <ref type="figure" target="#fig_2">3A,</ref><ref type="figure">B</ref>). Similarly, FABP3 silencing remarkably decreased PGPC-induced O 2</p><p>•-generation (Fig. <ref type="figure" target="#fig_2">3C,</ref><ref type="figure">D</ref>). Additionally, FABP3 knockdown significantly reversed the PGPC-induced increase in the lipid peroxidation sensor C11-BODIPY (Fig. <ref type="figure" target="#fig_2">3E,</ref><ref type="figure">F</ref>) and the PGPC-induced reduction in glutathione (Fig. <ref type="figure" target="#fig_2">3G</ref>). FABP3 knockdown also reversed the degradation of GPX4 protein induced by PGPC (Fig. <ref type="figure" target="#fig_2">3H,</ref><ref type="figure">I</ref>). Collectively, our findings indicate that FABP3 knockdown prevents PGPC-induced ferroptosis.</p><p>Mitochondrial damage and dysfunction involved in PGPC-induced ferroptosis via FABP3 TEM images revealed that FABP3 knockdown reversed PGPC-induced mitochondrial damage, allowing further investigation of the role of mitochondria in PGPC-induced ferroptosis (Fig. <ref type="figure" target="#fig_3">4A</ref>). Additionally, PGPC augmented the levels of MtROS, and FABP3 knockdown reversed the increase in MtROS levels induced by PGPC (Fig. <ref type="figure" target="#fig_3">4B,</ref><ref type="figure">C</ref>). The intensity of green fluorescence significantly increased after PGPC treatment but recovered to normal after FABP3 knockdown, indicating that PGPC impairs mitochondrial function by reducing MMP through FAPB3 (Fig. <ref type="figure" target="#fig_3">4D,</ref><ref type="figure">E</ref>). These results demonstrate that PGPC impairs mitochondrial function via FABP3, triggering ferroptosis in ECs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CD36 modulated PGPC-induced ferroptosis by regulating FABP3 levels</head><p>Numerous studies have shown that CD36 participates in the development of atherosclerosis and that genetic deletion of CD36 or blocking of the CD36-induced signaling cascade decreases the formation of atherosclerotic lesions. Oxidized phospholipids, oxidized lowdensity lipoproteins, and long-chain fatty acids are a few of the many ligands to which CD36 may bind. Because PGPC is an oxidized phospholipid, it is possible that PGPC increases FABP3 expression in HUVECs through interactions with CD36. Therefore, CD36 was silenced in HUVECs and CD36-siRNA2 was selected for CD36 knockdown because of its maximum silencing effect (supplemental Fig. <ref type="figure" target="#fig_0">S1B</ref>). CD36 knockdown significantly decreased PGPC-induced Fe 2+ overload (Fig. <ref type="figure" target="#fig_4">5A,</ref><ref type="figure">B</ref>) and O 2</p><p>•generation (Fig. <ref type="figure" target="#fig_4">5C,</ref><ref type="figure">D</ref>). Furthermore, CD36 knockdown significantly decreased the intensity of the lipid peroxidation sensor C11-BODIPY induced by PGPC (Fig. <ref type="figure" target="#fig_4">5E,</ref><ref type="figure">F</ref>) and reversed the PGPCinduced degradation of glutathione (Fig. <ref type="figure" target="#fig_4">5G</ref>). Western blotting confirmed that CD36 knockdown reversed PGPC-induced degradation of GPX4 and upregulation of FABP3 (Fig. <ref type="figure" target="#fig_4">5H,</ref><ref type="figure">I</ref>). We found that expression of FABP4 and FABP5 did not change by PGPC after silencing CD36. Additionally, qRT-PCR demonstrated that PGPC promoted the transcriptional expression of FABP3 via CD36 (Fig. <ref type="figure" target="#fig_4">5J</ref>). The intensity of green fluorescence recovered to normal after CD36 knockdown in HUVECs following PGPC treatment, indicating that PGPC reduced MMP via the CD36 receptor (Fig. <ref type="figure" target="#fig_4">5K,</ref><ref type="figure">L</ref>). Taken together, these dates suggest that PGPC causes EC ferroptosis by upregulating FABP3 via the receptor CD36.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E06 antibody reversed PGPC-induced ferroptosis</head><p>The natural IgM antibody E06 can bind to the phosphocholine head group of oxidized phospholipids, limit the absorption of oxidized low-density lipoprotein by macrophages, and suppress the proinflammatory characteristics of oxidized phospholipids. We further determined whether E06 inhibited PGPC-induced ferroptosis in HUVECs. E06 significantly decreased the Fe 2+ overload (Fig. <ref type="figure" target="#fig_5">6A,</ref><ref type="figure">B</ref>) and lipid peroxidation induced by PGPC (Fig. <ref type="figure" target="#fig_5">6C,</ref><ref type="figure">D</ref>). Similarly, E06 reversed PGPC-induced degradation of glutathione (Fig. <ref type="figure" target="#fig_5">6E</ref>). Moreover, Western blotting confirmed that the E06 antibody reversed PGPC-induced degradation of GPX4 and upregulation of FABP3 (Fig. <ref type="figure" target="#fig_5">6F,</ref><ref type="figure">G</ref>). These findings suggest that the E06 antibody can reverse PGPGinduced ferroptosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PGPC inhibited endothelium-dependent vasodilation by inducing ferroptosis</head><p>Finally, we examined the effects of PGPC on endothelium-dependent vasodilation. Both PGPC and erastin significantly inhibited endothelium-dependent  vasodilation compared to the control group. PGPCinduced impairment of endothelium-dependent vasodilation was partially inhibited by Fer-1 (Fig. <ref type="figure">7A</ref>), indicating that PGPC-impaired endothelium-dependent vasodilation by inducing ferroptosis. Western blot analysis revealed that the FABP inhibitor HTS01037 downregulated FABP3 expression in HUVECs (supplemental Fig. <ref type="figure" target="#fig_1">S2</ref>). Furthermore, HTS01037 partially inhibited PGPC-impaired endothelium-dependent vasodilation (Fig. <ref type="figure">7B</ref>). Collectively, the above results indicate that PGPC inhibits endothelium-dependent vasodilation, at least in part, by upregulating FABP3 expression. Moreover, we examined vascular reactivity in ApoE -/-mice treated with Fer-1. Our findings demonstrated that, in contrast to high-fed diet ApoE -/-mice, Fer-1 therapy clearly increased vascular reactivity (Fig. <ref type="figure">7C</ref>). This finding provided additional evidence supporting the notion that ferrostatin-1 would attenuate atherosclerosis in ApoE -/-mice by restoring endothelium-dependent vasodilation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ferroptosis occurs in ECs of atherosclerotic lesions</head><p>To reveal if ferroptosis occurs in ECs of human atherosclerotic lesions, we measured aortic ferrous iron levels and ferroptosis markers by immunohistochemistry in paraffin-embedded tissue samples obtained from patients with atherosclerotic lesions. In comparison to histologically normal human arteries, atherosclerotic plaques exhibited a reduction of GPX4 levels in ECs (Fig. <ref type="figure" target="#fig_7">8A</ref>). Ferrous iron content assay revealed that aortic tissues from patients with atherosclerotic lesions had higher levels of ferrous iron deposits than in non-atherosclerotic aortic tissues (Fig. <ref type="figure" target="#fig_7">8B</ref>). In addition, Perls' blue staining revealed that ECs from highfed diet ApoE -/-mice with atherosclerotic lesions had higher levels of iron deposits than in nonatherosclerotic tissue samples (Fig. <ref type="figure" target="#fig_7">8C</ref>). All of these findings suggested that ECs in atherosclerotic lesions undergo ferroptosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Endothelial dysfunction is the early stage of atherosclerosis. We found that PGPC impairs endothelial function by inducing ferroptosis, which may contribute to the development of atherosclerosis. The present study had three novel findings: 1) PGPC impairs endothelial function by inducing EC ferroptosis; 2) PGPC induces EC ferroptosis through the CD36 receptor to increase FABP3 expression; 3) E06 inhibited PGPC-induced EC ferroptosis.</p><p>PGPC is a major component of oxidized phospholipids in atherosclerotic plaques <ref type="bibr" target="#b5">(6)</ref>. In the present study, we found that PGPC inhibits endothelium-dependent vasodilation. Since endothelial dysfunction is an early stage of atherosclerosis <ref type="bibr" target="#b41">(42)</ref><ref type="bibr" target="#b42">(43)</ref><ref type="bibr" target="#b43">(44)</ref>, our findings suggest that PGPC may participate in the development of atherosclerosis. We further found that PGPC induced EC ferroptosis and inhibited ferroptosis, partially restoring PGPC-impaired endothelium-dependent vasodilation. Previous studies have shown that ferroptosis is involved in the development of atherosclerosis <ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref>. The inhibition of EC ferroptosis alleviates atherosclerosis by improving endothelial function <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>. These studies, in agreement with our findings, suggested that PGPC induces atherosclerosis by inducing EC ferroptosis. A recent study reported that the oxidized phosphatidylcholines POVPC and PONPC, which are also found in atherosclerotic plaques, can induce ferroptosis <ref type="bibr" target="#b27">(28)</ref>. Therefore, the components of oxidized phospholipids found in atherosclerotic plaques (including PGPC, POVPC, and PONPC) may induce atherosclerosis via EC ferroptosis.</p><p>Evidence for the importance of oxidized phospholipids in atherosclerosis comes from the accumulation of oxidized phospholipids in plaques <ref type="bibr" target="#b0">(1)</ref>. There was an EPIC Norfolk study that proved levels of oxidized phospholipids in plasma are associated with an increased risk of coronary artery disease (CAD) <ref type="bibr" target="#b44">(45)</ref>. The studies showed that the total phospholipid level in the plasma of patients is higher than that in the plasma of healthy individuals <ref type="bibr" target="#b45">(46)</ref>. Previous studies have shown that PGPC concentrations in plasma from healthy controls range from 0.15 to 1 μM <ref type="bibr" target="#b46">(47,</ref><ref type="bibr" target="#b47">48)</ref>. In our preliminary study, we found that the plasma concentrations of PGPC increased significantly in patients with coronary artery disease compared to healthy individuals. A previous study demonstrated that PGPC (50 μM) can significantly induce apoptosis in vascular smooth muscle cells <ref type="bibr" target="#b47">(48)</ref>. We found that 25 μM of PGPC already significantly inhibited endothelial cell viability. Therefore, we chose 25 μM of PGPC to perform our experiments in cultured ECs in the present study.</p><p>FABP3 is widely expressed in the heart and brain and has been used as a novel marker for heart damage <ref type="bibr" target="#b48">(49,</ref><ref type="bibr" target="#b49">50)</ref>. Previous studies suggest that FABP3 is associated with atherosclerosis <ref type="bibr" target="#b50">(51,</ref><ref type="bibr" target="#b51">52)</ref>. FABP3 knockdown exerts anti-atherogenic effects by reducing the production of foamy macrophages <ref type="bibr" target="#b51">(52)</ref>. In the present study, we found that PGPC increased FABP3 expression in ECs.</p><p>Inhibition of FABP3 restored PGPC-induced ferroptosis and PGPC-impaired endothelium-dependent vasodilation, demonstrating that PGPC induces ferroptosis by increasing FABP3 expression. Recent studies showed that the loss of FABP3 improves lipopolysaccharideinduced inflammation and endothelial dysfunction, also supporting our findings <ref type="bibr" target="#b52">(53)</ref>. Indeed, we found that PGPC inhibited both GSH and GPX4 expression, and FABP3 silencing reversed the PGPC-inhibited GSH and GPX4 expression. It is well known that GPX4 is the core regulatory factor of ferroptosis and can suppress ferroptosis (9), and GSH is the substrate for GPX4 which catalyzes the conversion of GSH to oxidized glutathione <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b53">54)</ref>. Therefore, our data suggested that PGPC enhances FABP3 expression to induce ferroptosis. CD36 has been identified as a receptor that binds oxidized phospholipids <ref type="bibr" target="#b54">(55)</ref><ref type="bibr" target="#b55">(56)</ref><ref type="bibr" target="#b56">(57)</ref><ref type="bibr" target="#b57">(58)</ref>. We investigated whether PGPC upregulates FABP3 to induce ferroptosis in ECs via CD36. We found that PGPC increases CD36 expression and is involved in the regulation of ferroptosis in ECs. A recent study has shown that CD36 induces lipid peroxidation and ferroptosis through its involvement in fatty acid uptake by tumor-infiltrating CD8+ T cells in the tumor microenvironment <ref type="bibr" target="#b58">(59,</ref><ref type="bibr" target="#b59">60)</ref>. In addition， CD36 was found to be involved in β-amyloid-induced ferroptosis in Alzheimer's disease <ref type="bibr" target="#b60">(61)</ref>. Moreover, previous studies have confirmed that macrophage CD36 promotes atherosclerosis (62-65), and that CD36 deficiency reduces atherosclerotic lesion formation in ECs (66). These studies suggest that PGPC promotes atherosclerosis by inducing endothelial dysfunction via CD36 to upregulate FABP3 and induce ferroptosis.</p><p>E06 directly acts against oxidized palmitoyl arachidonyl phosphatidylcholine IgM natural antibody <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b28">29)</ref>. A previous study has shown that E06 counteracts the action of proatherogenic oxidized phospholipids <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b27">28)</ref>. Low-density lipoprotein receptor null-E06-scFv mice have less atherosclerosis when fed with a Western diet <ref type="bibr" target="#b1">(2)</ref>. We investigated whether the E06 antibody could inhibit PGPC-induced ferroptosis. In the present study, we found that E06 inhibited PGPC-induced ferroptosis in ECs. Our data demonstrate that E06 is a therapeutic agent for inhibiting PGPC-or oxidized phospholipid-induced ferroptosis.</p><p>N-acetylcysteine, an antioxidant that acts directly on oxygen free radicals, in this study, NAC reduced the production of oxygen free radicals caused by PGPC, suggesting that PGPC can indeed induce the production of oxygen free radicals in ECs. Additionally, studies have shown that NAC treatment for 6 months, significantly slowed the progression of atherosclerosis but did not reverse atherosclerotic lesions in aging LDLr -/-mice on a normal diet, despite the fact that the effect of antioxidants on atherosclerosis is inconsistent and occasionally contentious (67). More studies have also shown that NAC can reduce atherosclerosis (68-70).</p><p>In summary, the oxidized phospholipid component PGPC can increase FABP3 expression via the CD36 receptor to induce EC ferroptosis, resulting in endothelial dysfunction. Inhibition of FABP3 or ferroptosis can restore PGPC-impaired endothelial dysfunction. E06 also inhibits PGPC-induced EC ferroptosis Figure <ref type="figure">9</ref>. Our findings provide new insights into the mechanisms of atherosclerosis and suggest a therapeutic approach for atherosclerosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All data are contained within the manuscript.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. PGPC induced ferroptosis in human umbilical vein endothelial cells (HUVECs). A: CCK8 analysis of HUVECs treated with 12.5, 25, 50 μM PGPC for 24 h. (*P &lt; 0.05, ***P &lt; 0.001, n = 6). B: CCK8 analysis of HUVECs treated with 25 μM PGPC for 12, 24, 48 h. (***P &lt; 0.001, n = 7). C, D: Probe FerroOrange staining fluorescence (red) and bar chart showing the intracellular levels of ferrous iron (Fe 2+ ) in cultured HUVECs after pretreatment with PGPC with or without Ferrostatin-1 (Fer-1) or erastin for 24 h. Erastin was used as a positive control. The nuclei were stained with Hoechst 33342 (blue). Scale bar represents 50 μm. (***P &lt; 0.001, n = 8). E, F: Dihydrothidium staining fluorescence (red) and a bar chart showing the intracellular levels of superoxide anion (O 2 •-) in cultured HUVECs after pretreatment with or without N-acetylcysteine (NAC), which were then exposed to tumor necrosis factor alpha</figDesc><graphic coords="5,62.14,37.87,497.51,605.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. PGPC and ferroptosis promote fatty acid binding protein-3 (FABP3) expression in endothelial cells. A, B: Human umbilical vein endothelial cells (HUVECs) were pretreated with PGPC (25 μM) media for 24 h followed by mass spectrometry and enriched Kyoto Encyclopedia of Genes and Genomes analysis for regulated proteins. C: qRT-PCR showing the intracellular mRNA levels of ACSL3, ACSL4, FABP3, FABP4, and FABP5 in HUVECs after pretreatment with PGPC for 24 h (***P &lt; 0.001, n = 6). D, E: Western blots and bar charts showing the protein levels of ACSL4, FABP3, FABP4, and FABP5 in HUVECs after pretreatment with PGPC for 24 h (**P &lt; 0.01, ***P &lt; 0.001, n = 6). F: Immunofluorescence microscopy showing an increase in fluorescence intensity of FABP3 (green) after treatment of cultured HUVECs with PGPC for 24 h. F-actin was stained with phalloidin (red). The nuclei were stained with Hoechst 33342 (blue). Scale bar represents 50 μm. G, H: Western blots and bar chart showing FABP3 expression levels in HUVECs treated with PGPC or erastin for 24 h (***P &lt; 0.001, n = 6). I, J: Western blots and bar chart showing FABP3 expression levels in HUVECs treated with PGPC with or without Fer-1 for 24 h (***P &lt; 0.001, n = 7).</figDesc><graphic coords="6,52.27,37.87,497.25,476.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. PGPC induces ferroptosis via upregulating fatty acid binding protein-3 (FABP3) in endothelial cells. A, B: Probe Fer-roOrange staining fluorescence (red) and bar chart showing the intracellular levels of ferrous iron (Fe 2+ ) in cultured human umbilical vein endothelial cells (HUVECs) after knockdown of FABP3 followed with PGPC treatment with or without erastin for 24 h. Nuclei were stained with Hoechst 33342 (blue). Scale bar represents 50 μm. (***P &lt; 0.001, n = 7). C, D: Dihydrothidium staining fluorescence (red) and bar chart showing the intracellular levels of superoxide anions (O 2 •-) in cultured HUVECs after pretreatment with or without N-acetylcysteine (NAC), which were then exposed to PGPC after knockdown of FABP3. Scale bar represents 100 μm. (***P &lt; 0.001, n = 6). E: The levels of C11-BODIPY in negative control and FABP3-knockdown HUVECs following PGPC treatment for 24 h were determined using fluorescence-activated cell sorting (FACS). HUVEC count indicates the number of HUVECs. F: Mean fluorescence intensity (MFI) values of C11-BODIPY in each group. (**P &lt; 0.01, ***P &lt; 0.001, n = 8). G: Relative glutathione (GSH) levels in negative control knockdown and FABP3-knockdown HUVECs following PGPC treatment for 24 h were determined. (**P &lt; 0.01, n = 6). H, I: Western blots and bar charts showing the levels of glutathione peroxidase 4 (GPX4) and FABP3 expression in negative control knockdown and FABP3-knockdown HUVECs after PGPC treatment for 24 h (**P &lt; 0.01, ***P &lt; 0.001, n = 6). si-FABP3, specific FABP3 siRNA; si-NC, negative control siRNA.</figDesc><graphic coords="8,52.33,37.87,497.28,444.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Mitochondrial reactive oxygen species (MtROS) were involved in ferroptosis and mitochondrial dysfunction induced by PGPC via fatty acid binding protein-3 (FABP3) in endothelial cells. A: Representative transmission electron microscopy (TEM) images of mitochondria in negative control knockdown, FABP3-knockdown human umbilical vein endothelial cells (HUVECs) following PGPC treatment for 24 h. Scale bar represents 2 μm. B, C: MitoSOX Red staining fluorescence (red) and bar chart showing the intracellular levels of mitochondrial ROS in negative control knockdown, FABP3-knockdown following PGPC treatment for 24 h in cultured HUVECs. The nuclei were stained with Hoechst 33342 (blue). The scale bar represents 40 μm. (***P &lt; 0.001, n = 8). D, E: JC-1 staining fluorescence (red and green) and bar chart showing mitochondrial membrane potential (MMP) in negative control knockdown, FABP3-knockdown HUVECs following PGPC treatment for 24 h after pretreatment of cultured HUVECs with PGPC. Red represents aggregated JC-1 in the mitochondrial matrix, green represents JC-1 monomers in the cytoplasm of mitochondria. The ratio of red fluorescence to green fluorescence of the control was defined as 1. The nuclei were stained with Hoechst 33342 (blue). Scale bar represents 20 μm. (*P &lt; 0.05, n = 7). si-FABP3, specific FABP3 siRNA; si-NC, negative control siRNA.</figDesc><graphic coords="9,62.31,37.87,497.28,496.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. CD36 participates in PGPC-induced ferroptosis through its interaction with PGPC in endothelial cells. A, B: Probe FerroOrange staining fluorescence (red) and bar chart showing the levels of ferrous iron (Fe 2+ ) in negative control knockdown, CD36-knockdown following PGPC treatment for 24 h in cultured human umbilical vein endothelial cells (HUVECs). Nuclei were stained with Hoechst 33342 (blue). Scale bar represents 50 μm. (***P &lt; 0.001, n = 7). C, D: Dihydroethidium staining fluorescence (red) and bar chart showing the intracellular levels of superoxide anion (O 2 •-) in negative control and CD36-knockdown HUVECs after pretreatment of cultured endothelial cells with PGPC and N-acetylcysteine (NAC). The scale bar represents 100 μm. (***P &lt; 0.001, n = 6). E, F: C11 BODIPY staining using followed fluorescence-activated cell sorting (FACS) analysis and bar chart showing the lipid peroxidation in negative control knockdown, CD36-knockdown HUVECs following PGPC treatment for 24 h. HUVEC count indicates the number of HUVECs. (*P &lt; 0.05, ***P &lt; 0.001, n = 8). G: Relative glutathione (GSH) levels in negative control knockdown, CD36-knockdown HUVECs following PGPC treatment for 24 h. (**P &lt; 0.01, n = 6). H, I: Western blots and bar charts showing the levels of CD36, FABP3, FABP4, FABP5, and glutathione peroxidase 4 (GPX4) expression in negative control and CD36-knockdown HUVECs following PGPC treatment for 24 h. (**P &lt; 0.01, ***P &lt; 0.001, n = 7). J: qRT-PCR showing the intracellular mRNA levels of FABP3, FABP4, FABP5 in HUVECs after in negative control and CD36knockdown HUVECs following PGPC treatment for 24 h. (**P &lt; 0.01, ***P &lt; 0.001, n = 6). K, L: JC-1 staining fluorescence (red and green) and bar chart showing mitochondrial membrane potential (MMP) of PGPC-treated HUVECs for 24 h after negative control knockdown and CD36-knockdown in HUVECs. Red represents aggregated JC-1 in the mitochondrial matrix, green represents JC-1 monomers in the cytoplasm of mitochondria. The ratio of red fluorescence to green fluorescence of the control was defined as 1. Nuclei were stained with Hoechst 33342 (blue). Scale bar represents 50 μm. (*P &lt; 0.05, n = 6). si-CD36, specific CD36 siRNA; si-NC, negative control siRNA.</figDesc><graphic coords="10,101.88,24.38,398.13,531.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. E06 rescues ferroptosis induced by PGPC in endothelial cells. A, B: Probe FerroOrange staining fluorescence (red) and bar chart showing the intracellular levels of ferrous iron (Fe 2+ ) after pretreatment of cultured human umbilical vein endothelial cells (HUVECs) with erastin and PGPC with or without E06 (10 μg/ml) for 24 h. Nuclei were stained with Hoechst 33342 (blue). Scale bar represents 50 μm. (***P &lt; 0.001, n = 6). C, D: C11 BODIPY staining using fluorescence-activated cell sorting (FACS) analysis and bar chart showing lipid peroxidation in HUVECs following erastin and PGPC with or without E06 treatment for 24 h. HUVEC count indicates the number of HUVECs. (***P &lt; 0.001, n = 7). E: Relative glutathione (GSH) levels in HUVECs after PGPC treatment with or without E06 for 24 h were determined. (*P &lt; 0.05, **P &lt; 0.01, n = 6). F, G: Western blots and bar charts showing the protein levels of fatty acid binding protein-3 (FABP3) and glutathione peroxidase 4 (GPX4) after pretreatment of cultured HUVECs with PGPC with or without E06 treatment for 24 h. (**P &lt; 0.01, ***P &lt; 0.001, n = 4).</figDesc><graphic coords="11,62.31,37.87,497.28,491.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig.</head><label></label><figDesc>Fig. PGPC impaired endothelium-dependent vasodilation by fatty acid binding protein-3 (FABP3)-mediated ferroptosis. A, B: Line chart showing the endothelium-dependent vasodilation of aortic rings ex vivo. Aortic rings isolated from C57BL6 were pretreated with PGPC or without Ferrostatin-1 (Fer-1), erastin, HTS01037 for 30 min. Subsequently, aortic rings were pre-constricted with 5-hydroxy tryptamine (5-HT). Endothelium-dependent vasodilation was detected using N-acetylcholine (Ach). (*P &lt; 0.05, **P &lt; 0.01, ***P &lt; 0.001, n = 6). C: Line chart showing the endothelium-dependent vasodilation of aortic rings ex vivo. Aortic rings isolated from high fed diet Apolipoprotein E -/-mice intraperitoneally injected with or without 1 mg/kg of Fer-1 every day for 4 weeks. Subsequently, aortic rings were pre-constricted with 5-hydroxy tryptamine (5-HT). Endothelium-dependent vasodilation was detected using acetylcholine (Ach). (*P &lt; 0.05, n = 7).</figDesc><graphic coords="12,52.33,37.87,497.28,164.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Ferroptosis occurs in endothelial cells of atherosclerotic vessels. A: Immunohistochemistry microscopy shows a decrease in the fluorescent intensity of CD31 (green) and in fluorescent intensity of GPX4 (red) in endothelial cells of atherosclerotic vessels compared with healthy individuals. Nuclei were stained with Hoechst 33342 (blue). Scale bar represents 50 μm. AS: atherosclerotic vessels tissues of patients. B: The ferrous iron levels in human aorta sections were measured by Ferrous Iron Colorimetric Assay Kit. (**P &lt; 0.01, n = 8). AS: atherosclerotic lesions tissues of patients. C: Representative images of mouse aorta sections stained with Perls Prussian blue, CD31 immunohistochemistry. Nuclei were stained with eosin (red) in Perls Prussian blue staining and hematoxylin (blue) in CD31 immunohistochemistry. Blue arrows indicate iron. Scale bar represents 40 μm. AS, atherosclerotic lesions tissues of the mouse.</figDesc><graphic coords="13,111.80,37.87,398.13,388.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig.</head><label></label><figDesc>Fig. Schematic of the PGPC regulatory mechanism for ferroptosis in HUVECs.</figDesc><graphic coords="14,138.73,37.87,324.48,330.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>scavenger receptor CD36 protects against atherosclerotic lesion development in mice. J. Clin. Invest. 105, 1049-1056 64. Febbraio, M., Guy, E., and Silverstein, R. L. (2004) Stem cell transplantation reveals that absence of macrophage CD36 is protective against atherosclerosis. Arterioscler. Thromb. Vasc. Biol. 24, 2333-2338 65. Marleau, S., Harb, D., Bujold, K., Avallone, R., Iken, K., Wang, Y., et al. (2005) EP 80317, a ligand of the CD36 scavenger receptor, protects apolipoprotein E-deficient mice from developing atherosclerotic lesions. FASEB J. 19, 1869-1871 66. Rekhi, U. R., Omar, M., Alexiou, M., Delyea, C., Immaraj, L., Elahi, S., et al. (2021) Endothelial cell CD36 reduces atherosclerosis and controls systemic metabolism. Front. Cardiovasc. Med. 8, 768481 67. Zhu, Q., Xiao, Y., Jiang, M., Liu, X., Cui, Y., Hao, H., et al. (2022) Nacetylcysteine attenuates atherosclerosis progression in aging LDL receptor deficient mice with preserved M2 macrophages and increased CD146. Atherosclerosis. 357, 41-50 68. Fang, X., Liu, L., Zhou, S., Zhu, M., and Wang, B. (2021) Nacetylcysteine inhibits atherosclerosis by correcting glutathione-dependent methylglyoxal elimination and dicarbonyl/oxidative stress in the aorta of diabetic mice. Mol. Med. Rep. 23, 201 69. Shimada, K., Murayama, T., Yokode, M., Kita, T., Uzui, H., Ueda, T., et al. (2009) N-acetylcysteine reduces the severity of atherosclerosis in apolipoprotein E-deficient mice by reducing superoxide production. Circ. J. 73, 1337-1341 70. Ivanovski, O., Szumilak, D., Nguyen-Khoa, T., Ruellan, N., Phan, O., Lacour, B., et al. (2005) The antioxidant N-acetylcysteine prevents accelerated atherosclerosis in uremic apolipoprotein E knockout mice. Kidney Int. 67, 2288-2294</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J. Lipid Res. (2024) 65(2) 100499</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to thank the staffs at the <rs type="affiliation">First Affiliated Hospital, Sun Yat-sen University</rs> for their assistance throughout this study.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding and additional information</head><p>This work was supported by the <rs type="funder">National Key R&amp;D Program of China</rs> (<rs type="grantNumber">2021YFA0805100</rs>), the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">82270485</rs>, <rs type="grantNumber">92268202</rs>, <rs type="grantNumber">81830013</rs> and <rs type="grantNumber">81970363</rs>), the <rs type="funder">Non-profit Central Research Institute Fund of Chinese Academy of Medical Sciences</rs> (<rs type="grantNumber">2023-PT320-03</rs>), <rs type="funder">Guangdong Basic and Applied Basic Research Foundation</rs> (<rs type="grantNumber">2019B1515120092</rs>), <rs type="funder">Science and Technology Planning Project of Guangzhou, China</rs> (<rs type="grantNumber">202103000016</rs>), the <rs type="funder">Sun Yat-sen University Clinical Research 5010 Program</rs> (<rs type="grantNumber">2014002</rs>), and <rs type="funder">Program of National Key Clinical Specialties</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_WKfDbsm">
+					<idno type="grant-number">2021YFA0805100</idno>
+				</org>
+				<org type="funding" xml:id="_67aVhfq">
+					<idno type="grant-number">82270485</idno>
+				</org>
+				<org type="funding" xml:id="_P4SXNVb">
+					<idno type="grant-number">92268202</idno>
+				</org>
+				<org type="funding" xml:id="_2tvmQBc">
+					<idno type="grant-number">81830013</idno>
+				</org>
+				<org type="funding" xml:id="_QqEzejD">
+					<idno type="grant-number">81970363</idno>
+				</org>
+				<org type="funding" xml:id="_QR3Uvts">
+					<idno type="grant-number">2023-PT320-03</idno>
+				</org>
+				<org type="funding" xml:id="_4fzdzMk">
+					<idno type="grant-number">2019B1515120092</idno>
+				</org>
+				<org type="funding" xml:id="_v2Z32Ey">
+					<idno type="grant-number">202103000016</idno>
+				</org>
+				<org type="funding" xml:id="_xw85aU8">
+					<idno type="grant-number">2014002</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplemental data</head><p>This article contains supplemental data. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that they have no conflicts of interest with the contents of this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head><p>ApoE -/-, ApolipoproteinE -/-; DHE, dihydroethidium; E06, E06 monoclonal mouse antibody; EC, endothelial cell; FABP3, fatty acid binding protein-3; FBS, fetal bovine serum; Fe 2+ , ferrous iron; Fer-1, Ferrastatin1; GPX4, glutathione peroxidase 4; GSH, glutathione; HUVECs, human umbilical vein endothelial cells; MI, Myocardial infarction; MMP, mitochondrial membrane potential; MtROS, mitochondrial reactive oxygen species; NAC, N-acetylcysteine; O 2</p><p>•-, superoxide anion; oxLDL, Oxidized low-density lipoprotein; OxPC, oxidized phosphatidylcholines; OxPL, Oxidized phospholipids; PAPC, 1-palmitoyl-2-arachidonoylsn-glycero-3-phosphatidylcholine; PGPC, 1-palmitoyl-2glutaroyl-sn-glycero-3-phosphocholine; qRT-PCR, quantitative real-time reverse transcription-polymerase chain reaction; ROS, reactive oxygen species; TBS, Tris Buffered saline; TNF-α, tumor necrosis factor-alpha. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Innate sensing of oxidation-specific epitopes in health and disease</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Papac-Milicevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Witztum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="485" to="497" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Oxidized phospholipids are proinflammatory and proatherogenic in hypercholesterolaemic mice</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Que</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yeang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Prohaska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">558</biblScope>
+			<biblScope unit="page" from="301" to="306" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">-Hydroxycholesterol impairs endothelial function and vasodilation by uncoupling and inhibiting endothelial nitric oxide synthase</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="page" from="781" to="E790" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The oxidized phospholipid POVPC impairs endothelial function and vasodilation via uncoupling endothelial nitric oxide synthase</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Cell. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="40" to="48" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Simvastatin inhibits POVPC-mediated induction of endothelial-to-mesenchymal cell transition</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Mo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">100066</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Fragmented oxidation products define barrier disruptive endothelial cell response to OxPAPC</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Birukova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Starosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Higginbotham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Koroniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berliner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transl. Res</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="495" to="504" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Ferroptosis: role of lipid peroxidation, iron and ferritinophagy</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Latunde-Dada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta Gen. Subj</title>
+		<imprint>
+			<biblScope unit="volume">1861</biblScope>
+			<biblScope unit="page" from="1893" to="1900" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Ferroptosis: a regulated cell death nexus linking metabolism, redox biology, and disease</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Stockwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Friedmann Angeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bayir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Conrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="273" to="285" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Ferroptosis: an iron-dependent form of nonapoptotic cell death</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Lemberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Lamprecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Skouta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zaitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Gleason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="1060" to="1072" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Ferroptosis affects the progression of nonalcoholic steatohepatitis via the modulation of lipid peroxidation-mediated cell death in mice</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Pathol</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page" from="68" to="81" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Ferroptosis as a target for protection against cardiomyopathy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="2672" to="2680" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Glutaminolysis and transferrin regulate ferroptosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Quadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramasamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="298" to="308" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Repression of the antiporter SLC7A11/glutathione/glutathione peroxidase 4 axis drives ferroptosis of vascular smooth muscle cells to facilitate vascular calcification</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="1259" to="1275" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Metformin attenuates hyperlipidaemia-associated vascular calcification through anti-ferroptotic effects. Free Radic</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Q</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="229" to="242" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Oleoylethanolamide alleviates hyperlipidaemia-mediated vascular calcification via attenuating mitochondrial DNA stress triggered autophagydependent ferroptosis by activating PPARalpha</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page">115379</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Alox15/15-HpETE aggravates myocardial ischemia-reperfusion injury by promoting cardiomyocyte ferroptosis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="1444" to="1460" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">High level of uric acid promotes atherosclerosis by targeting NRF2-mediated autophagy dysfunction and ferroptosis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid. Med. Cell. Longev</title>
+		<imprint>
+			<biblScope unit="page">9304383</biblScope>
+			<date type="published" when="2022">2022. 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">HMOX1 upregulation promotes ferroptosis in diabetic atherosclerosis</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page">119935</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Tongxinluo prevents chronic obstructive pulmonary disease complicated with atherosclerosis by inhibiting ferroptosis and protecting against pulmonary microvascular barrier dysfunction</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Kuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Pharmacother</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page">112367</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">NOD1 splenic activation confers ferroptosis protection and reduces macrophage recruitment under pro-atherogenic conditions</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fernandez-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gonzalez-Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Avendano-Ortiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Martin-Sanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Delgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Castrillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Pharmacother</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page">112769</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Effect of endothelial progenitor cell-derived extracellular vesicles on endothelial cell ferroptosis and atherosclerotic vascular endothelial injury</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Discov</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">235</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Qing-Xin-Jie-Yu Granule inhibits ferroptosis and stabilizes atherosclerotic plaques by regulating the GPX4/xCT signaling pathway</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ethnopharmacol</title>
+		<imprint>
+			<biblScope unit="volume">301</biblScope>
+			<biblScope unit="page">115852</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Inhibition of ferroptosis alleviates atherosclerosis through attenuating lipid peroxidation and endothelial dysfunction in mouse aortic endothelial cell. Free Radic</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="92" to="102" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">PDSS2 inhibits the ferroptosis of vascular endothelial cells in atherosclerosis by activating Nrf2</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cardiovasc. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="767" to="776" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Suppression of atherogenesis by overexpression of glutathione peroxidase-4 in apolipoprotein Edeficient mice. Free Radic</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Roberts 2nd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sharan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="343" to="352" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Abnormal iron and lipid metabolism mediated ferroptosis in kidney diseases and its therapeutic potential</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolites</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Oxidized phospholipids in doxorubicininduced cardiotoxicity</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koleini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Nickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Edel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Fandrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ravandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kardami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol. Interact</title>
+		<imprint>
+			<biblScope unit="volume">303</biblScope>
+			<biblScope unit="page" from="35" to="39" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Oxidized phosphatidylcholines trigger ferroptosis in cardiomyocytes during ischemiareperfusion injury</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stamenkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>O'hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Maddaford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Edel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maddaford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Heart Circ. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="1170" to="H1184" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Reduction of myocardial ischaemiareperfusion injury by inactivating oxidized phospholipids</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yeang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hasanally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Que</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stamenkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cardiovasc. Res</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="179" to="189" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11427-022-2381-7</idno>
+		<ptr target="https://doi.org/10.1007/s11427-022-2381-7" />
+		<title level="m">High-density lipoprotein regulates angiogenesis by affecting autophagy via miRNA-181a-5p. Sci. China Life Sci</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Angiogenic and antiangiogenic mechanisms of high density lipoprotein from healthy subjects and coronary artery diseases patients</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Yuan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">101642</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">High-density lipoprotein regulates angiogenesis by long non-coding RNA HDRACA</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct. Target. Ther</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">299</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Endothelial extracellular vesicles induce acute lung injury via follistatin-like protein 1</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">X</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. China Life Sci</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Apolipoprotein A-I mimetic peptide inhibits atherosclerosis by increasing tetrahydrobiopterin via regulation of GTPcyclohydrolase 1 and reducing uncoupled endothelial nitric oxide synthase activity</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Atherosclerosis</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="83" to="91" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Ferritinophagy is involved in the zinc oxide nanoparticlesinduced ferroptosis of vascular endothelial cells</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="4266" to="4285" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">High density lipoprotein from patients with valvular heart disease uncouples endothelial nitric oxide synthase</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Cell. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="209" to="219" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Circulating microparticles from patients with valvular heart disease and cardiac surgery inhibit endotheliumdependent vasodilation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Thorac. Cardiovasc. Surg</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="666" to="672" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Angiostatin: a negative regulator of endothelial-dependent vasodilation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Chilian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Oldham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Ackerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="803" to="806" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Hepatic transferrin plays a role in systemic iron homeostasis and liver ferroptosis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="726" to="739" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Role of mitochondria in ferroptosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Minikes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Insight into the mechanism of ferroptosis inhibition by ferrostatin-1</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Miotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rossetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Di Paolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Orian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Venerando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roveri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">101328</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Endothelial cell dysfunction and the pathobiology of atherosclerosis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gimbrone</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Garcia-Cardena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circ. Res</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="620" to="636" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Endothelial Nox4 dysfunction aggravates atherosclerosis by inducing endoplasmic reticulum stress and soluble epoxide hydrolase. Free Radic</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="44" to="57" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Endothelial dysfunction in atherosclerotic cardiovascular diseases and beyond: from mechanism to pharmacotherapies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ilyas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Little</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kamato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="924" to="967" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Oxidation-specific biomarkers, lipoprotein(a), and risk of fatal and nonfatal coronary events</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsimikas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mallat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Talmud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kastelein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Wareham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sandhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Coll. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="946" to="955" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The levels of oxidized phospholipids in high-density lipoprotein during the course of sepsis and their prognostic value</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">893929</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Distribution of plasma oxidised phosphatidylcholines in chronic kidney disease and periodontitis as a co-morbidity. Free Radic</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Ademowo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cockwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">L</forename><surname>Chapple</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="130" to="138" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The oxidized phospholipids POVPC and PGPC inhibit growth and induce apoptosis in vascular smooth muscle cells</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Fruhwirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moumtzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Loidl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ingolic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hermetter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1761</biblScope>
+			<biblScope unit="page" from="1060" to="1069" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Fatty acid binding protein 3 and transzonal projections are involved in lipid accumulation during in vitro maturation of bovine oocytes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Del Collado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Da Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Sangalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R D S</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">2645</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Heart-type fatty acid-binding protein in the early diagnosis of acute myocardial infarction: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Bruins Slot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Reitsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Rutten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hoes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Van Der Heijden</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1957" to="1963" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">FABP3 deficiency exacerbates metabolic derangement in cardiac hypertrophy and heart failure via PPARalpha pathway</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cardiovasc. Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">722908</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Fatty acid binding protein 3 deficiency limits atherosclerosis development via macrophage foam cell formation inhibition</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">407</biblScope>
+			<biblScope unit="page">112768</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Loss of fatty acid binding protein 3 ameliorates lipopolysaccharide-induced inflammation and endothelial dysfunction</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nikfarjam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rasheed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C R</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page">102921</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Estrogen deficiency accelerates postmenopausal atherosclerosis by inducing endothelial cell ferroptosis through inhibiting NRF2/GPX4 pathway</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Weng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">22992</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Phosphocholine as a pattern recognition ligand for CD36</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boullier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harkewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hartvigsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Almazan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="969" to="976" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The role of oxidized phospholipids in atherosclerosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berliner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Leitinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsimikas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="207" to="S212" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Mechanistic insights into Lp(a)-induced IL-8 expression: a role for oxidized phospholipid modification of apo(a)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Scipione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Sayegh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Romagnuolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsimikas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Marcovina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Boffa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="2273" to="2285" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Identification of a novel family of oxidized phospholipids that serve as ligands for the macrophage scavenger receptor CD36</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Podrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Poliakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="38503" to="38516" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">CD36mediated ferroptosis dampens intratumoral CD8(+) T cell effector function and impairs their antitumor ability</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1001" to="1012" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>e5</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Uptake of oxidized lipids by the scavenger receptor CD36 promotes lipid peroxidation and dysfunction in CD8(+) T cells in tumors</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rodriguez-Morales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zappasodi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1561" to="1577" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">betaamyloid protein induces mitophagy-dependent ferroptosis through the CD36/PINK/PARKIN pathway leading to bloodbrain barrier destruction in Alzheimer&apos;s disease</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Biosci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">69</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">The role of oxidized low-density lipoprotein in the activation of peroxisome proliferator-activated receptor gamma: implications for atherosclerosis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutr. Rev</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="88" to="91" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Febbraio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Podrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Hajjar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hazen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Hoff</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>Targeted disruption of the class B</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

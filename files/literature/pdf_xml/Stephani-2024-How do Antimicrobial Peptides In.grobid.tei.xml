@@ -1,0 +1,2779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">How do Antimicrobial Peptides Interact with the Outer Membrane of Gram-Negative Bacteria? Role of Lipopolysaccharides in Peptide Binding, Anchoring, and Penetration</title>
+				<funder>
+					<orgName type="full">Volkswagen Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Authors Ilia A. Solov&apos;yov -Institute of Physics, Carl von Ossietzky University of Oldenburg</orgName>
+				</funder>
+				<funder ref="#_bMSBuz8">
+					<orgName type="full">HYP*MOL� Hyperpolarization in molecular systems)</orgName>
+				</funder>
+				<funder ref="#_H5DdNG8">
+					<orgName type="full">Ministry for Science and Culture of Lower Saxony</orgName>
+				</funder>
+				<funder ref="#_q6AmHpf">
+					<orgName type="full">Carl von Ossietzky University of Oldenburg</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">DFG</orgName>
+				</funder>
+				<funder ref="#_tVycA8B">
+					<orgName type="full">Deutsche Forschungsgemeinschaft</orgName>
+				</funder>
+				<funder ref="#_B6fQQAN">
+					<orgName type="full">Izabella Brand -Department of Chemistry, Carl von Ossietzky University of Oldenburg</orgName>
+				</funder>
+				<funder ref="#_AQjaHXd #_aP32vBy">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-23">January 23, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Justus</forename><forename type="middle">C</forename><surname>Stephani</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Luca</forename><surname>Gerhards</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bishoy</forename><surname>Khairalla</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ilia</forename><forename type="middle">A</forename><surname>Solov'yov</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Izabella</forename><surname>Brand</surname></persName>
+						</author>
+						<title level="a" type="main">How do Antimicrobial Peptides Interact with the Outer Membrane of Gram-Negative Bacteria? Role of Lipopolysaccharides in Peptide Binding, Anchoring, and Penetration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-23">January 23, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">62E1FFE2997C0B6EB0120A6EFE731FC2</idno>
+					<idno type="DOI">10.1021/acsinfecdis.3c00673</idno>
+					<note type="submission">Received: December 5, 2023 Revised: December 31, 2023 Accepted: January 2, 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Gram-negative bacteria</term>
+					<term>outer membrane</term>
+					<term>antimicrobial peptides</term>
+					<term>lipid-peptide interaction</term>
+					<term>infrared spectroscopy</term>
+					<term>spectroelectrochemistry</term>
+					<term>molecular modeling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Gram-negative bacteria possess a complex structural cell envelope that constitutes a barrier for antimicrobial peptides that neutralize the microbes by disrupting their cell membranes. Computational and experimental approaches were used to study a model outer membrane interaction with an antimicrobial peptide, melittin. The investigated membrane included di[3-deoxy-Dmanno-octulosonyl]-lipid A (KLA) in the outer leaflet and 1palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine (POPE) in the inner leaflet. Molecular dynamics simulations revealed that the positively charged helical C-terminus of melittin anchors rapidly into the hydrophilic headgroup region of KLA, while the flexible Nterminus makes contacts with the phosphate groups of KLA, supporting melittin penetration into the boundary between the hydrophilic and hydrophobic regions of the lipids. Electrochemical techniques confirmed the binding of melittin to the model membrane. To probe the peptide conformation and orientation during interaction with the membrane, polarization modulation infrared reflection absorption spectroscopy was used. The measurements revealed conformational changes in the peptide, accompanied by reorientation and translocation of the peptide at the membrane surface. The study suggests that melittin insertion into the outer membrane affects its permeability and capacitance but does not disturb the membrane's bilayer structure, indicating a distinct mechanism of the peptide action on the outer membrane of Gram-negative bacteria.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>T he increasing prevalence of Gram-negative bacteria to antibiotics imposes urgency on research for alternative ways of fighting bacterial infections. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> Antimicrobial peptides (AMPs) belong to the innate immune system of animals and plants and are promising candidates for new antibiotic therapeutics. These peptides have a broad spectrum of activity against bacteria, viruses, fungi, parasites, and cancer cells. In addition, the development of antimicrobial resistance against AMPs is less probable than that against conventional antibiotics. Therefore, naturally occurring AMPs, their mutants, and synthetic peptides are intensively screened as potential therapeutics. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> AMPs neutralize microbes using different mechanisms of action. Most AMPs interact with the bacterial cell envelope, increasing the membrane permeability that leads to cytoplasm leakage and cell death. However, some AMPs cross the membrane and enter the cell. The intracellular activity of AMPs involves their binding to either DNA or proteins. <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> AMPs are short, positively charged peptides that are characterized by large conformational flexibility and usually have an undefined secondary structure in water. Electrostatic interactions constitute the driving force for anchoring the AMPs on the membrane surface. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> Membrane-associated AMPs interact with the lipid molecules, inserting themselves into the hydrophobic membrane fragment while undergoing a conformational transformation stabilizing α-helical, β-sheet, or extended secondary structure motifs. <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> Inserted AMPs disrupt the phospholipid membrane through the formation of pores, channels, or lipid-peptide micelles. <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> Due to experimental difficulties in the fabrication of models of microbial cell membranes, most of the earlier studies on the action of AMPs were done on phospholipid bilayers, which only remotely resemble models of bacterial cell envelopes.</p><p>Melittin is the main component of the venom of western honey bees (Apis mellifera). <ref type="bibr" target="#b17">18</ref> This 26-amino-acid long AMP is an amphiphilic molecule with a hydrophobic N-terminus and a cationic, polar C-terminus. The peptide includes a proline residue at position 14, which is responsible for a bend between two helical fragments. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> The presence of proline in the peptide sequence seems to enhance the antimicrobial activity of AMPs. <ref type="bibr" target="#b1">2</ref> Melittin became a model AMP for the design of synthetic peptides having a broad cytolytic spectrum, <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b4">5</ref> and is also a common peptide for biophysical studies of AMP interaction with models of biological cell membranes. <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> In aqueous solutions, melittin monomers adopt a random coil conformation, while in solutions of high ionic strength or peptide concentration, melittin aggregates into α-helical tetramers. <ref type="bibr" target="#b18">19</ref> Binding of melittin to a lipid bilayer is coupled with its folding into an α-helix.</p><p>The mechanism of the membrane disruption by melittin depends on two main factors: the peptide concentration and the lipid composition of the membrane. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> In the initial stages of the interaction, melittin accumulates on the membrane surface. After reaching a certain coverage on the membrane surface, the hydrophobic N-terminus of melittin inserts into the hydrocarbon chain region of a lipid bilayer, forming defects and pores. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> Several mechanisms of the phospholipid membrane lysis by melittin have been described, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b14">15</ref> however, the molecular and mechanistic knowledge on cytotoxic activity of melittin on Gram-negative bacteria is still not understood.</p><p>Gram-negative bacteria possess two membranes, the outer membrane (OM) and the inner membrane, which are separated from each other by ca. 7 nm thick peptidoglycan layer. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> The OM is asymmetric and has an exceptional lipid composition, while the inner leaflet contains phospholipids. The OM leaflet is built of lipopolysaccharides, where Lipid A forms the amphiphilic part of each lipopolysaccharide. The polar headgroup of lipopolysaccharides is composed of saccharides that are subdivided into an inner core, an outer core, and eventually O-antigen fragments. The carboxylate, phosphate, and hydroxyl groups in the polar part of the lipopolysaccharides bind electrostatically divalent cations (Mg 2+ , Ca 2+ ) to yield a rigid outer leaflet of the OM. <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref> Due to the structural and compositional complexity of the bacterial cell envelope, the experimental characterization of its structure, physiochemical properties, and functions are challenging. <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> Computational approaches provide an emerging alternative to gain further insights into the structure, permeability, lipid mobility, and hydration of lipopolysaccharides in the OM. <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> Molecular dynamics simulations and experimental results indicate that the action of AMPs on the OM is different as compared to the phospholipid bilayers. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref>  Sharma et  al. demonstrated that for a random coil, CM15 peptide approaching the external polar saccharide O-antigen and core regions of lipopolysaccharides preserves the peptide structure characteristic for aqueous solutions. <ref type="bibr" target="#b41">42</ref> The peptide penetrates the interfacial region of the inner core, forming hydrogen bonds to phosphate groups of lipid A. It was furthermore revealed that the CM15 peptide adopts a helical conformation upon entering the hydrophobic part of the membrane, which was also observed in another study for the LL-37 peptide interacting with the OM. <ref type="bibr" target="#b44">45</ref> The computational study of the CM15 peptide suggested that it may pass through the OM without disrupting it; <ref type="bibr" target="#b41">42</ref> it was hypothesized that the CM15 peptide, by lysing the inner phospholipid membrane, kills a microbe. Agglutination was proposed as another possible pathway of AMPs' action on the bacterial membranes. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b47">48</ref> Recent studies show that amyloid peptides <ref type="bibr" target="#b8">9</ref> and β-hairpin AMPs, <ref type="bibr" target="#b47">48</ref> capable of self-assembly into fibrils, are potent antimicrobial agents. A strong electrostatic binding of AMPs to lipopolysaccharides reduces the peptide mobility, leading to its accumulation in the OM region, which, by agglutination, eventually induces bacterial cell death. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b47">48</ref> The lack of clarity on the action of AMPs on lipopolysaccharides in the OM calls for an in-depth analysis of the underlying molecular interactions.</p><p>In the present investigation, we have studied melittin interaction with a model OM consisting of di[3-deoxy-Dmanno-octulosonyl]-lipid A (KLA) in the outer leaflet and 1palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine (POPE) in the inner leaflet as illustrated in Figure <ref type="figure" target="#fig_0">1</ref>. Due to the large size and structural complexity of the polar part of lipopolysaccharides, biomimetic models are unstable and suffer from a flip-flop of the lipopolysaccharides to the inner phospholipid leaflet. <ref type="bibr" target="#b33">34</ref> The KLA-POPE bilayer used in this study is stable and fully asymmetric and includes the lipid A with saccharide residues, representing characteristic features of the OM. Molecular dynamics (MD) simulations were employed to describe the OM interaction with melittin at the atomic level and to characterize the initial phases of melittin binding to the KLA-POPE model OM. The electrostatic interactions anchored the polar, positively charged C-terminus in the polar region of the KLA leaflet, while the Nterminus displayed conformational and motional flexibility. The characteristic peptide conformation and orientation with respect to the OM surface have been determined. Long-time effects of the melittin binding to the KLA-POPE model OM were studied experimentally using in situ polarization modulation infrared reflection absorption spectroscopy (PM IRRAS) with electrochemical control. The results reveal that the electrostatic interactions between melittin and KLA affect the membrane stability and permeability. The association of melittin with the polar parts of KLA involves a partial refolding of the peptide. Over time, melittin adopts an α-helical conformation and moves from the polar head groups in KLA to the hydrophobic core of the membrane, changing the helix orientation from a tilted to normal to the membrane surface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electrochemical Characterization of the Model Outer</head><p>Membrane Interacting with Melittin. Electrochemical measurements provide information about the compactness and stability of model lipid membranes under changing electric fields. The capacitance of the Au electrode depends on the chemical nature of the adsorbed species, their surface coverage, and packing. The capacitance changes as a function of the applied potential. The difference between the applied potential (E) and the potential of zero charge (E pzc ) is an adequate approximation of the membrane potential (E m ), <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> which reads as</p><formula xml:id="formula_0">E E E m pzc<label>(1)</label></formula><p>The membrane potential has an important biological significance and indicates direct changes in cell membranes. <ref type="bibr" target="#b50">51</ref> Figure <ref type="figure" target="#fig_1">2</ref> shows the capacitance of the KLA-POPE bilayers with and without the bound melittin. The capacitance of a lipid bilayer depends on the applied electric potential (membrane potential), which in turn determines the orientation and magnitude of the electric field acting on lipids and proteins in a membrane. Biological membranes, due to the presence of aligned charged lipids and proteins, are typically exposed to high electric fields. Assuming an average thickness of a biological cell membrane of 6 nm and a potential drop of 0.09 to 0.2 V, the electric fields acting at natural cell membranes are in the order of 1-3 × 10 7 V m -1 . <ref type="bibr" target="#b50">51</ref> Note that the membrane potential may increase to ca. 1 V, resulting in electric fields of 1.5 × 10 8 V m -1 . These electric fields may affect the orientation of surface dipoles and lead to charge separation or changes in the hydrogen bond network at the interface, affecting the membrane capacitance. Exposure of the OM to melittin changed the electrochemical properties of the membrane in a peptide concentration-dependent manner. In one set of experiments, the OM was immersed for 15 min into a solution containing either 1 or 10 μM melittin. Afterward, these membranes were transferred to the electrolyte solution containing 50 mM KClO 4 and 5 mM Mg(ClO 4 ) 2 . An increase in the melittin concentration in the electrolyte solution leads to an increase in the membrane capacitance (Figure <ref type="figure" target="#fig_1">2</ref>, lines a-c). A broad capacitance maximum appears at -0.30 V &lt; E m &lt; 0.05 V, indicating a phase transition and/or a molecular-scale rearrangement in the bilayer. In the OM with melittin associated with the solution phase, the membrane potential of this peak shifts toward more negative values compared to the pure KLA-POPE bilayer (Figure <ref type="figure" target="#fig_1">2</ref>, line a). At E m &lt; -0.8 V, the measured capacitance was negligibly affected by the presence of melittin (Figure <ref type="figure" target="#fig_1">2</ref>, lines a-c). This result means that the presence of melittin has no effect on the potentialdriven desorption and disruption of the OM. The interaction of melittin with the OM affected the membrane capacitance, indicating changes in its permeability and stability; however, it did not lead to the dissolution of the lipid bilayer from the Au(111) surface.</p><p>In the second set of experiments, a KLA/melittin (9:1 mol ratio) monolayer was transferred by the LS method onto the Au(111) surface covered by the inner POPE leaflet. In this case, the electrochemical characterization of the lipid-peptide membrane was comparable to that of the pure KLA-POPE bilayer (Figure <ref type="figure" target="#fig_1">2</ref>, lines a and d), indicating an insignificant  effect of melittin on the electrochemical properties of the OM. Thus, the interaction pathway of melittin with the OM depends on the delivery strategy of the peptide.</p><p>Melittin may either accumulate on the surface of the KLA leaflet or penetrate into the OM, forming defects and channels as schematically shown in Figure <ref type="figure" target="#fig_2">S3</ref>. Electrochemical measurements are sensitive to different supramolecular arrangements of molecules in a film covering an electrode surface. The dielectric constant of the adsorbing molecule has an impact on the capacitance value; see Section S3. Lipid molecules are amphiphilic and contain long acyl chains. The dielectric constant of a hydrocarbon chain is ∼2 while that of the polar headgroup of lipids is 5-8; 52 the dielectric constant of proteins is difficult to estimate and was reported to be in the range 7-30. <ref type="bibr" target="#b52">53</ref> Experimentally measured capacitance of the OM-melittin films contains a contribution from the capacitance of the lipid membrane (C m ), adsorbed peptide (C p ), and the diffuse layer (C dl ), and reads as</p><formula xml:id="formula_1">C C C C 1 1 1 1 m p dl = + +<label>(2)</label></formula><p>Adsorption of melittin on top of the lipid bilayer surface, see Figure <ref type="figure" target="#fig_2">S3A</ref>, does not affect the measured capacitance because C is dominated by the capacitance of the subsystem with the lowest value (C m ). In comparison to a pure KLA-POPE bilayer (see Figure <ref type="figure" target="#fig_1">2</ref>, line a), the OM with KLA and melittin transferred by the LB method (see Figure <ref type="figure" target="#fig_1">2,</ref><ref type="figure">line d</ref>) displays minor changes in the capacitance. The spectroscopic studies revealed that a freshly transferred KLA/melittin (9:1 mol ratio)-POPE bilayer contains melittin; see Figure <ref type="figure" target="#fig_3">S4</ref>, gray line. However, after immersion of the bilayer into the electrolyte solution, the intensity of the amide I' mode of melittin decreased significantly; see Figure <ref type="figure" target="#fig_3">S4</ref>, black line. This result indicates that melittin is weakly associated with the bilayer; it accumulates in the polar headgroup region (on top) of the KLA leaflet and does not enter the hydrophobic fragment of the KLA lipid. In contrast, an increase in the capacitance observed upon melittin binding from the solution, compared to the pure KLA-POPE bilayer, indicated an insertion of the peptide into the membrane, see Figure <ref type="figure" target="#fig_2">S3B,</ref><ref type="figure">C</ref>. The membrane insertion of melittin is expected to affect the packing and orientation of the lipid molecules and change the conformation and/or hydration of the peptide in the environment of the OM. The electrochemical data suggest molecular-scale rearrangements in the orientation and conformation of lipids and melittin during interaction. To describe this lipid-peptide interaction at molecular and atomic levels, MD simulation (short interaction time) and in situ spectroelectrochemical (long interaction time) experiments were performed.</p><p>Melittin Binding, Conformation, and Orientation: A Short-Time Scale of Interaction. Three independent simulations (Sim. 1-3, see Figure <ref type="figure" target="#fig_8">9</ref> in the Methods Section) show melittin binding to the model membrane. To gain insight into the binding mechanism, the interaction energies between the individual amino acids in the peptide and the membrane were calculated. Interaction energies include Coulomb and dispersive (van der Waals and hydrophobic) contributions. The details of the calculation of the contributions to the interaction energy are described in the Supporting Information S5. Figure <ref type="figure" target="#fig_2">3A</ref> shows the time evolution of the total interaction energy (E B ) between the peptide and the membrane for all three simulations (Sim. 1-3). The figure features a decrease in the interaction energy in all simulations, which indicates the binding of melittin to the KLA leaflet. Note that the different initial orientations of the peptide with respect to the membrane did not significantly affect the resulting melittin binding energy; however, it affected how fast the stable value was reached. Comparing the results of Sim. 3 (purple) with Sim. 1 (orange) and Sim. 2 (lilac), it is clear that the peptide in Sim. 3 experienced an unfavorable initial orientation of the Nterminus above the membrane surface. In this case, during the first 100 ns of the simulation, the peptide moved away from the membrane, reoriented, and finally bound with its Cterminus to the membrane. It is worth noting that in Sim. 1, the N-terminus detaches from the membrane while the peptide still stays bound to the surface through its C-terminus; such behavior is not present in Sim. 2 and 3. Figure <ref type="figure" target="#fig_2">3A</ref>,B supports this observation as the interaction energy of melittin with the membrane slightly increases over time in Sim. 1 and the partial interaction energy of the Gly1 residue is significantly lower compared to the other simulations. The performed three independent replicas, 1 μs long simulations, are sufficiently long to explore the possible conformational dynamics of a 26amino-acid residue long peptide; this time scale is comparable with the characteristic folding time of small proteins. <ref type="bibr" target="#b53">54,</ref><ref type="bibr" target="#b54">55</ref> Therefore, although this time scale is orders of magnitude lower than in experiments, it still permits one to judge about melittin binding modes to the membrane surface on an atomistic scale and to explore the details of the relevant potential energy landscape. The differences in the three simulations clearly indicate an intrinsic flexibility of the membrane-attached peptide.</p><p>Figure <ref type="figure" target="#fig_2">3C</ref> shows the probabilities of C-/N-terminus binding to the membrane in the three simulations. The plots illustrate the four possible scenarios of the termini being bound, unbound, or partially bound to the membrane. The results indicate that the C-terminus is virtually always bound, while the N-terminus is notably bound in Sim. 2 and 3 and weakly bound in Sim. 1.</p><p>The individual contributions of each residue to the overall interaction energy are shown in Figure <ref type="figure" target="#fig_2">3B</ref>. From the 26 residues of melittin, only six contributed significantly to the overall interaction energy: Gly1, Lys7, Lys21, Arg22, Lys23, and Arg24. The positively charged Lys and Arg residues (21-24) present in the helix of the C-terminus bind the peptide to the OM. Hydrogen bonds between the residues Lys21, Arg22, Lys23, and Arg24 of the peptide and the KLA in the OM were observed. The ε-ammonium group in Lys and the guanidinium group in Arg acted as the hydrogen donors, while the oxygen atoms of carboxylate, phosphate, and hydroxy groups in KLA accepted the hydrogen atoms. The measured donor-acceptor distances were between 2.2 and 3.0 Å, depending on the specific groups that formed the hydrogen bond. With advancing simulation time, these bonds were observed more frequently, indicating an increase in the stability of the bonds and thereby explaining the strong binding of the helical structure at the C-terminus of melittin to the OM. At the Nterminus, only Gly1 and Lys7 residues interacted with the membrane. In the control simulation performed in water, a loss of helicity from initial 75% to ca. 35% over 1 μs was observed, see Figure <ref type="figure" target="#fig_4">S5A</ref>. The binding of melittin to the OM is connected with the stabilization of the α-helix secondary structure. In the three simulations, the content of the α-helix secondary structure varied between 35 and 70%, underlining the conformational flexibility of the peptide.</p><p>The interaction of the Gly1 residue in the N-terminus of melittin with the OM was analyzed in detail by studying the formation of hydrogen bonds between the N-terminus and the phosphate group in the lipid A part and carboxylate groups of the inner core in KLA molecules. The results are illustrated in Figure <ref type="figure" target="#fig_3">4</ref>. A hydrogen bond is defined by geometric criteria that include the distance between the donor and acceptor atoms and the value of the donor-hydrogen-acceptor planar angle. <ref type="bibr" target="#b55">56</ref> The NH 2 group in Gly1 in the N-terminus and a phosphate or carboxylate group were considered hydrogen-bonded if the donor-acceptor distance d was less than 3 Å and the value of the donor-hydrogen-acceptor angle turned out to be 150-180°. Figure <ref type="figure" target="#fig_3">4A</ref> shows the typical location of the amide group in Gly1 in the N-terminus of melittin (nitrogen in blue and hydrogen in white) in the KLA leaflet. Gly1 interacts with the phosphate groups of the lipid A part in KLA (phosphorus in ocher and oxygen in red) and the carboxylate groups of the inner core in the KLA molecule (carbon in cyan and oxygen in red). The orange and blue lines in Figure <ref type="figure" target="#fig_3">4A</ref> represent the existing donor-acceptor distances between oxygen atoms in the PO 3 and CO 2 -groups of KLA and the N-terminus of melittin. The orange line represents the minimal donoracceptor distance to the closest oxygen atom of the CO 2 group, and the blue line represents the minimal distance to the closest oxygen atom of the PO 3 group. The probability distribution of distances obtained from Sim. 2, d COd 2 and d POd 3 , are shown in Figure <ref type="figure" target="#fig_3">4B</ref>. The most probable donor-acceptor distance between the NH 3 group of the Gly1 residue and the oxygen atoms of the phosphate groups is smaller compared to the distance to the carboxylate group. The distance d POd 3 is rather conserved over a significant simulation time at a value of ∼2.7 Å, while the value of d COd 2 fluctuates more, indicating a stronger and longer living hydrogen bond to the phosphate groups. The distance between the donor-acceptor sites alone, however, is insufficient to define the lifetime of a hydrogen bond since it also depends on the planar angle formed by the involved groups, see Figure <ref type="figure" target="#fig_3">4C</ref>. For further investigations of the hydrogen bond dynamics, the average lifetime (T) was calculated through the autocorrelation function defined as 56</p><formula xml:id="formula_2">C h t h t h t ( ) ( ) ( ) ( ) ij ij ij 0 0 0 2 = + +<label>(3)</label></formula><p>Here, h ij (t 0 ) measures whether a pairing between a hydrogen atom i of the N-terminus and the acceptor oxygen atom j of the carboxylate or phosphate groups satisfy the hydrogen bond criteria at the reference time instance t 0 , while h ij (t 0 + τ) checks for the hydrogen bond's existence at the time instance t 0 + τ.</p><p>The summation was carried out over possible pairs ij between the hydrogen atoms of the NH 3 group of Gly1 and the oxygen atoms of either the phosphate group or the carboxylate group of KLA. Angular brackets indicate an average over the different starting time instances. The computed autocorrelation functions are shown in Figure <ref type="figure" target="#fig_3">4D</ref> for the hydrogen bonds formed to the oxygen atoms of the phosphate groups C POd 3 (τ) and to the oxygen atoms of the carboxylate groups C COd 2 (τ). The hydrogen bond lifetime T is then defined as the integral of the autocorrelation function <ref type="bibr" target="#b55">56</ref> as</p><formula xml:id="formula_3">T C C ( ( ) ( ) )d 0 0 = (4)</formula><p>The lifetime T is calculated by fitting the results of the autocorrelation function with a biexponential function and subsequently numerically integrating eq 4. This yields an average lifetime of 0.035 ns for a hydrogen bond between the N-terminus in melittin and the oxygen atom of a phosphate group in KLA and 0.008 ns for a hydrogen bond with the carboxylate group in KLA. The presence of the charged Nterminus and its binding to the carboxylate and phosphate groups might supersede a divalent cation that binds to a phosphate group or a carboxylate group of the KLA in a melittin-free membrane. The earlier PM IRRAS results indicated that upon melittin binding, the coordination to the carboxylate groups in the inner core of the KLA changes, confirming that the negatively charged residues in KLA interact directly with melittin. <ref type="bibr" target="#b34">35</ref> MD simulations also show that the Nterminus in melittin, within 1 μs of the simulation time, interacts with the inner core to make stable hydrogen bonds with the phosphate residues located at the polar-hydrophobic interface of the lipid A part in the KLA, see Figure <ref type="figure" target="#fig_5">S6</ref>. The binding of melittin to the KLA may change the balance of charges in the outer leaflet of the OM and cause structural disturbances in the lipid membrane, which is an essential part of the insertion of melittin into the membrane. <ref type="bibr" target="#b56">57</ref> The tilt angle of the helices in melittin relative to the membrane surface was determined. Each amide group of melittin includes an IR-active C�O bond aligned with the corresponding transition dipole moment. The dipole moment for each residue of melittin is characterized by a tilt angle θ n , computed relative to the membrane surface normal as i k j j j j j j ÷÷÷ ÷÷÷ y</p><formula xml:id="formula_4">{ z z z z z z d z d z arccos n n n = | || |<label>(5)</label></formula><p>where d ⃗ n is the transition dipole moment of the C�O stretching mode (ν(C�O) mode) in the n-th residue and z⃗ is the normal vector pointing perpendicular to the membrane surface. The resulting time average angle ⟨θ⟩ for the whole melittin can be computed as</p><formula xml:id="formula_5">w w n N n n n N n 1 1 = = =<label>(6)</label></formula><p>where the weights w n describe the coupling of the transition dipole moments of the ν(C�O) modes in melittin to the electric field vector of the reflected IR radiation and are defined as the z-component of the normalized vector of the respective dipole moment</p><formula xml:id="formula_6">÷÷÷ w d n n z = | | .</formula><p>The summation was carried out over 3 μs of the combined trajectories of the simulations Sim. 1-3, yielding the average tilt angle of = 44.8°. The tilt of the long axis of the helical fragments in melittin with respect to the membrane surface normal could readily be related to ⟨θ⟩ (see Section S10) and ranges between 31 and 36°.</p><p>The time scale of the simulations cannot be directly compared with the time scale of the experiment. This is a very typical situation, as atomistic MD simulations would likely always be orders of magnitude shorter than real live experiments. However, often, useful information could be extracted from the atomistic MD data, which allows for interpretation of certain experiments. This scenario is also exactly the case in our study. In the simulation, we place the peptide directly on the membrane surface. We chose three different initial orientations to probe as many conformational changes (and binding modes) as possible within the limited simulation time. Note that in the simulations, the peptide is already at the membrane surface, while in the experiment, melittin is dissolved in the electrolyte solution and must diffuse to the membrane surface, find the favorable binding orientation, and subsequently undergo conformational and orientational changes. The molecular simulation results show that melittin associates with the membrane surface, anchoring its C-terminus in the polar headgroup region of the KLA leaflet. The more flexible N-terminus may move away from the saccharide groups in KLA, anchoring the peptide at the hydrophilic-hydrophobic interface of the outer leaflet of the outer membrane. Further conformational and orientational changes require longer times, as observed in the experiments.</p><p>Melittin Binding, Conformation, and Orientation: A Long Interaction Time Scale. Figure <ref type="figure" target="#fig_4">5</ref> shows the PM IRRA spectra of the KLA-POPE bilayer after 15 min of incubation in 1 μM melittin solution. The spectra feature the ν(C�O) stretching modes in the ester carbonyl groups in lipids, amide I' vibration mode mainly in melittin, and ν as (COO -) stretching mode in KLA. Furthermore, two amide groups in KLA also contribute to the amide I' vibration mode; however, these groups have a slight impact on the resulting IR spectrum.</p><p>In the presence of melittin, the ν as (COO -) absorption bands in KLA appear at 1610-1608 and 1600 cm -1 . The absorption maximum of the high wavenumber ν as (COO -) mode is ca. 5 cm -1 down-shifted compared to the position of this band in the pure KLA-POPE bilayer, <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b48">49</ref> being the result of changes in the coordination to the carboxylate group. The observed spectral changes are associated with the removal of Mg 2+ ions and the formation of direct hydrogen bonds to positively charged amino acids in melittin.</p><p>The amide I' band in melittin is a complex spectral feature centered at 1650 cm -1 , see Figure <ref type="figure" target="#fig_4">5</ref>. The IR spectrum of melittin KLA-POPE vesicles corresponds to a random distribution of the peptide. The amide I' band was deconvoluted into five components centered at 1689, 1670, 1650, 1639, and 1622 cm -1 ; see Figures <ref type="figure" target="#fig_4">5</ref> and<ref type="figure" target="#fig_6">S7A</ref>. The complexity of the amide I' mode points to structural flexibility and significant differences in the hydration and hydrogen bonding network in melittin in solution and lipid bilayerassociated states, agreeing with earlier findings. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref> For randomly distributed melittin, the strongest component of the amide I' band (1650 cm -1 ) stems from α-helices that constitute 42% of the peptide secondary structure. The modes at 1670 and 1630 cm -1 could be attributed to either helical (3 10 -or π-) structures or random coils. <ref type="bibr" target="#b59">60</ref> Assignment of the IR absorption modes at 1689 and 1622 cm -1 is primarily associated with antiparallel β-sheets. <ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b60">61</ref> Drastic changes in the hydrogen bonding network at the helical and disordered peptide fragments, however, may result in similar spectral changes. Dehydration of the C�O group causes an upshift of the amide I' mode to 1685-1700 cm -1 . <ref type="bibr" target="#b61">62</ref> A strong hydration of the helical peptide fragments may result in a down-shift of the amide I' mode to ca. 1625 cm -1 . <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b62">63</ref> The IR spectrum of melittin in solution was measured for the peptide:lipid ratio of 1:22. At such a high content of melittin, the peptide may aggregate on the vesicle surface that may induce even a conformational change to β-sheet structures as proposed earlier. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b60">61</ref> MD simulations confirm the structural flexibility of nonbonded melittin. In the control simulation, in water, gradual loss of the helical structure to ca. 35% was observed; see Figure <ref type="figure" target="#fig_4">S5A</ref>. Simultaneously, changes in the backbone dihedral angles indicate that melittin may adopt a β-sheet structure; see Figure <ref type="figure" target="#fig_4">S5C</ref>. It is therefore reasonable to conclude that melittin approaching the OM surface from the solution phase is characterized by a conformational flexibility and hydrogen bonding network of different strengths.</p><p>After 15 min of the OM interaction with 1 μM melittin, the amide I' band features three components centered at 1669, 1653, and 1636 cm -1 , see Figures <ref type="figure" target="#fig_4">5</ref> and<ref type="figure" target="#fig_6">S7B</ref>. The observed spectral changes indicate that membrane-associated melittin is composed of helices and random coils, reflecting only to a certain extent the structural flexibility found in the solvated peptide; see Figure <ref type="figure" target="#fig_4">5</ref>. MD simulations confirm the observation, as after 1 μs of interaction, the peptide did not adopt a fully helical conformation. Both experimental and simulation results show that the process of melittin integration into the OM is characterized by a gradual insertion of the peptide into the polar environment of lipid A.</p><p>Figure <ref type="figure" target="#fig_5">6</ref> shows the PM IRRA spectra of the OM after 15 min interaction with 10 μM melittin. Independent of the electrode potential, a strong symmetric amide I' band, centered at 1648 cm -1 , is present in the spectra. At E &gt; -0.4 V, the amide I' band in melittin contains one component assigned to α-helices. At E &lt; -0.4 V, a weak amide I' band at 1670-1673 cm -1 appears in the spectra, indicating the presence of other structural elements in the membrane-bound melittin or the presence of poorly hydrated peptide fragments. Similar behavior was observed for 1 μM melittin interacting with the OM for 60 min (see Figure <ref type="figure" target="#fig_7">S8</ref>). For both melittin concentrations, the potential-dependent spectral changes were reversible, indicating that melittin reached a steady-state well-defined orientation within the OM. The observed enhancement of the intensity of the amide I' band of α-helices in melittin (centered at 1648-1654 cm -1 ) and reversibility of the potential-dependent changes in the shape of the entire amide I' band confirm an anisotropic orientation of the melittin helix with respect to the OM surface, allowing for a quantitative analysis of the helix tilt at different stages of its interaction with the membrane.</p><p>The integral intensities of the deconvoluted components of the amide I' band were used to calculate the average tilt of the long axis of the α-helix in melittin, see Section S10. In this calculation, only the helical fragments of melittin were considered. Different results were obtained for short (15 min) and long (60 min) times of the interaction of 1 μM melittin solution with the model OM, demonstrating the dynamics of folding and reorientation of the peptide associating with a model microbial membrane; see Figure <ref type="figure" target="#fig_6">7</ref>. Over the first 15 min of melittin's interaction with the OM, the average tilt angle of 37 ± 5°for the long axis of the helical peptide fragments relative to the membrane surface normal was determined; see Figure <ref type="figure" target="#fig_6">7A</ref>. The MD simulations reveal a similar value of 31-36°, as demonstrated above (see Figure <ref type="figure" target="#fig_6">7A</ref>). Thus, the helical melittin fragments, at the beginning of the interaction, adopt a tilted arrangement with respect to the OM surface. Both experimental and simulation results show that the process of melittin integration into the OM is characterized by insertion of the peptide into the polar environment of lipid A. This process is accompanied by changes in the peptide conformation and progressive reorientation of its helical fragments with respect to the membrane normal.</p><p>Experimental results show clearly that longer incubation time or higher peptide concentrations induce further conformational changes and reorientations of melittin. Melittin, in a fully helical conformation, displays a bend of the two helical parts at the Pro residue. <ref type="bibr" target="#b17">18</ref> Due to the overlap of the IR signals (amide I' band) from the two helical fragments, an average tilt of the helices in the membrane-bound melittin was calculated. At positive potentials, the long axis in the αhelices in melittin is perpendicular to the bilayer surface (the average tilt angle equals 0°); see Figure <ref type="figure" target="#fig_6">7B,</ref><ref type="figure">C</ref>. A negative potential shift leads to an increase in the average tilt angle of melittin helices to 10-15°. The potential-dependent change of the helix tilt is related to the emergence of the second amide I' band at 1670 cm -1 (see Figures <ref type="figure" target="#fig_5">6</ref> and<ref type="figure" target="#fig_6">S7</ref>); the latter effect is related to the poorly hydrated carbonyl groups and disordered melittin fragments.</p><p>To evaluate if melittin has an effect on the lipid molecules in both leaflets, d 31 -POPE lipid with a perdeuterated palmitoyl chain was used to fabricate the inner leaflet. The CD stretching modes appear in 2215-2070 cm -1 and are separated by ca. 700 cm -1 from the CH modes in the KLA and POPE lipids. Due to the conformational disorder of the acyl chains in d 31 -POPE and KLA lipids in the liquid-disordered OM, the exact tilt angle of the hydrocarbon chains cannot be determined. <ref type="bibr" target="#b63">64</ref> The quantitative analysis of some IR absorption modes may become complex due to the overlap of two factors: the conformational disorder of liquid chains and the molecular disorder caused by different orientations of an adsorbed molecule. The order parameter of the methylene groups depends on both types of disorder. <ref type="bibr" target="#b64">65</ref> The order parameter of the deuterated acyl chains (S CD ) in the pure KLA-d 31 -POPE bilayer, as well as the S CD for the bilayer exposed to 10 μM melittin for 15 min, were calculated and are shown in Figure <ref type="figure" target="#fig_7">8</ref>.</p><p>The binding of melittin to the OM leads to a small increase in S CD , indicating that the peptide interacts with the hydrophobic fragment of d 31 -POPE in the inner leaflet. The increase in the S CD , as well as the previously reported increase in the S CH in the KLA-POPE bilayer, <ref type="bibr" target="#b34">35</ref> indicates an ordering effect of melittin on the hydrophobic part of the OM. Thus, melittin insertion into the hydrophobic membrane region induces pores and/or channel formation in the bilayer that involves rearrangements of the KLA and POPE, leading to an improved packing of the lipids in the membrane.</p><p>Moreover, upon melittin binding to the OM, the average orientation of the acyl chains in KLA and POPE becomes independent of the electric potentials (membrane potentials). <ref type="bibr" target="#b34">35</ref> For membrane-associated melittin, the order parameter of the hydrocarbon chains in KLA and POPE lipids equals 0.65 ± 0.05, giving an approximate value of the tilt angle of the hydrocarbon chains between 26 and 32°versus surface normal. Due to the fact that the thickness of the hydrophobic part of the OM is constant during the potential scan, the lack of potential-dependent changes in the hydrophobic environment of the membrane is not responsible for the rearrangement of melittin at negative potentials. Furthermore, the impact of the external electric fields has a minimal impact on the melittin binding energy to the membrane surface. This can be estimated based on the characteristic values of the dipole moment of melittin and the external field used. Indeed, the dipole moment of melittin at the beginning of the three  simulations is equal to 58 D. This value was calculated based on the structure and the partial charges of the peptide and is consistent with the one published earlier for solvated melittin. <ref type="bibr" target="#b65">66</ref> The characteristic external electric field value of 1 V yields an electric field value of 1.67 × 10 8 V m -1 for the membrane thickness of 6 nm. These numbers yield a dipole contribution to the interaction energy of melittin with the external field on the order of 4.64 kcal mol -1 , being negligible compared to the values shown in Figure <ref type="figure" target="#fig_2">3</ref>, which is rooted in the Coulomb and dispersion interactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ CONCLUSIONS</head><p>MD simulations and PM IRRAS with electrochemical control reveal molecular-scale changes accompanying melittin interacting with a model OM. The interaction begins with a rapid formation of hydrogen bonds between the positively charged Lys21, Arg22, Lys23, and Arg24 residues at the C-terminus in melittin and hydroxyl, carboxylate, and phosphate residues in KLA in the outer leaflet of the OM. The formation of these hydrogen bonds immobilizes the α-helical melittin fragment in the polar region of the outer leaflet. In contrast, the Nterminus complex has a poorly defined structure and displays a large degree of flexibility. MD simulations reveal melittin penetration into the interfacial hydrophilic-hydrophobic region in the lipid A part of KLA. The simulations indicate an increase in the helical content in the melittin secondary structure upon the peptide binding to the membrane; this conclusion is in good agreement with the experimental PM IRRAS results. Over time, melittin interacting with the OM refolds and predominantly adopts the α-helical conformation. Such a conformational change occurs in melittin upon its insertion into the hydrophobic part of the OM. <ref type="bibr" target="#b2">3</ref> Adaptation of a helical conformation in melittin leads to its reorientation within the membrane; the helices align preferentially perpendicular to the membrane surface, making it possible for the flexible N terminal to anchor the peptide deeply into the acyl chains region of the OM. Spectroscopic evidence supporting this rationale follows from the isotopic substitution of POPE in the inner leaflet of the OM, where the average packing of the acyl chains is improved not only in KLA, <ref type="bibr" target="#b34">35</ref> but also in POPE. Thus, melittin has the ability to migrate from the polar region of the outer leaflet deep into the hydrophobic region of the inner leaflet in the OM.</p><p>Specific chemical groups in melittin and KLA directly involved in the peptide membrane association could be established through IRS. Interaction between melittin and the negatively charged carboxylate group in KLA was observed as a down-shift of the ν as (COO -) stretching mode in KLA, caused by a substitution of Mg 2+ ions by an amide group of melittin. The removal of divalent ions from the saccharide fragment of lipopolysaccharides destabilizes the OM <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b35">36</ref> and aligns with the observed increase in the membrane capacitance. On the other hand, the reorientation of α-helices in membrane-bound melittin also contributes to an increase in the measured capacitance.</p><p>Despite an increase in the measured membrane capacitance, in the melittin-bound bilayer, the acyl chains have more compact packing, indicating that the peptide penetration into the OM does not dissolve the membrane. The effect could readily be explained by the exceptional conformational flexibility of melittin, as could be revealed by a tandem approach relying on spectroscopic measurements and atomistic MD simulations. The investigated melittin serves as a model case study for the AMP interaction with the cell envelope of Gram-negative bacteria. The mechanism deciphered here turns out to be vastly different and maybe even unique in comparison to the previously known AMP action on phospholipid bilayers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ METHODS</head><p>Chemicals. 1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine (POPE), d 31 -1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine (d 31 -POPE), and di [3-deoxy-D-mannooctulosonyl]-lipid A (ammonium salt) Kdo 2 -lipid A (KLA) were purchased from Avanti Polar lipids. Lipids were used as received; no purification was done. Synthetic melittin (Cat. No.: M4171), Tris(hydroxy-D-methyl)-amino-d 2 -methan (d 5 -TRIS), KClO 4 (99.99%), Mg(ClO 4 ) 2 •6H 2 O (99%), and acidsodium salt dihydrate (Na 2 EDTA) were purchased from Sigma-Aldrich (Germany); NaCl (99.5%) and MgCl 2 (&gt;99% p.a.) were purchased from Carl Roth (Germany); Tris-(hydroxymethyl)aminomethane (TRIS) was purchased from Fluka (Germany); ethanol and methanol were purchased from AnalaR Normapur, VWR (France); and D 2 O was purchased from Euroisotop (Germany).</p><p>Langmuir-Blodgett Transfer. Before each experiment, fresh lipid solutions were prepared. POPE was dissolved in CHCl 3 , while KLA was dissolved in CHCl 3 /CH 3 OH/H 2 O in a 13:6:1 volume ratio. The concentration of POPE equaled 1 μmol ml -1 , and the concentration of KLA was 0.433 μmol ml -1 (1 mg mL -1 ). A microsyringe (Hamilton) was used to place several μLs of the lipid solution at the liquid|air interface of the Langmuir trough (KSV Ltd., Finland). All aqueous solutions were prepared from ultrapure water [resistivity 18.2 MΩ cm (PureLab Classic, Elga LabWater, Germany)]. Before compression, the lipid solution was left for 10 min for the solvent evaporation. Surface pressure vs area per molecule isotherms were recorded using the KSV LB mini trough (KSV Ltd., Finland) equipped with two hydrophilic barriers. Surface pressure was recorded as a function of the mean molecular area. The accuracy of these measurements was ±0.02 nm <ref type="bibr" target="#b1">2</ref> for the mean molecular area and ±0.1 mN m -1 for the surface pressure. Langmuir-Blodgett and Langmuir-Schaefer (LB-LS) transfers were used to prepare asymmetric supported planar KLA-POPE bilayers containing POPE in the inner (Au electrode oriented) and KLA in the outer (solution-oriented) leaflet on the gold surface; see Figure <ref type="figure" target="#fig_0">S1</ref>. Prior to the LB-LS transfer, each monolayer was compressed to the surface pressure of 30 mN m -1 . First, the POPE monolayer was transferred from the aqueous subphase by vertical LB withdrawing at a rate of 15 mm min -1 . The transfer ratio was 1.10 ± 0.10. The POPE monolayer transferred onto the Au substrate was left for 3 h. Next, a monolayer of KLA on 0.1 M KClO 4 and 5 mM Mg(ClO 4 ) 2 aqueous subphase was compressed to the surface pressure of 30 mN m -1 , and a horizontal LS transfer was used to fabricate the second leaflet on the gold surface, see Figure <ref type="figure" target="#fig_0">S1</ref>. Planar lipid bilayers were dried for at least 2 h before use in electrochemical and spectroelectrochemical experiments.</p><p>Interaction of Melittin with Lipid Bilayers. The concentration of melittin in a buffer solution [20 mM Tris, 150 mM NaCl, and 5 mM EDTA (pH = 7.3 ± 0.1)] was set to equal either 1 or 10 μM. In such prepared solutions, melittin exists in the monomeric form. <ref type="bibr" target="#b66">67</ref> A gold electrode modified with a lipid bilayer was incubated in a hanging meniscus configuration in the buffer solution containing the monomeric form of melittin. For the melittin concentration of 1 μM, the incubation times were set to 15 min and 1 h. The incubation time from the 10 μM melittin solution was set to 15 min. After this time, the modified electrodes were carefully rinsed with water and used in either electrochemical or PM IRRAS experiments.</p><p>Electrochemistry. Electrochemical measurements were performed in a glass three-electrode cell using a disc Au(111) single crystal (diameter 3 mm, MaTecK, Germany) as the working electrode in a hanging meniscus configuration. The surface roughness of the Au electrode was below 0.01 μm per 1 cm 2 of the electrode surface. A gold wire was used as a counter electrode, and Ag|AgCl|sat.KCl (Ag|AgCl) was used as a reference electrode. All potentials are referenced against the Ag|AgCl|sat.KCl electrode. The electrolyte solution was 100 mM KClO 4 with 5 mM Mg(ClO 4 ) 2 . A Metrohm Autolab potentiostat (Metrohm Autolab, Holland) was used to perform the electrochemical measurements. Prior to the experiment, the cell was purged with argon for 1 h. The cleanliness of the electrochemical cell was tested by recording the cyclic voltammograms in the electrolyte solution. Alternative current voltammetry (ACV) was used to measure the capacitance of unmodified and KLA-POPE bilayer-modified Au(111) electrodes. AC voltammograms were recorded in negative and positive-going potential scans at a rate of 5 mV s -1 and the perturbation of the AC signal of 20 Hz and 10 mV amplitude. The differential capacitance versus potential curves were calculated from the in-phase and out-of-phase components of the AC signal, assuming that the cell was equivalent to a resistor in series with a capacitor.</p><p>Polarization Modulation Infrared Reflection Absorption Spectroscopy. PM IRRA spectra were recorded using a Vertex 70 spectrometer with a photoelastic modulator (f = 50 kHz; PMA 50, Bruker, Germany) and a demodulator (Hinds Instruments). A homemade thin electrolyte layer spectroelectrochemical glass cell was washed in water and ethanol and placed in an oven (at 60 °C) for drying. CaF 2 prism (optical window) was rinsed with water and ethanol and placed in a UV ozone chamber (Bioforce Nanosciences) for 10 min. The spectroelectrochemical cell has a built-in platinum counter electrode. The reference electrode was Ag|AgCl in 3 M KCl in either D 2 O or H 2 O. A disc Au(111) single crystal (diameter 15 mm, MaTecK, Germany) was used as the working electrode and mirror for the IR radiation. The surface roughness of the Au electrode was below 0.01 μm per 1 cm 2 of the electrode surface. A lipid bilayer was transferred on the working electrode surface using LB-LS transfer. The electrolyte solution was 50 mM KClO 4 with 5 mM Mg(ClO 4 ) 2 in D 2 O. The electrolyte solution was purged for 1 h with argon to remove oxygen. At each potential applied to the Au electrode, 400 spectra with a resolution of 4 cm -1 were measured. Five negative and five positive-going potential scans were recorded in each experiment. The negative going potential scan had the following potentials applied to the Au(111) electrode: 0.40, 0.25, 0.10, 0.00, -0.10, -0.20, -0.30, -0.40, -0.55, -0.65, and -0.80 V, while in the positive-going potential scan: -0.80, -0.60, -0.40, -0.30, -0.20, -0.10, 0.00, 0.10, 0.25, and 0.40 V. At each potential, the average, over five potential scans, spectrum was calculated and background corrected. The thickness of the electrolyte layer between the Au(111) electrode and the prism varied between 3 and 5 μm in different experiments. In one set of experiments, the half-wave retardation was set to 1600 cm -1 for the analysis of the amide I' mode in melittin and C�O stretching mode in lipids. The angle of incidence of the incoming IR radiation was set to 55°. The solvent was D 2 O. For the analysis of the CD stretching modes in d 31 -POPE of the model OM, the half-wave retardation was set to 2100 cm -1 . The angle of incidence was 52°. The solvent was H 2 O. All of the spectra were processed using OPUS v5.5 software (Bruker, Germany).</p><p>Attenuated Total Reflection Infrared Spectroscopy. The analyte solution contained small unilamellar vesicles of the studied lipid mixture (KLA/POPE) (1.0:3.2 mol ratio) and 4.4 × 10 -4 mol L -1 melittin. Three hundred microliters of 3.33 mg mL -1 POPE in chloroform and 300 μL of 3.33 mg mL -1 KLA in chloroform:methanol (2:1 vol) solutions were mixed and dried in a flow of argon. To remove the remaining solvent, the vials were placed in a vacuum desiccator for 72 h. Next, 500 μL of 20 mM d 5 -TRIS, 150 mM NaCl, and 5 mM MgCl 2 in D 2 O was added to the dry lipid, and the mixture was sonicated (EMAG-Technologies, Germany) at 35 °C for 1 h. Afterward, 300 μL of synthetic melittin (Cat. No.: M4171) in 20 mM d 5 -TRIS, 150 mM NaCl, and 5 mM MgCl 2 in D 2 O was mixed with the vesicle solution and left for interaction for 60 min at 35 °C giving the analyte solution. Attenuated total reflection infrared spectra were recorded by coadding 128 scans with a resolution of 4 cm -1 on a diamond prism using an MVP-Pro ATR unit (Harrick Scientific Products, Inc.) and the Bruker Vertex 70 spectrometer. The background spectrum was recorded for a drop (20 μL) of the electrolyte solution without lipid vesicles and melittin placed on the prism. The analyte spectrum was measured for a drop (20 μL) of the analyte solution (electrolyte with vesicles and melittin) placed on the prism. Subtraction of the analyte from the background spectrum gave the spectrum of lipids and melittin.</p><p>Software Used for MD Simulations. MD simulations were carried out using NAMD 2.13 <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b68">69</ref> with the CHARMM36 force field, <ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref> utilizing explicit water solvent in a TIP3P model. <ref type="bibr" target="#b72">73</ref> The computational platform VIKING <ref type="bibr" target="#b73">74</ref> was used to set up the computations. The membrane system was designed using the CHARMM-GUIs <ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref><ref type="bibr" target="#b76">[77]</ref> bilayer membrane builder. <ref type="bibr" target="#b75">76,</ref><ref type="bibr" target="#b77">[78]</ref><ref type="bibr" target="#b78">[79]</ref><ref type="bibr" target="#b79">[80]</ref> Further preparation of the simulations and extraction of quantitative results, as well as the secondary structure analysis with STRIDE, <ref type="bibr" target="#b80">81</ref> were done using VMD. <ref type="bibr" target="#b81">82</ref> MD Simulations of Solvated Melittin. The structure of the melittin monomer in its crystalline state was obtained from the melittin dimer available in the protein databank <ref type="bibr" target="#b82">83,</ref><ref type="bibr" target="#b83">84</ref> (PDB), with the ID 2mlt entry. <ref type="bibr" target="#b84">85</ref> In the crystalline state, melittin forms two α helices, which are separated by a bend occurring at the 14th residue; see Figure <ref type="figure" target="#fig_0">1B</ref>. For the equilibration simulation, the melittin monomer was solvated in a cubical water box with a side length of 9 nm. The salt concentration used in the simulation resembled the experimental values of 50 mM KCl and 5 mM MgCl 2 , resulting in a total of 69,585 atoms in the system. The system was simulated for 100 ns, imposing periodic boundary conditions and a constant temperature of 303.15 K controlled by a Langevin thermostat. <ref type="bibr" target="#b67">68</ref> The simulation was split into 3 simulation stages. In the first stage, a 10 ns simulation was performed, employing the isothermal-isobaric statistical ensemble (NPT), maintaining a pressure of 1 bar using a Nose-Hoover-Langevin piston pressure control <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b85">86</ref> with a time step of 1 fs for the integration of the equations of motion. The second and the third stages used canonical ensemble (NVT) with an integration time step of 1 and 2 fs and included simulations of 5 and 85 ns duration, respectively. No constraints were imposed on the atoms of the system during the three simulation stages (equilibration simulations). Explicit nonbonded interactions were neglected at 12 Å with a set smooth switching distance starting at 10 Å. Electrostatic interactions beyond 12 Å were calculated using the particle-mesh Ewald method. <ref type="bibr" target="#b86">87</ref> After the equilibration simulations, the system was further simulated for another 1 μs for data acquisition (production simulation). The acquired data was used as an independent control simulation of melittin in water.</p><p>Equilibration of the Bilayer Membrane. The bilayer membrane was designed using the CHARMM-GUIs bilayer membrane builder. <ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref><ref type="bibr" target="#b76">[77]</ref> The chemical structure of the simulated OM matches the membrane studied in the experiments and is shown in Figure <ref type="figure" target="#fig_0">1C</ref>. The negative charge at phosphate groups in the lipid A part in KLA was neutralized using Mg 2+ ions, while the inner core in KLA using Na + ions. The membrane had a density of 96.37 atoms nm -3 . The number of lipids in the model OM is 34 KLA in the outer leaflet and 109 POPE lipids in the inner leaflet. Before the equilibration procedure, KLA and POPE molecules occupied an area of 1.95 nm 2 and 0.61 nm <ref type="bibr" target="#b1">2</ref> , respectively (see Section S2 and Figure <ref type="figure" target="#fig_1">S2</ref>); the converged equilibrated values appear 1.87 nm 2 and 0.58 nm 2 , respectively. These values agree well with the LB-LS transfer conditions at which the average area per lipid A KLA was 1.96 nm 2 and A POPE 0.67 nm 2 . <ref type="bibr" target="#b48">49</ref> The membrane was solvated in a water box, matching the membrane area of (8 × 8) nm 2 and having a height of 11 nm. The concentration of KCl was assumed to be 50 mM. Due to the low amount of solvent the 5 mM MgCl 2 used in the experiments, the Mg 2+ ions were omitted in the simulation. NAMD <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b68">69</ref> was used to equilibrate the membrane for a total of 200 ns using an isothermal-isobaric ensemble and periodic boundary conditions in 3 distinct stages. The CHARMM36 force field <ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref> was employed in the simulations. A constant temperature of 303.15 K controlled by a Langevin thermostat <ref type="bibr" target="#b67">68</ref> and a constant pressure of 1 bar using a Nose-Hoover-Langevin piston pressure control <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b85">86</ref> was imposed during the whole simulation. The first stage was simulated for 5.375 ns with an integration time step of 1 fs. The second and the third stages used an integration time step of 2 fs each and were simulated for 2.125 and 90 ns, respectively. The simulations in stage 1 and stage 2 considered the movement of the head groups of all POPE and KLA lipids constrained using a harmonic restraint potential. The force constant of that restraint was decreased from 5 to 0.2 kcal mol -1 during the simulation stages 1 and 2. Explicit nonbonded interactions with a smooth switching starting at 10 Å were cut off at 12 Å, and electrostatic interactions were calculated using the particle-mesh Ewald method 87 beyond the distance of 12 Å.</p><p>Equilibrium Molecular Dynamics of Melittin Atop a Bilayer Membrane. A combined system, shown in Figure <ref type="figure" target="#fig_0">1A</ref>, of the equilibrated melittin monomer and the equilibrated membrane was used to generate the data for analysis. The melittin monomer, which acquired a V-shape during the equilibration simulation, was placed on top of the membrane in three different initial orientations, depicted in Figure <ref type="figure" target="#fig_8">9</ref>. Simulation 1 (Sim. 1) considered melittin placed with its helix bend 1.2 nm above the membrane surface (Figure <ref type="figure" target="#fig_8">9A</ref>). Simulation 2 (Sim. 2, Figure <ref type="figure" target="#fig_8">9B</ref>) and simulation 3 (Sim. 3, Figure <ref type="figure" target="#fig_8">9C</ref>) had melittin placed with the C-terminus and the Nterminus nearest to the membrane, respectively. The electrolyte solution contained 50 mM KCl. These composite systems with a total number of atoms varying between 82,399 and 82,405 were simulated with periodic boundary conditions. After the composite systems were constructed, each system was first equilibrated for 5 ns in the isothermal-isobaric ensemble, maintaining a pressure of 1 bar using a Nose-Hoover-Langevin piston pressure control <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b85">86</ref> and a constant temperature of 303.15 K using a Langevin thermostat, <ref type="bibr" target="#b67">68</ref> followed by a 5 ns simulation in the canonical ensemble with an integration time step of 1 fs. After the equilibration simulation, production simulations of each system with a duration of 1 μs in the canonical ensemble with an integration time step of 2 fs were performed. A 12 Å cutoff was imposed for the nonbonded interactions, which were linearly switched to zero starting from 10 Å. Beyond these distances, electrostatic interactions were calculated using the particlemesh Ewald method. <ref type="bibr" target="#b86">87</ref> ■ ASSOCIATED CONTENT * sı Supporting Information</p><p>The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acsinfecdis.3c00673.</p><p>Formation of the asymmetric models' outer membrane of gram-negative bacteria; area per lipid of the outer membrane and volume of the simulation box during the equilibration simulation; possible orientation of melittin on the membrane surface and their effect on the capacitance of a model membrane deposited on an electrode surface; calculation of electrostatic and van der Waals contribution to the interaction energy; secondary structure analysis of melittin interacting with the outer membrane; location and conformation of melittin associated with the KLA-POPE bilayer; deconvolution of the amide I' mode in melittin; PM IRRA spectra of the KLA-POPE bilayer after interaction with 1 μM melittin; and determination of the helix tilt angle from the PM IRRA spectra (PDF)</p><p>■ AUTHOR <ref type="bibr">INFORMATION</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (A) Molecular rendering of melittin in a solvated membrane system. The carbon, oxygen, and nitrogen atoms of the peptide are shown in cyan, red, and blue, respectively. The different layers of the membrane, from bottom to top, are the hydrophilic heads (purple) and the acyl chains (cyan) in POPE phospholipids, the lipid A (orange), and the inner core saccharides (silver) in KLA. Ions of various types are displayed as yellow spheres. (B) Enlarged view of peptide melittin and its primary sequence. The amino acids with the maximum contribution to the interaction energy are shown in light blue, Proline (Pro), where the helix bend in melittin occurs, is highlighted in red. (C) The chemical structure of the membrane lipids KLA (top) and POPE (bottom). The phosphate groups and carboxylate groups in KLA are highlighted in red and blue, respectively.</figDesc><graphic coords="3,81.47,60.44,180.00,517.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Capacitance (C) versus potential (E) and membrane potential (E m ) of the KLA-POPE (a-c) bilayers on the Au(111) electrode surface. The measurements were done in the absence of melittin (a, black) after 15 min of interaction with 1 μM melittin (b, blue) and 15 min of interaction with 10 μM melittin (c, orange). Capacitance for the specially prepared LB-LS KLA:Mel (9:1 mol ratio)-POPE bilayer is shown (d, gray). Solid and dotted lines correspond to the negative and positive-going potential scans, respectively. Arrows show the directions of the potential scans. Thin black line: Capacitance of the unmodified Au(111) electrode. 50 mM KClO 4 and 5 mM Mg(ClO 4 ) 2 was used as the electrolyte solution.</figDesc><graphic coords="3,345.43,60.44,180.00,161.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Interaction energy E B between melittin and the KLA-POPE membrane calculated for the simulations Sim. 1, Sim. 2, and Sim. 3. (A) Temporal evolution of E B . (B) Time-averaged values of E B were computed for each individual amino acid residue in the peptide. The standard deviations are shown as error bars. (C) Binary probabilities of the C-/N-terminus of melittin binding to the membrane in the three simulations.</figDesc><graphic coords="4,122.23,60.43,362.38,353.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (A) Rendering of a phosphate group in the lipid A part of a carboxylate group in the inner core in KLA in close proximity to the Nterminus of melittin. The nitrogen, carbon, phosphorus, oxygen, and hydrogen atoms are shown in blue, cyan, ocher, red, and white, respectively. The minimal distances to the carboxylate group and to the phosphate group are labeled d POd 3 and d COd 2 , respectively, and are highlighted in blue and orange. The angle γ between atoms forming the hydrogen bond is indicated. (B) Probability density distributions for the d POd 3 and d COd 2 distances corresponding to the formed hydrogen bonds with the involved groups in the case of Sim. 2. (C) Probability density of the angle between the atoms involved in hydrogen bond formation. The angular window relevant to hydrogen bond formation is indicated in red. (D) The hydrogen bond time autocorrelation function, see eq 3, is of the phosphate group C POd 3 (τ) and the carboxylate group C COd 2 (τ).</figDesc><graphic coords="5,93.43,60.44,419.98,212.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. IR spectra of KLA-POPE bilayer systems (thick lines) after the interaction with melittin. The left spectrum in the upper panel shows an ATR IR spectrum of KLA-POPE vesicles after 60 min interaction with 4.4 × 10 -4 M melittin. Other figures show the PM IRRA spectra of KLA-POPE bilayers after 15 min of interaction with melittin (blue lines) recorded at different electrode potentials. The upper and lower panels show results for the negative and positive scans, respectively. Thin black lines show the band deconvolution results. The bands highlighted in gray show the amide I' mode of α-helices in melittin. Measurements were carried out for 1 μM melittin in 50 mM KClO 4 and 5 mM Mg(ClO 4 ) 2 in D 2 O. The absorbance is shown in arbitrary units.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. IR spectra of KLA-POPE bilayers on Au(111) after 15 min of interaction with melittin (orange lines) recorded at different electrode potentials. The upper and lower panels show results for the negative and positive scans, respectively. Thin black lines show the band deconvolution results. The bands highlighted in gray show the amide I' mode of α-helices in melittin. Measurements were carried out for 10 μM melittin in 50 mM KClO 4 and 5 mM Mg(ClO 4 ) 2 in D 2 O. The absorbance is shown in arbitrary units.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Electrode potential dependence of the tilt angle of the long helix axis in melittin with respect to the KLA-POPE bilayer surface normal. The measurements were done for different melittin concentrations and incubation times as (A) 1 μM for 15 min, (B) 1 μM for 60 min, and (C) 10 μM for 15 min. The electrolyte solution contained 50 mM KClO 4 and 5 mM Mg(ClO 4 ) 2 in D 2 O. Full and empty symbols indicate the tilt angles determined from negative and positive potential scans, respectively. The blue line in panel A shows the tilt of the helix in melittin obtained from the MD simulations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Order parameter (S CD ) of the perdeuterated palmitoyl chain in the KLA-d 31 -POPE bilayer (black squares) and the order parameter for the bilayer exposed to 10 μM melittin for 15 min (orange squares). The electrolyte solution contained 50 mM KClO 4 and 5 mM Mg(ClO 4 ) 2 in H 2 O. Full and empty symbols indicate the order parameter values determined from negative and positive potential scans, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Schematic representation of the simulation procedure. The melittin peptide was equilibrated for 200 ns and solvated in a cubic water box. The resulting peptide conformation was used for four consecutive simulations. The peptide was placed on top of the equilibrated membrane in three different orientations facing the membrane's surface: (A) with the bend in the peptide's middle part, Sim. 1; (B) with its C-terminus, Sim. 2; and (C) N-terminus, Sim. 3. An independent control simulation of melittin without a membrane solvated in a cubic water box was also carried out (upper panel). Water is omitted from the graphical representations for clarity.</figDesc><graphic coords="12,93.43,60.44,419.98,233.97" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://doi.org/10.1021/acsinfecdis.3c00673 ACS Infect. Dis. 2024, 10, 763-778</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Corresponding <rs type="funder">Authors Ilia A. Solov'yov -Institute of Physics, Carl von Ossietzky University of Oldenburg</rs>, 26111 Oldenburg, Germany; <rs type="institution">Research Center Neurosensory Science and CeNaD�Center for Nanoscale Dynamics</rs>, <rs type="funder">Carl von Ossietzky University of Oldenburg</rs>, 26111 Oldenburg, Germany; orcid.org/<rs type="grantNumber">0000-0002-8626-145X</rs>; Email: izabella.brand@uni-oldenburg.de <rs type="funder">Izabella Brand -Department of Chemistry, Carl von Ossietzky University of Oldenburg</rs>, 26111 Oldenburg, Germany; orcid.org/<rs type="grantNumber">0000-0002-7710-0021</rs>; Email: ilia.solovyov@uni-oldenburg.de ■ ACKNOWLEDGMENTS The authors would like to thank the <rs type="funder">Volkswagen Foundation</rs> (Lichtenberg professorship awarded to I.A.S.), the <rs type="funder">Deutsche Forschungsgemeinschaft</rs> (<rs type="programName">SFB 1372 Magnetoreception and Navigation in Vertebrates</rs>, no. <rs type="grantNumber">395940726</rs>, and <rs type="funder">HYP*MOL� Hyperpolarization in molecular systems)</rs> (<rs type="grantNumber">TRR386/1-2023</rs>, no. <rs type="grantNumber">514664767</rs> to I.A.S. <rs type="grantNumber">BR-3961/4</rs> to IB), the <rs type="funder">Ministry for Science and Culture of Lower Saxony</rs> "Simulations Meet Experiments on the Nanoscale: Opening up the <rs type="projectName">Quantum World to Artificial Intelligence (SMART)</rs>" and "<rs type="programName">Dynamik auf der Nanoskala: Von kohärenten Elementarprozessen zur Funktionalität (DyNano)</rs>". Computational resources for the simulations were provided by the <rs type="institution">CARL Cluster at the Carlvon-Ossietzky University, Oldenburg</rs>, supported by the <rs type="funder">DFG</rs> and the <rs type="funder">Ministry for Science and Culture of Lower Saxony</rs>.</p><p>The authors also gratefully acknowledge the computing time granted by the <rs type="institution">Resource Allocation Board</rs> and provided on the supercomputer Lise and Emmy at NHR@ZIB and <rs type="institution">NHR@ Göttingen</rs> as part of the NHR infrastructure. The calculations for this research were conducted with computing resources under the project <rs type="grantNumber">nip00058</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_q6AmHpf">
+					<idno type="grant-number">0000-0002-8626-145X</idno>
+				</org>
+				<org type="funding" xml:id="_B6fQQAN">
+					<idno type="grant-number">0000-0002-7710-0021</idno>
+				</org>
+				<org type="funding" xml:id="_tVycA8B">
+					<idno type="grant-number">395940726</idno>
+					<orgName type="program" subtype="full">SFB 1372 Magnetoreception and Navigation in Vertebrates</orgName>
+				</org>
+				<org type="funding" xml:id="_bMSBuz8">
+					<idno type="grant-number">TRR386/1-2023</idno>
+				</org>
+				<org type="funding" xml:id="_AQjaHXd">
+					<idno type="grant-number">514664767</idno>
+				</org>
+				<org type="funded-project" xml:id="_H5DdNG8">
+					<idno type="grant-number">BR-3961/4</idno>
+					<orgName type="project" subtype="full">Quantum World to Artificial Intelligence (SMART)</orgName>
+					<orgName type="program" subtype="full">Dynamik auf der Nanoskala: Von kohärenten Elementarprozessen zur Funktionalität (DyNano)</orgName>
+				</org>
+				<org type="funding" xml:id="_aP32vBy">
+					<idno type="grant-number">nip00058</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors</head><p>Justus C. Stephani  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>The authors declare no competing financial interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Synergy by perturbing the Gram-negative outer membrane: Opening the door for Gram-positive specific antibiotics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M J</forename><surname>Wesseling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsinfecdis.2c00193?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1731" to="1757" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Improvement of therapeutic index by the combination of enhanced peptide cationicity and proline introduction</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Azuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Choda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Odaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsuzaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsinfecdis.0c00387?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2271" to="2278" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Applications and evolution of melittin, the quintessential membrane active peptide</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Ferrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ghimire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Wiedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hristova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Wimley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bcp.2021.114769?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="issue">114769</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mechanistic Landscape of Membrane-Permeabilizing Peptides</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ghimire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Wimley</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.8b00520?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="6040" to="6085" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Helicity modulation improves the selectivity of antimicrobial peptoids</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kyeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jenssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsinfecdis.0c00356?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2732" to="2744" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Antimicrobial peptides: Pore formers or metabolic inhibitors in bacteria?</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Brogden</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro1098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="238" to="250" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Basis for selectivity of cationic antimicrobial peptides for bacterial versus mammalian membranes</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Glukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Burrows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Deber</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M507042200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="33960" to="33967" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The lipopeptide antibiotic paenibacterin binds to the bacterial outer membrane and exerts bactericidal activity through cytoplasmic membrane damage</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Yousef</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.03775-13</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="2700" to="2704" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Amyloid peptides with antimicrobial and/or microbial agglutination activity</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-022-12246-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="7711" to="7720" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Peptide-membrane interactions and mechanisms of membrane destruction by amphipathic α-helical antimicrobial peptides</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Feix</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2006.02.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1758</biblScope>
+			<biblScope unit="page" from="1245" to="1256" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Thanatin targets the intermembrane protein complex required for lipopolysaccharide transport in Escherichia coli</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Vetterli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zerbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Urfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mondal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Moehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zerbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vitale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pessi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Eberl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wollscheid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aau2634?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>No. eaau2634, DOI: 10.1126/ sciadv.aau2634</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">NMR structures and interactions of antimicrobial peptides with lipopolysaccharides: Connecting structures to functions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharjya</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1568026615666150703121943</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Top. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="4" to="15" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The expanding scope of anitmicrobial peptide structures and their modes of action</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Haney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Vogel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tibtech.2011.05.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="464" to="472" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">AMPs and OMPs: Is the folding and bilayer insertion of β-stranded outer membrane proteins governed by the same biophysical principles as for α-helical antimicrobial peptides?</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Strandberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Ulrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2015.02.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1848</biblScope>
+			<biblScope unit="page" from="1944" to="1954" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Cooperative antimicrobial action of melittin on lipid membranes: A coarse-grained molecular dynamics study</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Miyazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shinoda</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2022.183955</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1864</biblScope>
+			<date type="published" when="2022">2022. 183955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Interaction of the antimicrobial peptide melimine with bacterial membranes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rasul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Balasubramaniand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D P</forename><surname>Willcox</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijantimicag.2010.02.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Antimicrob. Agents</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="566" to="572" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Interactions of an antimicrobial peptide, magainin 2, with outer and inner membranes of Gram-negative bacteria</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsuzaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Sugishita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyajima</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0005-2736(97)00051-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1327</biblScope>
+			<biblScope unit="page" from="119" to="130" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Hymenoptera Insect Peptides</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Palma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Biologically Active Peptides</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Kastin</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="416" to="422" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The structure of melittin in the form I crystals and its implication for melittin&apos;s lytic and surface activities</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Terwilliger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Weissman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eisenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(82)84683-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="353" to="361" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Conformation and dynamics of melittin bound to magnetically oriented lipid bilayers by solid-state 31P and 13C NMR spectroscopy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Naito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Norisada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mizuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tuzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Saito</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(00)76784-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="2405" to="2417" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Atomic force microscopy and electrochemical studies of melittin action on lipid bilayers supported on gold electrodes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Juhaniewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.electacta.2014.10.039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="53" to="61" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G.-R</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules24091775?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">How Melittin Inserts into Cell Membrane: Conformational Changes, Inter-Peptide Cooperation, and Disturbance on the Membrane. Molecules</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1775</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Orientation of melittin in phospholipid bilayers: A polarized attenuated total reflection infrared study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Tamm</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(91)82126-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="922" to="930" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Infrared reflection-absorption of melittin interaction with phospholipid monolayers at the air/water interface</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Flach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Prendergast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mendelsohn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(96)79600-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="539" to="546" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Antimicrobial peptides in action</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Leontiadou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Mark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Marrink</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja062927q?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="12156" to="12161" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The electrical response of bilayers to the bee venom toxin melittin: Evidence for transient bilayer permeabilization</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wiedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Searson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Wimley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hristova</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2013.01.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1828</biblScope>
+			<biblScope unit="page" from="1357" to="1364" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Interaction of cecropin B with zwitterionic and negatively charged lipid bilayers immobilized at gold electrode surface</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Juhaniewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Szyk-Warszynska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Warszynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.electacta.2016.04.080</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page" from="206" to="217" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Lipid headgroup charge controls melittin oligomerization on membranes: Implications in membrane lysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chattopadhyay</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.1c02499?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys.Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="8450" to="8459" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Garde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Chodisetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Peptidoglycan</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/ecosalplus.ESP-0010-2020?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structure, synthesis, and regulation EcoSal Plus</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Peptidoglycan structureandarchitecture</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vollmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Blanot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>De Pedro</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1574-6976.2007.00094.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="149" to="167" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Quantitative determination of ion distributions in bacterial lipopolysaccharide membranes by grazing-incidence X-ray fluorescence</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Konovalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gutsmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brandenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Oloviera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Pink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0913737107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="9147" to="9151" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Calcium ions induce collapse of charged O-side chains of lipopolysaccharides from Pseudomonas aeruginosa</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papp-Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Konovalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Beveridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Pink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsif.2009.0190.focus</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Soc., Interface</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="671" to="S678" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">An accurate in vitro model of the E. coli envelope</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Clifton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Daulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Arunmanee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Heinrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khalid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jefferies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Charlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R P</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Kinane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lakey</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201504287?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="11952" to="11955" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Effect of divalent cation removal on the structure of Gram-negative bacterial outer membrane models</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Clifton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W A</forename><surname>Skoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Le Brun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciesielski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kuzmenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lakey</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la504407v?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="404" to="412" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Structural changes in the model of the outer cell membrane of Gram-negative bacteria interacting with melittin: an in situ spectroelectrochemical study</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Khairalla</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/D0FD00039F</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Faraday Discuss</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page" from="68" to="85" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">It is complicated: Curvature, diffusion, and lipid sorting within the two membranes of Escherichia coli</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Samsudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shearer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khalid</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpclett.7b02432?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="5513" to="5518" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Molecular simulations of gram-negative bacterial membranes come of age</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khalid</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-physchem-103019-033434</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="171" to="188" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Through the lipopolysaccharide glass: A potent antimicrobial peptide induces phase changes in membranes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jefferies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khalid</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.biochem.6b01063?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemisty</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1672" to="1679" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Atomistic and coarse grain simulations of the cell envelope of gram-negative bacteria: What have we learned</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khalid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Piggot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Samsudin</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.accounts.8b00377?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="180" to="188" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">What have molecular simulations contributed to understanding of Gram-negative bacterial cell envelopes? Microbilogy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khalid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Duncan</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/mic.0.001165</idno>
+		<idno>No. 001165</idno>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">168</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Developing a coarse-grained model for bacterial cell walls: Evaluating mechanical properties and free energy barriers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vaiwala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Puranik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Ayappa</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.0c00539?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="5369" to="5384" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A molecular dynamics study of antimicrobial peptide interactions with the lipopolysaccharides of the outer bacterial membrane</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Ayappa</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00232-022-00258-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Membr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="665" to="675" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Distinct intramolecular hydrogen bonding dictates antimicrobial action of membrane-targeting amphiphiles</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Bhavesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khalid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thukral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bajaj</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpclett.8b03508?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys.Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="754" to="760" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Lipopolysaccharide-bound structure of the antimicrobial peptide cecropin P1 determined by nuclear magnetic resonance spectroscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Baek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kamiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kushibiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakazumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tomisawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kumaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kikukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Demura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawanoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aizawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/psc.2865</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Pept. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="214" to="221" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Salmonella membrane structural remodeling increases resistance to antimicrobial peptide LL-37</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Martynowycz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Andreev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Nobre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kuzmenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wereszczynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gidalevitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsinfecdis.9b00066?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1214" to="1222" />
+		</imprint>
+		<respStmt>
+			<orgName>ACS Infect. Dis</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Structure and interactions of A host defense antimicrobial peptide thanatin in lipopolysaccharide micelles reveal mechanism of bacterial cell agglutination</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharjya</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsinfecdis.3c00673?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<ptr target="https://doi.org/10.1021/acsinfecdis.3c00673ACSInfect.Dis.2024" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">17795</biblScope>
+			<biblScope unit="page" from="763" to="778" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Structure-activity relationships of the bacteriocin bactofencin A and its interaction with the bacterial membrane</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bédard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fliss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Biron</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsinfecdis.8b00204?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="199" to="207" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Bacteria-responsive self-assembly of antimicrobial peptide nanonets for trap-and-kill of antibiotic-resistant strains</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D T</forename><surname>Tram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Obanel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mayandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Selvarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Barathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lakshminarayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Ee</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.202210858</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2023">2023. 2210858</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Membrane potentials trigger molecularscale rearrangements in the outer membrane of Gram-negative bacteria</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Khairalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brand</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.1c02820?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="446" to="457" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Pore forming properties of alamethicin in negatively charged floating bilayer lipid membranes supported on gold electrodes</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alvarez-Malmagro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">F</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Leitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lipkowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.8b02554?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="13754" to="13765" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Biological Membranes and Membrane Mimics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hanik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bioelectrochemistry Fundamentals, Experimental Techniques and Applications</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Dipole potentials of monolayers of phosphatidylcholine, phosphatidylserine and phosphatidic acid on mercury</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Bartlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Ed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">&amp;</forename><surname>Wiley</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Becucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Moncelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Herrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guidelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la000039h?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="7694" to="7700" />
+			<date type="published" when="2000">2008. 2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">On the dielectric &quot;constant&quot; of proteins: Smooth dielectric function for macromolecular modeling and its implementation in DelPhi</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alexov</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ct400065j?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2126" to="2136" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Folding free-energy landscape of villin headpiece subdomain from molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Duan</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0608432104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="4925" to="4930" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Trp-cage: Folding free energy landscape in explicit water</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.2233312100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="13280" to="13285" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A multiscale approach to model hydrogen bonding: The case of polyamide</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Gowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Carbone</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4922445</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<date type="published" when="2015">2015. 224907</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">How melittin Inserts into cell membrane: Conformational changes, interpeptide cooperation, and disturbance on the membrane</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules24091775?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1775</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Attenuated total reflectance Fourier transform infrared studies of the interaction of melittin, two fragments of melittin, and .delta.-hemolysin with phosphatidylcholines</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brauner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mendelsohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Prendergast</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00399a020?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemisty</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="8151" to="8158" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Structural and thermodynamic analyses of the interaction between melittin and lipopolysaccharide</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bhunia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Domadia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharjya</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2007.07.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1768</biblScope>
+			<biblScope unit="page" from="3282" to="3291" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Conformational changes of melittin upon insertion into phospholipid monolayer and vesicle</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/oxfordjournals.jbchem.a124550</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="482" to="487" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Conformational changes and association of membrane-interacting peptides in myelin membrane models: A case of the C-terminal peptide of proteolipid protein and the antimicrobial peptide melittin</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Appadu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jelokhani-Niaraki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Debruin</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.5b07375?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="14821" to="14830" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Structure of collagen adsorbed on a model implant surface resolved by polarization modulation infrared reflection-absorption spectroscopy</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Habecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ahlers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kluner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.saa.2014.11.031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Spectrochim. Acta, Part A</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="216" to="224" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Infrared study of the effect of hydration on the amide I band and aggregation properties of helical peptides</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gai</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp0689060?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="4596" to="4602" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Application of Polarization Modulation Infrared Reflection Absorption Spectroscopy in Electrochemistry</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brand</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>Springer Nature</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">dynamic structure of fatty acyl chains in a phospholipid bilayer measured by deuterium magnetic resonance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seelig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seelig</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00720a024?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemisty</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="4839" to="4845" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Structure and dipole moment of melittin molecules in butanol/water as derived from dielectric dispersion and circualr dichroism</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schwarz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0167-4838(83)90048-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Protein Struct. Mol. Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">745</biblScope>
+			<biblScope unit="page" from="189" to="193" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Kinetics of melittin selfassociation in aqueous solution</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Beschiaschvili</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00420a036?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="7826" to="7831" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Scalable molecular dynamics with NAMD</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gumbart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tajkhorshid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Villa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chipot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Skeel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20289</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1781" to="1802" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">NAMD: A parallel, object-oriented molecular dynamics program</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gursoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dalke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Skeel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/109434209601000401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Supercomput. Appl. High Perform. Comput</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="251" to="268" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Jr CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Mackerell</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.23354</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2135" to="2145" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation on Six Lipid Types</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Klauda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Venable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Freites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tobias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mondragon-Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vorobyov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A D</forename><surname>Mackerell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Pastor</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp101759q?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys.Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="7830" to="7843" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Optimization of the Additive CHARMM All-Atom Protein Force Field Targeting Improved Sampling of the Backbone Phi, Psi and Side-Chain Chi1 and Chi2 Dihedral Angles</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E M</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mittal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A D</forename><surname>Mackerell</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ct300400x?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="3257" to="3273" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Comparison of simple potential functions for simulating liquid water</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Jorgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chandrasekhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Madura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Impey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Klein</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.445869</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="926" to="935" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Introducing VIKING: A novel online platform for multiscale modeling</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Korol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Husen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sjulstok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Friis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frederiksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Solov'yov</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsomega.9b03802?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Omega</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1254" to="1260" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">CHARMM: The biomolecular simulation program</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Iii; Mackerell</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Petrella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Won</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Archontis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boresch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caflisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Dinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hodoscek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuczera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lazaridis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ovchinnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Paci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Pastor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Post</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schaefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tidor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Venable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Woodcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karplus</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.21287?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1545" to="1614" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Automated Builder and Database of Protein/Membrane Complexes for Molecular Dynamics Simulations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Im</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0000880</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>e880</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Swails</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Yeom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Eastman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lemkul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buckner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Pande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Iii; Mackerell</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Klauda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Im</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.5b00935?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="405" to="413" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Landau sampling of the interplay between surface adsorption and folding of HP lattice proteins</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Landau</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/08927022.2013.847273</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Simul</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="640" to="655" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">CHARMM-GUI Membrane Builder for Mixed Bilayers and Its Application to Yeast Membranes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Jeffery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wonpil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2009.04.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="50" to="58" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">CHARMM-GUI Membrane Builder for Complex Biological Membrane Simulations with Glycolipids and Lipoglycans</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ståhle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Kern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Valvano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Holst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Knirel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Klauda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Widmalm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Im</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.8b01066?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="775" to="786" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Knowledge-based protein secondary structure assignment</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Frishman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Argos</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.340230412</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Struct. Funct. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="566" to="579" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">VMD: Visual Molecular Dynamics</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dalke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0263-7855(96)00018-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Graphics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="33" to="38" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Announcing the worldwide Protein Data Bank</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Henrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nsb1203-980?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">980</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">The protein data bank</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gilliland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weissig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Shindyalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Bourne</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/28.1.235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="235" to="242" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eisenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gribskov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Terwilliger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Melittin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<publisher>Protein Data Bank</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Constant pressure molecular dynamics simulation: The Langevin piston method</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Feller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Pastor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Brooks</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.470648</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="4613" to="4621" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Die Berechnung optischer und elektrostatischer Gitterpotentiale</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Ewald</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/andp.19213690304</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Phys</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="page" from="253" to="287" />
+			<date type="published" when="1921">1921</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

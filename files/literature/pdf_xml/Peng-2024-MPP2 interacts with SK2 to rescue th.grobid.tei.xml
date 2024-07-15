@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">MPP2 interacts with SK2 to rescue the excitability of glutamatergic neurons in the BLA and facilitate the extinction of conditioned fear in mice</title>
+				<funder ref="#_89sxCdf #_fmYcWtV #_KBYAg2K #_kMDfErc #_T22QygJ #_QEUA34q">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Xiaohan</forename><surname>Peng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NMPA Key Laboratory for Research and Evaluation of Narcotic and Psychotropic Drugs</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Panpan</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0002-7994-894X</idno>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Anesthesiology Department</orgName>
+								<orgName type="institution">Jiangsu Province Hospital</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yang</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NMPA Key Laboratory for Research and Evaluation of Narcotic and Psychotropic Drugs</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ke</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NMPA Key Laboratory for Research and Evaluation of Narcotic and Psychotropic Drugs</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ningning</forename><surname>Ji</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NMPA Key Laboratory for Research and Evaluation of Narcotic and Psychotropic Drugs</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jinghua</forename><surname>Gao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NMPA Key Laboratory for Research and Evaluation of Narcotic and Psychotropic Drugs</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hui</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yong-Mei</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NMPA Key Laboratory for Research and Evaluation of Narcotic and Psychotropic Drugs</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tie</forename><surname>Xu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Jiangsu Province Key Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Emergency Medicine Department</orgName>
+								<orgName type="institution">The Affiliated Hospital of Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Emergency</roleName><forename type="first">Rong</forename><surname>Hua</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Emergency Medicine Department</orgName>
+								<orgName type="institution">The Affiliated Hospital of Xuzhou Medical University</orgName>
+								<address>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yong-Mei</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jiangsu</forename><forename type="middle">Province</forename><surname>Key</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Medicine Department</orgName>
+								<orgName type="institution">The Affiliated Hospital of Xuzhou Medical University</orgName>
+								<address>
+									<postCode>221000</postCode>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="laboratory">Laboratory of Anesthesiology</orgName>
+								<orgName type="institution">Xuzhou Medical University</orgName>
+								<address>
+									<postCode>221000</postCode>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">MPP2 interacts with SK2 to rescue the excitability of glutamatergic neurons in the BLA and facilitate the extinction of conditioned fear in mice</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">208B4249014D6E84569627EB42BFF024</idno>
+					<idno type="DOI">10.1111/cns.14362</idno>
+					<note type="submission">Received: 6 September 2022 | Revised: 29 May 2023 | Accepted: 3 July 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>basolateral amygdala</term>
+					<term>membrane palmitoylated protein2</term>
+					<term>PKA</term>
+					<term>PTSD</term>
+					<term>SK2 channels</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aims:</head><p>The basolateral amygdala (BLA) plays an integral role in anxiety disorders (such as post traumatic stress disorder) stem from dysregulated fear memory. The excitability of glutamatergic neurons in the BLA correlates with fear memory, and the afterhyperpolarization current (I AHP ) mediated by small-conductance calcium-activated potassium channel subtype 2 (SK2) dominates the excitability of glutamatergicneurons. This study aimed to explore the effect of MPP2 interacts with SK2 in the excitability of glutamatergic neurons in the BLA and the extinction of conditioned fear in mice.</p><p>Methods: Fear memory was analyzed via freezing percentage. Western blotting and fluorescence quantitative PCR were used to determine the expression of protein and mRNA respectively. Electrophysiology was employed to measure the excitability of glutamatergic neurons and I AHP .</p><p>Results: Fear conditioning decreased the levels of synaptic SK2 channels in the BLA, which were restored following fear extinction. Notably, reduced expression of synaptic SK2 channels in the BLA during fear conditioning was caused by the increased activity of protein kinase A (PKA), while increased levels of synaptic SK2 channels in the BLA during fear extinction were mediated by interactions with membranepalmitoylated protein 2 (MPP2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions:</head><p>Our results revealed that MPP2 interacts with the SK2 channels and rescues the excitability of glutamatergic neurons by increasing the expression of synaptic SK2 channels in the BLA to promote the normalization of anxiety disorders and provide a new direction for the treatment.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUC TI ON</head><p>Amygdala is an almond-shaped cluster of nuclei located deeply and medially within the temporal lobes of the brain in complex vertebrates and modulates emotion, mood, memory, and cognition. The basolateral amygdala (BLA), which is divided into the lateral amygdala (LA) and basal amygdala (BA), as one of the main component of the amygdala, plays an important role in the regulation of emotion, memory, and anxiety disorders. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> Altered the excitability of glutamatergic neurons in BLA is surveyed in the pathophysiology of anxiety, depression, memory impairments, and post-traumatic stress disorders (PTSDs). <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> Fear memory has attracted much attention because of its close relationship with psychological trauma. In recent years, fear conditioning and extinction have been widely used to assess fear memory, in which foot shock is considered a kind of traumatic stress to acquire fear. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> Understanding the factors that reduce fear memory may help patients with emotional disorders recover their normal lives and reduce the social medical burden. The mechanism of fear extinction is still unclear.</p><p>SK2 channels are well known for their role in glutamatergic function and reducing excitatory drive by augmenting the afterhyperpolarization phase of action potential. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> SK2 channels are one type of SK channel, a group of potassium channels with a conductivity value of only 10-20 ps. Immunohistochemical results showed that the SK2 channel protein was mainly expressed in the BLA, but SK1 and SK3</p><p>were almost undetectable. <ref type="bibr" target="#b9">10</ref> Ultrastructural analysis showed that SK2 channels localize to the postsynaptic density (PSD) of neuronal dendritic spines. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> The SK2 channel specifically mediates medium hyperpolarizing potential (mAHP), which reduces the excitability of neurons through a decrease in the firing rate. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> The specific location of the SK2 channel along the neuronal surface is associated with the regulation of mAHP; in addition, mAHP is almost completely produced by postsynaptic mechanisms. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> Cytoplasmic protein kinase A (PKA) regulates cell signaling and the function of neurons by phosphorylating ion channels. The subcellular distribution and function of the SK2 channel are affected by direct PKA-mediated phosphorylation. PKA-mediated phosphorylation of three serine residues (Ser568-570) in the C-terminal domain of the SK2 channel leads to endocytosis of the synaptic SK2 channel. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> PKA attenuates mAHP, which is specifically mediated by the SK2 channel, by reducing the expression of the SK2 channel at synapses. Membrane palmitoylated protein 2 (MPP2/p55) is a member of the MAGUK family. Membrane-associated guanylate kinases (MAGUKs) are categorized as scaffold proteins that have many roles in regulating synaptic function and structure and the location and function of synaptic receptors. A recent study indicated that MPP2 and SK2 channels are highly co-expressed in the PSD of dendritic spines on hippocampal CA1 pyramidal neurons. A complex of the SK2 channel (N-terminal) and MPP2 (SH3-GK domain) in the brains of mice was identified. The SK2 channel contribution to synaptic responses was abolished by downregulating MPP2 expression. In addition, the knockdown of MPP2 expression decreased LTP. <ref type="bibr" target="#b18">19</ref> Here, we used paired CS-US and CS alone (unpaired US) to establish the models of conditioned fear memory conditioning and extinction. We hypothesized that PKA phosphorylates the SK2 channel, resulting in endocytosis of the SK2 channel and a decrease in its expression at the synaptic, which promotes the fear response.</p><p>During fear extinction, the expression and function of synaptic MPP2 increase, resulting in an increase in the number of postsynaptic SK2 channels, which inhibit the fear response. By studying the expression, distribution, and molecular mechanism of the SK2 channel in the process of fear memory, the results will clarify that the modulation of the SK2 channel is an important neurobiological mechanism for fear memory in individuals with PTSD and provide a target for clinical translation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIAL S AND ME THODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Animal care</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Delay fear conditioning and extinction</head><p>The conditioned fear box had two different contexts, context A and context B. Context A had black polyester walls and a stainless-steel fence floor. Context B (different backgrounds, smell, and light) had white polyester fiber walls and a smooth white polyester fiber floor.</p><p>Behavioral procedures were performed and improved (foot shock of 1 mA) based on previously described methods by another lab. <ref type="bibr" target="#b19">20</ref> After a day of habituation, 30 min later each mouse was permitted to freely explore Context A during a 10-min context pre-exposure session. On the second day, after 30 min in the behavioral laboratory, each mouse was put into context A for three pairs of CS (sound stimulation, 30S, 90Db, 8000 Hz)-US (foot shock, 1 s, 1 mA). On the following day, each mouse was placed in context B for 20 times CS, these mice were fear extinction group. The mice only received three pairs of CS-US were fear conditioning group, and the mice in the control group only received CS (Figure <ref type="figure" target="#fig_1">1A</ref>). We used the percentage of freezing to represent the fear response to evaluate fear memory. The freezing behavior was digitally scored and all testing was performed using the Near Infrared Fear Conditioning System (Med Associates, St. Albans, VT). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Determination of freezing behavior</head><p>After 24 h of fear conditioning, the mice were tested for their fear response, which was freezing behavior. The mice were placed in the behavioral laboratory for adaptation for 30 min, and then placed in context A for 5 min without (any) tone, and the freezing time was observed to test the mouse fear responses as the contextual fear memory test. Before the test, 75% alcohol was used to clean the test box. Two hours later, the mice were placed in context B to freely explore context B 60 s, then received CS (30 s) for the observation of their freezing behavior, which was used as a cued test of fear memory. Before the test, the test box was cleaned with 10% acetic acid. The freezing behavior was also digitally scored and performed using the Near Infrared Fear</p><p>Conditioning System (Med Associates, St. Albans, VT).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Immunofluorescence staining</head><p>Male mice were deeply anesthetized followed by serial intracardial perfusions with 0.9% saline (100 mL/100 g), and 4% polyformaldehyde in phosphate buffer (100 mL/100 g). Whole brains were rapidly dissected and postfixed with 4% polyformaldehyde at 4°C overnight and cryoprotected with 30% sucrose at 4°C. Then, the brain tissues were embedded, frozen in OCT at -20°C, and sectioned into 30μm slices using a Leica microtome. Brain sections were permeabilized with 0.1% Triton X-100 in PBS, blocked with 5% normal bovine serum in PBS, and incubated with primary antibodies anti-CaMKII-ɑ (1:1000, Invitrogen, USA), anti-c-Fos (1:1000, Abcam, USA) or anti-SK2 (1:100, Alomone labs, Israel) at 4°C overnight. Subsequently, the brain slices were rinsed three times, incubated with an Alexa Fluor 488-conjugated anti-rabbit (1:1000, Invitrogen, USA) or Alexa Fluor 594-conjugated anti-mouse antibody (1:1000, Invitrogen, USA) at r/t for 2 h, and mounted on positively charged slides. Images were obtained with a confocal laser scanning microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Chemogenetic tagging of glutamatergic neurons in the BLA region</head><p>Glutamatergic neurons in the BLA region were labeled with rAVV-CaMKIIα-hM4D(Gi)-mCherry-WPRE-pA (BrainVTA, China) or rAVV-CaMKIIα-mCherry-WPRE-pA. hM4D(Gi) (BrainVTA, China) was activated by the selective ligand clozapine-N-oxide (CNO, i.p.), which was dissolved in 2% DMSO and diluted in sterile saline to a final injection volume of 0.3 mL/kg. Mice undergoing administration of CNO were assessed for fear conditioning or extinction 60 min after injection. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| Optogenetic tagging of glutamatergic neurons in the BLA region</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">| Western blotting analysis</head><p>The BLA was prepared for western blotting analysis using Syn-PER Synaptic Protein Extraction Reagent (Thermo Fisher, USA), resulting in both a functional synaptosome fraction and a cytosolic fraction. <ref type="bibr" target="#b20">21</ref> The protein concentration was determined by using BCA. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SDS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8">| Electrophysiological recording</head><p>After injecting rAAV-CaMKIIa-mCherry-WPRE-pA (BrainVTA, China) into the BLA, the mice were fed normally for 3 weeks. One hour after fear conditioning or extinction, 10% chloral hydrate (300 mg/kg) was intraperitoneally injected, and 20 mL of precooled high sugar slicing liquid was injected with a 20 mL syringe for perfusion. After perfusion, the brain tissue of the mice was quickly removed, and the whole brain tissue was immersed in the precooled high sugar slicing solution for 2-3 min. The brain slices containing the BLA area were incubated in a 34°C high sugar solution for 1 h at room temperature for 30 min and then transferred to the perfusion tank of the electrophysiological operation platform for recording.</p><p>As per our previously published methods, the whole-cell recording was used to observe stepped firing rates, electrophysiological patch clamp was performed to record the changes of I AHP on glutamatergic pyramidal neurons in BLA. <ref type="bibr" target="#b21">22</ref> The pyramidal neurons which we recorded had a pyramidal-like firing pattern with strong spike-frequency adaptation and a prom- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.10">| Stereotactic microinjection</head><p>We anesthetized the mouse with 1.5% isoflurane and implanted a </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.11">| Co-immunoprecipitation</head><p>The BLA was extracted and lysed with IP lysis buffer (Beyotime, China). The lysate was centrifuged at 13,000 rpm for 10 min at 4°C.</p><p>The supernatant was incubated with the indicated anti-SK2 antibody (1:50, Alomone labs, Israel) overnight at 4°C with rotation.</p><p>Then, 30 μL of Protein A/G agarose beads (Thermo Scientific) were added and incubated for 3 h. The beads were washed three times with IP lysis buffer; then, 20 μL of 2X SDS loading buffer was added and boiled for 10 min. Bound and eluted proteins were subsequently separated on SDS-PAGE gels and transferred to PVDF membranes.</p><p>After blocking with 5% skim milk or 3% BSA for 2 h, the membrane was probed with the anti-MPP2 antibody (1:1000; Abcam, USA) overnight at 4°C. An HRP-conjugated secondary antibody was applied for 45 min. Blots were detected with the BeyoECL Moon kit and developed with an Image ProPlus image analysis system. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.12">| Drug treatment</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.13">| Statistics</head><p>The Shapiro-Wilk test was used to check whether the data were nor- for 20 CSs for fear of extinction. Cued and contextual fear memory were tested on the second day of fear acquisition (Figure <ref type="figure" target="#fig_1">1A,</ref><ref type="figure">B</ref>). From the second CS-US, the percentage of freezing in the Fear conditioning group was higher than that in the Control group, and as the number of CS-US increased, the percentage of freezing increased significantly (Figure <ref type="figure" target="#fig_1">1C</ref>). Through the contextual fear memory (Figure <ref type="figure" target="#fig_1">1D</ref>) and cued fear memory tests (Figure <ref type="figure" target="#fig_1">1E</ref>) we found that the freezing time of mice in the Fear conditioning group was higher than that of the Control group.</p><formula xml:id="formula_0">mally</formula><p>When fear extinction occurred, the percentage of freezing decreased with the increase in the number of CSs, and the difference was statistically significant from 11 to 20 CSs (Figure <ref type="figure" target="#fig_1">1F</ref>). Moreover, we measured the anxiety-like and depression-like behavior and recognition ability of the three groups of mice through behavioral experiments. The results</p><p>showed that the anxiety-like and depression-like behavior of the mice in the Fear conditioning group was stronger than that of the Fear extinction group and the Control group, while recognition ability was less than that of the other two groups (Supporting Information Figure <ref type="figure" target="#fig_1">S1</ref>).</p><p>In conclusion, we concluded that CS-US induced fear memory in mice, while repeated exposure to multiple CSs alone induced fear extinction on the second day.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Glutamatergic neurons in the BLA are activated during fear conditioning and extinction</head><p>We observed the excitability of glutamatergic neurons in the BLA during fear conditioning and extinction by performing immunofluorescence staining and recording the evoked firing rate and miniature excitability postsynaptic currents. First, we observed the co-expression of c-Fos and CaMAKII protein using immunofluorescence dual-labeling. The co-expression of c-Fos and CaMKIIα proteins was higher in the Fear extinction group than that in the Control group and lower than that in the Fear conditioning group, indicating that the excitability of glutamatergic neurons was increased through fear conditioning and restored during fear extinction (Figure <ref type="figure" target="#fig_4">2A,</ref><ref type="figure">B</ref>).</p><p>The percentage of CaMKII-positive neurons among c-Fos-positive neurons in the BLA was more than 80%, which indicated that most of the neurons activated by fear conditioning and fear extinction were glutamatergic neurons (Figure <ref type="figure" target="#fig_4">2A,</ref><ref type="figure">C</ref>). mCherry-labeled glutamatergic neurons were observed in the BLA by microinjecting rAVV-CaMKIIα-mCherry-WPRE-pA, which contains the CaMKIIα promoter (Figure <ref type="figure" target="#fig_4">2D</ref>). The evoked firing rate of glutamatergic neurons was observed using the whole-cell patch-clamp technique. With different injection currents, the evoked firing rate of glutamatergic neurons in the BLA of mice in the Fear extinction group was higher than that in the Control group and lower than that in the Fear conditioning group (Figure <ref type="figure" target="#fig_4">2E</ref>). No significant differences were found in the passive membrane properties of pyramidal glutamatergic neurons in the three groups of mice (Figure <ref type="figure" target="#fig_4">2F</ref>). As shown by whole-cell recording in brain slices, fear conditioning and extinction elicited miniature excitability postsynaptic currents in glutamatergic neurons (Figure <ref type="figure" target="#fig_4">2G</ref>).</p><p>We transduced BLA glutamatergic neurons with hM4Di fused to mCherry, or with the same viral vector carrying only mCherry using recombinant adeno-associated virus under the control of the CaMKIIα promoter to explore the effects of glutamatergic neurons in the BLA on fear memory in mice. CNO (0.3 mg/kg) was intraperitoneally injected to activate the virus 1 h before fear conditioning or extinction (Figure <ref type="figure" target="#fig_4">2H</ref>). mCherry-positive puncta were immunoreactive for anti-CaMKII (Figure <ref type="figure" target="#fig_4">2I</ref>), consistent with the localization of the virally expressed protein to glutamatergic neurons in the BLA.</p><p>In fear learning, the percentage of freezing time in the hM4Di group was similar to that in the Control group, indicating that chemoge- In summary, glutamatergic neurons in the BLA were hyperactivated during fear conditioning and this hyperactivation was rescued by fear extinction. Inhibition of this hyperactivation by chemogenetics and optogenetics reduced the fear response in contextual and cued fear memory and during fear extinction in mice.</p><formula xml:id="formula_1">netic</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| SK2 channels in glutamatergic neurons of the BLA are associated with fear conditioning and extinction</head><p>We first determined the expression of the SK2 channel in BLA glutamatergic neurons by performing immunofluorescence dual-labeling to investigate the relationship between the SK2 channel and glutamatergic neurons. Quantification of the expression of SK2 and CaMKII in BLA neurons showed that more than 80% of CaMKIIexpressing cells colocalized with SK2 + neurons, suggesting that most of the neurons expressing SK2 channel are glutamatergic neurons in the BLA (Figure <ref type="figure">3A</ref>). Then, we explored the expression of total SK2 channels by performing Western blotting and RT-PCR. Fear conditioning and extinction did not affect the expression of the total SK2 channel (Figure <ref type="figure">3B,</ref><ref type="figure">C</ref>). Next, we extracted synaptosome for Western blotting. The expression of synaptic SK2 channels was decreased in mice subjected to fear conditioning and restored in mice in the Fear extinction group (Figure <ref type="figure">3D</ref>). We proceeded to investigate the relationship between the SK2 channel and the excitability of glutamatergic neurons by recording the I AHP mediated by the SK2 channel expressed on glutamatergic neurons in the BLA. The decrease in the average peak amplitude of I AHP was associated with fear conditioning and the partial increase in this current was related to fear extinction, suggesting that the hyperactivation of glutamatergic neurons correlates with fear conditioning and that fear extinction rescues this hyperactivation (Figure <ref type="figure">3E</ref>). Taken together, in the BLA, decreasing the expression and function of synaptic SK2 channels is conducive to fear conditioning, while increasing these parameters promotes fear extinction. Then, we observed the effect of SK2 channels on fear conditioning and extinction by regulating them.</p><p>The SK2 channel activator 1-EBIO (300 ng, 300 nL), SK2 channel blocker apamin (2.5 pmol, 300 nL) and their respective controls were microinjected into the BLA 30 min prior to fear conditioning to regulate the SK2 channel and to further explore its role in fear memory (Figure <ref type="figure">3F</ref>(red)). At 24 h post-injection, mice were subjected to contextual and cued fear memory tests. Neither 1-EBIO-treated mice (Figure <ref type="figure">3G</ref>) nor apamin-treated mice (Figure <ref type="figure">3K</ref>) showed significant differences in fear learning. In the subsequent fear memory test, compared with the DMSO group, the percentage of freezing decreased in the tested mice (Figure <ref type="figure">3H</ref>,I), suggesting that the contextual and cued fear memory of mice in the 1-EBIO group were significantly impaired. In contrast, apamin did not exert a significant effect on contextual (Figure <ref type="figure">3L</ref>) or cued fear memory (Figure <ref type="figure">3M</ref>).</p><p>The mice were randomly divided into 4 groups after fear conditioning to examine the role of the SK2 channel in fear extinction.</p><p>Then 1-EBIO, apamin, and their respective controls were microinjected into the BLA 30 min prior to fear extinction. These mice were then subjected to 20 presentations of sound stimulation (CS) in the fear box (Figure <ref type="figure">3F</ref> (blue)). Compared with the Control group, the percentage of freezing was lower in mice from the 1-EBIO group, but higher in the apamin group, confirming that 1-EBIO was helpful for fear extinction (Figure <ref type="figure">3J</ref>) while apamin prevented fear extinction (Figure <ref type="figure">3N</ref>). These data indicate that the SK2 channel in the BLA indeed plays a key role in fear conditioning and extinction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| Activated PKA strengthens fear conditioning by phosphorylating synaptic SK2 channels</head><p>We further explored whether phosphorylated PKA was associated with fear memory by regulating the expression of the SK2 channel. First, we found that fear conditioning and extinction did not affect the expression of cytoplasmic PKA (Figure <ref type="figure">4A</ref>). However, fear conditioning increased the expression of cytoplasmic pPKA, which was restored by fear extinction (Figure <ref type="figure">4B</ref>). The PKA activator 8-Br-cAMP (2.5 pmol, 300 nL) or inhibitor Rp-8-Br-cAMP (30 pmol, 300 nL) was microinjected into BLA 30 min prior to fear conditioning to determine whether activated PKA reduced synaptic SK2 levels by increasing SK2 phosphorylation (Figure <ref type="figure">4C</ref>).</p><p>In fear learning, microinjecting 8-Br-cAMP and Rp-8-Br-cAMP into the BLA had no effects on fear conditioning (Figure <ref type="figure">4D</ref>). In We next examined whether the expression of SK2 mediated by activated PKA was involved in fear extinction. Thirty minutes before fear extinction, 8-Br-cAMP, Rp-8-Br-cAMP, or their vehicles were microinjected into BLA of the three groups of mice (Figure <ref type="figure">4I</ref>). We observed the effect of regulating PKA on fear extinction. The activation or inhibition of PKA did not alter fear extinction (Figure <ref type="figure">4J</ref>). We obtained BLA tissues 45 min after fear extinction for Western blot analysis. The injection of 8-Br-cAMP (Figure <ref type="figure">4K</ref>) and Rp-8-Br-cAMP (Figure <ref type="figure">4L</ref>) into the BLA did not affect the expression of synaptic SK2 channels. PKA activation increased the cytoplasmic pPKA level in response to both fear conditioning and fear extinction but did not affect the expression of synaptic SK2 channels. Combined with the molecular results, we speculate that increased expression of SK2 channels by activated PKA may play a major role in fear conditioning, while regulation of PKA to change the expression of synaptic SK2 channels does not play a leading role in fear extinction. What factor plays an important role in mediating the expression of synaptic SK2</p><p>during fear extinction?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| MPP2 downregulation in the BLA reduced fear extinction by decreasing the expression of synaptic SK2 channels</head><p>According to previous studies, MPP2 is a synaptic scaffold protein located in the postsynaptic density, and the SK2 channel acts by anchoring to the synapse through MPP2. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b22">23</ref> Therefore, we tested whether synaptic SK2 channels are anchored by the MPP2 scaffold in the BLA. First, in contrast to the mice in the Fear conditioning group, the expression of synaptic MPP2 in the BLA was increased in the Fear extinction group (Figure <ref type="figure" target="#fig_9">5A</ref>). We explored whether the SK2 channel interacted with MPP2 in the BLA by performing coimmunoprecipitation experiments. Western blotting with anti-MPP2</p><p>antibody detected a band of the appropriate apparent molecular weight for MPP2 in the BLA sample precipitated with an SK2 antibody, suggesting that the SK2 channel interacts with MPP2 in the BLA (Figure <ref type="figure" target="#fig_9">5B</ref>). Next, we used a siRNA targeting MPP2 (siRNA, Gene Pharma, Suzhou, China) to knock down MPP2 expression in the BLA. The PCR results showed that MPP2-siRNA decreased the expression of the MPP2 mRNA (Figure <ref type="figure" target="#fig_9">5C</ref>). Thirty hours before fear conditioning, the mice were separately injected with MPP2-siRNA or the NC in the BLA. The percentage of freezing was not significantly different in fear conditioning between the MPP2-siRNA and Control groups (Figure <ref type="figure" target="#fig_9">5D</ref>). On the next day, we evaluated the contextual and cued fear memory of mice. The results indicated that MPP2 knockdown had no effect on contextual memory (Figure <ref type="figure" target="#fig_9">5E</ref>)</p><p>or cued memory (Figure <ref type="figure" target="#fig_9">5F</ref>). At 45 min after fear conditioning, the BLA was extracted and used for Western blot analysis. The siRNA targeting MPP2 decreased synaptic MPP2 (Figure <ref type="figure" target="#fig_9">5G</ref>) and the expression of synaptic SK2 channel levels (Figure <ref type="figure" target="#fig_9">5H</ref>) in fear conditioning. In conclusion, knockdown of MPP2 during fear conditioning decreased the expression of synaptic SK2 channel but did not affect fear response.</p><p>Four hours before fear conditioning, mice were separately injected with MPP2-siRNA and NC siRNA in the BLA to examine the effect of MPP2 on fear extinction through the SK2 channel. On the next day, 40 min before fear extinction, the mice in the MPP2-siRNA group were randomly divided into 3 groups, two of which were injected with 1-EBIO and DMSO into the BLA (Figure <ref type="figure" target="#fig_9">5I</ref>). Compared with control subjects, the siRNA group exhibited increased fear response behaviors, as indicated by a greater number of freezing behaviors during fear extinction, and significant activation of the SK2 channel by 1-EBIO counteracted the increase in the fear response (Figure <ref type="figure" target="#fig_9">5J</ref>). At 45 min after fear conditioning or fear extinction, the BLA was extracted and used for Western blot analysis. The siRNA decreased synaptic MPP2 levels in response to fear extinction (Figure <ref type="figure" target="#fig_9">5K</ref>). Microinjection of the siRNA targeting MPP2 into the BLA significantly reduced the expression of synaptic SK2 channels in animals subjected to fear extinction (Figure <ref type="figure" target="#fig_9">5L</ref>).</p><p>We labeled glutamatergic neurons with the virus rAVV-CaMKIIα-mCherry-WPRE-pA (Red fluorescence) to test the effect of MPP2 on glutamatergic neurons through the SK2 channel in the BLA. Then, before observing the evoked firing rate of glutamatergic neurons and the average peak amplitude of I AHP through electrophysiology, we injected the siRNA (Green fluorescence) and NC into the BLA (Figure <ref type="figure" target="#fig_9">5M</ref>). The evoked firing rate of glutamatergic neurons in the siRNA group was higher than that in the Control group (Figure <ref type="figure" target="#fig_9">5N</ref>), and the average peak amplitude of I AHP of glutamatergic neurons in the siRNA group was lower than that in the Control group (Figure <ref type="figure" target="#fig_9">5O</ref>). This result suggested that MPP2 knockdown increased the activity of glutamatergic neurons by decreasing the expression and function of synaptic SK2 channels. In conclusion, in the BLA, MPP2 interacts with the SK2 channel, thereby decreasing the activity of glutamatergic neurons to enhance fear extinction, but it does not play a major role in fear conditioning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSS ION</head><p>In the present study, we provided novel evidence that synaptic SK2 channels in the BLA are involved in the formation and extinction of fear in mice by mediating the excitability of glutamatergic neurons. The important neural structure involved in PTSD is part of the limbic system, an important region for emotion processing in humans and animals. <ref type="bibr" target="#b23">24</ref> In individuals with PTSD, the amygdala, hippo- memory and receives neural projections from the hippocampus and prefrontal cortex. <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> In the present study, the excitability of glutamatergic neurons in the BLA was significantly increased during fear conditioning and extinction, while the excitability of glutamatergic neurons in the BLA was lower during fear extinction. Based on these results, glutamatergic neurons in the BLA are hyperactivated during fear conditioning and must be excited to produce associative memory. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> The explanation for the lower excitability of fear extinction may be due to the inhibitory effect of the new associative memory on fear memory or the low activation of neurons required for the generation of a new associative memory. Inhibiting the excitability of glutamatergic neurons in BLA using chemogenetics and optogenetics weakened cued and contextual fear memory, consistent with the results reported by Sengupta. <ref type="bibr" target="#b29">30</ref> Inhibiting the excitability of BLA glutamatergic neurons during fear extinction may cause changes in the excitatory/inhibitory (E/I) balance in the mPFC-BLA pathway, which is beneficial to fear extinction by inhibiting the hyperexcitability of glutamate neurons induced by fear conditioning. <ref type="bibr" target="#b30">31</ref> As a key regulator of amygdala neuronal excitability, we speculated that synaptic SK2 channels participate in the regulation of glutamatergic neuronal excitability in the BLA by mediating mAHP. SK channels are located in the postsynaptic membrane of glutamatergic neurons close to N-methyl-D-aspartate receptors (NMDARs), where they are activated by NMDAR-mediated Ca 2+ influx. Opening of the SK channel induces K + efflux which alters the membrane potential. <ref type="bibr" target="#b31">32</ref> Furthermore, K + efflux and SK channel-mediated reduction of [Ca 2+ ] create a local current that re-establishes NMDA receptor blockade by Mg 2+ , thereby preventing re-excitation of the neurons. <ref type="bibr" target="#b32">33</ref> The SK2 channel might modulate the excitability of neurons in the BLA by affecting NMDARs. In addition, recent studies have examined the role of SK channels in serotonergic neurons in model systems of mood disorders such as depression. <ref type="bibr" target="#b33">34</ref> Further studies are needed to explore how SK2 channels regulate the excitability of neurons in the BLA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Specifically</head><p>We also explored the mechanisms underlying the roles of synaptic SK2 channels in fear conditioning and extinction. The cytoplasmic pPKA level in the BLA was increased in response to fear conditioning and restored by fear extinction. Then, we perceived that the regulation of PKA was important to the expression of synaptic SK2. Indeed, in fear conditioning PKA activation significantly reduced the synaptic SK2 channel abundance, while PKA inhibition significantly increased the synaptic SK2 channel abundance and fear memory. Therefore, we speculated that PKA activation was involved in the decrease in synaptic SK2 channels in the BLA through phosphorylation and the process of synaptic SK2 channel endocytosis in fear conditioning. As the fear response seems to have reached its peak, further activation of PKA did not significantly increase the fear response. In the BLA, activation of the cAMP-PKA pathway is involved in memory consolidation. <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> Therefore, PKA agonists may activate other pathways (cAMP-PKA) while promoting the depression of the SK2 channel. Thus, the mechanism by which SK2 mediates fear conditioning is a decrease in the expression of synaptic SK2 induced by cytoplasmic PKA-mediated phosphorylation. However, the mechanism did not have an important function in fear extinction.</p><p>Furthermore, we identified a major role for MPP2 in regulating the expression of synaptic SK2 channels during fear extinction. In the BLA, the SK2 channel interacts with MPP2. Knockdown of MPP2 decreased the expression of synaptic SK2 in the BLA and reduced fear extinction. However, MPP2 knockdown did not significantly affect fear memory during fear conditioning. These results supported the view that fear extinction is a new process of associative memory formation, rather than the destruction of the original fear memory.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Numerous studies have highlighted that acute disruption of synaptic</head><p>MAGUKs dramatically affects NMDA receptor-or AMPA receptormediated currents and long-term potentiation. <ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> Therefore, we cannot exclude the possibility that reducing MPP2 levels directly or indirectly affects fear memory through its interactions with other channels. The shared domain of MAGUK proteins is the PDZ domain, which plays an important role in promoting the aggregation and function of various ion channels (such as Ca 2+ channels and K + channels). <ref type="bibr" target="#b41">42</ref> In CA1 hippocampal neurons, the SH3-HOOK-GK domain of MPP2 interacts with the N-terminal domain of SK2. <ref type="bibr" target="#b18">19</ref> MAGUKs also contain phosphorylation sites, which can be used as auxiliary peptides to regulate the function and format of gated ion channels by interacting with ion channels. <ref type="bibr" target="#b42">43</ref> The domain of MPP2 that interacts with the SK2 channel in the BLA and the mechanism by which MPP2 mediates the expression of the SK2 channel must be explored.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CON CLUS ION</head><p>In conclusion, synaptic SK2 channels in the BLA correlate with the regulation of fear conditioning and extinction by modulating the activity of glutamatergic neurons. In fear conditioning, the excitability of glutamatergic neurons is increased, which may be relevant to activated PKA phosphorylating synaptic SK2 channels, which promotes the endocytosis of the synaptic SK2 channel and reduces its expression in the synapse (Figure <ref type="figure">6</ref>). Conversely, the decrease in the excitability of glutamatergic neurons might be related to an increase in SK2 channels in the synapse by anchoring the SK2 channel to the synapse through MPP2 during fear extinction (Figure <ref type="figure">6</ref>). These findings validated that the conditioning and extinction of fear memory are not reversible processes. The mechanism by which MPP2 interacts with SK2 remains to be clarified. Furthermore, studies designed to explore whether MPP2 affects fear memory through other pathways will be important.</p><p>F I G U R E 6 Schematic diagram of the mechanism by which SK2 regulates fear memory.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Adult male C57BL/6J mice (8 weeks) were purchased from the Jinan Pengyue Laboratory Animal Breeding Co. Ltd. (Jinan, Shandong, China). Mice had ad libitum access to food and water. The room temperature was 23 ± 1°C, and the light/dark environment was 12 h/12 h. All the experiments were approved by the Institutional Animal Care and Use Committee of Xuzhou Medical University and fully compliant with the National Institutes of Health Guidelines for the Use and Care of Laboratory Animals. This study was approved by the Xuzhou Medical University experimental animal ethics committee.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>F I G U R E 1</head><label>1</label><figDesc>Fear conditioning and extinction in cue-dependent fear conditioning paradigms in mice. (A,B) Schematic diagram of the Control, Fear conditioning and extinction groups. (C) The percentage of freezing in mice during cued fear memory test (Mann-Whitney test, p = 0.000155). (D) The percentage of freezing in mice during fear acquisition (two-way ANOVA, p &lt; 0.01). (E) The percentage of freezing in mice during the contextual fear memory test (Mann-Whitney test, p = 0.0002). (F) The percentage of freezing in mice during fear extinction (two-way ANOVA, p = 0.0293). n = 8. *p &lt; 0.05, **p &lt; 0.01.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>| 5 of 15 PENG 2 . 9 |</head><label>1529</label><figDesc>inent AHP. Cells were held at -60 mV current-clamp mode and action potential firings injected by depolarizing current pulse were et al. recorded by the patch-clamp amplifier. Miniature excitability postsynaptic currents (mEPSCs) were recorded in the presence of tetrodotoxin (TTX, 1 mM) and at -70 mV current clamp mode. To record I AHP of SK channels, held glutamatergic neurons in voltage-clamp with holding potential of -60 mV and 100 ms depolarizing pulse to 60 mV to evoke an outward current. All records were collected using MultiClamp700b, a patch clamp amplifier, and converted with Digidata1440A. The collected signals were recorded and analyzed using pCLAMP software. RNA extraction and fluorescence quantitative PCR Mice were sacrificed approximately 45 min after fear conditioning or extinction, and total RNA was extracted from the BLA with a SpinColumn Animal Total RNA Purification Kit (Sheng-gong, China) according to the manufacturer's instructions. RNA preparations were reverse transcribed to generate cDNAs. The cDNA products were used as templates for real-time PCR analysis to measure SK2 or MPP2 expression using SK2-specific primers (Sheng-gong, China) or MPP2-specific primers (Sheng-gong, China). Sense and antisense primers were selected to be located on different exons to avoid false-positive results caused by genomic DNA contamination. PCR was performed with a Light Cycler 480 System using fluorescent SYBR Green technology (Applied Biosystems). Reaction protocols had the following format: 1 min at 95°C for enzyme activation followed by 40 cycles of 10 s at 95°C, 30 s at 60°C and 30 s at 72°C. Then, the samples were incubated at 95°C for 5 s and 60°C for 60 s. A melting curve analysis was performed to assess the specificity of the amplification products. All reactions contained the same amount of cDNA templates. The relative expression ratio of SK2 mRNA was normalized to GAPDH gene expression using the △Ct method (2 -△△Ct ). The primer sequences (Sheng-gong, China) were as follows (5′-3′, F: forward, R: reverse):SK2:F:CTGCT TGC TTA CTG GAA TCATG, R:CATCA TGA AAT TGT GCA CATGC; MPP2:F:TGTGC GTG CTG GAT GTC AACC, R:GATCT GCC TCC GTC AAC TGCTTAG; GAPDH:F:AGGCC GGT GCT GAG TATGTC, R:TGCCT GCT TCA CCA CCTTCT.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>stainless-steel guide (outer tube) into the BLA nucleus (anteroposterior: 3.14 mm; lateral: -1.46 mm; ventral: -5 mm) at least one week before drugs injection. The injection needle tube (inner tube) was connected to the Hamilton microinjector driven by the/microinjection pump (KD Scientific) through the polyethylene tube. Microinjection was performed in a 0.5 μL volume delivered over 1 min. Anesthesia was stopped immediately after the microinjection. Before removal, the injection needle was left in the original position for an additional 5-10 min to minimize the dragging of the injected liquid along the injection tract. After approximately 30 min, the mice were fully awake, and the next experimental operation was carried out.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>F I G U R E 2</head><label>2</label><figDesc>inhibition of glutamatergic neurons in the BLA did not affect fear acquisition in mice (Figure 2K). Compared to control subjects, the hM4Di group exhibited a decreased fear response, as indicated by a lower percentage of freezing during contextual and cued fear memory tests and fear extinction (Figure 2J,L,M). Next, in optogenetic experiments, we microinjected the mouse BLA with viruses expressing either the inhibitory opsin eNpHR3.0 or mCherry control virus under control of the CaMKIIα promoter and observed its role in fear memory (Figure 2N,O). In fear learning, neuronal inhibition induced by eNpHR3.0 did not affect the percentage of the Activation of glutamatergic neurons in the BLA of mice during fear conditioning and extinction. (A) Representative images showing the expression of c-Fos and CaMKII in the BLA. (B) Quantification of the c-Fos + proportion among CaMKII + neurons (one-way ANOVA, p &lt; 0.01, n = 3). (C) Quantification of the CaMKII + proportion among c-Fos + neurons (one-way ANOVA, p = 0.1093, n = 3). (D) The red arrow indicates neurons that express the virus. (E) The evoked firing rate of glutamatergic neurons in the BLA was increased in a stepwise manner with the stimulus cascade (0-180 pA) (two-way ANOVA, *p &lt; 0.05, **p &lt; 0.01 Fear conditioning group versus Control group , # p &lt; 0.05 ## p &lt; 0.01 Fear conditioning group versus Fear extinction group ; *p &lt; 0.05, **p &lt; 0.01 Fear extinction group versus Control group , n = 11-20 cells, 5 mice/group). (F) Statistical data of the resting membrane potential as indicated in (E) (one-way ANOVA, p = 0.0971). (G) Representative traces and summary data showing miniature excitability postsynaptic currents in glutamatergic neurons (one-way ANOVA, p &lt; 0.0001, n = 18 cells, 3 mice/group). (H) Experimental protocol of chemogenetic manipulation. (I) Representative images showing the expression of mCherry and CaMKII in BLA neurons. (J) The percentage of freezing in mice during contextual fear memory test (unpaired t-test, p = 0.0066, n = 6). (K) The percentage of freezing in mice during fear acquisition (two-way ANOVA, p = 0.8342, n = 6). (L) The percentage of freezing in mice during the cued fear memory test (one-way ANOVA, p = 0.0205, n = 6). (M) The percentage of freezing in mice during fear extinction (twoway ANOVA, p &lt; 0.0001, n = 6). (N) Experimental protocol of optogenetic manipulation. (O) Representative image illustrating eNpHR3.0-mCherry expression and electrode placement in the BLA. (P) The percentage of freezing of mice in mice during fear acquisition (two-way ANOVA, p = 0.055, n = 6). (Q) The percentage of freezing of mice in mice during the contextual fear memory test (unpaired t-test, p &lt; 0.0001, n = 6). (R) The percentage of freezing in mice during the cued fear memory test (one-way ANOVA, p = 0.026, n = 5). (S) The percentage of freezing in mice during fear extinction (two-way ANOVA, p &lt; 0.0001, n = 6). *p &lt; 0.05, **p &lt; 0.01.PENG et al. freezing time but decreased the fear response in the contextual and cued fear memory tests and during fear extinction (Figure 2P-S).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>the subsequent contextual and cued fear memory tests, PKA inhibition significantly reduced fear memory, while PKA activation F I G U R E 3 SK2 channels in glutamatergic neurons of the BLA play a role in fear conditioning and extinction. (A) Representative image showing co-staining with an SK2 antibody and CaMKII antibody in the BLA and quantification of the CaMKII + proportion among SK2 + neurons, n = 9. (B) The mRNA expression of the total SK2 channel (one-way ANOVA, p = 0.7640, n = 5). (C) Western blot analysis of the expression of the total SK2 channel protein in the BLA (Kruskal-Wallis test, p = 0.5178, n = 6). (D) Western blot analysis of the expression of synaptic SK2 channel proteins in the BLA (the Kruskal-Wallis test, p = 0.0070, n = 6). (E) The average peak amplitude of I AHP in the Fear conditioning group was reduced compared to that in the other two groups. The average peak amplitude of I AHP in the Fear extinction group was higher than that in the Fear conditioning group but lower than that in the Control group (one-way ANOVA, p &lt; 0.0001, n = 14-15 cells, 5 mice/group). (F) Experimental protocol for the pharmacological manipulation. (G,K) The percentage of freezing of mice in the fear acquisition test (two-way ANOVA, G, p = 0.6462; K, p = 0.8355, n = 8). (H,L) The percentage of freezing of mice during the contextual fear memory test (unpaired t-test, H, p = 0.0003; L, p = 0.1165, n = 8). (I,M) The percentage of freezing of mice during the cued fear memory test (one-way ANOVA, I, p = 0.0087; M, p = 0.9358, n = 8). (J,N) The percentage of freezing of mice in the fear extinction test (two-way ANOVA, J, p = 0.2755; N, p = 0.0307, n = 8). *p &lt; 0.05, **p &lt; 0.01. had no effects on fear memory (Figure4E,F). Next, we obtained BLA tissues 45 min after fear conditioning for Western blotting.Treatment with 8-Br-cAMP reduced the expression of synaptic SK2 channels (Figure4G), and Rp-8-Br-cAMP treatment increased the expression of synaptic SK2 channels (Figure4H), suggesting that phosphorylated PKA reduced the expression of synaptic SK2 channels during fear conditioning. A potential explanation for this finding is a sufficiently high degree of fear; even if the PKA and synaptic SK2 channels have changed at the molecular level, the behavior cannot express greater fear. In summary, phosphorylated PKA correlated with fear conditioning by reducing the expression of synaptic SK2 channels.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>F I G U R E 4 | 11 of 15 PENG</head><label>415</label><figDesc>Effects of pharmacological modulation PKA on synaptic SK2 channels to mediate fear conditioning and extinction. (A) Cytoplasmic PKA level in the BLA (the Kruskal-Wallis test, p = 0.7492, n = 6). (B) Western blot analysis of the expression of cytoplasmic pPKA protein in the BLA (the Kruskal-Wallis test, p = 0.0034, n = 6). (C,I) Experimental protocol for the PKA manipulation. (D) The fear response of mice in the fear acquisition test (two-way ANOVA, p = 0.6031, n = 8). (E) The percentage of freezing of mice in the contextual fear memory test (one way ANOVA, p = 0.0068, n = 8). (F) The percentage of freezing of mice during the cued fear memory test (one-way ANOVA, p = 0.0020, n = 8). (G,H) Western blot analysis of the expression of synaptic SK2 channels (the Mann-Whitney test, G, p = 0.0022; H, p = 0.0022, n = 6) (J) The fear response of mice in the fear extinction test (two-way ANOVA, p = 0.0925, n = 8). (K,L) Western blot analysis of the expression of synaptic SK2 channels (one sample t-test, K, p = 0.0736, L, p = 0.3326, n = 6). *p &lt; 0.05, **p &lt; 0.01. et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>, the regulation of synaptic SK2 by PKA participates in the coding of fear memory (CS-US), while MPP2-mediated changes in synaptic SK2 expression and function play a role in the coding of fear memory extinction (CS-No US). The models of fear conditioning and extinction are often used to explore the mechanism of anxiety disorders (such as PTSD). Fear conditioning induced by multiple pairs of CS-US caused mice to acquire associative fear memory. Then, many CS (No US)-mediated fear extinctions caused the mice to form a new associative memory. Generalization of fear memory and fear extinction disorder are the main symptoms and pathogeny of PTSD. Therefore, studies aiming to discover the factors that enhance or impair fear memory and fear extinction is conducive to exploring the pathogenesis of PTSD and providing new targets for the treatment of PTSD.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>| 13 of 15 PENG</head><label>15</label><figDesc>campus and prefrontal cortex are the three most obvious areas of the limbic system shoeing altered function. In studies of Pavlovian conditioned fear in animals and humans, the amygdala regulates fear et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>F I G U R E 5</head><label>5</label><figDesc>Effects of MPP2 knockdown on synaptic SK2 channels and fear memory. (A) Western blot analysis of the expression of the synaptic MPP2 protein in the BLA (the Kruskal-Wallis test, p = 0.0061, n = 6). (B) Coimmunoprecipitations: immunoblots prepared from BLA cell lysates expressing SK2, were immunoprecipitated with an anti-MPP2 antibody or IgG (control). Adjacent blot showing the input of MPP2. (C) The siRNA targeting MPP2 reduced the expression of the MPP2 mRNA (unpaired t-test, p = 0.0313, n = 5). (D) The fear response of mice in the fear acquisition test (Mann-Whitney test, p = 0.853, n = 8). (E) The percentage of freezing of mice in the contextual fear memory test (unpaired t-test, p = 0.5212, n = 6). (F) The percentage of freezing of mice during the cued fear memory test (the Mann-Whitney test, p = 0.574, n = 8). (G) Western blot analysis of the expression of the synaptic MPP2 protein in the mouse BLA (one sample t-test, p = 0.0097, n = 6). (H) Western blot analysis of the expression of the synaptic SK2 protein in the mouse BLA (one sample t-test, p = 0.037, n = 6). (I) Experimental protocol for downregulating MPP2. (J) The percentage of freezing of mice during the fear extinction test (two-way ANOVA, p &lt; 0.01, *p &lt; 0.05, **p &lt; 0.01 Control group versus siRNA group , *p &lt; 0.05, **p &lt; 0.01 siRNA group versus siRNA + EBIO group , # p &lt; 0.05, ## p &lt; 0.01 siRNA + DMSO group versus siRNA + EBIO group , &amp;&amp; p &lt; 0.01 Control group versus group , n = 8). (K) Western blot analysis of the expression of the synaptic MPP2 protein in the mouse BLA (one sample t-test, p = 0.0014. n = 6). (L) Western blot analysis of the expression of the synaptic SK2 protein in the mouse BLA (one sample t-test, p = 0.0206; n = 6). (M) Schematic showing downregulating MPP2 affects BLA glutamatergic neuron. The red arrow indicates neurons that express the virus. (N) The evoked firing rate of glutamatergic neurons in the BLA was increased in a stepwise manner with the stimulus cascade (0-200 pA) (two-way ANOVA, p &lt; 0.0001, n control = 8 cells, n siRNA-MPP2 = 9 cells, 5 mice/group). (O) The average peak amplitude of I AHP of glutamatergic neurons which were infected by siRNA-MPP2 or NC in BLA (unpaired t-test, p &lt; 0.0001, n control = 40 cells, n siRNA -MPP2 = 32 cells, 5 mice/group). *p &lt; 0.05, **p &lt; 0.01.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,45.64,46.00,331.65,168.90" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>| 15 of 15 PENG et al.</p></div>
+			</div>
+			<div type="funding">
+<div><p>the <rs type="funder">National Natural Science Foundation of China</rs>, Grant/Award Number: <rs type="grantNumber">81772065</rs>, <rs type="grantNumber">82071228</rs> and <rs type="grantNumber">82271257</rs></p></div>
+			</div>
+			<div type="funding">
+<div><head>AUTH O R CO NTR I B UTI O N S</head><p>Conceptualization: <rs type="person">Rong Hua</rs>, <rs type="person">Yong-mei Zhang</rs>, <rs type="person">Tie Xu</rs>, <rs type="person">Xiaohan Peng</rs>, <rs type="person">Panpan Chen</rs>, and <rs type="person">Yang Zhang</rs>. Formal analysis: <rs type="person">Rong Hua</rs>, <rs type="person">Yongmei Zhang</rs>, <rs type="person">Tie Xu</rs>, and <rs type="person">Xiaohan Peng</rs>. Funding acquisition: <rs type="person">Rong Hua</rs>, <rs type="person">Yong-mei Zhang</rs>, and <rs type="person">Tie Xu</rs>. Methodology: <rs type="person">Yong-mei Zhang</rs>, <rs type="person">Xiaohan Peng</rs>, <rs type="person">Panpan Chen</rs>, <rs type="person">Ke Wu</rs>, <rs type="person">Ningning Ji</rs>, <rs type="person">Jinghua Gao</rs>, and <rs type="person">Hui Wang</rs>. Investigation: <rs type="person">Rong Hua</rs>, <rs type="person">Yong-mei Zhang</rs>, <rs type="person">Tie Xu</rs>, <rs type="person">Xiaohan Peng</rs>, <rs type="person">Panpan Chen</rs>, and <rs type="person">Yang Zhang</rs>. Writing-original draft preparation: <rs type="person">Xiaohan Peng</rs>, <rs type="person">Yang Zhang</rs>, <rs type="person">Yong-mei Zhang</rs>, <rs type="person">Jinghua Gao</rs>, and <rs type="person">Hui Wang</rs>. Writing-review &amp; editing: <rs type="person">Rong Hua</rs>, <rs type="person">Yong-mei Zhang</rs>, <rs type="person">Tie Xu</rs>, <rs type="person">Xiaohan Peng</rs>, <rs type="person">Panpan Chen</rs>, <rs type="person">Yang Zhang</rs>. All the authors have read and agreed to the published version of the manuscript. ACK <rs type="person">N OWLED G M ENTS</rs> This work was supported by grants from the <rs type="funder">National Natural Science Foundation of China</rs> [<rs type="grantNumber">81772065</rs>, <rs type="grantNumber">82271257</rs>, <rs type="grantNumber">82071228</rs>].</p></div>
+<div><head>CO N FLI C T O F I NTER E S T S TATEM ENT</head><p>The authors declare no conflicts of interest.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_89sxCdf">
+					<idno type="grant-number">81772065</idno>
+				</org>
+				<org type="funding" xml:id="_fmYcWtV">
+					<idno type="grant-number">82071228</idno>
+				</org>
+				<org type="funding" xml:id="_KBYAg2K">
+					<idno type="grant-number">82271257</idno>
+				</org>
+				<org type="funding" xml:id="_kMDfErc">
+					<idno type="grant-number">81772065</idno>
+				</org>
+				<org type="funding" xml:id="_T22QygJ">
+					<idno type="grant-number">82271257</idno>
+				</org>
+				<org type="funding" xml:id="_QEUA34q">
+					<idno type="grant-number">82071228</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVA I L A B I L I T Y S TAT E M E N T</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>O RCI D</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Xiaohan Peng</head><p>https://orcid.org/0000-0002-7994-894X</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S U PP O RTI N G I N FO R M ATI O N</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Hyperactivity of basolateral amygdala mediates behavioral deficits in mice following exposure to bisphenol A and its analogue alternative</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">132044</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Effects of intra-BLA administration of PPAR antagonists on formalin-evoked nociceptive behaviour, fear-conditioned analgesia, and conditioned fear in the presence or absence of nociceptive tone in rats</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gaspar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Okine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dinneen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Finn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1" to="33" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Synaptic plasticity, engrams, and network oscillations in amygdala circuits for storage and retrieval of emotional memories</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nabavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Capogna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="731" to="743" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Dynamic remodeling of a basolateral-to-central amygdala glutamatergic circuit across fear states</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Hartley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Gaulden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baldi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2000" to="2012" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Traumatic stress produces distinct activations of GABAergic and glutamatergic neurons in amygdala</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">387</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Post-traumatic stress disorder: clinical and translational neuroscience from cells to circuits</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Ressler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Berretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Y</forename><surname>Bolshakov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Neurol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="273" to="288" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Adult neurogenesis, and angiogenesis in adult and middle-aged mice</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stremlau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pinto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Small conductance calcium-activated potassium type 2 channels regulate alcohol-associated plasticity of glutamatergic synapses</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mulholland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Chandler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="625" to="632" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">SK2 channel expression and function in cerebellar Purkinje cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hosy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Piochon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Teuling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rinaldo</forename><forename type="middle">L</forename><surname>Hansel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">589</biblScope>
+			<biblScope unit="page" from="3433" to="3440" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>pt 14</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Comparative immunohistochemical distribution of three small-conductance Ca2+-activated potassium channel subunits, SK1, SK2, and SK3 in mouse brain</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Sailer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marksteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Knaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="458" to="469" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Coupled activity-dependent trafficking of synaptic SK2 channels and AMPA receptors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frerking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Adelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page" from="11726" to="11734" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The SK2-long isoform directs synaptic localization and function of SK2-containing channels</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lujan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="744" to="749" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">SK2 channel plasticity contributes to LTP at Schaffer collateral-CA1 synapses</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Adelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maylie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="170" to="177" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Small-conductance Ca2+activated K+ channel type 2 (SK2) modulates hippocampal learning, memory, and synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Strassmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1844" to="1853" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Learning, aging and intrinsic neuronal plasticity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Disterhoft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Oh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="587" to="599" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Small conductance Ca2+-activated K+ channel knock-out mice reveal the identity of calcium-dependent afterhyperpolarization currents</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Herson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Strassmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="5301" to="5306" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Regulation of surface localization of the small conductance Ca2+-activated potassium channel, Sk2, through direct phosphorylation by cAMP-dependent protein kinase</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Barnwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Alexander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="11769" to="11779" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">PKA and Ube3a regulate SK2 channel trafficking to promote synaptic plasticity in hippocampus: implications for Angelman syndrome</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9824</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Membrane palmitoylated protein 2 is a synaptic scaffold protein required for synaptic SK2-containing channel function</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schwenk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Stimulation of serotonin 2A receptors facilitates consolidation and extinction of fear memory in C57BL/6J mice</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Asgeirsdottir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Munchow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Barrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Stackman</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropharmacology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="403" to="413" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Presynaptic alphasynuclein aggregation in a mouse model of Parkinson&apos;s disease</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Spinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Osterberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2037" to="2050" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Small-conductance Ca(2+)-activated K(+) channel 2 in the dorsal horn of spinal cord participates in visceral hypersensitivity in rats</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">840</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">MPP2 is a postsynaptic MAGUK scaffold protein that links SynCAM1 cell adhesion molecules to core components of the postsynaptic density</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rademacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmerl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lardong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Wahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shoichet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">35283</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The limbic lobe and its output channels: implications for emotional functions and adaptive behavior</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Heimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Van Hoesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Biobehav Rev</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="126" to="147" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Functional neuroimaging of anxiety: a metaanalysis of emotional processing in PTSD, social anxiety disorder, and specific phobia</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Etkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Wager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1476" to="1488" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Functional neuroimaging studies in posttraumatic stress disorder: review of current methods and findings</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Francati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vermetten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bremner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Depress Anxiety</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="202" to="218" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Neurobiology of fear responses: the role of the amygdala</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neuropsychiatry Clin Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="382" to="402" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Learning enhances intrinsic excitability in a subset of lateral amygdala neurons</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sehgal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Ehlers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Moyer</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Learn Mem</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="161" to="170" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Alterations of excitatory transmission in the lateral amygdala during expression and extinction of fear memory</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Gean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Neuropsychopharmacol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="335" to="345" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Basolateral amygdala neurons maintain aversive emotional salience</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sengupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joy</forename><surname>Yau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Richard-Dit-</forename><surname>Bressel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="3001" to="3012" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Synaptic encoding of fear extinction in mPFC-amygdala circuits</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Deisseroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Y</forename><surname>Bolshakov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1491" to="1507" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Modulation of SK channel trafficking by beta adrenoceptors enhances excitatory synaptic transmission and plasticity in the amygdala</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Faber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Delaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Sedlak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Crane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="10803" to="10813" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">SK channels and NMDA receptors form a Ca2+-mediated feedback loop in dendritic spines</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Ngo-Anh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Bloodgood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Sabatini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Adelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="642" to="649" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Chronic social isolation reduces 5-HT neuronal activity via upregulated SK3 calcium-activated potassium channels</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sargin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Lambe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">eLife</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Glucocorticoids interact with the basolateral amygdala beta-adrenoceptor-cAMP/cAMP/ PKA system in influencing memory consolidation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roozendaal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Quirarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mcgaugh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="553" to="560" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">M1-muscarinic receptors promote fear memory consolidation via phospholipase C and the M-current</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1570" to="1578" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Synapsespecific and developmentally regulated targeting of AMPA receptors by a family of MAGUK scaffolding proteins</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Elias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Funke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="307" to="320" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">PSD-95 involvement in maturation of excitatory synapses</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>El-Husseini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Chetkovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="issue">5495</biblScope>
+			<biblScope unit="page" from="1364" to="1368" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Direct interactions between PSD-95 and stargazin control synaptic AMPA receptor number</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sizemore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karimzadegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="13902" to="13907" />
+			<date type="published" when="2002">2002</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Postsynaptic density-95 mimics and occludes hippocampal long-term potentiation and enhances long-term depression</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>House</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="5503" to="5506" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Modulation of behavior by scaffolding proteins of the post-synaptic density</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Tronson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Radulovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol Learn Mem</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">PDZ domains: targeting signalling molecules to sub-membranous sites</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Ponting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Blake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioessays</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="469" to="479" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Structure of the PSD-95/MAP1A complex reveals a unique target recognition mode of the MAGUK GK domain</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">474</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="2817" to="2828" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

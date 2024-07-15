@@ -1,0 +1,3241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Regulation of depressive-like behaviours by palmitoylation: Role of AKAP150 in the basolateral amygdala</title>
+				<funder>
+					<orgName type="full">Research Foundation for Advanced Talents</orgName>
+				</funder>
+				<funder ref="#_9PAx7m4 #_v2gse85 #_Xm8mkAH #_s9Xuaau">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_gkc9SA4">
+					<orgName type="full">Natural Science Foundation of Hainan Province, China</orgName>
+				</funder>
+				<funder ref="#_tRaNKAR">
+					<orgName type="full">Research Foundation for Advanced Talents at Fujian Medical University, China</orgName>
+				</funder>
+				<funder ref="#_yTVjZtt">
+					<orgName type="full">Natural Science Foundation of Fujian Province, China</orgName>
+				</funder>
+				<funder ref="#_2DYw63a">
+					<orgName type="full">Innovation of Science and Technology of Fujian Province, China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Si-Ying</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhi-Xuan</forename><surname>Xia</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Basic Medicine and Life Science</orgName>
+								<orgName type="institution">Hainan Medical University</orgName>
+								<address>
+									<settlement>Haikou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shao-Wei</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wei-Kai</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yue-Ling</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Meng-Die</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dan</forename><surname>Tian</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Yue Pan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiao-Shan</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiao-Qian</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhen</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jian-Min</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Pharmacy</orgName>
+								<address>
+									<addrLine>Wuhan No. 1 Hospital</addrLine>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhong-Meng</forename><surname>Lai</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Anesthesiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Wu-Cheng Tao</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Key Laboratory of Brain Aging and Neurodegenerative Diseases</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zu-Cheng</forename><surname>Shen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Key Laboratory of Brain Aging and Neurodegenerative Diseases</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Wu-Cheng</forename><surname>Tao</surname></persName>
+							<email>taowucheng@fjmu.edu.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Pharmacology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">School of Pharmacy</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<addrLine>Xueyuan Road</addrLine>
+									<postCode>350122</postCode>
+									<settlement>Shangjie Town, Minhou County, Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="laboratory">Key Laboratory of Brain Aging and Neurodegenerative Diseases</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<addrLine>Xueyuan Road</addrLine>
+									<settlement>Shangjie Town</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">Minhou County</orgName>
+								<address>
+									<postCode>350122</postCode>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Anesthesiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Fujian Medical University</orgName>
+								<address>
+									<addrLine>No. 29 Xinquan Road</addrLine>
+									<postCode>350001</postCode>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Regulation of depressive-like behaviours by palmitoylation: Role of AKAP150 in the basolateral amygdala</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">53115577BA915810759F8288466E8373</idno>
+					<idno type="DOI">10.1111/bph.16318</idno>
+					<note type="submission">Received: 25 July 2023 Revised: 20 December 2023 Accepted: 23 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>2-BP, 2-bromopalmitate</term>
+					<term>AAV, adeno-associated virus</term>
+					<term>aCSF, artifical cerebrospinal fluid</term>
+					<term>AKAP150, A-kinase anchoring protein 150</term>
+					<term>BLA, basolateral amygdala</term>
+					<term>CaN, calcineurin</term>
+					<term>CP, control peptide</term>
+					<term>CRS, chronic restraint stress</term>
+					<term>Ctrl, control</term>
+					<term>CUMS, chronic unpredictable mild stress</term>
+					<term>DHHC2, Asp-His-His-Cys 2</term>
+					<term>eGFP, enhanced green fluorescent protein</term>
+					<term>EPM, elevated plus maze</term>
+					<term>fEPSPs, field excitatory postsynaptic potentials</term>
+					<term>FST, forced swimming test</term>
+					<term>GABA, γ-aminobutyric acid</term>
+					<term>HA, hydroxylamine</term>
+					<term>HFS, high-frequency stimulation</term>
+					<term>IP, immunoprecipitation</term>
+					<term>LTP, long-term potentiation</term>
+					<term>MDD, Major depressive disorder</term>
+					<term>mEPSCs, miniature excitatory postsynaptic currents</term>
+					<term>OFT, open field test</term>
+					<term>PSD-95, postsynaptic density protein 95</term>
+					<term>RNAi, RNA interference</term>
+					<term>SPT, sucrose preference test</term>
+					<term>TST, tail suspension test</term>
+					<term>Veh, vehicle Wang, S.-Y., Xia, Z.-X., Yang, S.-W., Chen, W.-K., Zhao, Y.-L., Li, M.-D., Tian, D., Pan, Y., Lin, X.-S., Zhu, X.-Q., Huang, Z., Liu, J.-M., Lai, Z.-M., Tao, W.-C., &amp; Shen, Z.-C. (2024). Regulation of depressive-like behaviours by</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background and Purpose: Protein palmitoylation is involved in learning and memory, and in emotional disorders. Yet, the underlying mechanisms in these processes remain unclear. Herein, we describe that A-kinase anchoring protein 150 (AKAP150) is essential and sufficient for depressive-like behaviours in mice via a palmitoylationdependent mechanism.</p><p>Experimental Approach: Depressive-like behaviours in mice were induced by chronic restraint stress (CRS) and chronic unpredictable mild stress (CUMS). Palmitoylated proteins in the basolateral amygdala (BLA) were assessed by an acyl-biotin exchange assay.</p><p>Genetic and pharmacological approaches were used to investigate the role of the DHHC2-mediated AKAP150 palmitoylation signalling pathway in depressive-like behaviours. Electrophysiological recording, western blotting and co-immunoprecipitation were performed to define the mechanistic pathway.</p><p>Key Results: Chronic stress successfully induced depressive-like behaviours in mice and enhanced AKAP150 palmitoylation in the BLA, and a palmitoylation inhibitor was enough to reverse these changes. Blocking the AKAP150-PKA interaction with the peptide Ht-31 abolished the CRS-induced AKAP150 palmitoylation signalling pathway. DHHC2 expression and palmitoylation levels were both increased after chronic stress. DHHC2 knockdown prevented CRS-induced depressive-like behaviours, as well as attenuating AKAP150 signalling and synaptic transmission in the BLA in CRS-treated mice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion and Implications:</head><p>These results delineate that DHHC2 modulates chronic stress-induced depressive-like behaviours and synaptic transmission in the BLA via the AKAP150 palmitoylation signalling pathway, and this pathway may be considered as a promising novel therapeutic target for major depressive disorder.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Major depressive disorder (MDD) affects approximately over 300 million people globally, equivalent to 4.4% of the world's population <ref type="bibr" target="#b14">(Davis et al., 2021)</ref>, and is associated with serious social economic burden. The primary drug therapy of MDD is only effective in 30% of MDD patients <ref type="bibr" target="#b24">(Galecki et al., 2022)</ref>. Limited understanding of the pathophysiology at cellular and molecular levels has been a major setback in developing novel therapeutic interventions. Basolateral amygdala (BLA) serves as a central neural substrate underlying the regulation of emotional behaviours <ref type="bibr" target="#b9">(Benarroch, 2015;</ref><ref type="bibr" target="#b52">Rainnie et al., 2004)</ref>, and previous reports showed that amygdala is hyperexcited in stressed mice <ref type="bibr" target="#b20">(Franceschi Biagioni et al., 2021;</ref><ref type="bibr" target="#b42">Mitra, 2019)</ref>; additionally, an increased complexity of dendrites and an ascendance of mature spine density were observed in the BLA <ref type="bibr" target="#b31">(Karst &amp; Joels, 2016;</ref><ref type="bibr" target="#b43">Mitra et al., 2005;</ref><ref type="bibr" target="#b71">Zhang et al., 2019)</ref>. In contrast, other critical brain regions involved in MDD, such as prefrontal cortex and hippocampus, exhibit reduced synaptic transmission and neuronal morphology atrophy <ref type="bibr" target="#b8">(Belleau et al., 2019;</ref><ref type="bibr" target="#b17">Duman &amp; Aghajanian, 2012;</ref><ref type="bibr" target="#b49">Ota &amp; Duman, 2013)</ref>. However, the underlying mechanism of chronic stress-induced hyperexcitability in the BLA remains elusive.</p><p>In recent years, there has been accumulating clinical and preclinical evidence for the involvement of glutamatergic system in the pathophysiology and therapy of MDD. The increase in glutamate levels and dysregulation of genes related to glutamate signalling have been found in patients with <ref type="bibr">MDD (de Sousa et al., 2017;</ref><ref type="bibr" target="#b30">Kantrowitz et al., 2021)</ref>. Glutamate and its receptors play essential roles in regulating synaptic transmission strength <ref type="bibr" target="#b60">(Sedlak et al., 2019;</ref><ref type="bibr" target="#b64">Tzingounis &amp; Wadiche, 2007)</ref>. Emerging evidence shows that multiple molecules are involved in the modification of glutamatergic transmission, including calcium/calmodulin-dependent protein kinase II (CaMKII), postsynaptic density protein 95 (PSD-95), protein kinase A (PKA) and A-kinase anchoring proteins (AKAP) <ref type="bibr" target="#b12">(Chergui et al., 2005;</ref><ref type="bibr" target="#b21">Fries et al., 2023;</ref><ref type="bibr" target="#b26">Groc &amp; Choquet, 2020;</ref><ref type="bibr" target="#b56">Sanderson &amp; Dell'Acqua, 2011)</ref>. Among these molecules, AKAP150 in mice (also called AKAP79 in human) emerges as an important regulator of synaptic alpha-amino-3-hydroxy-5-methyl-4-isoxazole propionic acid receptors (AMPARs) <ref type="bibr" target="#b10">(Bhattacharyya et al., 2009)</ref>, which has been reported to be associated with susceptibility to depression <ref type="bibr" target="#b1">(Albani et al., 2014)</ref>. AKAP150 anchors PKA and Ca 2+ -dependent protein phosphatase calcineurin <ref type="bibr">(CaN)</ref> to regulate the phosphorylation level of GluA1, thereby bidirectionally modifying the synaptic expression of GluA1 <ref type="bibr" target="#b19">(Esteban et al., 2003;</ref><ref type="bibr" target="#b57">Sanderson et al., 2016)</ref>. Furthermore, previous results revealed that AKAP150 complex in the BLA contributes to depressive-like behaviours induced by chronic restraint stress (CRS) <ref type="bibr" target="#b72">(Zhou et al., 2019)</ref>. However, direct evidence about dynamic regulatory mechanism of AKAP150 complex in chronic stress-induced depressive-like behaviours is lacking.</p><p>Palmitoylation is a reversible lipid modification, which consists of the posttranslational addition of saturated 16-carbon fatty acid, palmitic acid to cysteine residue through formation of a labile thioester linkage <ref type="bibr" target="#b16">(Deane, 2018;</ref><ref type="bibr" target="#b41">Matt et al., 2019)</ref>. Palmitoylation is essential in the regulation of intracellular protein traffic and function; for example, PSD-95 palmitoylation is required for sorting PSD-95 to dendrites and participates in the postsynaptic clustering of PSD-95 in dendritic spines, thereby regulating the clustering of AMPARs <ref type="bibr" target="#b18">(el-Husseini et al., 2002;</ref><ref type="bibr" target="#b22">Fukata et al., 2006)</ref>. Furthermore, palmitoylation of the AKAP150 N-terminal polybasic domain targets it to postsynaptic lipid rafts and dendritic recycling endosomes <ref type="bibr" target="#b41">(Matt et al., 2019)</ref>. Importantly, AKAP150 palmitoylation regulates spine enlargement, endosome recycling and AMPAR trafficking pathways associated with LTP <ref type="bibr" target="#b51">(Purkey et al., 2018;</ref><ref type="bibr" target="#b54">Robertson et al., 2009)</ref>. Here, we asked whether AKAP150 palmitoylation is involved in chronic stress-associated synaptic transmission in the BLA. In addition, DHHC2, a palmitoylating</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>What is already known</head><p>• The AKAP150 signalling pathway regulates excitatory synaptic transmission.</p><p>• DHHC2 controls AKAP150 function by palmitoylation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>What does this study add</head><p>• Chronic stress up-regulates DHHC2 function in the basolateral amygdala.</p><p>• DHHC2 induces depressive-like behaviour by selectively palmitoylating AKAP150, not PSD-95.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>What is the clinical significance</head><p>• DHHC2-mediated AKAP150 palmitoylation signalling may be a promising strategy for stress-related emotional disorders treatment. enzyme, induces the palmitoylation of PSD-95 and AKAP150 <ref type="bibr" target="#b23">(Fukata et al., 2013;</ref><ref type="bibr" target="#b68">Woolfrey et al., 2015)</ref>. Interestingly, blocking synaptic activity rapidly induces DHHC2-mediated palmitoylation of PSD-95 and synaptic clustering of PSD-95 and AMPARs <ref type="bibr" target="#b29">(Jeyifous et al., 2016)</ref>. However, DHHC2 mediates AKAP150 palmitoylation and synaptic lipid raft activity following seizure in vivo <ref type="bibr" target="#b33">(Keith et al., 2012</ref>). Yet, it is unclear whether DHHC2 in the BLA is involved in chronic stress-induced emotional behaviours.</p><p>To address this gap, we utilized chronic stress to induce depressive-like behaviours in mice and performed a series of experiments to investigate the role of AKAP150 palmitoylation signalling in BLA in regulating emotional behaviours. We first confirmed that chronic stress up-regulated protein palmitoylation in the BLA, and pharmacological inhibition of protein palmitoylation reversed depressive-like behaviours in CRS mice. We also found that the  <ref type="table">S1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Animals</head><p>Male C57BL/6J mice (20 ± 2 g, aged 7-8 weeks) used for experiments were purchased from Shanghai Laboratory Animal Center (Shanghai, China; certificate number: SCXK2017-0005). All animals were group housed under a 12-hour light/12-hour dark cycle with free access to food and water, and the temperature was maintained at 24 ± 2 C.</p><p>Mice were allowed to habituate to the environment for at least 1 week before experiments were performed. All the experiments were conducted under the approval of the Institutional Animal Care and Use Committee of Fujian Medical University. Animal studies are reported in compliance with the ARRIVE guidelines (Percie du <ref type="bibr" target="#b50">Sert et al., 2020)</ref> and with the recommendations made by the British Journal of Pharmacology <ref type="bibr" target="#b38">(Lilley et al., 2020)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Chronic stress model</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1">| CRS model</head><p>The CRS model was performed as described previously <ref type="bibr" target="#b72">(Zhou et al., 2019)</ref>. Briefly, to establish this animal model, 50-ml conical polypropylene tubes, which contained numerous holes for breathing, were used to limit the activity of mice. Mice were immobilized in the tube once for 4 h from 17:00 to 21:00 per day and had no access to any food or water during the restraint period. Then, mice were released to their home cages for 20 h and allowed access to food and water. This restraint stress cycle lasted for 21 consecutive days, and the nonstressed mice were untouched in their home cages.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2">| Chronic unpredictable mild stress (CUMS) model</head><p>CUMS model is an animal model commonly used to simulate the core behavioural characteristics of human depression and was performed based on a previously described procedure with minor modification (M. X. <ref type="bibr" target="#b36">Li et al., 2018)</ref>. In detail, mice were subjected to a variable and unpredictable sequence of mild stressors, including food or water deprivation lasting for 24 h, overnight exposure to illumination, being placed on cold ice for 5 min, damp bedding for 24 h, placement in a tilted cage for 24 h, tail clipping for 1 min, physical restraint for 2 h, foot shock for 30 min, noise exposure for 2 h and shaking for 1 h.</p><p>One stressor was applied randomly every day for a span of 4 weeks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Behavioural assessments</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1">| Sucrose preference test (SPT)</head><p>SPT was performed as described previously (M. X. <ref type="bibr" target="#b36">Li et al., 2018)</ref>. In detail, after CRS or CUMS modelling, the mice were allowed to drink two bottles, one of which contained 1% sucrose solution and the other contained drinking water. Mice were individually housed and given 1% sucrose solution and drinking water for 24-h adaptation without food, and the bottles were interchanged after another 24 h.</p><p>After adaptation for 48 h, the mice were deprived of water for 12 h.</p><p>At the beginning of testing, two bottles were weighed and then were placed on each cage with the tips of the two bottles as close together as possible, and the positions of two bottles were interchanged after 12 h to test continually for another 12 h. Lastly, the weights of two bottles were recorded again, and the sucrose preference was calculated as the fraction of the sucrose solution compared with the total amount of consumed liquid.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2">| Tail suspension test (TST)</head><p>TST was performed as described previously <ref type="bibr" target="#b63">(Steru et al., 1985)</ref>.</p><p>Briefly, TST was considered to mirror despair/depressive-like behaviours by recording the time spent immobile. In brief, mouse was suspended from a horizontal bar at a height of 20 cm through a tape affixed 1 cm from the tip of tail. A camera linked to a computer was used to record the activity of mice. Mice were considered to be immobile when they exhibited no body movement and hung passively for 3 s, and the stationary time during the test of 6 min was quantified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.3">| Forced swimming test (FST)</head><p>FST was performed as described previously (M. X. <ref type="bibr" target="#b36">Li et al., 2018)</ref>.</p><p>Briefly, in this test, each mouse was placed into a transparent cylinder (35 cm in height, 15 cm in diameter), and the cylinder was filled with 23-25 C water to a depth of 20 cm, which could avoid the hind legs of mice from touching the bottom. A camera linked to a computer was used to record the activity of mice. All mice were forced to swim for 6 min, and the immobility time during the final 5-min interval of the test was recorded. Behavioural despair was defined as the mouse floating in the water without struggling, and the time spent floating was recorded as the immobility time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.4">| Elevated plus maze (EPM) test</head><p>EPM test was performed as described previously <ref type="bibr" target="#b61">(Shen et al., 2019)</ref>.</p><p>The apparatus of EPM is elevated 40 cm above the floor, and it con- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.5">| Open field test (OFT)</head><p>OFT was performed as described previously <ref type="bibr" target="#b7">(Beilharz &amp; Cox, 1967)</ref>. This apparatus contained a 50 Â 50 cm clear plastic arena, surrounded by walls that were 40 cm high, the centre field was defined as the 30 Â 30 cm region in the centre of plastic arena, around this field was the peripheral field. Each mouse was gently placed in the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.2">| Acyl-biotin exchange (ABE) assay</head><p>The ABE assay was performed as described previously (M. D. <ref type="bibr" target="#b35">Li et al., 2023;</ref><ref type="bibr" target="#b66">Wan et al., 2007)</ref>. In detail, tissue samples were homogenized in radioimmunoprecipitation assay (RIPA) buffer (50-mM Tris-HCl, pH 7.4, 1% NP-40, 0.5% Na-deoxycholate, 0.1% SDS, 150-mM NaCl, 2-mM EDTA and 50-mM NaF; 10 μl for 1-mg tissue) with protease inhibitors phenylmethanesulfonyl fluoride (PMSF, 0.1 M) and phosphatase inhibitors (PI, 1 M) (RIPA: PMSF: PI = 98:1:1) and reacted on ice for 30 min. After fully homogenizing, the samples were centrifuged (4 C, 12000 g, 20 min) to collect supernatant. Then, MMTS (2 M) was added into the supernatant (final concentration: 20 mM) and reacted without light at 50 C for 30 min after thoroughly mixing. Four times volume of precold acetone were added and mixed thoroughly and then quiesced for 30 min at À20 C and centrifuged (4 C, 12000 g, 20 min) to remove residual MMTS. The protein precipitate was dissolved with lysis buffer, and HPDP-biotin and hydroxylamine (HA) were added into the sample protein buffer to incubate on a table concentrator (25 C, 2 h). The proteins were added with four times volume of precold acetone and centrifuged (4 C, 12000 g) for 20 min. Then, the protein precipitation was dissolved in lysis buffer, and HPDP-biotin were added into the protein precipitation to incubate for 2 h at room temperature; the steps of adding acetone, centrifugation and resuspending was repeated. Then, the purified biotin-labelled palmitoylated proteins were separated by streptavidin-agarose column. After 8-10 cycles, the protein sample was completely cleared and was then washed with the lysis buffer three times. Lastly, after adding the elution buffer (4Â protein loading buffer: RIPA = 1:3) to denature at 95 C for 30 min, the separated samples were collected and stored at À20 C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.3">| Surface biotinylation assay</head><p>Tissue samples were mixed with ice-cold aCSF containing EZ-link Suifo-NHS-LC Biotin (1 mgÁml À1 ) with gentle shaking at 4 C for 2 h. Following biotinylation, 100-mM glycine was added to quench the reaction via incubation on ice for 30 min. Then, the samples were washed three times with cold aCSF to remove excess glycine. Lastly, the samples were homogenized in RIPA buffer with protease inhibitors PMSF (1%) and PI (1%) and then centrifuged at 12000 g for 15 min at 4 C. Coomassie blue protein-binding assay (Nanjing Jiancheng Institute of Biological Engineering, Nanjing, China) was used to analyse the protein concentration of the supernatants after centrifugation, and then the supernatants were incubated with streptavidin for 4 h at 4 C. Lastly, streptavidin-protein complexes were washed three times with RIPA buffer and centrifuged at 4000 g for 3 min at 4 C. After separation from the beads, target proteins were denatured by SDS-loading buffer at 95 C for 10 min for western blotting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.4">| Co-immunoprecipitation (co-IP) assay</head><p>Samples were lysed in the lysis buffer (in mM: 150 NaCl, 0.2% NP-40, 50 NaF, 1 Na 3 VO 4 , 6 Na-deoxyoholate, 3 Na-pyrophosphate, 1% PMSF, 1% PI) and homogenized for 30 min on ice and then centrifuged at 12000 g for 15 min at 4 C. Supernatants (500 μg) were incubated with 2 μg of AKAP150 antibody at 4 C overnight with gentle shaking. Antibody-antigen complex beads were precipitated by incubating the sample with 50-μl settled Protein A/G PLUS-Agarose (Santa Cruz Biotechnology) for 3-4 h at 4 C. The beads were collected by centrifugation at 4000 g for 3 min and washed three times with washing buffer (containing 10-mM Hepes, pH 7.5, 100-mM NaCl, 1-mM EDTA, 10% glycerol and 0.1% Triton X-100). Finally, proteins were released from the beads with 50 μl of SDS-loading buffer, and then boiled at 95 C for 5 min before the eluents were analysed by western blotting method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.5">| Synaptic fractionation</head><p>Syn-PER Synaptic Protein Extract Reagent was used to extract the synaptic fractionation. Briefly, samples were homogenized with Syn-PER Reagent (10 mlÁmg À1 ) and centrifuged at 1200 g for 10 min at 4 C. The supernatant was then collected into a new tube to centrifuge at 15000 g for 20 min at 4 C. After centrifugation, synaptosome pellet was lysed in RIPA lysis buffer with protease inhibitors cocktail and analysed by western blotting method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.6">| Western blotting</head><p>Samples were added and homogenized in RIPA buffer (50-mM Tris-HCl, pH 7.4, 1% NP-40, 0.5% Na-deoxycholate, 0.1% SDS, 150-mM NaCl, 2-mM EDTA and 50-mM NaF; 10 μlÁmg À1 ) with protease inhibitors PMSF (1%) and PI (1%). Then the lysates were clarified by centrifugation at 12000 g for 15 min at 4 C, and the supernatant protein concentration was measured via Coomassie blue protein-binding assay, using bovine serum albumin (BSA) as standard. Lastly, the collected supernatants were added with SDS-loading buffer and heated at 95 C for 5 min. The lysates were separated via SDS-polyacrylamide gel electrophoresis (PAGE) and then transferred to PVDF membranes.</p><p>Membranes were incubated in blocking buffer (5% BSA in Trisbuffered saline, w/v; pH 7.4 and 1% Tween-20, TBST) at room temperature for 2 h before being incubated in primary antibody solutions (1% BSA and primary antibodies with adequate dilution in TBST) overnight at 4 C. The blots were washed three times at room temperature for 20 min with TBST and incubated in horseradish peroxidase (HRP)conjugated secondary antibody solutions (1% BSA and secondary antibodies in TBST) at room temperature for 2 h. After washing three times at room temperature for 20 min with TBST, they were reacted with enhanced chemiluminescence substrate (Super Signal West Pico; Pierce Chemical Co., Rockford, IL) for about 5 min or more time and captured into the Micro Chemi (DNR Bio-imaging systems, Jerusalem, Israel). The optical densities of the immunoblots were measured by NIH ImageJ software. Each group result was normalized by its corresponding β-actin, and all of the results were presented as the percentage of control following normalization. Detailed information about antibodies used is shown in Table <ref type="table">S2</ref>. The Immuno-related procedures used comply with the recommendations made by the British Journal of Pharmacology <ref type="bibr" target="#b5">(Alexander et al., 2018)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">| Stereotactic injections</head><p>Mice were anaesthetised with 2% isoflurane and placed on a stereotactic apparatus (RWD Life Science, China). The hair on skulls of mice was shaved with scissors, and the skin was cut along the centre line.</p><p>Small craniotomy holes were made above the BF after location according to the bregma. For microinjection of AAV-eGFP and AAV-DHHC2 into the BLA region, the virus was stereotaxically delivered directly into the BLA (AP = 1.7 mm, ML = 3.4 mm, DV = 4.2 mm) at a slow rate (0.1 μlÁmin À1 ) using a digital stereotaxic frame with a microsyringe pump (RWD Life Science, China). Mice were given metamizole (100 mg/kg) for postoperative pain and gentamicin (5 mg/kg).</p><p>Mice were returned to home cages and were observed every day until behavioural testing was performed. Placement of surgical injection sites were confirmed by GFP immunohistochemistry, and the behavioural tests were performed after 5 weeks. For microinjection of Ht-31 or 2-BP into the BLA region, two stainless steel cannulas with a length of 10 mm and an outside diameter of 0.6 mm were bilaterally implanted into the core of the BLA region and secured to the skull with steel jeweller's screws and dental acrylic; after 1 week, the Ht-31 (50 μM, dissolved in aCSF) or 2-BP (0.5 mM, dissolved in aCSF containing 0.01% DMSO) was injected into the BLA at a rate of 0.5 μlÁmin À1 with a total volume of 0.5 μl per side using a microsyringe (1 μl) connected by a PE-10 polyethylene tubing to a needle, which was introduced into the brain region through the cannula fixed, and the behavioural tests were performed 30 min after microinjection.</p><p>The amino acid sequence information of Ht-31 and CP is shown in Table <ref type="table">S3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8">| Statistical analysis</head><p>All analyses were performed using SPSS 18.0 software (SPSS Inc., Chicago, IL, USA), and data are presented as mean ± SEM. All statistical results and tests used are included in the figure legends. Required sample sizes were estimated based on prior work. Data were analysed with independent-samples two-tailed t test, one-way analysis of variance (ANOVA) or two-way ANOVA, as appropriate. Post-hoc tests were run only if F achieved P&lt;0.05 and there was no significant variance inhomogeneity. Differences at P &lt; 0.05 were considered statistically significant. Data and statistical analysis complied with the recommendations of the British Journal of Pharmacology on experimental design and analysis in pharmacology <ref type="bibr" target="#b13">(Curtis et al., 2022)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.9">| Nomenclature of targets and ligands</head><p>Key protein targets and ligands in this article are hyperlinked to corresponding entries in http://www.guidetopharmacology.org and are permanently archived in the Concise Guide to PHARMACOLOGY 2021/2022 <ref type="bibr" target="#b2">(Alexander, Fabbro, et al., 2023;</ref><ref type="bibr">Alexander, Mathie, et al., 2023)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Protein palmitoylation in the BLA modulates depressive-like behaviours in mice</head><p>Protein palmitoylation has been found to be involved in emotional disorders <ref type="bibr" target="#b25">(Gorinski et al., 2019;</ref><ref type="bibr" target="#b47">Oota-Ishigaki et al., 2022)</ref>, and a previous study showed that protein palmitoylation was increased in the whole brain after CRS <ref type="bibr" target="#b70">(Zareba-Koziol et al., 2019)</ref>. How about protein palmitoylation in the BLA after CRS? And what is the underlying mechanism? Thus, to characterize protein palmitoylation in depressive-like behaviours, we exposed C57 mice to CRS and detected the depressive-like behaviours by SPT, TST and FST (Figure <ref type="figure">S1A-D</ref>).</p><p>Then, we detected the protein palmitoylation in the BLA by the ABE assay, and as the western blots of streptavidin-labelled proteins showed, there was a significant increase in the content of palmitoylated proteins in the BLA of CRS mice (Figure <ref type="figure">1a</ref>). Furthermore, we also exposed the mice to CUMS, another animal model of depression (Figure <ref type="figure">S2A-D</ref>). Consistent with CRS model, CUMS exposure elevated the protein palmitoylation level in the BLA (Figure <ref type="figure">1b</ref>). Additionally, we injected LPS (1 mgÁkg À1 , i.p.) to mice for 5 days to induce depressive-like behaviours (Figure <ref type="figure">S3A-D</ref>), and interestingly, LPS exposure significantly up-regulated protein palmitoylation level in the BLA (Figure <ref type="figure">1c</ref>). These results suggest that protein palmitoylation may be an important target for depressive-like behaviours in mice.</p><p>To further verify the role of protein palmitoylation in depressivelike behaviours, we used 2-BP, a palmitoylation inhibitor, to examine whether the decrease in protein palmitoylation could reverse depressive-like behaviours induced by CRS. After confirmation of microinjection site in the BLA (Figure <ref type="figure">S4A</ref>,B), we found that 2-BP treatment did not cause an anxiolytic effect in the Ctrl groups, and it abolished CRS-induced anxiety-like behaviours in the CRS groups, including fewer open arm entries, shorter open arm distance and duration, but produced no effect on locomotion activity (Figure <ref type="figure">1d</ref>). A similar anxiolytic effect was observed in the OFT (Figure <ref type="figure">1e</ref>). Furthermore, we also found that 2-BP reversed the increased immobility time induced by CRS exposure in the TST (Figure <ref type="figure">1f</ref>) but did not change the immobility time in the Ctrl groups. In addition, a similar result was detected in the FST (Figure <ref type="figure">1g</ref>). Considering that the BLA serves as a central neural substrate underlying anxiety and fearrelated disorders, and emerging evidences have revealed that stress induces BLA glutamatergic neuronal network hyperexcitability <ref type="bibr" target="#b40">(Masneuf et al., 2014;</ref><ref type="bibr" target="#b69">Wu et al., 2022)</ref>, to ask whether protein palmitoylation mediate depressive-like behaviours by altering the synaptic transmission in the BLA, we treated the BLA slice from the Ctrl and CRS groups with 2-BP and recorded the mEPSCs in the BLA. As expected, CRS exposure augmented the frequency and amplitude of mEPSCs, and these effects were nearly abolished by 2-BP treatment (Figure <ref type="figure">1h-j</ref>). Together, these results suggest that protein palmitoylation contributes to depressive-like behaviours through altering the synaptic transmission in the BLA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| CRS promotes AKAP150 signalling through palmitoylation in the BLA</head><p>Our previous results have shown that AKAP150 signalling in the BLA contributes to depressive-like behaviours induced by CRS <ref type="bibr" target="#b72">(Zhou et al., 2019)</ref>, and palmitoylation controls AKAP79 assembly of signalling complexes containing PKA, CaN and SAP97 at endosomes <ref type="bibr" target="#b51">(Purkey et al., 2018)</ref>. However, the regulatory mechanism of AKAP150 signalling in the process of CRS remains unclear. To address this issue, we performed the ABE assay and found that there was a significant increase in AKAP150 expression and AKAP150 palmitoylation level in the BLA after CRS (Figure <ref type="figure">2a,</ref><ref type="figure">b</ref>). Interestingly, PSD-95, an important palmitoylation target, showed a reduced palmitoylation level in the BLA, with no difference in its expression level following CRS (Figure <ref type="figure">2a,</ref><ref type="figure">c</ref>). Furthermore, we also observed similar results in the model of CUMS, including increased expression of AKAP150 and its palmitoylation level and decreased PSD-95 palmitoylation level in the BLA (Figure <ref type="figure">2d</ref>-f), indicating that chronic stress elevates AKAP150 function probably by regulating its palmitoylation in the BLA.</p><p>To further confirm the findings described above, we treated the BLA slices from the Ctrl and CRS groups with 2-BP and found that 2-BP reversed the increased AKAP150 palmitoylation and synaptic expression induced by CRS, but with little influence on its total expression (Figure <ref type="figure">2g</ref>,h1-h3). Moreover, we examined AKAP150 downstream targets PKA and CaN, and as the results of Co-IP experiment showed, 2-BP abolished the binding of AKAP150 and PKA induced by CRS (Figure <ref type="figure">2i</ref>,j), while CRS did not alter the interaction between AKAP150 and CaN as well as the expression and synaptic level of CaN (Figure <ref type="figure">2i</ref>,k1-k3). Furthermore, 2-BP also reversed the increased synaptic expressions of PKA and phosphorylated PKA (p-PKA) induced by CRS in the BLA, with little influence on PKA expression and CRS-induced total expression of p-PKA (Figure <ref type="figure">2l-n</ref>).</p><p>Lastly, we examined the delivery of GluA1 and found that CRSmediated surface expression and Ser-845 phosphorylation of GluA1 were abolished by 2-BP, and CRS or/and 2-BP did not affect the total expression and Ser-831 phosphorylation of GluA1 (Figure <ref type="figure">S5A,</ref><ref type="figure">B</ref>). This indicates that chronic stress induces AKAP150 palmitoylation in the BLA, thus promoting AKAP150 to selectively anchor PKA. Together, our findings show that CRS-mediated palmitoylation promotes AKAP150 signalling in the BLA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| AKAP150 palmitoylation signalling facilitates synaptic transmission in the BLA</head><p>Hyperexcitability of the BLA principal neurons plays a causal role in the chronic stress induced depressive-like behaviours <ref type="bibr" target="#b6">(Asim et al., 2023;</ref><ref type="bibr" target="#b55">Rosenkranz et al., 2010)</ref>; therefore, we asked whether AKAP150 palmitoylation mediates the increased excitability of principal neurons in the BLA after CRS. To confirm this, we constructed a well-characterized interference peptide Ht-31 to disrupt the binding of AKAP150 and PKA according to previous reports (Kurihara   <ref type="bibr" target="#b34">et al., 2000;</ref><ref type="bibr" target="#b65">Vijayaraghavan et al., 1997)</ref>. First, we incubated the slice from the Ctrl and CRS groups of mice with Ht-31 or its inactive CP and then performed the ABE, synaptic fractionation and Co-IP assays. As expected, Ht-31 treatment did not change AKAP150 palmitoylation, synaptic expression and total expression levels induced by CRS (Figure <ref type="figure">3a</ref>,b1,b2). Then we found that the CRS-mediated increased binding of AKAP150 and PKA was abolished by treating with Ht-31, and the elevated synaptic expression of PKA was also reversed by Ht-31 treatment (Figure <ref type="figure">3c-e</ref>). Additionally, we further tested the effects of Ht-31 on p-PKA and observed that there was a significant increase in synaptic expression of p-PKA in the BLA after CRS, which was abolished by incubating with Ht-31 that had no significant influence on p-PKA expression (Figure <ref type="figure">S6A,</ref><ref type="figure">B</ref>). Furthermore, we also examined the action of Ht-31 on GluA1 in the BLA after CRS, and as the results showed, CRS raised the surface expression and Ser-845 phosphorylation level of GluA1, which was also reversed by Ht-31 incubation (Figure <ref type="figure">3f,</ref><ref type="figure">g</ref>). These findings show that palmitoylation promotes GluA1 surface expression via AKAP150 signalling in the BLA after CRS.</p><p>To directly validate the role of AKAP150 palmitoylation signalling in synaptic transmission in the BLA, we recorded the mEPSCs and LTP after CRS and/or Ht-31 incubation and observed an obvious increase in the amplitude of mEPSC, which was abolished by Ht-31, while both CRS and Ht-31 incubation did not influence the frequency (Figure <ref type="figure">3h-j</ref>). In addition, our fEPSP recordings from BLA slices showed that CRS enhanced fEPSP slopes, and Ht-31 treatment at slice level significantly attenuated the CRS-induced LTP enhancement (Figure <ref type="figure">3k,</ref><ref type="figure">l</ref>). Lastly, we microinjected the CP or Ht-31 into the BLA region and then tested the depressive-like behaviours in mice by TST and FST. As the TST results showed, CRS exposure increased the immobility time, and Ht-31 microinjection diminished this tendency (Figure <ref type="figure">3m</ref>), and a similar result was observed in the FST (Figure <ref type="figure">3n</ref>), indicating that chronic stress enhances AKAP150 palmitoylation signalling to increase the synaptic transmission in the BLA (Figure <ref type="figure">3o</ref>).</p><p>Together, these findings suggest that disrupting the interaction between AKAP150 and PKA abolishes depressive-like behaviours and the AKAP150 palmitoylation signalling-mediated synaptic transmission in the BLA after CRS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| DHHC2 mediates the AKAP150 palmitoylation signalling in the stressed mice</head><p>Previous study reported that DHHC2, a palmitoyl acyltransferase, as a regulator of AKAP79/150 palmitoylation signalling, is crucial for postsynaptic regulation of recycling endosome function <ref type="bibr" target="#b68">(Woolfrey et al., 2015)</ref>; thus, we asked whether DHHC2 mediates AKAP150 palmitoylation signalling in the BLA after chronic stress. First, we examined the expression and activity of DHHC2, which was monitored by its auto-palmitoylation <ref type="bibr" target="#b67">(Wang et al., 2020)</ref>, and found that CRS upregulated the activity and expression of DHHC2 in the BLA (Figure <ref type="figure">4a,</ref><ref type="figure">b</ref>). Additionally, similar results were observed in the model of CUMS (Figure <ref type="figure">4c,</ref><ref type="figure">d</ref>). To further examine this, AAV-DHHC2, an adeno-associated virus (AAV), was delivered into the BLA to knockdown DHHC2 gene expression. The microinjected site was identified by immunofluorescence, and the silencing efficiency was 64% (Figure <ref type="figure">4e</ref>).</p><p>Next, we carried out the ABE and synaptic fractionation assays, and the results indicated that DHHC2 knockdown resulted in a descending tendency on the palmitoylation level of AKAP150, as well as its synaptic expression in the BLA after CRS, with little influence on its total expression (Figure <ref type="figure">4f-h</ref>). Moreover, we observed that DHHC2 knockdown abolished the synaptic expression of PKA induced by CRS but did not affect its total expression (Figure <ref type="figure">4i</ref>,j). In line with this, DHHC2 knockdown also reversed the CRS-induced increased association between AKAP150 and PKA (Figure <ref type="figure">S7A-D</ref>). In addition, we checked the effect of DHHC2 on the synaptic expression of p-PKA in the BLA after CRS, and similar with result of PKA, DHHC2 knockdown attenuated the synaptic expression of p-PKA induced by CRS (Figure <ref type="figure">4k,</ref><ref type="figure">l</ref>). Lastly, the role of DHHC2 in GluA1 function after CRS was tested, and as the results showed, there were obviously increased levels in the surface expression and Ser-845 phosphorylation of GluA1 after CRS, and these enhancements were abolished by the knockdown of DHHC2 (Figure <ref type="figure">4m</ref>,n), indicating that DHHC2 mediates the delivery of GluA1 by AKAP150 palmitoylation signalling in the BLA after CRS (Figure <ref type="figure">4o</ref>). Together, these findings show that DHHC2 mediates the AKAP150 palmitoylation signalling in the BLA after CRS.</p><p>F I G U R E 3 Hyperpalmitoylation of AKAP150 mediates synaptic transmission in the BLA. (a,b1,b2) Representative western blots and quantification of AKAP150 in the BLA. Treating with Ht-31 did not affect the AKAP150 expression, palmitoylation level and synaptic expression induced by CRS (n = 6 per group, two-way ANOVA, *P &lt; 0.05 vs. CP + Ctrl group, # P &lt; 0.05 vs. Ht-31 + Ctrl group). (c-e) Representative western blots (c) and statistical results of PKA, showing that Ht-31 abolished the increased binding of AKAP150 and PKA induced by CRS (d) (n = 4, no statistical test carried out), and PKA synaptic expression (e) (n = 6 per group, two-way ANOVA, *P &lt; 0.05 vs. CP + Ctrl group, # P &lt; 0.05 vs. CP + CRS group). (f,g) Representative western blots (f) and statistical results of GluA1 (g), showing that Ht-31 reversed the surface expression of GluA1 and GluA1-Ser845 phosphorylation level induced by CRS (n = 6 per group, two-way ANOVA, *P &lt; 0.05 vs. CP + Ctrl group, # P &lt; 0.05 vs. CP + CRS group). (h-j) Representative mEPSCs recording in the BLA neurons (h), and cumulative probabilities and average mEPSCs frequencies and amplitudes from the CRS and/or Ht-31 treatment groups (i,j) (n = 12 cells from six mice per group, two-way ANOVA, *P &lt; 0.05 vs. CP + Ctrl group, # P &lt; 0.05 vs. CP + CRS group). (k,l) Representative fEPSPs slope relative to baseline before and after HFS (k), and its statistical results (l) (n = 5 mice per group, two-way ANVOA, *P &lt; 0.05 vs. CP + Ctrl group, # P &lt; 0.05 vs. CP + CRS group). (m,n) CRS-induced depressive-like behaviours were abolished by Ht-31, with results showing that Ht-31 reduced the increased immobility time in the TST (m) and FST (n) induced by CRS (n = 11 mice per group, two-way ANVOA, *P &lt; 0.05 vs. CP + Ctrl group, # P &lt; 0.05 vs. CP + CRS). (o) Working model of AKAP150 palmitoylation signalling in the BLA after CRS. Error bars represent mean ± SEM.</p><p>3.5 | DHHC2 knockdown in the BLA prevents CRS-induced depressive-like behaviours in mice The results described above indicated that DHHC2-mediated AKAP150 palmitoylation signalling may be a functional element of chronic stress-induced depressive-like behaviours in mice. Thus, we wondered whether DHHC2 knockdown in the BLA prevents the CRSinduced depressive-like behaviours. The mice were microinjected with AAV-eGFP or AAV-DHHC2 into the BLA region, then the CRS procedure was performed after recovery and the depressive-like behaviours were tested by SPT, TST and FST, and lastly, the mEPSCs and LTP in the BLA were recorded (Figure <ref type="figure">5a</ref>). The results showed that DHHC2 knockdown in the BLA restored the CRS-induced deficits in sucrose preference and reduced immobility duration in the TST and FST (Figure <ref type="figure">5b-d</ref>). Further, we measured AMPAR-mediated mEPSCs using whole-cell patch-clamp recording in the BLA slices and found that the increased amplitude induced by CRS was abolished by the knockdown of DHHC2 in the BLA (Figure <ref type="figure">5e-g</ref>). Additionally, our fEPSP recordings from BLA slices showed that CRS enhanced fEPSP slopes, and DHHC2 knockdown at slice level significantly attenuated CRSinduced LTP enhancement (Figure <ref type="figure">5h,</ref><ref type="figure">i</ref>). Collectively, our results demonstrated that chronic stress preferentially induces AKAP150 palmitoylation, not PSD-95 palmitoylation, in the BLA, followed by activation of AKAP150 signalling, which triggers the anchoring and activation of PKA to regulate the phosphorylation and synaptic expression level of GluA1 and therefore alters the synaptic transmission and induces depressive-like behaviours in mice (Figure <ref type="figure">5j</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>In this paper, we show a previously unsuspected role of DHHC2-mediated AKAP150 palmitoylation in depressive-like behaviours. Hyperexcitability of the BLA was closely associated with emotional disorders, particularly depressive disorders, which was the primary focus of our analysis. We demonstrated that chronic stress increased the protein palmitoylation in the BLA, and blocking the protein palmitoylation reversed depressive-like behaviours induced by CRS. Importantly, AKAP150, not PSD-95, was identified as the substrate of DHHC2 that was contributed to depressive-like behaviours in mice. Disrupting the interaction of AKAP150 and PKA with Ht-31 abolished the effects of AKAP150 palmitoylation signalling in the BLA. Lastly, the DHHC2 expression and palmitoylation levels were increased in the BLA after CRS, and DHHC2 knockdown reversed the depressive-like behaviours, as well as the synaptic transmission in the BLA, suggesting that DHHC2 and its palmitoylation signal may represent an endogenous antidepressant target.</p><p>Protein palmitoylation has been reported to regulate neuronal protein stability, sorting and trafficking, subsequently changing the synaptic targeting and functional efficiency of substrate proteins <ref type="bibr">(el-Husseini Ael &amp; Bredt, 2002;</ref><ref type="bibr" target="#b28">Ho et al., 2011;</ref><ref type="bibr" target="#b39">Linder &amp; Deschenes, 2007)</ref>. Here, we found that chronic stress or LPS exposure up-regulated the protein palmitoylation level in the BLA, while our previous results have shown that deficiency in palmitoylation signal in the BLA generates a high-anxious state in rats <ref type="bibr" target="#b61">(Shen et al., 2019)</ref>. Are these results contradictory? BLA is a central neural substrate for emotion disorders, such as anxiety, fear and related negative moods <ref type="bibr" target="#b0">(Adhikari et al., 2015;</ref><ref type="bibr" target="#b32">Keifer et al., 2015)</ref>, and hyperexcitability of BLA indicates that there is an increase in pyramidal neuron activity <ref type="bibr" target="#b53">(Rau et al., 2015)</ref>. In addition, protein palmitoylation was changed along with the alteration of neuronal activity, for example, blocking synaptic activity rapidly induces PSD-95 palmitoylation and mediates synaptic clustering of PSD-95 and associated AMPA-type glutamate receptors <ref type="bibr" target="#b46">(Noritake et al., 2009)</ref>. In contrast, AKAP150 palmitoylation and its association with synaptic lipid raft increased following seizure activity in vivo <ref type="bibr" target="#b11">(Carvalho-Rosa et al., 2023)</ref> level of PSD-95 <ref type="bibr" target="#b28">(Ho et al., 2011)</ref>. These previous findings suggest that acute or single stimulation induces protein depalmitoylation physiologically, while chronic or continuous stimulation increases protein palmitoylation. Thus, we speculated that the possible explanation for this ambivalence might be that the continuous hyperactivity in BLA neurons contributes to protein palmitoylation in depressive-like behaviours while rapid increase in synaptic activity induces depalmitoylation in anxiety-like behaviours.</p><p>PKA anchored to the scaffold AKAP150 plays a key role in regulating GluA1 Ser-845 phosphorylation to control CP-AMPAR recruitment at hippocampal synapses during LTP <ref type="bibr" target="#b59">(Sanderson et al., 2018)</ref>, and infusion peptide Ht-31 to the amygdala, inhibiting PKA anchoring to AKAP150, impairs memory consolidation of auditory conditioning <ref type="bibr" target="#b44">(Moita et al., 2002)</ref>. In addition, direct evidence shows that AKAP150 is strongly expressed in mouse brain regions involved in learning and memory, and an up-regulated level of AKAP150 contributes to processing exposure to a novel context and associative learning <ref type="bibr" target="#b45">(Nijholt et al., 2007;</ref><ref type="bibr" target="#b48">Ostroveanu et al., 2007)</ref>. Our previous results also showed that AKAP150-PKA complex plays important roles in AMPAR-mediated excitatory synaptic transmission in the BLA under CRS <ref type="bibr" target="#b72">(Zhou et al., 2019)</ref>. However, the underlying mechanism of AKAP150 in memory and stress-related LTP is still unknown. Previous finding revealed that palmitoylation is required for localization of the AKAP150 signalling complex in endosomes but not the plasma membrane <ref type="bibr" target="#b51">(Purkey et al., 2018)</ref>. However, palmitoylation promotes AKAP150-mediated GluR1 surface delivery and exocytosis from the recycling endosomes (Y. <ref type="bibr" target="#b37">Li et al., 2021)</ref>, suggesting that although palmitoylation does not directly target AKAP150 to the plasma membrane, it facilitates endosomes recycling and subsequent AKAP150 signalling during LTP. Here, we found that chronic stress up-regulated AKAP150 expression and palmitoylation levels in the BLA, and blocking the AKAP150-PKA interaction with Ht-31 abolished the AKAP150 palmitoylation signalling, indicating that palmitoylation plays an important role in regulating AKAP150 signalling. DHHC2, a palmitoyl acyltransferase, mediates the palmitoylation of PSD-95 and AKAP150 <ref type="bibr" target="#b41">(Matt et al., 2019;</ref><ref type="bibr" target="#b68">Woolfrey et al., 2015)</ref>; however, the underlying mechanisms are totally different. For instance, upon synaptic activity blockade, DHHC2 translocates to the postsynaptic density to induce PSD-95 palmitoylation and mediates synaptic clustering of PSD-95 <ref type="bibr" target="#b46">(Noritake et al., 2009)</ref>. Otherwise, following seizure activity in vivo, DHHC2 interacts with and palmitoylates AKAP150 and targets it to postsynaptic lipid rafts and dendritic recycling endosomes <ref type="bibr" target="#b33">(Keith et al., 2012)</ref>. Interestingly, the effects of PSD-95 and AKAP150 palmitoylation on AMPA receptors, particularly GluA1, are similar. Palmitoylation promotes PSD-95 clustering at the postsynaptic density; subsequently, palmitoylated PSD-95 increases the surface expression of AMPA receptors by interacting with stargazing <ref type="bibr" target="#b27">(Han et al., 2015)</ref>. For AKAP150, palmitoylation facilitates the localization of the AKAP150 signalling complex in endosomes and further induces the localization to dendritic recycling endosomes in neurons, and lastly, AKAP150 anchors PKA or CaN to regulate the phosphorylation and surface delivery of GluA1 <ref type="bibr" target="#b58">(Sanderson et al., 2012)</ref>. Here, we found that DHHC2 expression and palmitoylation levels were increased in the BLA after chronic stress, and the expression of AKAP150 and its palmitoylation level were also increased, while there was no significant change in PSD-95 expression but decreased PSD-95 palmitoylation level, indicating that chronic stress up-regulated the function of DHHC2, and DHHC2 preferentially palmitoylated AKAP150, not PSD-95, to regulate GluA1 clustering at synapse.</p><p>In this study, we verified that protein palmitoylation is required for chronic stress-induced depressive-like behaviours, and 2-BP treatment reversed the increased palmitoylation level, synaptic transmission and depressive-like behaviours. Although we identified that AKAP150 palmitoylation plays a critical role in regulating chronic stress-induced depressive-like behaviours, 2-BP, as an inhibitor of palmitoylation, lacks selectivity on its substrates, so it would be appropriate to investigate its specificity using mass spectrum for palmitoylated proteins. In addition, palmitoylation/depalmitoylation dynamically modulates AKAP150 signalling in the BLA, and we have shown that palmitoylation promotes AKAP150 signalling to induce synaptic transmission and depressive-like behaviours. However, identification and biological characteristics of the AKAP150 palmitoylation and depalmitoylation enzymes are still unknown, and these questions remain to be verified.</p><p>In conclusion, our results provide evidence that AKAP150 palmitoylation signalling principally mediates chronic stress-induced depressive-like behaviours in mice, and DHHC2 knockdown in the BLA abolishes the increased synaptic transmission and depressive-like behaviours induced by chronic stress. These findings also indicate that palmitoylation cycling, DHHC2-mediated AKAP150 palmitoylation signalling and subsequently the selective regulation of membrane F I G U R E 5 DHHC2 knockdown in the BLA reverses chronic stress-induced depressive-like behaviours and synaptic transmission. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fujian</head><label></label><figDesc>Medical University, China, Grant/Award Number: XRCZX2019035; Natural Science Foundation of Fujian Province, Grant/Award Number: 2021J01688; Natural Science Foundation of Hainan Province, China, Grant/Award Number: 821RC1153; Innovation of Science and Technology of Fujian Province, China, Grant/Award Number: 2021Y91010285 K E Y W O R D S AKAP150, basolateral amygdala, chronic stress, DHHC2, palmitoylation 1 | INTRODUCTION</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>expression and palmitoylation levels of AKAP150 in the BLA of stressed mice were increased, and blocking the binding of AKAP150 and PKA with Ht-31 abolished the AKAP150 palmitoylation signalling induced by CRS. Furthermore, the function of DHHC2 was increased after CRS, and DHHC2 knockdown reversed depressive-like behaviours in CRS mice, as well as decreased the AKAP150 signalling and synaptic transmission in the BLA. Our results revealed previously unknown roles of DHHC2 and the associated pivotal regulation of BLA neuronal excitability by AKAP150 palmitoylation signalling in depressive-like behaviours. 2 | METHODS 2.1 | Agents Hydroxylamine (HA), methyl methane thiosulfonate (MMTS), Triton X-100, bovine serum albumin (BSA), lipopolysaccharides (LPS) and 2-bromopalmitate (2-BP) were purchased from Sigma-Aldrich (St. Louis, MO, USA). N-(6-(Biotinamido) hexyl)-3 0 -(2 0 -pyridyldithio)propionamide (HPDP)-biotin, streptavidin-agarose and Syn-PER synaptic protein extract reagent (87793) were purchased from Thermo Fisher Scientific (Waltham, MA, USA). Green fluorescent protein (GFP)-tagging adeno-associated virus (AAV) expressing specific short hairpin RNAs (shRNAs) for DHHC2 knockdown was obtained from Shanghai GeneChem (Shanghai, China). Ht-31 and control peptide (CP) were purchased from GL Biochem (Shanghai, China). Other agents were purchased from commercial suppliers. Detailed information about agents used is shown in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>tained a 5 Â 5 cm centre square, two open and two closed arms at 30 Â 5 cm each. Closed arms were enclosed with white walls measuring 15 cm in height. The apparatus was placed in a silent, dimly lit room with illumination of 100-200 lx. Each mouse was placed in the centre square facing one of the open arms to begin the assessment. The time spent in the open arms, open-arm entries and the open-arm distance were recorded by a camera hanging above the EPM, and each mouse was allowed to freely explore for 5 min.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>centre of the open field and allowed free exploration for 5 min individually under an illumination of 100-200 lx. The time in the centre area, the entry times into the centre and the distance the animals travelled were recorded by a camera positioned above the cage. 2.5 | Electrophysiological experiments 2.5.1 | Slice preparation Mice were anaesthetised with isoflurane and transcardially perfused with cutting solution (4 C) containing (in mM): 135 N-methyl-D-glucamine, 1 KCl, 1.2 KH 2 PO 4 , 20 choline-HCO 3 , 11 glucose, 0.5 CaCl 2 , 1.5 MgCl 2 , pH adjusted to 7.4 with HCl and saturated with 95% O 2 -5% CO 2 . After quick decapitation, the brains were moved into ice-cold oxygenated cutting solution. Coronal bilateral slices (300 μm in thickness) containing the amygdala were cut by a vibratome (VT 1200S, Leica, Wetzlar, Germany) in the cutting solution, and then transferred to a holding chamber with artifical cerebrospinal fluid (aCSF) to incubate at 34 C for 30 min. After that, all slices were incubated at 28 C in aCSF, which was continuously perfused with oxygen. The compositions of aCSF (in mM) include the following: 119.0 NaCl, 1.3 MgSO 4 , 3.5 KCl, 1.0 NaH 2 PO 4 , 26.2 NaHCO 3 , 2.5 CaCl 2 and 11.0 glucose, pH 7.4 (300 mOsm). 2.5.2 | Whole-cell patch clamp recording After 1.5 h recovery, brain slices were placed into the recording chambers where they were continuously perfused with oxygenated aCSF at a controlled rate of 2 mlÁmin À1 . For the recording of AMPARmediated miniature excitatory postsynaptic currents (mEPSCs) of amygdala neurons, patch electrodes (3-5 MΩ resistance) were used in a submersion chamber and filled with a solution containing (in mM) the following: 122.5 Cs-gluconate, 17.5 CsCl, 0.2 EGTA, 10.0 HEPES, 1.0 MgCl 2 , 4.0 Mg-ATP, 0.3 Na-GTP, and 5.0 QX-314 (adjusted to pH 7.2 with CsOH, 290-320 mOsm). Whole-cell patch clamp recording was performed using a Muticlamp700B amplifier (Molecular Devices, Sunnyvale, CA, USA), filtered at 3 kHz, amplified five times and then digitized at 20 kHz with a Digiata1550A digitizer and Clampex 10 software (Molecular Devices, Sunnyvale, CA, USA). For the isolation of AMPAR-mediated mEPSCs, the recordings were carried out in the presence of bicuculline (20 μM) and TTX (1 μM) in the bath solution. All neurons were clamped at À70 mV, and recordings with &gt;20% change in series resistance or with series resistance &gt;15 MΩ, as monitored with a 10-mV pulse, were excluded. The frequencies and amplitudes of mEPSCs were visually confirmed and analysed by the Mini Analysis Program (Synaptosoft, Decatur, GA, USA). For LTP induction, conditioning stimulation consisted of 360 pulses at 2 Hz was paired with continuous postsynaptic depolarization (180 s) to 0 mV. To suppress excessive polysynaptic activity, picrotoxin (50 μM) was added in the recording bath, and the concentration of divalent cations was elevated to 4-mM Ca 2+ and 4-mM Mg 2+ to reduce recruitment of polysynaptic responses. A test pulse was delivered at 0.05 Hz to monitor baseline amplitude for 10 min before and for 25-35 min following paired stimulation. To calculate LTP, the EPSCs amplitudes were normalized to the mean baseline amplitude during 10 min baseline. Potentiation was defined as the mean normalized EPSCs amplitude 35-50 min after paired stimulation. Data were acquired in an interleaved manner for LTP comparisons between different groups. 2.6 | Molecular biology experiments 2.6.1 | BLA samples collection Mice were anaesthetised with isoflurane and then quickly decapitated and the brain placed into ice-cold oxygenated aCSF. Next, coronal bilateral slices (300 μm in thickness) containing BLA were cut by a vibratome in aCSF, and the slices were transferred to a glass culture dish. Lastly, the BLA region was separated by syringe needle according to the mouse brain atlas under the microscope, and the left and right BLA tissue were collected and pooled into a tube for molecular biology experiments. Compositions of aCSF (in mM): 119.0 NaCl, 1.3 MgSO 4 , 3.5 KCl, 1.0 NaH 2 PO 4 , 26.2 NaHCO 3 , 2.5 CaCl 2 and 11.0 glucose, pH 7.4 (300 mOsm).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>F</head><label></label><figDesc>I G U R E 1 Hyperpalmitoylation in the BLA is required for depressive-like behaviours. (a-c) Western blotting analysis of streptavidin-labelled protein from the BLA of control and CRS-exposed mice (a), CUMS-exposed mice (b) and LPS-exposed mice (c). (d) Effects of 2-BP on CRSinduced anxiety-like behaviours were tested by EPM, showing 2-BP increased the number of entries into the open arms, distance moved and time spent in the open arms, but without influence on total distance (n = 8 mice per group, two-way ANOVA, *P &lt; 0.05 vs. Ctrl + Veh group, # P &lt; 0.05 vs. CRS + Veh group). (e) Effects of 2-BP on CRS-induced anxiety-like behaviours were tested by OFT, showing 2-BP increased the centre crossing number, centre distance and duration, without difference in total distance (n = 8 mice per group, two-way ANOVA, *P &lt; 0.05 vs. Ctrl + Veh group, # P &lt; 0.05 vs. CRS + Veh group). (f,g) Effects of 2-BP on CRS-induced depressive-like behaviours were tested by TST and FST, showing 2-BP abolished the increased TST immobility induced by CRS (f), and similar effects were observed in the FST (g) (n = 8 mice per group, two-way ANOVA, *P &lt; 0.05 vs. Ctrl + Veh group, # P &lt; 0.05 vs. CRS + Veh group). (h) Representative miniature excitatory postsynaptic current recording in the BLA neurons. (i, j) Cumulative probabilities and average miniature excitatory postsynaptic current frequencies and amplitudes from the Ctrl + Veh group, CRS + Veh group, Ctrl + 2-BP group and CRS + 2-BP group (n = 13 cells from six mice per group, twoway ANOVA, *P &lt; 0.05 vs. Ctrl + Veh group, # P &lt; 0.05 vs. CRS + Veh group). Error bars represent mean ± SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>F</head><label></label><figDesc>I G U R E 2 Chronic stress facilitates PKA signalling by AKAP150 palmitoylation in the BLA. (a-c) Representative western blots (a) and statistical results of AKAP150 and PSD-95, showing that AKAP150 expression and palmitoylation levels were increased in the BLA after CRS (b), without changes in PSD-95 expression, while a decreased PSD-95 palmitoylation level was observed (c) (n = 8 per group, Student's t test, *P &lt; 0.05 vs. Ctrl group). (d-f) Representative western blots (d) and statistical results of AKAP150 and PSD-95, showing that CUMS up-regulated the expression and palmitoylation levels of AKAP150 in the BLA (e) and did not influence the expression of PSD-95, but induced a decreased PSD-95 palmitoylation level (f) (n = 6 per group, Student's t test, *P &lt; 0.05 vs. Ctrl group). (g,h1-h3) Representative western blots (g) and statistical results (h1-h3) of AKAP150, showing that 2-BP reversed the palmitoylation level and synaptic expression of AKAP150 induced by CRS, but did not alter AKAP150 expression (n = 6 per group, two-way ANOVA, *P &lt; 0.05 vs. Ctrl + Veh group, # P &lt; 0.05 vs. CRS + Veh group). (i-k) Representative western blots (i) and statistical results of PKA and CaN, showing that 2-BP reversed the increased interaction between AKAP150 and PKA induced by CRS (j) (n = 4 per group, no statistical test carried out), but did not influence the interaction between AKAP150 and CaN (k1) (n = 6 per group, two-way ANOVA), as well as the expression and synaptic expression of CaN (k2,k3) (n = 6 per group, two-way ANOVA). (ln) Representative western blots (l) and statistical results of PKA and p-PKA, showing that 2-BP abolished the increased PKA synaptic expression induced by CRS (m), and the increased p-PKA synaptic expression (n) (n = 6 per group, two-way ANOVA, *P &lt; 0.05 vs. Ctrl + Veh group, # P &lt; 0.05 vs. CRS + Veh group). (o) Working model of AKAP150 palmitoylation signalling in the BLA after CRS. Error bars represent mean ± SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>, and such findings indicated that neuronal activity bidirectionally modulates protein palmitoylation in the BLA. However, what is the possible explanation for the difference between anxiety and depression in protein palmitoylation? Moreover, our another recent study has shown that treating hippocampal neurons with TTX for 48 h to block neuronal activity to simulate an increase in synaptic network strength, brought about an obvious elevation in PSD-95 palmitoylation (Shen et al., 2022), while treating with NMDA decreased the palmitoylation F I G U R E 4 Chronic stress regulates AKAP150 signalling by increasing DHHC2 function in the BLA. (a,b) Representative western blots and statistical results of DHHC2, showing CRS up-regulated the expression and palmitoylation level of DHHC2 in the BLA (n = 6 per group, Student's t test, *P &lt; 0.05 vs. Ctrl group). (c,d) Similar results were observed in the model of CUMS (n = 6 per group, Student's t test, *P &lt; 0.05 vs. Ctrl group). (e) Schematic representation of construct of AAV9-Zdhhc2-RNAi, stereotaxic injection, and immunofluorescent identification of coronal brain sections containing the BLA region (scale bars, 100 μm) (left), and representative western blots and quantification of DHHC2 level in the BLA from AAV-eGFP and AAV-DHHC2 groups (right) (n = 7 per group, Student's t test, *P &lt; 0.05 vs. AAV-eGFP group). (f-h) Representative western blots and statistical results of AKAP150, showing that CRS-induced high AKAP150 synaptic expression and palmitoylation level were prevented by AAV-DHHC2 infection, but did not influence CRS-induced total expression of AKAP150 (n = 6 per group, two-way ANVOA, *P &lt; 0.05 vs. AAV-eGFP + Ctrl group; # P &lt; 0.05 vs. AAV-eGFP + CRS group, $ P &lt; 0.05 vs. AAV-DHHC2 + Ctrl group). (i,j) Representative western blots and quantification of PKA, showing that the increase of synaptic PKA expression caused by CRS was abolished by DHHC2 knockdown (n = 6 per group, two-way ANVOA, *P &lt; 0.05 vs. AAV-eGFP + Ctrl group, # P &lt; 0.05 vs. AAV-eGFP + CRS group). (k,l) Representative western blots and statistical results of p-PKA, showing DHHC2 knockdown abolished the CRS-mediated p-PKA synaptic expression (n = 6 per group, two-way ANVOA, *P &lt; 0.05 vs. AAV-eGFP + Ctrl group, # P &lt; 0.05 vs. AAV-eGFP + CRS group). (m,n) Representative western blots and statistical results of GluA1, showing DHHC2 knockdown reversed the surface expression of GluA1 and GluA1-Ser845 level mediated by CRS (n = 6 per group, two-way ANVOA, *P &lt; 0.05 vs. AAV-eGFP + Ctrl group, # P &lt; 0.05 vs. AAV-eGFP + CRS group). (o) Working model of DHHC2 in the BLA after CRS. Error bars represent mean ± SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>(a) Schematic representation of experimental procedures. (b-d) DHHC2 knockdown in the BLA eliminated the depressive-inducing effects of CRS on SPT (b), TST (c) and FST (d) (n = 8 per group, two-way ANVOA, *P &lt; 0.05 vs. AAV-eGFP + Ctrl group, # P &lt; 0.05 vs. AAV-eGFP + CRS group).(e) Representative mEPSCs recording in the BLA neurons. (f,g) Cumulative probabilities and average mEPSCs frequencies and amplitudes, showing DHHC2 knockdown reversed the CRS-induced synaptic transmission in the BLA (n = 17, 16, 16, 17 cells from eight mice per group, two-way ANVOA, *P &lt; 0.05 vs. AAV-eGFP + Ctrl group, # P &lt; 0.05 vs. AAV-eGFP + CRS group). (h,i) Representative fEPSPs slope relative to baseline before and after HFS and the statistical results, showing that DHHC2 knockdown normalized the enhanced LTP caused by CRS (n = 6 per group, two-way ANVOA, *P &lt; 0.05 vs. AAV-eGFP + Ctrl group, # P &lt; 0.05 vs. AAV-eGFP + CRS group). (j) Schematic representation of the role of AKAP150 palmitoylation signalling in chronic stress-induced depressive-like behaviours. Chronic stress up-regulates the function of DHHC2 in BLA, and DHHC2 preferentially palmitoylates AKAP150, not PSD-95, therefore targeting PKA to the PSD to regulate GluA1 phosphorylation, followed by facilitation of synaptic transmission and depressive-like behaviours in mice. Error bars represent mean ± SEM.surface stability of glutamatergic receptors may be critical for depressive-like behaviours. The findings of our work support the view that the excitability of BLA can be scaled via glutamatergic receptor surface delivery and stability, and this raises the potential therapeutic value of AKAP150 and/or DHHC2-regulating compounds in the therapy of depressive disorders.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>14765381, 2024, 13, Downloaded from https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.16318 by Zhongshan University, Wiley Online Library on [07/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>14765381, 2024, 13, Downloaded from https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.16318 by Zhongshan University, Wiley Online Library on [07/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License F I G U R E 1 Legend on next page.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>This work was supported by grants from the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">82101585</rs> to Z.-C.S.); <rs type="funder">Research Foundation for Advanced Talents at Fujian Medical University, China</rs> (<rs type="grantNumber">XRCZX2019035</rs> to Z.-C.S.); <rs type="funder">Natural Science Foundation of Fujian Province, China</rs> (<rs type="grantNumber">2021J01688</rs> to Z.-C.S.); <rs type="funder">Natural Science Foundation of Hainan Province, China</rs> (<rs type="grantNumber">821RC1153</rs> to Z.-X.X.); <rs type="funder">Innovation of Science and Technology of Fujian Province, China</rs> (<rs type="grantNumber">2021Y91010285</rs> to Z.-C.S.). <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">82171201</rs> to Z.-M.L.).</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding information</head><p><rs type="funder">National Natural Science Foundation of China</rs>, Grant/Award Numbers: <rs type="grantNumber">82101585</rs>, <rs type="grantNumber">82171201</rs>; <rs type="funder">Research Foundation for Advanced Talents</rs> at</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_9PAx7m4">
+					<idno type="grant-number">82101585</idno>
+				</org>
+				<org type="funding" xml:id="_tRaNKAR">
+					<idno type="grant-number">XRCZX2019035</idno>
+				</org>
+				<org type="funding" xml:id="_yTVjZtt">
+					<idno type="grant-number">2021J01688</idno>
+				</org>
+				<org type="funding" xml:id="_gkc9SA4">
+					<idno type="grant-number">821RC1153</idno>
+				</org>
+				<org type="funding" xml:id="_2DYw63a">
+					<idno type="grant-number">2021Y91010285</idno>
+				</org>
+				<org type="funding" xml:id="_v2gse85">
+					<idno type="grant-number">82171201</idno>
+				</org>
+				<org type="funding" xml:id="_Xm8mkAH">
+					<idno type="grant-number">82101585</idno>
+				</org>
+				<org type="funding" xml:id="_s9Xuaau">
+					<idno type="grant-number">82171201</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are available from the corresponding authors upon reasonable request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATION OF TRANSPARENCY AND SCIENTIFIC</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RIGOUR</head><p>This Declaration acknowledges that this paper adheres to the principles for transparent reporting and scientific rigour of preclinical research recommended by funding agencies, publishers and other organizations engaged with supporting research.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors declare no competing financial interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Basomedial amygdala mediates top-down control of anxiety and fear</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Lerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Finkelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Jennings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ferenczi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gunaydin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mirzabekov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Deisseroth</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature15698</idno>
+		<ptr target="https://doi.org/10.1038/nature15698" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">527</biblScope>
+			<biblScope unit="issue">7577</biblScope>
+			<biblScope unit="page" from="179" to="185" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Developmental studies of the hippocampus and hippocampal-dependent behaviors: Insights from interdisciplinary studies and tips for new investigators</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Albani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Mchail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Dumas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neubiorev.2014.04.009</idno>
+		<ptr target="https://doi.org/10.1016/j.neubiorev.2014.04.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience and Biobehavioral Reviews</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="183" to="190" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Concise Guide to PHARMACOLOGY 2023/24: Enzymes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P H</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fabbro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Mathie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Veale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Faccenda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Annett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dessauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gertsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Helsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Izzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ostrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Papapetropoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Pyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bph.16181</idno>
+		<ptr target="https://doi.org/10.1111/bph.16181" />
+	</analytic>
+	<monogr>
+		<title level="j">Br J Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="289" to="S373" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P H</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Mathie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Veale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Striessnig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Faccenda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Aldrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Attali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Baggetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Becirovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Biel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Bill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Caceres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Catterall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Conner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>The Concise Guide to PHARMACOLOGY 2023/24: Ion channels</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1111/bph.16181</idno>
+		<ptr target="https://doi.org/10.1111/bph.16181" />
+	</analytic>
+	<monogr>
+		<title level="j">Br J Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="145" to="S222" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Goals and practicalities of immunoblotting and immunohistochemistry: A guide for submission to the</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P H</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R S</forename><surname>Broughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Sobey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Stanford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cirino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Docherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Giembycz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hoyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Insel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Izzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Macewan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mangum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wonnacott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahluwalia</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bph.14112</idno>
+		<ptr target="https://doi.org/10.1111/bph.14112" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Pharmacology. British Journal of Pharmacology</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="407" to="411" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Potentiated GABAergic neuronal activities in the basolateral amygdala alleviate stress-induced depressive behaviors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cns.14422</idno>
+		<ptr target="https://doi.org/10.1111/cns.14422" />
+	</analytic>
+	<monogr>
+		<title level="j">CNS Neuroscience &amp; Therapeutics</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Genetic analysis of open field behavior in swine</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Beilharz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.2527/jas1967.265988x</idno>
+		<ptr target="https://doi.org/10.2527/jas1967.265988x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Animal Science</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="988" to="990" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The impact of stress and major depressive disorder on hippocampal and medial prefrontal cortex morphology</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Belleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Treadway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Pizzagalli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biopsych.2018.09.031</idno>
+		<ptr target="https://doi.org/10.1016/j.biopsych.2018.09.031" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="443" to="453" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The amygdala: Functional organization and involvement in neurologic disorders</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Benarroch</surname></persName>
+		</author>
+		<idno type="DOI">10.1212/WNL.0000000000001171</idno>
+		<ptr target="https://doi.org/10.1212/WNL.0000000000001171" />
+	</analytic>
+	<monogr>
+		<title level="j">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="313" to="324" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A critical role for PSD-95/AKAP interactions in endocytosis of synaptic AMPA receptors</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharyya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Biou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Schluter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Malenka</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn.2249</idno>
+		<ptr target="https://doi.org/10.1038/nn.2249" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="172" to="181" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Epileptiform activity influences theta-burst induced LTP in the adult hippocampus: A role for synaptic lipid raft disruption in early metaplasticity?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Carvalho-Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Silva-Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Vaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cunha-Reis</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fncel.2023.1117697</idno>
+		<ptr target="https://doi.org/10.3389/fncel.2023.1117697" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Cellular Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">1117697</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Physiological role for casein kinase 1 in glutamatergic synaptic transmission</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chergui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Svenningsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Greengard</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.1082-05.2005</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.1082-05" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="6601" to="6609" />
+			<date type="published" when="2005">2005. 2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Planning experiments: Updated guidance on experimental design and analysis and their reporting III</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P H</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cirino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Insel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Izzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Panettieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Sobey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Stanford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stefanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Teixeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vergnolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahluwalia</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bph.15868</idno>
+		<ptr target="https://doi.org/10.1111/bph.15868" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Pharmacology</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3907" to="3913" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Effects of psilocybin-assisted therapy on major depressive disorder: A randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Cosimano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Sepeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Finan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Griffiths</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamapsychiatry.2020.3285</idno>
+		<ptr target="https://doi.org/10.1001/jamapsychiatry.2020.3285" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="481" to="489" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Genetic studies on the tripartite glutamate synapse in the pathophysiology and therapeutics of mood disorders</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>De Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Loch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Brunoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Henter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Zarate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Machado-Vieira</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/npp.2016.149</idno>
+		<ptr target="https://doi.org/10.1038/npp.2016.149" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="787" to="800" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Lipids: Picturing palmitoylation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deane</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.2577</idno>
+		<ptr target="https://doi.org/10.1038/nchembio.2577" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chemical Biology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">199</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Synaptic dysfunction in depression: Potential therapeutic targets</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Duman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Aghajanian</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1222939</idno>
+		<ptr target="https://doi.org/10.1126/science.1222939" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="issue">6103</biblScope>
+			<biblScope unit="page" from="68" to="72" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation: A regulator of neuronal development and function</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E D</forename><surname>El-Husseini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dakoji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sweeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Prange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gauthier-Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aguilera-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrn940</idno>
+		<ptr target="https://doi.org/10.1038/nrn940" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews. Neuroscience</title>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Ael</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="791" to="802" />
+			<date type="published" when="2002">2002. 2002</date>
+		</imprint>
+	</monogr>
+	<note>Cell</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">PKA phosphorylation of AMPA receptor subunits controls synaptic trafficking underlying plasticity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Esteban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nuriya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Huganir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Malinow</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn997</idno>
+		<ptr target="https://doi.org/10.1038/nn997" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="136" to="143" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Graphene oxide prevents lateral amygdala dysfunctional synaptic plasticity and reverts long lasting anxiety behavior in rats</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Franceschi Biagioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cellot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ballesteros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Casani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Coimbra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kostarelos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ballerini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2021.120749</idno>
+		<ptr target="https://doi.org/10.1016/j.biomaterials.2021.120749" />
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page">120749</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Molecular pathways of major depressive disorder converge on the synapse</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Fries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Saldana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Finnstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rein</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41380-022-01806-1</idno>
+		<ptr target="https://doi.org/10.1038/s41380-022-01806-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="284" to="297" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">The dynamic synapse: Molecular methods in ionotropic receptor biology</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<editor>J. T. Kittler &amp; S. J. Moss</editor>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<pubPlace>Taylor &amp; Francis</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Protein palmitoylation by DHHC protein family</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Local palmitoylation cycles define activity-regulated postsynaptic subdomains</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimitrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boncompain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vielemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201302071</idno>
+		<ptr target="https://doi.org/10.1083/jcb.201302071" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="145" to="161" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Treatment-resistant depression in Poland-epidemiology and treatment</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Galecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Samochowiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mikulowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szulc</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/jcm11030480</idno>
+		<ptr target="https://doi.org/10.3390/jcm11030480" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Medicine</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">480</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Attenuated palmitoylation of serotonin receptor 5-HT1A affects receptor function and contributes to depression-like behaviors</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gorinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bijata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Abdel Galil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zeug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bazovkina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kondaurova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kulikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ilchibaeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zareba-Koziol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Papaleo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scheggia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kochlamazashvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dityatev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krzystyniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wlodarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ponimaskin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-019-11876-5</idno>
+		<ptr target="https://doi.org/10.1038/s" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41467" to="41486" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Linking glutamate receptor movements and synapse function</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Groc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Choquet</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aay4631</idno>
+		<ptr target="https://doi.org/10.1126/science.aay4631" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="page" from="368" to="4631" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">S-palmitoylation regulates AMPA receptors trafficking and function: A novel insight into synaptic regulation and therapeutics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsb.2014.12.002</idno>
+		<ptr target="https://doi.org/10.1016/j.apsb.2014.12.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Pharmaceutica Sinica B</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">S-nitrosylation and S-palmitoylation reciprocally regulate synaptic targeting of PSD-95</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Selvakumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Hester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gogos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Snyder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2011.05.033</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2011.05.033" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="131" to="141" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Palmitoylation regulates glutamate receptor distributions in postsynaptic densities through control of PSD95 conformation and orientation</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jeyifous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Antinone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mastro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Drisdel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Reese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Green</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1612963113</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1612963113" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="8482" to="E8491" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Ventromedial prefrontal cortex/anterior cingulate cortex Glx, glutamate, and GABA levels in medication-free major depressive disorder</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Kantrowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Milak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Kegeles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Javitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lieberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>John Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41398-021-01541-1</idno>
+		<ptr target="https://doi.org/10.1038/s41398-021-01541-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Translational Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">419</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Severe stress hormone conditions cause an extended window of excitability in the mouse basolateral amygdala</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Joels</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropharm.2016.07.027</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropharm.2016.07.027" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropharmacology</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="175" to="180" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Pt A</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The physiology of fear: Reconceptualizing the role of the central amygdala in fear learning</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Keifer</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Hurt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Ressler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Marvar</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physiol.00058.2014</idno>
+		<ptr target="https://doi.org/10.1152/physiol.00058.2014" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiology (Bethesda)</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="389" to="401" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of A-kinase anchoring protein 79/150 regulates dendritic endosomal targeting and synaptic plasticity mechanisms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Woolfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Olszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>El-Husseini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.0784-12.2012</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.0784-12.2012" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="7119" to="7136" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Regulation of Na(+)-K (+)-ATPase by cAMP-dependent protein kinase anchored on membrane via its anchoring protein</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kurihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ueha</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpcell.2000.279.5.C1516</idno>
+		<ptr target="https://doi.org/10.1152/ajpcell.2000.279.5.C1516" />
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physiology. Cell Physiology</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1516" to="C1527" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">DHHC2 regulates fear memory formation, LTP, and AKAP150 signaling in the hippocampus</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Shen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2023.107561</idno>
+		<ptr target="https://doi.org/10.1016/j.isci.2023.107561" />
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">107561</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Gene deficiency and pharmacological inhibition of caspase-1 confers resilience to chronic social defeat stress via regulating the stability of surface AMPARs</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/mp.2017.76</idno>
+		<ptr target="https://doi.org/10.1038/mp.2017.76" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="556" to="568" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">AKAP150 and its palmitoylation contributed to pain hypersensitivity via facilitating synaptic incorporation of GluA1-containing AMPA receptor in spinal dorsal horn</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Suo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12035-021-02570-z</idno>
+		<ptr target="https://doi.org/10.1007/s12035-021-02570-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Neurobiology</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="6505" to="6519" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">ARRIVE 2.0 and the British Journal of Pharmacology: Updated guidance for 2020</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Stanford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cirino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Docherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Insel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Izzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Panettieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Sobey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stefanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Teixeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahluwalia</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bph.15178</idno>
+		<ptr target="https://doi.org/10.1111/bph.15178" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Pharmacology</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="3611" to="3616" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Palmitoylation: Policing protein stability and traffic</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm2084</idno>
+		<ptr target="https://doi.org/10.1038/nrm2084" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews. Molecular Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Glutamatergic mechanisms associated with stress-induced amygdala excitability and anxiety-related behavior</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masneuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lowery-Gionta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Colacicco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Pleil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Crowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Flynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kash</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropharm.2014.04.015</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropharm.2014.04.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropharmacology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="190" to="197" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Role of Palmitoylation of postsynaptic proteins in promoting synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Matt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hell</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnmol.2019.00008</idno>
+		<ptr target="https://doi.org/10.3389/fnmol.2019.00008" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Molecular Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Neuronal plasticity in the amygdala following predator stress exposure</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mitra</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnbeh.2019.00025</idno>
+		<ptr target="https://doi.org/10.3389/fnbeh.2019.00025" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Behavioral Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Stress duration modulates the spatiotemporal patterns of spine formation in the basolateral amygdala</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jadhav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Mcewen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vyas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chattarji</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0504011102</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0504011102" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="9371" to="9376" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A-kinase anchoring proteins in amygdala are involved in auditory fear memory</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lamprecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Ledoux</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn901</idno>
+		<ptr target="https://doi.org/10.1038/nn901" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="837" to="838" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Both exposure to a novel context and associative learning induce an upregulation of AKAP150 protein in mouse hippocampus</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Nijholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostroveanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Bruyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Luiten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">L</forename><surname>Eisel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Van Der Zee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nlm.2006.12.008</idno>
+		<ptr target="https://doi.org/10.1016/j.nlm.2006.12.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiology of Learning and Memory</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="693" to="696" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Mobile DHHC palmitoylating enzyme mediates activity-sensitive synaptic targeting of PSD-95</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Noritake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hosomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iwanari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mochizuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kodama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hamakubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.200903101</idno>
+		<ptr target="https://doi.org/10.1083/jcb.200903101" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="147" to="160" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Prolonged contextual fear memory in AMPA receptor palmitoylation-deficient mice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oota-Ishigaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sekiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koshidata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Natsume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaneko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kaizuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mishina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41386-022-01347-9</idno>
+		<ptr target="https://doi.org/10.1038/s41386-022-01347-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2150" to="2159" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A-kinase anchoring protein 150 in the mouse brain is concentrated in areas involved in learning and memory</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostroveanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Van Der Zee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Dolga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Luiten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">L</forename><surname>Eisel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Nijholt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainres.2007.01.117</idno>
+		<ptr target="https://doi.org/10.1016/j.brainres.2007.01.117" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">1145</biblScope>
+			<biblScope unit="page" from="97" to="107" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Environmental and pharmacological modulations of cellular plasticity: Role in the pathophysiology and treatment of depression</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Ota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Duman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nbd.2012.05.022</idno>
+		<ptr target="https://doi.org/10.1016/j.nbd.2012.05.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiology of Disease</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="28" to="37" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<author>
+			<persName><forename type="first">N</forename><surname>Percie Du Sert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahluwalia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Avey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Cuthill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Dirnagl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Emerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Garner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Holgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Howells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Karp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lazic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lidster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Maccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pearl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Würbel</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.3000410</idno>
+		<ptr target="https://doi.org/10.1371/journal.pbio.3000410" />
+	</analytic>
+	<monogr>
+		<title level="m">The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">3000410</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">AKAP150 Palmitoylation regulates synaptic incorporation of Ca 2+ -permeable AMPA receptors to control LTP</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Purkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Woolfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Crosby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Stich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2018.09.085</idno>
+		<idno>09.085</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Reports</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="974" to="987" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Corticotrophin releasing factor-induced synaptic plasticity in the amygdala translates stress into emotional disorders</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Rainnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bergeron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Sajdyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Gehlert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shekhar</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.5740-03.2004</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.5740-03" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="3471" to="3479" />
+			<date type="published" when="2004">2004. 2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Increased basolateral amygdala pyramidal cell excitability may contribute to the anxiogenic phenotype induced by chronic early-life stress</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Rau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chappell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Ariwodola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Weiner</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.0384-15.2015</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.0384-15.2015" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="9730" to="9740" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Regulation of postsynaptic structure and function by an A-kinase anchoring protein-membrane-associated guanylate kinase scaffolding complex</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Benke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.6093-08.2009</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.6093-08.2009" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="7929" to="7943" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Chronic stress causes amygdala hyperexcitability in rodents</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rosenkranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Venheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Padival</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biopsych.2010.02.008</idno>
+		<ptr target="https://doi.org/10.1016/j.biopsych.2010.02.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1128" to="1136" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">AKAP signaling complexes in regulation of excitatory synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1073858410384740</idno>
+		<ptr target="https://doi.org/10.1177/1073858410384740" />
+	</analytic>
+	<monogr>
+		<title level="j">The Neuroscientist</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="321" to="336" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">NMDA receptor-dependent LTD requires transient synaptic incorporation of Ca 2+ -permeable AMPARs mediated by AKAP150-anchored PKA and calcineurin</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gorski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2016.01.043</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2016.01.043" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1000" to="1015" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">AKAP150-anchored calcineurin regulates synaptic plasticity by limiting synaptic incorporation of Ca 2+ -permeable AMPA receptors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gorski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Freund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.3326-12.2012</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.3326-12.2012" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="15036" to="15052" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Control of homeostatic synaptic plasticity by AKAP-anchored kinase and phosphatase regulation of Ca 2+ -permeable AMPA receptors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.2362-17.2018</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.2362-17" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2863" to="2876" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The glutathione cycle shapes synaptic glutamate activity</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Sedlak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Hester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Snowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kamiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1817885116</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1817885116" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2701" to="2706" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Gephyrin palmitoylation in basolateral amygdala mediates the anxiolytic action of benzodiazepine</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biopsych.2018.09.024</idno>
+		<ptr target="https://doi.org/10.1016/j.biopsych.2018.09.024" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="202" to="213" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">APT1-mediated depalmitoylation regulates hippocampal synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.1741-21.2022</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.1741-21.2022" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="2662" to="2677" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The tail suspension test: A new method for screening antidepressants in mice</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chermat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thierry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Simon</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00428203</idno>
+		<ptr target="https://doi.org/10.1007/BF00428203" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="367" to="370" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Glutamate transporters: Confining runaway excitation by shaping synaptic transmission</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Tzingounis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Wadiche</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrn2274</idno>
+		<ptr target="https://doi.org/10.1038/nrn2274" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews. Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="935" to="947" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Protein kinase A-anchoring inhibitor peptides arrest mammalian sperm motility</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vijayaraghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Goueli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Davey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Carr</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.272.8.4747</idno>
+		<ptr target="https://doi.org/10.1074/jbc.272.8.4747" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Biological Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4747" to="4752" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Palmitoylated proteins: Purification and identification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nprot.2007.225</idno>
+		<ptr target="https://doi.org/10.1038/nprot.2007.225" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Protocols</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1573" to="1584" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">A protein palmitoylation cascade regulates microtubule cytoskeleton integrity in plasmodium</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/embj.2019104168</idno>
+		<ptr target="https://doi.org/10.15252/embj" />
+	</analytic>
+	<monogr>
+		<title level="j">The EMBO Journal</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">104168</biblScope>
+			<date type="published" when="2020">2020. 2019104168</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The palmitoyl acyltransferase DHHC2 regulates recycling endosome exocytosis and synaptic potentiation through palmitoylation of AKAP79/150</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Woolfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.2243-14.2015</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="2243" to="2257" />
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">N-acetylcysteine facilitates extinction of cued fear memory in rats via reestablishing basolateral amygdala glutathione homeostasis</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41401-021-00661-0</idno>
+		<idno>41401-021- 00661-0</idno>
+		<ptr target="https://doi.org/10.1038/s" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Pharmacologica Sinica</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="260" to="272" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Stress-induced changes in the S-palmitoylation and S-nitrosylation of synaptic proteins</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zareba-Koziol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bartkowiak-Kaczmarek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Figiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krzystyniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wojtowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bijata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wlodarczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/mcp.RA119.001581</idno>
+		<ptr target="https://doi.org/10.1074/mcp.RA119.001581" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular &amp; Cellular Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1916" to="1938" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Chronic stress remodels synapses in an amygdala circuitspecific manner</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Q</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">X</forename><surname>Pan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biopsych.2018.06.019</idno>
+		<ptr target="https://doi.org/10.1016/j.biopsych.2018.06.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="189" to="201" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Akinase anchoring protein 150 and protein kinase a complex in the basolateral amygdala contributes to depressive-like behaviors induced by chronic restraint stress</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">Q</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biopsych.2019.03.967</idno>
+		<ptr target="https://doi.org/10.1016/j.biopsych.2019.03.967" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="131" to="142" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

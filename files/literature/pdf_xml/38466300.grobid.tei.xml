@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cysteine post-translational modifications regulate protein interactions of caveolin-3</title>
+				<funder ref="#_JVeVE9B #_9QGb6RX">
+					<orgName type="full">British Heart Foundation</orgName>
+				</funder>
+				<funder ref="#_EXKEH97">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Fiona</forename><surname>Ashford</surname></persName>
+							<idno type="ORCID">0000-0002-2946-3864</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Chien</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wen</forename><surname>Kuo</surname></persName>
+							<idno type="ORCID">0000-0002-1903-7618</idno>
+							<affiliation key="aff1">
+								<orgName type="department">School of Cardiovascular &amp; Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emma</forename><surname>Dunning</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Cardiovascular &amp; Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elaine</forename><surname>Brown</surname></persName>
+							<idno type="ORCID">0000-0002-6360-9118</idno>
+							<affiliation key="aff1">
+								<orgName type="department">School of Cardiovascular &amp; Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Calagan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Biomedical Sciences</orgName>
+								<orgName type="institution">University of Leeds</orgName>
+								<address>
+									<settlement>Leeds</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Izzy</forename><surname>Jayasinghe</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Biomedical Sciences</orgName>
+								<orgName type="institution">University of New South Wales</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>New South Wales</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Colin</forename><surname>Henderson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><surname>Fuller</surname></persName>
+							<email>will.fuller@glasgow.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="department">School of Cardiovascular &amp; Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Krzysztof Wypijewski</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Cardiovascular &amp; Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Krzysztof</forename><surname>Wypijewski</surname></persName>
+							<email>kwypijewski001@dundee.ac.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">Chien-Wen</forename><surname>Kuo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emma</forename><surname>Dunni</surname></persName>
+							<idno type="ORCID">0000-0002-6360-9118</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Ashford</forename><forename type="middle">F</forename><surname>Kuo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">School of Cardiovascular &amp; Metabolic Health</orgName>
+								<orgName type="department" key="dep2">Black Building</orgName>
+								<orgName type="institution">University of Glasgow Sir James</orgName>
+								<address>
+									<addrLine>University Avenue</addrLine>
+									<postCode>G12 8QQ</postCode>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Dundee</orgName>
+								<orgName type="institution" key="instit2">The James Hutton Institute</orgName>
+								<address>
+									<postCode>DD2 5DA</postCode>
+									<settlement>Invergowrie, Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cysteine post-translational modifications regulate protein interactions of caveolin-3</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AD2184209AC828D534E7F7C13B8CC541</idno>
+					<idno type="DOI">10.1096/fj.202201497RR</idno>
+					<note type="submission">Received: 15 September 2022 | Revised: 12 February 2024 | Accepted: 20 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>acylation</term>
+					<term>caveolae</term>
+					<term>glutathiolation</term>
+					<term>microdomains</term>
+					<term>palmitoylation</term>
+					<term>redox</term>
+					<term>S-acylation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Caveolae are small flask-shaped invaginations of the surface membrane which are proposed to recruit and co-localize signaling molecules. The distinctive caveolar shape is achieved by the oligomeric structural protein caveolin, of which three isoforms exist. Aside from the finding that caveolin-3 is specifically expressed in muscle, functional differences between the caveolin isoforms have not been rigorously investigated. Caveolin-3 is relatively cysteine-rich compared to caveolins 1 and 2, so we investigated its cysteine post-translational modifications. We find that caveolin-3 is palmitoylated at 6 cysteines and becomes glutathiolated following redox stress. We map the caveolin-3 palmitoylation sites to a cluster of cysteines in its C terminal membrane domain, and the glutathiolation site to an N terminal cysteine close to the region of caveolin-3 proposed to engage in protein interactions. Glutathiolation abolishes caveolin-3 interaction with heterotrimeric G protein alpha subunits. Our results indicate that a caveolin-3 oligomer contains up to 66 palmitates, compared to up to 33 for caveolin-1. The additional palmitoylation sites in caveolin-3 therefore provide a mechanistic basis by which caveolae in smooth and striated muscle can possess unique phospholipid and protein cargoes. These unique adaptations of the muscle-specific caveolin isoform have important implications for caveolar assembly and signaling.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Caveolae are small, flask-shaped invaginations of the cell surface membrane that recruit and co-localize receptors, G proteins, their effector molecules, and downstream targets to ensure fidelity of signal transduction in numerous tissues. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> Classically, the predominant structural component of caveolae was thought to be the scaffolding protein caveolin, which recruits both lipids and proteins to assemble the caveolar architecture. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> Three caveolin isoforms exist: caveolins 1 and 2 are ubiquitous, and caveolin-3 expression is confined only to smooth and striated muscle. <ref type="bibr" target="#b5">6</ref> The cryo-EM structure of recombinant caveolin-1 reveals it forms a flat, diskshaped oligomer composed of 11 monomers. <ref type="bibr" target="#b6">7</ref> In recent years, a second family of obligatory caveolar structural proteins, the cavins, has been identified. Cavins interact directly with and stabilize the caveolin oligomer and like caveolins are obligatory for the formation of caveolae. <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> Cavin-1 is ubiquitous and indispensable for caveolar formation. <ref type="bibr" target="#b10">11</ref> Cavins 2-4 show more tissue-specific distributions.</p><p>The dynamic association of proteins with caveolae offers an opportunity for regulation of signal transduction, but remarkably few proteins have been found to be recruited into or expelled from caveolae, and the caveolar proteome remains extremely stable during signal transduction. <ref type="bibr" target="#b11">12</ref> Post-translational modifications of caveolins and cavins represent one means by which their turnover and protein interactions could be regulated. For example, phosphorylation of caveolin-1 Tyr-14 by Src kinase modifies its interactions with a matrix metalloprotease. <ref type="bibr" target="#b12">13</ref> Caveolin-1 Tyr-14 phosphorylation is influenced by Snitrosation of caveolin-1 Cys-156, which releases Src to allow it to phosphorylate caveolin-1. <ref type="bibr" target="#b13">14</ref> SUMOylation of caveolin-3 modifies β2but not β1adrenoceptor-dependent signaling, <ref type="bibr" target="#b14">15</ref> and ubiquitination at K39 controls caveolin-1 turnover. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> Although there are numerous phosphorylation sites annotated in the cavin isoforms, <ref type="bibr" target="#b7">8</ref> few other posttranslational modifications have been found to regulate the behavior of cavins or caveolins. Caveolin-1 is palmitoylated at 3 cysteine residues close to its carboxyl terminus, but caveolin-1 palmitoylation is irreversible, and not required for caveolin-1 membrane-targeting. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> Analogous cysteines exist in caveolins 2 and 3 (Figure <ref type="figure">1</ref>), but their palmitoylation has not been rigorously investigated.</p><p>In the present investigation, we characterized cysteine post-translational modifications of caveolin-3, the musclespecific caveolin isoform. Cysteine S-palmitoylation is the reversible covalent post-translational attachment of the 16-carbon fatty acid palmitic acid to the thiol group of cysteine, via an acyl-thioester linkage. <ref type="bibr" target="#b19">20</ref> Protein Spalmitoylation is catalyzed by palmitoyl acyltransferases, reversed by protein thioesterases, and dynamically regulates numerous important cellular pathways. <ref type="bibr" target="#b20">21</ref> Cysteine S-glutathiolation is the reversible conjugation of the tripeptide glutathione to protein cysteines in a mixed disulfide. Many classes of protein are glutathiolated, leading to dynamic, reversible regulation of signaling and metabolic pathways. <ref type="bibr" target="#b21">22</ref> No longer simply regarded as solely being associated with oxidative stress, glutathiolation can occur by direct reaction between oxidized/modified protein sulfhydryls and cellular glutathione under physiological conditions in the absence of overt oxidative burden. <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> Most cysteine sulfhydryls are not susceptible to glutathiolation because their pKa is above 8.0, rendering them non-reactive at physiological pH. Redox-sensitive cysteines that are susceptible to glutathiolation may be deprotonated to thiolate anions at physiological pH, which is usually achieved by the presence of positively charged residues nearby to receive the proton. Glutathiolation is reversed enzymatically by glutaredoxins, thioredoxins, and sulfiredoxin and can be removed non-enzymatically by disulfide exchange with glutathione.  Using a novel PEGylation assay in this investigation, we find up to six caveolin-3 cysteines are palmitoylated in cardiac muscle and map these palmitoylation sites in transfected cells. We also find that caveolin-3 is reversibly glutathiolated and that caveolin-3 glutathiolation modifies its interaction with heterotrimeric G proteins during redox stress. Our findings highlight important functional differences between caveolin isoforms and assign unique regulatory functions to caveolae in smooth and striated muscle.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Ethics statement</head><p>All procedures were approved by University of Dundee Animal Welfare and Ethical Review Board. The animal research reported here adheres to the ARRIVE and Guide for the Care and Use of Laboratory Animals guidelines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Plasmids and cells</head><p>Rat caveolin-3 in pExpress-1 (IMAGE ID 7103841) was purchased from Source Bioscience. Site mutants of caveolin-3 were generated using the Agilent Quikchange II and Quikchange Lightning Multi site-directed mutagenesis kits using oligonucleotide primers designed according to the manufacturer's recommendations.</p><p>HEK-293 and H9c2 cells were cultured in DMEM supplemented with 10% fetal calf serum. HEK-293 cells were transfected using Lipofectamine 2000 in 6-well and 12-well culture plates and harvested 18-24 h after transfection.</p><p>Calcium-tolerant rat ventricular myocytes were isolated by retrograde perfusion of collagenase in the Langendorff mode, as described previously. <ref type="bibr" target="#b23">24</ref> Cultured cells and ventricular myocytes were treated with hydrogen peroxide (100 μM, 10-30 min), angiotensin II (500 nM, 20 min), oxidized glutathione (GSSG 5 mM, 10 min), or diamide (1 mM, 10-15 min) before lysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Langendorff heart</head><p>Hearts from adult male Wistar rats (250-300 g, Charles River Laboratories) were perfused in the Langendorff mode at a constant pressure of 100 cm water using Krebs-Henseleit buffer equilibrated with 95% oxygen, 5% CO 2 at 37°C. Global ischemia was induced by complete cessation of coronary flow, with normothermia during ischemia ensured by immersing the heart in Krebs-Henseleit during the ischemic period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| SDS-PAGE and western blotting</head><p>Proteins were separated on 6%-20% gradient gels, transferred to PVDF membranes, and incubated with primary antibodies overnight at 4°C. Western blot images were acquired using a ChemiDoc XRS imaging system and quantified using Quantity One (Bio-Rad), or using a LICOR Odyssey Fc and quantified using Image Studio (LICOR). When quantifying PEGylation, we measured the abundance of the PEGylated species relative to the abundance of the non-PEGylated species of the protein in the same lane.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Palmitoylation assays</head><p>We adapted our PEG-switch assay that replaces palmitate with a 5 kDa methoxypolyethylene glycol (PEG) <ref type="bibr" target="#b24">25</ref> using a refinement that improves the reaction efficiency by PEGylating separately from the thioester cleavage step. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> Briefly, free protein thiols were alkylated with 100 mM maleimide (in the presence of 2.5% SDS, 100 mM HEPES, 1 mM EDTA, pH 7.5) for 4 h at 40°C, and excess maleimide was removed by acetone precipitating proteins and extensive washing of the protein pellet with 70% acetone. Proteins were resolubilized (1% SDS, 100 mM HEPES, 1 mM EDTA, pH 7.5) and thioester bonds cleaved by treating with 200 mM neutral hydroxylamine for 1 h at 37°C. Hydroxylamine was removed by desalting (Zeba spin column) and free cysteines PEGylated with 2 mM 5K-PEG maleimide (Sigma) for 1 h at 37°C. Palmitoylated proteins were purified from whole-cell lysates using acyl-resin-assisted capture (Acyl-RAC). Briefly, free thiols were alkylated with methyl methanethiosulfonate and palmitoylated proteins captured using thiopropyl-Sepharose in the presence of neutral hydroxylamine. <ref type="bibr" target="#b27">28</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| Glutathiolation assays</head><p>We synthesized biotinylated glutathione ethyl ester (bi-oGEE) by reacting sulfo-NHS-biotin (Thermo) with glutathione ethyl ester (Sigma) in 50 mM NaHCO3 pH 8.5 for 2 h at room temperature. Unreacted sulfo-NHSbiotin was quenched with 125 mM NH 4 HCO 3 for 1 h at room temperature. Cells were loaded by incubating with 500 μM bioGEE for 1 h and then washed twice prior to experimentation. Cells were lysed with 1% Triton X-100 in PBS supplemented with protease inhibitors, biotinylated proteins captured with streptavidin-Sepharose for 1 h at 4°C, and eluted using 100 mM DTT after extensive washing.</p><p>For mass spectrometry analysis, samples were alkylated with iodoacetamide, concentrated using 10 kDa cut-off centrifugal filters, digested with trypsin overnight, acidified, and cleaned up using C18 zip-tips. 0.3-0.5 μg of each sample was analyzed using a nanoflow liquid chromatograph (Agilent 1200, Agilent, Santa Clara, CA) with an LTQ-Orbitrap XL (Thermo Fisher Scientific). Protein and peptide database search was carried out using PEAKS version 6 (Bioinformatics Solutions, Waterloo, Canada). A minimum of two unique peptides were required for each protein identified.</p><p>We adapted our PEG-switch assay to assess protein glutathiolation. Reactions proceeded exactly as for acyl-PEG exchange, with the exception that hydroxylamine was replaced with 25 mM DTT, which was applied at 37°C for 10 min before desalting and treating with 2 mM 5K-PEG maleimide for 1 h at 37°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">| Cell fractionation</head><p>Cells were solubilized in 0.05% digitonin in PBS supplemented with protease inhibitors for 30 min at 4°C. Lysates were centrifuged at 17 500g for 5 min at 4°C, and the supernatant was collected and designated "cytosolic fraction". The pellet was subsequently resuspended in 1% Triton X-100 in PBS supplemented with protease inhibitors and solubilized for 30 min at 4°C. Samples were centrifuged at 17 500g for 5 min at 4°C and the supernatant collected and designated "membrane fraction".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8">| Sucrose gradient fractionation</head><p>We used a standard discontinuous sucrose gradient to separate cholesterol-rich buoyant membranes from bulk sarcolemma and intracellular membranes following homogenization and sonication of whole-cell lysates in 500 mM sodium carbonate. 12 2.9 | Partial formaldehyde fixation Caveolin-3 oligomers were visualized by partial fixation in 1% formaldehyde in PBS for 20 min followed by electrophoresis and immunoblotting. 29</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.10">| Co-immunoprecipitation</head><p>HA-tagged and EE-tagged G protein alpha subunits were immunoprecipitated from HEK-293 cell lysates as described previously. <ref type="bibr" target="#b24">25</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.11">| Antibodies</head><p>This investigation used the following primary antibodies: caveolin-3 (BD Biosciences 610421), Gnai2 (Thermo PA1-1000), Gnas (NeuroMab, UC Davis clone N192/12), Na/K ATPase α subunit (Developmental Studies Hybridoma Bank, clone α6f), GAPDH (Merck Millipore G8795), H-Ras (Merck Millipore 05-516), and phospholemman (Abcam ab76597).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.12">| Statistical analysis</head><p>Quantitative data are presented as mean ± S.E.M. The differences between experimental groups were analyzed by one-way analysis of variance, followed by post hoc tests using GraphPad Prism. Differences were considered statistically significant when p &lt; .05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Palmitoylation site mapping in caveolin-3</head><p>Caveolin-1 (which has only 3 cysteines in its sequence, Figure <ref type="figure">1</ref>) is triply palmitoylated, <ref type="bibr" target="#b17">18</ref> but the palmitoylation stoichiometry of caveolin-3 has not been investigated. By exchanging palmitates for a PEG molecule using the acyl-PEG exchange assay, we investigated the stoichiometry of caveolin-3 palmitoylation in multiple cell types. In this assay, free protein cysteines are first alkylated in the presence of SDS, and then, palmitoylated cysteines are revealed by treating with neutral hydroxylamine to cleave the thioester bond. Reaction with 5 kDa PEG maleimide produces a 5 kDa increase in molecular weight for each thiol group that has been revealed by hydroxylamine, allowing the palmitoylation stoichiometry of a protein to be determined. In both the myoblast cell line H9c2 and adult rat ventricular myocytes we identified multiple palmitoylation sites in caveolin-3: at least 5 sites in H9c2 cells (Figure <ref type="figure">2A</ref>), and 6 sites in rat ventricular myocytes (Figure <ref type="figure">2B</ref>).</p><p>To identify the palmitoylated cysteines in caveolin-3 we first generated single cysteine to alanine mutations and expressed them in HEK-293 cells, which possess a full repertoire of zDHHC-PATs. <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31</ref> In HEK-293 cells, low levels of expression of endogenous caveolin-1 have previously been observed 32 but caveolin-3 is not expressed at all. <ref type="bibr" target="#b32">33</ref> The acyl PEG exchange assays reveal that wild-type caveolin-3 was significantly less palmitoylated in HEK-293 cells than ventricular muscle (predominant palmitoylated species +1 to +2 palmitates, compared to +4 palmitates in ventricular muscle, Figure <ref type="figure">2C</ref>). This precluded definitive identification of the caveolin-3 palmitoylation sites using this approach. We therefore generated a cys-less caveolin-3, reintroduced individual cysteines to the cys-less protein, and expressed these proteins in HEK-293 cells. Resin-assisted capture purifies palmitoylated proteins regardless of how many palmitoylation sites are occupied, <ref type="bibr" target="#b33">34</ref> so is a suitable approach to assess the palmitoylation status of proteins with only one cysteine intact. All caveolin-3 mutants containing a single cysteine were palmitoylated to some extent (Figure <ref type="figure">2D</ref>). The principal palmitoylation sites detected in caveolin-3 in these experiments were cysteines 98, 106, 116, and 129. We also detected significant palmitoylation of cysteines 94 and 124, but very little palmitoylation of cysteines 19, 72, and 140 (Figure <ref type="figure">2D</ref>). Since the quadruple palmitoylated species is the most commonly detected by acyl-PEG exchange in ventricular muscle (Figure <ref type="figure">2B</ref>), we conclude this represents caveolin-3 palmitoylated at cysteine 98, 106, 116, and 129. We propose that the additional two palmitoylation sites occupied in ventricular muscle are cysteines 94 and 124, but we do not rule out residual palmitoylation of other cysteines in caveolin-3. The caveolin-1 oligomer forms a flat disk 140 Å in diameter, in which the protomers' C termini are at the center of the disk, and its N termini on the edge. <ref type="bibr" target="#b6">7</ref> We mapped the positions of the caveolin-3 cysteines in the caveolin-1 cryo-EM structure PDB-7SC0. C140 (analogous to F167 in caveolin-1), which is not palmitoylated, lies close to the center of the disk facing the membrane (cyan in Figure <ref type="figure" target="#fig_1">3</ref>). Cysteines 106 116 and 129 (yellow in Figure <ref type="figure" target="#fig_1">3</ref>), which are conserved in caveolin-1, are located in two concentric circles in the oligomer, diameters approx. 50 Å and 90 Å: the inner circle is formed by C129 (C156 in caveolin-1), and the outer circle is formed from C116 (C143 in caveolin-1) from one protomer in close proximity to C106 (C133 in caveolin-1) from the neighboring protomer. The additional palmitoylation sites in caveolin-3 (orange in Figure <ref type="figure" target="#fig_1">3</ref>) form two additional concentric circles, diameters approx. 65 Å and 110 Å. The smaller of these, midway between the caveolin-1 palmitoylation sites, is formed by C124 (Y151 in caveolin-1). The larger is formed from C94 (I121 in caveolin-1) and C98 (L125 in caveolin-1) from the same protomer. C72 (F99 in caveolin-1, cyan in Figure <ref type="figure" target="#fig_1">3</ref>) which is not palmitoylated lies on the outer edge of the disk, and C19 is not resolved. None of the cysteines or their analogous residues are visible on the cytosolic face of the caveolin-1 oligomer: they all face the membrane.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Palmitoylation and protein interactions of caveolins</head><p>Caveolin forms homo-oligomers composed of 11 protomers. Our palmitoylation site mapping experiments imply that caveolin-3 homo-oligomers would incorporate up to 66 palmitate molecules. We investigated whether protein interactions of caveolin were influenced by its palmitoylation status, and whether they were different for the more heavily palmitoylated caveolin-3. We generated a caveolin-3 mutant in which only the cysteines analogous to caveolin-1 cysteines were intact (C106, C116, C129), which we denoted "caveolin-1-like" (C1L). We compared the protein interactions of cysless caveolin-3, C1L, and wildtype caveolin-3 co-transfected with the heterotrimeric G protein inhibitory α subunit 2 (GNAI2) into HEK-293 cells. Co-immunoprecipitation of Gnai2 with C1L or WT caveolin-3 was essentially identical (Figure <ref type="figure" target="#fig_2">4A</ref>). However, cys-less caveolin-3 co-purified significantly less with Gnai2 than either WT or C1L. We considered the possibility that caveolin-3 palmitoylation mutants were either not incorporated into the membrane or did not oligomerize. HEK-293 cells expressing wild-type, cysless, or C1L caveolin-3 were fractionated into cytosolic and membrane fractions (Figure <ref type="figure" target="#fig_2">4B</ref>). A small fraction of caveolin-3 was detected in the cytosolic fraction, but the same fraction of cys-less and C1L protein was cytosolic as wild-type caveolin-3. Oligomerization of caveolin-3 can be visualized by partial formaldehyde fixation of intact cells, followed by electrophoresis and western blotting to detect oligomerized caveolins. <ref type="bibr" target="#b28">29</ref> Cysless and C1L caveolin-3 oligomerized in an identical fashion to wild-type caveolin-3 (Figure <ref type="figure" target="#fig_2">4C</ref>). Hence, we conclude that although non-palmitoylated caveolins are capable of oligomerizing, they do not fully support physical interactions with caveolar resident proteins. However, the additional palmitoylation sites in caveolin-3</p><p>do not influence its interaction with Gnai2 compared to caveolin-1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| Glutathiolation of caveolin-3</head><p>We loaded rat ventricular myocytes with cell permeable biotinylated glutathione ethyl-ester (bioGEE), purified glutathiolated proteins using streptavidin beads, and identified them using mass spectrometry (Figure <ref type="figure" target="#fig_5">5A</ref>). We considered proteins to be bone fide glutathiolation candidates if they were detected in three out of four independent experiments (Figure <ref type="figure" target="#fig_5">5B</ref>), which generated a list of 150 glutathiolated proteins in rat ventricular myocytes (Table <ref type="table">S1</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(A) (B) (C)</head><p>We validated candidate glutathiolated proteins by immunoblotting (Figure <ref type="figure" target="#fig_5">5C</ref>) and confirmed that streptavidin capture of selected candidates (heterotrimeric G protein stimulatory subunit alpha (Gnas) and caveolin-3) required myocytes to be loaded with biotinylated glutathione ethyl ester (Figure <ref type="figure" target="#fig_5">5D</ref>). Subsequent experiments focussed on glutathiolation of caveolin-3 in ventricular muscle. We detected baseline glutathiolation of caveolin-3 in ventricular myocytes, which was elevated following treatment with the thiol stressor diamide but not by application of the exogenous oxidant hydrogen peroxide, the NADPH oxidase agonist angiotensin II, or oxidized glutathione disulfide (Figure <ref type="figure" target="#fig_4">6A</ref>). In separate experiments, we sought to identify reversibly oxidized cysteines in caveolin-3 by replacing hydroxylamine with DTT in our PEGylation assay. Treatment of ventricular myocytes with diamide substantially increased PEGylation of caveolin-3 at a single cysteine in this assay (Figure <ref type="figure" target="#fig_4">6B</ref>). Since diamide is generally agreed to generate a thiol stress without generating free radicals, <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> we interpret this band shift to indicate that caveolin-3 is predominantly glutathiolated at a single cysteine in ventricular myocytes. To identify this glutathiolation site, we expressed single cysteine mutants of caveolin-3 in HEK-293 cells and treated the cells with diamide. In our panel of single cys to ala mutants of caveolin-3, no single C to A mutation significantly reduced caveolin-3 glutathiolation assessed using bioGEE (Figure <ref type="figure" target="#fig_4">6C</ref>) and DTT-PEG exchange (Figure <ref type="figure" target="#fig_4">6D</ref>) assays, although the glutathiolation status of C19A caveolin-3 was consistently reduced compared to wild-type caveolin-3 in both assays. However, reintroduction of Cys-19 into cys-less caveolin-3 significantly increased caveolin-glutathiolation to a level not distinguishable from wild type (Figure <ref type="figure" target="#fig_4">6E</ref>). We conclude that Cys-19 is the principal site of glutathiolation in caveolin-3, although we cannot rule out residual glutathiolation of other sites when this site is removed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| Functional impact of caveolin-3 glutathiolation</head><p>Using diamide as a tool compound, we investigated the impact of increased caveolin-3 glutathiolation on caveolae in isolated ventricular myocytes. Using partial formaldehyde fixation, we found no difference in caveolin-3 oligomerization following diamide treatment (Figure <ref type="figure">7A</ref>), nor did diamide change the gross distribution of caveolin-3 on sucrose gradients (Figure <ref type="figure">7B</ref>). Indeed, when we considered the localization of caveolin in buoyant (fractions 4 &amp; 5) and dense (fraction 8) membranes isolated on a sucrose gradient, we detected no difference in the extent of palmitoylation or glutathiolation between fractions (Figure <ref type="figure">7C</ref>). We conclude that glutathiolation of caveolin-3 Cys-19 does not substantially remodel caveolin-3 localization to caveolae, so instead we investigated caveolin-3 protein interactions.</p><p>Some proteins are recruited to caveolae as a result of their interaction with a juxtamembrane scaffolding domain in caveolin (CSD). <ref type="bibr" target="#b3">4</ref> Although the concept of the CSD as a universal means to target proteins into caveolae has been challenged in recent years, <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38</ref> interactions between the CSD and certain caveolar proteins (e.g. G-protein alpha subunits, tyrosine kinases) are wellestablished and generally inhibit the activity of these signaling proteins. <ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b39">40</ref> We evaluated interaction of caveolin-3 with HA-tagged G protein alpha subunits in transfected HEK-293 cells, and the impact of caveolin-3 glutathiolation on these interactions by treating with diamide (Figure <ref type="figure">7D</ref>). Exogenous hydrogen peroxide, which does not alter caveolin-3 glutathiolation, did not change the  co-immunoprecipitation of caveolin-3 and either Gnai or Gnas, but treatment with diamide abolished the binding of caveolin-3 to both G proteins. We conclude that glutathiolation of caveolin-3 Cys-19 reduces the ability of the caveolin-3 CSD to interact with its binding partners.</p><p>Given the impact of caveolin-3 gluathiolation on its protein interactions, we evaluated the impact of caveolin-3 glutathiolation on G protein alpha subunit localization to caveolae using sucrose gradient fractionation of isolated adult rat ventricular myocytes. Lipidation of G protein alpha subunit N termini (S-palmitoylation and myristolylation of Gnai, N-palmitoylation, and S-palmitoylation of Gnas) recruit these proteins to caveolae/lipid rafts. <ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b41">42</ref> We observed no difference in the distribution of either G protein across a standard discontinuous sucrose gradient following glutathiolation of caveolin-3, suggesting these G proteins remain localized in caveolae following their dissociation from caveolin-3 (Figure <ref type="figure">7E</ref>). The burst of oxygen free radicals produced by mitochondria upon reperfusion of ischaemic cardiac tissue causes oxidative modifications of cardiac lipids and proteins. <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44</ref> We assessed whether global ischemia with or without reperfusion changed the glutathiolation status of caveolin-3 in rat hearts perfused in the Langendorff mode. Since it is impossible to load whole hearts with bioGEE, these experiments employed the DTT-PEG exchange assay to monitor caveolin-3 glutathiolation. We investigated a short period of ischemia (10 min) that stuns but does not irreversibly injure the myocardium <ref type="bibr" target="#b44">45</ref> and reperfused for short (10 min) and long (30 min) periods. Caveolin-3 glutathiolation was not significantly altered following ischaemia-reperfusion (Figure <ref type="figure">7F</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>In this investigation, we set out to characterize cysteine post-translational modifications of caveolin-3. We find that up to six cysteines in caveolin-3 are post-translationally palmitoylated and a single cysteine is reversibly glutathiolated. Glutathiolation of caveolin-3 directly influences its binding to G proteins.</p><p>In cardiac muscle, 100% of caveolin-3 is palmitoylated, evidenced by its quantitative capture using assays such as acyl-RAC and acyl biotin exchange. <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47</ref> The acyl-PEG exchange assay used in this investigation quantitatively PEGylates caveolin-3 in the sense that no "+0" species is identified following the PEGylation reaction. However, quantitative PEGylation of every previously palmitoylated cysteine requires there to be no steric impairment of multiple PEGylation events, which we do not rule out-particularly when considering the attachment of 6× 5 kDa PEG molecules within a short (46 amino acid) region of a 17.5 kDa protein. We therefore suggest that the predominant +4 palmitoylation stoichiometry for caveolin-3 from ventricular muscle identified by acyl-PEG exchange must be regarded as the "minimum" rather than "absolute" stoichiometry of caveolin-3 palmitoylation.</p><p>The cryo-EM structure of the caveolin-1 oligomer suggests that rather than possessing a classic re-entrant integral membrane loop, the oligomer displaces the cytosolic leaflet of the membrane bilayer, making direct contact with the outer leaflet of the membrane, into which the caveolin palmitates presumably insert. <ref type="bibr" target="#b6">7</ref> It is not currently understood how the profoundly flat caveolin oligomer can bend the membrane to induce the characteristic caveolar bulb shape. This shape is acquired even when caveolin-1 is expressed in bacteria, <ref type="bibr" target="#b47">48</ref> where it is not palmitoylated, so palmitoylation is clearly not integral to this process. Nevertheless, the ability of heavily palmitoylated proteins to induce membrane curvature and substantially remodel their local phospholipid environment is wellestablished. <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> For example, molecular dynamics simulations suggest palmitoylation of the SARS-CoV-2 spike protein (30 palmitates per spike trimer) induces formation of ordered cholesterol and sphingolipid-rich microdomains. <ref type="bibr" target="#b50">51</ref> As well as modifying its phospholipid environment, we predict that the presence of up to 66 palmitates per caveolin-3 oligomer will significantly alter the packing of the phospholipid tails in the outer leaflet of the bilayer compared to the influence of up to 33 palmitates for oligomeric caveolin-1. The unique phospholipid environment in caveolae is achieved by lipid interactions of the caveolar structural proteins. <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b52">53</ref> Our results therefore provide a mechanistic basis by which the phospholipid composition and overall architecture of caveolin-3 containing caveolae could be distinct from those formed from caveolins 1 or 2. Indeed, these are not the only differences between the caveolin isoforms. Differences in the caveolin-1 and caveolin-3 amino termini have recently been found to lead to notable differences in trafficking and proteostasis for these proteins. <ref type="bibr" target="#b53">54</ref> Although only modest structural differences between palmitoylated and non-palmitoylated caveolin-3 were identified using NMR, <ref type="bibr" target="#b54">55</ref> these findings merit re-evaluation in the context of our discovery of 6 palmitoylation sites in caveolin-3, as that investigation compared the NMR structures of non-palmitoylated and triply palmitoylated caveolin-3.</p><p>What are the consequences of differential caveolin isoform palmitoylation for caveolar resident proteins? Although caveolin-3 is regarded as the muscle-specific caveolin isoform, all three caveolin isoforms are expressed in ventricular muscle, where caveolins 1 and 3 localize to distinct but adjacent microdomains. <ref type="bibr" target="#b55">56</ref> The protein interactions of caveolin-1 and caveolin-3 in cardiac muscle are different. For example, caveolin-1 preferentially interacts with cavins 1 and 2 and aquaporin-1, whereas caveolin-3 interacts with transporter proteins such as NCX1, Na/K ATPase, Glut-4 and the monocarboxylate transporter McT1. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b55">56</ref> If the differential palmitoylation profile of caveolin isoforms drives the formation of distinct phospholipid microenvironments, different protein species are likely to be attracted to these microenvironments. Ultimately then, proteins may be either colocalized or kept apart in separate microdomains as a result of the differential lipid post-translational modifications of the caveolins that form these domains.</p><p>Considering the positions of the additional palmitoylation sites in the caveolin-3 oligomer, two additional concentric "rings" of palmitoylated cysteines exist compared to caveolin-1. We did not detect significant palmitoylation of the cysteine closest to the 11-stranded βbarrel located at the center of the structure, but in contrast the outermost ring of palmitoylated cysteines (Cys-94, Cys-98) adds palmitate at the edge of the oligomer, where phospholipid interactions may occur. In this context, it is notable that Cys-72 from one protomer is immediately adjacent to Cys-94 in the adjacent protomer but remains nonpalmitoylated. The caveolin oligomer assembles in the endoplasmic reticulum <ref type="bibr" target="#b56">57</ref> but is palmitoylated later in the secretory pathway. <ref type="bibr" target="#b18">19</ref> Evidently, there is sufficient specificity to caveolin-3 palmitoylation to prevent palmitoylation at Cys-72 despite its close proximity to other palmitoylated cysteines. How the active site of the caveolin-3 palmitoylating enzyme(s) manages to access up to 66 cysteines across the hydrophobic face of the assembled caveolin oligomer requires further investigation.</p><p>The caveolin scaffolding domain proposed to interact with caveolar resident proteins is residues 61-101 of caveolin-1 (34-74 of caveolin-3). <ref type="bibr" target="#b38">39</ref> Caveolin-1 82-101 directly interacts with heterotrimeric G Protein α subunits, <ref type="bibr" target="#b3">4</ref> but we found caveolin-3 interaction of G protein α subunits was reduced when it was glutathiolated at Cys-19, which lies outside the proposed caveolin scaffolding domain. This region of the caveolin N terminus is disordered and ripe for protein-protein interactions. Post-translational modifications, even outside the site of interaction, may cause the caveolin N terminus to adopt a conformation that does not interact favorably with G proteins. No matter how Cys-19 glutathiolation abolishes caveolin-3's interaction with G proteins, it is notable that this redox sensitivity of protein interaction is another unique adaptation of the musclespecific caveolin isoform identified in this investigation. Since the interaction of caveolins with G proteins is generally regarded as inhibitory, our results suggest a paradigm in which redox stress can modify signaling downstream of G proteins. A similar paradigm is already established for the kinases regulated by second messengers produced by these G proteins. <ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b58">59</ref> An important question for future investigations will be how glutathiolation of caveolin-3 modifies G protein activation and second messenger production. For example, desensitization of signaling via the heterotrimeric G protein Gnaq, which was not investigated in this study, is mediated by a physical interaction with caveolin-3, <ref type="bibr" target="#b59">60</ref> and the caveolin-3-Gnaq relationship directly regulates calcium handling in ventricular muscle. <ref type="bibr" target="#b60">61</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Limitations</head><p>We acknowledge that the extent to which caveolin-3 expressed in HEK-293 cells is palmitoylated is generally less than is observed in ventricular muscle and H9c2 cells. The consequences of this are that HEK-293 cells may not exactly reproduce the palmitoylationdependent functional differences between caveolin-1 and caveolin-3. Experiments using transgenic models or CRISPR-engineered cardiomyocyte-derived cells expressing palmitoylation-defective caveolin-3 are merited to fully characterize the differences between caveolin isoforms mediated by their differential palmitoylation.</p><p>We report reduced co-immunoprecipitation of caveolin-3 with G protein α subunits under oxidative conditions. Co-immunoprecipitation infers proximity rather than a direct interaction, so we acknowledge the possibility that glutathiolation does not directly influence caveolin-3 binding to G protein α subunits. Indeed, since we find G protein α subunits themselves are glutathiolated we do not rule out the possibility that their modification impacts their co-immunoprecipitation with caveolin-3 or membrane localization.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F 3 . 2 |</head><label>32</label><figDesc>I G U R E 2 Caveolin-3 palmitoylation in cells and tissue. (A) Acyl PEG exchange identifies up to 6 palmitoylation sites in caveolin-3 in H9c2 cells, with the predominant species doubly or triply palmitoylated. (B) Acyl PEG exchange identifies up to 6 palmitoylation sites in caveolin-3 in rat ventricular myocytes, with the predominant species quadruply palmitoylated. (C) Single cys to ala mutagenesis fails to definitively identify caveolin-3 palmitoylation sites in transfected HEK-293 cells, where the predominant form of caveolin-3 is singly or doubly palmitoylated. (D) Acyl-resinassisted capture to identify palmitoylation sites in caveolin-3. Caveolin-3 mutants with only a single cysteine intact were expressed in HEK-293 cells and purified using acyl resin-assisted capture. Flot2: flotillin-2, UF: unfractionated cell lysate, Resin-assisted capture in the presence of hydroxylamine (NH 2 OH) or sodium chloride (NaCl, negative control) is shown. The bar chart shows the amount purified using acyl-resin-assisted capture relative to expression for each caveolin-3 mutant. The dotted line on the bar chart illustrates an arbitrary threshold cutoff to identify the six most highly palmitoylated cysteines in caveolin-3. Position of the palmitoylated cysteines in the caveolin oligomer</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>F I G U R E 3</head><label>3</label><figDesc>Caveolin palmitoylation sites. Positions of the caveolin-3 palmitoylation sites in the caveolin-1 oligomer PDB-7SC0. The oligomer is shown in surface representation with a single protomer in black. Cyan: caveolin-3 cysteines that are not palmitoylated. Yellow: palmitoylated cysteines shared between caveolin-1 and caveolin-3. Orange: palmitoylated cysteines unique to caveolin-3.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>F I G U R E 4</head><label>4</label><figDesc>Influence of palmitoylation on caveolin proteinprotein interactions. (A) Caveolin-3 and Gnai2 were co-expressed in HEK-293 cells, Gnai2 was immunoprecipitated and co-purification of caveolin-3 assessed. Significantly less cysless caveolin-3 copurifies with Gnai2 than wild type (WT) or caveolin-3 with only the caveolin-1 palmitoylation sites intact (C1L). The graph shows co-purification of caveolin-3 normalized to the quantity of Gnai2 immunoprecipitated (n = 3; **p &lt; .01 compared to WT, Dunnett's multiple comparisons test). (B) fractionation of caveolin-3 expressing HEK-293 cells into cytosolic (Cyto, validated by immunoblotting for the marker protein GAPDH) and membrane (Mem, validated by immunoblotting for the marker protein Na/K ATPase) fractions reveals palmitoylation does not alter membrane association of caveolin-3. The graph shows the proportion of caveolin-3 in the cytosolic and membrane fractions relative to its abundance in the whole-cell lysate (WCL). (C) Partial fixation experiments reveal caveolin-3 oligomerization in HEK-293 cells is identical regardless of the number of palmitoylation sites intact.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>F I G U R E 5</head><label>5</label><figDesc>Identification of glutathiolated proteins in rat ventricular myocytes. (A) biotin incorporation into cells loaded with biotinylated glutathione ethyl ester (bioGEE) is sensitive to the reducing agent DTT. (B) Proteomic analysis of glutathiolated proteins purified from rat ventricular myocytes identifies 209 high-confidence glutathiolated proteins (detected in at least 3/4 experiments). (C) Validation of selected glutathiolated proteins identified by mass spectrometry (UF: unfractionated cell lysate, Glut: purified glutathiolated proteins). (D) Purification of Gαs and caveolin-3 using the bioGEE protocol is dependent on preloading cells with bioGEE.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>F I G U R E 6</head><label>6</label><figDesc>Glutathiolation of caveolin-3. (A) Diamide treatment of rat ventricular myocytes increases glutathiolation of caveolin-3 assessed using bioGEE. (B) PEGylation to measure caveolin-3 glutathiolation. Replacement of hydroxylamine with DTT in the acyl PEG exchange protocol reveals a diamide-induced band shift of caveolin-3 consistent with a single glutathiolation site. (C) Single cysteine to alanine mutagenesis of caveolin-3 does not significantly reduce caveolin-3 glutathiolation assessed using bioGEE (n = 3-5, mean ± SEM shown). (D) Single cysteine to alanine mutagenesis of caveolin-3 does not significantly reduce caveolin-3 glutathiolation assessed using DTT-dependent PEGylation (n = 3-5, mean ± SEM shown). (E) Only the reintroduction of Cys 19 into cys-less caveolin-3 restores glutathiolation to wild-type levels. Abundance of the +1 glutathiolated band is expressed relative to the abundance of the +0 nonglutathiolated band. (C1L: caveolin-1 like; n = 5; statistical comparisons shown to WT; **p &lt; .01; ***p &lt; .001; one-way ANOVA followed by Dunnett's multiple comparisons test).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>5 ,</head><label>5</label><figDesc>Downloaded from https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.202201497RR by Zhongshan University, Wiley Online Library on [07/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>F I G U R E 7 5 ,</head><label>75</label><figDesc>Impact of glutathiolation of caveolin-3. (A) Partial formaldehyde fixation reveals caveolin-3 oligomerization is not altered by diamide-induced glutathiolation of caveolin-3. (B) Sucrose gradient fractionation reveals caveolin-3 distribution across sucrose gradient fractions is not altered by diamide-induced glutathiolation (n = 5, mean ± SEM shown). (C) PEGylation to investigate differential posttranslational modifications of caveolin-3 in sucrose gradient fractions. Caveolin-3 is equally palmitoylated (NH 2 OH: hydroxylaminedependent PEGylation) and glutathiolated (DTT: DTT-dependent PEGylation, NaCl: negative control) in buoyant and non-buoyant membranes. (D) Co-immunoprecipitation of caveolin-3 and G protein subunits is abolished when caveolin-3 is glutathiolated. SM: starting material; IP: immunoprecipitation. (E) Localization of G protein subunits to buoyant, caveolin-enriched microdomains is not altered when caveolin-3 is glutathiolated (n = 5, mean ± SEM shown). (F) Neither caveolin-3 palmitoylation (NH 2 OH: hydroxylamine-dependent PEGylation) nor glutathiolation (DTT: DTT-dependent PEGylation) are changed during cardiac ischemia or following brief (10 min) or long (30 min) periods of reperfusion. 10 min I: 10 min global ischemia. 10 min I + 10 min R: 10 min global ischemia followed by 10 min reperfusion. 10 min I + 30 min R 10 min global ischemia followed by 30 min reperfusion. Downloaded from https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.202201497RR by Zhongshan University, Wiley Online Library on [07/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License | 11 of 14 ASHFORD et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc><ref type="bibr" target="#b21">22</ref> </figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>15306860, 2024, 5, Downloaded from https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.202201497RR by Zhongshan University, Wiley Online Library on [07/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We acknowledge the support of the <rs type="funder">British Heart Foundation</rs>. <rs type="grantNumber">FS/13/22/30126</rs> to WF and CH, <rs type="grantNumber">PG/15/42/31563</rs> to WF, SC and IJ, <rs type="grantNumber">PG/19/5/34150</rs> to WF.</p></div>
+<div><head>DISCLOSURES</head><p>The authors have stated explicitly that there are no conflicts of interest in connection with this article.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_JVeVE9B">
+					<idno type="grant-number">FS/13/22/30126</idno>
+				</org>
+				<org type="funding" xml:id="_9QGb6RX">
+					<idno type="grant-number">PG/15/42/31563</idno>
+				</org>
+				<org type="funding" xml:id="_EXKEH97">
+					<idno type="grant-number">PG/19/5/34150</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study (western blot images, quantitative analysis of western blot images) are available in University of Glasgow repository Enlighten: Research Data at https:// doi. org/ 10. 5525/ gla. resea rchda ta. 1598.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>Sarah Calagan, Izzy Jayasinghe, Colin Henderson, William Fuller conceived and designed the research. Fiona Ashford, Krzysztof Wypijewski, Chien-Wen Kuo, Emma Dunning performed the research and acquired the data. Elaine Brown contributed new reagents. Fiona Ashford, William Fuller, Krzysztof Wypijewski analyzed and interpreted the data. All authors were involved in drafting and revising the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Caveolae create local signalling domains through their distinct protein content, lipid profile and morphology</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Calaghan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Cell Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="366" to="375" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Functional rafts in cell membranes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ikonen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page" from="569" to="572" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Caveolae: from cell biology to animal physiology</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Razani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Woodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lisanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol Rev</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="431" to="467" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Identification of peptide and protein ligands for the caveolin-scaffolding domain. Implications for the interaction of caveolin with caveolae-associated proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Couet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ikezu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lisanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="6525" to="6533" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">VIP21/caveolin is a cholesterol-binding protein</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peranen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schreiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wieland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Kurzchalia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="10339" to="10343" />
+			<date type="published" when="1995">1995</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Caveolae: anchored, multifunctional platforms in the lipid ocean</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Deurs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Roepstorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hommelgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sandvig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="92" to="100" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Molecular architecture of the human caveolin-1 complex</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gulsevin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Adv</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">7232</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Exploring the caves: cavins, caveolins and caveolae</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="177" to="186" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">MURC/Cavin-4 and cavin family members form tissue-specific caveolar complexes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="1259" to="1273" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">PTRF-Cavin, a conserved cytoplasmic protein required for caveola formation and function</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Luetterforst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="113" to="124" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Deletion of cavin genes reveals tissue-specific mechanisms for morphogenesis of endothelial caveolae</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shvets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Riento</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1831</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Identification of caveolar resident proteins in ventricular myocytes using a quantitative proteomic approach: dynamic changes in caveolar composition following adrenoceptor activation</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tinti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="596" to="608" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Src-mediated tyrosine phosphorylation of caveolin-1 induces its association with membrane type 1 matrix metalloproteinase</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Labrecque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nyalendo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Langlois</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="52132" to="52140" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Nitrosation-dependent caveolin 1 phosphorylation, ubiquitination, and degradation and its association with idiopathic pulmonary arterial hypertension</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Bakhshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Shajahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pulm Circ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="816" to="830" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Caveolin-3 undergoes SUMOylation by the SUMO E3 ligase PIASy: sumoylation affects G-protein-coupled receptor desensitization</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Fuhs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Insel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="14830" to="14841" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The ubiquitin ligase ZNRF1 promotes caveolin-1 ubiquitination and degradation to modulate inflammation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">15502</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Caveolin-1 is ubiquitinated and targeted to intralumenal vesicles in endolysosomes for degradation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoeber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Helenius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="615" to="629" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Caveolin is palmitoylated on multiple cysteine residues. Palmitoylation is not necessary for localization of caveolin to caveolae</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Dietzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Hastings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lublin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="6838" to="6842" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of caveolin-1 in endothelial cells is post-translational but irreversible</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Parat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="15776" to="15782" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation by a family of DHHC protein S-acyltransferases</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vasudevan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1118" to="1127" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Protein S-palmitoylation: advances and challenges in studying a therapeutically important lipid modification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="861" to="882" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">S-glutathionylation in protein redox regulation</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dalle-Donne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Giustarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Colombo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Milzani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="883" to="898" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Dalle-Donne I. S-glutathionylation: from redox regulation of protein functions to human diseases</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Giustarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Milzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Colombo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="201" to="212" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">FXYD1 phosphorylation in vitro and in adult rat cardiac myocytes: threonine 69 is a novel substrate for protein kinase C</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Mclatchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="1346" to="C1355" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Substrate recognition by the cell surface palmitoyl transferase DHHC5</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="17534" to="17539" />
+			<date type="published" when="2014">2014</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mass-tag labeling reveals site-specific and endogenous levels of protein S-fatty acylation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Percher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thinon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="4302" to="4307" />
+			<date type="published" when="2016">2016</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Mass-tag labeling using acyl-PEG exchange for the determination of endogenous protein Sfatty acylation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Percher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thinon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Protoc Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">An amphipathic alphahelix directs palmitoylation of the large intracellular loop of the sodium/calcium exchanger</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Plain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Congreve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rsz</forename><surname>Yee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="page" from="10745" to="10752" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A separate pool of cardiac phospholemman that does not regulate or associate with the sodium pump: multimers of phospholemman in ventricular muscle</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="13808" to="13820" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Multiple palmitoyltransferases are required for palmitoylation-dependent regulation of large conductance calcium-and voltage-activated potassium channels</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mcclafferty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jeffries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="23954" to="23962" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">CellPalmSeq: a curated RNAseq database of palmitoylating and de-palmitoylating enzyme expression in human cell types and laboratory cell lines</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hogg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Flibotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1110550</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Role of caveolin-1 and cholesterol in transmembrane fatty acid movement</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Meshulam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Simard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wharton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Pilch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2882" to="2893" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Evidence for cyclooxygenase-1 association with caveolin-1 and -2 in cultured human embryonic kidney (HEK 293) cells</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Cha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Kwak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IUBMB Life</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="221" to="227" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Site-specific analysis of protein S-acylation by resin-assisted capture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Forrester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="393" to="398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Quantifying the global cellular thiol-disulfide status</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Winther</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="2009">2009</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Diamide: an oxidant probe for thiols</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Kosower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Kosower</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">251</biblScope>
+			<biblScope unit="page" from="123" to="133" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Structure-based reassessment of the caveolin signaling model: do caveolae regulate signaling through caveolin-protein interactions?</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Parton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="11" to="20" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Evaluating caveolin interactions: do proteins interact with the caveolin scaffolding domain through a widespread aromatic residue-rich motif?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Rigden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">44879</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Src tyrosine kinases, Galpha subunits, and H-Ras share a common membrane-anchored scaffolding protein, caveolin. Caveolin binding negatively regulates the auto-activation of Src tyrosine kinases</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Couet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lisanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="29182" to="29190" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Caveolin binding negatively regulates tyrosine and serine/threonine kinase activities</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Couet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sargiacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lisanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="30429" to="30438" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note>Interaction of a receptor tyrosine kinase, EGF-R, with caveolins</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Lipid-dependent targeting of G proteins into rafts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moffett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="2191" to="2198" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The dually acylated NH2terminal domain of gi1alpha is sufficient to target a green fluorescent protein reporter to caveolin-enriched plasma membrane domains. Palmitoylation of caveolin-1 is required for the recognition of dually acylated g-protein alpha subunits in vivo</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Galbiati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Volonte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="5843" to="5850" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Role of oxygen in the cellular damage induced by re-oxygenation of hypoxic heart</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guarnieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Flamigni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Caldarera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Cell Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="797" to="808" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Free radicals and their involvement during longterm myocardial ischemia and reperfusion</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Downey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Physiol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="487" to="504" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The stunned myocardium: prolonged, postischemic ventricular dysfunction</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Braunwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Kloner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1146" to="1149" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The inhibitory effect of phospholemman on the sodium pump requires its palmitoylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Tulloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="36020" to="36031" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the Na/Ca exchanger cytoplasmic loop controls its inactivation and internalization during stress signaling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Ashford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hilgemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="4532" to="4543" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Constitutive formation of caveolae in a bacterium</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Walser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ariotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Howes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="752" to="763" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">S-palmitoylation and the regulation of NCX1</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hilgemann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Channels (Austin)</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="75" to="77" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Palmitoylation contributes to membrane curvature in influenza a virus assembly and hemagglutinin-mediated membrane fusion</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chlanda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mekhedov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Waters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="947" to="964" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">S-acylation controls SARS-CoV-2 membrane lipid organization and enhances infectivity</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Mesquita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sergeeva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="2790" to="2807" />
+			<date type="published" when="2021">2021. 2798</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Caveolin-1 and cavin1 act synergistically to generate a unique lipid environment in caveolae</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ariotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rae</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<date type="published" when="2021">2021. 202005138</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Interplay between membrane curvature and cholesterol: role of palmitoylated Caveolin-1</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sengupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="69" to="78" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Early proteostasis of caveolins synchronizes trafficking, degradation, and oligomerization to prevent toxic aggregation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Morales-Paytuvi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fajardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruiz-Mirapeix</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<date type="published" when="2023">2023. 202204020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Modest effects of lipid modifications on the structure of caveolin-3</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Schlebach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hadziselimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Sanders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="4320" to="4322" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Caveolin3 stabilizes McT1-mediated lactate/proton transport in cardiomyocytes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kownatzki-Danger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Weninger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circ Res</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="102" to="e120" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Biogenesis of caveolae: stepwise assembly of large caveolin and cavin complexes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoeber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bissig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Helenius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="361" to="382" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Oxidantinduced activation of type I protein kinase a is mediated by RI subunit interprotein disulfide bond formation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Bardswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Burgoyne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="21827" to="21836" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Cysteine redox sensor in PKGIa enables oxidant-induced activation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Madhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cuello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="page" from="1393" to="1397" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Heterologous desensitization mediated by G protein-specific binding to caveolin</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Murthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Makhlouf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="30211" to="30219" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Modulation of Ca(2)+ activity in cardiomyocytes through caveolae-Galphaq interactions</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Golebiewska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scarlata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="1599" to="1607" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

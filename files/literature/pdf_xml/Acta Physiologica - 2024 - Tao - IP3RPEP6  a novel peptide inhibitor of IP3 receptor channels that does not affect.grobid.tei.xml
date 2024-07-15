@@ -1,0 +1,2589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">IP3RPEP6, a novel peptide inhibitor of IP 3 receptor channels that does not affect connexin-43 hemichannels</title>
+				<funder ref="#_uvgJAVS">
+					<orgName type="full">China Scholarship Council</orgName>
+				</funder>
+				<funder ref="#_M6cSGNz #_TZgrqGU #_urdktEG #_BeRxZTG #_vqyA6qN #_3CHqbbk #_jkFE43P">
+					<orgName type="full">Research Foundation-Flanders (FWO)</orgName>
+				</funder>
+				<funder ref="#_Xk2UfBf #_pfaCCNG">
+					<orgName type="full">KU Leuven Research Council</orgName>
+				</funder>
+				<funder ref="#_pYG3V6J">
+					<orgName type="full">Central European Leuven Strategic Alliance</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ghent University postdoctoral fellowship</orgName>
+				</funder>
+				<funder ref="#_fJbcSPV #_G2A9wus">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Siyu</forename><surname>Tao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Basic and Applied Medical Sciences-Physiology Group</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paco</forename><surname>Hulpiau</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Bio-Medical Sciences</orgName>
+								<orgName type="institution">HOWEST University of Applied Sciences (Hogeschool West-Vlaanderen)</orgName>
+								<address>
+									<settlement>Bruges</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Larry</forename><forename type="middle">E</forename><surname>Wagner</surname><genName>II</genName></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Pharmacology and Physiology</orgName>
+								<orgName type="department" key="dep2">School of Medicine and Dentistry</orgName>
+								<orgName type="institution">University of Rochester Medical Center</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Katja Witschas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Basic and Applied Medical Sciences-Physiology Group</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">I</forename><surname>Yule</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Pharmacology and Physiology</orgName>
+								<orgName type="department" key="dep2">School of Medicine and Dentistry</orgName>
+								<orgName type="institution">University of Rochester Medical Center</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Geert Bultynck</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Molecular Cell Biology</orgName>
+								<orgName type="laboratory">Laboratory of Molecular and Cellular Signaling</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">|</forename><surname>Luc Leybaert</surname></persName>
+							<email>luc.leybaert@ugent.be</email>
+							<idno type="ORCID">0000-0001-6452-6982</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Basic and Applied Medical Sciences-Physiology Group</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luc</forename><surname>Leybaert</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Basic and Applied Medical Sciences-Physiology Group</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<postCode>9000</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">Paco Hulpiau https://orcid</orgName>
+								<address>
+									<postCode>0000-0002-6692-2150</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Katja Witschas https://orcid</orgName>
+								<address>
+									<postCode>0000-0002-0960-683X</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">IP3RPEP6, a novel peptide inhibitor of IP 3 receptor channels that does not affect connexin-43 hemichannels</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F26C2ABE6A10905F30750908FFC47873</idno>
+					<idno type="DOI">10.1111/apha.14086</idno>
+					<note type="submission">Received: 20 July 2023 | Revised: 24 October 2023 | Accepted: 1 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>G052718N</term>
+					<term>G040720N</term>
+					<term>G063023N</term>
+					<term>G090118N</term>
+					<term>G0E7520N</term>
+					<term>G081821N</term>
+					<term>G094522N</term>
+					<term>W0.019.17N and W0.014.22N</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Aim: Inositol 1,4,5-trisphosphate receptors (IP 3 Rs) are intracellular Ca 2+ -release channels with crucial roles in cell function. Current IP 3 R inhibitors suffer from off-target effects and poor selectivity towards the three distinct IP 3 R subtypes.</p><p>We developed a novel peptide inhibitor of IP 3 Rs and determined its effect on connexin-43 (Cx43) hemichannels, which are co-activated by IP 3 R stimulation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>K E Y W O R D S</head><p>astrocytes, Ca 2+ signaling, connexin-43, hemichannel, inositol 1,4,5-trisphosphate, IP 3 , peptide inhibitor</p><p>open probability in a concentration-dependent manner. (A) Domain topology within the human IP 3 R3 monomer, illustrating the ligand-binding domain and the domain containing the self-binding peptide (SBP). Numbers reflect amino acid positions. TMDs, transmembrane domains. (B) Sequence alignment of part of the regulatory ARM2 domain of human type-1, -2 and -3 IP 3 Rs containing the SBP sequence. The αhelical cylinders left and right represent the arms holding the interposed SBP stretch, which is brought in the vicinity of the IP 3 binding site. 21 (C) Peptides used in the present study. (D) Representative IP 3 R2 single-channel recordings from DT40-TKO cells stably expressing IP 3 R2. Channel activity was evoked by 1 μM IP 3 at 200 nM Ca 2+ and 5 mM ATP in the presence of phosphate-buffered saline (PBS) or in the presence of IP3RPEP6 or IP3RPEP6-E2A at the concentration indicated; C, closed state; O, open state. (E) Pooled data plotted as the P o ± SEM for the IP 3 R2 current recordings (PBS, N = 5; 1 μM IP3RPEP6, N = 6; 10 μM IP3RPEP6, N = 5; 50 μM IP3RPEP6, N = 3; 50 μM IP3RPEP6-E2A, N = 6</p><p>). Statistically significant differences were determined using a one-way ANOVA, with Dunnett's post-test ( † p &lt; 0.01, ****p &lt; 0.0001 versus PBS control). IP3RPEP6-E2A lacking the two Glu residues had no significant effects. (F) Analysis of IP 3 R2 burst kinetics. Mean burst length constants (solid symbols) and interburst interval time constants (open symbols) are plotted for all conditions. The data indicate that IP3RPEP6 inhibits IP 3 R2 activity by increasing the interburst intervals without altering burst length; IP3RPEP6-E2A did not affect burst/interburst properties.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Methods: IP3RPEP6 was developed by in silico molecular docking studies and characterized by on-nucleus patch-clamp experiments of IP 3 R2 channels and carbachol-induced IP 3 -mediated Ca 2+ responses in IP 3 R1, 2 or 3 expressing cells, triple IP 3 R KO cells and astrocytes. Cx43 hemichannels were studied by patch-clamp and ATP-release approaches, and by inhibition with Gap19 peptide. IP3RPEP6 interactions with IP 3 Rs were verified by co-immunoprecipitation and affinity pull-down assays.</p><p>Results: IP3RPEP6 concentration-dependently reduced the open probability of IP 3 R2 channels and competitively inhibited IP 3 Rs in an IC 50 order of IP 3 R2 (~3.9 μM) &lt; IP 3 R3 (~4.3 μM) &lt; IP 3 R1 (~9.0 μM), without affecting Cx43 hemichannels or ryanodine receptors. IP3RPEP6 co-immunoprecipitated with IP 3 R2 but not with IP 3 R1; interaction with IP 3 R3 varied between cell types. The IC 50 of IP3RPEP6 inhibition of carbachol-induced Ca <ref type="bibr">2+</ref> responses decreased with increasing cellular Cx43 expression. Moreover, Gap19-inhibition of Cx43 hemichannels significantly reduced the amplitude of the IP 3 -Ca <ref type="bibr">2+</ref> responses and strongly increased the EC 50 of these responses. Finally, we identified palmitoyl-8G-IP3RPEP6 as a membrane-permeable IP3RPEP6 version allowing extracellular application of the IP 3 R-inhibiting peptide.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>IP3RPEP6 inhibits IP 3 R2/R3 at concentrations that have limited effects on IP 3 R1. IP 3 R activation triggers hemichannel opening, which strongly affects the amplitude and concentration-dependence of IP 3 -triggered Ca <ref type="bibr">2+</ref> responses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Inositol 1,4,5-trisphosphate receptors (IP 3 Rs) are tetrameric Ca 2+ permeable channels primarily located at the membrane of the endoplasmic reticulum (ER). <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> Numerous physiological processes are controlled by Ca <ref type="bibr">2+</ref> mediated signaling through IP 3 Rs. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> Mammalian cells express three distinct IP 3 R subtypes, namely IP 3 R1, IP 3 R2 and IP 3 R3, which possess ~70% homology. IP 3 Rs operate at the heart of molecular signaling networks and affect metabolic cellular homeostasis. <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> However, current understanding of IP 3 R-related diseases remains limited and is hampered by a lack of selective pharmacological tools targeting these receptors.</p><p>Each IP 3 R monomer contains a suppressor region, an IP 3 binding core, a regulatory region, a transmembrane region and a C-terminal region, <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> organized in a "mushroom-like" structure. There are currently no IP 3 R antagonists without side effects. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> Heparin, <ref type="bibr" target="#b13">14</ref> 2-aminoethoxydiphenyl borate (2-APB), <ref type="bibr" target="#b14">15</ref> caffeine, <ref type="bibr" target="#b15">16</ref> and Xestospongins <ref type="bibr" target="#b16">17</ref> are widely used to inhibit IP 3 -evoked Ca <ref type="bibr">2+</ref> release, but each of those compounds has shortcomings in terms of selectivity and side effects. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> Starting the search for novel candidate inhibitors based on endogenous protein sequences seems promising, as exemplified by work showing Bcl-2 BH4 domain interaction with the IP 3 R1 ligand-binding site thereby inhibiting channel function. <ref type="bibr" target="#b19">20</ref> Here, we started from a regulatory mechanism in IP 3 R3 whereby a loop extending from a so-called "ARM2" structure between the α ARM2 -1 and α ARM2 -2 domain binds to the IP 3 -binding site and competitively inhibits IP 3 binding, <ref type="bibr">21</ref> providing crucial insights into the mechanistic function of IP 3 Rs and subtype-specific regulation of these important Ca 2+ -release channels.</p><p>The IP 3 -Ca 2+ signaling axis has many cross-points with connexins, for example, intercellular Ca 2+ waves are mediated by IP 3 diffusion through gap junctions (reviewed in Ref. [22]). IP 3 -Ca 2+ signaling furthermore underlies oscillations of the intracellular Ca 2+ concentration ([Ca 2+ ] i ) in response to a myriad of trigger conditions (reviewed in Ref. [3]), in which the bell-shaped [Ca 2+ ] i -dependence of IP 3 R channel opening is a crucial factor. <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> Cx43 hemichannels also have a bell-shaped [Ca 2+ ] i -dependence for their opening, <ref type="bibr" target="#b25">26</ref> allowing them to contribute to Ca 2+ oscillations by Ca 2+ entry. <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> Stimulation of IP 3 R signaling furthermore enhances gap junction coupling <ref type="bibr" target="#b11">12</ref> but also affects hemichannels, that is, the precursor channels of gap junctions, which are more strongly activated to open in response to IP 3triggered <ref type="bibr">[Ca 2+</ref> ] i elevation than by Ca 2+ entry. <ref type="bibr" target="#b31">31</ref> Open hemichannels permeate substances below ~1.5 kDa, allowing Ca 2+ and Na +32-36 entry but also the loss of, for example, intracellular ATP <ref type="bibr" target="#b37">37,</ref><ref type="bibr" target="#b38">38</ref> and IP 3 . <ref type="bibr" target="#b39">39</ref> Because IP 3 -Ca 2+ signaling strongly activates hemichannel opening, a second aim of the present paper was to determine to what extent Cx43 hemichannel opening contributed to IP 3 -triggered Ca 2+ responses.</p><p>Here, we investigated IP3RPEP6 derived from the ARM2 structure of IP 3 R2 that interacts with the IP 3binding site and competitively inhibits IP 3 binding and subsequent Ca 2+ -channel activation. Our results demonstrate that IP3RPEP6 inhibits activation of IP 3 R2 and IP 3 R3 with more limited effects on IP 3 R1. Activation of IP 3 -Ca 2+ signaling also triggers Cx43 hemichannel </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| In silico approaches leading to</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IP3RPEP6 as a potential IP 3 R2 antagonist</head><p>A cryo-EM structure of human IP 3 R3 revealed the presence of a self-binding peptide (SBP) competing with IP 3 for binding to the IP 3 receptor site. <ref type="bibr">21</ref> This SBP sequence is located at the end of two αhelical arms projecting from the N-terminal domain known as "ARM2" of IP 3 R3 (Figure <ref type="figure">1A</ref>); it occupies the IP 3 -binding site and reduces the sensitivity of IP 3 R3 to IP 3 . 21 Sequence alignment showed that the SBP sequence for IP 3 R2 contained an additional stretch of amino acids absent in IP 3 R1 and partly lacking in IP 3 R3 (Figure <ref type="figure">1B</ref>). Within the putative SBP sequence of IP 3 R2, we identified a cluster of closely apposed glutamate (Glu, E) residues and delineated several candidate peptides that were tested with PEP-SiteFinder <ref type="bibr" target="#b40">40,</ref><ref type="bibr" target="#b41">41</ref> for their interaction with a homology model of the human IP 3 R2 protein constructed with Modeller software. <ref type="bibr" target="#b42">42</ref> Hereby, two peptides emerged with high interaction scores with the IP 3 -binding site of IP 3 R2: IP3RPEP5 (human) and IP3RPEP6 (mouse/rat version) (Figure <ref type="figure">1C</ref>). Both peptides contained 4 Glu residues on a total of 12 amino acids, organized as two doublets separated by two other residues (double EE motif); IP3RPEP6 was chosen for further characterization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| IP3RPEP6 inhibits IP 3 R2</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>single-channel opening activity</head><p>We tested the effect of IP3RPEP6 on IP 3 R2 single-channel activity using the on-nucleus patch-clamp approach on nuclei isolated from DT40-TKO cells stably expressing mouse IP 3 R2. <ref type="bibr" target="#b43">43,</ref><ref type="bibr" target="#b44">44</ref> Channel opening was triggered by 1 μM IP 3 in the presence of 200 nM [Ca 2+ ] i and 5 mM ATP to attain maximal achievable open probability (P o ), and we tested concentration-dependent IP3RPEP6 effects on single IP 3 R2 channel opening activity (Figure <ref type="figure">1D</ref>). IP3RPEP6 significantly decreased P o and reciprocally extended interburst intervals in a concentration-dependent manner without affecting the mean burst length (Figure <ref type="figure">1E,</ref><ref type="figure">F</ref>). IP3RPEP6 inhibited IP 3 R2 single channel activity by stabilizing a long-lived closed state with no influence on the mean open and closed times within bursts (Figure <ref type="figure">S1</ref>). In contrast, a control peptide in which the N-terminal Glu of each Glu doublet in IP3RPEP6 were changed into Ala (further called IP3RPEP6-E2A; Figure <ref type="figure">1C</ref>) did not inhibit IP 3 R2 single-channel activity (Figure <ref type="figure">1D-F</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| IP3RPEP6 inhibits carbachol-triggered [Ca 2+ ] i elevation most potently for IP 3 R2 and IP 3 R3</head><p>To test IP3RPEP6 for its potential to inhibit IP 3 -induced Ca 2+ signals, we first characterized Ca 2+ responses of HEK-293 cells selectively expressing human IP 3 R1, IP 3 R2 or IP 3 R3. <ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b46">46</ref> We determined concentration-dependent responses of the three cell types to carbachol concentrations ranging from 0.1 to 1000 μM by [Ca 2+ ] i recording in Fluo-4 loaded cells (Figure <ref type="figure" target="#fig_6">2A-F</ref>). The [Ca 2+ ] i response amplitude decreased in the order IP 3 R2 &gt; IP 3 R3 &gt; IP 3 R1 (Figure <ref type="figure" target="#fig_6">2A-C</ref>). The EC 50 for [Ca 2+ ] i elevation was below 1 μM for IP 3 R2, ~10 μM for IP 3 R3 and almost 50 μM for IP 3 R1 (Figure <ref type="figure" target="#fig_6">2D-F</ref>). Ca 2+ responses were absent in HEK-TKO cells in which all three IP 3 receptors were knocked out (Figure <ref type="figure" target="#fig_6">S2A</ref>). Subsequently, we explored a range of IP3RPEP6 concentrations to inhibit carbachol-induced Ca 2+ responses. Due to the net negative charge, the peptide is poorly membrane-permeable, so we applied in situ electroporation for loading the peptide into the cells <ref type="bibr" target="#b48">[47]</ref><ref type="bibr" target="#b49">[48]</ref><ref type="bibr" target="#b50">[49]</ref> and added dextran-tetramethyl-rhodamine reporter dye (100 μM) to identify peptide-loaded cells during [Ca 2+ ] i imaging. Intracellular loading efficiency of IP3RPEP6 was ~16% of the concentration applied outside on the electroporation electrode (Figure <ref type="figure" target="#fig_3">S3</ref>). Figure <ref type="figure" target="#fig_6">2G</ref>-I illustrates concentration-dependent IP3RPEP6 inhibition of carbachol-induced Ca 2+ responses in the different HEK-IP 3 R cells, using submaximal carbachol stimulation. The strongest effects were observed for IP 3 R2 and IP 3 R3, with less complete inhibition for IP 3 R1 delivering only ~⅔ inhibition at high (~100 μM) concentration (Figure <ref type="figure" target="#fig_6">2G</ref>). The IC 50 increased in the order IP 3 R2 (~3.9 μM) &lt; IP 3 R3 (~4.3 μM) &lt; IP 3 R1 (~9.0 μM). Negative Hill slopes were ~3 for IP 3 R2 and R3 and lower for IP 3 R1 (~1.6). The control peptide IP3RPEP6-E2A did not inhibit IP 3 R2-mediated [Ca 2+ ] i responses across a broad range of IP3RPEP6 concentrations (Figures S2B and S4 illustrates IP 3 -evoked Ca 2+ release in permeabilized HEK-IP 3 R2 cells using MagFluo4 ER Ca 2+ recording). Likewise, a peptide in which all 4 Glu residues were replaced by Lys (IP3RPEP6-E4K; Figure <ref type="figure">1C</ref>) neither inhibited the responses (green datapoint in Figure <ref type="figure" target="#fig_6">S2B</ref>). The higher IC 50 and smooth Hill slope for IP3RPEP6 inhibition of IP 3 R1 is likely the result of the absence of the double EE motif in the SBP sequence of this receptor (see Figure <ref type="figure">1B</ref>); in contrast, IP 3 R3 contains the double EE motif but with a larger spatial separation compared to IP 3 R2 (Figure <ref type="figure">1B</ref>). We further tested IP3RPEP5 (human sequence containing a 'PI' instead of 'AN', see Figure <ref type="figure">1B</ref>), which inhibited HEK-IP 3 R2 responses with an IC 50 of ~11 µM and a negative Hill slope of ~1, i.e. less favorable properties compared to IP3RPEP6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| IP3RPEP6 competitively inhibits IP 3 R2</head><p>To characterize competition between IP3RPEP6 and IP 3 , we stimulated HEK-IP 3 R2 cells with carbachol (0.1-1000 μM), measured the associated intracellular elevation of IP 3 and probed the effect of IP3RPEP6 (5 different concentrations in the 10-1000 μM range) on the induced [Ca 2+ ] i responses. Figure <ref type="figure" target="#fig_3">3A</ref> illustrates that increasing concentrations of IP3RPEP6 necessitated larger IP 3 elevation to obtain the same degree of [Ca 2+ ] i increase as observed without the peptide, indicating IP 3 competes with the peptide for access to the IP 3 R ligandbinding domain.</p><p>Next, we performed control experiments on RyRs to test possible IP3RPEP6 effects on this other major ER Ca 2+ -release channel, making use of an inducible RyR2 overexpression HEK cell model 50 (Figure <ref type="figure" target="#fig_3">3B</ref>). Application of a high intracellular IP3RPEP6 concentration (~64 μM, electroporation loaded) had no significant effect on the amplitude and duration of caffeine-induced [Ca 2+ ] i transients in HEK-RyR2 cells (Figure <ref type="figure" target="#fig_3">3C-E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Carbachol-induced [Ca 2+ ] i responses in HEK cells involve a Cx43 hemichannel contribution</head><p>Cx43 hemichannel opening allows substantial Ca 2+ entry due to the high (220-240 pS) single-channel conductance, providing ~1-1.5 pA Ca 2+ current per hemichannel at -70 mV membrane potential. <ref type="bibr" target="#b32">32,</ref><ref type="bibr" target="#b52">51</ref> As many cell types show background Cx43 expression, we verified whether carbachol-induced [Ca 2+ ] i changes were affected by (G-I) IP3RPEP6 inhibition was close to complete for IP 3 R2, complete for IP 3 R3 and less so for IP 3 R1 where the curve leveled off at ~1/3 of the control response. IC 50 was lowest for IP 3 R2, slightly higher for IP 3 R3 and much higher for IP 3 R1. Negative Hill slopes were ~3 for IP 3 R2/3 and much lower for IP 3 R1. Data are expressed as the mean ± SEM (N = 3, n = 5). inhibiting Cx43 hemichannels using Gap19, which selectively targets Cx43-based hemichannels without inhibiting Cx43 gap junctions. <ref type="bibr" target="#b53">52</ref> We first recorded [Ca 2+ ] i responses to carbachol in HEK-WT cells and HEK cells transduced with Cx43. <ref type="bibr" target="#b54">53</ref> Immunoblot Cx43 staining revealed a clear Cx43 band in HEK-WT, indicating endogenous Cx43 expression; Cx43 protein levels were about fivefold higher in HEK-Cx43 cells (Figure <ref type="figure" target="#fig_5">S5A,</ref><ref type="figure">B</ref>). HEK cells furthermore displayed low background expression of Cx45 and were negative for Cx37 and Cx40 (Figures <ref type="figure" target="#fig_5">S5C,</ref><ref type="figure">D</ref>). Figure <ref type="figure" target="#fig_4">4A</ref>,B illustrate typical [Ca 2+ ] i traces recorded in both cell types, demonstrating larger [Ca 2+ ] i peaks in HEK-Cx43 cells compared to HEK-WT (~37% larger-see Figure <ref type="figure" target="#fig_4">4C,</ref><ref type="figure">D</ref>). The EC 50 was also different, being lower (1.53 μM) in HEK-Cx43 compared to HEK-WT (2.58 μM). Strikingly, Gap19 inhibition reduced the [Ca 2+ ] i response amplitude in HEK-Cx43 cells and increased the EC 50 from 1.53 to 6.56 μM (~4 times increase) and the Hill slope from 0.87 to 1.94 (Figure <ref type="figure" target="#fig_4">4D</ref>). A similar effect was observed in HEK-WT, most clearly for the EC 50 that increased from 2.58 to 6.37 μM (Figure <ref type="figure" target="#fig_4">4C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| IP3RPEP6 inhibition of carbachol-triggered [Ca 2+ ] i responses is modified by the presence of Cx43</head><p>Figure <ref type="figure" target="#fig_4">4E</ref>,F demonstrate that concentration-dependent inhibition by IP3RPEP6 was very different between WT and Cx43 overexpressing cells (submaximal carbachol stimulation, as in Figure <ref type="figure" target="#fig_6">2G-I</ref>). In HEK-WT, the IP3RPEP6 inhibition curve had a high IC 50 (7.4 μM) and a low negative Hill slope (1.3) (Figure <ref type="figure" target="#fig_4">4E</ref>), while HEK-Cx43 cells had a lower IC 50 (5.2 μM) and a very steep negative Hill slope (3.1) (Figure <ref type="figure" target="#fig_4">4F</ref>). Because the HEK-WT curve (Figure <ref type="figure" target="#fig_4">4E</ref>) appeared similar to the HEK-IP 3 R1 curve (Figure <ref type="figure" target="#fig_6">2G</ref>) while the HEK-Cx43 curve (Figure <ref type="figure" target="#fig_4">4F</ref>) more closely resembled inhibition as observed for IP 3 R2 and IP 3 R3 (Figure <ref type="figure" target="#fig_6">2H</ref>,I), we checked IP 3 R-protein levels in HEK-WT and HEK-Cx43 cells using isoform-selective antibodies. This demonstrated 2.4-fold larger IP 3 R3 protein levels in HEK-Cx43 compared to WT (Figure <ref type="figure">S6</ref>), while there were no significant differences in the protein levels of IP 3 R1 and IP 3 R2. This larger expression of IP 3 R3, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">| IP3RPEP6 dose-dependently inhibits carbachol-triggered [Ca 2+ ] i elevations in astrocytes isolated from mouse brain</head><p>Astrocytes highly express Cx43, necessary to sustain spatial K + buffering. <ref type="bibr" target="#b56">54</ref> We used primary cultures of mouse brain astrocytes to determine the effect of IP3RPEP6 on carbachol-induced [Ca 2+ ] i transients in these endogenously Cx43-expressing cells. Figure <ref type="figure" target="#fig_5">S5</ref> illustrates astrocytic Cx43 expression relative to the expression in the other cells used in this study. Carbachol-evoked [Ca 2+ ] i responses were characterized by an EC 50 of 6.09 μM (Figure <ref type="figure" target="#fig_4">4G</ref>). As observed for HEK-Cx43 cells, Gap19 strongly reduced the amplitude of the carbachol-induced [Ca 2+ ] i changes and quadrupled the EC 50 for Ca 2+ response activation from 6.09 to 25.78 μM, while leaving the Hill slope unaffected (Figure <ref type="figure" target="#fig_4">4G</ref>). Figure <ref type="figure" target="#fig_4">4H</ref> illustrates the effect of IP3RPEP6 on the astrocytic Ca 2+ responses, which were characterized by an IC 50 of 3.84 μM and a negative Hill slope of ~3, very similar to the observations in HEK-IP 3 R2 cells (Figure <ref type="figure" target="#fig_6">2H</ref>). Astrocytic Ca 2+ responses were completely inhibited by 10 μM IP3RPEP6 and above (Figure <ref type="figure" target="#fig_4">4H</ref>), which differs from the responses in HEK-Cx43 (Figure <ref type="figure" target="#fig_4">4F</ref>). Immunoblotting revealed high IP 3 R1 and IP 3 R2 protein levels in astrocytes (Figure <ref type="figure">S6</ref>), in line with previous reports. <ref type="bibr" target="#b57">55</ref> Thus, in astrocytes expressing both IP 3 R1 and IP 3 R2, inhibition by IP3RPEP6 was complete while IP3RPEP6 inhibition in HEK-IP 3 R1 was incomplete (Figure <ref type="figure" target="#fig_6">2G</ref>) and complete in HEK-IP 3 R2 (Figure <ref type="figure" target="#fig_6">2H</ref>). Full inhibition by IP3RPEP6 in astrocytes may result from the fact that IP 3 R2 dominates the Ca 2+ responses in these cells. IP 3 R2 is expressed in the astrocytic soma and major branches while IP 3 R1 mainly locates in peri-synaptic extensions therefore having a minor contribution to the global signal. <ref type="bibr" target="#b57">[55]</ref><ref type="bibr" target="#b58">[56]</ref><ref type="bibr" target="#b60">[57]</ref> A further scrutiny of CCh-triggered Ca 2+ responses in astrocytes, HEK-WT and HEK-Cx43 cells is given in Figure <ref type="figure">S7</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8">| IP3RPEP6 binds to IP 3 R2 in HEK IP 3 R2, HEK Cx43 and brain astrocytes</head><p>We determined whether IP3RPEP6 could directly interact with IP 3 Rs, using biotin-conjugated IP3RPEP6 and pulldown assays with Neutravidin-coated beads and lysates prepared from HEK-IP 3 R2, HEK-Cx43 and brain astrocytes. Affinity-purified samples were analyzed via immunoblotting and stained for the three IP 3 R isoforms to assess isoform-specific IP3RPEP6 binding (Figure <ref type="figure" target="#fig_5">5</ref>). IP3RPEP6 was able to pull down IP 3 R2 in cell lysates from HEK-IP 3 R2, from HEK-Cx43 and from primary astrocytes (Figure <ref type="figure" target="#fig_5">5B</ref>). The observed biotin-IP3RPEP6/IP 3 R2 interaction was specific as non-active biotin-conjugated IP3RPEP6-E4K was unable to pull down IP 3 R2 from lysates. IP3RPEP6 also interacted with IP 3 R3 from HEK-Cx43 cell lysates but with lower efficiency compared to IP 3 R2 (Figure <ref type="figure" target="#fig_5">5C</ref>). In astrocyte lysates, no IP 3 R3 could be detected in biotin-IP3RPEP6-pulldown samples, most likely because of the low IP 3 R3-protein levels in these samples. Biotin-IP3RPEP6 failed to pull down IP 3 R1 in lysates from HEK-Cx43 cells and astrocytes (Figure <ref type="figure" target="#fig_5">5A</ref>). These IP3RPEP6/IP 3 R-isoform interactions underpin the functional results of isoform-specific IP 3 R inhibition by IP3RPEP6, indicating IP3RPEP6 displays higher affinity for IP 3 R2/3 than for IP 3 R1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.9">| IP3RPEP6 inhibits IP 3 -induced Cx43 hemichannel opening in HeLa cells</head><p>As the IP 3 /Ca 2+ -signaling axis is a strong activator of Cx43 hemichannel opening, <ref type="bibr" target="#b31">31,</ref><ref type="bibr" target="#b61">58,</ref><ref type="bibr" target="#b62">59</ref> we further investigated whether IP3RPEP6 could inhibit IP 3 -triggered hemichannel opening. We used UV-photoactivation of caged-IP 3 and recorded Cx43 hemichannel activity in whole-cell patchclamp experiments on HeLa-Cx43 cells. Hemichannel currents were activated by voltage steps from -30 to +70 mV, which triggered single-channel current activity with a unitary conductance of ~240 pS typical for Cx43 hemichannels (Figure <ref type="figure">6A,</ref><ref type="figure">B</ref>). Uncaging IP 3 (caged-IP 3 , 10 μM in pipette) significantly increased unitary event activity quantified by membrane charge transfer (Q m ), as illustrated in Figure <ref type="figure">6C</ref>. The increased Cx43 hemichannel activity was reduced to control level by IP3RPEP6 (50 μM in pipette) without affecting the unitary conductance (Figure <ref type="figure">6C</ref>). We further characterized concentration-dependent effects of IP3RPEP6 on hemichannel ATP-release from HeLa-Cx43 cells triggered by IP 3 -uncaging/Ca 2+ signaling. IP 3 -triggered ATPrelease was dependent on the concentration of caged-IP 3 loaded by electroporation <ref type="bibr" target="#b48">47</ref> (Figure <ref type="figure">6D</ref>) and was inhibited by 5 μM Xestospongin C (Figure <ref type="figure">6E</ref>). Moreover, IP3RPEP6 concentration-dependently inhibited ATP-release with an IC 50 of ~8.6 μM and a negative Hill slope of 2.8 (Figure <ref type="figure">6F</ref>), while the control peptide IP3RPEP6-E2A had no effect (Figure <ref type="figure" target="#fig_6">S2C</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.10">| IP3RPEP6 does not affect Cx43 hemichannel opening</head><p>We verified whether IP3RPEP6 had intrinsic effects on Cx43 hemichannels using HEK-TKO cells, in which the IP 3 -Ca 2+ signaling axis was silenced (Figure <ref type="figure" target="#fig_6">S2A</ref>); these cells displayed Cx43 expression slightly (but nonsignificantly) above the level of HEK-IP 3 R1, 2 and 3 (Figure <ref type="figure" target="#fig_5">S5</ref>). We activated hemichannel opening by challenging the cells with a low Ca 2+ bath solution by addition of 4 mM EGTA to the standard bath solution. <ref type="bibr" target="#b63">[60]</ref><ref type="bibr" target="#b64">[61]</ref><ref type="bibr" target="#b65">[62]</ref> Challenging HEK-TKO cells with low extracellular Ca 2+ triggered extracellular ATP-release that was completely inhibited by 200 μM extracellular Gap19, demonstrating that ATP-release proceeded via Cx43 hemichannels (Figure <ref type="figure">7A</ref>). We subsequently found that intracellular IP3RPEP6 (tested up to 300 μM, electroporation loaded) had no effect on ATP-release, demonstrating that the peptide did not affect hemichannels (Figure <ref type="figure">7B</ref>).</p><p>We further used HEK-TKO cells to test 2-APB, known to affect several non-IP 3 receptor targets (Table <ref type="table">S1</ref>). Figure <ref type="figure">7B</ref> illustrates that 2-APB inhibited hemichannel ATP responses in a concentration-dependent manner with an IC 50 of ~20.5 μM. Application of Xestospongin C at the commonly used concentration of 5 μM showed no significant effects (Figure <ref type="figure">7C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.11">| Blocking Cx43 hemichannels with</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gap19 does not affect Ca 2+ responses in HEK IP 3 R2 cells</head><p>Hemichannel opening increases the amplitude of carbachol-induced [Ca 2+ ] i transients (see Gap19 effect in Figure <ref type="figure" target="#fig_4">4D</ref>). Therefore, the concentration-dependent effect of IP3RPEP6 on carbachol-induced [Ca 2+ ] i transients (Figure <ref type="figure" target="#fig_6">2G-I</ref>) may also be affected by background Cx43 expression and hemichannel opening. To verify this, we   <ref type="figure">S9A</ref> demonstrates a slight but non-significant increase in the IC 50 of IP3RPEP6 in the presence of Gap19 hemichannel block, indicating non-significant contribution of Cx43 hemichannel activity to the responses in these cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.12">| Extracellularly applied palmitoyl-8G-IP3RPEP6 inhibits IP 3 R2 Ca 2+ responses</head><p>We tested N-terminal addition of a palmitoyl group to IP3RPEP6 to facilitate membrane permeability and allow extracellular application. To increase flexibility of the active IP3RPEP6 moiety relative to the palmitate part, we included 8 Gly residues between the peptide and the palmitoyl group yielding palmitoyl-8G-IP3RPEP6. Extracellular application of palmitoyl-8G-IP3RPEP6 provided concentration-dependent inhibition of carbacholinduced [Ca 2+ ] i responses, characterized by an IC 50 of ~30 μM (1 h peptide incubation). The negative Hill slope was slightly steeper than for IP3RPEP6; maximal inhibition at high concentration was 72% (Figure <ref type="figure">7D,</ref><ref type="figure">E</ref>). In contrast, conjugation with the TAT cell-permeation sequence (YGRKKRRQRRR) did not confer any inhibition upon extracellular application (Figure <ref type="figure">S9B</ref>), possibly due to interaction between the positively charged TAT sequence and the negatively charged IP3RPEP6 moiety rendering the peptide inactive.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| DISCUSSION</head><p>Currently, there are few effective and selective IP 3 R antagonists, <ref type="bibr" target="#b12">13</ref> with none of them being free of pitfalls. <ref type="bibr" target="#b66">63</ref> Commonly used IP 3 R antagonists, such as heparin, 2-APB, caffeine and Xestospongins, lack subtype-selectivity and affect other targets <ref type="bibr" target="#b17">18</ref> (Table <ref type="table">S1</ref>). For example, 2-APB also blocks gap junctions with IC 50 concentrations depending on the isotype (IC 50 of ~50 μM for Cx43 while ~3 μM for the neuronal Cx36). <ref type="bibr" target="#b67">64</ref> Here, we found 2-APB to inhibit Cx43-based hemichannels with an IC 50 of ~20 μM (Figure <ref type="figure">7B</ref>), that is, 2.5-fold lower than for gap junctions. Inspired by the recent identification of a selfbinding sequence in IP 3 R3 (Figure <ref type="figure">1A</ref>), we conceived and characterized IP3RPEP6 consisting of an IP 3 R2-based sequence that competitively interacts with IP 3 binding to the receptor site. We found the peptide to interact with IP 3 R2 in HEK-IP 3 R2 cells, HEK-Cx43 cells and astrocytes (Figure <ref type="figure" target="#fig_5">5</ref>) and with IP 3 R3 in HEK-Cx43 cells. Interaction with IP 3 R1 was absent in both astrocytes and HEK-Cx43 cells, suggesting an IP3RPEP6 interaction order of IP 3 R2 &gt; IP 3 R3 &gt; IP 3 R1. At the single-channel level, IP3RPEP6 concentration-dependently reduced the open probability of IP 3 R2 channels (Figure <ref type="figure">1E</ref>). At the functional signaling level, IP3RPEP6 inhibition of carbachol-triggered [Ca 2+ ] i responses suggested a potency order of IP 3 R2 ≈ IP 3 R3 &lt; IP 3 R1. Inhibition of IP 3 R2 and IP 3 R3 was complete while incomplete for IP 3 R1 (Figure <ref type="figure" target="#fig_6">2G-I</ref>). At a 5.5 μM concentration, IP3RPEP6 inhibited IP 3 R1 less than ⅓, IP 3 R2 for ¾ and IP 3 R3 for ⅔ while not affecting RyR2 (Figure <ref type="figure" target="#fig_3">3C-E</ref>). With Gap19 hemichannel block, 5.5 μM IP3RPEP6 gave ~⅔ inhibition of IP 3 R2 compared to ¾ inhibition without Gap19. This smaller degree of IP3RPEP6 inhibition in the presence of Gap19 is caused by the removal of the hemichannel contribution to the [Ca 2+ ] i response amplitude, making the control responses smaller to start with (and therefore relatively less inhibited). The Gap19 effect-size will depend on the cellular Cx43 expression level (compare Figure <ref type="figure" target="#fig_4">4C</ref> with D,G). As IP3RPEP6 inhibition is competitive, the concentration values given above only apply to the carbachol stimulation used here and may vary with IP 3 levels associated with other stimulation protocols.</p><p>Our work demonstrates that IP 3 -signaling enhances opening of hemichannels composed of Cx43, a ubiquitously expressed connexin isotype abundantly present in astrocytes and cardiomyocytes. Cx43 hemichannel opening results in Ca 2+ entry amounting to 1-1.5 pA Ca 2+ current per hemichannel at -70 mV membrane potential, <ref type="bibr" target="#b32">32</ref> a typical resting potential for astrocytes and cardiomyocytes. In cardiomyocytes, this may increase [Ca 2+ ] i in subplasmalemmal microdomains to the 1-4 μM range per single open hemichannel. <ref type="bibr" target="#b32">32</ref> Hemichannel opening also results in the release of ATP, which is known to activate purinergic receptors, inducing Ca 2+ entry and IP 3triggered Ca 2+ release. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b68">65</ref> In both cases, Gap19-mediated inhibition of Cx43 hemichannel opening will impact the [Ca 2+ ] i responses as shown here. Consequently, the IC 50 , Hill slope and maximal inhibition properties of IP 3 R inhibitors will be affected by hemichannel contributions to the Ca 2+ signal, which can be verified by recording these pharmacological properties under control conditions and in the presence of Cx43 hemichannel block by Gap19, as demonstrated in Figure <ref type="figure" target="#fig_4">4C,</ref><ref type="figure">D,</ref><ref type="figure">G</ref>.</p><p>Astrocytes are a major glial brain cell type predominantly expressing IP 3 R1 and IP 3 R2 (Figure <ref type="figure">S6</ref>), <ref type="bibr" target="#b57">55</ref> with high endogenous Cx43 expression (Figure <ref type="figure" target="#fig_5">S5</ref>). <ref type="bibr" target="#b69">66,</ref><ref type="bibr" target="#b70">67</ref> Interestingly, IP3RPEP6 inhibition of astrocytic [Ca 2+ ] i responses (Figure <ref type="figure" target="#fig_4">4H</ref>) displayed similar IC 50 and Hill slope properties as for HEK-IP 3 R2 (Figure <ref type="figure" target="#fig_6">2H</ref>). Remarkably, IP3RPEP6 inhibition in HEK-IP 3 R1 and HEK-Cx43 was incomplete at high peptide concentrations, while complete in astrocytes expressing IP 3 R1 and Cx43, which may be related to functional dominance of IP 3 R2 in astrocytes, <ref type="bibr" target="#b57">[55]</ref><ref type="bibr" target="#b58">[56]</ref><ref type="bibr" target="#b60">[57]</ref> consistent with its highest affinity for IP 3 among the three distinct IP 3 R isoforms. IP 3 R2 is furthermore important in cellular Ca 2+ waves and oscillations, <ref type="bibr" target="#b71">68</ref> while IP 3 R1 has not been observed to participate in such dynamic Ca 2+ responses in astrocytes. <ref type="bibr" target="#b72">69,</ref><ref type="bibr" target="#b74">70</ref> In line with this, astrocytic ER stores seem to be more heterogeneous allowing independent subcompartment release of Ca 2+ . <ref type="bibr" target="#b75">71</ref> In conclusion, IP3RPEP6 is a novel competitive peptide antagonist of IP 3 R2/3 with limited effects on IP 3 R1 at ~5.5 μM and submaximal effects on IP 3 R2/3 at 10 μM associated with half-maximal inhibition of IP 3 R1; its membrane permeable version palmitoyl-8G-IP3RPEP6 requires ~7.5 times higher concentrations for IP 3 R2 inhibition. Importantly, the peptide does not inhibit RyR2 or Cx43 hemichannels. Hemichannels open as a consequence of IP 3 / Ca 2+ signaling and increase the amplitude of the [Ca 2+ ] i responses. Consequently, IP 3 -dependent cellular [Ca 2+ ] i responses should be verified for hemichannel-linked Ca 2+ contributions that modify the amplitude and dynamics of the responses as recently demonstrated for cytokineinduced Ca 2+ oscillations, for example. <ref type="bibr" target="#b76">72</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Chemical reagents</head><p>Carbachol, caffeine, tetracycline and 2-aminoethoxydiphenyl borate (2-APB) were purchased from Sigma-Aldrich (Bornem, Belgium). Caged-IP 3 was from Sichem (Bremen, Germany). Fluo-4-AM, Mag-Fluo-4-AM and Pierce™ NeutrAvidin™ Agarose were from Molecular Probes (Invitrogen, Merelbeke, Belgium). IP3RPEP6, its inactive versions IP3RPEP6-E2A and IP3RPEP6-E4K and its membrane-permeable version palmitoyl-8G-IP3RPEP6 were from GenScript Biotech (Netherlands). All peptides were synthesized to a purity &gt;95% by HPLC analysis and correct mass spectrometrycontrolled molecular weight.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Cell culture</head><p>HEK cells, in which CRISPR/Cas9 was used to delete one or more IP 3 R subtypes (RRID:CVCL_UR28), were generated by Dr. David Yule's laboratory (University of Rochester, NY) <ref type="bibr" target="#b46">46</ref> and supplied by Kerafast. The HEK (HEK-293) and HEK-Cx43 cell lines were cultured in Dulbecco's Modified Eagle's Medium (DMEM) (Invitrogen, Gent, Belgium) supplemented with foetal bovine serum (FBS, 10%), 10 U mL -1 penicillin, 10 μg mL -1 streptomycin (Invitrogen, Gent, Belgium). For tetracyclin-inducible RyR2 expression, we used modified HEK-293 cells kindly provided by Dr. S.R. Wayne Chen. <ref type="bibr" target="#b51">50</ref> These cells were cultured in Dulbecco's Modified Eagle's Medium (DMEM) (Invitrogen, Gent, Belgium) supplemented with foetal bovine serum (FBS, 10%), 10 U mL -1 penicillin, 10 μg mL -1 streptomycin, 0.1 mM minimum Eagle's medium nonessential amino acids (Invitrogen, Gent, Belgium); 1 μg mL -1 tetracycline was applied 18-24 h before functional assays to induce RyR2 expression. HeLa cells stably transfected with Cx43 were grown in Dulbecco's Modified Eagle's Medium (DMEM)/F-12 (Invitrogen, Gent, Belgium) supplemented with foetal bovine serum (FBS, 10%), 10 U mL -1 penicillin, 10 μg mL -1 streptomycin (Invitrogen, Gent, Belgium) with additional 1 μg mL -1 puromycin (Sigma-Aldrich, Bornem, Belgium) to ensure a stable Cx43 expression. All cells above were maintained at 37°C in humidified air with 5% CO 2 , and passaged every 3-4 days.</p><p>DT40 cells lacking all three IP 3 R isoforms (DT40-TKO) (RCB Cat# RCB1467, RRID:CVCL_4634) heterologously expressing IP 3 R2 were used for the on-nucleus patchclamp experiments. <ref type="bibr" target="#b46">46,</ref><ref type="bibr" target="#b77">73,</ref><ref type="bibr" target="#b78">74</ref> The cells were cultured at 39°C in humidified air with 5% CO 2 in RPMI 1640 medium supplemented with 10% foetal bovine serum (FBS), 1% chicken serum, 2.05 mM l-glutamine, 50 μM 2-mercaptoethanol, 2 mg mL -1 G418 sulfate, 100 U mL -1 penicillin and 100 μg mL -1 streptomycin. RPMI 1640 medium, penicillin/streptomycin, G418 sulfate, 2-mercaptoethanol and chicken serum were purchased from Invitrogen. Foetal bovine serum was from Gemini Bio-products.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Astrocyte isolation</head><p>Astrocytes were isolated from early postnatal (P3-P4) mouse cortices (C57BL/6) as previously described. <ref type="bibr" target="#b79">75,</ref><ref type="bibr" target="#b80">76</ref> Dissected cortices were triturated in DMEM/F-12 (Invitrogen, Gent, Belgium) and then seeded into flasks coated with 0.01% solution poly-l-Lysine (Sigma-Aldrich) (four cortices per T75 flask). Culture media (DMEM/F-12 supplemented with 10% FBS, 10 U mL -1 penicillin and 10 μg mL -1 streptomycin) was replaced 4 h after plating and every second day thereafter. After 7 to 8 days, oligodendrocytes formed different layers, and the separation of astrocytes from oligodendrocytes and microglia was achieved by shaking the tissue culture flask on an orbital shaker. Astrocytes were then harvested with trypsin-EDTA (Invitrogen, Gent, Belgium) and replated in a tissue culture flask.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Peptide modeling and docking</head><p>A cryo-EM structure of the human type-3 inositol trisphosphate receptor reveals the presence of a self-binding peptide that acts as a competitive antagonist on the IP 3 binding site. <ref type="bibr">21</ref> A loop extending from ARM2 between the α ARM2 -1 and α ARM2 -2 domain forms a peptide structure that occupies the IP 3 -binding site and reduces the sensitivity of IP 3 R3 to its physiological agonist IP 3 . Microscale thermophoresis results showed that IP 3 affinity for the N-terminal domain was over sevenfold lower than for the ligand binding domain alone, and confirmed that IP 3 R3 SBP competed against IP 3 binding.</p><p>Based on these data, we predicted the interactions between the human IP 3 R2 and SBP by homology modeling and docking studies. A homology model of human IP 3 R2 was built with Modeller using the following templates: rat IP 3 R1 (PDB code 3JAV by Ref. [10]), rat IP 3 R1 with adenophostin A (6MU1 by Ref. [77]), mouse IP 3 R1 and mouse IP 3 R1 with IP 3 (PDB codes 5XA0 and 5GUG by Ref. [11]). Homology modeling scores (molpdf, DOPE, GA341) and Ramachandran plot analysis were used to assess the model reliability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5">| On-nucleus patch clamp experiments</head><p>Isolated nuclei from DT40-TKO cells stably expressing IP 3 R2 were prepared by homogenization as previously described. <ref type="bibr" target="#b43">43</ref> Single IP 3 R channel potassium currents were measured in the on-nucleus patch clamp configuration using pCLAMP 9 and an Axopatch 200B amplifier (Molecular Devices, Sunnydale, CA, USA) as previously described. <ref type="bibr" target="#b82">78</ref> Pipette solution contained 140 mM KCl, 10 mM HEPES, 100 μM BAPTA, 200 nM free Ca 2+ , 1 μM IP 3 , 5 mM ATP (pH 7.1). Free [Ca 2+ ] was calculated using Max Chelator software and verified fluorometrically. Traces were consecutive 3 s sweeps recorded at -100 mV, sampled at 20 kHz and filtered at 5 kHz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6">| Electroporation loading of peptides</head><p>The IP3RPEP6 and related peptides used in this study have a limited membrane permeability and were therefore loaded into the cell monolayers by electroporation. We used 50 kHz AC electroporation that causes minimal cell damage/cell death as described before. <ref type="bibr" target="#b48">[47]</ref><ref type="bibr" target="#b49">[48]</ref><ref type="bibr" target="#b50">[49]</ref> Cultures were briefly rinsed by a low-conductive electroporation solution consisting of (in mM) 300 sorbitol, 4.2 KH 2 PO 4 , 10.8 K 2 HPO 4 , 1 MgCl 2 and 2 HEPES, pH 7.2; thereafter the solution was removed leaving a thin layer just covering the cells. A bipolar electrode was positioned above the cells containing a small volume (7-9 μL) to which the peptides and/or caged IP 3 was added. The intracellular concentration of the peptides was determined from confocal imaging measurements with FITC-labeled peptides. For IP3RPEP6-FITC, the intracellular fluorescence was 16% of the fluorescence measured outside (Figure <ref type="figure" target="#fig_3">S3B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.7">| Calcium imaging</head><p>Intracellular cytoplasmic Ca 2+ was monitored by epifluorescence microscopy and digital imaging using the Ca 2+ -sensitive dye Fluo-4-AM. Cells were loaded with Fluo-4-AM by incubation for 1 h shielded from light at room temperature in HBSS-HEPES containing 10 μM Fluo-4-AM and Pluronic F-127 (final concentration 0.02%). Cultures were then washed with HBSS-HEPES and left at room temperature for 30 min for de-esterification. Carbachol was applied using a culture dish superfusion system. Images were captured using a Nikon TE300 inverted fluorescence microscope equipped with a 40× oil immersion objective (CFI S Fluor 40× oil, NA 1.30, Nikon) and an electron multiplying CCD camera (QuantEM 512SC EM CCD, Photometrics), recorded using Micro-Manager software (version 1.4.22) and analyzed using ImageJ software (rsbweb.nih.gov/ij). Calcium changes were expressed as relative fluorescence changes ΔF/F 0 = (F t -F 0 )/F 0 (F 0 is the fluorescence before stimulation and F t the time-dependent fluorescence signal after stimulation). The ΔF/F 0 was calculated and analyzed with ImageJ software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.8">| Intracellular quantification of IP 3</head><p>Intracellular IP 3 was determined using a mouse IP 3 ELISA kit according to the protocols provided by the manufacturer (Antibodies-online GmbH, Aachen, Germany, Cat no. ABIN6974158).</p><p>4.9 | Caged-IP 3 loading and UV illumination Caged-IP 3 (MW 635 Da) was loaded into the cells by electroporation; loading efficiency was determined by comparing the intracellular versus extracellular fluorescence signal (measured with a Leica TCS-SP8 confocal microscope) from several fluorescent probes including 6-carboxy fluorescein (6-CF, MW 376 Da), IP3RPEP6-FITC (MW 1651 Da) and 3 kDa dextran-FITC (MW 3389 Da), yielding an approximate 20% loading efficiency as concluded from interpolation (Figure <ref type="figure" target="#fig_3">S3C</ref>). UV illumination in the patchclamp experiments (Figure <ref type="figure">6A-C</ref>) was done with a 349 nm UV DPSS laser (Explorer, Spectra-Physics) connected to a fibre that was positioned close to the cell. UV illumination for the ATP-release experiments (Figure <ref type="figure">6D-F</ref>) was done with a 100 W Hg-arc lamp with quartz collector lens and bandpass-filtered at 330 nm (330WB80, Omega Optical, Brattleboro, VT, USA) and focused to the cell culture dish. In both cases, the energy was adjusted to deliver 5%-10% uncaging of the caged-IP 3 amount loaded into the cells. All experiments were performed on HeLa-Cx43 cells, as HEK-Cx43 cells were found to be more sensitive to UV exposure. Control experiments loaded with vehicle-only showed that UV illumination by itself did not trigger any ATP-release in HeLa-Cx43 cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.10">| ATP measurements</head><p>Hemichannel ATP-release was measured using a bioluminescent ATP assay kit (Sigma-Aldrich, Bornem, Belgium, Cat no. FLAAM) in the medium above the cells as previously described. <ref type="bibr" target="#b61">58</ref> ATP-release was measured directly in the medium above the cells. Briefly, 75 μL ATP assay mix prepared in HBSS-HEPES (at fivefold dilution) was added to 150 μL medium above the cells and photon flux was counted (Victor-3, type 1420 multilabel counter, Perkin-Elmer, Brussels, Belgium).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.11">| Whole-cell voltage clamp experiments</head><p>Cells were studied under whole-cell voltage-clamp to record membrane currents. HeLa-Cx43 cells were bathed in a recording chamber filled with a modified Krebs-Ringer solution consisting of (in mM): 150 NaCl, 4 CsCl, 2 CaCl 2 , 2 MgCl 2 , 2 pyruvate, 5 glucose and 5 HEPES; pH adjusted to 7.4. The standard whole-cell recording pipette solution was composed of (in mM): 130 CsCl, 10 Na-aspartate, 0.26 CaCl 2 , 1 MgCl 2 , 2 EGTA, 5 tetraethylammonium (TEA)-Cl and 5 HEPES; pH was adjusted to 7.2. For the experiments with caged IP 3 and IP3RPEP6, the pipette solution was composed of (in mM): 120 CsCl, 10 Na-aspartate, 1 MgCl 2 , 0.2 EGTA, 10 tetraethylammonium (TEA)-Cl and 5 HEPES; pH was adjusted to 7.2. Caged IP 3 and IP3RPEP6 were applied by their inclusion in the whole-cell recording pipette solution.</p><p>Single channel recordings were performed with an EPC 7 PLUS patch-clamp amplifier (HEKA Elektronik, Lambrecht/Pfalz, Germany). Data were acquired at 4 kHz using a NI USB-6221 data acquisition device from National Instruments (Austin, TX, USA) and WinWCP or WinFluor software (credited to Dr. J. Dempster, Strathclyde Institute). All currents in whole-cell configuration were filtered at 1 kHz (7-pole Bessel filter). Patch pipette resistance was 2-5 MΩ; membrane potentials were corrected for liquid junction potentials.</p><p>For single channel analysis, holding currents were subtracted from the recorded current traces, giving traces that only contained unitary current events. Unitary conductances were calculated from the elementary current transitions Δi as: γ = Δi/V m . From these data, we constructed all-point conductance histograms that were fitted by a Gaussian probability density function assuming independent channel opening. Channel activity was quantified from the charge transfer Q m associated with unitary currents; this was done by integrating the unitary current traces over the duration of the voltage step as: Q m = ʃidt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.12">| Western blot analysis and antibodies</head><p>Whole cell lysates were prepared by treating confluent cell culture with RIPA buffer consisting of 25 mM Tris, 50 mM NaCl, 0.5% NP-40, 0.5% deoxycholate, 0.1% SDS, 5.5% βglycerophosphate, 1 mM dithiothreitol, 10 μL mL -1 protease inhibitor cocktail (Sigma-Aldrich), 30 μL mL -1 phosphatase inhibitor cocktail (Sigma-Aldrich) and 20 μL mL -1 mini EDTA-free protease inhibitor cocktail. Cell lysates were analyzed by western blotting as previously described. <ref type="bibr" target="#b83">79</ref> Briefly, proteins (10-20 μg) were separated by NuPAGE 4%-12% Bis/Tris SDS-polyacrylamide gels using MES/SDS-running buffer (Invitrogen) and transferred onto a polyvinylidene fluoride (PVDF) membrane. After blocking with TBS containing 0.1% Tween and 5% non-fat dry milk powder, the membrane was incubated with the primary antibody overnight. Next, membranes were incubated for 1 h with secondary horseradish peroxidase (HRP)-conjugated antibody (dilution 1:2000 in 0.1% Tween/TBS). Protein detection was performed with Pierce ECL Western Blotting Substrate (Thermo Fisher Scientific; p/a Perbio Science BVBA, Erembodegem, Belgium). Band quantification was done with ImageJ software.</p><p>Primary antibodies used in this study were: rabbit polyclonal anti-Cx43 (1:5000; Sigma-Aldrich Cat# C6219, RRID:AB_476857); rabbit polyclonal anti-Cx37 (1:500; Invitrogen Cat# 40-4300, RRID:AB_2533465); rabbit anti-Cx45 (1:100; Abcam Cat# ab70365); rabbit polyclonal anti-Cx40 (1:1000; Bioss Antibodies Cat# BS-1050R, RRID:AB_10857532); rabbit anti-IP 3 R1 generated by Dr. Jan Parys's laboratory (1:1000; Rbt03) <ref type="bibr" target="#b84">80,</ref><ref type="bibr" target="#b85">81</ref> ; rabbit polyclonal anti-IP 3 R2 (1:1000; Abiocode Cat# R2872-2, RRID:AB_2935642); mouse monoclonal anti-IP 3 R3 (1:1000; BD Biosciences Cat# 610313, RRID:AB_397705); mouse monoclonal anti-GAPDH (1:10000; Abcam Cat# ab8245, RRID:AB_2107448); mouse monoclonal anti-vinculin (1:1000; Sigma-Aldrich Cat# V9131, RRID:AB_477629). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.13">| Biotin-pull-down assays</head><p>Two million cells of HEK-IP 3 R2, HEK-Cx43 or astrocytes were plated in 75 cm 2 bottles. Cells were harvested and lysed in RIPA buffer after being confluent. Biotinylated peptides (further referred to as Biotin-IP3RPEP6 and the inactive version as Biotin-IP3RPEP6-E4K), used as bait, were immobilized on neutravidin agarose beads (Thermo Fisher Scientific, Pierce, Erembodegem, Belgium) (30 μL) for 1 h at 4°C. Immobilized peptides and cell lysates were used to perform biotin-pull-down assays as previously described. <ref type="bibr" target="#b86">82</ref> Briefly, equimolar amounts of Biotin-IP3RPEP6 and Biotin-IP3RPEP6-E4K were incubated at 4°C with 500 μg cell lysates in 400 μL interaction buffer 0.025% NP-40 overnight. The beads were then washed five times with interaction buffer. The peptide-protein complexes were eluted in 30 μL LDS (Invitrogen/Thermo Fisher Scientific, Merelbeke, Belgium) supplemented with 1:200 βmercaptoethanol by boiling for 5 min at 95°C. Samples were analyzed via western blotting using rabbit anti-IP 3 R1 generated by Dr. Jan Parys's laboratory (1:1000; Rbt03) <ref type="bibr" target="#b84">80,</ref><ref type="bibr" target="#b85">81</ref> ; rabbit polyclonal anti-IP 3 R2 (1:1000; Abiocode Cat# R2872-2, RRID:AB_2935642); mouse monoclonal anti-IP 3 R3 (1:1000; BD Biosciences Cat# 610313, RRID:AB_397705). Quantifications were performed using the ImageJ software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.14">| Quantification and statistical analysis</head><p>Data are expressed as mean ± SEM. The sample size "N," that is, the number of experimental units, corresponds to the number of independent cell culture dishes used for the experiments. <ref type="bibr" target="#b87">83</ref> The meaning of "n" depends on the type of experiment: for Ca 2+ imaging experiments, it corresponds to the number of different cells recorded from on the day of the experiment for each condition. For ATP-release experiments, it corresponds to the number of replicate wells used on the experimental day. For patch-clamp electrophysiology, it denotes the cells recorded from per experimental day for each condition. For every experimental day, we calculated the average over "n" experiments performed on that particular day. <ref type="bibr" target="#b87">83</ref> Statistical analysis was performed based on the data from all experimental days reported by "N."</p><p>Statistical analysis was done with Prism software (GraphPad 5.0). Two groups were compared with an unpaired Student's t-test and two-tailed p-value depending on the experiment design. Multiple groups were compared by one-way analysis of variance (ANOVA) with post-hoc Dunnett's multiple comparison test. For analysis of concentration-effect relationships, non-linear curvefitting to a Hill equation was used to provide values for EC 50 (half-maximal effective concentration) or IC 50 (halfmaximal inhibitory concentration). Results were considered statistically significant at p &lt; 0.05 (*), p &lt; 0.01 ( † ), p &lt; 0.001 ( ‡ ) and p &lt; 0.0001 (****), or not significant at p &gt; 0.05 (ns). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>| 3 of 18 TAO</head><label>18</label><figDesc>et al. opening that acts to enhance and reshape the [Ca 2+ ] i responses. IP3RPEP6 had no effect on Cx43 hemichannel nor RyR activation and therefore reliably reports effects at the level of IP 3 Rs. Taken together, our work brings up IP3RPEP6 as a new IP 3 R inhibiting peptide primarily targeting IP 3 R2/3 and not affecting co-players like ryanodine receptors or Cx43 hemichannels.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>| 5 of 18 TAO</head><label>18</label><figDesc>et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>F I G U R E 2</head><label>2</label><figDesc>Concentration-dependent IP3RPEP6 inhibition of carbachol-induced Ca 2+ elevation in HEK-IP 3 R1, R2 and R3. Panels A-C show representative Ca 2+ traces while D-F summarize concentration-response curves for carbachol-induced Ca 2+ changes in HEK-IP 3 R1, R2 and R3 cells. CCh indicates carbachol addition and HBSS refers to perfusion with vehicle solution. Data are expressed as mean ± SEM (IP 3 R1, N = 3; IP 3 R2, N = 5; IP 3 R3, N = 3; n = 5 for each).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>F I G U R E 3</head><label>3</label><figDesc>IP3RPEP6 acts as a competitive antagonist of IP 3 R2. (A) Concentration-dependent carbachol-induced IP 3 elevation and cellular Ca 2+ response curves are right-shifted by increasing concentrations of IP3RPEP6, indicating IP 3 competes with the peptide for access to the IP 3 receptor (N = 3, n = 5). (B) Western blotting showing tetracycline-induced RyR2 protein overexpression in HEK cell lysates. The second ~400 kDa RyR2 band corresponds to a C-terminal fraction of the channel. 84,85 Vinculin was used as a loading control; 20 μg lysate was loaded per lane (IB: immunoblot). (C) Representative traces of caffeine-induced Ca 2+ changes (1 mM caffeine) in HEK-RyR2 cells in the absence and presence of tetracycline. (D, E) Summary data demonstrating no effect of ~60 μM IP3RPEP6 on the amplitude and duration (FWHM, full-width at half-maximum) of the caffeine-induced Ca 2+ transients (N = 5, n = 5; unpaired Student's t-test). Data are expressed as the mean ± SEM. | 7 of 18 TAO et al. which displays a steep Hill slope for IP3RPEP6 inhibition (Figure 2I), could in part explain the steeper Hill slope for IP3RPEP6 inhibition in HEK-Cx43 relative to HEK-WT (compare Figure 4E,F). Inhibition at high IP3RPEP6 concentration was incomplete in HEK-WT and HEK-Cx43 (Figure 4E,F), as observed in HEK-IP 3 R1 cells (Figure 2G) indicating this is linked to IP 3 R1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>F I G U R E 4</head><label>4</label><figDesc>Cx43 hemichannels enhance carbachol-evoked Ca 2+ transients and alter activation curve properties. Panels A and B show representative carbachol-triggered Ca 2+ transients in HEK-WT and HEK-Cx43 cells, respectively, while C and D summarize concentration-response curves derived from such experiments. The orange curves indicate carbachol-induced cytoplasmic Ca 2+ changes in the presence of Gap19 (200 μM) in HEK-WT and HEK-Cx43 cells (N = 3, n = 5; *p &lt; 0.05, † p &lt; 0.01, ****p &lt; 0.0001 versus control; unpaired Student's t-test). Panels E and F demonstrate concentration-dependent inhibition of carbachol-induced Ca 2+ elevation by IP3RPEP6 in HEK-WT and Cx43 overexpressing HEK cells. (G) Concentration-response curves for carbachol-induced cytoplasmic Ca 2+ changes in the absence or presence of Gap19 (200 μM) in astrocytes (N = 3, n = 5; *p &lt; 0.05, † p &lt; 0.01 versus control; unpaired Student's t-test). (H) Concentration-dependent inhibition of carbachol-induced Ca 2+ elevation by IP3RPEP6 in astrocytes (N = 3, n = 5). Data are normalized to control responses without peptide and expressed as mean ± SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>F I G U R E 5</head><label>5</label><figDesc>IP3RPEP6 binds to IP 3 R2 in HEK IP 3 R2 cells, HEK Cx43 cells and astrocytes. Representative Biotin-pull-down experiments using Neutravidin-coated beads assessing the binding of IP 3 R1 (A), IP 3 R2 (B) and IP 3 R3 (C) to immobilized biotin-IP3RPEP6 using lysates obtained from HEK-IP 3 R2, HEK-Cx43 and astrocytes. This experiment was performed three times using each time freshly prepared cell lysates. Biotin-IP3RPEP6-E4K served as negative control to determine the level of non-specific binding. The samples were analyzed by immunoblotting using isoform-specific Abs against IP 3 Rs; total cell lysate was used as input (10 μg). IB, immunoblot; PD, pull-down. The corresponding western blotting for Biotin-IP3RPEP6 and Biotin-IP3RPEP6-E4K is shown in FigureS8A-C. Empty NeutrAvidin beads, added as a negative control are shown in Figure S8D. F I G U R E 6 IP3RPEP6 inhibits Cx43-hemichannel opening evoked by IP 3 . (A) Representative current traces recorded in HeLa-Cx43 cells evoked by stepping V m from -30 mV to +70 mV for 30 s to provoke electrically triggered Cx43 hemichannel activity in whole-cell recording mode. The first trace marked "caged-IP 3 " demonstrates a control response with caged-IP 3 loaded into the cell through the pipette (10 μM) without UV exposure. In the second trace, uncaging was induced by application of the UV flash at the start of the voltage step, resulting in increased Cx43 hemichannel opening discernable from, for example, "stacked" openings (opening of a second hemichannel superimposed on an already open hemichannel). The third trace was as the second trace but with IP3RPEP6 added to the pipette solution (50 μM). (B) All-point histograms of experimental recordings as illustrated in panel A expressed as event counts as a function of the conductance. Control conditions are characterized by a large peak of the closed state ("C") and some activity at the 240 pS single channel unitary conductance level (O 1 level) that is within the typical for Cx43 hemichannels. Uncaging IP 3 reduced the frequency of the closed state and extended the distribution towards the O 2 level (480 pS), while in the presence of IP3RPEP6, the distribution appeared similar to control conditions. (C) Summary data of membrane charge transfer Q m , illustrating significant inhibition by IP3RPEP6 (caged-IP 3 , N = 6, n = 3; caged-IP 3 + UV flash, N = 4, n = 4; caged-IP 3 + IP3RPEP6 + UV flash, N = 6, n = 3; *p &lt; 0.05 versus control, † p &lt; 0.01 versus caged-IP 3 + UV flash; one-way ANOVA, Dunnett post-test). (D) Experiments in HeLa-Cx43 cells illustrating ATP-release triggered by IP 3 uncaging as a function of caged-IP 3 concentration loaded into the cells by electroporation (N = 3, n = 3; caged IP 3 concentration represents intracellular concentration before flash; flashes released 5%-10% as IP 3 ). (E) Xestospongin C (5 μM, added 15 min before IP 3 uncaging) significantly inhibited the ATP-release (N = 3, n = 3; *p &lt; 0.05 versus control, # p &lt; 0.05 versus caged IP 3 ; one-way ANOVA, Dunnett post-test). (F) Concentration-dependent inhibition of the responses by IP3RPEP6 (N = 3, n = 3). Data are expressed as the mean ± SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>F I G U R E 7 2 -</head><label>2</label><figDesc>APB inhibits low extracellular Ca 2+ triggered Cx43 hemichannel opening. (A) ATP-release triggered by exposure of HEK-TKO cells to low extracellular Ca 2+ (EGTA) was reduced to baseline level by 200 μM Gap19 ( ‡ p &lt; 0.001 versus control, ****p &lt; 0.0001 versus EGTA; one-way ANOVA, Dunnett post-test), confirming the response is mediated by hemichannels. ATP-release expressed relative to 100% baseline signal (N = 5, n = 3). (B) 2-APB concentration-dependently inhibited the ATP response with an IC 50 of 20.5 μM (ATPrelease expressed relative to 100% EGTA stimulation; N = 5, n = 3) while electroporation-loaded IP3RPEP6 had no significant effects over the 3-300 μM range. (C) Xestospongin C applied at 5 μM had no significant effect (N = 5, n = 3; ****p &lt; 0.0001 versus control; one-way ANOVA, Dunnett post-test). (D) Representative Ca 2+ traces in control and in the presence of palmitoyl-8G-IP3RPEP6 in HEK-IP 3 R2 cells. (E) Concentration-dependent inhibition of carbachol-induced Ca 2+ elevation by palmitoyl-8G-IP3RPEP6 in HEK-IP 3 R2 cells (N = 3, n = 5). Data are expressed as the mean ± SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>| 13 of 18 TAO</head><label>18</label><figDesc>et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>| 15 of 18 TAO</head><label>18</label><figDesc>et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>Conceptualization, L.L., P.H. and S.T.; Methodology, S.T., G.B., L.E.W. and D.I.Y.; Investigation, S.T., P.H. and L.E.W.; Writing-Original Draft, L.L. and S.T.; Writing-Review and Editing, K.W., G.B. and L.L.; Funding Acquisition, K.W., G.B. and L.L.; Supervision, K.W., G.B. and L.L.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>17481716, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/apha.14086 by Zhongshan University, Wiley Online Library on [07/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License carbachol-induced [Ca 2+ ] i responses in HEK-IP 3 R2 cells in the presence of 200 μM Gap19. Figure</figDesc><table><row><cell>TAO et al.</cell><cell>| 11 of 18</cell></row></table><note><p>recorded</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>17481716, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/apha.14086 by Zhongshan University, Wiley Online Library on [07/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Ellen Cocquyt</rs> and <rs type="person">Diego De Baere</rs> (<rs type="affiliation">Ghent University</rs>) for their superb technical support and <rs type="person">Rita La Rovere</rs> and <rs type="institution">Tomas Luyten (KULeuven)</rs> for their excellent expertise and support related to the pull-down assays and ER calcium measurements respectively. We acknowledge <rs type="person">Dr. S.R. Wayne Chen</rs>, <rs type="affiliation">University of Calgary, Canada</rs> for donation of the inducible RyR2 expressing HEK cells.</p><p>Research supported by <rs type="funder">Research Foundation-Flanders (FWO)</rs> to L.L. (grant numbers <rs type="grantNumber">G052718N</rs>, <rs type="grantNumber">G040720N</rs>, <rs type="grantNumber">G063023N</rs>) and G.B. (<rs type="grantNumber">G090118N</rs>, <rs type="grantNumber">G0E7520N</rs>, <rs type="grantNumber">G081821N</rs>, <rs type="grantNumber">G094522N</rs>). K.W. is supported by a <rs type="funder">Ghent University postdoctoral fellowship</rs>. Research in the G.B. lab was further supported by the <rs type="funder">KU Leuven Research Council</rs> (<rs type="grantNumber">C14/19/099</rs> and <rs type="grantNumber">AKUL/19/34</rs>) and the <rs type="funder">Central European Leuven Strategic Alliance</rs> (<rs type="grantNumber">CELSA/23/031</rs>). L.L., G.B. and D.I.Y. are partners of the <rs type="programName">FWO Scientific Research Network CaSign</rs> (<rs type="grantNumber">W0.019.17N</rs> and <rs type="grantNumber">W0.014.22N</rs>). S.T. acknowledges financial support from <rs type="funder">China Scholarship Council</rs> (CSC no. <rs type="grantNumber">201906170050</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_M6cSGNz">
+					<idno type="grant-number">G052718N</idno>
+				</org>
+				<org type="funding" xml:id="_TZgrqGU">
+					<idno type="grant-number">G040720N</idno>
+				</org>
+				<org type="funding" xml:id="_urdktEG">
+					<idno type="grant-number">G063023N</idno>
+				</org>
+				<org type="funding" xml:id="_BeRxZTG">
+					<idno type="grant-number">G090118N</idno>
+				</org>
+				<org type="funding" xml:id="_vqyA6qN">
+					<idno type="grant-number">G0E7520N</idno>
+				</org>
+				<org type="funding" xml:id="_3CHqbbk">
+					<idno type="grant-number">G081821N</idno>
+				</org>
+				<org type="funding" xml:id="_jkFE43P">
+					<idno type="grant-number">G094522N</idno>
+				</org>
+				<org type="funding" xml:id="_Xk2UfBf">
+					<idno type="grant-number">C14/19/099</idno>
+				</org>
+				<org type="funding" xml:id="_pfaCCNG">
+					<idno type="grant-number">AKUL/19/34</idno>
+				</org>
+				<org type="funding" xml:id="_pYG3V6J">
+					<idno type="grant-number">CELSA/23/031</idno>
+					<orgName type="program" subtype="full">FWO Scientific Research Network CaSign</orgName>
+				</org>
+				<org type="funding" xml:id="_fJbcSPV">
+					<idno type="grant-number">W0.019.17N</idno>
+				</org>
+				<org type="funding" xml:id="_uvgJAVS">
+					<idno type="grant-number">W0.014.22N</idno>
+				</org>
+				<org type="funding" xml:id="_G2A9wus">
+					<idno type="grant-number">201906170050</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>All data supporting the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>A patent application no. EP23169580 is pending for intellectual property protection of the IP3RPEP6 peptide presented in this study, involving the following authors of this study: Siyu TAO, Paco HULPIAU, Katja WITSCHAS, Geert BULTYNCK and Luc LEYBAERT.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Inositol trisphosphate receptor Ca 2+ release channels</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Foskett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dod</forename><surname>Mak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="593" to="658" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">IP(3) receptor plasticity underlying diverse functions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikoshiba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Physiol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="151" to="176" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The inositol trisphosphate/calcium signaling pathway in health and disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Berridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1261" to="1296" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Cardiac inositol 1,4,5-trisphosphate receptors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boehning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta Mol Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">1864</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="907" to="914" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Inositol 1,4,5-trisphosphate and its receptors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Parys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Exp Med Biol</title>
+		<imprint>
+			<biblScope unit="volume">740</biblScope>
+			<biblScope unit="page" from="255" to="279" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Inositol 1,4,5-trisphosphate receptors in human disease: a comprehensive update</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gambardella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lombardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Morelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferrara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Santulli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">1096</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Inositol 1,4,5-trisphosphate receptor-isoform diversity in cell death and survival</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vervliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Missiaen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Parys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bultynck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1843</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2164" to="2183" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">IP(3) receptor isoforms differently regulate ER-mitochondrial contacts and local calcium transfer</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bartok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Golenár</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">3726</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Structural insights into IP(3)R function</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename><surname>Serysheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Exp Med Biol</title>
+		<imprint>
+			<biblScope unit="volume">981</biblScope>
+			<biblScope unit="page" from="121" to="147" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Gating machinery of InsP3R channels revealed by electron cryomicroscopy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">527</biblScope>
+			<biblScope unit="issue">7578</biblScope>
+			<biblScope unit="page" from="336" to="341" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">IP(3)mediated gating mechanism of the IP(3) receptor revealed by mutagenesis and X-ray crystallography</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Miyatake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Terauchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikoshiba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="4661" to="4666" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>U S A.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cx43 phosphorylation on S279/282 and intercellular communication are regulated by IP3/IP3 receptor signaling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Commun Signal</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Pharmacological modulators of the inositol 1,4,5-trisphosphate receptor</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Michelangeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mezna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tovey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Sayers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropharmacology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1111" to="1122" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Competitive, reversible, and potent antagonism of inositol 1,4,5-trisphosphate-activated calcium release by heparin</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Eis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mullaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Gill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="11075" to="11079" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">2APB, 2-aminoethoxydiphenyl borate, a membrane-penetrable modulator of ins(1,4,5)P3-induced Ca 2+ release</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maruyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kanaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kanno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikoshiba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="498" to="505" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Caffeine inhibits inositol trisphosphatemediated liberation of intracellular calcium in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ivorra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">433</biblScope>
+			<biblScope unit="page" from="229" to="240" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Xestospongins: potent membrane permeable blockers of the inositol 1,4,5-trisphosphate receptor</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gafni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Munsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Lam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="723" to="733" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The discovery and development of IP3 receptor modulators: an update</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gambardella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Morelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castellanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Santulli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Opin Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="709" to="718" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Pharmacology of inositol trisphosphate receptors</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bultynck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sienaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Parys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pflugers Arch</title>
+		<imprint>
+			<biblScope unit="volume">445</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="629" to="642" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tanimura</surname></persName>
+		</author>
+		<editor>Bcl-2 and IP</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Cryo-EM structure of human type-3 inositol triphosphate receptor reveals the presence of a self-binding peptide that acts as an antagonist</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Azumaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Linton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Risener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Karakas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1743" to="1753" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Intercellular Ca(2+) waves: mechanisms and function</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Leybaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sanderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1359" to="1392" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Bell-shaped calciumresponse curves of ins(1,4,5)P3-and calcium-gated channels from endoplasmic reticulum of cerebellum</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bezprozvanny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Watras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Ehrlich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="issue">6329</biblScope>
+			<biblScope unit="page" from="751" to="754" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Two roles of Ca 2+ in agonist stimulated Ca 2+ oscillations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Keizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="649" to="660" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Minimal model for signal-induced Ca 2+ oscillations and for their frequency encoding through protein phosphorylation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goldbeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Berridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1461" to="1465" />
+			<date type="published" when="1990">1990</date>
+			<pubPlace>U S A.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Connexin 43 hemichannels contribute to cytoplasmic Ca 2+ oscillations by providing a bimodal Ca 2+ -dependent Ca 2+ entry pathway</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="12250" to="12266" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">At the cross-point of connexins, calcium, and ATP: blocking hemichannels inhibits vasoconstriction of rat small mesenteric arteries</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cardiovasc Res</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="195" to="206" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Connexin channels provide a target to manipulate brain endothelial calcium dynamics and blood-brain barrier permeability</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Culot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cereb Blood Flow Metab</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1942" to="1957" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Activation of Cx43 hemichannels induces the generation of Ca(2+) oscillations in white adipocytes and stimulates lipolysis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Turovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Varlamova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Turovskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Mol Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">8095</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Endothelial calcium dynamics, connexin channels and blood-brain barrier function</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Photoliberating inositol-1,4,5-trisphosphate triggers ATP release that is blocked by the connexin mimetic peptide gap 26</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Braet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vandamme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pem</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Leybaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Calcium</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="48" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Cx43 hemichannel microdomain signaling at the intercalated disc enhances cardiac excitability</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Smet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lissoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nezlobinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">137752</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Regulation of connexin hemichannels by monovalent cations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Srinivas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Calderon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kronengold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Verselis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="75" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Activation of connexin-43 hemichannels can elevate [Ca(2+)]i and [Na(+)]i in rabbit ventricular myocytes during metabolic inhibition</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sugishita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Barry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Cell Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2145" to="2155" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Connexin-43 hemichannels opened by metabolic inhibition</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Goldhaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="236" to="240" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Metabolic inhibition activates a non-selective current through connexin hemichannels in isolated ventricular myocytes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Goldhaber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Cell Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1859" to="1872" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Online Library for rules of use; OA articles are governed by the applicable Creative Commons License | 17 of 18 TAO et al. adenosine-dependent endothelial cell function</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Eltzschig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Eckle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mager</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/apha.14086by</idno>
+		<idno>07/06/2024</idno>
+		<ptr target="https://onlinelibrary.wiley.com/terms-and-conditions)onWiley" />
+	</analytic>
+	<monogr>
+		<title level="m">See the Terms and Conditions</title>
+		<imprint>
+			<date type="published" when="2006">2024. 2006</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1100" to="1108" />
+		</imprint>
+		<respStmt>
+			<orgName>Zhongshan University, Wiley Online Library</orgName>
+		</respStmt>
+	</monogr>
+	<note>ATP release from activated neutrophils occurs via connexin 43 and modulates 17481716</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Connexin 43 hemichannels are permeable to ATP</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lovatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="4702" to="4711" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Hemichannel-mediated inositol 1,4,5-trisphosphate (IP3) release in the cochlea: a novel mechanism of IP3 intercellular signaling</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Gossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-B</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Commun Adhes</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="305" to="315" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">PEP-SiteFinder: a tool for the blind identification of peptide binding sites on protein surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saladin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thévenet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zacharias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Moroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tufféry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="221" to="W226" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Peptide suboptimal conformation sampling for the prediction of protein-peptide interactions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lamiable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thévenet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eustache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saladin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Moroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tuffery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">1561</biblScope>
+			<biblScope unit="page" from="21" to="34" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Comparative protein structure modeling using MODELLER</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Protoc Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="5" to="6" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Differential regulation of the InsP₃ receptor type-1 and -2 single channel properties by InsP₃, Ca 2+ and ATP</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yule</forename><surname>Di</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="3245" to="3259" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Functional inositol 1,4,5-trisphosphate receptors assembled from concatenated homo-and heteromeric subunits</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Alzayady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chandrasekhar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="29772" to="29784" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">IP(3) receptors preferentially associate with ER-lysosome contact sites and selectively deliver Ca(2+) to lysosomes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Atakpa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Thillaiappan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mataragka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Prole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3180" to="3193" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>e7</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Defining the stoichiometry of inositol 1,4,5-trisphosphate binding required to initiate Ca 2+ release</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Alzayady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chandrasekhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Petegem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yule</forename><surname>Di</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Signal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">422</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Electroporation loading and flash photolysis to investigate intra-and intercellular Ca 2+ signaling</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gadicherla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Leybaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="239" to="249" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Connexin 43 hemichannels contribute to the propagation of apoptotic cell death in a rat C6 glioma cell model</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vuyst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vinken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="151" to="163" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">In situ bipolar electroporation for localized cell loading with reporter dyes and investigating gap junctional coupling</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vuyst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="469" to="479" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">RyR2 mutations linked to ventricular tachycardia and sudden death reduce the threshold for store-overload-induced Ca 2+ release (SOICR)</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page" from="13062" to="13067" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Connexin hemichannels as candidate targets for cardioprotective and antiarrhythmic treatments</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Leybaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Smet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lissoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">168117</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Selective inhibition of Cx43 hemichannels by Gap19 and its impact on myocardial ischemia/reperfusion injury</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vuyst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ponsaerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Basic Res Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">309</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Ubiquitin-mediated internalization of connexin43 is independent of the canonical endocytic tyrosine-sorting signal</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Catarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ramalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Girão</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">437</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="255" to="267" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The impact of astrocytic gap junctional coupling on potassium buffering in the hippocampus</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wallraff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Köhling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Heinemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Theis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Willecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Steinhäuser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="5438" to="5447" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Sherwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arizono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Panatier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikoshiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shr</forename><surname>Oliet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Cell Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">695817</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>Astrocytic IP(3)Rs: beyond IP(3)R2</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Astrocytic IP(3) Rs: contribution to Ca(2+) signalling and hippocampal LTP</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Sherwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arizono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hisatsune</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Glia</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="502" to="513" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Chemico-genetic discovery of astrocytic control of inhibition in vivo</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Baldwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">588</biblScope>
+			<biblScope unit="issue">7837</biblScope>
+			<biblScope unit="page" from="296" to="302" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Intracellular calcium changes trigger connexin 32 hemichannel opening</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vuyst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cabooter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="34" to="44" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">+) regulation of connexin 43 hemichannels in C6 glioma and glial cells</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vuyst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Calcium</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="176" to="187" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Properties and regulation of gap junctional hemichannels in the plasma membranes of cultured cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lazrak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1019" to="1030" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Gating and regulation of connexin 43 (Cx43) hemichannels</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Contreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Sáez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Bukauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mvl</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="11388" to="11393" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Calciumdependent open/closed conformations and interfacial energy maps of reconstituted hemichannels</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thimm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mechler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rhee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="10646" to="10654" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Interactions of antagonists with subtypes of inositol 1,4,5-trisphosphate (IP3) receptor</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Saleem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Tovey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Molinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3298" to="3312" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Block of specific gap junction channel subtypes by 2-aminoethoxydiphenyl borate (2-APB)</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Del Corsso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Srinivas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Spray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharmacol Exp Ther</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1452" to="1458" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Paracrine signaling through plasma membrane hemichannels</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1828</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="50" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">The connexin43 mimetic peptide Gap19 inhibits hemichannels without altering gap junctional communication in astrocytes</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Abudara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bechberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freitas-Andrade</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Cell Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">306</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Glial connexins and pannexins in the healthy and diseased brain</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Naus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Sáez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Leybaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="93" to="145" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Ca(2+) signaling in astrocytes from Ip3r2(-/-) mice in brain slices and during startle responses in vivo</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venugopal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="708" to="717" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Inositol 1,4,5-trisphosphate receptor type 2-independent Ca(2+) release from the endoplasmic reticulum in astrocytes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Okubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kanemaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iino</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Glia</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="113" to="124" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Visualization of astrocytic intracellular Ca(2+) mobilization</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Okubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">598</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1671" to="1681" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Spatially and functionally distinct Ca 2+ stores in sarcoplasmic and endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Golovina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Blaustein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="issue">5306</biblScope>
+			<biblScope unit="page" from="1643" to="1648" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Targeting gliovascular connexins prevents inflammatory blood-brain barrier leakage and astrogliosis</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Smet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Verwaerde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCI Insight</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page">135263</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">ATP modulation of Ca 2+ release by type-2 and type-3 inositol (1, 4, 5)-triphosphate receptors. Differing ATP sensitivities and molecular determinants of action</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Betzenhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iwai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Michikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikoshiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Yule</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="issue">31</biblScope>
+			<biblScope unit="page" from="21579" to="21587" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Unique regulatory properties of heterotetrameric inositol 1,4,5-trisphosphate receptors revealed by studying concatenated receptor constructs</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chandrasekhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Alzayady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yule</forename><surname>Di</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4846" to="4860" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Gap junction intercellular communication mediated by connexin43 in astrocytes is essential for their resistance to oxidative stress</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Sin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lozinsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1345" to="1354" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Isolation and culture of mouse cortical astrocytes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schildge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bohrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schachtrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vis Exp</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">50079</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Cryo-EM reveals ligand induced allostery underlying InsP(3)R channel gating</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1158" to="1170" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">ATP regulation of type-1 inositol 1,4,5-trisphosphate receptor activity does not require walker A-type ATP-binding motifs</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Betzenhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Yule</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="16156" to="16163" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Selective regulation of receptor-mediated Ca 2+ signaling and apoptosis by the BH4 domain of Bcl-2 versus Bcl-xl</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Monaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Decrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="295" to="309" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Modulation of inositol 1,4,5-trisphosphate binding to the recombinant ligand-binding site of the type-1 inositol 1,4,5-trisphosphate receptor by Ca 2+ and calmodulin</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sipma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Smet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sienaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="12157" to="12162" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Rat basophilic leukemia cells as model system for inositol 1,4,5-trisphosphate receptor IV, a receptor of the type II family: functional comparison and immunological detection</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Parys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>De Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Missiaen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Bootman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sienaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Casteels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Calcium</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="239" to="249" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">The trans-membrane domain of Bcl-2α, but not its hydrophobic cleft, is a critical determinant for efficient IP3 receptor inhibition</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ritaine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncotarget</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">34</biblScope>
+			<biblScope unit="page" from="55704" to="55720" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">What exactly is &apos;N&apos; in cell culture and animal experiments?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lazic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clarke-Williams</forename><surname>Cj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Munafò</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2018">2018. 2005282</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Disparities in the association of the ryanodine receptor and the FK506-binding proteins in mammalian heart</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zissimopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seifan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Lai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="1759" to="1769" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>Pt 7</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">ß-adrenergic stimulation increases RyR2 activity via intracellular Ca 2+ and Mg 2+ regulation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Imtiaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Beard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">58334</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

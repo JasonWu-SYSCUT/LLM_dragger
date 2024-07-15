@@ -97,8 +97,6 @@ def get_concat_prompt_in_jsons(template_json_path, custom_json_path):
   return template_json
 
 def get_content_from_response(response,llm_name):
-  # print("原始的response.json():",response)
-  # if llm_name in ["qwen","gpt"]:
   return response['data']['content']
 
 

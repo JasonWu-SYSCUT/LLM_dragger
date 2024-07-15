@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">RhoU forms homo-oligomers to regulate cellular responses</title>
+				<funder>
+					<orgName type="full">University of Bristol Cancer Research Fund and University of Bristol School of Cellular and Molecular Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Guy&apos;s and St Thomas&apos; Charity Prize PhD Programme in Biomedical and Translational Science</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">King&apos;s College London and King&apos;s College Hospital NHS Foundation Trust. Open</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">King&apos;s Bioscience Institute</orgName>
+				</funder>
+				<funder ref="#_5tRmn5N">
+					<orgName type="full">Department of Health via National Institute for Health Research</orgName>
+					<orgName type="abbreviated">NIHR</orgName>
+				</funder>
+				<funder ref="#_Wfsk2Zb">
+					<orgName type="full">Cancer Research UK</orgName>
+				</funder>
+				<funder ref="#_RXSdQz3">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Bristol</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Natasha</forename><forename type="middle">S</forename><surname>Clayton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Cellular and Molecular Medicine</orgName>
+								<orgName type="department" key="dep2">Biomedical Sciences Building</orgName>
+								<orgName type="institution" key="instit1">University of Bristol</orgName>
+								<orgName type="institution" key="instit2">University Walk</orgName>
+								<address>
+									<postCode>BS8 1TD</postCode>
+									<settlement>Bristol</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><forename type="middle">G</forename><surname>Hodge</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Randall Centre for Cell and Molecular Biophysics</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<addrLine>Guy&apos;s Campus</addrLine>
+									<postCode>SE1 1UL</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elvira</forename><surname>Infante</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Randall Centre for Cell and Molecular Biophysics</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<addrLine>Guy&apos;s Campus</addrLine>
+									<postCode>SE1 1UL</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dominic</forename><surname>Alibhai</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Wolfson Bioimaging Facility</orgName>
+								<orgName type="department" key="dep2">Biomedical Sciences Building</orgName>
+								<orgName type="institution" key="instit1">University of Bristol</orgName>
+								<orgName type="institution" key="instit2">University Walk</orgName>
+								<address>
+									<postCode>BS8 1TD</postCode>
+									<settlement>Bristol</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Felix</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Nuffield Department of Clinical Medicine</orgName>
+								<orgName type="institution" key="instit1">Ludwig Institute for Cancer Research</orgName>
+								<orgName type="institution" key="instit2">University of Oxford</orgName>
+								<address>
+									<postCode>OX3 7DQ</postCode>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Lyda Hill Department of Bioinformatics</orgName>
+								<orgName type="institution">University of Texas Southwestern Medical Center</orgName>
+								<address>
+									<postCode>75390</postCode>
+									<settlement>Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Anne</forename><forename type="middle">J</forename><surname>Ridley</surname></persName>
+							<email>anne.ridley@bristol.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Cellular and Molecular Medicine</orgName>
+								<orgName type="department" key="dep2">Biomedical Sciences Building</orgName>
+								<orgName type="institution" key="instit1">University of Bristol</orgName>
+								<orgName type="institution" key="instit2">University Walk</orgName>
+								<address>
+									<postCode>BS8 1TD</postCode>
+									<settlement>Bristol</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Randall Centre for Cell and Molecular Biophysics</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<addrLine>Guy&apos;s Campus</addrLine>
+									<postCode>SE1 1UL</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">RhoU forms homo-oligomers to regulate cellular responses</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F3F142B170F368938483A77D7C536C7E</idno>
+					<idno type="DOI">10.1242/jcs.261645</idno>
+					<note type="submission">Received 13 September 2023; Accepted 21 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>RhoU</term>
+					<term>Rho GTPases</term>
+					<term>Cell morphology</term>
+					<term>Phosphorylation</term>
+					<term>p21-activated kinase</term>
+					<term>PAKs</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>RhoU is an atypical member of the Rho family of small G-proteins, which has N-and C-terminal extensions compared to the classic Rho GTPases RhoA, Rac1 and Cdc42, and associates with membranes through C-terminal palmitoylation rather than prenylation. RhoU mRNA expression is upregulated in prostate cancer and is considered a marker for disease progression. Here, we show that RhoU overexpression in prostate cancer cells increases cell migration and invasion. To identify RhoU targets that contribute to its function, we found that RhoU homodimerizes in cells. We map the region involved in this interaction to the C-terminal extension and show that C-terminal palmitoylation is required for self-association. Expression of the isolated C-terminal extension reduces RhoU-induced activation of p21-activated kinases (PAKs), which are known downstream targets for RhoU, and induces cell morphological changes consistent with inhibiting RhoU function. Our results show for the first time that the activity of a Rho family member is stimulated by self-association, and this is important for its activity.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>The Rho family of small guanosine triphosphates (GTPases) form a subfamily of the Ras superfamily of small GTPases. Rho GTPases regulate multiple cellular processes through their effects on cytoskeletal and cell adhesion dynamics, including cell migration, cytokinesis, cell cycle progression, vesicle trafficking and transcriptional changes <ref type="bibr" target="#b11">(Hodge and Ridley, 2016;</ref><ref type="bibr" target="#b19">Ridley, 2015)</ref>. Most Rho GTPases cycle between an active GTP-bound conformation and an inactive GDP-bound conformation. When bound to GTP, they interact with effector proteins to induce cellular responses. The intrinsic ability of Rho GTPases to exchange GDP for GTP is catalysed by guanine nucleotide exchange factors (GEFs), leading to their activation <ref type="bibr" target="#b20">(Rossman et al., 2005)</ref>. Conversely, GTPase-activating proteins (GAPs) stimulate GTP hydrolysis, inactivating them <ref type="bibr" target="#b11">(Hodge and Ridley, 2016)</ref>. Rho GTPases are also regulated by multiple different types of posttranslational modifications, including prenyl and palmitoyl lipidation, phosphorylation and ubiquitylation <ref type="bibr" target="#b11">(Hodge and Ridley, 2016)</ref>. Some Rho GTPases are also regulated by guanine nucleotide dissociation inhibitors (GDIs), which interact with their C-terminal prenyl groups, extract them from membranes and sequester them in the cytosol <ref type="bibr" target="#b10">(Garcia-Mata et al., 2011)</ref>.</p><p>RhoU is an atypical Rho GTPase that is part of the RhoU and RhoV subfamily of Rho GTPases <ref type="bibr" target="#b12">(Hodge and Ridley, 2017)</ref>. It has unique N-and C-terminal extensions not found in other Rho GTPases, and the N-terminal extension region binds to SH3 domains from Grb2, Nck and phospholipase Cγ <ref type="bibr" target="#b23">(Shutes et al., 2004)</ref>. Grb2 binding increases its activity in cells <ref type="bibr" target="#b23">(Shutes et al., 2004)</ref>. The C-terminal extension region is modified by Srcmediated tyrosine phosphorylation, which decreases its plasma membrane association and activity <ref type="bibr" target="#b0">(Alan et al., 2010)</ref>. RhoU is C-terminally palmitoylated and not prenylated, and hence will not bind to RhoGDIs <ref type="bibr" target="#b2">(Berzat et al., 2005)</ref>. In addition, RhoU has a 10-fold higher intrinsic guanine nucleotide exchange rate in vitro than Cdc42, whereas the intrinsic GTP hydrolysis rate of RhoU and Cdc42 is similar <ref type="bibr" target="#b23">(Shutes et al., 2004)</ref>. Like Cdc42, it interacts with p21-activated kinases (PAKs) and PAR6, but does not bind to the Cdc42 target N-WASP <ref type="bibr" target="#b4">(Brady et al., 2009;</ref><ref type="bibr" target="#b26">Tao et al., 2001)</ref>. Although no GEFs or GAPs for RhoU have so far been identified, it is probably regulated by GAPs because a constitutively active mutant, RhoU-Q107L, is more active than wild-type RhoU in binding and activating PAK1 and stimulating cellular responses <ref type="bibr" target="#b2">(Berzat et al., 2005;</ref><ref type="bibr" target="#b21">Saras et al., 2004;</ref><ref type="bibr" target="#b23">Shutes et al., 2004)</ref>. RhoU is also regulated at the transcriptional level, it was first identified as a Wnt-inducible gene <ref type="bibr" target="#b26">(Tao et al., 2001)</ref>, and its expression is induced by Notch1 and STAT3 <ref type="bibr" target="#b3">(Bhavsar et al., 2013;</ref><ref type="bibr" target="#b22">Schiavone et al., 2009)</ref>. Interestingly, PAK4 protects RhoU from ubiquitin-mediated degradation through a mechanism not requiring PAK4 kinase activity <ref type="bibr" target="#b7">(Dart et al., 2015)</ref>.</p><p>RhoU expression is upregulated in prostate cancer and has been suggested to be a prognostic indicator for prostate cancer progression, along with other genes <ref type="bibr" target="#b1">(Alinezhad et al., 2016;</ref><ref type="bibr" target="#b6">Corradi et al., 2021;</ref><ref type="bibr" target="#b9">De Piano et al., 2020)</ref>. Knockdown of RhoU expression by RNAi in prostate cancer cell lines reduces migration and invasion <ref type="bibr" target="#b1">(Alinezhad et al., 2016;</ref><ref type="bibr" target="#b25">Tajadura-Ortega et al., 2018)</ref>. RhoU is also implicated in cell adhesion. For example, RhoU localizes to focal adhesions in HeLa cells and fibroblasts and stimulates loss of focal adhesions in both cell types <ref type="bibr" target="#b5">(Chuang et al., 2007;</ref><ref type="bibr" target="#b17">Ory et al., 2007)</ref>. Consistent with these results, RhoU depletion in breast and prostate cancer cell lines increases focal adhesion size <ref type="bibr" target="#b7">(Dart et al., 2015;</ref><ref type="bibr" target="#b9">De Piano et al., 2020)</ref>.</p><p>Here, we investigate the hypothesis that RhoU is regulated by novel mechanisms given that it is an atypical GTPase. We find that RhoU homodimerizes in prostate cancer cells and that this is mediated by its C-terminal extension. This interaction is important for activation of PAKs, which are kinases activated by RhoU as well as other Rho family GTPases. Our results show that RhoU activity is stimulated by self-association.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RhoU overexpression promotes PC3 prostate cancer cell migration and invasion</head><p>RhoU overexpression has been reported to promote the formation of filopodia and decrease focal adhesions in fibroblasts <ref type="bibr" target="#b17">(Ory et al., 2007;</ref><ref type="bibr" target="#b21">Saras et al., 2004)</ref>, but the effect of RhoU overexpression in prostate cancer cells has not been tested. Overexpression of Myc-RhoU using a doxycycline-inducible expression construct (Fig. <ref type="figure" target="#fig_0">1A</ref>) caused PC3 prostate cancer cells to adopt an elongated phenotype (Fig. <ref type="figure" target="#fig_0">1B</ref>, reduced circularity in graph) and resulted in an increased speed of 2D cell migration (Fig. <ref type="figure" target="#fig_0">1C</ref>). Myc-RhoU overexpression also increased the invasion of PC3 cells through Matrigel, an effect which was recapitulated in a second prostate cancer cell line, DU145 (Fig. <ref type="figure" target="#fig_0">1D</ref>). Given that RhoU depletion increases the size of paxillin-positive adhesions in PC3 cells <ref type="bibr" target="#b9">(De Piano et al., 2020)</ref>, we reason that RhoU overexpression promotes PC3 cell migration and invasion through increased focal adhesion turnover.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RhoU forms homomeric complexes at membranes</head><p>In experiments aimed at identifying novel RhoU targets, we discovered that RhoU associated with itself by performing co-immunoprecipitation with differently tagged RhoU proteins (Fig. <ref type="figure" target="#fig_1">2A</ref>). No self-association was detected for another Rho family member, RhoB, which was chosen as a control because, like RhoU, it is known to localize to endosomes and the plasma membrane and to be palmitoylated as well as isoprenylated <ref type="bibr">(Adamson et al., 1992;</ref><ref type="bibr" target="#b18">Phuyal and Farhan, 2019)</ref>. RhoU oligomerization was further demonstrated using a cross-linking approach in Myc-RhoUexpressing COS7 cells (Fig. <ref type="figure" target="#fig_1">2B</ref>). Disuccinimidyl suberate (DSS) is a membrane-permeable cross-linker that contains two aminereactive N-hydroxysuccinimide ester groups either side of an eightcarbon spacer arm. On the addition of increasing concentrations of DSS, a dose-dependent increase in a higher molecular mass crosslinked Myc-RhoU species was observed (Fig. <ref type="figure" target="#fig_1">2B</ref>). This crosslinked Myc-RhoU species migrated at ∼56 kDa on SDS-PAGE gels, which is equivalent to two 28-kDa RhoU monomers. This suggested RhoU can dimerize, which was unexpected as classical Rho GTPases are assumed to be monomeric based on crystal structures <ref type="bibr" target="#b13">(Ihara et al., 1998;</ref><ref type="bibr" target="#b15">Mott and Owen, 2018;</ref><ref type="bibr" target="#b28">Worthylake et al., 2000)</ref>. By contrast, no dimers of Myc-RhoB were detected following DSS treatment (Fig. <ref type="figure" target="#fig_1">2B</ref>).</p><p>To investigate whether RhoU self-associates in living cells, PC3 cells were co-transfected with GFP-RhoU and mCherry-RhoU or GFP-RhoB and mCherry-RhoB as controls. Cells were analysed by fluorescence-lifetime imaging microscopy (FLIM) to determine whether the differently fluorescent-protein-tagged proteins were close enough for FRET to occur (&lt;10 nm; <ref type="bibr" target="#b8">Day and Davidson, 2012)</ref>. GFP-RhoU and mCherry-RhoU demonstrated FRET, but not GFP-RhoB and mCherry-RhoB (Fig. <ref type="figure" target="#fig_1">2C</ref>). These results indicate that self-association is specific to RhoU and not a consequence of high Rho GTPase expression. We have previously shown that RhoU expression is upregulated in T-cell acute lymphoblastic leukemia (T-ALL) cells <ref type="bibr" target="#b3">(Bhavsar et al., 2013)</ref>. Using FLIM, we found that RhoU self-association could also be detected in Jurkat cells, a T-ALL cell line (Fig. <ref type="figure" target="#fig_1">2C</ref>). In PC3 cells, RhoU interacted with itself primarily at the plasma membrane, whereas in Jurkat cells, RhoU oligomers localized to intracellular sites (Fig. <ref type="figure" target="#fig_1">2C</ref>). Previous work has demonstrated that the palmitate analog 2-bromopalmitate (2-BP) causes mislocalization and cytosolic accumulation of RhoU <ref type="bibr" target="#b2">(Berzat et al., 2005)</ref>. Addition of 2-BP to cells resulted in a significant decrease in the coimmunoprecipitation of differently tagged RhoU proteins (Fig. <ref type="figure" target="#fig_1">2D</ref>). This indicates that the dimerization of RhoU is dependent on its ability to target to membranes. Interestingly, 2-BP treatment increased levels of GFP-and Myc-tagged RhoU, suggesting that RhoU might be stabilized by mislocalization to the cytoplasm (Fig. <ref type="figure" target="#fig_1">2D</ref>).</p><p>To test whether RhoU dimerization requires RhoU to be in its active GTP-bound form, we used a RhoU-Q107L mutant, analogous to the activating Q61L mutation in Ras, which locks Ras in the active GTP-bound conformation <ref type="bibr" target="#b17">(Ory et al., 2007)</ref>. The Q107L mutation had no effect on the ability of RhoU to dimerize with wild-type RhoU (Fig. <ref type="figure" target="#fig_1">2E</ref>), indicating that the GTP-binding domain does not play a crucial role in RhoU self-association.</p><p>RhoU has unique N-terminal and C-terminal extensions, which are not related to similar extensions in other members of the Rho GTPase family such as RhoV and Rnd proteins (Fig. <ref type="figure" target="#fig_2">3A</ref>) <ref type="bibr" target="#b12">(Hodge and Ridley, 2017)</ref>. We considered that the N-and C-terminal regions were likely mediators of dimerization. The C-terminal four amino acids of RhoU are CCFV; S-palmitoylation of RhoU at the second C-terminal C256 has been shown to be crucial for its association with biological membranes, although both C255 and C256 contribute to RhoU subcellular localization <ref type="bibr" target="#b2">(Berzat et al., 2005)</ref>. We found that RhoU(C255S, C256S) localized to the cytoplasm (data not shown) and failed to co-immunoprecipitate with wild-type RhoU (Fig. <ref type="figure" target="#fig_2">3B</ref>). We reasoned that deletion of the RhoU C-terminal extension would result in a similar mislocalization of RhoU and therefore generated two constructs expressing different lengths of the C-terminal extension in isolation (Fig. <ref type="figure" target="#fig_2">3A</ref>). Both RhoU(204-258) and RhoU(231-258) co-immunoprecipitated with full-length RhoU to the same extent as the wild-type protein (Fig. <ref type="figure" target="#fig_2">3B</ref>), indicating that RhoU dimerization is mediated by residues between amino acids 231 and 258. We found that deletion of the N-terminal extension had no effect on RhoU dimerization (Fig. <ref type="figure" target="#fig_2">3B</ref>).</p><p>Further co-immunoprecipitation experiments revealed that RhoU(231-358) was able to self-associate, although this interaction was significantly weaker than its interaction with full-length RhoU (Fig. <ref type="figure" target="#fig_2">3C</ref>). We therefore suggest that RhoU dimerization is mediated by self-association of the RhoU C-terminal extension but requires a region within RhoU residues 47-204 for stabilization, potentially because it enables folding of the central Rho domain.</p><p>To enable investigation into the functional significance of RhoU dimerization, we explored whether RhoU(231-258) could be utilized as a competitive inhibitor. Overexpression of RhoU(231-258) mut , which harbors the mutations C255S and C256S and cannot interact with full-length RhoU, had no effect on the co-immunoprecipitation of HA-RhoU with Myc-RhoU. In contrast, overexpression of wild-type RhoU(231-258) significantly impaired the association of the differently tagged full-length RhoU constructs (Fig. <ref type="figure" target="#fig_2">3D</ref>). that homo-oligomerization of endogenous RhoU is required for cells to adopt an elongated, migratory phenotype. RhoU has been reported to interact with several proteins, of which the PAKs are the most well characterized <ref type="bibr" target="#b23">(Shutes et al., 2004;</ref><ref type="bibr" target="#b26">Tao et al., 2001)</ref>. PAKs are serine/threonine kinases that are known to be involved in a variety of cellular responses, including cell morphology and  migration. RhoU has been reported to bind to and activate the type I PAK, PAK1 <ref type="bibr" target="#b21">(Saras et al., 2004;</ref><ref type="bibr" target="#b26">Tao et al., 2001)</ref>, and we found that autophosphorylation of all three type 1 PAKs, PAK1-PAK3, is stimulated by RhoU overexpression in PC3 cells (Fig. <ref type="figure" target="#fig_3">4B</ref>). Co-expression with RhoU(231-258) significantly reduced RhoUstimulated PAK2 autophosphorylation on Thr402 and Ser141 (Fig. <ref type="figure" target="#fig_3">4C</ref>), suggesting that oligomerization of full-length RhoU molecules facilitates the activation of PAK2 by RhoU. The interaction of PAK2 with full-length RhoU was slightly increased in cells co-expressing RhoU(231-258), indicating that RhoU selfassociation is not a pre-requisite for binding to PAK2 (Fig. <ref type="figure" target="#fig_3">4D</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concluding remarks</head><p>Here, we report for the first time that the atypical Rho GTPase RhoU homodimerizes at the plasma membrane, and that this selfassociation is required for RhoU-mediated cell elongation and downstream signaling to its target PAK2. The classical Rho GTPase Rac1 and Ras proteins can form multimeric nanoclusters in the plasma membrane <ref type="bibr" target="#b14">(Maxwell et al., 2018;</ref><ref type="bibr" target="#b24">Simanshu et al., 2023)</ref>, and K-Ras has been reported to homodimerize <ref type="bibr" target="#b16">(Muratcioglu et al., 2015)</ref>. Our data indicate that RhoU homodimerizes via a distinct mechanism. For example, Rac1 nanoclustering has been shown to be regulated by a key arginine residue within the C-terminal polybasic region, yet mutagenesis of individual charged residues in the conserved RhoU polybasic region had no effect on RhoU selfassociation (data not shown). Furthermore, the segregation of Rac1 into nanoclusters is influenced by guanine nucleotide-binding status, yet we show that RhoU self-association is mediated by the C-terminal 27 amino acids. Our results therefore demonstrate for the first time that the activity of a Rho family member is stimulated by homodimerization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>Cell culture and treatments PC3 cells were a kind gift from Magali Williamson (King's College London) and were authenticated by Eurofins-Genomics. Jurkat cells were purchased from the ATCC <ref type="bibr" target="#b3">(Bhavsar et al., 2013)</ref>. Both cell lines were cultured in Dulbecco's RPMI (Gibco; Thermo Fisher Scientific, 52400-025) supplemented with 10% fetal calf serum (FCS), penicillin (90 U/ml) and streptomycin (90 µg/ml) (Gibco; Thermo Fisher Scientific, 15140-122). HEK293T cells were a gift from Ivan Gout (UCL, London, UK) and were authenticated by Eurofins Genomics. COS7 cells were kindly provided by Kay Mistry (UCL, London, UK). Both cell lines were cultured in Dulbecco's DMEM (Gibco; Thermo Fisher Scientific, 42430-025) supplemented with 10% FCS, penicillin (90 U/ml) and streptomycin (90 µg/ml). Where indicated, cells were treated with 1 µg/ml doxycycline hyclate (Sigma Aldrich, D9891), 10 ng/ml HGF (Peprotech, 100-39), 1 ng/ml CXCL12 (Peprotech, 300-28A) or 100 µM 2-bromopalmitic acid (Focus Biomolecules, 10-3284).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell transfection</head><p>HEK293T, COS7 and PC3 cells were transfected with plasmid DNA using Lipofectamine™ 2000 (Invitrogen; Thermo Fisher Scientific, 11668019) according to manufacturer's instructions. Jurkat cells were nucleofected using a Nucleofector II unit (Amaxa Biosystems) together with the Amaxa Cell Line Nucleofector Kit V (Lonza, VVCA-1003). 10 6 Jurkat cells were suspended in 100 µl Nucleofector Solution and mixed with 2 µg plasmid DNA prior to nucleofection using program X-005. Samples were incubated at room temperature for 10 min, then mixed with 1.5 ml pre-warmed culture medium and incubated at 37°C, 5% CO 2 for 24 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generation of doxycycline-inducible stable cell lines</head><p>HEK293T cells were transfected at 70% confluency with pMD2.G (Addgene #12259), pCMVΔR8.74 (Addgene #22036) and either empty pINDUCER21 (ORF-EG) (Addgene #46948) or pINDUCER21-Myc-RhoU (see below). The transfection mixture was removed after 16 h and replaced with DMEM plus 10% FBS. After a further 30 h, viral supernatant was harvested and passed through a 0.45 µm pore filter unit. Filtered viral supernatant was mixed with the appropriate cell culture medium at a ratio of 1:2 and applied to either PC3 or DU145 cells at 70% confluency for 24 h. Cells were then expanded, and transduced cells with constitutive GFP expression were sorted by FACS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence and cell shape analysis</head><p>PC3 cells containing doxycycline-inducible expression constructs were seeded onto glass coverslips coated with 10 µg/ml fibronectin (Sigma Aldrich, 341365) in 24-well plates at a density of 5000 cells/well and incubated for 4 h at 37°C, 5% CO 2 before treatment with either 1 µg/ml doxycycline or vehicle control. After 24 h, cells were fixed with 4% paraformaldehyde solution in PBS for 20 min, permeabilized with 0.1% Triton X-100 in PBS for 15 min and blocked in PBS containing 10% FBS and 2% bovine serum albumin (BSA) for 1 h. Cells were then incubated for 1 h with Alexa Fluor 546-conjugated phalloidin (Thermo Fisher Scientific, A22283), fluorescein isothiocyanate (FITC)-labeled mouse α-tubulin antibody (Sigma Aldrich, F2168) and Hoechst 33342 (Thermo Fisher Scientific, 62249). Coverslips were mounted on slides in fluorescence mounting medium (Dako, S3023) and Z-stack images with a 1 µm slice interval were generated with a Zeiss LSM Zen 510 confocal microscope using a 40×/1.3 NA objective and Zen software.</p><p>PC3 cells transiently transfected with pEGFP-C1 constructs (see below) were seeded onto fibronectin-coated coverslips for 16 h prior to fixation, Fig. <ref type="figure" target="#fig_1">2</ref>. RhoU forms homo-oligomeric complexes at membranes. (A) Lysates from COS7 cells transfected with pEGFP-C1, pEGFP-C1-RhoU/ RhoB, pRK5-myc and pRK5-myc-RhoU/RhoB were immunoprecipitated (IP) with GFP-Trap ® agarose beads. Samples were immunoblotted using anti-GFP and anti-Myc antibodies. α-Tubulin was used as a loading control. Data are representative of three independent experiments. (B) Lysates from COS7 cells transfected with pRK5-myc empty vector (EV), pRK5-myc-RhoB or pRK5-myc-RhoU were either left untreated (TCL; total cell lysate) or incubated with vehicle control or DSS. Lysates were immunoblotted using an anti-Myc antibody. GAPDH was used as a loading control. Graph shows mean±s.e.m. values from three independent experiments. Levels of the ∼56 kDa species were normalized against GAPDH levels. P-values were determined by one-way ANOVA with Tukey's multiple comparisons post test. (C) Left, PC3 cells transfected with pEGFP-C1-RhoU/RhoB and pmCherry-C1-RhoU/RhoB were seeded on fibronectin-coated glass and fixed after 4 h. Right, Jurkat cells nucleofected with pEGFP-C1-RhoU/RhoB and pmCherry-C1-RhoU/RhoB were seeded on fibronectin-coated glass in the presence of 1 ng/ml CXCL12 and fixed after 15 min. Fluorescence lifetime of GFP is depicted using a pseudocolor scale (blue, normal lifetime; red, FRET). FLIM images are representative of three independent experiments. Graphs show mean±s.e.m. tau (lifetime) values per cell and individual FRET values for at least 15 cells per condition, from three independent experiments. P-values were determined using one-way ANOVA with Sidak's multiple comparisons post test. (D) COS7 cells transfected with pRK5-myc-RhoU and either pEGFP-C1 or pEGFP-C1-RhoU were treated with DMSO or 100 µM 2-BP for 2 h. Lysates were immunoprecipitated using Myc-TRAP ® agarose beads and samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Graph shows mean±s.e.m. normalized levels of GFP-RhoU in Myc immunoprecipitates from three independent experiments GFP-RhoU levels in IP samples were normalized against total GFP-RhoU and immunoprecipitated Myc-RhoU levels. P-values were determined by an unpaired two-tailed t-test. (E) Lysates from COS7 cells transfected with pRK5myc, pRK5-myc-RhoU, pEGFP-C1-RhoU and pEGFP-C1-RhoU(Q107L) were immunoprecipitated with Myc-Trap ® agarose beads. Samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Data are representative of three independent experiments. Graph shows mean±s.e.m. normalized levels of GFP-RhoU in Myc immunoprecipitates from three independent experiments. GFP-RhoU levels in IP samples were normalized against total GFP-RhoU levels and immunoprecipitated Myc-RhoU levels. P-values were determined by an unpaired two-tailed t-test. ns, not significant.</p><p>blocking and permeabilization as above. Cells were stained with Alexa Fluor 546-conjugated phalloidin and Hoechst 33342 and single-plane images of GFP-positive cells were generated as above.</p><p>Cell circularity was measured from merged-channel images using the FIJI shape descriptors plugin, where circularity=4π(area/perimeter 2 ). A circularity value of 1.0 indicates a perfect circle; as the value approaches 0.0, it indicates an increasingly elongated shape.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Time-lapse microscopy and random migration analysis</head><p>Cells were seeded into 24-well plates coated with 10 µg/ml fibronectin at a density of 5000 cells/well and incubated for 4 h at 37°C, 5% CO 2 before treatment with either 1 µg/ml doxycycline or vehicle control. After 16 h, cells were imaged every 6 min for 24 h on a Leica DMi8 microscope using a 20× objective at 37°C, 5% CO 2 . Three independent experiments were performed in technical triplicate, with six fields of view (FOVs; 633 μm×633 μm, 1024×1024 pixels) imaged per well. Migration tracks were generated using the MOSES framework, as described previously <ref type="bibr" target="#b30">(Zhou et al., 2019b)</ref>. Briefly, 5000 superpixel tracks were extracted, tracking forwards from the start of the movie to the last frame. Individual cells in the first frame were segmented by thresholding the non-local means denoised and background subtracted image (background estimated by the white tophat transform) with morphological postprocessing. The migration track of each unique cell is then given by the most migrating superpixel track covered by its area as previously described <ref type="bibr">(Zhou et al., 2019a)</ref>. At least 960 cell tracks were analyzed per condition and data were analyzed by Mann-Whitney test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transwell invasion assay</head><p>Transwell inserts (Greiner, 665638) in 12-well plates were coated with 300 μg/ml Matrigel (Corning, 354234) diluted in serum-free medium (SFM). Matrigel was set for 2 h at 37°C, 5% CO 2 . 2.5×10 4 PC3 or DU145 cells were seeded onto each insert in 400 μl SFM supplemented with 0.1% BSA and either 1 µg/ml doxycycline or vehicle control. The basal chamber of each well was filled with 900 µl SFM plus 0.1% BSA supplemented with 10 ng/ml HGF and either 1 µg/ml doxycycline or vehicle control and plates were incubated at 37°C, 5% CO 2 for 24 h. Material was removed from the apical side of the Transwell filters using a cotton bud prior to submersion in 0.1% Crystal Violet in methanol for 30 min. Filters were washed with distilled water and removed from the Transwell insert using a scalpel before mounting onto glass slides using mounting medium (Dako, S3023). A Leica S9i light microscope was used to image eight FOVs per filter at 50× magnification. Invading cells were quantified by using FIJI to calculate the area covered by cells in each FOV. The mean cell area across all FOVs within each well was then expressed as a fold change over the control condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FLIM and FRET analysis</head><p>PC3 cells were transfected for 18 h prior to seeding into 35-mm glassbottom dishes (Greiner, 627861) coated with 10 μg/ml fibronectin at a density of 1.5×10 5 cells per dish. After 4 h, adhered cells were fixed for 15 min in 4% paraformaldehyde in PBS. For Jurkat experiments, 10 6 cells were seeded into each dish 24 h after nucleofection. Cells were seeded in medium supplemented with 1 ng/ml CXCL12 and allowed to adhere for 15 min prior to fixation in 4% paraformaldehyde in PBS for 15 min.</p><p>Fluorescence lifetime images were acquired on a Leica TCS SP8 system attached to a Leica DMi8 inverted microscope (Leica Microsystems). Excitation was provided by a white light laser with a repetition rate of 20 MHz and an acousto-optical beam splitter (AOBS) selected an excitation wavelength of 488 nm. Images were acquired using a 63×1.4 NA oil immersion objective. Fluorescence was detected using a hybrid detector operating in photon counting mode over an emission range of 498-535 nm. A notch filter centered on 488 nm minimized any laser scatter into the detector. Time resolved data were acquired through use of a PicoHarp 300 TCSPC module (PicoQuant) controlled through SymPhoTime64 software (PicoQuant). FLIM Images were acquired with 256×256 pixels and 4096 time bins. The total integration time per image was ∼200 s. Fitting of FLIM images was performed with the FLIMfit software tool (version 5.0.3) developed at Imperial College London <ref type="bibr" target="#b27">(Warren et al., 2013)</ref>. Fitting of the fluorescence images was performed using global analysis across all repeat cells per condition. Data were fitted with a double exponential model on all pixels above an intensity threshold with a 5×5 smoothing kernel applied. All lifetimes are reported as the intensity weighted mean lifetime. Cells with a χ 2 value &gt;1.5 were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DSS crosslinking</head><p>COS7 cells were grown in 60-mm dishes and transfected with plasmid DNA at 80% confluency. After 16 h, cells were washed with PBS (Gibco, Thermo Fisher Scientific, 14190094) and lysed in 80 µl conjugation buffer (20 mM HEPES pH 7.2, 1% Triton X-100). Lysates were clarified at 17,000 g for 10 min at 4°C and supernatant was incubated with either 0.25 mM DSS (Pierce, Thermo Fisher Scientific, A39267) or DMSO vehicle control for 30 min at 4°C with constant rotation. Reactions were quenched by addition of 20 mM Tris-HCl pH 7.5 for 15 min on ice. Samples were mixed with sample buffer (62.5 mM Tris-HCl pH 6.8, 2% SDS, 10% glycerol, 0.2% bromophenol blue, 100 mM DTT) and resolved by SDS-PAGE and immunoblotting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoprecipitation</head><p>Cells were grown in 100-mm dishes and transfected at 80% confluency. After 16-18 h, cells were then washed in PBS <ref type="bibr">(Gibco, Thermo Fisher Scientific, 14190094)</ref> and lysed in 180 µl IP lysis buffer (10 mM Tris-HCl [ pH 7.5], 150 mM NaCl, 0.5% NP40) supplemented with protease inhibitor cocktail (Roche, 04693159001) and phosphatase inhibitor cocktail (Roche, 04906837001). Lysates were clarified at 17,000 g for 10 min at 4°C and supernatants were then mixed with 300 µl IP dilution buffer (10 mM Tris-HCl pH 7.5, 150 mM NaCl) supplemented with protease and phosphatase inhibitor cocktail. Lysates were then incubated with either 25 µl GFP-TRAP ® <ref type="bibr">(Chromotek,</ref> or Myc-TRAP (Chromoteck, ytma-20) magnetic agarose bead slurry for 1 h at 4°C with constant rotation. Beads were washed three times in IP dilution buffer before protein complexes were eluted in 50 µl 200 mM glycine pH 2.5, for 10 min at 4°C. Total cell lysate and IP samples were mixed with NuPAGE® LDS Sample Buffer (Invitrogen; Thermo Fisher Scientific, NP0008) supplemented with 5% β-mercaptoethanol prior to SDS-PAGE and immunoblotting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoblotting</head><p>Cells were washed in PBS <ref type="bibr">(Gibco, Thermo Fisher Scientific, 14190094)</ref> and lysed in lysis buffer (50 mM Tris-HCl pH 7.5, 150 mM NaCl, 1% Triton  , RhoU(C255S, C256S),  and . Blue lines indicate proline-rich motifs; red lines indicate S-palmitoylation sites. (B) Lysates of COS7 cells co-expressing GFP or GFP-RhoU truncation mutants with Myc-RhoU were immunoprecipitated using GFP-TRAP ® agarose beads and samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Graph shows mean±s.e.m. values from three independent experiments. Myc-RhoU levels in IP samples were normalized against total Myc-RhoU levels and immunoprecipitated GFP-RhoU levels. P-values were determined by one-way ANOVA with Tukey's multiple comparisons post test. (C) COS7 cells were transfected with pRK5-myc-RhoU(231-258) and pEGFP-C1 empty vector, pEGFP-C1-RhoU, pEGFP-C1-ΔN-RhoU (48-258), pEGFP-C1-RhoU(204-258) or pEGFP-C1-RhoU(231-258). Lysates were immunoprecipitated using Myc-TRAP ® agarose beads and samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Graph shows mean±s.e.m. values from three independent experiments. GFP-RhoU levels in IP samples were normalized against total GFP-RhoU levels and immunoprecipitated Myc-RhoU(231-258) levels. P-values were determined by one-way ANOVA with Tukey's multiple comparisons post test. (D) Lysates of COS7 cells expressing Myc-RhoU and HA-RhoU with either GFP-RhoU(231-258) or GFP-RhoU(231-258) mut were immunoprecipitated using Myc-TRAP ® agarose beads and samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Graph shows mean±s.e.m. values from three independent experiments. HA-RhoU levels in IP samples were normalized against total HA-RhoU levels and immunoprecipitated Myc-RhoU levels. P-values were determined by an unpaired two-tailed t-test. ns, not significant. X-100) supplemented with protease inhibitor cocktail (Roche, 04693159001) and phosphatase inhibitor cocktail (Roche, 04906837001). Lysates were clarified at 17,000 g for 10 min at 4°C and supernatants were mixed with NuPAGE ® LDS Sample Buffer (Invitrogen; Thermo Fisher Scientific, NP0008) supplemented with 5% β-mercaptoethanol. Samples were boiled at 100°C for 5 min and denatured proteins (30-50 µg) were resolved by electrophoresis on SDS-PAGE gels and transferred onto nitrocellulose membrane (GE Healthcare, 10600020) using an XCell II™ Blot Module (Thermo Fisher, EI9051) according to manufacturer's instructions. Nitrocellulose membranes were blocked with 5% non-fat dried skimmed milk (Marvel) and incubated with primary antibody diluted in Tris-buffered saline (TBS), pH 7.4 (Severn Biotech, 20-7320-011), 5% BSA and 0.1% Tween-20 overnight at 4°C. Membranes were then incubated with a speciesappropriate horseradish peroxidase (HRP)-conjugated secondary antibody (Dako) before bands were visualized using an enhanced chemiluminescence detection kit (Cytiva, RPN2209). Primary antibodies against the following proteins were used: c-Myc (Santa Cruz Biotechnology, sc-40, 1:200), GFP (Santa Cruz Biotechnology, sc-9996, 1:200), HA (Proteintech, 51064-2AP, 1:5000), phospho-PAK1 (Thr423)/PAK2 (Thr402) (Cell Signaling Technology, 2601, 1:1000), phospho-PAK1 (Ser199/204)/PAK2 (Ser192/ 197) (Cell Signaling Technology, 2605, 1:1000), GAPDH (Cell Signaling Technology, 5174, 1:15,000) and α-tubulin (Sigma Aldrich, T5168, 1:10,000). Full images of blots presented in this work be seen in Fig. <ref type="figure" target="#fig_0">S1</ref>.</p><p>Expression vectors, cloning and site-directed mutagenesis pRK5-myc-RhoU vector was a kind gift from Pontus Aspenström (University of Uppsala, Sweden). RhoU cDNA was subcloned from pRK5-myc-RhoU to a pEGFP-C1 vector (Clontech). Briefly, pEGFP-C1 was digested using BamHI and DraI restriction enzymes, whereas pRK5myc-RhoU was digested using BamHI and PsiI (New England Biolabs). After agarose gel purification, RhoU cDNA was ligated into pEGFP-C1 using T4 DNA ligase (New England Biolabs). RhoU cDNA from pEGFP-RhoU was then subsequently subcloned into a pmCherry-C1 vector using EcoRI restriction enzyme digestion.  and RhoU(231-258) coding sequences were amplified by PCR using DNA primers harboring BamHI and XbaI recognition sequences. PCR products and empty pEGFP-C1 were digested with BamHI and XbaI and ligated using T4 DNA ligase. HA-RhoU and GFP-ΔN-RhoU (amino acids 45-258) vectors were kindly provided by Claire Wells (King's College London, UK) <ref type="bibr" target="#b7">(Dart et al., 2015)</ref>.</p><p>Point mutations in RhoU cDNA were introduced using a QuikChange II site-directed mutagenesis kit <ref type="bibr">(Agilent, 200523)</ref> according to the manufacturer's instructions. Mutated sequences were verified by Sanger sequencing (Eurofins). New vectors can be obtained from our laboratory.</p><p>To generate a doxycycline-inducible Myc-RhoU expression construct, the full coding sequence for human RhoU (NM_021205.5) with an N-terminal Myc tag (EQKLISEEDL) was amplified by PCR from pRK5myc-RhoU and cloned into pENTR™/D-TOPO ® according to manufacturer's instructions <ref type="bibr">(Thermo Fisher Scientific,</ref>. The Myc-RhoU coding sequence was then inserted into pINDUCER21 (ORF-EG) using Gateway™ LR Clonase™ II <ref type="bibr">(Thermo Fisher Scientific, 11791-020)</ref>.</p><p>pcDNA3.1-RhoB was purchased from the cDNA Resource Center. To generate pRK5-myc-RhoB, RhoB cDNA (NM_004040.3) was amplified from pcDNA3.1-RhoB by PCR using DNA primers harboring BamHI and EcoRI recognition sequences. The PCR product and empty pRK5-myc were both digested with BamHI and EcoRI and ligated using T4 DNA ligase. To generate pmCherry-RhoB, RhoB cDNA was amplified by PCR using DNA primers harboring EcoRI and KpnI recognition sequences. The PCR product and empty pmCherry were digested with EcoRI and KpnI and ligated using T4 DNA ligase. pCB6-GFP-RhoB was kindly provided by Ferran Valderrama (St. George's, University of London, UK).</p><p>pCMV6M-PAK1 was a kind gift from Jonathan Chernoff (Fox Chase Cancer Center, Philadelphia, PA, USA). pEGFP-C1-PAK2 was kindly provided by Claire Wells (King's College London, UK) and pcDNA3.1-HA-PAK3 by Rick Cerione (Cornell University). To generate pEGFP-C1-PAK3, pcDNA3.1-PAK3 and empty pEGFP-C1 were digested with KpnI and ApaI. After agarose gel purification, PAK3 cDNA (NM_019210.1) was ligated using T4 DNA ligase.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Overexpression of RhoU increases PC3 cell migration and invasion. (A) PC3 and DU145 cells harboring a doxycycline-inducible Myc-RhoU construct or empty vector (EV) were incubated for 16 h with or without 1 mg/ml doxycycline (Dox) before lysates were immunoblotted with an anti-Myc antibody. α-Tubulin was used as a loading control. Data are representative of three independent experiments. (B) PC3 doxycycline-inducible cell lines were seeded onto fibronectin-coated glass coverslips and incubated for 24 h with or without 1 mg/ml doxycycline prior to fixation and staining for F-actin (Alexa Fluor 546-phalloidin; red), tubulin (FITC-labelled anti-tubulin antibody; green) and DNA (Hoechst 33342; blue). Images are representative of three independent experiments. Scale bar: 50 µm. Circularity was calculated for 120 cells per condition, across three experiments. Data are presented as mean±s.e.m. P-values were determined by Mann-Whitney test. (C) PC3 doxycycline-inducible cell lines were incubated for 16 h with or without 1 mg/ml doxycycline prior to time-lapse microscopy. Cells were imaged every 6 min for 24 h using a 20× objective and migration tracks were generated using the MOSES framework. Data are presented as mean net migration speed of all cells within each field of view. Error bars represent s.e.m. P-values were determined by Mann-Whitney test. Data are representative of three independent experiments. (D) PC3 and DU145 doxycycline-inducible cell lines were seeded onto Matrigel-coated Transwell inserts in serum-free medium with or without 1 mg/ml doxycycline.Serum-free medium supplemented with 10 ng/ml HGF with or without 1 mg/ml doxycycline was added to the basal chamber. After 24 h, cells adhered to the underside of the filter were stained with Crystal Violet. Images are representative of three independent experiments. Data are presented as mean±s.e.m. P-values were determined by an unpaired two-tailed t-test. ns, not significant.</figDesc><graphic coords="3,49.78,58.56,512.39,485.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. See next page for legend.</figDesc><graphic coords="4,67.58,58.56,476.84,666.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3. RhoU homo-oligomerization is mediated by the C-terminal extension. (A) Schematic representation of RhoU mutants, RhoU(C255S, C256S), and. Blue lines indicate proline-rich motifs; red lines indicate S-palmitoylation sites. (B) Lysates of COS7 cells co-expressing GFP or GFP-RhoU truncation mutants with Myc-RhoU were immunoprecipitated using GFP-TRAP ® agarose beads and samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Graph shows mean±s.e.m. values from three independent experiments. Myc-RhoU levels in IP samples were normalized against total Myc-RhoU levels and immunoprecipitated GFP-RhoU levels. P-values were determined by one-way ANOVA with Tukey's multiple comparisons post test. (C) COS7 cells were transfected with pRK5-myc-RhoU(231-258) and pEGFP-C1 empty vector, pEGFP-C1-RhoU, pEGFP-C1-ΔN-RhoU (48-258), pEGFP-C1-RhoU(204-258) or pEGFP-C1-RhoU(231-258). Lysates were immunoprecipitated using Myc-TRAP ® agarose beads and samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Graph shows mean±s.e.m. values from three independent experiments. GFP-RhoU levels in IP samples were normalized against total GFP-RhoU levels and immunoprecipitated Myc-RhoU(231-258) levels. P-values were determined by one-way ANOVA with Tukey's multiple comparisons post test. (D) Lysates of COS7 cells expressing Myc-RhoU and HA-RhoU with either or GFP-RhoU(231-258) mut were immunoprecipitated using Myc-TRAP ® agarose beads and samples were immunoblotted using anti-GFP and anti-Myc antibodies. GAPDH was used as a loading control. Graph shows mean±s.e.m. values from three independent experiments. HA-RhoU levels in IP samples were normalized against total HA-RhoU levels and immunoprecipitated Myc-RhoU levels. P-values were determined by an unpaired two-tailed t-test. ns, not significant.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. See next page for legend.</figDesc><graphic coords="8,65.03,58.56,481.89,654.24" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Pontus Aspenström</rs> (<rs type="affiliation">Uppsala University, Sweden</rs>) for the Myc-RhoU plasmid; <rs type="person">Jonathan Chernoff</rs> (<rs type="affiliation">Fox Chase Cancer Center, USA</rs>) for the Myc-PAK1 plasmid; <rs type="person">Francisco M. Vega</rs> (<rs type="affiliation">University of Seville, Spain</rs>) for the pcDNA3.1-RhoB plasmid; <rs type="person">Ferran Valderrama</rs> (<rs type="affiliation">St. George's, University of London</rs>) for the GFP-RhoB plasmid and <rs type="person">Claire Wells</rs> (<rs type="affiliation">King's College London</rs>) for the plasmids encoding <rs type="institution">HA-RhoU</rs>, <rs type="projectName">GFP-ΔN-RhoU</rs> and <rs type="grantNumber">GFP-PAK2</rs> and <rs type="person">Rick Cerione</rs> (<rs type="affiliation">Cornell University, USA</rs>) for the pcDNA3.1-PAK3 plasmid. We are grateful to members of the <rs type="institution">Ridley laboratory</rs> for helpful discussions.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Funding This work was supported by <rs type="funder">Cancer Research UK</rs> (<rs type="grantNumber">C6620/A15961</rs>), <rs type="funder">University of Bristol Cancer Research Fund and University of Bristol School of Cellular and Molecular Medicine</rs>. R.G.H. was supported by the <rs type="funder">King's Bioscience Institute</rs> and the <rs type="funder">Guy's and St Thomas' Charity Prize PhD Programme in Biomedical and Translational Science</rs>, and E.I. by the <rs type="funder">Department of Health via National Institute for Health Research (NIHR) comprehensive Biomedical Research Centre</rs> award to Guy's <rs type="programName">&amp; St Thomas' NHS Foundation Trust</rs> in partnership with <rs type="funder">King's College London and King's College Hospital NHS Foundation Trust. Open</rs> access funding provided by <rs type="funder">University of Bristol</rs>. Deposited in PMC for immediate release.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_RXSdQz3">
+					<idno type="grant-number">GFP-PAK2</idno>
+					<orgName type="project" subtype="full">GFP-ΔN-RhoU</orgName>
+				</org>
+				<org type="funding" xml:id="_Wfsk2Zb">
+					<idno type="grant-number">C6620/A15961</idno>
+				</org>
+				<org type="funding" xml:id="_5tRmn5N">
+					<orgName type="program" subtype="full">&amp; St Thomas&apos; NHS Foundation Trust</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All relevant data can be found within the article and its supplementary information.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing or financial interests. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conceptualization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peer review history</head><p>The peer review history is available online at https://journals.biologists.com/jcs/ lookup/doi/10.1242/jcs.261645.reviewer-comments.pdf References Adamson, P., Marshall, C. J., <ref type="bibr">Hall, A. and Tilbrook, P. A. (1992)</ref>  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Regulation of the Rho family small GTPase Wrch-1/RhoU by C-terminal tyrosine phosphorylation requires Src</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Alan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Berzat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Dewar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MCB.01646-09</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="4324" to="4338" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Validation of novel biomarkers for prostate cancer progression by the combination of bioinformatics, clinical and functional studies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alinezhad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Vaananen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mattsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tallgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tong Ochoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bjartell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Akerfelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taimen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Bostrom</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0155901</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">155901</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Transforming activity of the Rho family GTPase, Wrch-1, a Wnt-regulated Cdc42 homolog, is dependent on a novel carboxyl-terminal palmitoylation motif</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Berzat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Buss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Chenette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Weinbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shutes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Der</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Minden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M507362200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="33055" to="33065" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Analysis of Rho GTPase expression in T-ALL identifies RhoU as a target for Notch involved in T-ALL cell migration</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Bhavsar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Infante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khwaja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ridley</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/onc.2012.42</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="198" to="208" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The transforming Rho family GTPase Wrch-1 disrupts epithelial cell tight junctions and epithelial morphogenesis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Alan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Madigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Fanning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MCB.00336-08</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1035" to="1049" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The atypical Rho family GTPase Wrch-1 regulates focal adhesion formation and cell migration</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Coniglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Backer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Symons</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.03456</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="1927" to="1934" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Identification of a five gene signature to predict time to biochemical recurrence after radical prostatectomy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Corradi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Cumarasamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Staff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tortora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pros.24150</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prostate</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="694" to="702" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">PAK4 promotes kinase-independent stabilization of RhoU to modulate cell adhesion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Dart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Box</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Court</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Gale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Pinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Eccles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wells</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201501072</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="863" to="879" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Fluorescent proteins for FRET microscopy: monitoring protein interactions in living cells</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Davidson</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bies.201100098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioEssays</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="341" to="350" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Lipogenic signalling modulates prostate cancer cell adhesion and migration via modification of Rho GTPases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Piano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manuelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zadra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Otte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Edqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ponten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nowinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Niaouris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grigoriadis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Loda</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41388-020-1243-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="3666" to="3679" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The &apos;invisible hand&apos;: regulation of RHO GTPases by RHOGDIs</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garcia-Mata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Boulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm3153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="493" to="504" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Regulating Rho GTPases and their regulators</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Hodge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ridley</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm.2016.67</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">496</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Regulation and functions of RhoU and RhoV</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Hodge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ridley</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/21541248.2017.1362495</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Small GTPases</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Crystal structure of human RhoA in a dominantly active form complexed with a GTP analogue</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muraguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shirakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kaibuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hakoshima</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.273.16.9656</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="9656" to="9666" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Rac1 nanoscale organization on the plasma membrane is driven by lipid binding specificity encoded in the membrane anchor</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MCB.00186-18</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="186" to="e00118" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Allostery and dynamics in small G proteins</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Mott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Owen</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BST20170569</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1333" to="1343" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">GTP-Dependent K-Ras Dimerization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muratcioglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Freed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Khavrutskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Freed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dyba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stefanisko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Tarasov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gursoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.str.2015.04.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1325" to="1335" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Identification of a bipartite focal adhesion localization signal in RhoU/Wrch-1, a Rho family GTPase that regulates cell adhesion and migration</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blangy</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BC20070058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="701" to="716" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Multifaceted Rho GTPase signaling at the endomembranes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Phuyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Farhan</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fcell.2019.00127</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">127</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Rho GTPase signalling in cell migration</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ridley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ceb.2015.08.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="103" to="112" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">GEF means go: turning on RHO GTPases with guanine nucleotide-exchange factors</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Rossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Der</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sondek</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm1587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="167" to="180" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Wrch1 is a GTPase-deficient Cdc42-like protein with unusual binding characteristics and cellular effects</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Saras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wollberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aspenstrom</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yexcr.2004.05.029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page" from="356" to="369" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The RhoU/Wrch1 Rho GTPase gene is a common transcriptional target of both the gp130/STAT3 and Wnt-1 pathways</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schiavone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dewilde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vallania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Turkson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D I</forename><surname>Cunto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Poli</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BJ20090061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">421</biblScope>
+			<biblScope unit="page" from="283" to="292" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Atypical mechanism of regulation of the Wrch-1 Rho family small GTPase</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shutes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Berzat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Der</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2004.11.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2052" to="2056" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Consensus on the RAS dimerization hypothesis: strong evidence for lipid-mediated clustering but not for G-domain-mediated interactions</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Simanshu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Philips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2023.03.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1210" to="1215" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">An RNAi screen of Rho signalling networks identifies RhoH as a regulator of Rac1 in prostate cancer cell migration</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tajadura-Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Owczarek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Bright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mohd-Noor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grigoriadis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Elston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Hahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12915-018-0489-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Wrch-1, a novel member of the Rho gene family that is regulated by Wnt-1</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pennica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Kalejta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Levine</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.894301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1796" to="1807" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Rapid global fitting of large fluorescence lifetime imaging microscopy datasets</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Margineanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alibhai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Alexandrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Katan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dunsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>French</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0070687</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">70687</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Crystal structure of Rac1 in complex with the guanine nucleotide exchange region of Tiam1</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Worthylake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Rossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sondek</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35047014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">408</biblScope>
+			<biblScope unit="page" from="682" to="688" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Characterization of biological motion using motion sensing superpixels</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruiz-Puig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rittscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.21769/BioProtoc.3365</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bio. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3365</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Motion sensing superpixels (MOSES) is a systematic computational framework to quantify and discover cellular motion phenotypes</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruiz-Puig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rittscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.40162</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">40162</biblScope>
+			<date type="published" when="2019">2019b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

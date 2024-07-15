@@ -1,0 +1,2066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_eyw68Zf">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yaowei</forename><surname>Bai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kequan</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jiacheng</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yingliang</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chaoyang</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shuguang</forename><surname>Ju</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chen</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Yao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Bin</forename><surname>Xiong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">interventional radiology</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Guangzhou Medical University</orgName>
+								<address>
+									<postCode>510120</postCode>
+									<settlement>Guangzhou</settlement>
+									<region>Guangdong</region>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Chuansheng</forename><surname>Zheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Hubei Provincial Department of Science and Technology</orgName>
+								<orgName type="department" key="dep2">Departments of 3 Gastroenterology</orgName>
+								<orgName type="laboratory">Hubei Province Key Laboratory of Molecular Imaging</orgName>
+								<address>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution" key="instit1">Union Hospital</orgName>
+								<orgName type="institution" key="instit2">Tongji Medical College</orgName>
+								<orgName type="institution" key="instit3">Huazhong University of Science and Technology</orgName>
+								<address>
+									<addrLine>1277 Jiefang Avenue</addrLine>
+									<postCode>430022</postCode>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Interventional Radiology</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangzhou Medical University</orgName>
+								<address>
+									<addrLine>151 Yanjiang West Road</addrLine>
+									<postCode>510120</postCode>
+									<settlement>Guangzhou</settlement>
+									<region>Guangdong</region>
+									<country>The First, P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">65854D68FDE3AEAFAB3206F62A5B4500</idno>
+					<idno type="DOI">10.3892/mmr.2024.13175</idno>
+					<note type="submission">Received October 10, 2023; Accepted January 10, 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>MASLD, metabolic dysfunction-associated steatotic liver disease</term>
+					<term>SREBP-1, sterol regulatory element-binding protein-1</term>
+					<term>CPT1C, carnitine palmitoyl-transferase 1C</term>
+					<term>HMGCR, 3-hydroxy-3-methylglutaryl-CoA reductase</term>
+					<term>ACOX1, acyl-CoA oxidase 1</term>
+					<term>ROS, reactive oxygen species</term>
+					<term>FFA, free fatty acid</term>
+					<term>LDL-C, low-density lipoprotein cholesterol</term>
+					<term>HDL-C, high-density lipoprotein cholesterol</term>
+					<term>VLDL-C, very low-density lipoprotein cholesterol</term>
+					<term>FAS, fatty acid synthase</term>
+					<term>TG, total triglycerides</term>
+					<term>TC, total cholesterol</term>
+					<term>AST, aspartate aminotransferase</term>
+					<term>ALT, Alanine aminotransferase</term>
+					<term>CRE, creatinine</term>
+					<term>BUN, blood urea nitrogen</term>
+					<term>NAS, non-alcoholic fatty liver disease activity score metabolic dysfunction-associated steatotic liver disease, fatty acid, sterol regulatory element-binding protein-1, AMPK, ROS</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Metabolic dysfunction-associated steatotic liver disease (MASLD) is an increasingly significant global health burden for which there is currently no effective treatment. The present study aimed to explore the underlying mechanisms and investigate the effects of donafenib and atorvastatin in MASLD. The effects of donafenib and atorvastatin on the activity and lipid metabolism of HepG2 cells were analyzed in vitro. A rat model of MASLD was established induced by a high-fat diet in vivo. H&amp;E and Oil red O staining were used to observe the improvement in MASLD, western blotting analysis was used to detect the expression of proteins related to fat metabolism and immunofluorescence was used to detect reactive oxygen species (ROS) levels. In vitro, donafenib and atorvastatin inhibited lipid accumulation in HepG2 cells. In vivo, donafenib and atorvastatin activated the AMP-activated protein kinase (AMPK) pathway, downregulated the expressions of proteins related to fatty acid synthesis (sterol regulatory element-binding protein-1, 3-hydroxy-3-methylglutaryl-CoA reductase and fatty acid synthase) and upregulated the expression of proteins related to fatty acid β-oxidation (carnitine palmitoyl-transferase 1C and acyl-CoA oxidase). The levels of free fatty acids, cholesterol and triglycerides in the liver and serum decreased in all three treatment groups. Additionally, donafenib and atorvastatin reduced oxidative stress in the liver tissue and decreased ROS levels. Low-dose donafenib combined with atorvastatin improved MASLD by regulating fatty acid metabolism and reducing oxidative stress through activation of the AMPK signaling pathway.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Non-alcoholic fatty liver disease (NAFLD) is a chronic liver disease characterized by the accumulation of excessive fat in the liver, which is not attributed to alcohol consumption and is a major global health burden <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. Recently, after a Delphi consensus process involving global experts, the novel term metabolic dysfunction-associated steatotic liver disease (MASLD) was proposed to replace NAFLD <ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>. MASLD includes a range of liver conditions, from mild steatosis to more severe non-alcoholic steatohepatitis (NASH), which is characterized by inflammation and damage to liver cells <ref type="bibr" target="#b5">(6)</ref>. The prevalence of MASLD is increasing globally, and it is predicted that by 2030, ~300 million Chinese, 100 million Americans and 15-20 million Europeans will be affected <ref type="bibr" target="#b6">(7)</ref>. Currently, there is no standard treatment for NASH except improvements in diet and lifestyle <ref type="bibr" target="#b7">(8)</ref>. The pathogenesis of MASLD is complex and lipid metabolism disorders play a key role in it <ref type="bibr" target="#b8">(9)</ref>. Excess fatty acid accumulation in the liver due</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Activation of AMPK pathway by low-dose donafenib and atorvastatin combination improves high-fat diet-induced metabolic dysfunction-associated steatotic liver disease</head><p>to disorders of lipid metabolism is the most important pathogenetic cause of MASLD <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>. These lipotoxic metabolites lead to hepatocyte stress, injury and death, leading to the progression of MASLD <ref type="bibr" target="#b11">(12)</ref>. Prior research has demonstrated the widespread use of sorafenib, a multi-kinase inhibitor, for the treatment of liver cancer <ref type="bibr" target="#b12">(13)</ref>. Low doses of sorafenib, a mitochondrial uncoupling agent, inhibits NASH progression in mice by activating the AMPK pathway <ref type="bibr" target="#b13">(14)</ref>. Donafenib, a novel oral multi-kinase inhibitor, has been developed to replace the hydrogen atom in the methyl group of sorafenib with three deuterium atoms, and has similar therapeutic effects as sorafenib <ref type="bibr" target="#b14">(15)</ref>. Similar to sorafenib, donafenib may be a potential therapeutic agent for treating MASLD. Statins are frequently prescribed to lower blood lipid levels and have been demonstrated to play a crucial role in fat metabolism <ref type="bibr" target="#b15">(16)</ref> and can act on the AMPK signaling pathway through various mechanisms <ref type="bibr" target="#b16">(17)</ref>. Therefore, the present study examined the potential effects of low-dose donafenib combined with atorvastatin on MASLD and explored the underlying mechanisms with the aim to provide a promising treatment strategy for MASLD and contribute to an improved understanding of its pathogenesis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head><p>Cell culture. The HepG2 cell line is derived from human liver cancer and was used as an in vitro model to study hepatocyte metabolism because of its homologous biotransforming metabolic enzymes to normal human hepatocytes <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b18">19)</ref>. The HepG2 cells (Procell Life Science &amp; Technology Co., Ltd) were cultured in 10% fetal bovine serum and 1% penicillin/streptomycin in addition to Dulbecco's modified eagle medium (Thermo Fisher Scientific, Inc.). Before the experiments, the cells were assessed for mycoplasma contamination and the assay was negative. Mycoplasma contamination was detected by chemiluminescence for 15 min at room temperature using a Mycoplasma test kit (Wuhan Servicebio Technology Co., Ltd.). The cell line was authenticated by the manufacturer of the cells using Short Tandem Repeat profiling to ensure that the HepG2 cells were not misidentified and cross-contaminated. The cells were cultured at 37˚C in a humidified incubator with 5% co 2 to ensure proper cell growth and maintenance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell viability assay.</head><p>For the Cell Counting Kit-8 (CCK-8) assay, a CCK-8 kit (Wuhan Servicebio Technology Co., Ltd.) was used. Cells were collected after centrifugation at 500 x g) for 5 min at 4˚C, resuspended in fresh medium and seeded at a density of five million cells/well in 96-well plates containing 200 µl of medium per well. Atorvastatin (Shanghai Aladdin Biochemical Technology Co., Ltd.) at 5, 10, 20, 40, 80, 160 µM and donafenib (Suzhou Zelgen Biopharmaceuticals Co., Ltd.) at 1, 2, 4, 8, 16, 32 µM were added to the wells, and the plates were incubated for 24 h at 37˚C. After incubation, the medium was aspirated, and 10 µl of medium containing CCK-8 solution was added to each well. Then, the plates were incubated for an additional hour, and a microplate reader (BioTek; Agilent Technologies, Inc.) was used to measure the absorbance at 450 nm.</p><p>Cell modeling of MASLD. To prepare the free fatty acid (FFA) mixture, fatty acid-free bovine serum albumin, sodium oleate and sodium palmitate (2:1, sodium oleate to sodium palmitate) were used <ref type="bibr" target="#b19">(20)</ref>. Next, this FFA mixture was used to construct a cellular model of MASLD. HepG2 cells were in the logarithmic growth phase, the cells were divided into five groups: i) CTRL group (without treatment); ii) FFA group (treated with the FFA mixture); iii) FFA-ATO group (treated with the FFA mixture and atorvastatin); iv) FFA-DON group (treated with the FFA mixture and donafenib); and v) FFA-DON + ATO group (treated with FFA mixture, donafenib and atorvastatin). Following serum starvation, the FFA and other treatment groups were exposed to high-fat medium containing 1 mM FFA for 24 h at 37˚C, whereas the CTRL group remained untreated. The FFA-ATO, FFA-DON and FFA-DON + ATO groups were also treated with atorvastatin, donafenib or both, respectively, for 24 h at 37˚C. The next day, the cells were collected and analyzed.</p><p>AMPK inhibitor. Compound C has been described to have effects on other kinases but is currently widely used as an AMPK inhibitor <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref>. In the present study, Compound C (Shanghai Aladdin Biochemical Technology Co., Ltd.) was used to inhibit AMPK activity. In vitro, compound C (5 µM) was added to the FFA group, FFA-ATO group and FFA-ATO + DON group. After 24 h of incubation at 37˚C, expression of AMPK and p-AMPK were analyzed in each group and the accumulation of fatty acids in the cells of each group was observed using Oil Red O staining.</p><p>Animals. A total of male 40 Sprague-Dawley rats weighing 180-200 g (6-8 weeks) were obtained from The Laboratory Animal Center at Tongji Medical College (Huazhong University of Science and Technology; Wuhan, China). Rats were maintained under specific pathogen-free conditions at 23±2˚C, 55±5% relative humidity, and a 12-h light/dark cycles and had free access to food and water. All experimental procedures were approved by The Ethics Committee of Tongji Medical College, Huazhong University of Science and Technology (Wuhan, China; approval no. 3462) and adhered to the ARRIVE guidelines (arriveguidelines.org/).</p><p>Treatment regimens with atorvastatin and donafenib. The rats were randomly divided into five groups: i) CTRL (n=8); ii) high-fat diet (HFD; n= 8); iii) HFD-ATO (n= 8); iv) HFD-DON (n=8); and v) HFD-DON + ATO (n=8). Rats in the CTRL group were fed a regular diet (Table <ref type="table">SI</ref>) throughout the experimental period, whereas those in the other four groups were fed a HFD (Table <ref type="table">SII</ref>). A previous study has shown that a 12-week HFD can successfully establish a MASLD model in rats <ref type="bibr" target="#b22">(23)</ref>. During the first 12 weeks, no intervention was administered to any rats. At the beginning of week 13, the rats in the HFD-ATO, HFD-DON and HFD-DON + ATO groups were treated with drug (0.5 ml) daily by gavage for 4 weeks. Rats in the CTRL and HFD groups were administered dimethyl sulfoxide (0.5 ml) by gavage. Body weight was measured during the experiment, and the drug amount was adjusted according to the evolution of the weight of the rats during the study period. Atorvastatin and donafenib were dissolved in a dimethyl sulfoxide solution, and the dose of atorvastatin was 10 mg/kg/day, based on previous studies <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b24">25)</ref>. Owing to possible liver and kidney toxicity, a low dose of 1 mg/kg/day donafenib was used <ref type="bibr" target="#b13">(14)</ref>.</p><p>Tissue collection. The rats were fasted for 24 h at the end of the 16-week experiment. Sodium pentobarbital 150 mg/kg was injected intraperitoneally, and the rats were executed by overdose of anesthesia. Blood was drawn from the inferior vena cava after opening the abdominal cavity. After centrifugation at 1,500 x g) for 10 min at 4 ˚C, the serum was collected. The liver, heart, spleen, lung and kidneys were then collected and weighed, and the liver index was calculated as the ratio of liver weight to body weight. The serum and liver tissue samples were stored in a refrigerator at -80˚C for subsequent testing.</p><p>Biochemical analyses. The corresponding diagnostic kits (Thermo Fisher Scientific, Inc.) were used to measure the serum concentrations of FFA, total triglycerides (TG), total cholesterol (TC), high-density lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), very-low-density lipoprotein cholesterol (VLDL-C), creatinine (CRE) and blood urea nitrogen (BUN), as well as the levels of alanine aminotransferase (ALT) and aspartate aminotransferase (AST). Part of the liver tissue was prepared as a liver homogenate, and the lipids were extracted according to previously described methods <ref type="bibr" target="#b25">(26)</ref>. The hepatic lipid profiles were analyzed using the same method as that used for serum lipid profile assays.</p><p>H&amp;E staining and Oil red O staining. The rat liver samples were fixed in 4% (w/v) paraformaldehyde at 4˚C for 6 h. After dehydration with graded ethanol solutions, tissues were embedded in paraffin wax. A serial frontal section was cut at intervals of 5 µm and stained with H&amp;E staining at room temperature (hematoxylin staining for 3 min and eosin staining for 15 sec) for histopathology. The sections were visualized under a light microscope.</p><p>For HepG2 cells, after the intervention, they were fixed with 4% paraformaldehyde for 25-30 min at room temperature. Fresh liver tissue measuring 1.0x1.0 cm was cut and embedded in a frozen section embedding agent and frozen at -20˚C for section processing. The cells and frozen liver tissue were then stained with Oil Red O dye for 10 min at room temperature, and the morphological changes in the cells or tissues and deposition of lipid droplets were observed under a fluorescence microscope (Olympus Corporation).</p><p>Western blotting analysis. Protein samples were prepared in lysis buffer (Thermo Fisher Scientific, Inc.; 25 mmol/l HEPES, Kac 150 mmol/l, EDTA pH 8.0 2 mmol/l, NP-40 0.1%, NaF 10 mmol/l, PMSF 50 mmol/l, aprotinin 1 µg/µl, pepstatin 1 µg/µl, leupeptin 1 µg/µl, DTT 1 mmol/l). The protein concentrations were quantified by BCA protein assay (Thermo Fisher Scientific, Inc.). Gel electrophoresis was performed with 10-20 µg protein using 4-15% gels (Thermo Fisher Scientific, Inc.), followed by transblotting to 0.2 µm nitrocellulose membrane. Subsequently, the membranes were blocked using 5% skimmed milk at room temperature for 2 h. Next, the membranes were incubated at 4˚C overnight with the primary antibodies against p-AMPK (1:1,000; Abcam; cat. no. ab133448), AMPK (1:1,000; Abcam; cat. no. ab32047), sterol regulatory element-binding protein-1 (SREBP-1; 1:1,000; Abcam; cat. no. ab28481), 3-hydroxy-3-methylglutaryl-CoA reductase (HMGCR; 1:1,000; Abcam; cat. no. ab242315), acyl-CoA oxidase 1 (ACOX1; 1:1,000; Abcam; cat. no. ab184032), carnitine palmitoyl-transferase 1C (CPT1C; 1:1,000; Abcam; cat. no. ab189182) and β-actin (1:1,000; Abcam; cat. no. ab8226) in all blocking membranes, and then immersed in a goat anti-rabbit horseradish peroxidase-conjugated IgG secondary antibody (1:3,000; Abcam; cat. no. ab6721) or a goat anti-mouse horseradish peroxidase-conjugated IgG secondary antibody (1:3,000; Abcam; cat. no. ab150113) at room temperature for 2 h. Finally, the blots were visualized by enhanced chemiluminescence (Thermo Fisher Scientific, Inc.), and the results were analyzed using ImageJ software (version 1.0; National Institutes of Health) with β-actin as the loading control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunohistochemical staining. Immunohistochemical (IHC)</head><p>staining was performed on formalin-fixed, paraffin-embedded samples as previously described <ref type="bibr" target="#b26">(27)</ref>. Briefly, the slides were de-paraffinized at room temperature, washed with xylene and rehydrated in descending ethanol series. The liver sections were subjected to antigen retrieval with 0.01 M sodium citrate-hydrochloric acid buffer solution and their endogenous peroxidase activity was blocked for 30 min in 1% hydrogen peroxide/phosphate-buffered saline (H 2 o 2 /PBS) solution. 3% BSA (Wuhan Servicebio Technology Co., Ltd.) was used for blocking for 30 min at room temperature. Subsequently, the sections were incubated with the primary antibody against fatty acid synthase (FAS; 1:1,000; Abcam; cat. no. ab 128870) overnight at 4˚C. Then the sections were incubated with a goat anti-rabbit horseradish peroxidase-conjugated IgG secondary antibody (1:3,000; Abcam; cat. no. ab6721) at room temperature for 2 h, and the sections were washed three times with PBS, followed by immunostaining with 3,3'-diaminobenzidine for 5 min at room temperature and counterstaining of the nuclei with hematoxylin for 3 min at room temperature. Tissue staining was visualized under a fluorescence microscope (Olympus) after dehydration and sealing of the slides. Images were acquired and analyzed using a Nikon DS-U3 microscope (Nikon Corporation). Fatty acid synthase (FAS) antibodies (1:800; Abcam) were used for immunohistochemical analysis of FAS expression. IHC staining results were analyzed using ImageJ software (version 1.0; National Institutes of Health).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ROS content in liver tissue. A dihydroethidium (DHE) Assay</head><p>Kit (Abcam; cat. no. ab236206) was used to measure the ROS content. DHE was incubated with the cells at 37˚C for 30 min protected from light, and then the ROS content was observed under a fluorescence microscope. DHE freely enters the cell through the living cell membrane and exhibits blue fluorescence in the cytoplasm. After oxidation by intracellular ROS, DHE forms ethidium oxide, which is incorporated into the chromosomal DNA to produce bright red fluorescence in the nucleus. Eventually, DNA in the nucleus and cytoplasm appears red. The amount and change in cellular ROS content was measured according to the amount of red fluorescence.</p><p>Statistical analysis. Data are presented as mean ± standard deviation. GraphPad Prism software (version 8.0; Dotmatics) was used for data visualization and SPSS software (version 26.0; IBM Corp.) was used for statistical analysis. Unpaired Student's t test was employed to analyze differences between two groups. One-way analysis of variance was used to analyze the differences between groups when data was normally distributed. For multiple comparisons between groups, the least significant difference test was used to compare the three groups, Dunnett's test was used for the comparison between different experimental groups to a single control and Tukey test was performed for multiple comparisons among ≥3 groups. For datasets with a skewed distribution, the Kruskal-Wallis test was used for multiple comparisons followed by the post hoc Dunn's test. P&lt;0.05 was considered to indicate a statistically significant difference.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Donafenib and atorvastatin reduce lipid accumulation in</head><p>HepG2 cells treated with FFA. Treatment of HepG2 cells with different concentrations of donafenib and atorvastatin decreased cell viability (Fig. <ref type="figure" target="#fig_0">1A</ref>). Specifically, 1.22 µM of donafenib achieved a 10% inhibition rate of HepG2 cells, whereas treatment with 4.65 µM of atorvastatin achieved a similar inhibition rate. On the basis of these results, HepG2 cells were treated with 1.22 µM of donafenib and 4.65 µM of atorvastatin. Oil Red O staining of HepG2 cells (Fig. <ref type="figure" target="#fig_0">1B</ref>) revealed significant lipid accumulation in the FFA group, whereas lipid accumulation in the FFA-ATO, FFA-DON and FFA-DON + ATO groups was reduced to varying degrees, with the most significant reduction observed in the FFA-DON + ATO group. The effects of high concentrations of donafenib and atorvastatin on fatty acid metabolism were also analyzed. Higher concentrations of donafenib and atorvastatin inhibited fatty acid accumulation more significantly than lower concentrations; simultaneously, cell proliferation was significantly inhibited (Fig. <ref type="figure" target="#fig_0">S1</ref>).</p><p>Donafenib and atorvastatin improves MASLD in rats. a 12-week HFD successfully induced MASLD in rats (Fig. <ref type="figure" target="#fig_1">2A</ref>). H&amp;E staining revealed that the livers of rats in the HFD group exhibited steatosis, hepatocyte ballooning and extensive lobular inflammation, however, the three treatment groups showed varying degrees of improvement. According to the NAFLD Activity Score (NAS) <ref type="bibr" target="#b23">(24)</ref> of the liver histological results (Fig. <ref type="figure" target="#fig_1">2B</ref>), the HFD-DON + ATO group had the lowest mean NAS, indicating that the combination treatment effectively improved hepatocyte steatosis and inflammation. The liver tissue was weighed and the liver index of rats in the HFD group was higher than that in the other groups (Fig. <ref type="figure" target="#fig_1">2C</ref>). Similarly, oil red o staining of liver tissue revealed significant liver fat accumulation in the HFD group, whereas that in the three treatment groups showed varying degrees of improvement in fat accumulation (Fig. <ref type="figure" target="#fig_1">2D</ref>). The most significant decrease in fat accumulation was observed in the HFD-DON + ATO group; however, it did not reach the level observed in the CTRL group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Donafenib and atorvastatin regulate the activation of AMPK.</head><p>The AMPK pathway plays a crucial role in fat metabolism, and the expression levels of AMPK in cells and liver tissues were analyzed using western blotting. In vitro, the expression of p-AMPK in the FFA group decreased, and the p-AMPK/AMPK ratio was significantly lower than that in the CTRL group (Fig. <ref type="figure" target="#fig_3">3A</ref> and<ref type="figure">B</ref>). In vivo, similar results were observed, with the p-AMPK/AMPK ratio in the livers of rats in the HFD group being significantly lower than that in the livers of rats in the CTRL group (Fig. <ref type="figure" target="#fig_2">4A</ref> and<ref type="figure">B</ref>). The p-AMPK/AMPK ratios in the three treatment groups were higher than that in the HFD group, with the HFD-DON + ATO group showing the most significant increase. When Compound C was added, p-AMPK expression was suppressed in the CTRL group (Fig. <ref type="figure" target="#fig_4">5A</ref> and<ref type="figure">B</ref>). There was no significant difference in p-AMPK expression in the FFA-ATO and FFA-DON groups compared to the FFA group (Fig. <ref type="figure" target="#fig_4">5C</ref> and<ref type="figure">D</ref>) and the results of Oil Red O staining showed that the FFA-ATO and FFA-DON groups were not significantly different from the FFA group (Fig. <ref type="figure" target="#fig_4">5E</ref> and<ref type="figure">F</ref>) when compound C was added. This indicated that the addition of Compound C caused atorvastatin and donafenib to lose their pharmacological effect of improving MASLD and proved that donafenib and atorvastatin improved MASLD by activating AMPK.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Donafenib and atorvastatin regulate fatty acid synthesis.</head><p>Hepatic fatty acids are derived from the hepatic synthesis of fatty acids and the transport of extrahepatic FFAs to the liver. SREBP-1, HMGCR and FAS play important roles in de novo fatty acid synthesis. The expression levels of SREBP-1 and HMGCR in both cells and liver tissues were analyzed using western blotting. In vitro, the expressions of SREBP-1 and HMGCR in the FFA group were significantly higher than those in the CTRL group, whereas the expressions of SREBP-1 and HMGCR decreased in the FFA-ATO, FFA-DON and FFA-DON + ATO groups (Fig. <ref type="figure" target="#fig_3">3C</ref> and<ref type="figure">D</ref>). In vivo, the expression levels of SREBP-1 and HMGCR in the three treatment groups were lower than those in the HFD group, with the HFD-DON + ATO group exhibiting the most significant decrease (Fig. <ref type="figure" target="#fig_2">4C</ref> and<ref type="figure">D</ref>). Immunohistochemistry was used to detect FAS expression (Fig. <ref type="figure" target="#fig_1">S2</ref>). The results showed a significant decrease in FAS   expression in all three treatment groups compared with that in the HFD group, with the combined treatment group showing the most significant decrease. When Compound C was added, there was no significant difference in the expression of SREBP-1 and HMGCR in the FFA-ATO and FFA-DON groups compared with the FFA group (Fig. <ref type="figure" target="#fig_4">5G-I</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Donafenib and atorvastatin regulate fatty acid β-oxidation.</head><p>Fatty acid β-oxidation is an important location of fatty acid metabolism in the liver, with mitochondria and peroxisomes being the sites of β-oxidation. The crucial enzymes for fatty acid β-oxidation in mitochondria and peroxisomes are CPT1C and ACOX1, respectively. In vitro, the expression levels of ACOX1 and CPT1C in the FFA group were significantly lower than those in the CTRL group, whereas those of ACOX1 and CPT1C in the three treatment groups were increased (Fig. <ref type="figure" target="#fig_3">3E</ref> and<ref type="figure">F</ref>). In vivo, the expression levels of ACOX1 and CPT1C in the liver of the HFD group were significantly lower than those of the CTRL group. The levels of ACOX1 and CPT1C in the three treatment groups were higher than those in the HFD group, and the increase in the HFD-DON + ATO group was the most pronounced (Fig. <ref type="figure" target="#fig_2">4E</ref> and<ref type="figure">F</ref>). When Compound C was added, there was no significant difference in the expression of CPT1C and ACOX1 in the FFA-ATO and FFA-DON groups compared with the FFA group (Fig. <ref type="figure" target="#fig_4">5J</ref> and<ref type="figure">K</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Donafenib and atorvastatin affect lipid metabolism parameters.</head><p>Lipid metabolism parameters in the serum and liver tissues were analyzed (Fig. <ref type="figure" target="#fig_5">6</ref>). In both the serum and liver tissues, the FFA, TG and TC levels of rats in the HFD group were significantly higher than those of rats in the CTRL group. Compared with the HFD group, the aforementioned parameters of rats in the three treatment groups were lower, which was consistent with the results of the liver histological analysis. A decrease in the serum LDL-C levels in the HFD-ATO and HFD-DON + ATO groups was observed; however, no significant changes were observed in the HFD-DON group. Additionally, the serum VLDL-C and HDL-C levels in the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Donafenib and atorvastatin improve oxidative stress.</head><p>Oxidative stress plays an important role in the progression of MASLD, and the level of oxidative stress in liver tissues was examined. Both atorvastatin and donafenib reduced the ROS content in the liver tissue (Fig. <ref type="figure" target="#fig_6">7A</ref> and<ref type="figure">B</ref>). Donafenib and atorvastatin exhibited different degrees of antioxidant effects and the ability of donafenib to reduce ROS was stronger than atorvastatin. In the HFD-DON + ATO group, ROS levels in the liver tissue decreased significantly and were only slightly higher than those in the CTRL group. At the same time, malondialdehyde content in HFD-DON + ATO group was also significantly lower than that in HFD group (Fig. <ref type="figure" target="#fig_6">7C</ref>). In contrast, superoxide dismutase and glutathione peroxidase levels increased in each treatment group (Fig. <ref type="figure" target="#fig_6">7D</ref> and<ref type="figure">E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Safety of donafenib and atorvastatin in improving MASLD of rats.</head><p>To assess the safety of the administered drug doses, H&amp;E staining of the heart, spleen, lung and kidney tissues in all rat groups was performed (Fig. <ref type="figure" target="#fig_3">S3</ref>). No significant differences were observed between the groups, suggesting that the doses used did not cause toxicity to other organs. Notably, no adverse reactions related to donafenib use in rats, such as diarrhea or rash were observed. Serum analyses of liver and kidney function were performed by measuring the levels of ALT, AST, BUN and CRE in each group. AST and ALT levels decreased in the HFD-DON and HFD-ATO + DON groups, but no statistically significant differences were found. Furthermore, no significant differences in ALT and AST levels were observed between the HFD-ATO and HFD groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>MASLD is an increasingly significant public health issue on a global scale, causing significant liver-related and extrahepatic morbidity and mortality <ref type="bibr" target="#b27">(28)</ref>. One major feature of MASLD is the presence of lipid metabolism disorder. In vitro, the HepG2 cell line was used to study fat metabolism. This cell line is highly differentiated, has an intact biotransformation profile of metabolic enzymes in the cells, does not require the incorporation of an exogenous activation system and contains biotransformation metabolic enzymes homologous to those of normal human liver parenchymal cells <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref>. As a result, the HepG2 cell line is widely utilized in MASLD research <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32)</ref>. Similar to the methods used by Iturrospe et al <ref type="bibr" target="#b32">(33)</ref>, a drug concentration of ic 10 was used. The aim was not to inhibit cell proliferation but to regulate cell metabolism, so low drug concentrations were used. The present study did not focus on the ameliorative effect of varying drug concentrations on MASLD. Instead, it demonstrated, to the best of our knowledge, the first time that donafenib modulated lipid metabolism, which was the primary focus and innovation of the present research. To simulate the dietary structure and pathogenesis in modern humans, an MASLD model in rats using a HFD was successfully established <ref type="bibr" target="#b33">(34)</ref>.</p><p>The combination of donafenib and atorvastatin improved HFD-induced MASLD in rats and FFA-stimulated cells. Additionally, the present analysis of related proteins showed that combination therapy activated the AMPK pathway, down-regulated the expressions of SREBP-1, HMGCR and FAS, and up-regulated the expressions of ACOX1 and CPT1C, thereby inhibiting the synthesis of fatty acids and promoting β-oxidation of fatty acids. Serum and liver lipid metabolism parameters were also measured, and it was found that FFAs, triglycerides and cholesterol levels in the serum and liver decreased after treatment. Serum VLDL-C levels remained high, indicating that the extrahepatic transport of fatty acids remained active. Notably, donafenib and atorvastatin reduced oxidative stress in the liver tissue and decreased ROS levels. Combined therapy can reduce fatty acid production, promote β-oxidation and transport of fatty acids and reduce liver fat content while improving oxidative stress and ultimately improving MASLD (Fig. <ref type="figure" target="#fig_7">8</ref>). The combination of the two drugs provided an improved therapeutic effect, and therefore it was hypothesized that there was an additive effect of the two drugs; however, it is unclear whether there was a synergistic effect of the combined drugs. As to whether they have synergistic effects in addition to additive effects, this will be the focus of future studies.</p><p>Currently, there is no clear conclusion regarding the pathogenic mechanism of MASLD; however, it is generally hypothesized that the liver is overloaded with processing energy metabolism substrates (sugars and fatty acids), leading to excessive fatty acid deposition in the liver <ref type="bibr" target="#b5">(6)</ref>. Fatty acids and their lipotoxic metabolites can trigger endoplasmic reticulum stress, oxidative stress and the activation of inflammatory agents, leading to the progression of NASH <ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref>. There are four main reasons for increased liver lipid levels <ref type="bibr" target="#b34">(35)</ref>. Firstly, the conversion of carbohydrates, such as fructose into fatty acids by hepatocytes, is one of the main sources of fatty acids in the liver. Secondly, FFAs released by the breakdown of triglycerides in adipose tissue are transported to the liver via the bloodstream, leading to an increase in liver fatty acids. Thirdly, reduced β-oxidation of fatty acids contributes to the accumulation of fatty acids in the liver. Lastly, impaired synthesis of triglycerides from fatty acids also leads to an increase in fatty acids within the liver <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b34">35)</ref>. Therefore, by acting on these processes, liver lipids can be reduced, and MASLD can be improved. Recently, the therapeutic role of the AMPK signaling pathway in metabolic diseases such as MASLD has been widely investigated <ref type="bibr" target="#b35">(36,</ref><ref type="bibr" target="#b36">37)</ref>. p-AMPK directly phosphorylates acetyl CoA carboxylase, thereby inhibiting fatty acid synthesis <ref type="bibr" target="#b37">(38)</ref>. AMPK also reduces chronic inflammation <ref type="bibr" target="#b38">(39)</ref> and directly phosphorylates caspase-6, thereby inhibiting lipotoxic metabolite-induced hepatocyte apoptosis in NASH <ref type="bibr" target="#b39">(40)</ref>. A low dose of sorafenib, a mitochondrial uncoupling agent, activates the AMPK pathway and considerably improves MASLD in rats and monkeys <ref type="bibr" target="#b13">(14)</ref>. Moreover, statins have been widely used in experimental studies of MASLD to regulate lipid metabolism by acting on proteins such as HMG-CoA reductase <ref type="bibr" target="#b40">(41)</ref>. A recent study showed that diabetic mice receiving long-term statins expressed more renal SREBP-1 and showed increased renal fatty acid synthesis <ref type="bibr" target="#b41">(42)</ref>. The present study found that donafenib and atorvastatin upregulated p-AMPK expression. This effect disappeared when the AMPK inhibitor was added, while there was no significant difference in fat accumulation and expressions of lipid metabolism-related proteins in the FFA-ATO and FFA-DON groups compared with the FFA group. This suggested that donafenib and atorvastatin exert their effects on improving MASLD by activating the AMPK pathway. Additionally, future endeavors involve conducting more in-depth studies in the future to explore the mechanisms by which donafenib and atorvastatin improve MASLD.</p><p>Given that both donafenib and atorvastatin affect lipid metabolism through the AMPK pathway, the effects of donafenib and atorvastatin in treatment of MASLD were explored and the underlying mechanisms investigated. In the present study, donafenib and atorvastatin inhibited the synthesis of fatty acids, increased the β-oxidation of fatty acids and ultimately reduced the accumulation of fatty acids and their metabolites such as triglycerides and cholesterol in the liver, thereby improving the fatty liver. Owing to the targeted therapeutic mechanisms of donafenib, it was speculated that for patients with liver cancer who progress from NAFLD, the etiology can be improved by treating liver cancer. Further studies are needed to determine whether donafenib produces improved therapeutic effects in these patients. In contrast, lipid metabolism plays an important role in tumor proliferation <ref type="bibr" target="#b42">(43)</ref>. In addition to its anti-angiogenic effect, the anti-tumor effect of donafenib may be manifested in the regulation of lipid metabolism. To the best of our knowledge, the present study is the first study to demonstrate that donafenib improves MASLD in rats.</p><p>Additionally, oxidative stress is indeed a key pathogenic mechanism in MASLD, and studies have shown that addressing oxidative stress can improve MASLD <ref type="bibr" target="#b43">(44)</ref><ref type="bibr" target="#b44">(45)</ref><ref type="bibr" target="#b45">(46)</ref>. Furthermore, the American Association for the Study of Liver Diseases) has recommended vitamin E supplementation, a common antioxidant, for biopsy-proven NAFLD in nondiabetic patients to improve NAFLD <ref type="bibr" target="#b46">(47)</ref>. In the present study, it was found that donafenib and atorvastatin reduced ROS levels in liver tissue, suggesting their ability to ameliorate oxidative stress, leading to an improvement in MASLD. In the future, more in-depth studies will be conducted on the mechanisms by which donafenib and atorvastatin improve MASLD by ameliorating oxidative stress. Meanwhile, the therapeutic effects of other antioxidants on MASLD should be more thoroughly investigated.</p><p>Donafenib is clinically used to treat malignant tumors and has not been applied to MASLD <ref type="bibr" target="#b14">(15)</ref>, therefore special attention was paid to the dose safety of donafenib and atorvastatin. The dose of donafenib used was 1 mg/kg/day, which is ~4.5 mg/day for a 60-kg person according to the body surface area normalization method <ref type="bibr" target="#b47">(48)</ref>, which is much lower than the clinical dose (400 mg/day). Based on good therapeutic effects, no similar clinical adverse reactions, such as diarrhea, skin erythema and rash, were observed. There were no significant differences in serum ALT, AST, BUN and CRE levels between the treatment and the HFD groups, and no abnormalities were observed upon histological examination of other organs. Therefore, both the clinical safety data and our results suggest that the donafenib dose used was safe. Additionally, statins may increase transaminases levels <ref type="bibr" target="#b48">(49,</ref><ref type="bibr" target="#b49">50)</ref>, thereby failing to ameliorate the decline in liver function caused by NASH. The present study detected serum ALT and AST in rats and found that atorvastatin did not lead to an abnormal elevation of transaminase levels, and no significant difference was observed in transaminase levels between the HFD-ATO and HFD groups.</p><p>The present study had several limitations. First, only one cell model and one animal model were used and whether the drug would have similar therapeutic effects in other models was not explored. In addition, the drug dose used in rats was based on previous literature, and a drug dose gradient was not set in the present study. Finally, although the dose used was safe for rats, it is important to note that the dose calculated by body surface area normalization cannot be directly applied in clinical settings. The efficacy and safety of donafenib combined with atorvastatin in the treatment of patients with MASLD still requires further study.</p><p>In conclusion, low-dose donafenib combined with atorvastatin improved MASLD by regulating fatty acid metabolism and reducing oxidative stress through activation of the AMPK signaling pathway.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Donafenib and atorvastatin reduced lipid accumulation in HepG2 cells treated with FFAs. (A) Viability of HepG2 cells was assessed following treatment with donafenib and atorvastatin. * P&lt;0.05 and *** P&lt;0.001, compared with the control (0 µM). (B) Donafenib and atorvastatin reduced intracellular lipid deposition in HepG2 cells. (C) Quantitative analysis of Oil Red O staining. Data are presented as the mean ± SD. For statistical analysis, a one-way ANOVA was used for (A) and (C). Dunnett was used for post hoc multiple comparisons in (A) and Tukey was used for post hoc multiple comparisons in (C). * P&lt;0.05, ** P&lt;0.01, *** P&lt;0.001 vs. FFA group; ## P&lt;0.01 vs. FFA-ATO group; † † P&lt;0.01 vs. FFA-DON group. ATO, atorvastatin; DON, donafenib, FFA, free fatty acid.</figDesc><graphic coords="4,53.80,57.68,487.68,284.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Effects of donafenib and atorvastatin on the histology of rats with MASLD. (A) Histological sections of rats in each group were shown (n=8). (B) NAS, which is the unweighted sum of semi-quantitative scores for steatosis, lobular inflammation and hepatocyte ballooning, was calculated. (C) Liver index of rats (liver wet weight/rat body weight) was measured. (D) Oil Red O staining was used to determine lipid droplet deposition in hepatocytes. Data are presented as the means ± SD. A Kruskal-Wallis test was used for statistical analysis of the data in (B). One-way ANOVA (Tukey was used for post hoc multiple comparisons) was used for (C) and (D). * P&lt;0.05, ** P&lt;0.01, *** P&lt;0.001 vs. HFD group; # P&lt;0.05, ## P&lt;0.01 vs. HFD-ATO; † P&lt;0.05, † † P&lt;0.01 vs. HFD-DON group. NAS, NAFLD activity score; ATO, atorvastatin; DON, donafenib; MASLD, metabolic dysfunction-associated steatotic liver disease; HFD, high-fat diet.</figDesc><graphic coords="5,53.80,57.68,487.68,426.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Effects of donafenib and atorvastatin on lipid metabolism in the liver of rats with MASLD. (A) Representative blots for proteins involved in lipid metabolism were analyzed. (B) Quantitative analysis of (B) p-AMPK/AMPK. (C) Quantitative analysis of SREBP-1. (D) HMGCR. (E) Quantitative analysis of ACOX1. (F) Quantitative analysis of CPT1C. Data were presented as the means ± SD and analyzed by one-way ANOVA (Tukey was used for post hoc multiple comparisons). * P&lt;0.05, ** P&lt;0.01, *** P&lt;0.001 vs. HFD group; # P&lt;0.05, ## P&lt;0.01, ### P&lt;0.001 vs. HFD-ATO group; † P&lt;0.05, † † P&lt;0.01 vs. HFD-DON group. HFD, high-fat diet; ATO, atorvastatin; DON, donafenib; MASLD, metabolic dysfunction-associated steatotic liver disease; SREBP-1, sterol regulatory element-binding protein-1; CPT1C, carnitine palmitoyl-transferase 1C; HMGCR, 3-hydroxy-3-methylglutaryl-CoA reductase; ACOX1, acyl-CoA oxidase 1.</figDesc><graphic coords="6,73.68,417.57,447.92,294.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Effects of donafenib and atorvastatin on lipid metabolism of HepG2 cells. (A) Representative blots for proteins involved in lipid metabolism were analyzed. (B-F) Quantitative analysis of p-AMPK/AMPK, SREBP-1, HMGCR, ACOX1 and CPT1C were shown. Data were presented as the means ± SD and analyzed by one-way ANOVA (Tukey was used for post hoc multiple comparisons). * P&lt;0.05, ** P&lt;0.01, *** P&lt;0.001 vs. FFA group; # P&lt;0.05, ## P&lt;0.01 vs. FFA-ATO group; † P&lt;0.05 vs. FFA-DON group. FFA, free fatty acid; ATO, atorvastatin; DON, donafenib; SREBP-1, sterol regulatory element-binding protein-1; CPT1C, carnitine palmitoyl-transferase 1C; HMGCR, 3-hydroxy-3-methylglutaryl-CoA reductase; ACOX1, acyl-CoA oxidase 1.</figDesc><graphic coords="6,75.38,57.68,444.51,277.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Addition of AMPK inhibitor, CC, prevented donafenib and atorvastatin from affecting fatty acid metabolism. (A) Representative blots of AMPK and p-AMPK with or without the addition of CC in the CTRL group. (B) Quantitative analysis of the expressions of AMPK and p-AMPK with or without the addition of CC in the CTRL group. (C) Representative blots of AMPK and p-AMPK expressions with the addition of CC in the FFA, FFA-ATO and FFA-DON groups. (D) Quantitative analysis of the expressions of AMPK and p-AMPK in the FFA, FFA-ATO and FFA-DON groups with the addition of CC. (E) Effects of donafenib and atorvastatin on fatty acid accumulation in the FFA, FFA-ATO and FFA-DON groups with the addition of CC were analyzed by Oil Red O staining. (F) Quantitative analysis of Oil Red O staining in the FFA, FFA-ATO and FFA-DON groups after adding CC. (G) Representative blots of lipid metabolism-related proteins in the FFA, FFA-ATO and FFA-DON groups with the addition of CC. (H-K) Quantitative analysis of the expressions of lipid metabolism-related proteins in the FFA, FFA-ATO and FFA-DON groups with the addition of CC. The data were presented as the means ± SD. For statistical analysis, Student's t test was used in (B). One-way ANOVA (LSD was used for post hoc multiple comparisons) was used for the other data. ns, no significance; CC, Compound C; FFA, free fatty acid; ATO, atorvastatin; DON, donafenib; SREBP-1, sterol regulatory element-binding protein-1; CPT1C, carnitine palmitoyl-transferase 1C; HMGCR, 3-hydroxy-3-methylglutaryl-CoA reductase; ACOX1, acyl-CoA oxidase 1.</figDesc><graphic coords="7,53.80,57.40,487.68,443.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Effects of donafenib and atorvastatin on lipid metabolism parameters in the serum and liver. (A) Serum (A) FFA was measured. (B) Serum TG was measured. (C) Serum TC was measured. (D) Hepatic FFA was measured. (E) Hepatic TG was measured. (F) Hepatic TC was measured. (G) Serum HDL-C was measured. (H) Serum LDL-C was measured. (I) Serum (VLDL-C) was measured. Data were presented as the means ± SD and analyzed by one-way ANOVA (Tukey was used for post hoc multiple comparisons). * P&lt;0.05, ** P&lt;0.01, *** P&lt;0.001 vs. HFD; # P&lt;0.05, ## P&lt;0.01 vs. HFD-ATO group; † P&lt;0.05, † † † P&lt;0.001 vs. HFD-DON group. ns, no significance. FFA, free fatty acid; TG, triglyceride; TC, total cholesterol; HDL-C, high-density lipoprotein cholesterol; LCL-C, low-density lipoprotein cholesterol; VLDL-C, very-low-density lipoprotein cholesterol; HFD, high-fat diet; ATO, atorvastatin; DON, donafenib.</figDesc><graphic coords="8,53.80,57.68,487.68,529.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Effects of donafenib and atorvastatin on oxidative stress. (A) Representative images of ROS immunofluorescence. (B) Quantitative analysis of ROS content in liver tissue. (C) MDA content in liver tissue. (D) SOD content in liver tissue. (E) GSH-Px content in liver tissue. Data were presented as the means ± SD and analyzed by one-way ANOVA (Tukey was used for post hoc multiple comparisons). * P&lt;0.05, ** P&lt;0.01, *** P&lt;0.001 vs. HFD group; # P&lt;0.05, ### P&lt;0.001 vs. HFD-ATO group; † † P&lt;0.01 vs. HFD-DON group. ROS, reactive oxygen species; MDA, malondialdehyde; SOD, superoxide dismutase; GSH-Px; glutathione peroxidase; HFD, high-fat diet; ATO, atorvastatin; DON, donafenib; DHE, dihydroethidium.</figDesc><graphic coords="9,53.80,57.68,487.68,332.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Mechanisms by which donafenib and atorvastatin improve MASLD in rats. The image was produced using Figdraw. MASLD, metabolic dysfunction-associated steatotic liver disease; SREBP-1, sterol regulatory element-binding protein-1; CPT1C, carnitine palmitoyl-transferase 1C; HMGCR, 3-hydroxy-3-methylglutaryl-CoA reductase; ACOX1, acyl-CoA oxidase 1; FAS, fatty acid synthase.</figDesc><graphic coords="10,78.18,57.68,438.91,311.90" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors would like to thank <rs type="person">Professor Xiaoming Liu</rs> (<rs type="affiliation">Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China</rs>) for his help in animal husbandry.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This work was funded by The <rs type="funder">National Natural Science Foundation of China</rs> (grant no. <rs type="grantNumber">81873917</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_eyw68Zf">
+					<idno type="grant-number">81873917</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The data generated in the present study may be requested from the corresponding author</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>YB, KC, JL, CZho and WY collected the data. YB, BX and CZhe conceptualized and designed the study; BX and CZhe acquired the funding; YB, KC, JL, YW, CW and SJ performed the investigation; YB, KC, JL, YW, CW, SJ, CZho and WY performed the study methodology; YB, KC, JL, BX and CZhe performed the project administration; BX and CZhe supervised the project; YB, KC and JL wrote the original draft of the manuscript; and BX and CZhe reviewed and edited the manuscript. All authors read and approved the final version of the manuscript. YB and CZhe confirm the authenticity of all the raw data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head><p>The study protocol conformed to the ARRIVE guidelines and was approved by The Ethics Committee of Tongji Medical College, Huazhong University of Science and Technology (Wuhan, China; approval no. 3462).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global burden of NAFLD and NASH: Trends, predictions, risk factors and prevention</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Younossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Anstee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eslam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">J</forename><surname>Bugianesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Gastroenterol Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="11" to="20" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Phase IIa results for potential NAFLD therapy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Greenhill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A multi-society Delphi consensus statement on new fatty liver disease nomenclature</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Rinella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ratziu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Francque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sanyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kanwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Abdelmalek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Anstee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Arab</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hepatology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<date type="published" when="1966">1966-1986, 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Can we use old NAFLD data under the new MASLD definition?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jct</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glh</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glh</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vws</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tcf</forename><surname>Yip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="168" to="S8278" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Metabolic dysfunction-associated steatotic liver disease (MASLD) definition is better than MAFLD criteria for lean patients with non-alcoholic fatty liver disease (NAFLD)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bhagat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Taneja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duseja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>S0168-S0827</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Mechanisms of NAFLD development and therapeutic strategies</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Neuschwander-Tetri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rinella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sanyal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="908" to="922" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">United Kingdom, and United States for the period 2016-2030</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Estes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Anstee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Arias-Loste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bantel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bellentani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Caballeria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colombo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Craxi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crespo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Day</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="896" to="904" />
+			<date type="published" when="2018">2018</date>
+			<pubPlace>France, Germany, Italy, Japan, Spain</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Modeling NAFLD disease burden in China</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The role of ChREBP in carbohydrate sensing and NAFLD development</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Régnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Carbinatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parlati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Benhamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Postic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="336" to="349" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Lipid droplets are intracellular mechanical stressors that impair hepatocyte function</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Loneker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alisafaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Janmey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Shenoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<date type="published" when="2023">2216811120. 2023</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Defatting strategies in the current era of liver steatosis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Mazilescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Selzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Selzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">100265</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">New targets for NAFLD</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parlati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Régnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guillou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Postic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">100346</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Fructose impairs fat oxidation: Implications for the mechanism of western diet-induced NAFLD</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Inci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Helsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Attia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Softic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Nutr Biochem</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">109224</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Nivolumab versus sorafenib in advanced hepatocellular carcinoma (CheckMate 459): A randomised, multicentre, open-label, phase 3 trial</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mathurin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edeline</forename><forename type="middle">J</forename><surname>Kudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Merle</forename><forename type="middle">P</forename><surname>Rosmorduc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Oncol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="77" to="90" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Low-Dose Sorafenib acts as a mitochondrial uncoupler and Ameliorates Nonalcoholic Steatohepatitis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">1206</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Donafenib Versus Sorafenib in first-line treatment of unresectable or metastatic hepatocellular carcinoma: A randomized, open-label, parallel-controlled phase II-III trial</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Oncol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="3002" to="3011" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Statin use and non-alcoholic steatohepatitis in at risk individuals</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dongiovanni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mannisto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Mancina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pipitone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Karja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maggioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kakela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Wiklund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mozzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="705" to="712" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Targeting AMPK by Statins: A potential therapeutic approach</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dehnavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sadeghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Biregani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Banach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Atkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jamialahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sahebkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drugs</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="923" to="933" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">rubicon inhibits autophagy and accelerates hepatocyte apoptosis and lipid accumulation in nonalcoholic fatty liver disease in mice</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hikita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tatsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sakamori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sakane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shiode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakabori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hiramatsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hepatology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<date type="published" when="1994">1994-2014, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Prolactin improves hepatic steatosis via CD36 pathway</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1247" to="1255" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Targeting mitochondrial ROS-mediated ferroptosis by quercetin alleviates high-fat diet-induced hepatic lipotoxicity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Ding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">876550</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Compound C induces protective autophagy in cancer cells through AMPK inhibitionindependent blockade of Akt/mTOR pathway</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vucicevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Misirkic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Janjetovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Vilimanovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sudar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Isenovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Harhaji-Trajkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kravic-Stevovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bumbasirevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Trajkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="40" to="50" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Compound C enhances the anticancer effect of aspirin in HER-2-positive breast cancer by regulating lipid metabolism in an AMPK-independent pathway</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ling</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="583" to="597" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Metformin induces pyroptosis in leptin receptor-defective hepatocytes via overactivation of the AMPK axis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">82</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Synergic effect of atorvastatin and ambrisentan on sinusoidal and hemodynamic alterations in a rat model of NASH</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bravo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Raurell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barberá</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Estrella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Salcedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">S</forename><surname>Genescà</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dis Model Mech</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">48884</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Metformin and atorvastatin combination further protect the liver in type 2 diabetes with hyperlipidaemia</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Matafome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Louro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crisóstomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nunes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Amaral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cipriano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seiça</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="54" to="62" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Theabrownin inhibits obesity and non-alcoholic fatty liver disease in mice via serotonin-related signaling pathways and gut-liver axis</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saimaiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Adv Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="59" to="72" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Immunohistochemical classification of amyloid in surgical pathology revisited</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kebbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Röcken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg Pathol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="673" to="683" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Global burden of liver disease: 2023 Update</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Devarbhavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Asrani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Arab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Nartey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Kamath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="516" to="537" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Exploratory data analysis of cell and mitochondrial high-fat, high-sugar toxicity on human HepG2 cells</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Amorim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Icm</forename><surname>Simões</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Veloso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Simões</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Normann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Morais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Jurado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1723</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Characterization of lipid metabolism in a novel immortalized human hepatocyte cell line</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sivathondan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stevanato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Mcneil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Miljan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Sinden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>E511-E522</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Estrogen signals through peroxisome proliferator-activated receptor-γ coactivator 1α to reduce oxidative damage associated with diet-induced fatty liver disease</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Besse-Patin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Léveillé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oropeza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Prat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Estall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gastroenterology</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="243" to="256" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Miele l, et al: β-Klotho gene variation is associated with liver damage in children with NAFLD</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dongiovanni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crudele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Panera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Romito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Stefanis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Palma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Comparcola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fracanzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="411" to="419" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Metabolic signature of HepaRG cells exposed to ethanol and tumor necrosis factor alpha to study alcoholic steatohepatitis by LC-MS-based untargeted metabolomics</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van De Lavoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boeckmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vanhaeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aln</forename><surname>Van Nuij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Covaci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1335" to="1353" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Effects of high fat diets on rodent liver bioenergetics and oxidative imbalance</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kakimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Kowaltowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="216" to="225" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">PPAR-γ signaling in nonalcoholic fatty liver disease: Pathogenesis and therapeutic targets</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><forename type="middle">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">245</biblScope>
+			<biblScope unit="page">108391</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The AMPK pathway in fatty liver disease</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">970292</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">AMPK as a therapeutic target for treating metabolic diseases</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Steinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="545" to="560" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Fatty acid metabolism: Target for metabolic syndrome</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Wakil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abu-Elheiga</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="138" to="S143" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Metabolic reprogramming in macrophages and dendritic cells in innate immunity</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laj</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="771" to="784" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">From overnutrition to liver injury: AMP-activated protein kinase in nonalcoholic fatty liver diseases</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Saltiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="12279" to="12289" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Nonalcoholic fatty liver disease and statins</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tziomalos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Athyros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paschos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karagiannis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1215" to="1223" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Long-term statins administration exacerbates diabetic nephropathy via ectopic fat deposition in diabetic mice</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Cai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">390</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Inhibition of Acetyl-CoA carboxylase by phosphorylation or the inhibitor ND-654 suppresses lipogenesis and hepatocellular carcinoma</title>
+		<author>
+			<persName><forename type="first">Jsv</forename><surname>Lally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghoshal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Deperalta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Moaven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Masia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Erstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Houde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="174" to="182" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Auranofin attenuates hepatic steatosis and fibrosis in nonalcoholic fatty liver disease via NRF2 and NF-κB signaling pathways</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Jun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Roh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Mol Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="827" to="840" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Aescin can alleviate NAFLD through Keap1-Nrf2 by activating antioxidant and autophagy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">M</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytomedicine</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page">154746</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Adropin protects against liver injury in nonalcoholic steatohepatitis via the Nrf2 mediated antioxidant capacity</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ling</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">101068</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The diagnosis and management of nonalcoholic fatty liver disease: Practice guidance from the american association for the study of liver diseases</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chalasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Younossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Lavine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Charlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rinella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Brunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sanyal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hepatology</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="328" to="357" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Dose translation from animal to human studies revisited</title>
+		<author>
+			<persName><forename type="first">Reagan-Shaw S</forename><surname>Nihal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ahmad</forename><forename type="middle">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="659" to="661" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Safety of aggressive lipid management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1753" to="1762" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">ACC/AHA guideline on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults: A report of the American college of Cardiology/American heart association task force on practice guidelines</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Lichtenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Merz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Eckel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lloyd-Jones</forename><surname>Dm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="1" to="45" />
+			<date type="published" when="2013">2013. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

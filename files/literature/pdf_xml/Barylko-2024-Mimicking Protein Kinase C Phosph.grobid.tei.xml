@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mimicking Protein Kinase C Phosphorylation Inhibits Arc/Arg3.1 Palmitoylation and Its Interaction with Nucleic Acids</title>
+				<funder ref="#_qhPq29X #_cPkpX8C">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_4bEJhf6">
+					<orgName type="full">Welch Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-08">8 January 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Barbara</forename><surname>Barylko</surname></persName>
+							<email>bbarylko@utsouthwestern.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Clinton</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+							<email>clinton.taylor@utsouthwestern.edu</email>
+							<idno type="ORCID">0000-0002-8283-3393</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<postCode>96844</postCode>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jason</forename><surname>Wang</surname></persName>
+							<email>jason.wang2@utsouthwestern.edu</email>
+							<idno type="ORCID">0000-0002-4043-0131</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physiology, U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Svetlana</forename><surname>Earnest</surname></persName>
+							<idno type="ORCID">0000-0002-4043-0131</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Steve</forename><surname>Stippec</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Derk</forename><forename type="middle">D</forename><surname>Binns</surname></persName>
+							<email>derk.binns@utsouthwestern.edu</email>
+							<idno type="ORCID">0000-0003-4949-3507</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chad</forename><forename type="middle">A</forename><surname>Brautigam</surname></persName>
+							<email>chad.brautigam@utsouthwestern.edu</email>
+							<idno type="ORCID">0000-0003-4949-3507</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Biophysics, U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">M</forename><surname>Jameson</surname></persName>
+							<email>djameson@hawaii.edu</email>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Cell and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">John A. Burns School of Medicine</orgName>
+								<orgName type="institution">University of Hawaii</orgName>
+								<address>
+									<postCode>96844</postCode>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><forename type="middle">N</forename><surname>Demartino</surname></persName>
+							<email>george.demartino@utsouthwestern.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physiology, U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Melanie</forename><forename type="middle">H</forename><surname>Cobb</surname></persName>
+							<email>melanie.cobb@utsouthwestern.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><forename type="middle">P</forename><surname>Albanesi</surname></persName>
+							<email>joseph.albanesi@utsouthwestern.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology</orgName>
+								<orgName type="department" key="dep2">U.T. Southwestern Medical Center</orgName>
+								<address>
+									<postCode>6001, 75390</postCode>
+									<settlement>Forest Park, Dallas</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mimicking Protein Kinase C Phosphorylation Inhibits Arc/Arg3.1 Palmitoylation and Its Interaction with Nucleic Acids</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-08">8 January 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2A61CBF5014D2A920385B49FB32CBC1A</idno>
+					<idno type="DOI">10.3390/ijms25020780</idno>
+					<note type="submission">Received: 11 December 2023 Revised: 3 January 2024 Accepted: 4 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Arc/Arg3.1</term>
+					<term>phosphorylation</term>
+					<term>protein kinase C</term>
+					<term>nucleic acid binding</term>
+					<term>oligomerization</term>
+					<term>palmitoylation</term>
+					<term>post-translational modifications</term>
+					<term>neuronal activity</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Activity-regulated cytoskeleton-associated protein (Arc) plays essential roles in diverse forms of synaptic plasticity, including long-term potentiation (LTP), long-term depression (LTD), and homeostatic plasticity. In addition, it assembles into virus-like particles that may deliver mRNAs and/or other cargo between neurons and neighboring cells. Considering this broad range of activities, it is not surprising that Arc is subject to regulation by multiple types of post-translational modification, including phosphorylation, palmitoylation, SUMOylation, ubiquitylation, and acetylation. Here we explore the potential regulatory role of Arc phosphorylation by protein kinase C (PKC), which occurs on serines 84 and 90 within an α-helical segment in the N-terminal domain. To mimic the effect of PKC phosphorylation, we mutated the two serines to negatively charged glutamic acid. A consequence of introducing these phosphomimetic mutations is the almost complete inhibition of Arc palmitoylation, which occurs on nearby cysteines and contributes to synaptic weakening. The mutations also inhibit the binding of nucleic acids and destabilize high-order Arc oligomers. Thus, PKC phosphorylation of Arc may limit the full expression of LTD and may suppress the interneuronal transport of mRNAs.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Activity-dependent cytoskeletal-associated protein (Arc) <ref type="bibr" target="#b0">[1]</ref>, also known as Arg3.1 <ref type="bibr" target="#b1">[2]</ref>, is a critical regulator of various forms of synaptic plasticity, including long-term potentiation (LTP), long-term depression (LTD), and homeostatic scaling <ref type="bibr" target="#b2">[3]</ref>. The critical role of Arc in synaptic plasticity is highlighted by findings of abnormal Arc expression and function in neurological disorders such as Alzheimer's disease, Parkinson's disease, epilepsy, and schizophrenia <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. The Arc gene is rapidly induced in organisms in response to behavioral events and in cultured cells in response to electrical or chemical stimuli <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. Arc is expressed predominantly in the nucleus, dendrites, and postsynaptic density (PSD) of cortical and hippocampal glutamatergic neurons. A pool of Arc mRNA traffics through the dendritic arbor in association with a ribonucleoprotein complex and is locally translated upon postsynaptic stimulation. Within dendritic spines, Arc is believed to promote synaptic weakening (LTD) by facilitating endocytosis of AMPA receptors <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> and synaptic strengthening by reorganization of the actin cytoskeleton <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. More recently, a second potential mechanism of Arc mRNA translocation was revealed. The three-dimensional structure of a C-terminal fragment (residues 217-362) was solved and was found to be similar to that of the HIV Gag capsid domain <ref type="bibr" target="#b13">[14]</ref>. Findings that the Arc gene has a retroviral origin <ref type="bibr" target="#b14">[15]</ref> and bears a structural similarity to the HIV-1 capsid domain led to the remarkable discovery of a different mechanism of Arc mRNA translocation, namely, the encapsulation into virus-like Arc particles that are released as extracellular vesicles and internalized by neighboring cells <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>.</p><p>Considering the diverse neuronal functions governed by Arc, it is not surprising that its activities are regulated by numerous post-translational modifications <ref type="bibr" target="#b17">[18]</ref>, including ubiquitylation, acetylation, SUMOylation, and palmitoylation (Figure <ref type="figure" target="#fig_0">1</ref>). Ubiquitylation <ref type="bibr" target="#b18">[19]</ref> and acetylation <ref type="bibr" target="#b19">[20]</ref> control Arc expression levels by promoting or suppressing proteasomal degradation, respectively. SUMOylation, which regulates Arc function in synaptic scaling <ref type="bibr" target="#b20">[21]</ref>, strengthens Arc's association with drebrin A, a protein that promotes actin assembly in dendritic spines <ref type="bibr" target="#b21">[22]</ref>. Palmitoylation of Arc, which was first reported by our laboratory, is required for maximal synaptic weakening in response to LTD protocols <ref type="bibr" target="#b22">[23]</ref>. Arc has also been reported to undergo phosphorylation by several kinases, including glycogen synthase kinase (GSK)3α and GSK3β, which regulate its proteasomal degradation <ref type="bibr" target="#b23">[24]</ref>, extracellular signal-regulated kinase (ERK), which regulates its subcellular localization <ref type="bibr" target="#b24">[25]</ref>, Ca 2+ /calmodulin-dependent protein kinase IIα (CaMKIIα), which regulates its oligomerization <ref type="bibr" target="#b25">[26]</ref>, and TRAF2 and NCK-interacting protein kinase (TNIK), which regulates both its subcellular distribution and self-assembly <ref type="bibr" target="#b26">[27]</ref>. Although protein kinase C (PKC) has long been implicated in both LTP and LTD <ref type="bibr" target="#b27">[28]</ref>, the function and regulation of PKC-mediated Arc phosphorylation have not been examined. In this study, we have identified serines 84 and 90 as the major in vitro PKC-phosphorylated residues. These residues reside within the second α-helical segment (helix H2) in the N-terminal domain of Arc. To mimic the effect of phosphorylation, we mutated the two serines to negatively charged glutamic acid. These "phosphomimetic" mutations resulted in a reduced propensity of Arc to undergo palmitoylation, reduced binding to nucleic acids, and reduced stability of high-order oligomers. The latter two characteristics were also displayed by the deletion of H2 and of segments within H2. Taken together, these results suggest that PKC phosphorylation within the H2 helix suppresses palmitoylation-dependent aspects of LTD and intercellular transport of RNA by virus-like Arc particles.</p><p>Int. J. Mol. Sci. 2024, 25, x FOR PEER REVIEW 2 of 16 translated upon postsynaptic stimulation. Within dendritic spines, Arc is believed to promote synaptic weakening (LTD) by facilitating endocytosis of AMPA receptors <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> and synaptic strengthening by reorganization of the actin cytoskeleton <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. More recently, a second potential mechanism of Arc mRNA translocation was revealed. The three-dimensional structure of a C-terminal fragment (residues 217-362) was solved and was found to be similar to that of the HIV Gag capsid domain <ref type="bibr" target="#b13">[14]</ref>. Findings that the Arc gene has a retroviral origin <ref type="bibr" target="#b14">[15]</ref> and bears a structural similarity to the HIV-1 capsid domain led to the remarkable discovery of a different mechanism of Arc mRNA translocation, namely, the encapsulation into virus-like Arc particles that are released as extracellular vesicles and internalized by neighboring cells <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>.</p><p>Considering the diverse neuronal functions governed by Arc, it is not surprising that its activities are regulated by numerous post-translational modifications <ref type="bibr" target="#b17">[18]</ref>, including ubiquitylation, acetylation, SUMOylation, and palmitoylation (Figure <ref type="figure" target="#fig_0">1</ref>). Ubiquitylation <ref type="bibr" target="#b18">[19]</ref> and acetylation <ref type="bibr" target="#b19">[20]</ref> control Arc expression levels by promoting or suppressing proteasomal degradation, respectively. SUMOylation, which regulates Arc function in synaptic scaling <ref type="bibr" target="#b20">[21]</ref>, strengthens Arc's association with drebrin A, a protein that promotes actin assembly in dendritic spines <ref type="bibr" target="#b21">[22]</ref>. Palmitoylation of Arc, which was first reported by our laboratory, is required for maximal synaptic weakening in response to LTD protocols <ref type="bibr" target="#b22">[23]</ref>. Arc has also been reported to undergo phosphorylation by several kinases, including glycogen synthase kinase (GSK)3α and GSK3β, which regulate its proteasomal degradation <ref type="bibr" target="#b23">[24]</ref>, extracellular signal-regulated kinase (ERK), which regulates its subcellular localization <ref type="bibr" target="#b24">[25]</ref>, Ca 2+ /calmodulin-dependent protein kinase IIα (CaMKIIα), which regulates its oligomerization <ref type="bibr" target="#b25">[26]</ref>, and TRAF2 and NCK-interacting protein kinase (TNIK), which regulates both its subcellular distribution and self-assembly <ref type="bibr" target="#b26">[27]</ref>. Although protein kinase C (PKC) has long been implicated in both LTP and LTD <ref type="bibr" target="#b27">[28]</ref>, the function and regulation of PKC-mediated Arc phosphorylation have not been examined. In this study, we have identified serines 84 and 90 as the major in vitro PKC-phosphorylated residues. These residues reside within the second α-helical segment (helix H2) in the N-terminal domain of Arc. To mimic the effect of phosphorylation, we mutated the two serines to negatively charged glutamic acid. These "phosphomimetic" mutations resulted in a reduced propensity of Arc to undergo palmitoylation, reduced binding to nucleic acids, and reduced stability of high-order oligomers. The la er two characteristics were also displayed by the deletion of H2 and of segments within H2. Taken together, these results suggest that PKC phosphorylation within the H2 helix suppresses palmitoylation-dependent aspects of LTD and intercellular transport of RNA by virus-like Arc particles.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Identification of PKC Phosphorylation Sites in Arc</head><p>To identify regions in the Arc molecule that contain the major PKC phosphorylation sites, we first mapped its approximate domain boundaries by limited proteolysis. As shown by Myrum et al. <ref type="bibr" target="#b28">[29]</ref> and secondary structure predictions, such as PSIPRED <ref type="bibr" target="#b29">[30]</ref> (Figure <ref type="figure" target="#fig_3">2A</ref>), Arc can be divided roughly into two domains connected by a long intrinsi-cally disordered segment, which is hypersensitive to proteolysis. Bacterially expressed His 6 -Arc was subjected to limited papain digestion, and the most stable fragments were identified using mass spectrometry and N-terminal sequencing. Three major fragments of approximately 33, 30, and 24 kDa (by SDS-PAGE) were obtained (Figure <ref type="figure" target="#fig_3">2B</ref>), with all three originating from the C-terminal portion of Arc and initiating, respectively, at residues Val 152 , Ile 179 , and Ser 195 . Based on these results, we attempted to express and purify glutathione-S-transferase (GST)-tagged N-terminal domain (NTD; residues 1-151) and C-terminal domain (CTD; residues 152-396) fragments. GST-Arc 1-151 did not express well, so we expressed full-length GST-Arc with two tobacco etch virus (TEV) protease sites, one after GST (to remove GST) and the other after residue 151 to obtain the N-and C-terminal fragments. Although Arc 152-396 was completely soluble, Arc 1-151 fell out of solution immediately upon proteolysis (Figure <ref type="figure" target="#fig_3">2C</ref>). This finding was consistent with that of <ref type="bibr">Hallin et al. [31]</ref>, who reported that C-terminal constructs of Arc are soluble, even at concentrations greater than 10 mg/mL, whereas Arc 1-130 is insoluble.</p><p>Arc 152-396 has a calculated molecular weight of ~28 kDa but an apparent molecular weight by SDS gel electrophoresis of ~36 kDa. The anomalous electrophoretic migration of this fragment is likely due to its low calculated isoelectric point of 4.42. Sedimentation velocity analysis (Figure <ref type="figure" target="#fig_3">2D</ref>) revealed that Arc 152-396 is a monodisperse protein with a sedimentation coefficient of approximately 1.9 S, a molecular weight of ~29,000, and a frictional ratio of ~1.70-1.85, considerably higher than the f/f 0 range of about 1.15-1.25 characteristic of globular proteins <ref type="bibr" target="#b31">[32]</ref>. A high frictional ratio is indicative of protein asymmetry and/or extensive intrinsic disorder and flexibility. Arc 152-396 has a calculated molecular mass of ~28 kDa, confirming prior reports that the Arc CTD is almost exclusively monomeric in solution <ref type="bibr">[31]</ref>. This finding was supported by chemical cross-linking analysis using glutaraldehyde (Figure <ref type="figure" target="#fig_3">2E</ref>).</p><p>Int. J. Mol. Sci. 2024, 25, x FOR PEER REVIEW 3 of 16</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Identification of PKC Phosphorylation Sites in Arc</head><p>To identify regions in the Arc molecule that contain the major PKC phosphorylation sites, we first mapped its approximate domain boundaries by limited proteolysis. As shown by Myrum et al. <ref type="bibr" target="#b28">[29]</ref> and secondary structure predictions, such as PSIPRED <ref type="bibr" target="#b29">[30]</ref> (Figure <ref type="figure" target="#fig_3">2A</ref>), Arc can be divided roughly into two domains connected by a long intrinsically disordered segment, which is hypersensitive to proteolysis. Bacterially expressed His6-Arc was subjected to limited papain digestion, and the most stable fragments were identified using mass spectrometry and N-terminal sequencing. Three major fragments of approximately 33, 30, and 24 kDa (by SDS-PAGE) were obtained (Figure <ref type="figure" target="#fig_3">2B</ref>), with all three originating from the C-terminal portion of Arc and initiating, respectively, at residues Val 152 , Ile 179 , and Ser 195 . Based on these results, we a empted to express and purify glutathione-S-transferase (GST)-tagged N-terminal domain (NTD; residues 1-151) and C-terminal domain (CTD; residues 152-396) fragments. GST-Arc 1-151 did not express well, so we expressed full-length GST-Arc with two tobacco etch virus (TEV) protease sites, one after GST (to remove GST) and the other after residue 151 to obtain the N-and C-terminal fragments. Although Arc 152-396 was completely soluble, Arc 1-151 fell out of solution immediately upon proteolysis (Figure <ref type="figure" target="#fig_3">2C</ref>). This finding was consistent with that of Hallin et al.</p><p>[31], who reported that C-terminal constructs of Arc are soluble, even at concentrations greater than 10 mg/mL, whereas Arc 1-130 is insoluble.</p><p>Arc 152-396 has a calculated molecular weight of ~28 kDa but an apparent molecular weight by SDS gel electrophoresis of ~36 kDa. The anomalous electrophoretic migration of this fragment is likely due to its low calculated isoelectric point of 4.42. Sedimentation velocity analysis (Figure <ref type="figure" target="#fig_3">2D</ref>) revealed that Arc 152-396 is a monodisperse protein with a sedimentation coefficient of approximately 1.9 S, a molecular weight of ~29,000, and a frictional ratio of ~1.70-1.85, considerably higher than the f/f0 range of about 1.15-1.25 characteristic of globular proteins <ref type="bibr" target="#b31">[32]</ref>. A high frictional ratio is indicative of protein asymmetry and/or extensive intrinsic disorder and flexibility. Arc 152-396 has a calculated molecular mass of ~28 kDa, confirming prior reports that the Arc CTD is almost exclusively monomeric in solution <ref type="bibr">[31]</ref>. This finding was supported by chemical cross-linking analysis using glutaraldehyde (Figure <ref type="figure" target="#fig_3">2E</ref>).  Using the double-TEV GST-Arc construct, we determined that residues phosphorylated by PKC in vitro are concentrated in Arc NTD , whereas those phosphorylated by the MAP kinase ERK2 are located almost exclusively within Arc CTD , as reported previously <ref type="bibr" target="#b24">[25]</ref> (Figure <ref type="figure" target="#fig_6">3A</ref>). Arc contains four serine residues (S84, S90, S260, and S390) predicted to undergo phosphorylation by PKC <ref type="bibr" target="#b1">[2]</ref>. Two of these putative PKC sites, S84 and S90, are located within the second α-helical segment of Arc NTD (residues 84-132, which we designate as "H2" in Figure <ref type="figure" target="#fig_0">1</ref>). Phosphorylation of S84 was detected in a high-throughput screen (PhosphoSite) <ref type="bibr" target="#b33">[34]</ref> but has not been further investigated. Deletion of H2 diminished PKCα-mediated phosphorylation of Arc by approximately 6-fold (Figure <ref type="figure" target="#fig_6">3B,</ref><ref type="figure">C</ref>). We confirmed by mutational analysis that serines 84 and 90 account for at least 80% of the PKC phosphorylation of segment H2 (Figure <ref type="figure" target="#fig_6">3D</ref>). Figure <ref type="figure" target="#fig_6">3E</ref> shows the structure of residues 29-137, encompassing helices H1 and H2, as predicted by AlphaFold <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref>. The PKC phosphorylation sites are near the hinge between the two helices and in close proximity to the palmitoylation motif.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Introduction of PKC Phosphomimetic Mutations Does Not Prevent High-Order Oligomerization of Arc</head><p>At physiologic pH and ionic strength, Arc self-associates in vitro into multiple oligomeric species with diameters ranging from about 4 nm (monomer) to 20-35 nm (30-40mers) <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b36">37]</ref>. The physiological significance of Arc self-assembly has not been conclusively established, but its potential importance was highlighted by the aforementioned demonstration that Arc forms virus-like particles that may encapsulate mRNA for delivery into the extra-neuronal space <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. To test whether the introduction of negative (D) Identification of the major sites of in vitro Arc phosphorylation by PKC. Serines 84 and 90 were mutated to glutamic acid either individually or together and Arc mutants were phosphorylated with PKC for the indicated times. 32 P i incorporation was calculated as % incorporated into Arc WT (estimated as 0.13, 0.15, and 0.15 mol/mol after 10 min, and 0.32, 0.34, and 0.55 mol/mol after 40 min). Phosphorylation of Arc ∆H2 is shown for comparison. Quantitative analysis is from three separate experiments. Arc concentration in all phosphorylation assays was 5 µM. (E) AlphaFold representation of Arc residues 29-137, which contains helix H1 (residues 33-70) and helix H2 (residues 84-132).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Introduction of PKC Phosphomimetic Mutations Does Not Prevent High-Order Oligomerization of Arc</head><p>At physiologic pH and ionic strength, Arc self-associates in vitro into multiple oligomeric species with diameters ranging from about 4 nm (monomer) to 20-35 nm (30-40-mers) <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b36">37]</ref>. The physiological significance of Arc self-assembly has not been conclusively established, but its potential importance was highlighted by the aforementioned demonstration that Arc forms virus-like particles that may encapsulate mRNA for delivery into the extra-neuronal space <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. To test whether the introduction of negative charges at PKC-phosphorylated sites affects Arc self-association, we compared the hydrodynamic radii of Arc WT and Arc S84,90E at ~20 µM concentration using dynamic light scattering (DLS). As shown in Figure <ref type="figure" target="#fig_8">4A</ref>,B, Arc WT and Arc S84,90E had hydrodynamic radii (R H ) of ~22 nm and 17.5 nm, respectively. These values are consistent with those obtained previously by DLS and electron microscopy and indicate that phosphomimetic mutations do not inhibit the formation of high-order Arc oligomers. However, we cannot use these R H values to estimate precise oligomeric states, as Arc is ~40% intrinsically disordered and, hence, is unlikely to assume an ideal globular morphology.</p><p>Int. J. Mol. Sci. 2024, 25, x FOR PEER REVIEW 6 of 1 charges at PKC-phosphorylated sites affects Arc self-association, we compared the hydro dynamic radii of Arc WT and Arc S84,90E at ~20 µM concentration using dynamic light sca er ing (DLS). As shown in Figure <ref type="figure" target="#fig_8">4A</ref>,B, Arc WT and Arc S84,90E had hydrodynamic radii (RH) o ~22 nm and 17.5 nm, respectively. These values are consistent with those obtained previ ously by DLS and electron microscopy and indicate that phosphomimetic mutations do not inhibit the formation of high-order Arc oligomers. However, we cannot use these RH values to estimate precise oligomeric states, as Arc is ~40% intrinsically disordered and hence, is unlikely to assume an ideal globular morphology. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Effect of Phosphomimetic Mutations on Palmitoylation</head><p>Palmitoylation is the reversible a achment of 16-carbon palmitoyl chains, usually to cysteines, catalyzed by specific protein acyltransferases (PATs). We reported that Arc un dergoes palmitoylation in neurons and localized the palmitoylated cysteines to a moti (94CLCRC98) within the N-terminal region of helix H2 <ref type="bibr" target="#b22">[23]</ref>. Expression of a non-pal mitoylatable mutant in Arc knockout mice failed to rescue Arc-dependent mechanisms o synaptic depression. Although a relatively small percentage of Arc is palmitoylated, the specific palmitoyl-Arc pool may play important roles in the neuron. For example, &lt;1% o PICK1 is palmitoylated in neurons, yet palmitoylated PICK1 is required for the induction of LTD in the cerebellum <ref type="bibr" target="#b38">[39]</ref>. Because the palmitoylation motif is in close proximity to the PKC phosphorylation sites, we tested whether the introduction of the S-to-E mutation of residues Ser84 and Ser90 influenced Arc palmitoylation. To do so, we used the acyl resin-assisted capture (acyl-RAC) method, whereby palmitoylated proteins are firs treated with methyl methanethiosulfonate to block free thiols, then incubated with hy droxylamine (NH2OH) to expose hitherto palmitoylated sul ydryls, captured on thiopro pyl-Sepharose resin, and identified by immunoblo ing <ref type="bibr" target="#b39">[40]</ref>. Parallel samples are incu bated with NaCl instead of NH2OH to control for false positives. As shown in Figure <ref type="figure" target="#fig_10">5A</ref> palmitoylation (i.e., capture after NH2OH treatment) was reduced almost to the same lev els by mutation of the palmitoylation sites (C94,96,98S), by double mutation of the PKC phosphorylation sites (S84,90E), or by triple mutation of the PKC sites and of the only other phosphorylatable residue in H2, Ser132 (S84,90,132E). We note that Ser 132 is pre dicted to be a substrate for CaMKII. Results are quantified in Figure <ref type="figure" target="#fig_10">5B</ref>. Because the phos phomimetic mutations decrease palmitoylation to essentially the same levels as the muta tion of the palmitoylated cysteines, we conclude that PKC phosphorylation abrogates Arc palmitoylation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Effect of Phosphomimetic Mutations on Palmitoylation</head><p>Palmitoylation is the reversible attachment of 16-carbon palmitoyl chains, usually to cysteines, catalyzed by specific protein acyltransferases (PATs). We reported that Arc undergoes palmitoylation in neurons and localized the palmitoylated cysteines to a motif ( 94 CLCRC 98 ) within the N-terminal region of helix H2 <ref type="bibr" target="#b22">[23]</ref>. Expression of a nonpalmitoylatable mutant in Arc knockout mice failed to rescue Arc-dependent mechanisms of synaptic depression. Although a relatively small percentage of Arc is palmitoylated, the specific palmitoyl-Arc pool may play important roles in the neuron. For example, &lt;1% of PICK1 is palmitoylated in neurons, yet palmitoylated PICK1 is required for the induction of LTD in the cerebellum <ref type="bibr" target="#b38">[39]</ref>. Because the palmitoylation motif is in close proximity to the PKC phosphorylation sites, we tested whether the introduction of the S-to-E mutations of residues Ser84 and Ser90 influenced Arc palmitoylation. To do so, we used the acylresin-assisted capture (acyl-RAC) method, whereby palmitoylated proteins are first treated with methyl methanethiosulfonate to block free thiols, then incubated with hydroxylamine (NH 2 OH) to expose hitherto palmitoylated sulfhydryls, captured on thiopropyl-Sepharose resin, and identified by immunoblotting <ref type="bibr" target="#b39">[40]</ref>. Parallel samples are incubated with NaCl instead of NH 2 OH to control for false positives. As shown in Figure <ref type="figure" target="#fig_10">5A</ref>, palmitoylation (i.e., capture after NH 2 OH treatment) was reduced almost to the same levels by mutation of the palmitoylation sites (C94,96,98S), by double mutation of the PKC phosphorylation sites (S84,90E), or by triple mutation of the PKC sites and of the only other phosphorylatable residue in H2, Ser132 (S84,90,132E). We note that Ser 132 is predicted to be a substrate for CaMKII. Results are quantified in Figure <ref type="figure" target="#fig_10">5B</ref>. Because the phosphomimetic mutations decrease palmitoylation to essentially the same levels as the mutation of the palmitoylated cysteines, we conclude that PKC phosphorylation abrogates Arc palmitoylation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Effect of Phosphomimetic Mutations on Nucleic Acid Binding</head><p>Arc interacts with nucleic acids, accounting for the relatively high ratios of absorb ance at 260 and 280 nm (A260/280) of about 1.0 observed for purified, bacterially expressed Arc <ref type="bibr" target="#b15">[16]</ref>. The stripping Arc of its bound RNA reduces its A260/280 ratio to about 0.7 and prevents its assembly into a relatively homogeneous population of ~32 nm particles tha resemble viral capsids in cryo-electron micrographs <ref type="bibr" target="#b15">[16]</ref>. Moreover, the addition of eithe an irrelevant mRNA (that of GFP) or Arc mRNA to purified Arc protein was found to increase its oligomerization <ref type="bibr" target="#b40">[41]</ref>. We previously reported that precipitation of bacterially expressed Arc with 35% ammonium sulfate (AS) strips Arc of its bound (presumably bac terial) mRNA, reducing its A260/280 from ~1.0 to ~0.6, as expected for a nucleic acid-free protein <ref type="bibr" target="#b41">[42]</ref>. In the spectrum presented in Figure <ref type="figure" target="#fig_12">6A</ref> (top panel), Arc WT purified withou AS precipitation displays an A260/280 of ~0.9. In contrast, the A260/280 of Arc S84,90E purified without AS precipitation is ~0.55 (Figure <ref type="figure" target="#fig_12">6A</ref>, bo om panel), indicating that phosphomi metic PKC mutations inhibit nucleic acid binding. As expected, AS treatment diminished the A260/280 ratio of Arc WT to ~0.55 (Figure <ref type="figure" target="#fig_12">6B</ref>, top panel) but had no effect on the A260/280 o Arc S84,90E (Figure <ref type="figure" target="#fig_12">6B</ref>, bo om panel). Consistent with these results, the supernatant obtained after AS-mediated stripping of nucleic acids from Arc WT had an A260/280 of ~2.0, indicative of pure RNA (Figure <ref type="figure" target="#fig_12">6C</ref>, top panel), whereas almost no signal was evident in the super natant obtained after AS precipitation of Arc S84,90E (Figure <ref type="figure" target="#fig_12">6C</ref>, bo om panel). Thus, PKC phosphorylation appears to inhibit the interaction of Arc with mRNA. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Effect of Phosphomimetic Mutations on Nucleic Acid Binding</head><p>Arc interacts with nucleic acids, accounting for the relatively high ratios of absorbance at 260 and 280 nm (A 260/280 ) of about 1.0 observed for purified, bacterially expressed Arc <ref type="bibr" target="#b15">[16]</ref>. The stripping Arc of its bound RNA reduces its A 260/280 ratio to about 0.7 and prevents its assembly into a relatively homogeneous population of ~32 nm particles that resemble viral capsids in cryo-electron micrographs <ref type="bibr" target="#b15">[16]</ref>. Moreover, the addition of either an irrelevant mRNA (that of GFP) or Arc mRNA to purified Arc protein was found to increase its oligomerization <ref type="bibr" target="#b40">[41]</ref>. We previously reported that precipitation of bacterially expressed Arc with 35% ammonium sulfate (AS) strips Arc of its bound (presumably bacterial) mRNA, reducing its A 260/280 from ~1.0 to ~0.6, as expected for a nucleic acid-free protein <ref type="bibr" target="#b41">[42]</ref>. In the spectrum presented in Figure <ref type="figure" target="#fig_12">6A</ref> (top panel), Arc WT purified without AS precipitation displays an A 260/280 of ~0.9. In contrast, the A 260/280 of Arc S84,90E purified without AS precipitation is ~0.55 (Figure <ref type="figure" target="#fig_12">6A</ref>, bottom panel), indicating that phosphomimetic PKC mutations inhibit nucleic acid binding. As expected, AS treatment diminished the A 260/280 ratio of Arc WT to ~0.55 (Figure <ref type="figure" target="#fig_12">6B</ref>, top panel) but had no effect on the A 260/280 of Arc S84,90E (Figure <ref type="figure" target="#fig_12">6B</ref>, bottom panel). Consistent with these results, the supernatant obtained after AS-mediated stripping of nucleic acids from Arc WT had an A 260/280 of ~2.0, indicative of pure RNA (Figure <ref type="figure" target="#fig_12">6C</ref>, top panel), whereas almost no signal was evident in the supernatant obtained after AS precipitation of Arc S84,90E (Figure <ref type="figure" target="#fig_12">6C</ref>, bottom panel). Thus, PKC phosphorylation appears to inhibit the interaction of Arc with mRNA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Effect of Phosphomimetic Mutations on the Elution of Arc from Gel Filtration Columns</head><p>Arc elutes from size-exclusion chromatography (SEC) columns in several distinct but overlapping peaks, consistent with the presence of at least three low-order oligomeric species (Stokes' radii (R S ) of ~7 nm, ~6.1 nm, and ~4.4 nm) and one high-order (greater than 20-mer) species eluting near the void volume (V o ) <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b41">42]</ref>. A typical elution profile from a Superdex 200 column (exclusion limit = 1.3 × 10 6 Da) is reproduced in Figure <ref type="figure" target="#fig_14">7A</ref>. As we previously reported <ref type="bibr" target="#b41">[42]</ref>, the removal of bound nucleic acids by 35% AS precipitation eliminated the high-order oligomeric peak (Figure <ref type="figure" target="#fig_14">7B</ref>). We note that the DLS analysis shown in Figure <ref type="figure" target="#fig_8">4A</ref> was performed with AS-treated (and, hence, nucleotide-free) Arc WT at concentrations similar to those used in our SEC measurements. The presence of highorder oligomers in the DLS scans, but not in the gel filtration profiles, of AS-treated Arc WT suggests that high-order oligomers dissociate into lower-order species as they elute through the ~100 mL gel filtration columns. Nucleic acids apparently stabilize high-order Arc oligomers, suppressing their complete dissociation into low-order species during gel filtration. The high-order oligomeric peak is not evident in gel filtration profiles of AS-untreated Arc S84,90E (Figure <ref type="figure" target="#fig_14">7C</ref>), consistent with the absence of bound nucleotides. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Effect of Phosphomimetic Mutations on the Elution of Arc from Gel Filtration Columns</head><p>Arc elutes from size-exclusion chromatography (SEC) columns in several distinct but overlapping peaks, consistent with the presence of at least three low-order oligomeric species (Stokes' radii (RS) of ~7 nm, ~6.1 nm, and ~4.4 nm) and one high-order (greater than 20-mer) species eluting near the void volume (Vo) <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b41">42]</ref>. A typical elution profile from a Superdex 200 column (exclusion limit = 1.3 × 10 6 Da) is reproduced in Figure <ref type="figure" target="#fig_14">7A</ref>. As we previously reported <ref type="bibr" target="#b41">[42]</ref>, the removal of bound nucleic acids by 35% AS precipitation eliminated the high-order oligomeric peak (Figure <ref type="figure" target="#fig_14">7B</ref>). We note that the DLS analysis shown in Figure <ref type="figure" target="#fig_8">4A</ref> was performed with AS-treated (and, hence, nucleotide-free) Arc WT at concentrations similar to those used in our SEC measurements. The presence of highorder oligomers in the DLS scans, but not in the gel filtration profiles, of AS-treated Arc WT suggests that high-order oligomers dissociate into lower-order species as they elute through the ~100 mL gel filtration columns. Nucleic acids apparently stabilize high-order Arc oligomers, suppressing their complete dissociation into low-order species during gel filtration. The high-order oligomeric peak is not evident in gel filtration profiles of ASuntreated Arc S84,90E (Figure <ref type="figure" target="#fig_14">7C</ref>), consistent with the absence of bound nucleotides. The H2 domain was previously implicated in nucleic acid binding by the observation that mutation of residues 113-119 inhibits the enhancement of Arc self-assembly by exogenous mRNAs <ref type="bibr" target="#b40">[41]</ref>. We sought to further localize nucleic acid binding determinants in H2 by measuring A 260/280 of a set of Arc deletion mutants lacking either the entire H2 domain (Arc ∆H2 ) or only residues 91-100 (the endophilin binding motif <ref type="bibr" target="#b7">[8]</ref>), 94-127 (which contains an Arc dimerization determinant <ref type="bibr" target="#b40">[41]</ref>), or 108-124 (which folds into an amphipathic helix). We also measured A 260/280 of the CTD (residues 152-396) and of a deletion mutant lacking helix H1 (residues 33-70, which was originally termed the "coiled-coil domain"). All proteins were prepared with or without AS precipitation to test for the stripping of bound nucleic acids. As shown in Table <ref type="table" target="#tab_0">1</ref>, deletion of H2 or any segment within H2 eliminated nucleic acid binding, even in the absence of AS treatment. Likewise, no nucleic acid binding to the CTD was observed. In contrast, Arc ∆H1 displayed similar nucleic acid binding to Arc WT and retained significant binding even upon AS precipitation. Thus, it appears that the presence of helix H1, which is in close contact with helix H2 according to AlphaFold prediction (Figure <ref type="figure" target="#fig_6">3E</ref>), suppresses the H2-mRNA interaction, whereas its removal strengthens the interaction, rendering it less sensitive to AS-mediated stripping.</p><p>To test whether the absence of bound nucleic acids destabilizes high-order Arc oligomers, we subjected each of the deletion mutants to gel filtration chromatography. Figure <ref type="figure" target="#fig_16">8A</ref>,B shows that the removal of helix H2 or segments within H2 results in the loss of the peak eluting near the void volume of Superdex 200 columns, despite samples being prepared without AS treatment. In contrast, a large pool of AS-treated or untreated Arc ∆H1 elutes near the void volume, supporting the possibility that helix H1 is an auto-inhibitor of nucleic acid binding.  The H2 domain was previously implicated in nucleic acid binding by the observation that mutation of residues 113-119 inhibits the enhancement of Arc self-assembly by exogenous mRNAs <ref type="bibr" target="#b40">[41]</ref>. We sought to further localize nucleic acid binding determinants in H2 by measuring A260/280 of a set of Arc deletion mutants lacking either the entire H2 domain (Arc ΔH2 ) or only residues 91-100 (the endophilin binding motif <ref type="bibr" target="#b7">[8]</ref>), 94-127 (which con- mers, we subjected each of the deletion mutants to gel filtration chromatography. Figure <ref type="figure" target="#fig_16">8A</ref>,B shows that the removal of helix H2 or segments within H2 results in the loss of the peak eluting near the void volume of Superdex 200 columns, despite samples being prepared without AS treatment. In contrast, a large pool of AS-treated or untreated Arc ΔH1 elutes near the void volume, supporting the possibility that helix H1 is an auto-inhibitor of nucleic acid binding.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Discussion</head><p>This report introduces potential mechanisms of Arc regulation by PKC. First, serines 84 and 90 were identified as the major PKC phosphorylation sites. These residues are located in the N-terminal region of the second α-helix in Arc, helix H2, which comprises amino acids 84-132. Helix H2 has already been recognized as a key locus of Arc regulation. We previously reported that H2 contains a palmitoylation motif (residues 94-98) <ref type="bibr" target="#b21">[22]</ref>, and others have identified a SUMOylation site (Lys110) <ref type="bibr" target="#b42">[43]</ref> and binding sites for endophilin (residues 91-100) <ref type="bibr" target="#b7">[8]</ref> and presenilin-1 (residues 91-130) <ref type="bibr" target="#b43">[44]</ref>. H2 also contains the principal determinants of Arc self-association and mRNA binding <ref type="bibr" target="#b40">[41]</ref>. In this study, we have focused on the potential roles of PKC phosphorylation on Arc palmitoylation and its interaction with nucleic acids.</p><p>Dynamic protein palmitoylation is a key mechanism in the control of synaptic plasticity <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>. In addition to targeting peripheral proteins, such as Arc, to membranes and membrane subdomains, palmitoylation can influence protein stability, subcellular localization, and protein-protein interactions. We reported a role for Arc palmitoylation in synaptic depression <ref type="bibr" target="#b21">[22]</ref>, but it is likely that additional functions of this modification will be identified. Reciprocal relationships between protein phosphorylation in the nervous system have been reported. Palmitoylation of synapsin 1, which controls synaptic vesicle clustering, is inhibited by PKA-mediated phosphorylation <ref type="bibr" target="#b46">[47]</ref>. Likewise, palmitoylation of the dopamine transporter (DAT), which increases dopamine transport and reduces DAT downregulation, is inhibited by PKC-mediated phosphorylation <ref type="bibr" target="#b47">[48]</ref>. In these examples, the phosphorylation sites are far apart in the protein primary structures. The close proximity of the PKC and palmitoylation sites in Arc raises the possibility that phosphorylation suppresses the direct interaction of Arc with its membrane-associated palmitoyltransferase(s).</p><p>A puzzle concerning Arc regulation of synaptic plasticity is its ability to drive both LTP and LTD, as well as the more recently discovered activity of intercellular mRNA transport in secreted virus-like particles. It seems likely that mechanisms underlying the switching of Arc between one activity and another involve changes in its post-translational modifications and macromolecular interactions. For example, Bramham's group has shown that SUMOylated Arc interacts with the actin regulatory protein drebrin, which has been implicated in LTP, whereas non-SUMOylated Arc interacts with elements of the AMPA receptor endocytic machinery, which contributes to LTD <ref type="bibr" target="#b21">[22]</ref>. Our data suggest that PKC phosphorylation of Arc may inhibit some aspects of synaptic depression by suppression of its palmitoylation, as well as intercellular communication by suppression of its mRNA binding and destabilization of capsid-like Arc oligomers. In this context, it is important to note that CaMKII-mediated phosphorylation of Ser260 within the Arc Gag-like domain inhibits metabotropic receptor-dependent LTD, and that a phosphomimetic S260D mutation inhibits the formation of high-order Arc oligomers <ref type="bibr" target="#b25">[26]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Materials</head><p>Resins: Ni 2+ -NTA resin (Roche, Indianapolis, IN, USA); Pierce glutathione agarose (Thermo Fisher Scientific, Waltham, MA, USA); Q-Sepharose (Sigma-Aldrich, St. Louis, MO, USA). Phosphorylation reagents: [γ 32 P]ATP (PerkinElmer, Waltham, MA, USA); phosphatidylserine (PS) and 1,2-dioleoyl-SN-glycerol (DAG) (Avanti Polar Lipids, Alabaster, AL, USA); protein kinase Cα (PKCα) (ProSpec, Rehovot, Israel). Proteases: papain (Sigma-Aldrich); His 6 -MBP-tagged tobacco etch virus (TEV) protease (Elizabeth Goldsmith, UT Southwestern). Mouse Arc cDNA, cloning reagents, and reagents for mutagenesis were from Thermo Fisher Scientific. Primers were from Invitrogen. pGST-parallel1 vector was a gift from Hong Zhang, UT Southwestern. The anti-Flag antibody (F1804 monoclonal anti-mouse) was from Sigma-Aldrich. Reagents for electrophoresis were from Bio-Rad Laboratories, Hercules, CA, USA. HEPES, Tris, protease inhibitor cocktail (cOmplate CO-RO), lysozyme, glutaraldehyde, Triton X-100, and other reagents were from Sigma-Aldrich.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Constructs for Expression of Recombinant Wild-Type (WT) and Mutant Arc</head><p>To obtain His 6 -Arc, mouse Arc cDNA was cloned into the pQE-80L expression vector as described previously <ref type="bibr" target="#b36">[37]</ref>. To obtain GST-Arc with a TEV cleavage site (ENLYFQ) at the N terminus, mouse Arc cDNA was cloned into the pGST-parallel1 vector. This GST-Arc construct was also used as a template for making deletion and truncation constructs by PCR. GST-Arc with a second TEV site was generated by first introducing an EcoR1 site between residues 151 and 152 and then inserting an oligonucleotide duplex of the TEV cleavage site into the EcoR1 site. Point mutations were required to correct a VG-to-EF mutation caused by the introduction of the EcoR1 site.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Protein Purification</head><p>Arc and Arc deletion/truncation mutants were expressed in E. coli Rosetta 2 cells and purified as previously described <ref type="bibr" target="#b36">[37]</ref>. Cells were harvested after growing for 20 h at 16 • C. His 6 -Arc or GST-Arc was extracted from the bacterial pellet with solution A (20 mM HEPES, pH 8.0, 100 mM NaCl, 5 mM DTT, protease inhibitor cocktail, and 0.2 mM phenylmethylsulfonyl fluoride (PMSF)) and 0.05 mg/mL lysozyme. The extract was centrifuged at 100,000× g for 1 h and the supernatant was incubated either with Ni 2+ -NTA resin (for His 6 -Arc) or glutathione resin (for GST-Arc) for at least 4 h at 4 • C. Details of His 6 -Arc preparation were described previously <ref type="bibr" target="#b36">[37]</ref>. Extracts containing GST-Arc were incubated with glutathione resin either directly or after precipitation of Arc with ammonium sulfate at 35% saturation. The resin was first washed with solution A, then with solution A containing 0.2 % Triton X-100, and finally with solution A containing 2 M NaCl (without detergent). The washed resin was eluted either glutathione to obtain GST-Arc or incubated with TEV protease to release Arc. Arc was dialyzed against solution B (20 mM HEPES, pH 7.5, 100 mM NaCl, 0.5 mM TCEP (reducing agent), and PMSF). If further purification was necessary, samples were subjected to anion-exchange chromatography on Q-Sepharose. His 6 -tagged TEV was removed by incubation of Arc samples with Ni 2+ -NTA. Purified Arc was aliquoted and stored at -70 • C. To remove aggregates that formed during storage, proteins were centrifuged at 230,000× g for 15 min at 4 • C immediately before each experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Phosphorylation of Arc</head><p>Arc (5 µM) was incubated for different times with ERK2 or PKC in a buffer containing 20 mM HEPES, pH 7.5, 0.1 M NaCl, 15 mM MgCl 2, and 0.1 mM ATP at 30 • C. To activate PKC, reaction mixtures contained additionally 1 mM CaCl 2 and phosphatidylserine/diacylglycerol (PS/DAG) liposomes. To determine the extent of phosphorylation, [γ-32 P] ATP was used (100 cpm/pmol). The reaction was terminated by boiling in the SDS mix and running on SDS gels. Arc bands were excised from Coomassie blue-stained gels and the amount of 32 P was measured by scintillation counting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">Size-Exclusion Chromatography (SEC)</head><p>Gel filtration chromatography of Arc and Arc fragments was carried out by FPLC on a HiLoad 16/600 Superdex 200 column (GE Healthcare, Chicago, IL, USA). Precleared Arc samples in solution B were injected into the column, which was equilibrated and eluted with the same buffer. Elution patterns were monitored by absorbance at 280 nm (A 280 ). A 260 was also measured, and fractions were analyzed by SDS-PAGE and Coomassie blue staining. Calibration standards included Blue Dextran 2000 (void volume (V o )), thyroglobulin (R S : 19 nm), ferritin (R S : 6.1 nm), catalase (R S : 5.2 nm), aldolase (R S : 4.8 nm), BSA (R S : 3.6 nm), ovalbumin (R S : 3 nm), cytochrome c (R S : 1.6 nm), and ATP (total volume (V t )).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">Chemical Cross-Linking</head><p>Protein samples in 100 µL buffer B were treated at room temperature with 5 µL of freshly diluted 25% glutaraldehyde solution to obtain final glutaraldehyde concentrations from 0.0025% to 0.05%. Reactions were terminated with 10 µL of 1 M Tris-HCl, pH 8.0. Cross-linked proteins were analyzed by SDS-PAGE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.7.">Analytical Ultracentrifugation (AUC)</head><p>All AUC experiments were conducted in the sedimentation velocity (SV) mode using a Beckman Coulter Optima XL-I centrifuge. Protein samples (in solution B) were prepared and incubated overnight at 4 • C. Protein solutions were introduced into the sample sectors of standard dual-sectored charcoal-filled Epon centerpieces that had been sandwiched between two sapphire windows in a cylindrical housing <ref type="bibr" target="#b48">[49]</ref>. The reference sectors were filled with a matched buffer. The assembled centrifugation cells were inserted into an An50-Ti rotor and allowed to equilibrate at the experimental temperature (20 • C) for ~2.5 h. Centrifugation was performed at 50,000 rpm, and the time-dependent proteinconcentration profiles were measured using absorbance optics tuned to 280 nm. The SV data were time-stamp corrected <ref type="bibr" target="#b49">[50]</ref> using REDATE 1.0.1 (https://www.utsouthwestern. edu/research/core-facilities/mbr/software/). The corrected data were analyzed using the c(s) methodology in SEDFIT <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref> at a resolution of 150, and maximum-entropy regularization with a confidence level of 0.683. SEDNTERP <ref type="bibr" target="#b52">[53]</ref> was used to calculate partial-specific volumes, solution densities, and solution viscosities. Figures were rendered in GUSSI <ref type="bibr" target="#b37">[38]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.8.">Dynamic Light Scattering</head><p>DLS experiments were carried out in a Dynapro Nanostar instrument (Wyatt Technologies, Santa Barbara, CA, USA) at 25 • C in a buffer containing 20 mM HEPES pH 7.5, 100 mM NaCl, and mM TCEP. Samples (5 µL at approximately 20 µM) were dispensed into a quartz cuvette and irradiated with visible light at 661 nm. Autocorrelation data were acquired by averaged ten autocorrelation functions that had been collected for 5 s each. Three technical replicates were acquired. Data were analyzed using Dynamics, which was used in the regularization mode to calculate hydrodynamic radius distributions as shown in Figure <ref type="figure" target="#fig_7">4</ref>. Radii (R H ) were calculated from the translational diffusion coefficient (D), directly obtained by DLS, according to the Stokes-Einstein equation: D = kT/(6πηR H ), where k = Boltzmann's constant, η = viscosity, and T = absolute temperature. Figures were rendered in GUSSI <ref type="bibr" target="#b37">[38]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.9.">Palmitoylation</head><p>Palmitoylation was detected using the acyl-resin-assisted capture (acyl-RAC) method <ref type="bibr" target="#b39">[40]</ref>, as described in detail by <ref type="bibr">Barylko et al. [22]</ref>. Briefly, HeLa cells transfected with Flag-tagged Arc, WT, or mutants, were solubilized with 2.5% SDS in 100 mM HEPES (7.5), 1 mM EDTA, 0.2 mM PMSF, protease inhibitor cocktail, and 50 mM dithiothreitol (DTT). Lysates were incubated at 40 • C for 0.5 h (to reduce potential S-S bonds) and then for an additional 4 h with methyl methanethiosulfonate (MMTS) to block free thiols. Excess MMTS was removed by protein precipitation and washing with acetone. Dried pellets were re-solubilized in 1% SDS and mixed with thiopropyl-Sepharose resin in the presence of either hydroxylamine (NH 2 OH) to cleave thioester bonds or 2 M NaCl as a control for false positives. Proteins with free thiols (i.e., from cysteines that were originally palmitoylated before NH 2 OH treatment) were captured on the resin. After extensive washing, proteins released from the resin were analyzed by SDS-PAGE and identified by immunoblotting with anti-Flag antibody in the LiCOR Odyssey system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.10.">Other Methods</head><p>HeLa cells (ATCC, Manassas, VA, USA) were cultured in DMEM supplemented with 10% fetal bovine serum and antibiotics. They were transfected with Lipofectamine 2000 according to the manufacturer's instructions and were used 20-24 h after transfection. Protein concentration was determined using the modified Lowry method <ref type="bibr" target="#b53">[54]</ref> according to Peterson <ref type="bibr" target="#b54">[55]</ref> with BSA as a standard. SDS-PAGE was carried out according to Laemmli <ref type="bibr" target="#b55">[56]</ref>. For immunoblotting, proteins were transferred to nitrocellulose and immunoblotted with the indicated antibodies. Bound primary antibodies were detected and quantified using fluorescently labeled secondary antibodies in the LI-COR system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>We report that Arc is phosphorylated in vitro by PKC on serines 84 and 90 within the second α-helix (helix H2) in the N-terminal domain. This modification is likely to impact the cellular functions of Arc, as helix H2 contains critical determinants of Arc self-association, palmitoylation, SUMOylation, and interactions with nucleic acids. Indeed, we found that phosphomimetic mutations (Ser-to Glu) of residues 84 and 90 disrupt Arc palmitoylation, nucleic acid binding, and high-order oligomerization. Future investigations should be directed at monitoring the effects of plasticity-inducing stimuli on PKC phosphorylation of Arc in cultured neurons. To establish the functional significance of our observations, it will be necessary to introduce Arc-containing phosphomimetic (Ser-to-Glu) and phosphoinhibiting (Ser-to-Ala) mutations in neurons from Arc knockout mice.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Sites of Arc post-translational modifications. Details and references are provided in the text.</figDesc><graphic coords="2,165.92,498.02,384.72,170.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Sites of Arc post-translational modifications. Details and references are provided in the text.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Identification of N-and C-terminal domains of Arc. (A) Prediction of secondary structure of mouse Arc using the PSIPRED program [30]. Arrows: β-strands; cylinders: α-helices; black lines: intrinsically disordered segments, as predicted by DisEMBL [33]. (B) Proteolytic cleavage of His6-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Identification of N-and C-terminal domains of Arc. (A) Prediction of secondary structure of mouse Arc using the PSIPRED program [30]. Arrows: β-strands; cylinders: α-helices; black lines: intrinsically disordered segments, as predicted by DisEMBL [33]. (B) Proteolytic cleavage of His 6 -Arc by papain at 26 • C and an enzyme:Arc ratio of 1:500 for indicated times. N-terminal sequences of selected fragments, obtained by Edman degradation, are indicated. (C) Preparation of GST-Arc with two TEV cleavage sites before and after incubation with TEV. Supernatants (S) and pellets (P) were obtained after centrifugation at 230,000× g for 15 min. tot: total digest. GST-Arc was cleaved at a TEV:Arc ratio of 1:100 for 4 h at 4 • C. In panels B and C, samples were run on 12% SDSpolyacrylamide gels and stained with Coomassie blue. (D) Sedimentation velocity size distributions of three concentrations of Arc 152-396 . The c(s) distributions have been normalized by the areas under the respective curves. Concentrations are shown in the inset. (E) Gluteraldehyde cross-linking of Arc WT (10 µM) and Arc 152-396 (18 µM). Samples were cross-linked with 0.05% glutaraldehyde for 10 min. Samples were subjected to SDS-PAGE on a 10% gel, which was then stained with Coomassie blue.</figDesc><graphic coords="3,168.95,408.76,372.96,179.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Int. J. Mol. Sci. 2024, 25, x FOR PEER REVIEW 5 of 16</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Identification of in vitro PKC phosphorylation sites in Arc. (A) Phosphorylation of the double-TEV GST-Arc construct, shown in Figure 2C, by PKC and ERK. Two left lanes: Coomassie blue-stained gels of proteins. Four right lanes: 32 P incorporation into PKC-and ERK-phosphorylated GST-Arc before and after TEV proteolysis. Arc (NTD) is predominantly phosphorylated by PKC; Arc (CTD) is predominantly phosphorylated by ERK. (B) Scheme showing deletion of helix H2 (top panel) and time course of in vitro phosphorylation of Arc WT and Arc ΔH2 by PKC (bo om panel). 32 P, autoradiogram; CB, Coomassie blue-stained gels. (C) Quantified levels of 32 Pi incorporation. (D) Identification of the major sites of in vitro Arc phosphorylation by PKC. Serines 84 and 90 were mutated to glutamic acid either individually or together and Arc mutants were phosphorylated with PKC for the indicated times. 32 Pi incorporation was calculated as % incorporated into Arc WT (estimated as 0.13, 0.15, and 0.15 mol/mol after 10 min, and 0.32, 0.34, and 0.55 mol/mol after 40 min). Phosphorylation of Arc ΔH2 is shown for comparison. Quantitative analysis is from three separate experiments. Arc concentration in all phosphorylation assays was 5 µM. (E) AlphaFold representation of Arc residues 29-137, which contains helix H1 (residues 33-70) and helix H2 (residues 84-132).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Identification of in vitro PKC phosphorylation sites in Arc. (A) Phosphorylation of the double-TEV GST-Arc construct, shown in Figure 2C, by PKC and ERK. Two left lanes: Coomassie blue-stained gels of proteins. Four right lanes: 32 P incorporation into PKC-and ERK-phosphorylated GST-Arc before and after TEV proteolysis. Arc (NTD) is predominantly phosphorylated by PKC; Arc (CTD) is predominantly phosphorylated by ERK. (B) Scheme showing deletion of helix H2 (top panel) and time course of in vitro phosphorylation of Arc WT and Arc ∆H2 by PKC (bottom panel). 32 P, autoradiogram; CB, Coomassie blue-stained gels. (C) Quantified levels of 32 P i incorporation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Dynamic light sca ering analysis of Arc. Effect of PKC phosphomimetic mutations on Ar self-association. Three technical replicates of hydrodynamic radius distributions of ~20 µM of (A Arc WT and (B) Arc S84,90E are shown. Figures were rendered in GUSSI [38].</figDesc><graphic coords="5,167.47,292.53,307.03,132.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Dynamic light scattering analysis of Arc. Effect of PKC phosphomimetic mutations on Arc self-association. Three technical replicates of hydrodynamic radius distributions of ~20 µM of (A) Arc WT and (B) Arc S84,90E are shown. Figures were rendered in GUSSI [38].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>16 Figure 5 .</head><label>165</label><figDesc>Figure 5. Effect of mimicking PKC phosphorylation on Arc palmitoylation. (A) Analysis of pal mitoylation of WT and mutant Arc. Hela cells were transfected with WT Flag-Arc or its mutants, a indicated, and processed for palmitoylation as described in Section 4. C94,96,98S is a non-pal mitoylated mutant, characterized in a previous report 22 . Immunoblo ing was performed with anti Flag antibodies. (B) Quantification of Arc palmitoylation. Filled orange square represents pal mitoylation of the S84,90E mutant; open orange squares represent palmitoylation of the S84,90,132E mutant.</figDesc><graphic coords="6,166.94,111.21,268.22,187.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Effect of mimicking PKC phosphorylation on Arc palmitoylation. (A) Analysis of palmitoylation of WT and mutant Arc. Hela cells were transfected with WT Flag-Arc or its mutants, as indicated, and processed for palmitoylation as described in Section 4. C94,96,98S is a non-palmitoylated mutant, characterized in a previous report 22 . Immunoblotting was performed with anti-Flag antibodies. (B) Quantification of Arc palmitoylation. Filled orange square represents palmitoylation of the S84,90E mutant; open orange squares represent palmitoylation of the S84,90,132E mutant.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Effect of mimicking PKC phosphorylation on the interaction of Arc with nucleic acids. (A,B) UV absorbance scans of Arc WT and Arc S84,90E prepared without (A) or with (B) 35% ammonium sulfate precipitation. (C) UV absorbance scans of supernatants obtained after precipitation of Arc WT or Arc S84,90E with 35% ammonium sulfate. Red lines designate 260 nm and 280 nm wavelengths.</figDesc><graphic coords="7,45.68,180.83,504.48,184.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Effect of mimicking PKC phosphorylation on the interaction of Arc with nucleic acids. (A,B) UV absorbance scans of Arc WT and Arc S84,90E prepared without (A) or with (B) 35% ammonium sulfate precipitation. (C) UV absorbance scans of supernatants obtained after precipitation of Arc WT or Arc S84,90E with 35% ammonium sulfate. Red lines designate 260 nm and 280 nm wavelengths.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Effect of phosphomimetic mutations on the behavior of Arc during size-exclusion chromatography. (A,B) Superdex 200 elution profiles of Arc WT prepared without (A) or with (B) ammonium sulfate (AS) treatment. One mL of 60 µM (-AS) or 80 µM (+AS) Arc was loaded. The inset in the upper panel shows the profile of absorbance ratios measured at 260 nm and 280 nm. Arrows above the profile designate standards: thyroglobulin (RS: 19 nm), catalase (RS: 5.2 nm), and BSA (RS: 3.67 nm). Red le ers above the peaks indicate predicted elution positions of Arc monomers (M), dimers (D), trimers or tetramers (T), and high-order oligomers (H). (C) Elution profile of Arc S84,90E (56 µM load) not treated with AS. All chromatography runs were carried out at 4 °C.</figDesc><graphic coords="8,164.27,260.60,234.43,379.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Effect of phosphomimetic mutations on the behavior of Arc during size-exclusion chromatography. (A,B) Superdex 200 elution profiles of Arc WT prepared without (A) or with (B) ammonium sulfate (AS) treatment. One mL of 60 µM (-AS) or 80 µM (+AS) Arc was loaded. The inset in the upper panel shows the profile of absorbance ratios measured at 260 nm and 280 nm. Arrows above the profile designate standards: thyroglobulin (R S : 19 nm), catalase (R S : 5.2 nm), and BSA (R S : 3.67 nm). Red letters above the peaks indicate predicted elution positions of Arc monomers (M), dimers (D), trimers or tetramers (T), and high-order oligomers (H). (C) Elution profile of Arc S84,90E (56 µM load) not treated with AS. All chromatography runs were carried out at 4 • C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. of disrupting segment H2 on Arc oligomerization. (A) Chromatography of Arc WT and Arc deletion mutants on Superdex 200. Top panel: elution profile of Arc WT , prepared in the absence of AS, reproduced for comparison from Figure 7A. Bo om panel: Chromatography of Arc deletion mutants on Superdex 200. Arc ΔH1 (25 µM) was prepared with or without AS treatment. Arc ΔH2 (55 µM) and Arc 94-127 (35 µM) were prepared without AS treatment. (B) Chromatography of Arc mutants containing deletions within helix H2. All samples were prepared without AS treatment. Loading concentrations were as follows: Arc Δ91-100 , 60 µM; Arc ΔAH (deletion of residues 108-124), 70 µM; Arc ΔH2 (reproduced from panel A), 55 µM; CTD: 85 µM. Chromatography was carried out at 4 °C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Effect of disrupting segment H2 on Arc oligomerization. (A) Chromatography of Arc WT and Arc deletion mutants on Superdex 200. Top panel: elution profile of Arc WT , prepared in the absence of AS, reproduced for comparison from Figure 7A. Bottom panel: Chromatography of Arc deletion mutants on Superdex 200. Arc ∆H1 (25 µM) was prepared with or without AS treatment. Arc ∆H2 (55 µM) and Arc 94-127 (35 µM) were prepared without AS treatment. (B) Chromatography of Arc mutants containing deletions within helix H2. All samples were prepared without AS treatment. Loading concentrations were as follows: Arc ∆91-100 , 60 µM; Arc ∆AH (deletion of residues 108-124), 70 µM; Arc ∆H2 (reproduced from panel (A)), 55 µM; CTD: 85 µM. Chromatography was carried out at 4 • C.</figDesc><graphic coords="9,89.35,87.67,415.68,286.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Effect of mutations on nucleic acid binding.</figDesc><table><row><cell></cell><cell>Construct</cell><cell cols="2">Absorbance (260 nm/280 nm)</cell><cell></cell></row><row><cell></cell><cell></cell><cell>-AS</cell><cell>+AS</cell><cell></cell></row><row><cell></cell><cell>Full-length</cell><cell>0.86</cell><cell>0.55</cell><cell></cell></row><row><cell cols="2">∆H1 (aa 33-70 deleted)</cell><cell>0.85</cell><cell>0.77</cell><cell></cell></row><row><cell cols="2">∆H2 (aa 84-132 deleted)</cell><cell>0.50</cell><cell>0.53</cell><cell></cell></row><row><cell></cell><cell>∆91-100</cell><cell>0.55</cell><cell>0.53</cell><cell></cell></row><row><cell cols="2">∆AH (aa 108-124 deleted)</cell><cell>0.46</cell><cell>0.45</cell><cell></cell></row><row><cell>Int. J. Mol. Sci. 2024, 25, x FOR PEER REVIEW</cell><cell>S84,90E</cell><cell>0.54</cell><cell>0.53</cell><cell>9 of 16</cell></row><row><cell cols="2">CTD (aa 152-396)</cell><cell>0.58</cell><cell>0.54</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding: This research was funded by <rs type="funder">National Institutes of Health (NIH)</rs> grants <rs type="grantNumber">MH119516</rs> (D.M.J. and J.P.A.) and <rs type="grantNumber">GM129088</rs> (G.N.D.) and by a <rs type="funder">Welch Foundation</rs> grant <rs type="grantNumber">I1243</rs> (M.H.C.).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_qhPq29X">
+					<idno type="grant-number">MH119516</idno>
+				</org>
+				<org type="funding" xml:id="_cPkpX8C">
+					<idno type="grant-number">GM129088</idno>
+				</org>
+				<org type="funding" xml:id="_4bEJhf6">
+					<idno type="grant-number">I1243</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Data are contained within the article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head><p>GSK: glycogen synthase kinase; TCEP: tris(2-carboxyethyl)phosphine; TEV: tobacco etch virus; TNIK: TRAF2 and NCK-interacting protein kinase.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Arc, a growth factor and activity-regulated gene, encodes a novel cytoskeleton-associated protein that is enriched in neuronal dendrites</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Lyford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamagata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Copeland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Lanahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Worley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0896-6273(95)90299-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="433" to="445" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Somatodendritic expression of an immediate early gene is regulated by synaptic activity</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Konietzko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kauselmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schwanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuhl</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.92.12.5734</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="5734" to="5738" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mechanisms and functions of activity-regulated cytoskeleton-associated protein in synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Long</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12035-023-03442-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="5738" to="5754" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Arc regulates transcription of genes for plasticity, excitability and Alzheimer&apos;s disease</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Foo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vandongen</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/biomedicines10081946</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomedicines</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="1946">2022. 1946</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">New views of Arc, a master regulator of synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Bear</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn.2708</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="279" to="284" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Arc in synaptic plasticity: From gene to behavior</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Korb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Finkbeiner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tins.2011.08.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="591" to="598" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Arc/Arg3.1 function in long-term synaptic plasticity: Emerging mechanisms and unresolved issues</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bramham</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ejn.14958</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="6696" to="6712" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Arc/Arg3.1 interacts with the endocytic machinery to regulate AMPA receptor trafficking</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lyford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Petralia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Plath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Huganir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Worley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2006.08.033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="445" to="459" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Arc/Arg3.1 mediates homeostatic synaptic scaling of AMPA receptors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rumbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Plath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Huganir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Worley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2006.08.034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="475" to="484" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Rapid translation of Arc/Arg3.1 selectively mediates mGluR-dependent LTD through persistent increases in AMPAR endocytosis rate</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Waung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Nosyreva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Ronesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Huber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2008.05.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="84" to="97" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The mechanistic link between Arc/Arg3.1 expression and AMPA receptor endocytosis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A L</forename><surname>Corrêa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.semcdb.2017.09.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="17" to="24" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Local protein synthesis, actin dynamics, and LTP consolidation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bramham</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.conb.2008.09.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="524" to="531" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Regulation of spine structural plasticity by Arc/Arg3.1. Semin</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Newpher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pringle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Soderling</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.semcdb.2017.09.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="25" to="32" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Structural basis of arc binding to synaptic proteins: Implications for cognitive disease</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Leahy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Worley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2015.03.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="490" to="500" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Computational characterization of multiple Gag-like human proteins</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Campillos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Doerks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tig.2006.09.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="585" to="589" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The neuronal gene Arc encodes a repurposed retrotransposon Gag protein that mediates intercellular RNA transfer</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Pastuzyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Kearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kyrke-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Taibi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccormick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Belnap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Erlendsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Morado</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2017.12.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="275" to="288" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Retrovirus-like Gag protein Arc1 binds RNA and traffics across synaptic boutons</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cordy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lucia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Fradkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Budnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thomson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2017.12.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="262" to="274" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Transcriptional and post-translational regulation of Arc in synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Henley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.semcdb.2017.09.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="3" to="9" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Arc ubiquitination in synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mabb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ehlers</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.semcdb.2017.09.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="10" to="16" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Chemogenomic analysis reveals key role for lysine acetylation in regulating Arc stability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lalonde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Reis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivakumaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wesseling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Sauld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alural</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Haggarty</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-01750-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="1659">2017. 1659</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">SUMOylation, Arc and the regulation of homeostatic synaptic scaling: Implications in health and disease</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Henley</surname></persName>
+		</author>
+		<idno type="DOI">10.4161/cib.21712</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Integr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="634" to="636" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Dynamic Arc SUMOylation and selective interaction with F-actin-binding protein drebrin A in LTP cosolidation in vivo</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tiron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kanhema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Panja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Parobczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wilczynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bramham</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnsyn.2017.00008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Synaptic Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Palmitoylation and membrane binding of Arc/Arg3.1: A potential role in synaptic depression</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barylko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Cavalier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Binns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Jameson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Albanesi</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.biochem.7b00959</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="520" to="524" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">GSK3α and GSK3β phosphorylate Arc and regulate its degradation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gozdz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nikolaienko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Urbanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Cymerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sitkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blazejczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dadlez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bramham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jaworski</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnmol.2017.00192</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mol. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2017">2017. 192</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Stimulus-evoked ERK-dependent phosphorylation of activityregulated cytoskeleton-associated protein (Arc) regulates its neuronal subcellular localization</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nikolaienko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Eriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bramham</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroscience.2017.07.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="68" to="80" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Arc oligomerization is regulated by CaMKII phosphorylation of the GAG domain: An essential mechanism for plasticity and memory formation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Savonenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2019.05.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="13" to="25" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>e5. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Phosphorylation-dependent control of Activity-regulated cytoskeleton-associated protein (Arc) protein by TNIK</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walczyk-Mooradally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Holborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tyler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Patnaik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wesseling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Brandon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Graether</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Haggarty</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jnc.15440</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="1058" to="1073" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Conventional protein kinase C in the brain: 40 years later. Neuronal Signal. 2017, 1, NS20160005</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Callender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Newton</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/NS20160005</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Arc is a flexible modular protein capable of reversible self-oligomerization</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Myrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bustad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Flydal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mariaule</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alvira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cuéllar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Haavik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Soulé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Valpuesta</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BJ20141446</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">468</biblScope>
+			<biblScope unit="page" from="145" to="158" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Protein secondary structure prediction based on position-specific scoring matrices</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="page" from="195" to="202" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Structure of monomeric full-length ARC sheds light on molecular flexibility, protein interactions, and functional modalities</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Hallin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Eriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baryshnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nikolaienko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grødem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bramham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kursula</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jnc.14556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="323" to="343" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tanford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry of Macromolecules</title>
+		<imprint>
+			<date type="published" when="1961">1961</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Chapter 6</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Protein disorder prediction: Implications for structural proteomics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Linding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Diella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.str.2003.10.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1453" to="1459" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">PhosphoSitePlus 2014: Mutations, PTMs and recalibrations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Hornbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kornhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Latham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Skrzypek</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gku1267</idno>
+		<idno>512-D520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Highly accurate protein structure prediction with AlphFold</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pritzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figurnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tunyasuvunakool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Žídek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Potapenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03819-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="page" from="583" to="589" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">AlphFold protein structure database: Massively expanding the structural coverage of protein-sequence space with high-accuracy models</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Varadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anyango</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deshpande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Natassia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yordanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Stroe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Laydon</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="439" to="D444" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Byers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barylko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Southworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Estrada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Waung</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbagen.2015.03.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1850</biblScope>
+			<biblScope unit="page" from="1310" to="1318" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Calculations and publication-quality illustrations for analytical ultracentrifugation data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Brautigam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">562</biblScope>
+			<biblScope unit="page" from="109" to="134" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">DHHC8-dependent PICK1 palmitoylation is required for induction of cerebellar long-term synaptic depression</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Huganir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Linden</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.1283-13.2013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="15401" to="15407" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Site-specific analysis of protein S-acylation by resin-assisted capture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Forrester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hultman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moseley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Stamler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Casey</surname></persName>
+		</author>
+		<idno type="DOI">10.1194/jlr.D011106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="393" to="398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Arc self-association and formation of virus-like capsids are mediated by an N-terminal helical coil motif</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Eriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nikolaienko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Hallin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grødem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bustad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Flydal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Merski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lascu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akerkar</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/febs.15618</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="2930" to="2955" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Hedde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Malacrida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barylko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Binns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Albanesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Jameson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Membrane remodeling by Arc/Arg3. 1 Front. Mol. Biosci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">630625</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Homeostatic synaptic scaling is regulated by protein SUMOylation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jaafari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Petrovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Mellor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Henley</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M112.356337</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="22781" to="22788" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Arc/Arg3.1 regulates an endosomal pathway essential for activity-dependent β-amyloid generation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Petralia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kurushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Volk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dehoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2011.09.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="615" to="628" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Insights into protein S-palmitoylation in synaptic plasticity and neurological disorders: Potential and limitations of methods for detection and analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zaręba-Kozioł</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Figiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bartkowiak-Kaczmarek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Włodarczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnmol.2018.00175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mol. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">175</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Palmitoylated proteins in dendritic spine remodeling. Front. Synaptic Neurosci</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Albanesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barylko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Demartino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Jameson</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnsyn.2020.00022</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Crosstalk of synapsin1 palmitoylation and phosphorylation controls the dynamicity of synaptic vesicles in neurons</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41419-022-05235-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Reciprocal phosphorylation and palmitoylation control dopamine transporter kinetics</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Moritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Rastedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stanislowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Vaughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Foster</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M115.667055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="page" from="29095" to="290105" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Basic Principles of Analytical Ultracentrifugation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Brautigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ghirlando</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>CRC Press</publisher>
+			<pubPlace>Boca Raton, FL, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Recorded scan times can limit the accuracy of sedimentation coefficients in analytical ultracentrifugation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ghirlando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Piszczek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Curth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Brautigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schuck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ab.2013.02.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">437</biblScope>
+			<biblScope unit="page" from="104" to="108" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Size-distribution analysis of proteins by analytical ultracentrifugation: Strategies and application to model systems</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Perugini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Gonzales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Howlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schubert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(02)75469-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1096" to="1111" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Size distribution analysis of macromolecules by sedimentation velocity ultracentrifugation and Lamm equation modeling</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schuck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(00)76713-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1606" to="1619" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Computer-aided interpretation of analytical sedimentation data for proteins</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Laue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ridgeway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Analytical Ultracentrifugation in Biochemistry and Polymer Science</title>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Harding</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Rowe</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Horton</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>UK</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="page" from="90" to="125" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Protein measurement with the Folin phenol reagent</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">H</forename><surname>Lowry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Rosebrough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Farr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Randall</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0021-9258(19)52451-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="265" to="275" />
+			<date type="published" when="1951">1951</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A simplification of the protein assay method of Lowry et al. which is more generally applicable</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Peterson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0003-2697(77)90043-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="346" to="356" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Cleavage of structural proteins during the assembly of the head of bacteriophage T4</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">K</forename><surname>Laemmli</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/227680a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="page" from="680" to="685" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">S-Palmitoylation of Junctional Adhesion Molecule C Regulates Its Tight Junction Localization and Cell Migration * □ S</title>
+				<funder>
+					<orgName type="full">Royal Thai government</orgName>
+				</funder>
+				<funder ref="#_HZsQypy">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_jGvETnR">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-02-14">February 14, 2017,</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pornpun</forename><surname>Aramsangtienchai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry and Chemical Biology</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<address>
+									<postCode>14853</postCode>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicole</forename><forename type="middle">A</forename><surname>Spiegelman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry and Chemical Biology</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<address>
+									<postCode>14853</postCode>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ji</forename><surname>Cao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry and Chemical Biology</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<address>
+									<postCode>14853</postCode>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hening</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry and Chemical Biology</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<address>
+									<postCode>14853</postCode>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">S-Palmitoylation of Junctional Adhesion Molecule C Regulates Its Tight Junction Localization and Cell Migration * □ S</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-02-14">February 14, 2017,</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">81714C1DC44E13ECAE600B6C968E91EC</idno>
+					<idno type="DOI">10.1074/jbc.M116.730523</idno>
+					<note type="submission">Received for publication, July 26, 2016, and in revised form, February 10, 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-04T08:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Junctional adhesion molecule C (JAM-C) is an immunoglobulin superfamily protein expressed in epithelial cells, endothelial cells, and leukocytes. JAM-C has been implicated in leukocyte transendothelial migration, angiogenesis, cell adhesion, cell polarity, spermatogenesis, and metastasis. Here, we show that JAM-C undergoes S-palmitoylation on two juxtamembrane cysteine residues, Cys-264 and Cys-265. We have identified DHHC7 as a JAM-C palmitoylating enzyme by screening all known palmitoyltransferases (DHHCs). Ectopic expression of DHHC7, but not a DHHC7 catalytic mutant, enhances JAM-C S-palmitoylation. Moreover, DHHC7 knockdown decreases the S-palmitoylation level of JAM-C. Palmitoylation of JAM-C promotes its localization to tight junctions and inhibits transwell migration of A549 lung cancer cells. These results suggest that S-palmitoylation of JAM-C can be potentially targeted to control cancer metastasis.</p><p>Junctional adhesion molecule C (JAM-C) 3 is a member of the JAM family and is localized at the cell-cell contact sites, in particular the tight junction (TJ) region of endothelial and epithelial cells (1-3). JAM-C is a type I transmembrane protein with two conserved immunoglobulin-like domains in the extracellular amino (N)-terminal region (Fig. <ref type="figure">1A</ref>). At its intracellular carboxyl (C)-terminal region, JAM-C contains a PDZ-binding domain motif, which allows JAM-C to interact with other PDZ motif-containing proteins at the TJ, including ZO-1 and PAR-3 (1-3).</p><p>JAM-C has been found to regulate leukocyte adhesion and transmigration across endothelial cells through a heterophilic interaction between endothelial JAM-C and leukocyte integrin MAC-1 (␣M␤2) (4). JAM-C is essential for polarized round spermatids, and JAM-C-deficient mice have defective spermatid differentiation (5). JAM-C deletion in mice leads to neurop-athy, and some Jam-C mutations affect the integrity of the vascular system and brain (6, 7).</p><p>Recently, JAM-C has been shown to play a role in metastasis and development of certain cancer cells (8 -11). In melanoma cells, the homophilic JAM-C/JAM-C trans-interaction between melanoma cells and endothelial cells promotes metastasis (12). Additionally, the JAM-C expression level in fibrosarcoma and lung cancer cells is reported to be positively correlated to metastasis. Knocking down JAM-C in highly metastatic lung cancer cells leads to a decrease in cell migration (8, 13). JAM-C, therefore, could be a therapeutic target for certain cancers.</p><p>Cys palmitoylation (S-palmitoylation), a reversible lipid post-translational modification, is the addition of a 16-carbon palmitoyl group onto cysteine residues of proteins via a labile thioester bond. S-Palmitoylation plays a crucial role in cell signaling, localization, and protein-protein interactions (14, 15). Palmitoyltransferases (DHHCs) catalyze S-palmitoylation. To date, 23 mammalian DHHCs have been identified <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref>. Here we showed that JAM-C undergoes S-palmitoylation on two membrane-proximal cysteine residues (Cys-264 and Cys-265), and this modification can be catalyzed by DHHC7. We found that S-palmitoylation of JAM-C promotes its localization to the cell-cell contact region and regulates cell migration.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>JAM-C Is S-Palmitoylated on Two Conserved Juxtamembrane Cysteine Residues, Cys-264 and Cys-265-In addition to a PDZ-binding domain, the JAM-C intracellular C terminus contains two transmembrane proximal cysteine residues (Fig. <ref type="figure" target="#fig_0">1A</ref>). These two cysteine residues are conserved across multiple mammalian species, suggesting these residues may have an important role (Fig. <ref type="figure" target="#fig_0">1B</ref>). Moreover, JAM-C has been identified in palmitoyl-protein proteomics studies as a protein that potentially has Cys palmitoylation, but it was not validated <ref type="bibr" target="#b17">(18)</ref>. To test whether S-palmitoylation occurs on JAM-C, we used a metabolic labeling strategy using an alkyne-tagged palmitic acid analogue (Alk14) <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b19">20)</ref>. Jurkat cells and human umbilical vein endothelial cells were cultured in the presence of Alk14, and endogenous JAM-C was immunoprecipitated and conjugated to BODIPY-azide via click chemistry (Fig. <ref type="figure" target="#fig_1">2A</ref>). JAM-C had fluorescent labeling, suggesting that it contains fatty acylation (Fig. <ref type="figure" target="#fig_1">2B</ref>). Similar results were obtained from ectopically expressed FLAG-tagged JAM-C in human embryonic kidney 293T (HEK-293T) cells (Fig. <ref type="figure" target="#fig_1">2C</ref> and supplemental Fig. <ref type="figure" target="#fig_0">S1</ref>).</p><p>To further confirm that this modification occurs on cysteine residues, we mutated Cys-264 and Cys-265 to serine. We observed a significant decrease in the fluorescence signal of the single cysteine mutants C264S and C265S. However, the C264S mutation had a more profound effect on the fluorescence signal. Furthermore, we observed no fluorescence signal for the double cysteine mutant C264S/C265S (CCSS for short). These results indicated that S-palmitoylation on JAM-C depends on both Cys-264 and Cys-265 (Fig. <ref type="figure" target="#fig_1">2, D</ref> and<ref type="figure">E</ref>). After the samples were treated with 0.5 M hydroxylamine (pH 10.0), most of the fluorescence signal on FLAG-JAM-C was removed (Fig. <ref type="figure" target="#fig_1">2F</ref>), further confirming that JAM-C has cysteine palmitoylation. However, there was some hydroxylamine-resistant signal, similar to what was observed with TNF-␣, a protein with lysine myristoylation <ref type="bibr" target="#b20">(21)</ref>.</p><p>To ensure that the hydroxylamine treatment was sufficient, we compared the labeling of FLAG-JAM-C before and after hydroxylamine treatment with the labeling of the FLAG-TNF␣ mutant (K19R/K20R), a protein that has only cysteine palmitoylation <ref type="bibr" target="#b20">(21)</ref>, as well as other membrane proteins reported to have S-palmitoylation such as transferrin receptor 1 <ref type="bibr" target="#b21">(22)</ref> and Syntaxin6 <ref type="bibr" target="#b17">(18)</ref>. After hydroxylamine treatment, the majority, if not all, of the labeling on the other proteins was removed. However, some FLAG-JAM-C fluorescence signal remained (supplemental Fig. <ref type="figure" target="#fig_1">S2, A</ref> and<ref type="figure">B</ref>). However, there was a noticeable decrease in fluorescence signal after hydroxylamine treatment, supporting that JAM-C has cysteine palmitoylation.</p><p>To determine whether JAM-C has lysine fatty acylation, we mutated all the cytosolic lysine residues to arginine (K276R/ K283R/K287R (3KR) and K276R/K283R/K287R/K305R (4KR)) and examined the fatty acylation signal. There was no significant change in the fluorescence signal with the 3KR and 4KR mutants compared with WT JAM-C, suggesting that the fatty acylation we detected for JAM-C does not come from lysine fatty acylation (Fig. <ref type="figure" target="#fig_1">2F</ref>).</p><p>JAM-C Is a DHHC7 Target-We next wanted to identify palmitoyltransferases that can control JAM-C S-palmitoylation. In mammals, there are 23 DHHC enzymes known to act as palmitoyltransferases. We co-overexpressed HA-tagged DHHC1-23 with FLAG-tagged JAM-C in HEK-293T cells and examined the fatty acylation level using the Alk14 metabolic labeling approach. From the initial DHHC screening and subsequent comparison of JAM-C palmitoylation levels with DHHC7 and DHHC15 overexpressed (Fig. <ref type="figure" target="#fig_2">3</ref>, A and B, and supplemental Fig. <ref type="figure" target="#fig_2">S3</ref>), we decided to further validate DHHC7 as a palmitoyltransferase of JAM-C. However, because the screening result might be complicated by DHHC and JAM-C expression levels, we could not rule out that other DHHCs may also palmitoylate JAM-C.</p><p>To confirm that DHHC7 can directly catalyze the palmitoylation of JAM-C, we examined the S-palmitoylation of JAM-C with co-expression of wild type DHHC7 and a catalytic dead mutant, DHHS7, in which the conserved catalytic cysteine residue is mutated to serine. As expected, only overexpression of DHHC7, but not DHHS7, augmented the JAM-C fatty acylation level in HEK-293T cells (Fig. <ref type="figure" target="#fig_3">4A</ref>). Similar results were also obtained in U87 cells (Fig. <ref type="figure" target="#fig_3">4B</ref>). These results suggest that the catalytic activity of DHHC7 is required for the S-palmitoylation of JAM-C.</p><p>Additionally, we investigated whether DHHC7 could interact with JAM-C. HA-tagged DHHC7 was co-overexpressed with FLAG-tagged JAM-C in HEK-293T cells. We carried out HA and FLAG pulldown experiments. Indeed, HA-tagged DHHC7 was able to pull down FLAG-tagged JAM-C and vice versa, suggesting that JAM-C physically interacts with DHHC7 (Fig. <ref type="figure" target="#fig_3">4C</ref>). In contrast, FLAG-JAM-C and HA-DHHC15 did not exhibit a strong interaction as the signal is only slightly above the background on the Western blots (Fig. <ref type="figure" target="#fig_3">4C</ref>).</p><p>Knockdown of DHHC7 Decreases JAM-C S-Palmitoylation-Ectopic expression of the DHHCs might affect the selectivity of the enzyme and possibly lead to an increase in S-palmitoylation of nonspecific targets <ref type="bibr" target="#b22">(23)</ref>. To verify that JAM-C is a palmitoylation target of endogenous DHHC7, we generated DHHC7, DHHC12, and DHHC15 stable knockdown HEK-293T cells using shRNAs targeting DHHC7, DHHC12, and DHHC15 mRNA, respectively. We then examined the JAM-C palmitoylation level (Fig. <ref type="figure" target="#fig_4">5, A-C</ref>). Knockdown of DHHC7 led to a decrease in the JAM-C palmitoylation level compared with the control with scrambled shRNA, whereas no significant difference in JAM-C palmitoylation was observed in DHHC12 and DHHC15 knockdown cells. These results demonstrate that JAM-C is a palmitoylation target of endogenous DHHC7. Based on the BioGPS gene database, the DHHC7 gene expression level in the lung is relatively high compared with other tissues. Thus, we also looked at JAM-C palmitoylation in A549 lung cancer cells. DHHC7 stable knockdown in A549 cells decreased JAM-C palmitoylation (Fig. <ref type="figure" target="#fig_4">5, D</ref> and<ref type="figure">E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S-Palmitoylation Promotes JAM-C Localization to the TJ-To further understand the physiological function of JAM-C</head><p>S-palmitoylation, we investigated whether this modification is required for the TJ localization of JAM-C. FLAG-tagged JAM-C WT and the palmitoylation-deficient CCSS mutant were ectopically expressed in A549 lung cancer cells. The cells were stained with anti-FLAG and anti-ZO-1 antibodies to visualize JAM-C and the TJ, respectively. Images were viewed and analyzed using ZEN 2012 imaging software (Zeiss). Both WT and the CCSS mutant were localized on plasma membrane or intracellular organelles. However, JAM-C WT was more concentrated at the TJ (white arrow) as indicated by the co-localization with ZO-1, whereas the CCSS mutant had very little co-localization with ZO-1 (Fig. <ref type="figure" target="#fig_5">6</ref>). The co-localization between JAM-C and ZO-1 was quantified using the Coloc2 plug-in in Fiji software and is presented as the mean of Manders' coeffi-cient (M1 and M2) ϮS.D. Thus, S-palmitoylation of JAM-C facilitates its localization to the TJ.</p><p>JAM-C S-Palmitoylation Affects Cell Migration-Because JAM-C S-palmitoylation affects its localization to the cell-cell contact TJ regions, we wondered whether it would also affect cell-cell adhesion. We therefore decided to check whether JAM-C S-palmitoylation could affect cell migration, which is influenced by cell-cell adhesion. A549 cells were transfected with FLAG-tagged JAM-C WT or the CCSS mutant for 24 h. We used a transwell migration assay, which was performed in a 24-well Transwell plate with 8-m polycarbonate sterile membranes. Overexpression of JAM-C WT dramatically decreased cell migration compared with control cells that were transfected with an empty vector. In contrast, overexpression of the non-palmitoylatable CCSS mutant only slightly decreased the cell migration compared with control cells that were transfected with an empty vector (Fig. <ref type="figure" target="#fig_6">7, A</ref> and<ref type="figure">B</ref>). The difference in cell migration was not due to the variation of cell proliferation  as there was no significant difference in cell proliferation when JAM-C WT and the CCSS mutant were overexpressed (data not shown). Thus, S-palmitoylation of JAM-C affects cell migration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Protein lipidation has become a more widely identified class of protein post-translational modifications and has been found to be involved in numerous biological pathways <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b23">24)</ref>. Here, using a bio-orthogonal palmitic acid probe <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b19">20)</ref>, we demonstrated that both endogenous and ectopically expressed JAM-C contain S-palmitoylation. S-Palmitoylation occurs on Cys-264 and Cys-265 of JAM-C. The S-palmitoylation on JAM-C is relatively resistant to hydroxylamine treatment for which the reason remains unclear. Because the hydroxylamine cleavage depends on the environment <ref type="bibr" target="#b24">(25)</ref>, one plausible explanation is the S-palmitoylation in the membrane-proximal region of JAM-C may be shielded from hydroxylamine attack. However, the decrease in labeling after hydroxylamine treatment supports that JAM-C has S-palmitoylation, which is further supported by mutagenesis studies.</p><p>The palmitoylacyltransferase family members share a conserved Asp-His-His-Cys (DHHC)-cysteine-rich domain as a catalytic domain of the enzyme <ref type="bibr" target="#b25">(26,</ref><ref type="bibr" target="#b26">27)</ref>. DHHCs have broad substrate specificity, and how substrate specificity is determined remains unclear. By screening the 23 DHHCs, we have found that overexpression of DHHC7 can substantially increase the JAM-C palmitoylation level. Moreover, we showed that knockdown of DHHC7 decreased the S-palmitoyl level of JAM-C, supporting that JAM-C is a direct palmitoylation target of endogenous DHHC7. Nevertheless, other DHHCs may also be able to regulate JAM-C palmitoylation as some DHHCs have redundant functions and act on the same targets <ref type="bibr" target="#b27">(28)</ref>.</p><p>JAM-C has previously been shown to be phosphorylated at Ser-281, and JAM-C localization at the cell-cell contact region is negatively regulated by Ser-281 phosphorylation <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref>. The JAM-C S281A mutant led to mislocalization and diffusion from the cell-cell contact region. In our case, we observed that JAM-C WT was concentrated at the cell-cell contact region, whereas the CCSS mutant was distributed more evenly on the cell membrane and in the cytosol, which is similar to the effect of S281A. It is therefore possible that there is cross-talk between the phosphorylation and S-palmitoylation of JAM-C. However, we found that the non-phosphorylable JAM-C mutant (S281A) and the phosphomimetic JAM-C mutants (S281D and S281E) had no significant effect on the S-palmitoy- lation of JAM-C (supplemental Fig. <ref type="figure" target="#fig_3">S4</ref>). We could not determine whether the CCSS JAM-C mutant can affect the phosphorylation on JAM-C due to the lack of proper antibodies to detect Ser-281 phosphorylation.</p><p>JAM-C has been reported to have homophilic interactions with JAM-C and heterophilic interactions with other PDZ domain-containing proteins such as ZO-1 and PAR3 at the cell tight junction. A possible explanation for the effect of palmitoylation on JAM-C localization is that S-palmitoylation facilitates the interaction of JAM-C with its interacting partners, leading to the enrichment of JAM-C at the cell-cell contact regions. We demonstrated for the first time that JAM-C palmitoylation can affect cell migration. Overexpression of WT JAM-C decreased migration of A549 cells, but overexpression of the non-palmitoylatable JAM-C mutant did not affect the migration much. S-Palmitoylation of CD44, an adhesion protein, has previously been found to decrease the migration of breast cancer cells, and the invasiveness of cancer is negatively correlated with palmitoylation status of CD44 <ref type="bibr" target="#b30">(31)</ref>. This is similar to our finding that WT JAM-C decreases the cell migration of A549 cells, but the non-palmitoylatable mutant did not. The effect of JAM-C palmitoylation on cell migration is likely connected to  its effect on the cell-cell contact localization of JAM-C and cell tight junction integrity. However, exactly how JAM-C palmitoylation regulates cell migration remains elusive.</p><p>Currently, only a few substrate proteins for DHHC7 are known, including Fas <ref type="bibr" target="#b31">(32)</ref>, sex steroid receptors <ref type="bibr" target="#b32">(33)</ref>, phosphatidylinositol 4-kinase II␣ <ref type="bibr" target="#b33">(34)</ref>, G␣ <ref type="bibr" target="#b34">(35)</ref>, stress-regulated exon <ref type="bibr" target="#b27">(28)</ref> and Scribble <ref type="bibr" target="#b35">(36)</ref>. Our findings expand the substrate scope of DHHC7, which eventually will help to understand the substrate specificity and function of different DHHCs.</p><p>Interestingly, a decrease in DHHC7 levels has been related to tumorigenesis <ref type="bibr" target="#b36">(37)</ref>, suggesting that DHHC7 may play a role in preventing tumorigenesis. Our findings that JAM-C palmitoylation affects cancer cell migration and that DHHC7 directly controls the palmitoylation level of JAM-C suggest that pharmacologically controlling DHHC7 could be a useful strategy to control cancer cell migration and possibly cancer metastasis. However, to fully take advantage of this, a more detailed understanding of the function of DHHC7 is needed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Procedures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JAM-C Cloning and Expression-Human JAM-C cDNA was purchased from Transomic (clone ID BC012147</head><p>). The fulllength cDNA was PCR-amplified by Platinum Pfx DNA polymerase (ThermoFisher) and subcloned into the pCMV-tag 4a vector using the BamHI and EcoRV restriction sites using the following primers: sense, 5Ј-AGTCAGGGATCCATGGCG-CTGAGGCGGCCA-3Ј; antisense, 5Ј-AGTCAGGATATC-GATCACAAACGATGACTTGTGTCT-3Ј. JAM-C mutants (C264S, C265S, and CCSS) were generated by QuikChange mutagenesis. The JAM-C in pCMV-tag 4a vector was PCRamplified using Phusion high fidelity DNA polymerase and the following mutagenic primers (the underlined nucleotide sequences code for the mutated amino acid): C264S: sense, 5Ј-CCCTGATCACGTTGGGCATCAGCTGTGCATACAG-ACGTGGCTA-3Ј; antisense, 5Ј-GATGCCCAACGTGATC-AGGG-3Ј; C265S: sense, 5Ј-TGATCACGTTGGGCAT-CTGCAGTGCATACAGACGTGGCTACTT-3Ј; antisense, 5Ј-GCAGATGCCCAACGTGATCA-3Ј; and CCSS: sense, 5Ј-CCCTGATCACGTTGGGCATCAGCAGTGCATACAG-ACGTGGCTACTT-3Ј; antisense, 5Ј-GATGCCCAACGTG-ATCAGGG-3Ј. The plasmids of DHHC1-23 in pEF-BOS-HA vector for screening were generously provided by Prof. Maurine Linder and Prof. Masaki Fukata.</p><p>Cell Culture and Transfection-HEK-293T cells were cultured in Dulbecco's modified Eagle's medium (DMEM) supplemented with 10% fetal bovine serum (Invitrogen), and Jurkat and A549 cells were cultured in Roswell Park Memorial Institute (RPMI) 1640 medium (Invitrogen) supplemented with 10% fetal bovine serum (Invitrogen). All cells were incubated in a humidified incubator at 37 °C with 5% CO 2 . FuGENE 6 transfection reagent (Promega) was used for cell transfection according to the manufacturer's instruction.</p><p>Antibodies-Anti-FLAG M2-peroxidase (HRP) antibody (mouse monoclonal IgG) for Western blotting and anti-FLAG M2 affinity gel for immunoprecipitation were purchased from Sigma (catalogue numbers A8592 and A2220, respectively). Anti-FLAG antibody (mouse monoclonal IgG1) for immunofluorescence was purchased from Cell Signaling Technology (catalogue number 8146). Secondary antibody Alexa Fluor 488 conjugate (mouse polyclonal IgG) was purchased from ThermoFisher (catalogue number A-11001). Anti-HA-peroxidase (rat IgG1) was purchased from Roche Applied Science (catalogue number 12013819001). The anti-human JAM-C antibody (mouse monoclonal IgG) was purchased from Enzo Life Sciences (catalogue number ALX-803-306), and anti-DHHC7 (rabbit IgG) antibody was purchased from Assay-Biotech (catalogue number R12-3691). All other peroxidaseconjugated secondary antibodies were from Santa Cruz Biotechnology.</p><p>Western Blotting-Cells were collected and lysed with 1% Nonidet P-40 lysis buffer (50 mM Tris-HCl (pH 7.4), 150 mM NaCl, and 1% (v/v) Nonidet P-40 (Igepal) containing protease inhibitor mixtures (Sigma)). Protein concentration was determined by Bradford assay (Pierce TM Coomassie Protein Assay kit). Protein samples were separated by 12% SDS-PAGE and transferred to PVDF membrane (Bio-Rad) for 90 min. The membrane was blocked with 5% bovine serum albumin (BSA; Santa Cruz Biotechnology) in TBST (25 mM Tris-HCl (pH 7.4), 150 mM NaCl, and 0.1% Tween 20) and incubated with the primary antibody for 3 h at room temperature or overnight at 4 °C. After washing five times with TBST, the membrane was incubated with the secondary antibody for 1 h at room temperature. The membrane was washed five more times with TBST before it was developed in ECL-Plus Western blotting detection reagent (GE Healthcare). The signal was visualized using a Typhoon 9400 variable mode imager (GE Healthcare) with 457-nm excitation and 526-nm detection filters using a photomultiplier tube setting of 600 V (normal sensitivity). The signal was analyzed by ImageQuant TL v2005 and Quantity One (Bio-Rad).</p><p>Metabolic Labeling of Palmitoylation on FLAG-tagged JAM-C-Cells were transfected with FLAG-JAM-C in pCMV4a vector. After 24 h, the cells were incubated with 50 M Alk14 in medium supplemented with 10% FBS for 6 h. Cells were collected and washed with 1ϫ phosphate-buffered saline (PBS) three times. The cell pellets were lysed with 1% Nonidet P-40 lysis buffer. The protein concentration was determined by Bradford assay (Pierce Coomassie Protein Assay kit). The expression level of FLAG-JAM-C was confirmed by Western blotting. For FLAG-JAM-C immunoprecipitation, 25 l of anti-FLAG M2 affinity gel was added into 600 g of total cell lysate with a final volume of 1 ml in an Eppendorf tube. The samples were gently agitated at 4 °C for 2 h. The samples were then centrifuged at 1,000 ϫ g for 2 min at 4 °C to remove the supernatant. The beads were washed three times with 0.1% Nonidet P-40 lysis buffer. After the last wash, all the buffer was removed. The beads were resuspended in 15 l of 0.1% Nonidet P-40 buffer. To perform the click reaction, 5.6 l of the reaction master mixture was added to each sample. The click reaction master mixture contains the following: 3 l of 1 mM BODIPYazide in N,N-dimethylformamide, 1 l of 50 mM tris(2-carboxyethyl)phosphine hydrochloride (Calbiochem) in water, 0.6 l of 10 mM tris[(1-benzyl-1H-1,2,3-triazol-4-yl)methyl] amine (Sigma) in N,N-dimethylformamide, and 1 l of 50 mM CuSO 4 in water. After 1 h at room temperature, 20 l of 3ϫ protein loading buffer (187 mM Tris-HCl (pH 6.8), 6% SDS, 150 mM DTT, 30% (v/v) glycerol, and 0.006% bromphenol blue) was added to each sample, and the samples were boiled at 95 °C for 5 min and centrifuged at 17,000 ϫ g for 2 min. The supernatants were transferred into new Eppendorf tubes and loaded for 12% SDS-PAGE. The fluorescence signal was visualized with a Typhoon 9400 variable mode imager using 488-nm excitation and 520-nm detection filters and a photomultiplier tube setting of 550 V (normal sensitivity). The signal was analyzed by ImageQuant TL v2005 and quantified by Quantity One within a linear range of exposure.</p><p>Generation of DHHC7, DHHC12, and DHHC15 Stable Knockdown in HEK-293T Cell Line-Different DHHC shRNA lentiviral plasmids in pLKO.1-puro vector were purchased from Sigma (catalogue numbers DHHC7-SHCLNG-NM_017740, shRNA1-TRCN0000143647, shRNA2-TRCN0000275633; DHHC12-SHCLNG-NM_025428; and DHHC15-SHCLNG-NM_144969). To generate the lentiviruses, low passage number HEK-293T cells in a 10-cm 3 plates were transfected with 6 g of each DHHC shRNA, 4 g of pCMV-dR8.2, and 2 g of pM2D.G mixed with 36 l of FuGENE 6 (Promega). The cell media containing the lentiviruses were collected after 48 h by centrifugation and filtered through 0.45-m syringe filter to remove cell debris. The day before infection, 3 ϫ 10 5 cells of low passage number HEK-293T cells were split into each well of a 6-well plate and grown overnight in 2 ml of DMEM with 10% FBS. The media were then removed and replaced with a mixture of 1.5 ml of the lentivirus medium collected above, 0.5 ml of fresh DMEM with 10% FBS, and 6 g/l Polybrene (Sigma). After 6 h, 3 ml of DMEM with 10% FBS was added to each well, and after 48 h, 1.5 g/l puromycin dihydrochloride (Santa Cruz Biotechnology) was added to the cells to select for stable DHHC knockdown cells.</p><p>Cell Migration Assay-A549 cells were transfected with FLAG-JAM-C WT in pCMV4a, the FLAG-tagged CCSS mutant in pCMV4a, or the empty pCMV4a vector (control) for 24 h and then cultured in RPMI 1640 serum-free medium for an additional 14 h. The cell migration assay was performed in a 24-well Transwell plate with 8-m polycarbonate sterile membrane (Corning Inc.). A total of 3.5 ϫ 10 4 cells in 200 l of RPMI 1640 serum-free medium were plated in each upper chamber and then placed in wells containing 600 l of RPMI 1640 medium supplemented with 10% FBS. After 24 h, the cells on the upper surface were detached with a cotton swab, and the upper chambers were fixed. The cells in the lower filter were stained with 0.1% crystal violet for 15 min and then counted. The quantified results represent three random fields of migrated cells.</p><p>Immunofluorescence Microscopy-A total of 2 ϫ 10 5 A549 cells were split into each glass bottom culture dish (MatTek) and cultured overnight. The cells were then transfected with either the FLAG-JAM-C WT in pCMV4a vector or the CCSS mutant. After 24 h, cells were washed twice with 2 ml of 1ϫ PBS (ThermoFisher), fixed with 4% paraformaldehyde in PBS on ice for 15 min, and then kept at room temperature for 5 min. Then cells were subsequently washed three times with 2 ml of 1ϫ PBS and incubated with 0.1% saponin (TCI America) with 3% BSA in 1ϫ PBS at room temperature. After 1 h, the blocking solution was removed, and the anti-FLAG antibody (rabbit monoclonal IgG1; 1:1,000; Cell Signaling Technology) and the anti-ZO1 antibody (mouse monoclonal IgG1; 1:800; BD Biosciences) in a saponin-BSA solution were added to the cells and incubated at 4 °C overnight. The cells were washed with 1 ml of saponin-BSA solution five times and then incubated with the secondary antibodies conjugated with Alexa Fluor 488 (goat anti-rabbit IgG polyclonal antibody; ThermoFisher; 1:1,000) or Texas Red (goat anti-mouse IgG polyclonal antibody; ThermoFisher; 1:1,000) in the saponin-BSA solution at room temperature for 1 h. The cells were washed with 1 ml of saponin-BSA solution five times, then mounted with 200 l of DAPI Fluoromount-G (Southern Biotech), and covered with a cover glass. After 24 h, the cells were visualized with a Zeiss LSM 710 confocal microscope with a 63ϫ/1.4 oil immersion objective. Images were viewed and analyzed using ZEN 2012 imaging software. For JAM-C and ZO-1 co-localization analysis, the Manders' overlap coefficient with automatic thresholds (M1 and M2) was calculated using the Coloc2 plug-in in Fiji (background subtraction; rolling ball radius, 50 pixels) <ref type="bibr" target="#b37">(38)</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 .</head><label>1</label><figDesc>FIGURE 1. JAM-C is an immunoglobulin superfamily protein containing two conserved cysteine residues (Cys-264 and Cys-265, human sequence). A, schematic structure of JAM-C transmembrane protein with two Ig-like domains in the extracellular region and one PDZ-binding motif in the cytoplasmic region. B, multiple sequence alignment by Clustal Omega showing the two cytoplasmic cysteine residues that are conserved across multiple species.</figDesc><graphic coords="2,51.00,58.56,492.00,181.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 .</head><label>2</label><figDesc>FIGURE 2. S-Palmitoylation of JAM-C depends on Cys-264 and Cys-265. A, method for the detection of S-palmitoylation in JAM-C with Alk14, the palmitic acid analogue. Cells were cultured with Alk14 for metabolic labeling. JAM-C was immunoprecipitated from total lysate, and BODIPY-azide was then conjugated to the alkyne group using click chemistry. The fluorescence signal was imaged after SDS-PAGE. B, endogenous JAM-C in both Jurkat and human umbilical vein endothelial cells (HUVEC) was labeled by Alk14. C, overexpressed FLAG-tagged JAM-C in HEK-293T cells also contained fatty acylation. D, the C264S and C265S mutations of JAM-C decreased the Alk14 labeling signal. Compared with the wild type JAM-C, palmitoylation in the single cysteine mutants (C264S and C265S) was reduced, whereas it was abolished in the double cysteine mutant (CCSS). E, quantified fatty acylation level of the JAM-C mutants relative to WT (n ϭ 3; error bars represent S.D.). The palmitoylation signal was quantified and normalized by the protein level on the Coomassie Blue gel using Quantity One software. *, p Ͻ 0.05; **, p Ͻ 0.01; ***, p Ͻ 0.001. F, the cytosolic lysine to arginine mutants 3KR and 4KR of JAM-C did not significantly reduce the Alk14 labeling signal. Representative results from two independent experiments are shown. IP, immunoprecipitation; WB, Western blotting; alk, Alk14.</figDesc><graphic coords="3,40.00,58.80,513.60,535.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 3 .</head><label>3</label><figDesc>FIGURE 3. DHHC7 overexpression enhances the palmitoylation of JAM-C. A, the palmitoylation levels of FLAG-tagged JAM-C co-overexpressed with different HA-tagged DHHC1-23 in HEK-293T cells. B, quantification of the results shown in A (mean Ϯ S.D., n ϭ 2). The palmitoylation signal was quantified and normalized with the protein levels on the Coomassie Blue gel using Quantity One software. The signal in control cells without DHHC overexpression was set to 1.00 and served as the reference point for all other samples. C, DHHC7 overexpression most significantly increased JAM-C palmitoylation. A representative result from two independent experiments is shown. D, the quantified fatty acylation level of JAM-C co-overexpressed with DHHC7, DHHC10, or DHHC15 relative to control (n ϭ 2; error bars represent S.D.). *, p Ͻ 0.05; ***, p Ͻ 0.001. IP, immunoprecipitation; WB, Western blotting; Ctrl, control.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 4 .</head><label>4</label><figDesc>FIGURE 4. DHHC7 interacts with JAM-C, and its catalytic activity is required for JAM-C S-palmitoylation. A, overexpression of DHHC7, but not DHHS7, increased JAM-C S-palmitoylation in HEK-293T cells. HA-tagged DHHC7 or HA-tagged DHHS7 was co-overexpressed with FLAG-tagged JAM-C. FLAG-tagged JAM-C was pulled down for palmitoylation detection. B, the same experiment as in A was performed in U87 cells. The full FLAG JAM-C input Western blot can be found in supplemental Fig. S5. C, DHHC7 interacts with JAM-C. HA-tagged DHHC7 was co-overexpressed with FLAG-tagged JAM-C in HEK-293T cells. HA-tagged DHHC7 was pulled down, and FLAG-tagged JAM-C was detected by Western blotting and vice versa. In the two lanes labeled with mixed lysate, JAM-C and DHHC7 or DHHC15 were expressed in different cells, and then the cell lysate was mixed before IP. A representative result from two independent experiments is shown. IP, immunoprecipitation; WB, Western blotting; Ctrl, control.</figDesc><graphic coords="5,40.00,59.28,513.60,312.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 5 .</head><label>5</label><figDesc>FIGURE 5. JAM-C palmitoylation level decreases in DHHC7 knockdown cells. A, HEK-293T cells were infected with lentiviruses containing scrambled shRNA (control) or DHHC7, DHHC12, or DHHC15 shRNAs. Puromycin-resistant cells were selected for stable DHHC knockdown cells and used for FLAG-tagged JAM-C overexpression. The FLAG-tagged JAM-C in the DHHC knockdown cells was then immunoprecipitated and detected for palmitoylation levels by fluorescence labeling. B, semiquantitative RT-PCR showing the mRNA levels of Dhhc7, Dhhc12, and Dhhc15 in the stable knockdown HEK-293T cells. C, quantified fatty acylation levels of FLAG-tagged JAM-C expressed in DHHC7, DHHC12, and DHHC15 knockdown HEK-293T cells relative to control (mean Ϯ S.D., n ϭ 2). The palmitoylation level from each group was quantified and normalized with the corresponding protein level on the Coomassie Blue gel using Quantity One software. The signal from FLAG-tagged JAM-C in the control knockdown cells was set to 1.00 and served as the reference point for the other samples. D, DHHC7 knockdown in A549 cells also decreased the palmitoylation of JAM-C. The experiments were carried out similar to that described in A. E, quantified fatty acylation levels of JAM-C in A549 cells (n ϭ 2; error bars represent S.D.). *, p Ͻ 0.05; **, p Ͻ 0.01. IP, immunoprecipitation; WB, Western blotting; Ctrl, control.</figDesc><graphic coords="6,39.43,59.69,514.00,314.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIGURE 6 .</head><label>6</label><figDesc>FIGURE 6. S-Palmitoylation promotes JAM-C localization to the tight junction. Top, FLAG-tagged JAM-C WT and the CCSS mutant were ectopically expressed in A549 cells. The cells were immunofluorescently stained with anti-FLAG and anti-ZO1 antibodies after fixation. JAM-C WT was more co-localized with ZO-1 at the tight junction (white arrows), whereas the CCSS mutant had much less co-localization with ZO-1. The cells were visualized at room temperature with a Zeiss LSM 710 confocal microscope with a 63ϫ/1.4 oil immersion objective. Images were viewed and analyzed using ZEN 2012 imaging software. These representative images were from three independent experiments with at least 15 FLAG-JAM-C-containing cells analyzed in each experiment. Scale bars, 10 m. Bottom, the co-localization between JAM-C and ZO-1 was analyzed by the Coloc2 plug-in in Fiji software and is presented as the mean of Manders' coefficient (n ϭ 15; error bars represent S.D.). ***, p Յ 0.0001, Student's t test.</figDesc><graphic coords="7,118.00,58.64,357.60,279.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>FIGURE 7 .</head><label>7</label><figDesc>FIGURE 7. JAM-C S-palmitoylation affects cell migration. A549 cells were transfected with FLAG-tagged JAM-C WT or the CCSS mutant for 24 h and then cultured in RPMI 1640 serum-free medium for 14 h. The cell migration assay was then performed in a 24-well Transwell plate with 8-m polycarbonate sterile membranes. A total of 3.5 ϫ 10 4 cells in 200 l of RPMI 1640 serum-free medium were plated into each upper chamber and placed in wells containing 600 l of RPMI 1640 medium supplemented with 10% FBS. After 24 h, cells on the upper surface were detached with a cotton swab. The chambers were fixed, and cells in the lower filter were stained with 0.1% crystal violet for 15 min and counted. The quantified results were calculated by counting three random fields of migrated cells. The control cells were transfected with an empty pCMV4a vector. A, representative images of migrated cells from three independent experiments are shown. B, the number of migrated cells per field was quantified and normalized by the value of the control (n ϭ 3; error bars represent S.D.). *, p Ͻ 0.05; **, p Ͻ 0.01; ***, p Ͻ 0.001.</figDesc><graphic coords="7,118.00,412.06,357.60,115.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Statistical Analysis-Data are shown as mean Ϯ S.D. Differences were analyzed by two-tailed Student's t test between two groups: *, p Ͻ 0.05; **, p Ͻ 0.01; ***, p Ͻ 0.001. Author Contributions-P. A. and H. L. designed the experiments and wrote the paper. N. A. S. carried out the experiment shown in Figs. 3, A and B, and 4C, and supplemental Figs. S1-S3 and synthesized Alk14. J. C. performed and analyzed the experiment shown in Fig. 7. All authors reviewed and approved the final version of the manuscript.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgment-The imaging data were enabled by the Cornell University Biotechnology Resource Center with National Institutes of</head><p>Health Grant <rs type="grantNumber">1S10RR025502</rs> funding for the Zeiss LSM 710 confocal microscope.</p></div>
+			</div>
+			<div type="funding">
+<div><p>* This work was supported in part by <rs type="funder">National Institutes of Health</rs> Grant <rs type="grantNumber">GM098596</rs>. The authors declare that they have no conflicts of interest with the contents of this article. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. □ S This article contains supplemental Figs. S1-S5. 1 Supported in part by a fellowship from the <rs type="funder">Royal Thai government</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jGvETnR">
+					<idno type="grant-number">1S10RR025502</idno>
+				</org>
+				<org type="funding" xml:id="_HZsQypy">
+					<idno type="grant-number">GM098596</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Junctional adhesion molecules (JAMs): more molecules with dual functions?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ebnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ohno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vestweber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="19" to="29" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The role of junctional adhesion molecules in cell-cell interactions</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Keiper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Santoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Nawroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Orlova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chavakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Histol. Histopathol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="197" to="203" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The JAM family of junctional adhesion molecules</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bazzoni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="525" to="530" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The role of junctional adhesion molecules in vascular inflammation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fraemohs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dejana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="467" to="477" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Spermatid differentiation requires the assembly of a cell polarity complex downstream of junctional adhesion molecule-C</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gliki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ebnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aurrand-Lions</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Imhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">431</biblScope>
+			<biblScope unit="page" from="320" to="324" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Abnormal junctions and permeability of myelin in PMP22-deficient nerves</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arpag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Imhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Suter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="255" to="265" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Delineation of the clinical, molecular and cellular aspects of novel JAM3 mutations underlying the autosomal recessive hemorrhagic destruction of the brain, subependymal calcification, and congenital cataracts</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Akawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Canpolat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Quilis-Esquerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morales Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gamundi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Mochida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Al-Gazali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mutat</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="498" to="505" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">JAM-C promotes lymphangiogenesis and nodal metastasis in non-small cell lung cancer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tumour Biol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="5675" to="5687" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Endothelial cell junctional adhesion molecule C plays a key role in the development of tumors in a murine model of ovarian cancer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Leinster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Colom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Whiteford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Ennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lockley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Mcneish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aurrand-Lions</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chavakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Imhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Balkwill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nourshargh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="4244" to="4253" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The junctional adhesion molecule-B regulates JAM-C-dependent melanoma cell metastasis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Arcangeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Frontera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thomassin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chetaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aurrand-Lions</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page" from="4046" to="4051" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Cooperative expression of junctional adhesion molecule-C and -B supports growth and invasion of glioma</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tenan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aurrand-Lions</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Widmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alimenti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burkhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lazeyras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Belkouch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hammel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Duchosal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Imhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Dietrich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glia</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="524" to="537" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A novel function of junctional adhesion molecule-C in mediating melanoma cell metastasis</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Orlova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lonsdorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fahrleitner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dutoit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pellegrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grossklaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Nawroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Baretton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Santoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="4096" to="4105" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Junctional adhesion molecule-C promotes metastatic potential of HT1080 human fibrosarcoma</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fuse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hikita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Asai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oku</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="8276" to="8283" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of intracellular signaling proteins: regulation and function</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Smotrys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="559" to="587" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Fatty acylation of proteins: new insights into membrane targeting of myristoylated and palmitoylated proteins</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1451</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Identification of PSD-95 palmitoylating enzymes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Adesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="987" to="996" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mechanism and function of DHHC S-acyltransferases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Jennings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans. 41</title>
+		<imprint>
+			<biblScope unit="page" from="29" to="34" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Neural palmitoylproteomics reveals dynamic synaptic palmitoylation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arstikaitis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Drisdel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mastro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Yates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>El-Husseini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">456</biblScope>
+			<biblScope unit="page" from="904" to="909" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Visualization and identification of fatty acylated proteins using chemical reporters</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Protoc. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="65" to="79" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Proteomic analysis of fatty-acylated proteins in mammalian cells with chemical reporters reveals S-acylation of histone H3 variants</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Raghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+		<idno>110.001198</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">SIRT6 regulates TNF-␣ secretion through hydrolysis of long-chain fatty acyl lysine</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sebastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mostoslavsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">496</biblScope>
+			<biblScope unit="page" from="110" to="113" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Identification of the intermolecular disulfide bonds of the human transferrin receptor and its lipid-attachment site</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Trowbridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="327" to="331" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">On the mechanism of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ungermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1053" to="1057" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Targeting protein lipidation in disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="206" to="214" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Selective reaction of hydroxylamine with chromophore during the photocycle of pharaonis phoborhodopsin</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iwamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kamo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1514</biblScope>
+			<biblScope unit="page" from="152" to="158" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The yeast DHHC cysteine-rich domain protein Akr1p is a palmitoyl transferase</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="23" to="28" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Identification of a Ras palmitoyltransferase in Saccharomyces cerevisiae</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lobo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Greentree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="41268" to="41273" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Multiple palmitoyltransferases are required for palmitoylation-dependent regulation of large conductance calcium-and voltage-activated potassium channels</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mcclafferty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jeffries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="23954" to="23962" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">JAM-C regulates tight junctions and integrin-mediated cell adhesion and migration</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mandicourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Iden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ebnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aurrand-Lions</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Imhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="1830" to="1837" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The junctional adhesion molecule (JAM) family members JAM-2 and JAM-3 associate with the cell polarity protein PAR-3: a possible role for JAMs in endothelial cell polarity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ebnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aurrand-Lions</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kiefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Butz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Meyer Zu Brickwedde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Imhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vestweber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="3879" to="3891" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A novel mechanism of regulating breast cancer cell migration via palmitoylation-dependent alterations in the lipid raft affiliation of CD44</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Babina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Mcsherry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Donatello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Breast Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Fas palmitoylation by the palmitoyl acyltransferase DHHC7 regulates Fas stability</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rossin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Durivault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chakhtoura-Feghali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lounnas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gagnoux-Palacios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Hueber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="643" to="653" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">DHHC-7 and -21 are palmitoylacyltransferases for sex steroid receptors</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pedram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Razandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Levin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="188" to="199" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Phosphatidylinositol 4-kinase II␣ is palmitoylated by Golgi-localized palmitoyltransferases in cholesterol-dependent manner</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barylko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Albanesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Yin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="21856" to="21865" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Identification of G protein ␣ subunit-palmitoylating enzyme</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Noritake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="435" to="447" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">ZDHHC7-mediated S-palmitoylation of Scribble regulates cell polarity</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Jarugumilli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="686" to="693" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Cross-species comparison of human and mouse intestinal polyps reveals conserved mechanisms in adenomatous polyposis coli (APC)-driven tumorigenesis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gaspar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Franken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Molenaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Morreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Möslein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sampson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>De Menezes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fodde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Pathol</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="1363" to="1380" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">an open-source platform for biological-image analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schindelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kaynig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Longair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pietzsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Preibisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rueden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Tinevez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hartenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eliceiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tomancak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="676" to="682" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Fiji</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

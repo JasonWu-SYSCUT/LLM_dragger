@@ -1,0 +1,3077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">p32 regulates glycometabolism and TCA cycle to inhibit ccRCC progression via copper-induced DLAT lipoylation oligomerization</title>
+				<funder ref="#_7DEqHha #_K23fQNV">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Natural Science Foundation of Tianjin</orgName>
+				</funder>
+				<funder ref="#_kJ48nAG #_yHpA95X #_Pf49Kfp">
+					<orgName type="full">National Training Program of Innovation and Entrepreneurship for Undergraduates</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Shaoping</forename><surname>Tian</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbiology</orgName>
+								<orgName type="department" key="dep2">School of Medical Laboratory</orgName>
+								<orgName type="institution">Tianjin Medical University</orgName>
+								<address>
+									<postCode>300203</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Shaoping Tian</orgName>
+								<address>
+									<settlement>Rui Wang</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rui</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbiology</orgName>
+								<orgName type="department" key="dep2">School of Medical Laboratory</orgName>
+								<orgName type="institution">Tianjin Medical University</orgName>
+								<address>
+									<postCode>300203</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Shaoping Tian</orgName>
+								<address>
+									<settlement>Rui Wang</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yiting</forename><surname>Wang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Clinical Laboratory</orgName>
+								<orgName type="institution">Tianjin Children&apos;s Hospital/Tianjin University Children&apos;s Hospital</orgName>
+								<address>
+									<postCode>300134</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ruibing</forename><surname>Chen</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Pharmaceutical Science and Technology</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Shaoping Tian</orgName>
+								<address>
+									<settlement>Rui Wang</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tianyu</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbiology</orgName>
+								<orgName type="department" key="dep2">School of Medical Laboratory</orgName>
+								<orgName type="institution">Tianjin Medical University</orgName>
+								<address>
+									<postCode>300203</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xuesong</forename><surname>Xiao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Urology</orgName>
+								<orgName type="institution" key="instit1">Tianjin Institute of Urology</orgName>
+								<orgName type="institution" key="instit2">The Second Hospital of Tianjin Medical University</orgName>
+								<address>
+									<postCode>300211</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xinyu</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbiology</orgName>
+								<orgName type="department" key="dep2">School of Medical Laboratory</orgName>
+								<orgName type="institution">Tianjin Medical University</orgName>
+								<address>
+									<postCode>300203</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Justin</forename><surname>Eze Ideozu</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Genomic Medicine</orgName>
+								<orgName type="institution">Genomic Research Center</orgName>
+								<address>
+									<postCode>60064</postCode>
+									<settlement>AbbVie</settlement>
+									<region>North Chicago, IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hua</forename><surname>Geng</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Pediatrics</orgName>
+								<orgName type="institution">University of Illinois at Chicago</orgName>
+								<address>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yong</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Urology</orgName>
+								<orgName type="institution" key="instit1">Tianjin Institute of Urology</orgName>
+								<orgName type="institution" key="instit2">The Second Hospital of Tianjin Medical University</orgName>
+								<address>
+									<postCode>300211</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Dan</forename><surname>Yue</surname></persName>
+							<email>yuedan@tmu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbiology</orgName>
+								<orgName type="department" key="dep2">School of Medical Laboratory</orgName>
+								<orgName type="institution">Tianjin Medical University</orgName>
+								<address>
+									<postCode>300203</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Urology</orgName>
+								<orgName type="institution" key="instit1">Tianjin Institute of Urology</orgName>
+								<orgName type="institution" key="instit2">The Second Hospital of Tianjin Medical University</orgName>
+								<address>
+									<addrLine>23 Pingjiang Rd</addrLine>
+									<postCode>300211</postCode>
+									<settlement>Hexi District, Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Microbiology</orgName>
+								<orgName type="department" key="dep2">School of Medical Laboratory</orgName>
+								<orgName type="institution">Tianjin Medical University</orgName>
+								<address>
+									<addrLine>1 Guangdong Rd</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="institution">Hexi District</orgName>
+								<address>
+									<postCode>300203</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">p32 regulates glycometabolism and TCA cycle to inhibit ccRCC progression via copper-induced DLAT lipoylation oligomerization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">591DF6AEB3028EC557F12D685E5654BE</idno>
+					<idno type="DOI">10.7150/ijbs.84399</idno>
+					<note type="submission">Received: 2023.03.17; Accepted: 2023.11.17;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Clear cell renal cell carcinoma</term>
+					<term>p32</term>
+					<term>glycometabolism</term>
+					<term>DLAT</term>
+					<term>tricarboxylic acid cycle</term>
+					<term>Copper</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A key player in mitochondrial respiration, p32, often referred to as C1QBP, is mostly found in the mitochondrial matrix. Previously, we showed that p32 interacts with DLAT in the mitochondria. Here, we found that p32 expression was reduced in ccRCC and suppressed progression and metastasis in ccRCC animal models. We observed that increasing p32 expression led to an increase in oxidative phosphorylation by interacting with DLAT, thus, regulating the activation of the pyruvate dehydrogenase complex (PDHc). Mechanistically, reduced p32 expression, in concert with DLAT, suppresses PDHc activity and the TCA cycle. Furthermore, our research discovered that p32 has a direct binding affinity for copper, facilitating the copper-induced oligomerization of lipo-DLAT specifically in ccRCC cells. This finding reveals an innovative function of the p32/DLAT/copper complex in regulating glycometabolism and the TCA cycle in ccRCC. Importantly, our research provides important new understandings of the underlying molecular processes causing the abnormal mitochondrial metabolism linked to this cancer.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>With over 400,000 new instances of cancer diagnosed each year and a death rate of over 175,000, kidney cancer is the third most common genitourinary malignancy worldwide <ref type="bibr" target="#b0">[1]</ref>. Three main histological subtypes of renal cell carcinoma (RCC) have been identified: papillary (15% to 20%), chromophobe (5%) and clear cell (75%) <ref type="bibr" target="#b1">[2]</ref>. The propensity for clear cell renal cell carcinoma (ccRCC) to be identified at an advanced stage significantly reduces disease-specific survival <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. The tricarboxylic acid cycle (TCA cycle), glucose metabolism, and fatty acid metabolism are all altered in ccRCC, suggesting a reprogramming of these metabolic processes <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. As a result, it is aptly regarded as a metabolic disease. Mitochondria dysfunction is a well-documented feature of many metabolic diseases, including ccRCC. It has been proposed that ccRCC encourages pyruvate to be converted to lactate, which is then secreted via mitochondrial metabolism as opposed to glycolysis. The metabolic shift-also known as the Warburg effect or aerobic glycolysis-is a characteristic that sets many malignancies, including ccRCC, apart <ref type="bibr" target="#b7">[8]</ref>.</p><p>A complicated set of metabolic activities known</p><note type="other">Ivyspring International Publisher</note><p>as glycolysis turns glucose into pyruvate. Pyruvate is then converted to acetyl-CoA by the PDHc in the majority of differentiated human tissues, allowing it to join the mitochondrial TCA cycle. This mechanism is essential to the production of ATP via oxidative phosphorylation (OXPHOS), the cell's main source of energy <ref type="bibr" target="#b8">[9]</ref>. The Warburg effect, or increased glycolysis in tumor cells, is accompanied with increased glutamine use to maintain the operation of the TCA cycle <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. Ultimately, the recognition of mitochondrial dysfunction and aerobic glycolysis as prominent characteristics of cancer has gained widespread acceptance <ref type="bibr" target="#b11">[12]</ref>. By generating oncometabolites to preserve the malignant phenotype and providing necessary metabolites for macromolecular synthesis, mitochondrial metabolism maintains tumor anabolism <ref type="bibr" target="#b12">[13]</ref>. Numerous clinical studies are being conducted to explore the therapeutic potential of focusing on mitochondrial metabolism as a novel strategy for treating cancer <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. Many early clinical trials, including those evaluating the Telaglenastat (CB-839), a glutaminase inhibitor, combined with other therapies, and CPI-613, a mitochondrial inhibitor, combined with other therapies, have yielded positive outcomes as cancer therapies <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref>. Thus, it is conceivable that targeting the mitochondrial TCA cycle could be efficacious as a cancer therapy. p32, also known as C1QBP, HABP1, and gC1qR, exhibits predominant localization within the mitochondrial matrix, while its expression is comparatively lower in the cytoplasm, nucleus, and cell surface. This subcellular distribution suggests that p32 primarily functions within the mitochondria, potentially participating in various mitochondrial processes and interactions <ref type="bibr" target="#b20">[21]</ref>. The respiratory chain complex in neoplastic cells depends on p32, a pleiotropic chaperone protein, for its integrity and activity. It is also necessary for the formation of mitochondrial ribosome complexes <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>. p32 is highly expressed in a wide range of cancer types and is essential for metastasis and chemotaxis. Nonetheless, some data indicate that p32 may be downregulated in human cervical squamous cell cancer <ref type="bibr" target="#b23">[24]</ref>. In our previous study, we presented data in favor of p32's tissue-specific expression pattern and tumor-suppressive function in RCC. Our findings revealed that p32 exerts its regulatory effects on RCC metastasis through modulation of the GSK3/β-Catenin/L1CAM signaling pathway <ref type="bibr" target="#b24">[25]</ref>. Despite p32 commonly being referred to as a mitochondrial protein, the exact mechanisms underlying its contribution to mitochondrial dysfunction in ccRCC remain unclear.</p><p>Within the mitochondrial matrix lies a multi-enzyme complex known as the PDHc. It is essential for the effective linkage between glycolysis and the TCA cycle because it catalyzes the pyruvate to acetyl-Co conversion <ref type="bibr" target="#b25">[26]</ref>. The TCA cycle and glycolysis are connected by the PDHc, a trimeric enzyme complex that is necessary for the conversion of pyruvate to acetyl-CoA. Dihydrolipoyl transacetylase (E2), pyruvate dehydrogenase (E1), and dihydrolipoyl dehydrogenase (E3) are its three enzyme constituents. For this complex to be active and operate well, its integrity is essential <ref type="bibr" target="#b26">[27]</ref>.</p><p>Although the exact mechanism behind PDHc activity maintenance in cancer is yet unknown, PDHc activation is inhibited by DLAT lipoylation and PDHA phosphorylation <ref type="bibr" target="#b27">[28]</ref>. Previously, we demonstrated that p32 interacts with DLAT in the mitochondria <ref type="bibr" target="#b28">[29]</ref>. However, the function of p32-DLAT in ccRCC remains unexplored. The purpose of this work was to clarify p32's roles in the mitochondria of ccRCC. This involves p32 regulation of cellular energy metabolism and regulation of the TCA cycle to promote ccRCC progression via cooper-induced lipo-DLAT oligomerization. Thus, we have characterized a potentially novel mechanism that could be targeted for metabolic cancer therapy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Xenotransplantation</head><p>Animal studies were carried out in accordance with the National Institutes of Health's handbook for the care and use of laboratory animals (NIH Publications No. 8023, updated 1978) and the ARRIVE criteria.</p><p>Six BALB/c nude mice, each aged between six and eight weeks, were divided into two groups at random. Matrigel was combined 1:1 with a total of 1×10 6 ACHN cells that had been stably transfected with either luciferase-labeled pCDH or pCDH-p32. The mixture was then collected and centrifuged for 5 to 8 minutes at 2,000 rpm. Anesthetized nude mice were given subrenally injected cells to create orthotopic xenograft models. Following an eight-week duration, every mouse received an intravenous injection of 30 μg of in vivo grade Luciferin (VivoGlo, P1042). To detect primary tumors and metastases in the liver and lung, bioluminescence imaging was performed using the live IVIS imaging system (Perkin Elmer, USA). The mice were then put to sleep, and the livers, lungs, and main tumors were surgically removed. The weight of the matching right kidney was subtracted to get the tumor weights. After being removed, the tissues were fixed in 4% formaldehyde, embedded in paraffin, and cut into consecutive 5.0 μm slices. Hematoxylin and eosin (H&amp;E) stained sections were used for histologic investigation in order to assess tumor spread.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture and transfection</head><p>The American Type Culture Collection provided the cell lines (HEK-293T, ACHN, and 786-O), which were then cultivated in accordance with the manufacturer's instructions. While the 786-O and HEK-293T cells were cultivated in DMEM (Biological Industries, 06-1055-57-1ACS), the ACHN cells were grown in MEM (Biological Industries, 01-042-1ACS). 10% FBS (Biological Industries, 04-001-1A-CS) and 1% PS (Biological Industries, 03-031-1B) were added to both medium as supplements. After being cleaned with PBS, the medium was changed to just DMEM or MEM for starving. Every cell line was cultured at 37 °C with 5% CO2.</p><p>Following the manufacturer's instructions, ACHN and 786-O cells were transfected with three separate DLAT siRNA oligonucleotides and non-targeting sequences (negative controls) from Sangon Biotech, China, using lipofectamine 2000 (Invitrogen, 11668-019). In the rescue tests, 8 μL of the necessary siRNA (20 μM) was transfected into p32-overexpressing cells that were grown on 6-well plates at a density of 70%-80%. After transfection, the siRNA-containing Opti-MEM medium (Gibco, 31985070) was changed every four to six hours. Following transfection, total RNA and protein were extracted 24 and 48 hours later, respectively. Both western blot and quantitative real-time polymerase chain reaction (qRT-PCR) methods were used to evaluate the knockdown of gene expression. Table <ref type="table" target="#tab_0">S1</ref> contains the DLAT siRNA sequences.</p><p>To investigate the interaction site between p32 and DLAT, we designed and purchased expression vectors for different domains of p32 tagged with FLAG from General Biosystems (Anhui, China). The domains included p32 full length (amino acids 1-282), p32 without the transit-peptide domain (amino acids 74-282), C-terminal p32 (amino acids 175-282), and N-terminal p32 (amino acids 74-174). Each experimental group was plated with HEK-293T cells on a 10-cm plate at a density of 60%-70%. Lipo2000 was employed for transient transfection of the expression vectors, and the amount of transfection plasmid was adjusted based on transfection efficiency. After 4-6 hours of transfection, 10% fetal bovine serum was added to DMEM, which was used in place of the plasmid-containing media. Domain immunoprecipitation experiments were conducted 48 hours post-transfection.</p><p>The development and identification of a lentiviral interference vector that targets p32 has already been finished by our group <ref type="bibr" target="#b29">[30]</ref>. HEK-293T cells were transfected with lentiviral vectors, such as pLKO.1-Scr (control), pLKO.1-shp32 (p32 knockdown), pCDH (control), and pCDH-p32 (p32 overexpression), along with lentivirus packaging plasmids (psPAX2 and pMD2G), using Lipo2000, in order to produce stable clones with p32 knockdown or overexpression. The transfection solution containing plasmids was changed four to six hours after transfection. The lentivirus particles were collected, centrifuged, and filtered through a 0.45 μm filter following a 48-hour transfection period. Next, 786-O and ACHN cells were infected with lentivirus particles independently over 24 hours. After 48 hours, the cells were selected using 2 μg/ml puromycin (Sangon Biotech, A610593) for a period of 10 days. The cells were then kept alive with 1 μg/ml puromycin. Using western blot and qRT-PCR, the expression of p32 in the stable cell lines was ascertained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA extraction, reverse transcription and quantitative real-time PCR</head><p>Trizol reagent (Ambion, 15596018) was utilized to extract total RNA. Next, cDNA synthesis was performed on 1 μg of RNA using the HiScript Q RT SuperMix for qPCR (Vazyme, R123). Following the manufacturer's instructions, the ChamQ Universal SYBR qPCR Master Mix (Vazyme, Q711) was used to perform quantitative RT-PCR. Sangon Biotech manufactured the qRT-PCR primers, which are provided in Table <ref type="table" target="#tab_1">S2</ref>. The target gene's expression levels were standardized to GAPDH, and the 2 -ΔΔCt technique was employed for data analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoprecipitation and immunoblotting</head><p>Cells grown in 10-cm dishes were lysed on ice using IP buffer (40 mM Tris-Cl, 120 mM NaCl, 1% Triton X-100), phosphatase inhibitors (1 mM NaF, 1 mM Na 3 VO 4 ), and a protease inhibitor cocktail (Roche, 04693159001), for 30 minutes, to perform immunoprecipitation. Following the cell lysis, centrifugation was carried out at 12,000 rpm for 30 minutes to obtain clear lysates. The total protein concentrations of the cell lysates were determined using the BCA protein assay (Thermo Scientific, 23225). For the purpose of immunoprecipitation, the cell lysates were incubated for 6 hours at 4°C with 4 μg of a rabbit anti-p32 polyclonal antibody (Abcam, ab101267) and Dynabeads Protein A (Invitrogen, 10001D). As a negative control, Normal Rabbit IgG (Cell Signaling Technology, 2729S, 4 μg) was used. The antibody-bead complexes were then co-incubated with the cell lysates at 4°C for an additional night after the first incubation. Subsequently, the immunoprecipitates were resuspended in 2×SDS loading buffer after the beads had been cleaned five times using IP buffer. Western blotting was done after p32 and its associated proteins were isolated using antibody-conjugated beads.</p><p>The cells were lysed in accordance with the previously specified methodology for the p32 domain immunoprecipitation after the p32 domain plasmids were transfected in a 10-cm plate for every experimental group. The cell lysates were then incubated at 4°C for a whole night for immune-precipitation using Anti-DYKDDDDK Magnetic Agarose (Thermo Scientific, A36797). Following five IP buffer washes, the beads were boiled in 2×SDS loading buffer and subjected to western blotting analysis.</p><p>The cells were lysed on ice in SDS lysis solution (containing 60 mM Tris-HCl [pH 6.8], 2% SDS, and 10% glycerol) supplemented with a protease inhibitor cocktail before being subjected to two rounds of ice-cold PBS washings in preparation for immunoblotting. After sonication to disrupt the proteins, the lysates were collected into centrifuge tubes and boiling at 97°C for 10 minutes was used to denature them. The BCA protein assay was then used to calculate the total protein content in the cell lysate solution. Protein lysates were not boiled or sonicated, and no reducing reagents were added to the loading buffer in order to create the non-reducing protein indicator. Protein samples in equal quantities were electrophoretically resolved on an 8-10% gel, and the resulting membranes were subsequently transferred to polyvinylidene difluoride (Millipore, IPVH00010). After blocking the membranes with 5% milk in TBST, primary antibodies and HRP-conjugated secondary antibodies (Affinity, S0001, S0002, 1:3000) were used to probe the membranes. For exposure, standard ECL (Affinity, KF003) was utilized, and a chemiluminescent machine (Bio-Rad, USA) was employed to capture the blot image. p32 (Abcam, ab101267, 1:3000); DLAT (Cell Signaling Technology, 12362S, 1:2000); LDHA (Abcam, ab101562, 1:3000); PKM2 (Cell Signaling Technology, 4053T, 1:2000); DYKDDDDK Tag (Cell Signaling Technology, 86861S, 1:3000); Lipoic Acid (Abcam, ab58724, 1:3000); and β-actin (Affinity, T0022, 1:3000) for loading control were employed in this investigation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical specimens and online data collection</head><p>Along with 75 formalin-fixed and paraffinembedded primary ccRCC specimens that contained both tumor and paired neighboring normal tissues, a total of 30 paired fresh ccRCC tissues and their matching adjacent normal tissues were obtained. The specimens were from Tianjin Medical University's Second Hospital. No adjuvant therapy was administered either before or after the radical or partial nephrectomy performed on any of the study's subjects. We gathered the clinical characteristics of the patients, including T stage, Fuhrman grade, tumor size, age, and gender. The ethics committee approved and the patients gave their informed consent for the collection of tissue samples and clinical data. Every specimen underwent histological testing in compliance with the American Joint Commission on Cancer TNM staging criteria, and the tumor was independently rated by two pathologists. The Tianjin Medical University Institutional Review Board approved this study, which was carried out in conformity with the Declaration of Helsinki's tenets. Before being included in this study, every patient gave their informed permission.</p><p>The UALCAN database is open and available to the public at http://ualcan.path.uab.edu/. We used the TCGA analysis module for mRNA level analysis and the CPTAC analysis module to look at the differential expression of p32 at the protein level. The TCGA database (https://portal.gdc.cancer.gov/) included the RNA sequencing data for 539 KIRC tissues and 72 para-tumor tissues, as well as the relevant clinicopathological data of the patients. For additional analysis, the transcript per million (TPM) format was used to the RNA sequencing data in FPKM format. During the classification-based statistical analysis, data lacking clinical information were excluded, and missing values were filtered. Detailed information regarding the selected patients in the TCGA tumor proteomics datasets can be found in Table <ref type="table" target="#tab_2">S3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunohistochemical staining</head><p>The same patients provided the ccRCC and the surrounding normal tissues, which have been previously reported <ref type="bibr" target="#b29">[30]</ref>. The tissue pieces were dewaxed and then heated for 20 minutes at 98°C in citrate buffer (pH 6.0) (Solarbio, C1010). 3% hydrogen peroxide was used for a 15-minute treatment to inhibit the endogenous peroxidase activity. The presence of these proteins was subsequently ascertained by following standard protocol and employing anti-p32 (Santa Cruz Biotechnology, sc-23884, diluted 1:50) or anti-DLAT (Santa Cruz Biotechnology, sc-365276, diluted 1:50) antibodies. Independently, two pathologists assessed the p32 and DLAT immunostaining levels. Using the previously outlined methodology, this assessment was based on the percentage of tumor cells exhibiting positive staining (stain area) and the staining's intensity <ref type="bibr" target="#b29">[30]</ref>. Based on the percentage of positive cells, the proportion of positive tumor cells was given a score between 0 and 5. One was assigned to a weak staining, two to a moderate staining, and zero to a negative staining. The tumor cell percentage and staining intensity ratings were added to determine the final staining score. The scores that were recorded were classified as either positive (4-7) or negative (0-3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence staining</head><p>For a full day, cells were incubated at 37°C on coverslips in 12-well plates. Mito-Tracker Red CMXRos (Beyotime, C1049B, 300 nM) was utilized for staining mitochondria at 37℃ for 30 minutes, while Rhodamine B Hydrazide (Alfachem, A317536, 50 μM) was used to stain intracellular copper at 37℃ for 50 minutes, separately. After rinsing the cells with ice-cold PBS, they were fixed for 30 minutes with 4% paraformaldehyde (PFA). The cells were permeabilized by incubating them in PBS with 0.2% Triton X-100 (Solarbio, T8200) for a duration of 10 minutes. The cells were then blocked for an hour at room temperature using 3% BSA in PBS. Subsequently, the cells were stained with Alexa Fluor 488 AffiniPure Goat Anti-Rabbit IgG (Abbkine, A23220, 1:100) and Alexa Fluor 647 AffiniPure Goat Anti-Mouse IgG (YEASEN, 33213ES60, 1:100) for one hour at room temperature after being incubated with the primary antibodies DLAT (Cell Signaling Technology, 12362S, 1:50) and p32 (Abcam, ab101267, 1:100) for the entire night at 4°C. Afterward, to see the nuclei, the coverslips were counter-stained with DAPI (Solarbio, C0060). The subcellular localization of DLAT proteins (violet), p32 proteins (green), mito-tracker (red), and RhB Hydrazide (red) was then examined using a confocal microscope (Zeiss Lsm800, Germany) at a magnification of ×630.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lactate production assay</head><p>The Lactic Acid Assay Kit (Keygentec, KGT023) was used to detect the cells in accordance with the manufacturer's instructions. A density of 2×10 5 cells per well was used to seed adherent cells in a 12-well plate, followed by overnight culture. After being gathered into centrifuge tubes, the cells were again suspended in 150 μl of DDW. Prior to use, an enzyme working solution was prepared by mixing Buffer B and Buffer A at a volume ratio of 1:100. 0.02 ml of sample, 1 ml of enzyme working solution, and 0.2 ml of chromogenic reagent were added to each detection well. The mixture was thoroughly mixed and then incubated at 37℃ for 10 minutes to allow the reaction to take place. Following the addition of two milliliters of stop solution to the well, the mixture was well mixed, and a BioTek microplate reader was used to measure the absorbance at 530 nm. After that, the acquired absorbance values were adjusted for the concentration of protein.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ATP level assay</head><p>Using an ATP test kit (Nanjing Jiancheng Bio, A095-1-1), ATP levels were measured in accordance with the manufacturer's instructions. One million cells were taken, mixed with 300 microliters of hot DDW, sonicated, and then incubated for ten minutes in a boiling water bath. Each test sample received 30 μl of the sample and 330 μl of the working solution after the cells had been mixed and vortexed for one minute. After thoroughly mixing, the mixture was incubated at 37°C for 30 minutes. Each tube was then filled with 50 μl of precipitant, well mixed, and centrifuged for five minutes at 4,000 rpm. After that, 300 μl of the supernatant was poured into a fresh centrifuge tube along with 500 μl of color development solution. Next, the mixture was stirred for two minutes. In each tube, add 500 μl of terminator and stir for five minutes. Using a BioTek microplate reader, the absorbance at 636 nm was measured and then normalized to the protein concentration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PDH activity assay</head><p>The Pyruvate Dehydrogenase Kit (Abcam, ab287837) was used to identify the cells in accordance with the manufacturer's instructions. For ten minutes on ice, 1×10 6 cells were lysed using 100 μl PDH assay buffer. After 5 minutes at 4°C and 10,000 g of spinning, the supernatant was poured into a fresh centrifuge tube. Next, 2 μl of substrate buffer, 2 μl of developer buffer, 46 μl of assay buffer, and 50 μl of sample were added to each detection well. The absorbance at 450 nm was measured in kinetic mode for a duration of 10-60 minutes at 37℃ immediately upon initiation of the reaction. Subsequently, the obtained absorbance values were normalized to the protein concentration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extracellular acidification rate (ECAR) and oxygen consumption rate (OCR) assay</head><p>The extracellular acidification rate (ECAR) and oxygen consumption rate (OCR) were measured using the Seahorse XFe24 extracellular flux analyzer (Agilent Technologies, USA), in accordance with the guidelines included in the manufacturer's protocol. The cells were plated on an XFe24 plate at a density of 2×10 4 cells/well, and then incubated for the whole night. One hour prior to the assay, the media were replaced with XF media. To conduct the ECAR assay, XF media was used to dilute Glucose (Sigma, G7021), Oligomycin (MedChemExpress, HY-N6782), and 2-deoxy glucose (2-DG; Sigma, D8375). The cartridge was subsequently filled with these diluted chemicals at concentrations of 10 mM, 1 μM, and 50 mM, in that order. Oligomycin, FCCP (Absin, abs816229), Antimycin A (Biovision, 2247), and Rotenone (MedChemExpress, HY-B1766) were diluted in XF medium in order to conduct the OCR test. The cartridge was then filled with these diluted substances at concentrations of 1 μM, 2 μM, 0.5 μM, and 0.5 μM, in that order.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell proliferation assay</head><p>The cells were cultivated using the previously reported protocol after being plated in 96-well plates at a density of 1×10 4 per well. Cell proliferation was assessed using the Cell Counting Kit-8 (CCK-8; Biosharp, BS350B) at 24, 48, 72, and 96 hours after seeding, in accordance with the manufacturer's recommendations. To sum up, 10 μL of the CCK-8 solution was put into each well of the plate, and it was then incubated for two hours at 37 °C. For every well, the absorbance at 450 nm was measured using a microplate reader.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell migration assay</head><p>Transwell chambers (LABSELECT, 14342) with polyester membranes containing 8 μm holes were used to carry out the migration test. The bottom chamber was filled with media containing 10% FBS, while the top chamber was filled with ccRCC cells (5×10 5 cells/chamber) in serum-free medium. The cells attached to the bottom side of the membrane were fixed and stained, while the cells on the top side of the membrane were removed after 4 hours of incubation at 37°C. Under a microscope, the numbers of cells were counted in five randomly selected areas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Copper affinity binding assay</head><p>Cu IDA Beads (Smart-Lifesciences, SA041005) and Ni IDA Beads (negative control; Smart-Lifesciences, SA052005) were subjected to washing and subsequently incubated with cell lysates at 4℃ overnight, following the manufacturer's recommended protocol. The beads were subjected to 3-5 washes with PBS, followed by elution with 2×loading buffer. Subsequently, the eluted sample was boiled at 97℃ and then centrifuged. The eluted proteins were then immunoblotted using the previously mentioned protocol after being exposed to SDS-PAGE analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drug survival experiment</head><p>Plated in a 96-well plate, 5×10 4 cells per well were grown according to the previous instructions. CuSO 4 (Aladdin, C119000) and Elesclomol (Aladdin, E126032) were introduced at varying quantities in a 1:1 ratio to every well. 24 hours following treatment, cell survival was assessed using the manufacturer's technique as previously outlined using the Cell Counting Kit-8 (CCK-8; Biosharp, BS350B).</p><p>Protein cross-linking 1×10 6 cells were plated in each well of a 6-well plate, and the cells were treated with a gradient chemical for a whole day. Clean the cells with PBS twice after digestion and collection. To obtain final concentrations of 0.1 mM, a crosslinker, disuccinimidyl suberate (DSS; Solarbio, D9480), was applied. Tris buffer (pH 7.5) was added to the tubes and gently rotated for 30 minutes at room temperature. The reaction was then quenched for 15 minutes by adding Tris buffer at a final concentration of 50 mM. Cells were washed twice and cleavage protein according to the above method. Proteins were separated using 8% SDS-page, and crosslinked products were detected using antibodies on western blots.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transmission electron microscope experiment</head><p>The cells were digested and collected in a centrifuge tube for 3 minutes at 1000 rpm. After washing with PBS and centrifuging, the supernatant was removed. Slowly applied 2.5% glutaraldehyde fixing solution along the pipe wall, then left overnight at 4℃. Fix the previously fixed cell sample with osmic acid after three rinses. After fixation, rinse three times with buffer solution before dehydrating for 15 minutes with ethanol solution of varying concentrations. Following dehydration, the sample is treated for 20 minutes with pure acetone, followed by a combination of acetone and embedding agent (V/V=1/1), a transfer to a mixture of acetone and embedding agent (V/V=3/1), and an overnight treatment with pure embedding agent. The sample is obtained by heating the penetrated sample to 70°C for a certain amount of time and then embedding it. The samples were sectioned using an ultrathin sectioning machine into 70-90 nm slices. Following coloring with lead citrate and uranium acetate solutions, the slices were dried and viewed under a transmission electron microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>The student's t-test was used for all statistical analysis in the study to compare variables between two groups, and the ANOVA test was used for comparisons between multiple groups. The Chi-square test was used to statistically analyze the relationships between clinic-pathological features and protein expression. The associations between the expressions of p32 and DLAT were investigated using the Spearman test. The mean ± SEM was given as the value. Disparities were deemed statistically significant when their *P &lt; 0.05 significance level was met. We used GraphPad Prism 8.0 for statistical analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>p32 expression is low in ccRCC and correlated with tumor metastasis and prognosis</head><p>To identify the p32 function, we used the UALCAN database <ref type="bibr" target="#b30">[31]</ref> to investigate pan-cancer gene expression of p32 in ccRCC. Variable disparities in the p32 gene expression patterns were observed between the matched normal tissues and the tumor. As compared to normal tissues, bladder, breast, colon, liver, prostate, and lung cancers showed higher expression of p32, whereas kidney, thyroid, pheochromocytoma, and paraganglioma tumors showed lower expression of p32 (Figure <ref type="figure" target="#fig_0">S1A</ref>). The UALCAN was used to analyze the TCGA tumor proteome datasets, and the results indicated that the considerably lower expression of p32 in ccRCC is statistically more significant than in other tumor types (Figure <ref type="figure" target="#fig_0">S1B</ref>). TCGA analysis revealed decreased p32 mRNA and protein expression in ccRCC, as we have previously shown and confirmed with clinical samples <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33]</ref>. Next, we looked at p32's potential role in ccRCC tumor development and metastasis. We investigated the impact of injecting ACHN cells orthotopically into the left kidney of mice. Our data revealed remarkable tumor growth in these animals over 8 weeks. However, mice implanted orthotopically with p32 overexpression ACHN cells exhibited a much smaller tumor size (Figure <ref type="figure" target="#fig_0">1A</ref>). When compared to the pCDH-control group, the weight of kidney tumors was considerably lower in the p32 overexpression group (Figure <ref type="figure" target="#fig_0">1B</ref>). Meanwhile, bioluminescence intensity was used to evaluate the liver and lung metastasis before mice were sacrificed. In the p32 overexpression group, in the liver and lungs, we discovered that bioluminescence signals were noticeably lower than in the control group (Figure <ref type="figure" target="#fig_0">1C,</ref><ref type="figure">E</ref>). H&amp;E staining also showed fewer liver and lung metastases in the p32 overexpression group (Figure <ref type="figure" target="#fig_0">1D,</ref><ref type="figure">F</ref>). Taken together, results indicated that p32 has a diminished expression in ccRCC and negatively regulates ccRCC metastasis in vivo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>p32 and DLAT are correlated in ccRCC tissues</head><p>RCCs are typically categorized as metabolic diseases <ref type="bibr" target="#b5">[6]</ref>, including ccRCC. Somatic mutations in metabolic pathway genes, including those pertaining to regulatory genes connected to fatty acid metabolism, aerobic glycolysis, and tryptophan glutamine use, are the hallmark of RCC <ref type="bibr" target="#b6">[7]</ref>. Mitochondria are recognized as highly dynamic organelles responsible for orchestrating essential cellular metabolic pathways and bioenergetics processes <ref type="bibr" target="#b33">[34]</ref>. p32 is a toroidal (doughnut-shaped) protein that exhibits a high degree of evolutionary conservation across eukaryotes. It is primarily found within the mitochondria, representing its canonical subcellular localization <ref type="bibr" target="#b34">[35]</ref>. On this basis, we carried out proteomics analysis to identify p32 binding proteins in the mitochondria. We performed p32 immunoprecipitation (IP) using p32 antibody with mitochondrial extracts from HEK-293T cells <ref type="bibr" target="#b28">[29]</ref>. Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex (DLAT) was shown to be an abundant protein in p32-IP by mass spectrometry analysis (Figure <ref type="figure" target="#fig_1">2A</ref>). An online database called Search Tool for the Retrieval of Interacting Genes (STRING) <ref type="bibr" target="#b35">[36]</ref> provided additional confirmation of the relationships between p32 and DLAT (Figure <ref type="figure" target="#fig_1">2B</ref>). The kidney renal clear cell carcinoma (KIRC) dataset in TCGA was used for Spearman's rank correlation analysis, which showed a link between the mRNA expression levels of p32 and DLAT (Figure <ref type="figure" target="#fig_1">2C</ref>). Together, these results demonstrated that p32 potentially interacts with DLAT.</p><p>The mitochondrial protein DLAT is essential for the metabolism of glucose because it forms the core of the PDHc. The enzyme complex PDHc is in charge of catalyzing the change from pyruvate to acetyl-CoA. The TCA cycle facilitates the production of acetyl-CoA, which produces energy <ref type="bibr" target="#b27">[28]</ref>. We initially used UALCAN to measure the expression of p32 and DLAT in ccRCC at the mRNA level in order to identify any potential changes to these genes in the cell. When ccRCC was compared to nearby normal tissues, bioinformatic analysis showed that the expression levels of both p32 and DLAT mRNA were downregulated (Figure <ref type="figure" target="#fig_0">S1C</ref>). We also confirmed the mRNA expression of DLAT and p32 in several patient subgroups with ccRCC. In comparison to the healthy controls, our results showed that ccRCC patients had lower levels of p32 mRNA expression. The DLAT expression analysis produced comparable outcomes (Figure <ref type="figure" target="#fig_0">S1D-F</ref>). Prognostic analyses indicated that low expression of both p32 and DLAT was significantly correlated with overall and disease-specific survivals in TCGA cohort (Figure <ref type="figure" target="#fig_0">S1G-J</ref>). In order to confirm the p32 and DLAT expression levels in ccRCC tissues and matched nearby normal tissues, we further extracted protein. The findings showed that p32 and DLAT protein expression levels were both considerably lower in ccRCC tissues (Figure <ref type="figure" target="#fig_1">2D,</ref><ref type="figure">E</ref>). According to Table <ref type="table" target="#tab_0">1</ref>'s statistical analysis, there was a positive correction in the expression of p32 and DLAT in ccRCC tissues. We then used immunohistochemistry (IHC) labeling for p32 and DLAT on ccRCC tumors in order to confirm the protein levels of these markers in ccRCC patients. In our investigation of 75 matched samples, we found that ccRCC tumors had considerably lower immunostaining intensities of both p32 and DLAT when compared to nearby normal tissue (Figure <ref type="figure" target="#fig_1">2F</ref>). Additionally, statistical correlation analysis showed a positive link between p32 and DLAT (Table <ref type="table" target="#tab_1">2</ref>). It was also examined how p32 and DLAT expression related to the clinicopathologic characteristics of ccRCC. Table <ref type="table" target="#tab_2">3</ref> shows a correlation between p32 expression and the tumor's T stage and Fuhrman grade. Together, our results established a positive correlation between p32 and DLAT expression in ccRCC, and their expression was associated with patient progression and survival.  Note: The expression of p32 and DLAT was quantified and compared between ccRCC tumor (T) and paired para-tumor tissue (P). The relative ratio T/P &gt; 1 was defined as "Up", and T/P &lt; 1 was defined as "Down". Spearman test were used. The results were considered statistically significant at P &lt; 0.05. ***P &lt; 0.001.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>p32 promotes glucose metabolism of renal cancer cells towards OXPHOS rather than glycolysis</head><p>ccRCC display distinct metabolic states in comparison to normal tissues but the molecular interplay between the altered metabolism and ccRCC progression or metastasis remain unclear. Using lentivirus-mediated p32 overexpression and knockdown, 786-O and ACHN cells were created to investigate the metabolic role of p32 in ccRCC cells. We initially looked at the creation of ATP and lactate, two key markers of the metabolic process in tumor cells, in order to ascertain if p32 is engaged in glucose metabolism. The ectopic expression of p32 decreased lactate generation and increased ATP production of 786-O and ACHN cells, as seen in Figures <ref type="figure" target="#fig_2">3A</ref> and<ref type="figure" target="#fig_2">3B</ref>, whereas p32 silencing increased lactate production and decreased ATP production of both cells. Our result showed that p32 was related to DLAT in ccRCC, which is an important subunit for PDHc. We then examined the endogenous cellular activity of PDH by overexpression or knockdown of p32 in ccRCC cells. PDH activity was diminished in p32 knockdown cells and increased in p32 overexpressing cells (Figure <ref type="figure" target="#fig_2">3C</ref>). We further investaged the role of p32 in glycometabolism protein expression. Contrary to the increased expression of p32, there was a significant decrease of glycolysis enzymes, including LDHA and PKM2 in comparison to control samples in ccRCC cell lines (Figure <ref type="figure" target="#fig_2">3D,</ref><ref type="figure">E</ref>). Also, in 786-O and ACHN cells, the mitochondrial respiratory capacity (OCR) was assessed. It's interesting to note that cells overexpressing p32 had higher OCR values than the control group (Figure <ref type="figure" target="#fig_2">3F</ref>). Next, we took ECAR measurements, which show how cells get acidified due to lactate. The findings showed that p32 overexpression reduced the ECAR value and could inhibit the production of lactate in ACHN and 786-O cells (Figure <ref type="figure" target="#fig_2">3G</ref>). These results thus suggest that p32 is involved in the glucose metabolism of ccRCC cells and that it is preferentially involved in the metabolism of glucose towards OXPHOS rather than glycolysis.</p><p>p32 promotes glucose metabolism via DLAT p32 does not possess any enzymatic domain, therefore, it may exert its function by interacting with other metabolic machineries. Given that PDH activity changed with the expression of p32 (Figure <ref type="figure" target="#fig_2">3C</ref>) and the expression correlation between p32 and DLAT is strong in ccRCC tissues (Figure <ref type="figure" target="#fig_1">2</ref>), we speculated that p32 regulates glucose metabolism through DLAT. siRNA-mediated knockout of DLAT was verified by protein and gene expression analysis. The outcomes demonstrated that in 786-O and ACHN cells, DLAT was effectively eliminated (Figure <ref type="figure" target="#fig_3">4A,</ref><ref type="figure">B</ref>). Furthermore, the enhanced impact of p32 overexpression on PDH activity in both 786-O and ACHN cells was further mitigated by temporary DLAT deletion (Figure <ref type="figure" target="#fig_3">4C</ref>). In order to investigate DLAT reliance on p32 activity, we subjected p32 overexpression cells to DLAT deficiency and examined cellular OCR. Notably, the results showed that DLAT rescued basal respiration and maximal respiration induced by p32 overexpression (Figure <ref type="figure" target="#fig_3">4D</ref>). Thus, we infer that p32 promotes glucose metabolism via DLAT. As expected, in 786-O and ACHN cells, DLAT deficiency dramatically restored the p32-suppressed proliferation and migration (Figure <ref type="figure" target="#fig_3">4E,</ref><ref type="figure">F</ref>). Taken together, these findings suggest p32 regulates ccRCC metastasis by modulating DLAT.    p32 and DLAT colocalize and interact with peptides in renal cancer cells p32 could not regulate the gene and protein expression of DLAT (Figure <ref type="figure" target="#fig_2">3D,</ref><ref type="figure">E</ref>), so we assumed that p32 interacts with DLAT to regulate ccRCC glucose metabolism. To validate the endogenous p32-DLAT interaction, a co-IP assay was conducted in ACHN cells. Immunoprecipitation was performed using an anti-p32 antibody, followed by detection of co-enriched DLAT through immunoblotting with an anti-DLAT antibod (Figure <ref type="figure" target="#fig_4">5A</ref>). Co-staining p32 and DLAT with Mito-tracker showed that p32 colocalized with DLAT at the mitochondria (Figure <ref type="figure" target="#fig_4">5B</ref>). To further identify the key structural domains for the interaction between p32 and DLAT, we constructed different truncated variants of p32, including the full-length p32 (FL), p32 without transit-peptide domain (aa 74-282), C-terminal p32 (aa 175-282) and N-terminal p32 (aa 74-174). We found that DLAT interacted with FL, p32 without transit-peptide domain and C-terminal p32, and that N-terminal p32 (missing 175-282 peptide domain) compromised the DLAT-p32 interaction (Figure <ref type="figure" target="#fig_4">5C</ref>). These findings indicate that the p32 C-terminal (aa 175-282) is crucial for its physical interaction with DLAT. Altogether, our results demonstrate that p32 interacts with DLAT. And we discussed these functional analyses that N-terminal p32 reveal an invalid role owing to lost interaction of DLAT (Figure <ref type="figure" target="#fig_1">S2A,</ref><ref type="figure">B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>p32 promotes lipo-DLAT oligomerization via binding copper in renal cancer cells</head><p>The study by Tsvetkov et al. demonstrated that excess copper binds and promotes the oligomerization of lipoylated DLAT. Hence, the study demonstrated that copper-induced cell death is mediated by the direct interaction of copper with lipoylated constituents of the TCA cycle <ref type="bibr" target="#b36">[37]</ref>. However, it remains unclear how these events may occur in ccRCC. Given our confirmation of p32 interaction with DLAT, we pursued the functional relationship by inducing excess copper. To test this, we measured copper affinity and found that both p32 and DLAT bound to Cu IDA beads but not Nickel in 786-O cells. This result suggests that p32 and DLAT could directly bind copper (Figure <ref type="figure" target="#fig_5">6A</ref>). Copper ionophore elesclomol is known to shuttle copper into the cell <ref type="bibr" target="#b37">[38]</ref>. Hence, we investigated the impact of exogenous copper with elesclomol on cell viability. Notably, we observed 786-O cell viability decreased in a concentration-dependent manner when treated with copper and elesclomol (Figure <ref type="figure" target="#fig_5">6B</ref>). Initially, to probe the cellular copper contents, ACHN and 786-O cells with or without copper were incubated with the labile copper sensing probe, the copper probe fluorescence signal was strongly detected in the copper treatment cells (Figure <ref type="figure" target="#fig_2">S3A</ref>). Interestingly, enhanced interaction between p32 and DLAT was observed in the copper treatment 786-O cells (Figure <ref type="figure" target="#fig_5">6C</ref>). To investigate potential p32 function in lipoylation-dependent oligomerization of DLAT with copper, we examined lipoylation of DLAT by traditional gel electrophoresis and oligomerization of DLAT by non-reducing gel electrophoresis. As predicted, concomitant with the copper concentration increasing, we observed lipoylation of DLAT and total DLAT levels remained constant in p32 overexpression 786-O cells (Figure <ref type="figure" target="#fig_5">6D</ref>). Moreover, p32 overexpression 786-O cells robustly increased levels of lipo-DLAT oligomers, whereas control cells mildly increased levels of lipo-DLAT oligomers (Figure <ref type="figure" target="#fig_5">6E</ref>). In order to discuss whether p32 participates in oligomer composition, we applied protein cross-linking agent DSS to immobilize the protein polymer in cells for a moment, and then performed western blot analysis. We found that the position of DLAT lipoylation monomer decreased more significantly, while p32 appeared more obvious dimer bands in p32 overexpression 786-O cells (Figure <ref type="figure" target="#fig_5">6F</ref>). This finding was confirmed with immunofluorescence, as we observed pronounced induction of DLAT foci by copper following elesclomol treatment, with foci also increased in p32 overexpressed 786-O cells (Figure <ref type="figure" target="#fig_5">6G</ref>). We also observed similar result in ACHN cells. Stable expression of p32 significantly reduced DLAT lipoylation level but increased lipo-DLAT oligomerization (Figure <ref type="figure" target="#fig_2">S3B,</ref><ref type="figure">C</ref>). Protein analysis after cross-linking also showed that DLAT lipoylation was reduced, and p32 was involved in oligomerization (Figure <ref type="figure" target="#fig_2">S3D</ref>). Additionally, we observed DLAT foci was robustly increased in copper treated p32 overexpressed ACHN cells (Figure <ref type="figure" target="#fig_2">S3E</ref>). These findings demonstrate that p32 promotes lipo-DLAT oligomerization in a copper-dependent manner and p32 may participate in the composition of oligomer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Combinational treatment of p32 and copper inhibits ccRCC progression through disruption of TCA cycle</head><p>There are ongoing efforts to explore the utility of copper in cancer treatment. For example, elesclomol, a copper-binding small molecule, has undergone clinical trials for the treatment of fallopian tube, ovarian, or primary peritoneal cancer <ref type="bibr" target="#b38">[39]</ref>. To investigate whether p32 chelation by copper contributes to its antitumor function, the proliferation of p32 overexpression with copper and elesclomol treatment in 786-O and ACHN cells was analyzed. It found that p32 overexpression combination treatment with copper and elesclomol dramatically reduced cell viability both in ACHN and 786-O cells (Figure <ref type="figure" target="#fig_6">7A</ref>). The proliferation studies showed us the role of combinational treatment of p32 and copper on the TCA cycle enzymes expression. There was a significant decrease in mRNA expression of TCA cycle enzymes in p32 and copper treatment ccRCC cells, including ACO2, OGDH, and DMH2, relative to other three (Figure <ref type="figure" target="#fig_6">7B</ref>). Furthermore, copper-related mRNA levels were measured. ATP7A, ATP7B, SLC31A1 and TFRC (Fe-related) were significantly reduced, and CP was increased after copper treatment in both the control and p32 overexpresed cells (Figure <ref type="figure" target="#fig_6">7B</ref>). PDH activity was diminished in p32 overexpressing cells within gradient copper and elesclomol stimulation (Figure <ref type="figure" target="#fig_1">S2C</ref>). The place where the TCA cycle occurs is the mitochondria. In order to explore whether the morphology of mitochondria will be affected, we made cell sections and carried out transmission electron microscope experiments to observe the morphology of mitochondria. The results indicated that the number of mitochondria in p32 overexpression cells was significantly increased with normal morphology; while the morphology of mitochondria was significantly abnormal after treating with copper, the mitochondria became round and swollen, and the internal crista structure was significantly disordered, indicating that the function of mitochondria was damaged (Figure <ref type="figure" target="#fig_6">7C</ref>). Taken together, these evidences indicate that the combinational treatment of p32 and copper inhibits ccRCC progression through disruption of TCA cycle and mitochondrial damage (Figure <ref type="figure" target="#fig_6">7D</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The most lethal form of kidney cancer is metastatic renal cell carcinoma (mRCC). Immunocheckpoint inhibitors (ICIs), mTOR inhibitors, vascular endothelial growth factor receptor tyrosine kinase inhibitors (VEGFR TKIs), and other medications are examples of systemic therapeutic options <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>. Further investigation into the molecular underpinnings of RCC development has been spurred by the insensitivity to chemotherapy and radiation treatment, as well as the severe side effects of targeted therapy. Thus, new targeted anticancer medications have also been aided by this <ref type="bibr" target="#b41">[42]</ref>. Most occurrences of ccRCC are associated with the inactivation of the von Hippel-Lindau tumorsuppressor gene (VHL).  For mRCC, the VHL-HIF-VEGF/VEGFR pathway is a well-researched therapeutic target <ref type="bibr" target="#b42">[43]</ref>. Three major metabolic abnormalities were found at the proteome level, including energy metabolism, lipid metabolism, and one-carbon metabolism, in 232 pairs of Chinese patient tissue samples close to the tumor and ccRCC tumor <ref type="bibr" target="#b43">[44]</ref>. Because it affects several metabolic pathways, such as glycolysis, the TCA cycle, and the metabolism of glutamine, fatty acids, and amino acids, renal cancer has been categorized as a "metabolic disease" <ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref>. Significant metabolic reprogramming was found in research involving around 500 ccRCC samples, which led to poor survival and prognosis results in RCC. The primary genes that control the process of metabolic reprogramming in renal cancer are Myc, VHL, PTEN, Akt, mTOR, and TSC1/2 <ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref>. The primary energy source in biological systems is glucose. Oxidative stress and cellular cytotoxicity are caused when cancer cells are deprived of glucose <ref type="bibr" target="#b52">[53]</ref>. In terms of glucose excretion, gluconeogenesis, and glucose reabsorption, the kidneys are essential to glucose homeostasis <ref type="bibr" target="#b53">[54]</ref>. Courtney et al. used isotope labeling methods to show that, in comparison to tumors found in other anatomic regions, ccRCC cells display increased glycolysis, reduced pyruvate dehydrogenase flux, and impaired TCA cycle activity <ref type="bibr" target="#b54">[55]</ref>. One possible strategy to slow the growth of tumors, including kidney cancer, is to restrict the glucose transport in cancer cells. STF-31, a GLUT1 inhibitor, is specifically designed to target RCC cells in order to efficiently hinder tumor development and induce cell death <ref type="bibr" target="#b55">[56]</ref>. Compared to other tumor forms, renal cancer is more sensitive to changes in glucose metabolism, which can have a substantial effect on the tumor's ability to spread.</p><p>Many lines of evidence suggest that RCC also exhibits changes in mitochondrial metabolism, despite the increased emphasis on the expression of glycolytic enzymes in tumor metabolism <ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref>. In a preclinical orthotopic model of RCC, for example, it has been demonstrated that the administration of pharmacological inhibitors that target the transforming growth factor-beta (TGF-β) pathway efficiently restores the expression levels of TCA cycle enzymes <ref type="bibr" target="#b59">[60]</ref>. Furthermore, in the setting of ccRCC, a positive feedforward loop between glycerol-3-phosphate dehydrogenase 1 (GPD1) and hypoxiainducible factor 1-alpha (HIF1α) has been clarified. Particularly in ccRCC cells, this regulatory loop works to inhibit lipid metabolism and reduce mitochondrial activity <ref type="bibr" target="#b60">[61]</ref>. HIFs have been found to be regulators that, by transcriptionally activating PDK1, block the conversion of pyruvate to acetyl-CoA and decrease the metabolic flow towards the TCA cycle <ref type="bibr" target="#b61">[62,</ref><ref type="bibr" target="#b62">63]</ref>. Mutations in the relevant enzymes commonly cause the TCA cycle to be disturbed in cancer cells. Normal cells can become cancerous by mutations in the genes encoding fumarate hydratase (FH), succinate dehydrogenase (SDH), and isocitrate dehydrogenase (IDH) <ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref><ref type="bibr" target="#b68">[69]</ref>. As tumor suppressors, SDH and FH are mutated to lose their enzymatic activity. This results in a buildup of fumarate and succinate, which can promote the formation of tumors. Moreover, an examination of data from The Cancer Genome Atlas (TCGA) has shown a correlation between poor patient outcomes and the downregulation of TCA cycle enzyme expression <ref type="bibr" target="#b69">[70]</ref>. According to these results, RCC advancement is strongly linked to mitochondrial metabolism, suggesting that blocking mitochondrial metabolism might be a novel target for the therapy of ccRCC.</p><p>Numerous cellular processes, including as immunological response, inflammation, apoptosis, splicing, mitochondrial metabolism and dynamics, and regulation of several cell signaling pathways, depend critically on p32 <ref type="bibr" target="#b20">[21]</ref>. Reduced patient survival is linked to higher expression of p32, which is often elevated in epithelial malignancies. On the other hand, p32's precise roles can change based on the kind of cancer. Overexpression of p32 stimulates the AKT-dependent pathway in HepG2 cells to upregulate cyclin D1 and encourage cell proliferation <ref type="bibr" target="#b70">[71]</ref>. According to Sinha S. et al., p32 is essential for controlling melanoma cell invasion, migration, and proliferation. They discovered that p32 accomplishes this via modifying the expression of oncogenes and markers linked to the epithelial to mesenchymal transition (EMT) in both human and animal melanoma <ref type="bibr" target="#b71">[72]</ref>. Furthermore, through its association with integrin αvβ3, p32 was discovered to stimulate NF-kappa B dependent activation of MMP-2. Tumor growth and cell migration are influenced by this regulatory mechanism <ref type="bibr" target="#b72">[73]</ref>. The hypoxia-induced activation of the PKC/NF-KB/VCAM-1 signaling pathway in TNBC is inhibited by p32 deletion. The result of this inhibition is the prevention of cancer cell metastasis <ref type="bibr" target="#b73">[74]</ref>. Through its association with p32, circular RNA MTCL1 has been shown to exert regulatory control over the Wnt/β-catenin pathway, hence modulating the course of laryngeal squamous cell carcinoma <ref type="bibr" target="#b74">[75]</ref>. Furthermore, through the IGF-1/IGF-1R signaling pathway, p32 mediates pancreatic cancer's hepatic metastasis <ref type="bibr" target="#b75">[76]</ref>. Recent data indicates that p32 may be used by tumor cells to control the ratio of glycolysis to OXPHOS <ref type="bibr" target="#b22">[23]</ref>. Reduced mitochondrial respiration and lipid consumption, heightened susceptibility to mitochondrial stress, and a metabolic switch from OXPHOS to glycolysis are all caused by p32 loss. These alterations are linked to the suppression of 3D spheroid formation and cancer cell apoptosis <ref type="bibr" target="#b76">[77]</ref>. Our earlier studies have shown that p32 may control XDH-mediated reactive ROS generation, which in turn can improve the breakdown of hypoxanthine and accelerate apoptosis in RCC cells <ref type="bibr" target="#b29">[30]</ref>. It has been determined that p32 controls the GSK3/β-Catenin/ L1CAM signaling pathway, which in turn controls the metastasis of RCC <ref type="bibr" target="#b24">[25]</ref>. Additionally, p32 interacts with YBX1 to modify YBX1 phosphorylation and nuclear translocation, which inhibits YBX1 activation. Through modification of the AR-mediated MMP9 signals, this interaction suppresses the migration and invasion of RCC cells <ref type="bibr" target="#b31">[32]</ref>. Research has progressed to the point where p32 is understood to be a multi-compartment, multifunctional protein <ref type="bibr" target="#b77">[78]</ref>. P32 is present in a number of cellular locations, most notably the mitochondrial matrix and extracellular cell surface <ref type="bibr" target="#b78">[79]</ref>. A number of signaling pathways, including the TCA cycle, OXPHOS, and FAO, are centered on mitochondria. Cells can respond and adapt to a range of stressful situations thanks to these pathways <ref type="bibr" target="#b79">[80,</ref><ref type="bibr" target="#b80">81]</ref>. Therefore, the purpose of this study is to explore the critical function of p32 in RCC mitochondria, which may work in concert with other mechanisms to obstruct RCC advancement or serve as a critical modulatory mechanism.</p><p>PDH serves as a crucial metabolic hub that facilitates the oxidation of pyruvate following glycolysis. It supplies the TCA cycle with substrates to meet cellular energy requirements. The regulation of PDH activity is primarily controlled by post-translational modifications of its subunits, notably phosphorylation and dephosphorylation of the PDHA1 subunit, as well as lipoylation of the DLAT subunit. These modifications play a significant role in fine-tuning PDH function <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b81">82,</ref><ref type="bibr" target="#b82">83]</ref>. DLAT upregulation has been observed in gastric cancer cells, while a novel mechanism reveals that PM2.5 promotes glycolysis in NSCLC cells through Sp1-mediated transcriptional regulation of DLAT <ref type="bibr" target="#b83">[84,</ref><ref type="bibr" target="#b84">85]</ref>. We characterized the interaction between p32 and DLAT in mitochondria through mass spectrometry analysis, and revealed their correlation in ccRCC. Interestingly, in the current study, we observed no functional role of p32 in the expression of DLAT, but p32 regulated PDH activity. Simultaneously, as a physical interaction between p32 and DLAT, p32 displayed marginal regulatory role towards lipo-DLAT. Even so, we tested if aggravated OXPHOS by p32 overexpression can be reversed by simultaneous reduction of DLAT levels in ccRCC cells. As expected, deletion of DLAT relieved excessive OXPHOS and suppressed proliferation and migration induced by p32. Finally, we have demonstrated the binding of DLAT and p32 C-terminal peptide, providing molecular insights about the role of DLAT in p32 regulation of ccRCC.</p><p>Tsvetkov et al. found that copper directly binds and promotes the oligomerization of lipo-DLAT. Combined with our research, it causes us to think: will p32 participate in it? Our findings demonstrated that p32 directly binds copper and DLAT. How p32/copper-mediating DLAT post-translational modification changes in ccRCC cells alter the mitochondrial metabolism and TCA cycle, and whether p32/copper combinational treatment can be used as drugs in cancer therapy with low adverse effects remain unsolved problems. We have addressed these questions by demonstrating that p32 inhibits ccRCC progression through oligomerization of lipo-DLAT and disruption of TCA cycle in copper-dependent condition. In the absence of p32, mitochondria exhibited fragmented shape but lacked cristae structure <ref type="bibr" target="#b85">[86,</ref><ref type="bibr" target="#b86">87]</ref>, we found that number of mitochondria was significantly increased in cells overexpressing p32, suggesting that p32 exerts regulatory control over both the morphology and function of mitochondria. Mitochondria from p32/copper combinational treatment cells displayed enlarged intermembrane spaces and structural damage, as previously described in patients and mouse models <ref type="bibr" target="#b87">[88,</ref><ref type="bibr" target="#b88">89]</ref>. We postulate that p32 induces disruption of specific mitochondrial metabolic enzymes that triggers a decrease copper-induced cell proliferation. Understanding p32/copper's role in glycolysis metabolism could pave the way for concomitant drugs to be utilized as anti-cancer pharmaceuticals or adjunctive therapies.</p><p>The identification of p32 as a central player in mitochondrial metabolism, along with the potential therapeutic benefits of combinational treatment using copper and elesclomol, presents a promising and pharmacologically feasible strategy for antitumor therapies. Notably, several extensively studied copper-based pharmacological agents are currently available, many of which could be considered as viable drug options for phase II and III clinical trials in cancer therapy <ref type="bibr" target="#b89">[90,</ref><ref type="bibr" target="#b90">91]</ref>. Most of the studies focus on copper depletion in tumor environment to reduce angiogenesis <ref type="bibr" target="#b91">[92]</ref><ref type="bibr" target="#b92">[93]</ref><ref type="bibr" target="#b93">[94]</ref>. Therefore, our speculation suggests that copper therapy may exhibit enhanced efficacy in renal cancer patients with high p32 expression. Alternatively, combining copper therapy with interventions aimed at inducing upregulation of p32 in renal cancer tissue could offer potential clinical applications and value. However, copper acts actively and high levels could present deleterious toxicity concerns. Concomitant antitumor therapies are encouraged to effectively maintain the metabolic profile sensitivity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In this study, we have provided evidence of tissue-specific expression of p32 in ccRCC and its inhibitory effect on ccRCC progression in vivo. We found p32 promotes the OXPHOS of ccRCC by combining with DLAT in cells, a finding that we validated in clinical samples. Finally, we report that p32 enhances copper-induced lipo-DLAT oligomerization and TCA cycle damage, which subsequently inhibits the proliferation of ccRCC.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. p32 inhibits proliferation and metastasis of ccRCC in vivo. (A) Luciferase-expressing p32-overexpression and pCDH-control ACHN cells were injected into the left sub-renal capsule of nude mice and then raised for 8 weeks (n=6). After anesthetized nude mice and injected fluorescein intraperitoneally for 10 minutes, luminescence intensity derived from tumors was measured by IVIS imaging system, and representative bioluminescence images were shown (left panel). Right panel showed quantitative analysis of bioluminescence intensity in nude mice (n=4, P=0.256). (B) Statistical analysis of in situ tumor weight, expressed as the weight of the left minus the corresponding right kidney of nude mice (n=6, P&lt;0.001). (C) Liver and (E) lung of nude mice were isolated, and bioluminescence intensity was detected by IVIS imaging system (left panel). Right panel showed quantitative analysis of liver and lung bioluminescence intensity (n=4, Liver P=0.1901, Lung P=0.0153). (D) Liver and (F) lung metastatic foci were observed after H&amp;E staining, indicated by black arrows (left panel). Metastatic foci in the liver and lung were quantified and compared using five random microscopic views (right panel, n=6, Live P=0.0005, Lung P=0.0005). Data represent the mean ± SEM of three independent experiments. P-values were determined by unpaired two-tailed Student's t-test.</figDesc><graphic coords="8,58.70,164.83,494.70,459.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Correlation between p32 and DLAT at the clinical tissue sample levels. (A) Schematic diagram showed the identification of proteins interacting with p32 in mitochondria by mass spectrometry. (B) A network map of proteins predicted to interact with p32 using the STRING database (https://cn.string-db.org/). (C) Correlation analysis between the expression levels of p32 and DLAT in the TCGA-KIRC data set (n=539, r=0.577, P&lt;0.001). (D) Representative immunoblot images of p32 and DLAT protein levels in para-tumor (P) and tumor (T) tissues of 6 primary renal cell carcinoma patients. (E) The expression of p32 (left panel) and DLAT (right panel) was normalized with β-actin and quantified by Image J software in 30 primary RCC patients. The analysis was used paired two-tailed Student's t-test, n=30, p32 P=0.0146, DLAT P=0.0129, respectively. (F) Immunohistochemistry staining was used to examine the expression of p32 and DLAT in a study cohort consisting of 75 pairs of adjacent normal kidney tissues (Para-tumor) and RCC tissues (Tumor). Representative images were provided, where the presence of brown signals indicated positive staining.</figDesc><graphic coords="10,94.55,56.70,423.00,624.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. p32 regulates ccRCC glucose metabolism towards OXPHOS. (A) Lactate levels, (B) ATP levels and (C) PDH activity were examined with p32 overexpression and knockdown in ACHN (left panel) and 786-O cells (right panel) (n=3). (D) Representative immunoblot showed the level of glycolysis-related protein PKM2 and LDHA after p32 overexpression and knockdown in ACHN (upper panel) and 786-O cells (lower panel). (E) Quantitative RT-PCR analysis measured LDHA and PKM2 relative mRNA levels in p32-overexpressed ACHN cells (upper left panel), p32-overexpressed 786-O cells (lower left panel), p32-knockdown ACHN cells (upper right panel) and p32-knockdown 786-O cells (lower right panel) (n=3). (F) p32-overexpressed ACHN cells (upper panel, n=5) and 786-O cells (lower panel, n=3) were seeded in Seahorse XFe24 cell culture plates and sequential treated with oligomycin (Oligo), FCCP and rotenone plus antimycin A (Rot/AA). Bar graphs showed quantified basal and maximal OCR. (G) Representative Seahorse analysis of extracellular acidification rate (ECAR) in p32-overexpressed ACHN cells (upper panel, n=3) and 786-O cells (lower panel, n=3). Bar graphs showed quantified basal and maximal ECAR. Data was analyzed by unpaired two-tailed Student's t-test. All error bars displayed mean ± SEM of three independent experiments. Statistically significant differences were indicated: *P&lt;0.05, **P&lt;0.01, ***P&lt;0.001. NS: no significant difference.</figDesc><graphic coords="11,73.33,56.71,465.44,604.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. p32 regulates OXPHOS and tumor progression via DLAT in ccRCC. DLAT knockdown by using three independent DLAT siRNAs (si-DLAT#1, si-DLAT#2, si-DLAT#3) in ACHN and 786-O cells were evidenced by (A) western blot and (B) real-time PCR (n=3). (C) ACHN and 786-O cells were transfected with pCDH+si-NC, p32+si-NC, p32+si-DLAT, and then the level of PDH activity was measured after 48h (n=3). (D) Detection of intracellular oxygen consumption levels and quantification basal and maximal OCR after transfection (n=4). (E) Cell Counting Kit-8 reagent was used to measure the cell proliferation in treated ACHN and 786-O cells (n=3). (F) Left panels: the representative migration images of treated ACHN and 786-O cells, Right panels: Random five fields of view counting the number of cells per field. The results were the mean ± SEM of three independent experiments., P-values were determined by unpaired two-tailed Student's t-test. Statistically significant differences were indicated: *P&lt;0.05, **P&lt;0.01, ***P&lt;0.001.</figDesc><graphic coords="12,80.17,56.71,451.75,625.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. p32 and DLAT interactive with each other and colocalize. (A) Co-immunoprecipitation of DLAT with p32 in ACHN cells. (B) Fluorescence images of colocalization of p32, DLAT and mitochondria in ACHN (upper panel) and 786-O (lower panel). Mito-tracker probes labeled mitochondria via mitochondrial membrane potential. (C) Left panel: schematic representation of the FLAG-tagged p32 domain protein peptides. Right panel: Co-IP analysis showed interaction of DLAT with p32 (aa 175-282) after plasmid transfection into 293T cells for 48h.</figDesc><graphic coords="13,58.70,56.71,494.70,328.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. p32 promotes copper-induced oligomerization of lipo-DLAT in ccRCC cells. (A) Immunoblotting showed the binding of the 786-O cells' indicated proteins to copper (Cu) and nickel (Ni) of eluted proteins from the indicated metal-IDA beads. (B) Cell survival rate after treatment with 0-400 nM concentration gradient of elesclomol and CuSO4 in 786-O cells. (C) Western blot showed the co-immunoprecipitation of DLAT and p32 in 786-O cells after treating with or without 200nM elesclomol and CuSO4 for 24 h. 786-O-pCDH and 786-O-p32 cells were treated with concentration gradients of elesclomol and CuSO4, and the cellular proteins were extracted. (D) Western blotting showed the expression of the specified protein indicators after protein denaturation, (E) Non-reducing western blotting showed the expression of DLAT oligomers and (F) Western</figDesc><graphic coords="15,91.30,56.70,429.47,639.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. p32 promotes copper-induced TCA cycle disruption in ccRCC. (A) Cell proliferation after treating 786-O cells with or without 200 nM elesclomol and CuSO4 or treating ACHN cells with or without 400 nM elesclomol and CuSO4 (n=4). (B) Quantitative RT-PCR analysis measured TFRC, SLC30A9, ATP7A, ATP7B, CP and SLC31A1 relative</figDesc><graphic coords="16,90.05,89.57,431.55,632.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Clinical relevance of p32 and DLAT in ccRCC by western blot</figDesc><table><row><cell></cell><cell></cell><cell cols="2">p32 expression</cell><cell>Spearman's r</cell><cell>P value</cell></row><row><cell></cell><cell></cell><cell>Up</cell><cell>Down</cell><cell>Correlation</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>coefficent</cell><cell></cell></row><row><cell>DLAT</cell><cell>Up</cell><cell>4</cell><cell>1</cell><cell>0.599</cell><cell>&lt;0.001***</cell></row><row><cell></cell><cell>Down</cell><cell>3</cell><cell>22</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Clinical relevance of p32 and DLAT in ccRCC by IHC</figDesc><table><row><cell></cell><cell cols="2">p32 expression</cell><cell>Spearman's r</cell><cell>P value</cell></row><row><cell></cell><cell cols="2">positive negative</cell><cell>Correlation</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>coefficent</cell><cell></cell></row><row><cell>DLAT</cell><cell>positive 9</cell><cell>3</cell><cell>0.477</cell><cell>&lt;0.001***</cell></row><row><cell></cell><cell>negative 11</cell><cell>52</cell><cell></cell><cell></cell></row><row><cell cols="5">Note: IHC detected the expression of protein p32 and DLAT in 75 ccRCC tissues.</cell></row><row><cell cols="5">Spearman test were used. The results were considered statistically significant at P &lt;</cell></row><row><cell cols="2">0.05. ***P &lt; 0.001.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Correlation between expression of p32 and DLAT and clinicopathologic characteristics in ccRCC patients</figDesc><table><row><cell></cell><cell></cell><cell>N DLAT</cell><cell></cell><cell>p value</cell><cell>p32</cell><cell></cell><cell>p value</cell></row><row><cell></cell><cell></cell><cell cols="2">expression</cell><cell></cell><cell cols="2">expression</cell></row><row><cell></cell><cell></cell><cell>-</cell><cell>+</cell><cell></cell><cell>-</cell><cell>+</cell></row><row><cell cols="2">Gender Male</cell><cell>54 44</cell><cell>10</cell><cell>0.34</cell><cell cols="2">37 17</cell><cell>0.131</cell></row><row><cell></cell><cell>Female</cell><cell>21 19</cell><cell>2</cell><cell></cell><cell cols="2">18 3</cell></row><row><cell>Age</cell><cell>&lt;60</cell><cell>30 23</cell><cell>7</cell><cell>0.157</cell><cell cols="2">20 10</cell><cell>0.286</cell></row><row><cell></cell><cell>≥60</cell><cell>45 40</cell><cell>5</cell><cell></cell><cell cols="2">35 10</cell></row><row><cell>Tumor</cell><cell>&lt;4</cell><cell>16 15</cell><cell>1</cell><cell>0.459</cell><cell cols="2">11 5</cell><cell>0.895</cell></row><row><cell>size</cell><cell>&gt;4,≤7</cell><cell>24 20</cell><cell>4</cell><cell></cell><cell cols="2">18 6</cell></row><row><cell></cell><cell>&gt;7</cell><cell>35 28</cell><cell>7</cell><cell></cell><cell cols="2">26 9</cell></row><row><cell cols="2">T stage T1-2</cell><cell>46 37</cell><cell>9</cell><cell>0.289</cell><cell cols="2">28 18</cell><cell>0.002**</cell></row><row><cell></cell><cell>T3-4</cell><cell>29 26</cell><cell>3</cell><cell></cell><cell cols="2">27 2</cell></row><row><cell>Fuhrman</cell><cell>I,II</cell><cell>39 31</cell><cell>8</cell><cell>0.267</cell><cell cols="2">24 15</cell><cell>0.016*</cell></row><row><cell>grade</cell><cell>III,IV</cell><cell>36 32</cell><cell>4</cell><cell></cell><cell cols="2">31 5</cell></row><row><cell cols="2">Location Tumor</cell><cell>75 63</cell><cell>12</cell><cell cols="3">&lt;0.001*** 55 20</cell><cell>&lt;0.001***</cell></row><row><cell></cell><cell cols="2">Para-tumor 75 11</cell><cell>64</cell><cell></cell><cell cols="2">10 65</cell></row></table><note><p>Note: IHC staining results (+): positive, (-): negative. Pearson's X 2 tests were used. The results were considered statistically significant at P &lt; 0.05. *P &lt; 0.05, **P &lt; 0.01, ***P &lt; 0.001.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://www.ijbs.com</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The <rs type="funder">National Training Program of Innovation and Entrepreneurship for Undergraduates</rs>, the <rs type="funder">Natural Science Foundation of Tianjin</rs>, the <rs type="funder">National Natural Science Foundation of China</rs> (grant numbers <rs type="grantNumber">81872078</rs> and <rs type="grantNumber">82203360</rs>), the <rs type="funder">National Training Program of Innovation and Entrepreneurship for Undergraduates</rs> (grant numbers <rs type="grantNumber">202210062011</rs>, <rs type="grantNumber">202210062019</rs>, and <rs type="grantNumber">202210062024</rs>), and the central government-directed construction of scientific and technological innovation bases for local scientists all provided financial support for this study.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_7DEqHha">
+					<idno type="grant-number">81872078</idno>
+				</org>
+				<org type="funding" xml:id="_K23fQNV">
+					<idno type="grant-number">82203360</idno>
+				</org>
+				<org type="funding" xml:id="_kJ48nAG">
+					<idno type="grant-number">202210062011</idno>
+				</org>
+				<org type="funding" xml:id="_yHpA95X">
+					<idno type="grant-number">202210062019</idno>
+				</org>
+				<org type="funding" xml:id="_Pf49Kfp">
+					<idno type="grant-number">202210062024</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Supplementary figures and tables. https://www.ijbs.com/v20p0516s1.pdf</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>The study was designed by SPT, YW, and DY. SPT and YTW conducted the experiments. RW, RBC, TYL, and XYL provided supervision for the study. Bioinformatics analysis was performed by XSX. SPT, RW, and YTW interpreted the results. Funding was provided by YW and DY. Figures were designed by SPT and RW. The draft was written by SPT, RW, HG, and JEI. All authors critically reviewed the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors have declared that no competing interest exists.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferlay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laversanne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Soerjomataram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jemal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CA Cancer J Clin</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="209" to="249" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The 2016 WHO Classification of Tumours of the Urinary System and Male Genital Organs-Part A: Renal, Penile, and Testicular Tumours</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Moch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cubilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Reuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Ulbright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Urol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="93" to="105" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Cytoplasmic expression of B7-H3 and membranous EpCAM expression are associated with higher grade and survival outcomes in patients with clear cell renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">Saeednejad</forename><surname>Zanjani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Madjd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Axcrona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Abolhasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rasti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Asgari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Diagn Pathol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">151483</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Nomograms for predicting long-term overall survival and disease-specific survival of patients with clear cell renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Onco Targets Ther</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="5535" to="5544" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The genetic basis of kidney cancer: a metabolic disease</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Linehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Urol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="277" to="285" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The Uniqueness of Clear Cell Renal Cell Carcinoma: Summary of the Process and Abnormality of Glucose Metabolism and Lipid Metabolism in ccRCC</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Che</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Oncol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">727778</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Metabolomic insights into pathophysiological mechanisms and biomarker discovery in clear cell renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lucarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Loizzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Franzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Battaglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cantiello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev Mol Diagn</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="397" to="407" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Historical perspective of tumor glycolysis: A century with Otto Warburg</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bononi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Bussolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tuccinardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Granchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Minutolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Cancer Biol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="325" to="333" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cell energy metabolism: An update</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rigoulet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Bouchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paumard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ransac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cuvellier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Duvezin-Caubet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta Bioenerg</title>
+		<imprint>
+			<biblScope unit="volume">1861</biblScope>
+			<biblScope unit="page">148276</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Energy metabolism in tumor cells</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moreno-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rodriguez-Enriquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marin</forename><forename type="middle">-</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saavedra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="1393" to="1418" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Understanding the Warburg effect: the metabolic requirements of cell proliferation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Vander Heiden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Cantley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="page" from="1029" to="1033" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Hallmarks of cancer: the next generation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Weinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="646" to="674" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mitochondrial Metabolism as a Target for Cancer Therapy</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Werner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Chandel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="341" to="352" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mitochondrial metabolism and cancer</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Porporato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Filigheddu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jmb</forename><surname>Pedro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kroemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Galluzzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="265" to="280" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A Novel Therapeutic Target</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Padilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regulates Cancer Metabolism. Cells</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">634</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Telaglenastat Plus Cabozantinib or Everolimus for Advanced or Metastatic Renal Cell Carcinoma: An Open-Label Phase I Trial</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meric-Bernstam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tannir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Iliopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Telli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1540" to="1548" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Telaglenastat plus Everolimus in Advanced Renal Cell Carcinoma: A Randomized, Double-Blinded, Placebo-Controlled, Phase II ENTRATA Trial</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Motzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Emamekhoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matrana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Percent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Hsieh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3248" to="3255" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Safety and tolerability of the first-in-class agent CPI-613 in combination with modified FOLFIRINOX in patients with metastatic pancreatic cancer: a single-centre, open-label, dose-escalation, phase 1 trial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alistar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Desnoyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Klepin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hosseinzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Oncol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="770" to="778" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A Phase II Clinical Trial of CPI-613 in Patients with Relapsed or Refractory Small Cell Lung Carcinoma</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Lycan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Pardee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Petty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bonomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alistar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Lamar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">164244</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A Phase III open-label trial to evaluate efficacy and safety of CPI-613 plus modified FOLFIRINOX (mFFX) versus FOLFIRINOX (FFX) in patients with metastatic adenocarcinoma of the pancreas</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Philip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Buyse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Alistar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rocha</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Luther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pardee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Future Oncol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="3189" to="3196" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">An approach to p32/gC1qR/HABP1: a multifunctional protein with an essential role in cancer</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Egusquiza-Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Robles-Flores</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cancer Res Clin Oncol</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="1831" to="1854" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Human RNase H1 is associated with protein P32 and is involved in mitochondrial pre-rRNA processing</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Crooke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">71006</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Mitochondrial p32 protein is a critical regulator of tumor metabolism via maintenance of oxidative phosphorylation</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fogal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Karmali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">E</forename><surname>Scheffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruoslahti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1303" to="1318" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The role of globular heads of the C1q receptor in HPV 16 E2-induced human cervical squamous carcinoma cell apoptosis is associated with p38 MAPK/JNK activation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Q</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Transl Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">118</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">C1QBP suppresses cell adhesion and metastasis of renal carcinoma cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">999</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Role of the Pyruvate Dehydrogenase Complex in Metabolic Remodeling: Differential Pyruvate Dehydrogenase Complex Functions in Metabolism</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thoudam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab J</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="270" to="281" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Regulation of the pyruvate dehydrogenase complex</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Korotchkina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="217" to="222" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Microenvironmental control of glucose metabolism in tumors by regulation of pyruvate dehydrogenase</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Golias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Radenkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Papandreou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Cancer</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="674" to="686" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Identification of a novel mitochondrial interacting protein of C1QBP using subcellular fractionation coupled with CoIP-MS</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Bioanal Chem</title>
+		<imprint>
+			<biblScope unit="volume">408</biblScope>
+			<biblScope unit="page" from="1557" to="1564" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">C1QBP regulates apoptosis of renal cell carcinoma via modulating xanthine dehydrogenase (XDH) mediated ROS generation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="842" to="857" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">UALCAN: An update to the integrated cancer data analysis platform</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Chandrashekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Karthikeyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Korla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Shovon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Athar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neoplasia</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="18" to="27" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">C1QBP Regulates YBX1 to Suppress the Androgen Receptor (AR)-Enhanced RCC Cell Invasion</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neoplasia</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="135" to="144" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">C1QBP negatively regulates the activation of oncoprotein YBX1 in the renal cell carcinoma as revealed by interactomics analysis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Proteome Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="804" to="813" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Mitochondrial Genetic and Epigenetic Regulations in Cancer: Therapeutic Potential</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kosnacova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chovanec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jurkovicova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Mol Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">7897</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Leaked Mitochondrial C1QBP Inhibits Activation of the DNA Sensor cGAS</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="2155" to="2166" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Szklarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Gable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Nastou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pyysalo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="605" to="D612" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Copper induces cell death by targeting lipoylated TCA cycle proteins</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tsvetkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Petrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dreishpoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdusamad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="1254" to="1261" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Elesclomol: a copper ionophore targeting mitochondrial metabolism for cancer therapy</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">271</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A phase II evaluation of elesclomol sodium and weekly paclitaxel in the treatment of recurrent or persistent platinum-resistant ovarian, fallopian tube or primary peritoneal cancer: An NRG oncology/gynecologic oncology group study</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Monk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Kauderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Moxley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bonebrake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Dewdney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Secord</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gynecol Oncol</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Epidemiology and Prevention of Renal Cell Carcinoma</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Makino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kadomoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Izumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mizokami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancers (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">4059</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Evolving Systemic Treatment Landscape for Patients With Advanced Renal Cell Carcinoma</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Choueiri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Oncol</title>
+		<imprint>
+			<date type="published" when="2018">2018. 2018790253</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Resistance to Systemic Therapies in Clear Cell Renal Cell Carcinoma: Mechanisms and Management Strategies</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Makhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ghatalia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kutikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Uzzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Kolenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cancer Ther</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1355" to="1364" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Loss of Von Hippel-Lindau (VHL) Tumor Suppressor Gene Function: VHL-HIF Pathway and Advances in Treatments for Metastatic Renal Cell Carcinoma (RCC)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Shim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Mol Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">9795</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A proteogenomic analysis of clear cell renal cell carcinoma in a Chinese population</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">2052</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Metabolomics and Metabolic Reprogramming in Kidney Cancer</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="175" to="182" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Reprogramming of Metabolism in Kidney Cancer</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Wettersten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="2" to="13" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Metabolic reprogramming in clear cell renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Wettersten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Aboud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Lara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jr</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="410" to="419" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cancer Genome Atlas Research N. Comprehensive molecular characterization of clear cell renal cell carcinoma</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="43" to="49" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Comprehensive Molecular Characterization of Papillary Renal-Cell Carcinoma</title>
+		<author>
+			<persName><forename type="first">Cancer</forename><surname>Genome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Atlas</forename><surname>Research</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Linehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Spellman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Ricketts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Creighton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Fei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">374</biblScope>
+			<biblScope unit="page" from="135" to="145" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The somatic genomic landscape of chromophobe renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ricketts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cherniack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Cell</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="319" to="330" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Insights into the Genetic Basis of the Renal Cell Carcinomas from The Cancer Genome Atlas</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Haake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Weyandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Rathmell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="589" to="598" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The Cancer Genome Atlas Comprehensive Molecular Characterization of Renal Cell Carcinoma</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ricketts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Cubas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fan</forename><forename type="middle">H</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reznik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">3698</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Increased levels of superoxide and H2O2 mediate the differential susceptibility of cancer cells versus normal cells to glucose deprivation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aykin-Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Oberley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Spitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">418</biblScope>
+			<biblScope unit="page" from="29" to="37" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Understanding the kidneys&apos; role in blood glucose regulation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Triplitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Manag Care</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="S11" to="16" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Isotope Tracing of Human Clear Cell Renal Cell Carcinomas Demonstrates Suppressed Glucose Oxidation In Vivo</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Courtney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezwada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mashimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pichumani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vemireddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Funk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="793" to="800" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Targeting GLUT1 and the Warburg effect in renal cell carcinoma by chemical synthetic lethality</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Sutphin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Turcotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Banh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Transl Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="94" to="70" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Decreased Mitochondrial DNA Content Drives OXPHOS Dysregulation in Chromophobe Renal Cell Carcinoma</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Busch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rabien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kilic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Villegas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="3830" to="3840" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Proteomic changes in renal cancer and co-ordinate demonstration of both the glycolytic and mitochondrial aspects of the Warburg effect</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Unwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Harnden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hanrahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Totty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knowles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1620" to="1632" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Mitochondrial metabolic reprogramming by SIRT3 regulation ameliorates drug resistance in renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">R</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">269432</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The TGF-beta/HDAC7 axis suppresses TCA cycle metabolism in renal cancer</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Brinkley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Chandrashekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Kirkman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCI Insight</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">148438</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A HIF1alpha-GPD1 feedforward loop inhibits the progression of renal clear cell carcinoma via mitochondrial function and lipid metabolism</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">188</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">HIF-1-mediated expression of pyruvate dehydrogenase kinase: a metabolic switch required for cellular adaptation to hypoxia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tchernyshyov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Semenza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Dang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="177" to="185" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">HIF-1 mediates adaptation to hypoxia by actively downregulating mitochondrial oxygen consumption</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Papandreou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Cairns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fontana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Denko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="187" to="197" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Frequent mutation of isocitrate dehydrogenase (IDH)1 and IDH2 in cholangiocarcinoma identified through broad-based tumor genotyping</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Borger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Tanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">U</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Fantin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Straley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncologist</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="72" to="79" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">IDH1 and IDH2 mutations in gliomas</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Holmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Colman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Neurol Neurosci Rep</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">345</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">IDH1 and IDH2 mutations are frequent genetic alterations in acute myeloid leukemia and confer adverse prognosis in cytogenetically normal acute myeloid leukemia with NPM1 mutation without FLT3 internal tandem duplication</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paschka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Schlenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Gaidzik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Habdank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kronke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bullinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Oncol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3636" to="3643" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Defects in succinate dehydrogenase in gastrointestinal stromal tumors lacking KIT and PDGFRA mutations</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Janeway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lodish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rustin</forename><forename type="middle">P</forename><surname>Gaal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="314" to="318" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Cell-permeating alpha-ketoglutarate derivatives alleviate pseudohypoxia in succinate dehydrogenase-deficient cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Selak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tennant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Crosby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Frederiksen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3282" to="3289" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The FH mutation database: an online database of fumarate hydratase mutations involved in the MCUL (HLRCC) tumor syndrome and congenital fumarase deficiency</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bayley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Launonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">P</forename><surname>Tomlinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Gene Expression Profiling of Tricarboxylic Acid Cycle and One Carbon Metabolism Related Genes for Prognostic Risk Signature of Colon Carcinoma</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Genet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">647152</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Overexpression of hyaluronan-binding protein 1 (HABP1/p32/gC1qR) in HepG2 cells leads to increased hyaluronan synthesis and cell proliferation by up-regulation of cyclin D1 in AKT-dependent pathway</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saradhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ghosh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="19750" to="19764" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">melanoma progression and metastasis by targeting EMT markers, Akt/PKB pathway, and tumor microenvironment</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jangde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1012</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Hyaluronan-binding protein 1 (HABP1/p32/gC1qR) induces melanoma cell migration and tumor growth by NF-kappa B dependent MMP-2 activation through integrin alpha(v)beta(3) interaction</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prakash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Datta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Signal</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1563" to="1577" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Hypoxia-Mediated Complement 1q Binding Protein Regulates Metastasis and Chemoresistance in Triple-Negative Breast Cancer and Modulates the PKC-NF-kappaB-VCAM-1 Signaling Pathway</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Cell Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">607142</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Circular RNA MTCL1 promotes advanced laryngeal squamous cell carcinoma progression by inhibiting C1QBP ubiquitin degradation and mediating beta-catenin activation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cancer</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">92</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Complement component 1, q subcomponent binding protein (C1QBP) in lipid rafts mediates hepatic metastasis of pancreatic cancer by regulating IGF-1/IGF-1R signaling</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Cancer</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="1389" to="1401" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">p32/C1QBP regulates OMA1-dependent proteolytic processing of OPA1 to maintain mitochondrial connectivity related to mitochondrial dysfunction and apoptosis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Phorl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Naskar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Oeum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">10618</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Monocyte Expressed Macromolecular C1 and C1q Receptors as Molecular Sensors of Danger: Implications in SLE</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ghebrehiwet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Hosszu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valentino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Peerschke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Immunol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">278</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">gC1q-R/p33, a member of a new class of multifunctional and multicompartmental cellular proteins, is involved in inflammation and infection</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ghebrehiwet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Peerschke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol Rev</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="65" to="77" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vyas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zaganjor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Haigis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mitochondria and Cancer. Cell</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="555" to="566" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Metabolic regulation of chromatin modifications and gene expression</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schvartzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lws</forename><surname>Finley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page" from="2247" to="2259" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Metabolic Flexibility in Cancer: Targeting the Pyruvate Dehydrogenase Kinase:Pyruvate Dehydrogenase Axis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Woolbright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rajendran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cancer Ther</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1673" to="1681" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>3rd</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Poldip2 is an oxygen-sensitive protein that controls PDH and alphaKGDH lipoylation and activation to support metabolic adaptation in hypoxia and cancer</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paredes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lassegue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Faidley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Benavides</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="1789" to="1794" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">DLAT subunit of the pyruvate dehydrogenase complex is upregulated in gastric cancer-implications in cancer therapy</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Q</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Ow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Kuznetsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Lim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Transl Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1140" to="1151" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">promotes NSCLC carcinogenesis through translationally and transcriptionally activating DLAT-mediated glycolysis reprograming</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<idno>PM2.5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">229</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Mitochondrial C1qbp promotes differentiation of effector CD8(+) T cells via metabolic-epigenetic reprogramming</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Adv</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">490</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Mitochondrial cardiomyopathy and ventricular arrhythmias associated with biallelic variants in C1QBP</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Arva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Dellefave-Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Mcelligott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kofman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Med Genet A</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="2496" to="2501" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Liver pathology in Wilson&apos;s disease: From copper overload to cirrhosis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gerosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fanni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Congiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Inorg Biochem</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="106" to="111" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Liver mitochondrial membrane crosslinking and destruction in a rat model of Wilson disease</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zischka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lichtmannegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wartini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="1508" to="1518" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Phase I study of copper-binding agent ATN-224 in patients with advanced solid tumors</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lowndes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Timms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Smythe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Watt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="7526" to="7534" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">A multicenter phase II study of temozolomide plus disulfiram and copper for recurrent temozolomide-resistant glioblastoma</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldlust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boockvar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurooncol</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="537" to="544" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Influencing the Tumor Microenvironment: A Phase II Study of Copper Depletion Using Tetrathiomolybdate in Patients with Breast Cancer at High Risk for Recurrence and in Preclinical Models of Lung Metastases</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kornhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nackos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="666" to="676" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Phase 2 trial of copper depletion and penicillamine as antiangiogenesis therapy of glioblastoma</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Carson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>New</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Phuphanich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Alavi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuro Oncol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="246" to="253" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Phase II trial of copper depletion with tetrathiomolybdate as an antiangiogenesis strategy in patients with hormone-refractory prostate cancer</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Merjaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Pienta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brewer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncology</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="168" to="175" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

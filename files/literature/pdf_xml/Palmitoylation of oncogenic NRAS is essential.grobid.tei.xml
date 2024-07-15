@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Palmitoylation of oncogenic NRAS is essential for leukemogenesis</title>
+				<funder ref="#_wPDh9Zt">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-06-04">04 June 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Benjamin</forename><surname>Cuiffo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution" key="instit1">Rosenstiel Basic Medical Sciences Research Center</orgName>
+								<orgName type="institution" key="instit2">Brandeis University</orgName>
+								<address>
+									<settlement>Waltham</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ruibao</forename><surname>Ren</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution" key="instit1">Rosenstiel Basic Medical Sciences Research Center</orgName>
+								<orgName type="institution" key="instit2">Brandeis University</orgName>
+								<address>
+									<settlement>Waltham</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Palmitoylation of oncogenic NRAS is essential for leukemogenesis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-06-04">04 June 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DE9DE7A5DA1A5A296189CA46F65E237C</idno>
+					<idno type="DOI">10.1182/blood-2009-03-213876</idno>
+					<note type="submission">Submitted March 30, 2009; accepted February 13, 2010. Prepublished online as Blood First Edition paper, March 3, 2010; DOI 10.1182/blood-2009-03-213876.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-04T08:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Activating mutations of NRAS are common in acute myeloid leukemia, chronic myelomonocytic leukemia, and myelodysplastic syndrome. Like all RAS proteins, NRAS must undergo a series of posttranslational modifications for differential targeting to distinct membrane subdomains. Although farnesylation is the obligatory first step in post-translational modifications of RAS, to date, successes of therapies targeting farnesyl protein transferase are modest. Other RAS modifications, such as palmitoylation, are re-quired for optimal plasma membrane association of RAS proteins. However, the relative importance of these latter modifications of RAS in leukemogenesis is not clear. We have previously shown that expression of oncogenic NRAS using a bone marrow transduction and transplantation model efficiently induces a chronic myelomonocytic leukemia-or acute myeloid leukemia-like disease in mice. Here we examined the role of palmitoylation in NRAS leukemogenesis using this model. We found that palmitoylation is essential for leukemogenesis by oncogenic NRAS. We also found that farnesylation is essential for NRAS leukemogenesis, yet through a different mechanism from that of palmitoylation deficiency. This study demonstrates, for the first time, that palmitoylation is an essential process for NRAS leukemogenesis and suggests that the development of therapies targeting RAS palmitoylation may be effective in treating oncogenic NRAS-associated malignancies. (Blood. 2010;115(17):3598-3605)</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>RAS proteins are small GTPases that act as molecular switches, transducing extracellular signals from activated receptors at the cell surface through various signaling pathways to the nucleus, which regulate cell proliferation, survival, and differentiation. <ref type="bibr" target="#b0">1</ref> Three RAS genes encode 4 widely expressed isoforms: HRAS, NRAS, and the splice variants KRAS4A and KRAS4B. Mutations causing constitutive activation of RAS are associated with approximately 30% of all human cancers, including both solid tumors and hematologic malignancies, with specific RAS isoforms preferentially associated with specific cancer types. Among myeloid malignancies, activating mutations of NRAS are most common, found in approximately 20% to 40% of acute myeloid leukemia (AML), myelodysplastic syndrome (MPD), and MPD/myeloproliferative disease/MPD, including chronic myelomonocytic leukemia (CMML) and juvenile myelomonocytic leukemia. <ref type="bibr" target="#b1">2</ref> The RAS family members are highly homologous but diverge at hypervariable regions (HVRs) at their C-terminus, although all terminate in a ϪCAAX motif (C for cysteine, A for aliphatic amino acid, and X for serine or methionine). The HVR is subjected to post-translational modifications (PTMs) that anchor RAS to cellular membranes and target the specific RAS isoforms to functionally distinct microdomains of the plasma membrane (PM) or endomembranes, allowing for interaction with specific pools of activator and effector proteins to generate discrete signal outputs. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> RAS proteins are modified first by addition of an isoprenoid lipid to the cysteine residue of the ϪCAAX motif by farnesyl protein transferase (FTase) or geranylgeranyl transferase (GGTase) in the cytosol, followed by removal of the ϪAAX tripeptide by RAS converting enzyme (Rce1), and methylation of the newly exposed terminal farnesylated cysteine residue by isoprenylcysteine car-boxyl methyltransferase (Icmt) on the cytosolic face of the endoplasmic reticulum (ER). <ref type="bibr" target="#b4">5</ref> Prenylation is the minimal PTM required for membrane association. After ϪAAX cleavage and methylation, NRAS, HRAS, and KRAS4A are singly or doubly palmitoylated in the Golgi by palmitoyltransferases at cysteine residue(s) immediately upstream of the CAAX motif. Palmitoylated RAS isoforms travel through the classic secretary pathway to the PM, whereas KRAS4B traffics directly from the ER to the PM, relying on a polybasic lysine tract in its HVR as a second means of membrane association/subdomain localization. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> The palmitoylation of H, N, and KRAS4A is reversible; palmitoylated RAS at the plasma membrane can be depalmitoylated by a putative acylprotein thioesterase and recycle back to the Golgi. <ref type="bibr" target="#b7">8</ref> Consequently, a pool of depalmitoylated RAS exists at the Golgi and in transit in the case of both normal and oncogenic forms of the protein.</p><p>Past studies have examined the roles of PTMs in RAS localization and neoplastic transformation. Prenylation of RAS by FTase is the obligate first PTM for all RAS isoforms and has been shown to be essential for RAS membrane association and neoplastic transformation. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> For this reason, much emphasis has been placed on developing RAS farnesyltransferase inhibitors (FTIs). However, successes of therapies targeting FTase are modest to date. <ref type="bibr" target="#b10">11</ref> The reason may be that, in the presence of FTIs, NRAS and KRAS, the predominant oncogenic RAS isoforms in human cancers, can be alternatively prenylated by GGTase. <ref type="bibr" target="#b11">12</ref> This finding indicates that the limited anticancer effects of FTIs were probably the result of inhibition of other farnesylated proteins, such as RhoGTPases, Rheb, and/or CENP-E or CENP-F. <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> Inhibitors targeting FTase and GGTase in combination have thus far proved too toxic to be clinically useful. <ref type="bibr" target="#b16">17</ref> Because FTIs have not been as successful as initially hoped, interest has turned to postprenylation PTMs of RAS as possible anticancer targets. It has recently been shown that an Rce1 conditional knockout mouse displayed a significantly more rapid disease progression in a KRAS leukemic mouse model, whereas a conditional knockout of Icmt in a similar model delayed but did not prevent disease progression. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> Palmitoylation is required for high-avidity plasma membrane binding and for the targeting of RAS to membrane subdomains. <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> Because palmitoylation is required for localization of NRAS, HRAS, and KRAS4A to the inner face of the PM, a location previously thought to be exclusive for RAS signaling, inhibition of palmitoylation has been an attractive anticancer target. <ref type="bibr" target="#b24">25</ref> However, important roles for RAS signaling from the Golgi, ER, and mitochondrial membranes have been recently described. <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> In addition, oncogenic HRAS-containing mutations blocking palmitoylation sites (HRAS61L C181S,C184S ) localized to the Golgi and internal membranes and transformed NIH3T3 cells with 75% efficiency of oncogenic HRAS61L. <ref type="bibr" target="#b26">27</ref> For these reasons, the role of palmitoylation in NRAS transformation has remained unclear.</p><p>The development of leukemia in vivo is a complex process that involves both the effects of oncogenic mutations within susceptible cells and interactions of affected cells with the rest of the in vivo environment. Molecular processes required for leukemogenesis in vivo may or may not be the same as that for cellular transformation in vitro. We have previously shown that oncogenic NRAS effectively induces a CMML or AML-like disease in a mouse bone marrow transduction and transplantation model. <ref type="bibr" target="#b30">31</ref> Here, we used this model to examine the role of palmitoylation in NRAS leukemogenesis. We found that palmitoylation is essential for leukemogenesis by oncogenic NRAS. This study suggests that the development of therapies targeting RAS palmitoylation may be effective in treating NRAS-associated malignancies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Construction of retroviral expression vectors</head><p>Construction of the murine stem cell virus (MSCV)-GFP-ires-2xmyc-tag-NRASD12 vector has been described previously <ref type="bibr" target="#b30">31</ref> and was used as template to produce all additional constructs described here. NRASD12 C181S and NRASD12 C186S were created using a mutational 2-step polymerase chain reaction (PCR) system using nested primers to introduce point mutations individually to sense and antisense complimentary overhangs. Subsequently, these individual products were combined as an annealed template in a second PCR reaction to amplify the completed NRASD12 gene containing the desired point mutation. Mutational primers used in separate individual reactions for NRASD12 C181S were: 5Ј CTC AGG GTA GTA TGG GAT and 5Ј ATC CCA TAC TAC CCT GAG. For NRASD12 C186S they were: 5Ј CAC CAC ACT TGG CAA TCC and 5Ј GAT TGC GTG TGG TGA TG. Each mutational primer was paired in its reaction with either 5Ј TGA CTG ACT GAA TCG ATG or 5Ј CAG GTG GGG TCT TTC ATT, to that anneal to the complimentary strand to amplify. The second PCR reaction used the products of the first round of reactions as the template and used the primers 5Ј ATG GAC GAG CTG TAC AAG and 5Ј GTC GGA TGC AAC TGC AAG to amplify both products containing the individual new point mutations. Final PCR products and introduced mutations were confirmed by DNA sequencing before subsequent cloning. Sequenced PCR products were first ligated into pCR2.1 TA cloning vector before being excised with NotI and ClaI and inserted into MSCV at these sites. Finally, GFP-ires was isolated from MSCV-GFP-ires-2xmyc-tag-NRASD12 by NotI and inserted into each MSCV-2xmyc-tag-NRASD12 C181S or NRASD12 C186S to create the final bicistronic expression vector. Plasmids expressing NRASD12 and NRASD12 PTM mutants as N-terminal GFP-fusion proteins were created by taking advantage of a digestion by NcoI of GFP at amino acid 234 found in an earlier sequenced miniprep, which resulted in a NcoI flanked green fluorescent protein (GFP) lacking the most C-terminal 5 amino acids. This was inserted into an NcoI-digested MSCV-GFP-ires-2xmyc-tag-NRASD12 construct. All cDNAs were reconfirmed by DNA sequencing before expression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Retrovirus production and titering</head><p>Retroviruses were produced in BOSC23 cells, cultured, and titered as previously described. <ref type="bibr" target="#b31">32</ref> The viral titer was calculated in transducing units (TUs) by multiplying the percentage of NIH3T3 cells expressing GFP and the total number of cells on the dish at the time of infection. Retroviral titers were matched before bone marrow infection at 1.3 ϫ 10 5 Ϯ 0.3 ϫ 10 5 TUs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture</head><p>NIH3T3 and 32D cl-3 cell lines stably expressing NRASD12, NRASD12 C181S , NRASD12 C186S , or the control GFP were created by retroviral transduction as described. <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33</ref> All cell lines were sorted by GFP expression to more than 95% homogeneity by fluorescence-activated cell sorting (FACS) using a FACSAria (BD Biosciences). Cell lines were cultured as previously described. <ref type="bibr" target="#b31">32</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell photographs and serial growth curves</head><p>Equal numbers (5 ϫ 10 5 ) of NIH3T3 cells expressing vector alone, NRASD12, NRASD12 C181S , or NRASD12 C186S were plated onto plastic 100-mm tissue culture dishes. Cells were cultured for 6 days (media was changed every 2 days) and photographed using an Olympus E-Volt E500 digital camera attached to an Olympus IX70 inverted microscope (Olympus; original magnification, ϫ100). For serial growth curves, 2 ϫ 10 5 cells were plated in 60-mm culture dishes at day 0. Media was changed every 2 days. Cells, in triplicate, were stained with trypan blue to exclude nonviable cells and counted manually under a light microscope each day. NRASD12-expressing cells formed tight spheres after 6 days in culture, making it difficult to determine the cell numbers. For this reason, the growth curve was ended at day 6. The Student t test was used for statistical analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Soft-agar colony-forming assay</head><p>A total of 1 mL of 0.6% bottom agar (mixing 1.2% agar with concentrated media [2 times Dulbecco modified Eagle medium ϩ 20% donor bovine serum ϩ 2 times Pen-Strep] with 1:1 ratio) was prepared and introduced to each well of a 6-well tissue culture plate. FACS-purified NIH3T3 cell lines expressing GFP, NRASD12, NRASD12 C181S , or NRASD12 C186S were diluted to 10 5 cells/mL, 10 4 cells/mL, or 10 3 cells/mL in 1 times Dulbecco modified Eagle medium ϩ 10% donor bovine serum 1 times Pen-Strep. Triplicate 3-mL cells suspended in soft agar were added to the bottom agar for each cell line and incubated in a 37°C CO 2 incubator. Colonies were counted under a light microscope at day 14 after plating.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bone marrow transduction/transplantation</head><p>Mouse bone marrow transduction and transplantation experiments were performed as previously described. <ref type="bibr" target="#b33">34</ref> Briefly, bone marrow (BM) cells from 5-fluorouracil (250 mg/kg)-treated 6-to 8-week-old male donor BALB/c mice (Taconic Farms) were infected with retroviruses each day for 2 days before 4 ϫ 10 5 cells were injected into the tail vein of each lethally irradiated (2 ϫ 4.5 Gy, 4 hours between each dose) female recipient BALB/c mouse as described. <ref type="bibr" target="#b33">34</ref> Retroviral titers were matched before BM infection. Recipient mice were monitored weekly for signs of disease beginning on day 14 after transplantation.</p><p>Mice used in this project are housed in the Association for Assessment and Accreditation of Laboratory Animal Care International accredited Foster Animal Research Facility at Brandeis University. All experiments involving mice are approved by the Institutional Animal Care and Use Committee of Brandeis University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hematopathologic analysis</head><p>Blood was collected from mice by tail bleed, and 3 L was diluted in 3 mL of Isoton II (Fisher Scientific). White blood cell (WBC) counts were measured using the Coulter Counter model Z1 (Coulter), after lysing the red blood cells with ZAP-O-Globin (Beckman Coulter). Hematocrit was measured by capillary centrifugation on a micro-hematocrit centrifuge (StatSpin). Smears, cytospin, and touch preparations of blood and other murine tissues were stained with Hema 3 stain set (Fisher Scientific) for routine identification of cell morphology. Flow cytometric analysis of GFP-positive WBCs and immunophenotyping of leukemic cells were performed as previously described. <ref type="bibr" target="#b30">31</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subcellular localization analysis of RAS proteins</head><p>NIH3T3 cell lines expressing NRASD12 with GFP fused to its N-terminus (GFP-NRASD12) or expressing GFP-fusion versions of NRASD12 PTM mutant proteins (GFP-NRASD12 C181S , GFP-NRASD12 C186S ) were grown overnight on fibronectin-coated (50 g/mL for 30 minutes at room temperature) glass coverslips. Fresh media was supplanted with 100 g/mL cycloheximide 3 hours before fixation with 4% paraformaldehyde in phosphate-buffered saline (PBS) for 20 minutes at room temperature. Cells were permeablized in 0.1% Triton X-100 for 15 minutes at room temperature and blocked with 2% bovine serum albumin in PBS for 30 minutes at room temperature before primary antibody (anti-BIP; Cell Signaling Technology; anti-GOLGA7; ABNOVA) was added at 1:250 dilution in 2% bovine serum albumin/PBS and incubated overnight at 4°C. Alexa Fluor 635-conjugated secondary antibody (Invitrogen) was added to 5 g/mL final concentration for 1 hour at room temperature. Cells were washed 3 ϫ 10 minutes in PBS after each step. Coverslips were mounted onto slides using Vectashield mounting medium with 4,6-diamidino-2-phenylindole (Vector Laboratories) and fluorescence visualized on a Leica TCS SP2 Spectral Confocal Microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Western blot analysis</head><p>Cell lysates were prepared from 90% confluent NIH3T3 cell lines serum starved for 22 hours. Similar lysates were prepared from 32D cl-3 cell-lines starved of serum and WEHI-3B conditional media (as a source of interleukin-3) for 13 hours. Cells were counted and lysed in 1 times sodium dodecyl sulfate-polyacrylamide gel electrophoresis running buffer, sonicated briefly to break up DNA, heated at 100°C for 10 minutes, and centrifuged to remove debris. Lysates were resolved on 6% to 18% gradient polyacrylamide gels, transferred to nitrocellulose membranes, and blotted with the following primary antibodies overnight at 4°C: anti-RAS (RAS10; Upstate Biotechnology), antiactin (AC40; Sigma-Aldrich), anti-myc tag 9E10 monoclonal antibody (from conditional media of a 9E10 hybridoma cell line), and pAkt, Akt, pMek1/2, Mek1/2, pErk42/44, Erk42/44, pS6rp, and S6rp (all 1:1000; Cell Signaling Technology). Horseradish peroxidaselabeled goat anti-mouse IgG or goat anti-rabbit IgG (Pierce Biotechnology) was used as a secondary antibody. Densitometry ratios of expressed NRAS to endogenous RAS were performed using Adobe Photoshop 7.0 (Adobe Systems).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RAS-GTP and Ral-GTP detection assays</head><p>Activated RAS and Ral were detected using affinity purification kits (Upstate Biotechnology) according to the manufacturer's instructions. Human RAS-guanosine triphosphate (GTP) or murine Ral-GTP was immobilized on glutathione-agarose beads bound with GST-Raf-1-RASbinding domain (RBD) or GST-Ral Binding Protein 1 (RalBP1), respectively, then run on 15% sodium dodecyl sulfate-polyacrylamide gel electrophoresis gels, transferred to nitrocellulose, and detected using RAS or Ral specific antibodies. Total RAS was similarly probed as a loading control in these assays.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stable expression of palmitoylation-deficient NRASD12 confers morphologic changes and abrogates cell density-dependent inhibition of growth but does not confer anchorage-independent growth to NIH3T3 cells</head><p>To determine whether palmitoylation is required for NRAS leukemogenesis and similarly confirm the requirement for prenylation, we constructed retroviral vectors expressing myc-tagged NRASD12 C181S or NRASD12 C186S (well-characterized palmitoylationdefective and prenylation-defective mutants of NRAS, respectively <ref type="bibr" target="#b5">6</ref> ; Figure <ref type="figure" target="#fig_0">1A</ref>). We first characterized the PTM mutants of oncogenic NRAS in vitro. NIH3T3 cells were infected by retroviruses containing GFP alone (MiG), NRASD12, NRASD12 <ref type="bibr">C181S</ref> , or NRASD12 <ref type="bibr">C186S</ref> . Infected cells (GFP ϩ ) were isolated by FACS. The expression of NRAS mutants in NIH3T3 cells was confirmed by Western blotting with an anti-RAS antibody. Each NRAS mutant was expressed at similar levels (Figure <ref type="figure" target="#fig_0">1B</ref>).</p><p>To confirm loss of plasma membrane association of the PTM deficient NRAS mutants, we constructed N-terminal GFP-fusion versions of NRASD12, NRASD12 C181S , and NRASD12 C186S retroviral vectors and expressed them in both 32D cl-3 cells (data not shown) and NIH3T3 cells. As expected, GFP-NRASD12 localized primarily to the plasma membrane and internal membranes that colocalized with immunostained Golgi-resident (Golga-7) and ER-resident (BIP) proteins (Figure <ref type="figure" target="#fig_0">1C</ref>). GFP-NRASD12 C181S localized entirely to internal membranes, whereas GFP-NRASD12 C186S diffused in the cytoplasm and, interestingly, in the nucleus (Figure <ref type="figure" target="#fig_0">1C</ref>). These results confirm that for NRAS palmitoylation is required for the association with the plasma membrane and that prenylation is required for any membrane association.</p><p>It has been observed that oncogenic KRAS and NRAS have greatly reduced transformation activity compared with oncogenic HRAS in NIH3T3 focus-forming assays. <ref type="bibr" target="#b34">35</ref> Consistent with this finding, we observed that minority populations of NRASD12expressing cells grown in close proximity to normal NIH3T3 fibroblasts hardly formed foci (data not shown). In addition, NRASD12 did not permit 32D cl-3 myeloid progenitor cells to grow in a factor-independent manner (data not shown).</p><p>However, we observed a changed morphology for sorted NRASD12-expressing NIH3T3 cells (Figure <ref type="figure" target="#fig_1">2A</ref>). Approximately one week after FACS sorting, NRASD12-expressing cells in culture appeared smaller, more spindle-shaped, and began to grow in a lattice that produced spheres protruding from the flat plane of adherent cells at the lattice nodules. These spheres grew to various sizes before detaching from the dish. Cells from spheres were viable and could merge with other spheres in suspension to form amorphous cell clumps. Interestingly, nonpalmitoylated NRASD12 C181S -expressing cells also appeared spindle-shaped and grew in a lattice similar to NRASD12 cells, although these did not produce spheres. In contrast, the prenylation-deficient NRASD12 C186S -expressing cells appeared larger and less spindleshaped, morphologically similar to the MiG control cells.</p><p>To characterize any changes in proliferation or cell densitymediated inhibition of growth conferred by blocking PTMs of oncogenic NRAS, we compared growth of NIH3T3 cells stably expressing vector alone, NRASD12, NRASD12 C181S , or NRASD12 C186S in liquid culture (Figure <ref type="figure" target="#fig_1">2B</ref>). Growth of MiG-expressing cells stopped after 4 days in culture because of cell density-dependent inhibition, whereas cells expressing NRASD12 continued to proliferate. Interestingly, cells expressing NRASD12 C181S , similar to cells expressing NRASD12, were able to overcome normal densitydependent growth controls and continue to proliferate. Cells expressing NRASD12 C186S , on the other hand, displayed a significantly reduced proliferation compared with control cells, suggesting that expression of prenylation-defective NRASD12 is toxic to NIH3T3 cells.  ) of NIH3T3 cells expressing vector alone, NRASD12, NRASD12 C181S , or NRASD12 C186S were plated onto 100-mm plates and were cultured for 6 days before the pictures were taken (original magnification, ϫ100). (B) Total numbers of viable cells per plate (means with error bars) for NIH3T3 cells expressing vector alone, NRASD12, NRASD12 C181S , or NRASD12 C186S were plotted versus time (days). NRASD12 C186S cells grew significantly slower than the vector control cells at day 4 (P ϭ .01). NRASD12 and NRASD12 C181S cells grew significantly faster than the vector control cells at day 6 (P ϭ .005 and P ϭ .02, respectively).</p><p>To further assess the transforming potential of NRASD12 and its PTM mutants, we performed a soft-agar colony assay. Sorted GFP ϩ cells were seeded in soft-agar and colonies were counted at day 14 (Table <ref type="table" target="#tab_0">1</ref>). NRASD12-expressing cells formed numerous colonies in soft agar, indicating that oncogenic NRAS can abrogate the anchorage-dependent growth of NIH3T3 cells. In contrast, cells expressing nonpalmitoylated NRASD12 C181S formed only a few clusters equivalent to cells expressing NRASD12 C186S or GFP alone. These observations demonstrate that expression of palmitoylation-defective NRASD12 causes NIH3T3 cells to display some characteristics of transformation, including morphologic changes and loss of normal densitydependent growth inhibition but cannot confer anchorageindependent growth to these cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation and prenylation are each required for NRAS leukemogenesis</head><p>We next examined the role of palmitoylation in NRAS leukemogenesis using a mouse bone marrow transduction and transplantation model. We also tested the leukemogenic potential of the prenylationdefective mutant of NRAS because, although prenylation of RAS is the obligate initial PTM and has been shown to be essential for RAS transformation in vitro, the role of prenylation in NRAS leukemogenesis in vivo has not yet been directly tested.</p><p>We infected BM cells isolated from 5-fluorouracil-treated mice with titer-matched retroviruses containing NRASD12, NRASD12 C181S , NRASD12 C186S , or vector control and then transplanted these cells into lethally irradiated syngeneic recipient mice, as previously described. <ref type="bibr" target="#b30">31</ref> As shown previously, all mice receiving NRASD12-transduced BM cells developed a fatal AML (ϳ 35%)or CMML (ϳ 65%)-like disease and died in 30 to 90 days after bone marrow transplantation (Figure <ref type="figure" target="#fig_2">3A</ref>; and data not shown). However, mice receiving NRASD12 C181S or NRASD12 C186Stransduced BM cells did not develop any disease and remained healthy for more than 2 years, similar to MiG control mice (Figure <ref type="figure" target="#fig_2">3A</ref>; and data not shown). Peripheral blood (PB) collected weekly from these animals displayed no abnormal expansion of any cell type when cell morphologies were examined after differential staining with Hema-3 stain (Fisher; data not shown). Livers and spleens of animals receiving NRASD12 C181S -or NRASD12 C186Stransduced BM cells were of normal size and weight, similar to MiG mice (data not shown). Cells isolated from livers, spleens, PB, and BM of these animals were assessed by FACS analysis with a panel of myeloid and lymphoid markers (Gr-1, B220, CD19, Thy-1.2, CD86, CD31, CD115 [M-CSFR], Ter-119, Mac-1, CD34, CD38, CD16/32, and c-Kit) and displayed no abnormal hematopoietic expansion, as did MiG mice. Identical results were seen in 2 independent experiments.</p><p>Weekly analysis of PB of animals receiving NRASD12 C181S -or NRASD12 <ref type="bibr">C186S</ref> -transduced BM revealed a limited increase (analogous to MiG control) in the percentage of GFP ϩ WBCs over the first 3 weeks after bone marrow transplantation, peaking at 15% to 20% GFP ϩ WBCs. This result indicates that NRASD12 C181S -or NRASD12 <ref type="bibr">C186S</ref> -transduced BM cells are not deficient for homing to hematopoietic niches (Figure <ref type="figure" target="#fig_2">3B</ref>). After 3 weeks, the percentage of GFP ϩ PB WBCs isolated from MiG, NRASD12 C181S , and NRASD12 C186S mice began to decline, with similar rates of decline in NRASD12 C181S and NRASD12 C186S mice as MiG mice, suggesting that expression of palmitoylation-or prenylation-defective NRASD12 is not significantly toxic to hematopoietic cells. These experiments show that palmitoylation and prenylation are essential for NRAS leukemogenesis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation is required for activation of multiple downstream signaling pathways by oncogenic NRAS</head><p>RAS activates multiple downstream signaling pathways, including the phosphoinositide-3 kinase (PI3K), mitogen-activated protein kinase (MAPK)/Erk and Ral pathways. To determine whether and how these signaling pathways are affected by lack of palmitoylation of NRASD12, we examined known activating phosphorylation sites on well-established signaling proteins in the PI3K and MAPK pathways in NIH3T3 cells expressing MiG, NRASD12, NRASD12 C181S , or NRASD12 C186S by Western blotting with phospho-specific antibodies (Figure <ref type="figure" target="#fig_3">4A-B</ref>).</p><p>Cells were serum-starved for 22 hours before lysis to minimize RAS signaling resulting from receptor tyrosine kinase activation by serum growth factors. In the PI3K pathway, Akt is a central regulator of cell survival, proliferation, and metabolism. <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> We detected little or no basal phosphorylation at Akt Thr308, an activating phosphorylation site of Akt and target of PDK1 downstream of PI3K in MiG vector lysates, whereas NRASD12 expression triggered marked phosphorylation at this site (Figure <ref type="figure" target="#fig_3">4A</ref>). In contrast, cell lysates isolated from both NRASD12 C186Sand NRASD12 C181S -expressing cells did not induce phosphorylation at Akt Thr308. Akt phosphorylation at Ser473 contributes to full activation of Akt and is the target of the mTORC2 complex. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> We observed that Akt Ser473 was constitutively  phosphorylated in MiG cell lysates, and this remained unchanged in lysates of cells expressing NRASD12 or the PTM mutants of NRASD12 (Figure <ref type="figure" target="#fig_3">4A</ref>). Activating phosphorylation of S6rp, a ribosomal protein, is often increased in cells transformed by oncogenic RAS. <ref type="bibr" target="#b39">40</ref> We observed little or no basal activation of S6rp in MiG cell lysates but marked activation of S6rp in lysates of cells expressing NRASD12 (Figure <ref type="figure" target="#fig_3">4A</ref>). NRASD12-mediated hyperactivation of S6rp was not seen in lysates of cells expressing NRASD12 C181S or NRASD12 C186S . Similarly, marked phosphorylation of Erk1/2 was observed in lysates from NRASD12 cells, whereas in NRASD12 C186S and NRASD12 C181S cell lysates we did not observe activating phosphorylation of Erk1/2 (Figure <ref type="figure" target="#fig_3">4B</ref>).</p><p>Ral GTPase activation has also been implicated as an important pathway downstream of RAS. <ref type="bibr" target="#b40">41</ref> To assess whether NRAS palmitoylation is necessary for Ral activation, we ran Ral-GTP detection assays using lysates of the cell lines the vector control, NRASD12, NRASD12 C181S or NRASD12 C186S (Figure <ref type="figure" target="#fig_3">4C</ref>). In this assay, active RalA (GTP bound) is precipitated with glutathione-agarose beads bound with GST-tagged RalBP1. The precipitates were then analyzed by Western blotting using an anti-RalA antibody. Once again, we observed marked activation of Ral by NRASD12, and this activity was abolished by either the prenylation or palmitoylation mutation. Lysates treated with a nonhydrolyzable form of GTP (GTP␥S) showed similar results, suggesting that nonpalmitoylated NRASD12 is incapable of activating Ral guanine nucleotide exchange factors (RalGEFs). These results demonstrate that palmitoylation, like prenylation, is essential for NRASD12 to activate downstream signaling pathways that are important for cell transformation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prenylation, but not palmitoylation, affects GTP loading of oncogenic NRAS</head><p>Having observed that multiple oncogenic signaling pathways were not activated by palmitoylation-defective NRASD12, we wondered whether NRASD12 C181S retained the ability to bind GTP. GTP-bound RAS proteins from lysates of serum-starved and unstarved NIH3T3 cells expressing NRASD12, NRASD12 C181S , NRASD12 C186S , or GFP control were analyzed by a RAS-GTP detection assay. We observed that NRASD12 binds GTP in both serum-starved and unstarved lysates, indicating that NRASD12 is constitutively activated (Figure <ref type="figure" target="#fig_4">5</ref>; and data not shown). We also found that levels of RAS-GTP from cells expressing NRASD12 C181S were similar to those from cells expressing NRASD12 (Figure <ref type="figure" target="#fig_4">5</ref>). Interestingly, prenylationdefective NRASD12 showed markedly reduced levels of RAS-GTP, perhaps because the lack of membrane association prevents it from accessing to RasGEFs. These results indicate that, although prenylation is important for GTP loading of NRASD12, palmitoylation in not required for optimal GTP loading of NRASD12 or for its binding the RBD of Raf-1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this report, we demonstrate, for the first time, that palmitoylation is essential for leukemogenesis by oncogenic NRAS, raising the possibility that therapeutics targeting NRAS palmitoylation may be effective in treating NRAS-associated hematologic malignancies as well as other NRAS-related cancers. Palmitoylation-defective NRASD12 localizes entirely to internal membranes in cells and can be activated by GTP binding. Although defective in activating the PI3K, Erk, and Ral pathways, the NRASD12 palmitoylation mutant retains the ability to alter morphology and to abrogate normal density-dependent growth controls when stably expressed in NIH3T3 fibroblast cells. However, this residual activity had no apparent effects in hematopoietic cells.</p><p>In addition, we show that prenylation is essential for leukemogenesis by oncogenic NRAS, confirming the importance of this process in RAS oncogenesis in vivo. Prenylation-defective NRASD12 completely loses the ability to associate with cellular membranes, is inefficiently activated by GTP loading, cannot activate downstream oncogenic signaling pathways, and does not transform cells in vitro or in vivo. In addition, NIH3T3 cells express prenylation-defective NRASD12 proliferate at a slower rate than control cells expressing GFP only, suggesting that prenylation-defective NRASD12 is toxic to these cells. Interestingly, a GFP-tagged version of this mutant localized predominately to the nucleus, although this fusion protein is too large to enter the nucleus by passive diffusion. This observation suggests that unmodified RAS might be actively targeted to the nucleus and may serve a yet unknown nuclear function.  It was previously shown that G418-selected NIH3T3 cells stably expressing NRASV12 were not capable of growing in an anchorage-independent manner in soft agar. <ref type="bibr" target="#b34">35</ref> We show here that FACS-purified NRASD12-expressing NIH3T3 cells form spheres in liquid culture, and form colonies in soft agar. This discrepancy may be the result of different NIH3T3 sub-lines used. The same oncogene may have different transforming abilities in different NIH3T3 sub-lines. For example, it has been found that there are permissive and nonpermissive sub-lines of NIH3T3 cells for transformation by abl oncogenes. <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43</ref> The NIH3T3 cell line we used can be transformed by various abl oncogenes. <ref type="bibr" target="#b31">32</ref> The observation that active RAS signaling occurs not only on the plasma membrane but also on internal membranes, including the ER and Golgi, has significantly altered the way we view RAS signaling <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> ; it has brought to light the idea of compartmentalized signaling, with different resident pools of activators and effectors becoming accessible to RAS at different subcellular locales. Whereas pools of constitutively active H-and NRAS are found on internal membranes and engage Raf-1, only HRAS was reported to retain much of its transforming capacity regardless of palmitoylation status and to become activated in response to growth factors from internal membranes in cultured cell lines. <ref type="bibr" target="#b26">27</ref> Although it is not known whether palmitoylation is also required for leukemogenesis by oncogenic HRAS, we found here that palmitoylation-deficient NRASD12 does not activate the PI3K, Erk, and Ral pathways and loses much of its transforming activity in NIH3T3 cells. The different roles of palmitoylation in H-and NRAS transformation may rely on additional differences between the 2 RAS oncoproteins.</p><p>Interestingly, nonpalmitoylated NRASD12 remains constitutively GTP-bound and thus retains its capacity to engage the RAS-binding domain of Raf kinase. However, we found that nonpalmitoylated NRASD12 is incapable of activating Erk. Activation of Raf requires more than simple engagement of its RBD by RAS-GTP. We have noted that, in myeloid progenitor 32Dcl-3 cells stably expressing NRASD12, Raf-1 is phosphorylated on Ser259 (data not shown), a site that has been shown to be phosphorylated by Akt to produce an inhibitory 14-3-3 binding site and block downstream MAPK signaling. <ref type="bibr" target="#b43">44</ref> It is thought that this inhibitory binding site must be dephosphorylated by growth factor-induced phosphatases, such as PP1 and PP2A, which may require association of NRAS with the plasma membrane. <ref type="bibr" target="#b44">45</ref> Similarly, activation of the PI3K and Ral pathways by oncogenic NRAS may also require association with the plasma membrane.</p><p>Although targeting prenylation has proven difficult (targeting one of the 2 enzymes responsible for this modification is insufficient, yet targeting both is too toxic), there is reason to think that targeting RAS palmitoylation may prove more successful. Thus far, 23 putative palmitoyl-acyltransferases, each exhibiting a high degree of enzyme-substrate specificity, have been identified. <ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref> As such, inhibiting RAS-specific palmitoyl-acyltransferases could prove an effective therapy for leukemias and other cancers involving NRAS.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Expression and localization of oncogenic NRAS and its PTM mutants. (A) Schematic diagram of retroviral expression vectors used to transduce NRASD12, NRASD12 C181S , or NRASD12 C186S . (B) Immunoblot of lysates of NIH3T3 cells stably expressing the vector control, NRASD12, NRASD12 C181S or NRASD12 C186S with a pan anti-RAS antibody (top band represents double Myc-tagged-NRAS; and bottom band, endogenous Ras). (C) NIH3T3 cells expressing GFPfused NRASD12, NRASD12 C181S , or NRASD12 C186S , costained with fluorescence-conjugated antibodies against Golgi (Golga-7) or ER (BIP) resident proteins, were visualized on a Leica TCS SP2 Spectral Confocal Microscope (original magnification, ϫ630).</figDesc><graphic coords="4,208.68,64.30,334.56,451.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. NIH3T3 cell lines expressing NRASD12 or nonpalmitoylated NRASD12 result in phenotypic changes in morphology and density-dependent inhibition of growth. (A) Morphology of cultured NIH3T3 cells stably expressing the proteins indicated. Equal numbers (5 ϫ 10 5) of NIH3T3 cells expressing vector alone, NRASD12, NRASD12 C181S , or NRASD12 C186S were plated onto 100-mm plates and were cultured for 6 days before the pictures were taken (original magnification, ϫ100). (B) Total numbers of viable cells per plate (means with error bars) for NIH3T3 cells expressing vector alone, NRASD12, NRASD12 C181S , or NRASD12 C186S were plotted versus time (days). NRASD12 C186S cells grew significantly slower than the vector control cells at day 4 (P ϭ .01). NRASD12 and NRASD12 C181S cells grew significantly faster than the vector control cells at day 6 (P ϭ .005 and P ϭ .02, respectively).</figDesc><graphic coords="4,51.68,601.62,288.00,145.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Palmitoylation and prenylation are each essential for NRAS leukemogenesis in vivo. (A) Kaplan-Meier plot of cumulative survival of recipient mice transplanted with BM cells infected by NRASD12, NRASD12 C181S , or NRASD12 C186S containing retroviruses, or the MiG vector. (B) FACS analysis of GFP ϩ cells in peripheral blood of NRASD12, NRASD12 C181S , NRASD12 C186S , or GFP vector bone marrow transduction and transplantation mice.</figDesc><graphic coords="5,51.68,619.62,310.00,127.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Oncogenic signaling downstream of NRASD12 is disrupted by blocking palmitoylation. Serum-starved lysates of NIH3T3 cells expressing vector, NRASD12, NRASD12 C181S , or NRASD12 C186S were analyzed by Western blotting. (A) Effect of palmitoylation and prenylation of NRASD12 on phosphorylation of Akt and S6 ribosomal protein. (B) Effect of palmitoylation and prenylation of NRASD12 on phosphorylation of Erk. (C) Effect of palmitoylation and prenylation of NRASD12 on Ral activation. Ral-GTP precipitated from serum-starved NIH3T3 cells expressing vector control, NRASD12, NRASD12C181S  , or NRASD12 C186S with GST-RalBP1 glutathione agarose beads with or without addition of GTP␥S were analyzed by Western blotting with an anti-RalA antibody. Input RalA was also probed. RAS expression was detected as a loading control.</figDesc><graphic coords="6,246.02,64.87,297.00,114.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Palmitoylation-defective NRASD12 C181S retains the ability to bind Raf-1-RBD. RAS-GTP precipitated with glutathione-agarose beads bound with GST-fused RAS-binding domain (residues 1-149) of Raf-1 from serum-starved or unstarved NIH3T3 cells expressing GFP alone, NRASD12, nonpalmitoylable NRASD12 C181S , or nonprenylable NRASD12 C186S were analyzed by Western blotting with an anti-pan-RAS (RAS10) antibody. RAS from the same lysates was probed as a loading control.</figDesc><graphic coords="6,351.52,582.74,144.00,102.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Anchorage-independent growth of NIH3T3 cells expressing oncogenic NRAS or post-translational modification mutants</head><label>1</label><figDesc></figDesc><table><row><cell>Cell line</cell><cell>No. of colonies* (mean ؎ SD)</cell></row><row><cell>MiG</cell><cell>0.7 Ϯ 0.6</cell></row><row><cell>NRASD12</cell><cell>482.3 Ϯ 48.0</cell></row><row><cell>NRASD12 C181S</cell><cell>2.0 Ϯ 1.0</cell></row><row><cell>NRASD12 C186S</cell><cell>5.0 Ϯ 1.0</cell></row><row><cell>*Colonies were counted on day 14 after plating.</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>BLOOD, 29 APRIL 2010 ⅐ VOLUME 115, NUMBER 17 Downloaded from http://ashpublications.org/blood/article-pdf/115/17/3598/1323276/zh801710003598.pdf by guest on 04 June 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Downloaded from http://ashpublications.org/blood/article-pdf/115/17/3598/1323276/zh801710003598.pdf by guest on 04 June 2024</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors thank <rs type="person">Kevin Mark</rs> for technical assistance.</p><p>This work was supported by the <rs type="funder">National Institutes of Health</rs> (grant <rs type="grantNumber">R01HL083515</rs>; R.R.).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_wPDh9Zt">
+					<idno type="grant-number">R01HL083515</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authorship</head><p>Contribution: B.C. participated in the design of the study, performed research, analyzed data, and drafted the paper; and R.R. designed research, analyzed data, and drafted the paper.</p><p>Conflict-of-interest disclosure: The authors declare no competing financial interests.</p><p>Correspondence: Ruibao Ren, Rosenstiel Basic Medical Sciences Research Center and Department of Biology, Brandeis University, 415 South St, Waltham, MA 02454; e-mail: ren@brandeis.edu.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ras signaling, deregulation of gene expression and oncogenesis</title>
+		<author>
+			<persName><forename type="first">¨as</forename><surname>Ulku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Der</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Treat Res</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="189" to="208" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">ras oncogenes in human cancer: a review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="4682" to="4689" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Ras proteins: paradigms for compartmentalised and isoformspecific signalling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Omerovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Laude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Prior</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="2575" to="2589" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ras signaling from plasma membrane and endomembrane microdomains</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Plowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1746</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="274" to="283" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Ras proteins: different signals from different locations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="373" to="384" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">All ras proteins are polyisoprenylated but only some are palmitoylated</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Magee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1167" to="1177" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Thematic review series: lipid posttranslational modifications. CAAX modification and membrane targeting of Ras</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Philips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="883" to="891" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An acylation cycle regulates localization and activity of palmitoylated Ras isoforms</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peyker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kahms</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="issue">5716</biblScope>
+			<biblScope unit="page" from="1746" to="1752" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Activation of extracellu-lar signal-regulated kinase, ERK2, by p21ras oncoprotein</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Leevers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="569" to="574" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The p21 ras C-terminus is required for transformation and membrane association</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Willumsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Hubbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Papageorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Lowy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="issue">5978</biblScope>
+			<biblScope unit="page" from="583" to="586" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Farnesyltransferase inhibitors in hematologic malignancies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Harousseau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood Rev</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="173" to="182" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Polylysine and CVIM sequences of K-RasB dictate specificity of prenylation and confer resistance to benzodiazepine peptidomimetic in vitro</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="6221" to="6226" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Farnesyl transferase inhibitors block the farnesylation of CENP-E and CENP-F and alter the association of CENP-E with the microtubules</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Ashar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="issue">39</biblScope>
+			<biblScope unit="page" from="30451" to="30457" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The farnesyl transferase inhibitor (FTI) SCH66336 (lonafarnib) inhibits Rheb farnesylation and mTOR signaling: role in FTI enhancement of taxane and tamoxifen anti-tumor activity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Basso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mirza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kirschmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page" from="31101" to="31108" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Farnesyltransferase inhibitors alter the prenylation and growth-stimulating function of RhoB</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Lebowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Casey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Prendergast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Thissen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page" from="15591" to="15594" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">RhoB alteration is necessary for apoptotic and antineoplastic responses to farnesyltransferase inhibitors</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Jessell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Prendergast</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="6105" to="6113" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Evaluation of farnesyl:protein transferase and geranylgeranyl:protein transferase inhibitor combinations in preclinical models</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Lobell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Omer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Abrams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="8758" to="8768" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Rce1 deficiency accelerates the development of K-RAS-induced myeloproliferative disease</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wahlstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Cutts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karlsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="763" to="768" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Inactivating Icmt ameliorates K-RAS-induced myeloproliferative disease</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wahlstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Cutts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1357" to="1365" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A polybasic domain or palmitoylation is required in addition to the CAAX motif to localize p21ras to the plasma membrane</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="133" to="139" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Ras nanoclusters: combining digital and analog signaling</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Cycle</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="127" to="134" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Ras acylation, compartmentalization and signaling nanoclusters [Review]</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Henis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Prior</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Membr Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="80" to="92" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Compartmentalization of Ras proteins</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Prior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1603" to="1608" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Plasma membrane nanoswitches generate high-fidelity Ras signal transduction</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Inder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Plowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Parton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="905" to="914" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Discovery and characterization of inhibitors of human palmitoyl acyltransferases</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Ducker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Griffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cancer Ther</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1647" to="1659" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Phospholipase C␥ activates Ras on the Golgi apparatus by means of RasGRP1</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Bivona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Perez</forename><surname>De Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ahearn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">424</biblScope>
+			<biblScope unit="issue">6949</biblScope>
+			<biblScope unit="page" from="694" to="698" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ras signalling on the endoplasmic reticulum and the Golgi</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bivona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="343" to="350" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Compartmentspecific feedback loop and regulated trafficking can result in sustained activation of Ras at the Golgi</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Eungdamrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Iyengar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="808" to="815" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Ras activation in Jurkat T cells following low-grade stimulation of the T-cell receptor is specific to N-Ras and occurs only on the Golgi apparatus</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Perez De Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Bivona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Philips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pellicer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3485" to="3496" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Ras signaling on the Golgi</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Quatela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Philips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="162" to="167" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Oncogenic NRAS rapidly and efficiently induces CMML-and AML-like diseases in mice</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Subrahmanyam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2349" to="2357" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bcr-Abl with an SH3 deletion retains the ability to induce a myeloproliferative disease in mice, yet c-Abl activated by an SH3 deletion induces only lymphoid malignancy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="6918" to="6928" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Oncogenic NRAS, KRAS, and HRAS exhibit different leukemogenic potentials in mice</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Subrahmanyam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="7139" to="7146" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">efficiently induces a myeloproliferative disease and production of excess interleukin-3 and granulocyte-macrophage colony-stimulating factor in mice: a novel model for chronic myelogenous leukemia</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3829" to="3840" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Transformation potential of Ras isoforms correlates with activation of phosphatidylinositol 3-kinase but not ERK</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Guan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="issue">36</biblScope>
+			<biblScope unit="page" from="37398" to="37406" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The evolution of phosphatidylinositol 3-kinases as regulators of growth and metabolism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Engelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Cantley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Genet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="606" to="619" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">AKT/PKB signaling: navigating downstream</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Cantley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1261" to="1274" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">RICTOR is the Ser473 kinase for Akt/protein kinase B in 3T3-L1 adipocytes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Hresko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mueckler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mtor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="40406" to="40416" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Phosphorylation and regulation of Akt/PKB by the rictor-mTOR complex</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Sarbassov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Guertin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Sabatini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="issue">5712</biblScope>
+			<biblScope unit="page" from="1098" to="1101" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Signaling control of mRNA translation in cancer pathogenesis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sonenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Pandolfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="3138" to="3144" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Ral GTPases and cancer: linchpin support of the tumorigenic platform</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Bodemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Cancer</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="133" to="140" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The CML-specific P210 bcr/abl protein, unlike v-abl, does not transform NIH/3T3 fibroblasts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Q</forename><surname>Daley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Witte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baltimore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="issue">4814</biblScope>
+			<biblScope unit="page" from="532" to="535" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Oncogenic v-Abl tyrosine kinase can inhibit or stimulate growth, depending on the cell context</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Renshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Kipreos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3941" to="3951" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Phosphorylation and regulation of Raf by Akt (protein kinase B)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Moelling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="issue">5445</biblScope>
+			<biblScope unit="page" from="1741" to="1744" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Protein phosphatases 1 and 2A promote Raf-1 activation by regulating 14-3-3 interactions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaumot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="3949" to="3958" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Systematic screening for palmitoyl transferase activity of the DHHC protein family in mammalian cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="177" to="182" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Dynamic protein palmitoylation in cellular signaling</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Noritake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="117" to="127" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">DHHC9 and GCP16 constitute a human protein fatty acyltransferase with specificity for</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Swarthout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lobo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Farh</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page" from="31141" to="31148" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

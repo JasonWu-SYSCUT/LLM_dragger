@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Development of the Integrated Computer Simulation Model of the Intracellular, Transmembrane, and Extracellular Domain of Platelet Integrin α IIb β 3 (Platelet Membrane Glycoprotein: GPIIb-IIIa)</title>
+				<funder>
+					<orgName type="full">RIKEN</orgName>
+				</funder>
+				<funder ref="#_gmxXUNx">
+					<orgName type="full">Ministry of Education, Culture, Sports, Science and Technology, Japan Society for the Promotion of Science</orgName>
+				</funder>
+				<funder ref="#_t6k56hA">
+					<orgName type="full">AMED</orgName>
+				</funder>
+				<funder ref="#_eqhCkwn">
+					<orgName type="full">Vehicle Racing Commemorative Foundation</orgName>
+				</funder>
+				<funder ref="#_6AqA9gt">
+					<orgName type="full">Fukuda Foundation for Medical Technology</orgName>
+				</funder>
+				<funder ref="#_cCRz62T">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-17">January 17, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Masamitsu</forename><surname>Nakayama</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Medicine (Cardiology)</orgName>
+								<orgName type="institution">Tokai University School of Medicine</orgName>
+								<address>
+									<postCode>2024</postCode>
+									<settlement>Isehara, Open</settlement>
+									<country>Japan TH</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Shinichi</forename><surname>Goto</surname></persName>
+							<email>sgoto3@mac.com</email>
+							<idno type="ORCID">0000-0002-0450-0331</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Medicine (Cardiology)</orgName>
+								<orgName type="institution">Tokai University School of Medicine</orgName>
+								<address>
+									<postCode>2024</postCode>
+									<settlement>Isehara, Open</settlement>
+									<country>Japan TH</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shinya</forename><surname>Goto</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Shinya</forename><surname>Goto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Medicine (Cardiology)</orgName>
+								<orgName type="institution">Tokai University School of Medicine</orgName>
+								<address>
+									<postCode>2024</postCode>
+									<settlement>Isehara, Open</settlement>
+									<country>Japan TH</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Medicine (Cardiology)</orgName>
+								<orgName type="institution">Tokai University School of Medicine</orgName>
+								<address>
+									<addrLine>143 Shimokasuya</addrLine>
+									<settlement>Isehara</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Rüdigerstraße 14</orgName>
+								<address>
+									<postCode>70469</postCode>
+									<settlement>Stuttgart</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Development of the Integrated Computer Simulation Model of the Intracellular, Transmembrane, and Extracellular Domain of Platelet Integrin α IIb β 3 (Platelet Membrane Glycoprotein: GPIIb-IIIa)</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">2512-9465</idno>
+						<imprint>
+							<date type="published" when="2024-01-17">January 17, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F362C3644BE20FA00BAA79C7A0668C7C</idno>
+					<idno type="DOI">10.1055/a-2247-9438</idno>
+					<note type="submission">received May 11, 2023 accepted after revision January 4, 2024 accepted manuscript online</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background The structure and functions of the extracellular domain of platelet integrin α IIb β 3 (platelet membrane glycoprotein: GPIIb-IIIa) change substantially upon platelet activation. However, the stability of the integrated model of extracellular/ transmembrane/intracellular domains of integrin α IIb β 3 with the inactive state of the extracellular domain has not been clarified. Methods The integrated model of integrin α IIb β 3 was developed by combining the extracellular domain adopted from the crystal structure and the transmembrane and intracellular domain obtained by Nuclear Magnetic Resonace (NMR). The transmembrane domain was settled into the phosphatidylcholine (2-oleoyl-1-palmitoyl-sn-glycerol-3-phosphocholine (POPC)) lipid bilayer model. The position coordinates and velocity vectors of all atoms and water molecules around them were calculated by molecular dynamic (MD) simulation with the use of Chemistry at Harvard Macromolecular Mechanics force field in every 2 Â 10 À15 seconds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The root-mean-square deviations (RMSDs) of atoms constructing the integrated α IIb β 3 model apparently stabilized at approximately 23 Ð after 200 ns of calculation. However, minor fluctuation persisted during the entire calculation period of 650 ns. The RMSDs of both α IIb and β 3 showed similar trends before 200 ns. The RMSD of β 3 apparently stabilized approximately at 15 Ð at 400 ns with persisting minor fluctuation afterward, while the structural fluctuation in α IIb persisted throughout the 650 ns calculation period. Conclusion In conclusion, the integrated model of the intracellular, transmembrane, and extracellular domain of integrin α IIb β 3 suggested persisting fluctuation even after convergence of MD calculation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The integrin α IIb β 3 molecules known as platelet glycoprotein (GP) IIb/IIIa change their affinity to various plasma ligand proteins such as fibrinogen and von Willebrand factor (VWF) upon platelet activation. <ref type="bibr" target="#b0">1</ref> Serious bleeding phenotype appears in patients deficient in the functions of α IIb β 3 , namely Glanzmann thrombasthenia 2 or fetal/neonatal alloimmune thrombocytopenia. <ref type="bibr" target="#b2">3</ref> The functional blockage of integrin α IIb β 3 reduces the risk of thrombosis such as myocardial infarction but increases the risk of bleeding. <ref type="bibr" target="#b3">4</ref> Thus, the function of integrin α IIb β 3 is essentially important for hemostasis and thrombus formation. A large body of studies have revealed that the mechanism of platelet activation depends on the functional changes in integrin α IIb β 3 . <ref type="bibr" target="#b0">1</ref> The structural characteristics of both the extracellular domain that mediates biological function <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> and the intracellular domain that induce functional changes <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> were deeply investigated. Recently, Tong et al revealed the importance of an intermediate structure between active and nonactive conformation for platelet adhesion by the use of molecular dynamic (MD) calculations. <ref type="bibr" target="#b11">12</ref> However, the stability of the structure of the integrin α IIb β 3 incorporated into the lipid membrane with the nonactive state of extracellular domain still needs to be elucidated.</p><p>Recent progress in computer technology and the evolutions of the force field incorporating quantum mechanics coarse-grained into molecular mechanics such as the CHARMM (Chemistry at Harvard Macromolecular Mechanics) enabled the construction of the biological functions of various proteins from the accumulations of simple physical movements of the atoms. <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> Various biological functions such as transmembrane water transportation were constructed by structural fluctuations of specific proteins such as aquaporin. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> Specific biological functions of platelets such as adhesion on VWF under high shear stress conditions <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> were also simulated from dynamic movements of atoms. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> The MD simulation calculation has also been applied in parts of integrin α IIb β 3 previously 22 and, recently, for whole molecules incorporated into lipid membrane by Tong et al. <ref type="bibr" target="#b11">12</ref> Several previous studies revealed the important regions within the extracellular domain of α IIb β 3 to achieve its biological functions. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> Moreover, the MD simulation was also applied to the intracellular domain of α IIb β 3 . <ref type="bibr" target="#b21">22</ref> The integrated model of integrin α IIb β 3 constructed from intracellular, transmembrane, and extracellular domain was published recently. <ref type="bibr" target="#b11">12</ref> Here, we have attempted to confirm the structural fluctuation of integrin α IIb β 3 incorporated into the lipid membrane.</p><p>We are proposing the hypothesis here that the structure of integrin α IIb β 3 is unstable as compared to other platelet glycoproteins such as GPIba even in the inactive conformation of extracellular domain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular Dynamic Simulation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Initial Structure of GPIIb/IIIa</head><p>The initial structure of the extracellular domain of integrin α IIb β 3 was obtained from the previously published crystal structure representing the nonactivated conformation. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b24">25</ref> While the platelet membrane is known to contain phosphatidyl serine, <ref type="bibr" target="#b25">26</ref> the cell membrane model composed from lipid bilayer 2-oleoyl-1-palmitoyl-sn-glycerol-3-phosphocholine (POPC) <ref type="bibr" target="#b26">27</ref> was used in this study because the distributions of POPS were shown to be influenced substantially after platelet activation and the precise distributions of POPS before and after platelet activation have only been partly quantified. <ref type="bibr" target="#b27">28</ref> The structure of the transmembrane and the intracellular domain was adopted from the previously published model predicted from NMR, electron cryo-microscopy, and single particle image reconstruction. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> The POPC membrane model was settled at the transcellular domain of the integrated α IIb β 3 model. The integrated model of whole integrin α IIb β 3 was constructed according to the previously published conceptional model. <ref type="bibr" target="#b29">30</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular Dynamic Simulation Calculation</head><p>The water molecules were modeled as CHARMM transferable intermolecular potential with three interaction sites and were arranged around the atoms constructing the integrated model of α IIb β 3 according to the previous publication. <ref type="bibr" target="#b30">31</ref> Newton's second law of F (force) ¼ M (mass) Â A (acceleration) was solved for all atoms constructing the integrated model of α IIb β 3 , lipid membrane, and water molecules. The calculation was conducted using NAnoscale Molecular Dynamics software <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> on a computer equipped with four NVIDIA Tesla V100 GPUs (HPC5000-XSLGPU4TS, HPC systems Inc., Tokyo, Japan). Since biological events occur in stable temperature and pressure, neither constant-temperature, constant-pressure ensemble (NPT) nor constant-temperature, constant-volume ensemble (NVP) ensembles were skipped. The position coordinates and velocity vectors of atoms and water molecules were calculated in each 2.0 femtosecond (10 À15 s) using the CHARMM-36 force field. <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33</ref> The calculation started immediately from the initial structure. Visual molecular dynamics version 1.9.3 was used for the visualization of the results. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> Root Mean Square Deviations</p><p>In each calculated structure, the average distances between various atoms excluding lipid bilayer and water molecules were calculated as the root mean square deviations (RMSDs) for all atoms constructing the integrated model of α IIb β 3 . To identify the specifically unstable regions within this calculation, the RMSDs were also calculated separately for α IIb , in β 3 , in the intracellular domain, in the transmembrane, and in the extracellular domains . The RMSDs were calculated every 10 picoseconds from the beginning to the end of the calculation.</p><p>The validity of calculation results was intuitively assessed by comparing the structure of extracellular domain of the integrated model of α IIb β 3 before and after MD calculation. The stability of RMSDs of atoms constructing the extracellular domain of the integrated model of α IIb β 3 within 20Ð objectively confirms that the calculated structure is not extremely different from the crystal structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Initial Structure</head><p>►Fig. 1 shows that the initial structure of the integrated model of integrin α IIb β 3 composed of the extracellular, transmembrane, and intracellular domain arranged within the POPC lipid bilayer. The protein structures are also provided as a pdb file as attached (Supplemental pdb files 1, available in the online version). The transmembrane domain is shown through a lipid bilayer.    ►Fig. 6 shows the RMSDs in β 3 within the integrated α IIb β 3 model. Overall, the RMSDs of β 3 in the integrated α IIb β 3 model apparently stabilized at 15 Ð after 600 ns of calculations. As compared to the extracellular domain, both intracellular and transmembrane domains were more unstable even after 500 ns of calculation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Structure after 700 ns of Molecular Dynamic Calculation</head><p>►Fig. 7 shows the RMSDs in α IIb within the integrated α IIb β 3 model. The RMSDs of α IIb in the integrated α IIb β 3 model did not stabilize even after 600 ns of calculation. The RMSD in α II and extracellular domain were larger than that in their intracellular and transmembrane domains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Integrin α IIb β 3 is one of the most commonly expressed platelet membrane GP. Unlike other commonly expressed pairs of protein complexes such as GPIb/IX, the biological functions of integrin α IIb β 3 change dramatically after platelet activation.</p><p>The functional changes in integrin α IIb β 3 upon platelet activation are mediated mostly by the conformational changes in its extracellular domain. <ref type="bibr" target="#b33">34</ref> Various ions including cations such as calcium and magnesium play important roles in keeping both inactive and active conformation of the extracellular domain of integrin α IIb β 3 . <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref> The activated form of integrin α IIb β 3 can bind with ligand proteins such as fibrinogen and VWF although it could not bind them in its inactive form. The mechanisms of intracellular signaling pathways to achieve active conformation of integrin α IIb β 3 have deeply been investigated so far. Recently, the logical link between the structural changes in intracellular domain of α IIb β 3 on the substantial conformational changes in its extra-cellular domain was suggested by combining all-atom simulations, principal component analysis, and mesoscale modeling by Tong et al. <ref type="bibr" target="#b11">12</ref> Here, the MD simulation of the integrated model of the extracellular, transmembrane, and intracellular domain of the integrin α IIb β 3 incorporated into the lipid bilayer membrane was conducted in all atoms constructing them. The structure of the integrated model continuously fluctuated even when the calculation was started from the inactive conformation of extracellular domain suggesting the structural instability of integrin α IIb β 3 even at the resting state.</p><p>As compared to other platelet membrane GPs such as GPIbα, the integrin α IIb β 3 model was structurally unstable even with a similar extent of calculation length. Indeed, the RSMD became apparently stable after the initial 200 ns of calculation but continued to fluctuate until 650 ns. The timedependent fluctuation is clearer in the α IIb domain than β 3 . Within α IIb , time-dependent fluctuation was clearer in the extracellular domain. For the future, we aim to apply this   model to understand the logical link between the conformational changes in the intracellular domain in integrin α IIb β 3 induced by increased intracellular calcium ion concentration upon the activation of platelets on the conformational changes in its extracellular domain. <ref type="bibr" target="#b36">37</ref> Molecular dynamic simulation is not a novel technic. <ref type="bibr" target="#b37">38</ref> But, recent advances in high-performance computers enabled clarification of the specific biological functions by large-scale and long-time simulation calculation 39 such as water transportation by dynamic structural changes in specific proteins. <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41</ref> For the platelet membrane protein, the structural fluctuation and biological functions of platelet GPIbα binding with the A1 domain of VWF were extensively investigated. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b41">42</ref> Unlike the integrated α IIb β 3 model, RMSD of GPIbα binding with VWF converged to approximately 2 Å and stabilized after several hundred nanoseconds of calculation. As compared to GPIbα, the structure of integrin α IIb β 3 was apparently unstable as shown by the attached movies. Our MD calculation results are in agreement with the previous publication. <ref type="bibr" target="#b11">12</ref> The substantial difference in the stability of the structure in commonly present platelet membrane GPIbα and GPIIb/IIIa of integrin α IIb β 3 is suggested.</p><p>Platelet activation initiated by various receptor stimulations rapidly increases the intracellular calcium ion concentration ([Ca 2þ ] i ). The activation-dependent changes in the structure of the extracellular domain of the integrin α IIb β 3 occur subsequently to this. It is of note that active conformation of the extracellular domain of integrin α IIb β 3 rapidly reversed to the inactive state without continuous stimulation of the P2Y 12 ADP receptor that is necessary for the cyclic increase in [Ca 2þ ] I . <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b42">43</ref> These experimental findings suggest that the changes in the structure of the extracellular domain of integrin α IIb β 3 are reversible events. Yet, the precise mechanism is still to be elucidated. Our computer simulation calculation findings that the structure of integrin α IIb β 3 in nature is not as stable as other membranous proteins such as GPIbα do not contradict with these previous findings. Various intracellular proteins such as talin <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b44">45</ref> and kindlin 11 play a role in achieving and maintaining the active conformation of the extracellular domain of α IIb β 3 . The dynamic structural regulation process should be controlled by a cyclic increase in [Ca 2þ ] i . Most likely, these intracellular proteins cause structural change in intracellular domain of integrin α IIb β 3 . Our integrated model of integrin α IIb β 3 started from the inactive conformation of extra-cellular domain. We have shown here the structural fluctuation of our model even within the inactive conformation of extracellular domain. These structural fluctuations may explain the redundant biological function of integrin α IIb β 3 including its binding capacity to bind to fibrinogen with RGD (arginine-glycine-aspartate) and NGD (asparagine-glycine-arginine) peptides. <ref type="bibr" target="#b45">46</ref> In the future, we are aiming to test the hypothesis whether the conformation of extra-cellular domain becomes an active form by modifying the structure of intracellular domain mimicking platelet activation.</p><p>There are several clear limitations in our study. We have adopted the previously published crystal structure of the inactive form of integrin α IIb β 3 <ref type="bibr" target="#b46">47</ref> as the extracellular domain of our integrated model of integrin α IIb β 3 . However, the crystal structure may not be identical to the functional structure of integrin α IIb β 3 in the human body. Moreover, the structure of transmembrane and intracellular domain was adopted from the prediction from NMR, electron cryo-microscopy, and single particle image reconstruction. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> The precise structure of the transmembrane domain, especially α IIb integrin was hard to be determined in a biochemical manner. <ref type="bibr" target="#b47">48</ref> MD simulation revealed positional fluctuations of amino acids in integrin α IIb β 3 as shown in the attached Supplemental movie 1 and movie 2 (available in the online version). The results shown in the figures in this paper only reflect the snapshot of the fluctuating structure. Accordingly, we are not aiming to provide a new structural model as compared to the previously established ones. <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> Our goal in this paper is to show the persisting structural fluctuation of integrin α IIb β 3 even after convergence of MD calculation starting from inactive extracellular conformation. The use of the lipid membrane composed only from POPC without POPS may also influence the experimental results. Biological experiments revealed that the position of POPS changed from the inside to the outside of the platelet membrane. <ref type="bibr" target="#b50">51</ref> However, the precise location of POPS in the membrane is still to be elucidated. While the initial structure did not contradict with previously published findings, <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b52">53</ref> one may argue that our model was artificially developed even though we followed the previous publication to construct the integrated model. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> To quantify the structural fluctuations of atoms constructing α IIb β 3 , the RMSDs were calculated in our study. However, the RMSD values may be influenced by errors such as inappropriate selection of initial structures. <ref type="bibr" target="#b53">54</ref> The highest value of RMSD shown in extracellular domain of α IIb may reflect the largest structural difference between the initial and calculated structure in the extracellular domain of α IIb. Despite these limitations, our major findings showing fluctuations even after the convergence of the integrated model is not influenced.</p><p>The Supplemental Movie 1</p><p>Time-dependent change in the structure of the integrated model of integrin α IIb β 3 in frontal view excluding the water and lipid molecules. The results are expressed as the sequential snap-shot images obtained every 10 ns from the initial structure to the end of 700 ns. Online content including video sequences viewable at: https://www.thieme-connect.com/ products/ejournals/html/10.1055/a-2247-9438.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Supplemental Movie 2</head><p>Time-dependent change in the structure of the integrated model of integrin α IIb β 3 in a diagonal view excluding the water and lipid molecules. The results are expressed as the sequential snap-shot images obtained every 10 ns from the initial structure to the end of 700 ns. Online content including video sequences viewable at: https://www.thieme-connect.com/ products/ejournals/html/10.1055/a-2247-9438.</p><p>In conclusion, an integrated model of intracellular, transmembrane, and extracellular domain of integrin α IIb β 3 was developed on a computer. Molecular dynamic simulation calculation on our model suggests persisting structural fluctuation of integrin α IIb β 3 with inactive extracellular conformation incorporated into lipid membrane even after the convergence of MDs calculations.</p><p>What is Known on this Topic? What Does this Paper Add?</p><p>• The integrated model of platelet integrin α IIb β 3 (platelet membrane glycoprotein: GPIIb-IIIa) constructed from intracellular, transmembrane, and extracellular domain suggested structural instability of integrin α IIb β 3 even in the inactive conformation of extracellular domain. • Our calculation results are in agreement with previous publication but still provide hypothesis to be tested in the future.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Initial structure of integrated model of integrin α IIb β 3 . The composed initial structure of integrin α IIb β 3 along with membrane bilayer are shown in each panel. The molecules constructing α IIb and β 3 are shown in red and blue, respectively. The membrane constructed from the bilayer of 2-oleoyl-1-pamlitoyl-sn-glyecro-3-phosphocholine is shown in light blue. The panel A to F show the view of the initial structure of the integrated model from the direction shown at left bottom of each panel.</figDesc><graphic coords="3,80.56,370.04,456.04,313.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>►Fig. 2</head><label>2</label><figDesc>shows the structure of the integrated model of integrin α IIb β 3 after 700 ns (3.5 Â 10 8 step) of MD calculation. The protein structures provided as pdb files (Supplemental pdb files 2, available in the online version). There were apparent changes as compared to the initial structures. To further clarify the changes from the initial structure, each panels of ►Fig. 1 and ►Fig. 2 was overlayed to make ►Fig. 3. The structural fluctuations of the integrated α IIb β 3 model from the beginning to the end of the calculation is summarized in two movies (Supplemental movie A and Supplemental movie B, available in the online version). Apparently, the structural fluctuation was larger in α IIb than in β 3. As compared to the heavy chain, the light chain of α IIb appeared most unstable. Supplemental Movie A Time-dependent changes in the structure of integrin α IIb β 3 from the frontal view. Online content including video sequences viewable at: https://www.thiemeconnect.com/products/ejournals/html/10.1055/a-2247-9438. Supplemental Movie B Time-dependent changes in the structure of integrin α IIb β 3 from the diagonal view. Online content including video sequences viewable at: https://www.thiemeconnect.com/products/ejournals/html/10.1055/a-2247-9438. ►Fig. 4 shows the detailed structure of the integrated model of integrin α IIb β 3 focusing on the transmembrane domain after 700 ns of calculation. The amino acid from</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 The structure of the integrated model of integrin α IIb β 3 . After 700 ns of calculation. The composed structure of integrin α IIb β 3 along with the membrane bilayer after 700 ns of MD calculation is shown. The panel A to F show the view of the initial structure of the integrated model from the direction shown at left bottom of each panel.</figDesc><graphic coords="4,66.39,406.03,456.04,308.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3</head><label>3</label><figDesc>Fig.3Overlayed images of initial structure and the one after 700 ns of calculations. The panel A to F are constructed by overlaying the images in the initial structure and the one after 700 ns of calculation.</figDesc><graphic coords="5,80.56,62.99,456.04,316.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 The detailed structure of the integrated model of integrin αIIbβ3 focusing transmembrane a domain after 700 ns of calculation. Panel A shows the overview of the calculation results at 700 ns. The arrow (1) indicates the base of the extracellular domain of integrin α IIb β 3 . The arrow (2) and (3) indicated the transmembrane and extracellular domain of integrin α IIb β 3 . Both the extracellular and intracellular domains are shown as ribbon diagram. The transmembrane domain is shown as ribbon diagram/ball and stick. Panel B, C, and D show the detailed structure of integrin α IIb β 3 around platelet membrane. (1), (2), and (3) correspond to the views shown in panel A. The lipid membrane was shown thick, transparent, and clear in panel B, C, and D. The red line indicated the structure of integrin α IIb and the blue line indicates the structure of β 3 .</figDesc><graphic coords="5,80.56,445.44,456.04,240.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 The root mean square deviations of atoms constructing the integrated model of integrin α IIb β 3 . The time-dependent changes in the root mean square deviations (RMSDs) of atoms constructing the whole integrated model of α IIb β 3 , excluding the water and the lipid, are shown as a gray line. The blue line represents the time-dependent changes in RMSDs in atoms constructing the β 3 subunit in the integrin α IIb β 3 , while the red line represents that in α IIb domain.</figDesc><graphic coords="6,80.11,62.99,428.66,256.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7</head><label>7</label><figDesc>Fig. 7 The root mean square deviations of atoms constructing α IIb in the integrated model of integrin α IIb β 3 . The time-dependent changes in the root mean square deviations (RMSDs) of atoms constructing α IIb in the integrated model of α IIb β 3 , excluding the water and the lipids, is shown as an orange line. The blue line represents the time-dependent changes in RMSDs in the transmembrane domain of β 3 molecule in the integrin α IIb β 3 . The time-dependent changes in RMSDs in the extracellular and the intracellular domains are shown in green and gray lines, respectively.</figDesc><graphic coords="7,80.56,418.00,456.04,266.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 The root mean square deviations of atoms constructing β 3 in the integrated model of integrin α IIb β 3 . The time-dependent changes in the root mean square deviations (RMSDs) of atoms constructing the β 3 subunit in the integrated model of α IIb β 3 , excluding the water and the lipids, are shown as an orange line. The blue line represents the time-dependent changes in RMSDs in transmembrane domain of β 3 molecule in the integrin α IIb β 3 . The time-dependent changes in RMSDs in the extracellular and the intracellular domains are shown in green and gray lines, respectively.</figDesc><graphic coords="7,80.56,62.99,456.04,268.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>•</head><label></label><figDesc>The structure and functions of the extracellular domain of platelet integrin α IIb β 3 (platelet membrane glycoprotein: GPIIb-IIIa) change substantially upon platelet activation.• The talins and kindlins binding to the intracellular domain of integrin β3 are necessary to transform the extracellular domain of integrin αIIbβ3 into active forms. • Molecular dynamic simulation can provide a clue to understand the biological functions of integrin α IIb β 3.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="2,66.50,62.99,455.87,256.71" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>TH Open Vol. 8 No. 1/2024 © 2024. The Author(s). Development of the Integrated Computer Simulation Model Nakayama et al.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>TH Open Vol. 8 No. 1/2024 © 2024. The Author(s).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Development of the Integrated Computer Simulation Model Nakayama et al.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>TH Open Vol. 8 No. 1/2024 © 2024. The Author(s). Development of the Integrated Computer Simulation Model Nakayama et al. e105</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgement</head><p>This research was funded by <rs type="grantName">grant-in-aid for MEXT/JSPS</rs> <rs type="grantNumber">KAKENHI 19H03661</rs>. The authors acknowledge the funding support by the <rs type="funder">Vehicle Racing Commemorative Foundation</rs> (<rs type="grantNumber">6236</rs>), the <rs type="funder">AMED</rs> grant number <rs type="grantNumber">A368TS</rs>, <rs type="grantNumber">A447TR</rs>, <rs type="funder">Fukuda Foundation for Medical Technology</rs>, and the 16th <rs type="grantName">Nakatani Grand Prix Award</rs>. The authors also acknowledge the grant support by the <rs type="programName">next-generation supercomputer Research and Development program</rs> supported by <rs type="funder">RIKEN</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This work was funded by the <rs type="funder">Ministry of Education, Culture, Sports, Science and Technology, Japan Society for the Promotion of Science</rs>, <rs type="grantNumber">Kakenhi19H03661</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_eqhCkwn">
+					<idno type="grant-number">KAKENHI 19H03661</idno>
+					<orgName type="grant-name">grant-in-aid for MEXT/JSPS</orgName>
+				</org>
+				<org type="funding" xml:id="_t6k56hA">
+					<idno type="grant-number">6236</idno>
+				</org>
+				<org type="funding" xml:id="_cCRz62T">
+					<idno type="grant-number">A368TS</idno>
+				</org>
+				<org type="funding" xml:id="_6AqA9gt">
+					<idno type="grant-number">A447TR</idno>
+					<orgName type="grant-name">Nakatani Grand Prix Award</orgName>
+					<orgName type="program" subtype="full">next-generation supercomputer Research and Development program</orgName>
+				</org>
+				<org type="funding" xml:id="_gmxXUNx">
+					<idno type="grant-number">Kakenhi19H03661</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interests</head><p>The authors S.G. declare that he is the Associate Editor for Circulation by the American Heart Association. He also declares that he is the President of the Japanese Society of Biorheology, Vice President of the Japanese College of Angiology, and Vice President of the Japanese Organization of Clinical Research Evaluation and Review. He also declares that he is a member of the executive and steering committee for several clinical trials (details could be provided with CA). The authors M.N. and Shinichi G. have nothing to disclose.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The GPIIb/IIIa (integrin alphaIIbbeta3) odyssey: a technology-driven saga of a receptor with twists, turns, and even a bend</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Coller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Shattil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">08</biblScope>
+			<biblScope unit="page" from="3011" to="3025" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Glanzmann thrombasthenia: state of the art and future directions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Nurden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Pillois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wilcox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Seminars in thrombosis and hemostasis</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="642" to="655" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Recent progress in understanding the pathogenesis of fetal and neonatal alloimmune thrombocytopenia</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Haematol</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="issue">05</biblScope>
+			<biblScope unit="page" from="671" to="682" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Platelet GPIIb-IIIa blockers</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Byzova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Plow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<biblScope unit="issue">9148</biblScope>
+			<biblScope unit="page" from="227" to="231" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Ligand binding to integrin alphaIIbbeta3 is dependent on a MIDAS-like domain in the beta3 subunit</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Tozer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Liddington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Smeeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Loftus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="issue">36</biblScope>
+			<biblScope unit="page" from="21978" to="21984" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Mutation of a ligand binding domain of beta 3 integrin. Integral role of oxygenated residues in alpha IIb beta 3 (GPIIb-IIIa) receptor function</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Bajt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Loftus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="issue">33</biblScope>
+			<biblScope unit="page" from="20913" to="20919" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structural basis for allostery in integrins and binding to fibrinogen-mimetic therapeutics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Coller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Springer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">432</biblScope>
+			<biblScope unit="issue">7013</biblScope>
+			<biblScope unit="page" from="59" to="67" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Structural basis of integrin activation by talin</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Wegener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Partridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="171" to="182" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rap1b is required for normal platelet function and hemostasis in mice</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chrzanowska-Wodnicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Schoenwaelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page" from="680" to="687" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Kindlin-3 is essential for integrin activation and platelet aggregation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nieswandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ussar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pozgajova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fässler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page" from="325" to="330" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Kindlin-2 (Mig-2): a co-activator of beta3 integrins</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Plow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page" from="439" to="446" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Integrin α IIb β 3 intermediates: from molecular dynamics to adhesion assembly</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Soley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kolasangiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bidone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page" from="533" to="543" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics simulations of biomolecules</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karplus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mccammon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">09</biblScope>
+			<biblScope unit="page" from="646" to="652" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics simulations in biology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karplus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Petsko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="issue">6294</biblScope>
+			<biblScope unit="page" from="631" to="639" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics and protein function</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karplus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuriyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="6679" to="6685" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Aquaporin water channels: atomic structure molecular dynamics meet clinical medicine</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kozono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yasui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Agre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1395" to="1399" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dynamics and energetics of permeation through aquaporins. What do we learn from molecular dynamics simulations?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Grubmüller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>De Groot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Handb Exp Pharmacol</title>
+		<imprint>
+			<biblScope unit="issue">190</biblScope>
+			<biblScope unit="page" from="57" to="76" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Initiation of platelet adhesion by arrest onto fibrinogen or translocation on von Willebrand factor</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Savage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Saldívar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Ruggeri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="289" to="297" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Distinct mechanisms of platelet aggregation as a consequence of different shearing flow conditions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Saldívar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Ruggeri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="479" to="486" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Prediction of molecular interaction between platelet glycoprotein Ibα and von Willebrand factor using molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shiozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Atheroscler Thromb</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page" from="455" to="464" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Prediction of binding characteristics between von Willebrand factor and platelet glycoprotein Ibα with various mutations by molecular dynamic simulation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Oka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ayabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thromb Res</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page" from="129" to="135" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Development of a structural model for the cytoplasmic domain of an integrin</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Plow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1395" to="1405" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">In silico analysis of Glanzmann variants of Calf-1 domain of α IIb β 3 integrin revealed dynamic allosteric effect</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goguet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Narwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Petermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jallu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>De Brevern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page">8001</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Modeling and molecular dynamics simulations of the V33 variant of the integrin subunit β3: Structural comparison with the L33 (HPA-1a) and P33 (HPA-1b) variants</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jallu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Poulain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>De Brevern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimie</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="84" to="90" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Structure of a complete integrin ectodomain in a physiologic resting state and activation and deactivation by applied forces</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Springer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">06</biblScope>
+			<biblScope unit="page" from="849" to="861" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Exposure of platelet membrane phosphatidylserine regulates blood coagulation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Lentz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">05</biblScope>
+			<biblScope unit="page" from="423" to="438" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Simulating POPC and POPC/POPG bilayers: conserved packing and altered surface reactivity</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Janosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gorfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3267" to="3273" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Platelet activation via shear stress exposure induces a differing pattern of biomarkers of activation versus biochemical agonists</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Roka-Moiia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Walk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Palomares</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thromb Haemost</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">05</biblScope>
+			<biblScope unit="page" from="776" to="792" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Structure of an integrin alphaIIb beta3 transmembrane-cytoplasmic heterocomplex provides insight into integrin activation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-Q</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Plow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">42</biblScope>
+			<biblScope unit="page" from="17729" to="17734" />
+			<date type="published" when="2009">2009</date>
+			<pubPlace>U S A</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Three-dimensional model of the human platelet integrin alpha IIbbeta 3 based on electron cryomicroscopy and x-ray crystallography</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Adair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yeager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="14059" to="14064" />
+			<date type="published" when="2002">2002</date>
+			<pubPlace>U S A</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">CHARMM TIP3P water model suppresses peptide folding by solvating the unfolded state</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boonstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Onck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giessen</forename><surname>Ev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Chem B</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3692" to="3698" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Effect of the force field on molecular dynamics simulations of the multidrug efflux protein P-glycoprotein</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Mara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="6491" to="6508" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics simulation of triclinic lysozyme in a crystal lattice</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Janowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deckman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Case</forename><surname>Da</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="87" to="102" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Global conformational rearrangements in integrin extracellular domains in outside-in and inside-out signaling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Petre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Walz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Springer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">05</biblScope>
+			<biblScope unit="page" from="599" to="511" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The ligand binding site of the platelet integrin receptor GPIIb-IIIa is proximal to the second calcium binding domain of its alpha subunit</title>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ginsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Plow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="issue">06</biblScope>
+			<biblScope unit="page" from="3440" to="3446" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Structure-guided design of a high-affinity platelet integrin αIIbβ3 receptor antagonist that disrupts Mg 2þ binding to the MIDAS</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Mccoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Transl Med</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">125</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Dependence of platelet thrombus stability on sustained glycoprotein IIb/IIIa activation through adenosine 5′-diphosphate receptor stimulation and cyclic calcium signaling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Ruggeri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="155" to="162" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics study of liquid water</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Stillinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Phys</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="3336" to="3359" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Long-timescale molecular dynamics simulations of protein structure and function</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Klepeis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lindorff-Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Dror</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="120" to="127" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Simulation of water transport through a lipid membrane</title>
+		<author>
+			<persName><forename type="first">S-J</forename><surname>Marrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Berendsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Chem</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="4155" to="4168" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The molecular basis of water transport in the brain</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amiry-Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Ottersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="991" to="1001" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The catch bond mechanism between von Willebrand factor and platelet surface receptors investigated by molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Interlandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2506" to="2522" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Contributing role of mitochondrial energy metabolism on platelet adhesion, activation and thrombus formation under blood flow conditions</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yokota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Platelets</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">07</biblScope>
+			<biblScope unit="page" from="1083" to="1089" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Loss of talin1 in platelets abrogates integrin activation, platelet aggregation, and thrombus formation in vitro and in vivo</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nieswandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pleines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3113" to="3118" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Talin is required for integrin-mediated platelet function in hemostasis and thrombosis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Petrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Ruggeri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3103" to="3111" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A novel role for the fibrinogen Asn-Gly-Arg (NGR) motif in platelet function</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moriarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Mcmanus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lambert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thromb Haemost</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="290" to="304" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Crystal structure of the extracellular segment of integrin alpha Vbeta3</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Diefenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="issue">5541</biblScope>
+			<biblScope unit="page" from="339" to="345" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Structure of the integrin alphaIIb transmembrane segment</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Ulmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="16162" to="16168" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Modulation of the affinity of integrin α IIb β 3 (GPIIb-IIIa) by the cytoplasmic domain of α IIb</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>O'toole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mandelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Forsyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Shattil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Plow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ginsberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="issue">5033</biblScope>
+			<biblScope unit="page" from="845" to="847" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The structure of a receptor with two associating transmembrane domains on the cell surface: integrin alphaIIbbeta3</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B-H</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schonbrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Springer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="234" to="249" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Both TMEM16Fdependent and TMEM16F-independent pathways contribute to phosphatidylserine exposure in platelet apoptosis and platelet activation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Kruchten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Mattheij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Saunders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1850" to="1857" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Domainspecific interactions of talin with the membrane-proximal region of the integrin beta3 subunit</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Ulmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Calderwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ginsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="8307" to="8312" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The cytoplasmic domain of alphaIIb beta3. A ternary complex of the integrin alpha and beta subunits and a divalent cation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Plow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="6017" to="6026" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Methods of protein structure comparison</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kufareva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abagyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Homology modeling</title>
+		<imprint>
+			<biblScope unit="volume">2011</biblScope>
+			<biblScope unit="page" from="231" to="257" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

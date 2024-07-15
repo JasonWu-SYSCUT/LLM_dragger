@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Atomistic simulations for investigation of substrate and salt effects on lipid in-source fragmentation in secondary ion mass spectrometry: A follow-up study</title>
+				<funder ref="#_q8zgsbc">
+					<orgName type="full">Battelle for the U.S. DOE</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">DOE Office of Science User Facility</orgName>
+				</funder>
+				<funder ref="#_baZDdKQ">
+					<orgName type="full">Biological and Environmental Research program</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Environmental Molecular Sciences Laboratory</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-02-09">9 February 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Hoshin</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Physical and Computational Sciences Division</orgName>
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>Washington</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Brittney</forename><forename type="middle">L</forename><surname>Gorman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Environmental Molecular Sciences Division</orgName>
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>Washington</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Environmental Molecular Sciences Division</orgName>
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>Washington</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Christopher</forename><forename type="middle">R</forename><surname>Anderton</surname></persName>
+							<email>christopher.anderton@pnnl.gov</email>
+							<affiliation key="aff1">
+								<orgName type="department">Environmental Molecular Sciences Division</orgName>
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>Washington</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Noisefigure Research</orgName>
+								<address>
+									<postCode>98057</postCode>
+									<settlement>Renton</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Atomistic simulations for investigation of substrate and salt effects on lipid in-source fragmentation in secondary ion mass spectrometry: A follow-up study</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-09">9 February 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DF9095FB68CA56C5A6A7EA1909131BE7</idno>
+					<idno type="DOI">10.1116/6.0003281</idno>
+					<note type="submission">Submitted: 6 November 2023 • Accepted: 16 January 2024 •</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-27T04:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In-source fragmentation (ISF) poses a significant challenge in secondary ion mass spectrometry (SIMS). These fragment ions increase the spectral complexity and can lead to incorrect annotation of fragments as intact species. The presence of salt that is ubiquitous in biological samples can influence the fragmentation and ionization of analytes in a significant manner, but their influences on SIMS have not been well characterized. To elucidate the effect of substrates and salt on ISF in SIMS, we have employed experimental SIMS in combination with atomistic simulations of a sphingolipid on a gold surface with various NaCl concentrations as a model system. Our results revealed that a combination of bond dissociation energy and binding energy between N-palmitoyl-sphingomyelin and a gold surface is a good predictor of fragment ion intensities in the absence of salt. However, ion-fragment interactions play a significant role in determining fragment yields in the presence of salt. Additionally, the charge distribution on fragment species may be a major contributor to the varying effects of salt on fragmentation. This study demonstrates that atomistic modeling can help predict ionization potential when salts are present, providing insights for more accurate interpretations of complex biological spectra.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Secondary ion mass spectrometry (SIMS) is an ion beambased method for examining the composition of solid surfaces by bombarding the sample with a focused primary ion beam and subsequently measuring the desorbed secondary ions with a mass analyzer. SIMS is a powerful technique for studying the molecular architecture of a wide variety of samples in a chemically specific and sensitive manner. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> During analysis, this versatile ion beambased method creates energetically unstable molecules that lead to intramolecular bonds breaking and the formation of fragment ions from an initially intact precursor ion, a process termed in-source fragmentation (ISF). In mass spectrometry, ISF poses a significant challenge in beam-based ionization techniques because ISF results in spectral complexity characterized by a substantial proportion of fragment ions within the spectra compared to intact molecular ions. Therefore, spectral annotation of fragments can be misidentified as intact species. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> In complex samples, such as biological tissue, this can result in very high spectral complexity. Despite its critical importance, understanding the ISF during the SIMS process remained elusive. Recently, our combined experimental and computational study investigated the orientations of a model sample (sphingolipid) on a gold surface and explored the desorption process of the sample on the surface. <ref type="bibr" target="#b4">5</ref> This study demonstrated that combined desorption and binding energies between the sample and surface calculated by computational approaches ARTICLE pubs.aip.org/avs/bip significantly contribute to fragment ion yields; therefore, they can be used as a good predictor for ISF.</p><p>In biological tissue, ISF can complicate the resulting spectra. Recent efforts have sought to minimize fragmentation using new polyatomic ion and cluster sources or by careful sample preparation to minimize matrix effects. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> New polyatomic primary ion sources minimize the ISF of precursor ions at the expense of lateral resolution compared to commonly used liquid metal ion gun (LMIG) sources (i.e., Au + , Ga + , and Bi + ). LMIG ions are easily focused to 100 nm and are generally used in imaging studies. For this reason, understanding ISF in high-resolution SIMS is desirable. The processes of desorption, ionization, and ISF are influenced by the analyte and environment (i.e., "matrix") that the analytes originate from. Specifically, the presence of salts, ubiquitous in biological samples like tissues and microbial colonies, can suppress or enhance the fragmentation and ionization of analytes. In some studies, salt can assist in differentiating metabolites, <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> but often, studies report that the presence of salt can lead to global ion suppression. <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> Washing samples is a common practice for the removal of salt and aids in restoring signal, but removing all salt is a difficult process. <ref type="bibr" target="#b11">12</ref> In some cases, washing may remove or delocalize metabolites. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> Furthermore, the presence of salt is ubiquitous in most biological samples, and studying the effects of salts on the ionization of biological compounds can assist in the interpretation of complex biological spectra.</p><p>Computational approaches, such as molecular dynamics (MD) and density functional theory (DFT) calculations, have been widely used to understand interactions at the interfaces between a wide range of biomolecules and various surfaces. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> Specifically, MD simulations and DFT calculations have been applied to elucidate important factors in mass spectrometry processes, which include molecular configurations on specific substrates, <ref type="bibr" target="#b16">17</ref> mechanisms of bond strengths for certain covalent bonds during ionization, <ref type="bibr" target="#b17">18</ref> and the relationship between binding energy and fragment intensities, <ref type="bibr" target="#b4">5</ref> etc. For instance, as aforementioned, our recent simulations found strong correlations between experimental fragment intensities and the summation of bond dissociation energy required for specific fragments of sphingolipid and their binding energy with a model gold surface. <ref type="bibr" target="#b4">5</ref> However, to our knowledge, no computational study has been utilized to explore the effect of salts on fragmentation in beam-based ionization techniques.</p><p>The ion suppression and fragmentation changes from salt are often attributed to degradation of the analytes, formation of salt adducts, or matrix effects due to competition for protons between the salt ions and analytes. To study these possible effects on fragmentation and ion yield, we used the same lipid used in our previous study, <ref type="bibr" target="#b4">5</ref> N-palmitoyl-sphingomyelin, on an Au (111) surface and added several different concentrations of salt (NaCl). This system allowed the observation of a standard lipid often observed in biological systems without the complexity of a biological sample. We collected SIMS data using a Bi 3 + primary ion source under various NaCl concentrations and applied atomistic simulationsboth MD simulations and DFT calculations-to a salt-containing system. From the simulations, we focused on the bond dissociation energy required for the fragmentation of specific bonds, the interfacial energy between surface and compound, as well as salts and fragments, which can be considered important factors for the fragmentation. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> Finally, we correlated the data calculated by MD and DFT with experimental SIMS data to understand primary ion beam ionization of lipids in the presence of salts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. METHODS</head><p>A. Sample preparations 22 × 22 mm 2 glass coverslips coated in 50 nm of gold (Au; Tedpella Inc., Redding, CA) were cleaned in methanol, acetone, and ultrapure water (18.2 Ω) for 10 min and dried under vacuum. A mixture of polydimethylsiloxane (PDMS; Dow Corning, Midland, MI) and curing polymers (20:1) was cast in a petri dish and cured for 1h at 70 °C. Rings were punched out of the PDMS with a 5 mm inner diameter, plasma cleaned (PX250, Nordson March, Concord, CA), and placed on the cleaned gold-coated coverslips. As previously reported, <ref type="bibr" target="#b4">5</ref> MD simulations were used to calculate the concentration of N-palmitoyl-sphingomyelin (PSM) that would produce a monolayer within the 5 mm ring. For each mixture, PSM was maintained at 3.9 nM in MeOH, and NaCl was added to produce a molar ratio of 1:0, 1:1, and 1:2 (0, 3.9, and 7.8 nM, respectively). 10 μl of each PSM solution were drop cast in the O-ring and allowed to dry before removing the O-ring. This was repeated three times for each condition. Then, samples were stored under inert gas until surface analysis with TOF-SIMS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. TOF-SIMS</head><p>Time-of-flight secondary ion mass spectrometry (TOF-SIMS) analyses were performed as previously reported. <ref type="bibr" target="#b4">5</ref> Briefly, TOF-SIMS analysis was performed on an IONTOF TOF-SIMS V instrument using a 25 keV Bi 3 + liquid metal ion gun in high current bunched mode with an approximate beam current of 0.5 pA. Spectra were acquired with a m/z range of 0-900 for each PSM-NaCl spot over a 200 × 200 μm 2 area with an approximate primary ion dose density of 6.39 × 10 11 ions/cm 2 for each image. An electron flood gun was used to neutralize charge buildup.</p><p>Data were processed using Surfacelab 7 (IONTOF GmbH, Münster, Germany). The spectra were calibrated using C + , CH + , CH 2 + , CH 3 + , and C 2 H 3 + peaks, and three 50 × 50 μm 3 regions of interest (ROIs) were selected from each 200 × 200 μm 2 area. Peak areas from each ROI were normalized to the total ion intensity and were exported from Surfacelab.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Simulations of N-palmitoyl-sphingomyelin and its fragments on Au(111) surface</head><p>The molecular structure of the PSM was obtained from the CHARMM-GUI individual library website. <ref type="bibr" target="#b19">20</ref> Initial PSM structure for the MD simulations was obtained from the optimized structure in our previous study. <ref type="bibr" target="#b4">5</ref> Au(111) surface was built using the structure library, which is part of the INTERFACE force field. <ref type="bibr" target="#b20">21</ref> Point charges of PSM and its fragments were obtained using the restrained electrostatic potential (RESP) procedure at M06-2X/ 6-31G* level of theory <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> using NWCHEM, version 7.2. <ref type="bibr" target="#b24">25</ref> General Amber force field (GAFF) <ref type="bibr" target="#b25">26</ref> and INTERFACE FORCE FIELD version 1.5 (Ref. 21) were used for the bonded parameters for PSM and Au(111) surfaces, respectively. Parameters for monovalent ions developed by Joung and Cheatham were applied for Na + and Cl - ions. <ref type="bibr" target="#b26">27</ref> To examine the effect of salts on the interfacial energy between PSM and Au(111), we first built three different systems for the simulations of closely packed PSM by varying the ratio between the number of PSM (a total of 30 PSM molecules) and NaCl pair, which are 1:0 (no salt), 1:1, and 1:2 ratio, respectively. From this initial system, we additionally built nine systems composed of closely packed fragments, m/z 86, m/z 104, and m/z 184, on Au (111) with the three different lipid/salt ratios, respectively [Fig. <ref type="figure" target="#fig_0">1(a)</ref>]. These three fragments were modified from PSM molecules via Discovery Studio Visualizer 2021. <ref type="bibr" target="#b27">28</ref> In these closely packed cases, we referred to our previous system, <ref type="bibr" target="#b4">5</ref> where there were 30 PSM molecules or their fragments on a 5.21 × 4.03 nm 2 gold surface. The position of NaCl ions near the lipid was determined by the 1 μs-long MD simulations of a single PSM molecule with 1:1 or 1:2 lipid/salt ratios on the gold surface. GROMACS 2018.6 (Ref. 29) was used to conduct MD simulations of single and closely packed PSM and its fragments under various salt concentrations. For all the cases, MD simulations were performed in a rectangular periodic box with a longer z-axis (5.21 × 4.03 × 10.00 nm 3 ) in order to periodically expand the system in x and y directions while minimizing non-bonded interactions along z-directions [Fig. <ref type="figure" target="#fig_0">1(b)</ref>]. The initial systems were optimized using the conjugated gradient algorithm up to a maximum residual force of 0.2 kcal/mol/A  . Then, the systems were equilibrated for 500 ps in the constant temperature, constant-volume (NVT) ensemble using the Berendsen velocity rescaling method. <ref type="bibr" target="#b29">30</ref> After the equilibration, the systems were simulated for 1 μs in vacuum. All simulations adopted a time step of 1 fs. Long-range electrostatic interactions were applied using the particle mesh Ewald method. <ref type="bibr" target="#b30">31</ref> All hydrogen atoms were constrained using the Linear Constraint Solver. <ref type="bibr" target="#b31">32</ref> After the MD simulations for 1 μs, clustering analysis was performed to obtain representative snapshots for the bond dissociation energy calculations. The representing conformations were identified by assessing the root-mean-square deviation of the PSM molecule with the Gromos algorithm implemented in GROMACS. <ref type="bibr" target="#b32">33</ref> For each system, the central structure of the most populated cluster was used for the bond energy calculations. MD trajectories of the last 500 ns were used for analyzing binding energy and ion-fragment energy calculations. The simulation process in this study is illustrated in Fig. <ref type="figure" target="#fig_0">1(b)</ref>. We first performed MD simulations of a single PSM with excessive NaCl nearby (1:5 lipid/salt ratio) in a vacuum to obtain representative structures of PSM with different lipid/salt ratios. However, MD simulations demonstrated that only one pair of NaCl is in the vicinity of PSM, and the remaining pairs were filed away from the PSM in a vacuum (Fig. <ref type="figure" target="#fig_0">S1</ref>). <ref type="bibr" target="#b42">43</ref> Based on these simulations, we took two representative snapshots for bond dissociation energy using DFT calculations-one was a PSM without NaCl representing a case in the absence of salts, and the other was a PSM with one pair of NaCl representing all cases in the presence of NaCl. These representative structures with/without salts taken from the cluster analyses were used as initial conformations of gas phase calculations. All bond dissociation energy calculations were carried out with the NWChem quantum chemistry code. <ref type="bibr" target="#b24">25</ref> The PSM and its fragments resulting from the bond breaking were optimized with M06-2X Minnesota density functional <ref type="bibr" target="#b21">22</ref> with the 6-311G** basis set. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> We referred to our previous study and used the same approach for the bond energy calculations. <ref type="bibr" target="#b4">5</ref> The simulation process for bond dissociation energy is shown in Fig. <ref type="figure" target="#fig_0">1(b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Analysis of MD simulations for binding energy and ion-fragment interactions, visualization, etc</head><p>Non-bonded interactions, including binding and ion-fragment interaction energy, were calculated via the CPPTRAJ module in the AMBER 22 package. <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35</ref> VMD 1.9.3 was used to visualize the simulation trajectories and create the snapshots used in the figures of this study. <ref type="bibr" target="#b35">36</ref> We referred to previous computational studies <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b36">37</ref> and used similar approaches for the non-bonded energy calculations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS AND DISCUSSION</head><p>This work aimed to improve our understanding of the effects of NaCl on the fragmentation and ionization of lipids. Here, we examined a model lipid, namely, palmitoyl-sphingomyelin (PSM; sphingomyelin 16:1/18:0), in the presence of NaCl. PSM was chosen as a prototypical lipid component in the plasma membrane and signaling pathways and has been implicated in human health. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> PSM has two distinct chemistries consisting of a polar headgroup and non-polar fatty acid tails [Fig. <ref type="figure" target="#fig_0">1(a)</ref>] and forms pseudomolecular ions with salt in the gas phase. <ref type="bibr" target="#b39">40</ref> Multiple concentrations of salt were added to PSM and spotted on a gold-(Au-) coated glass surface to create an environment that contains salt, a common compound within the environment in which biological samples are typically probed.</p><p>Our previous study investigating the substrate effects of lipid ISF in SIMS revealed that combined adsorption and binding energies were a good predictor of fragment ion intensities in a system without salt. <ref type="bibr" target="#b4">5</ref> The addition of salt mimics the native environment often encountered in biological studies, which may complicate the spectra. Other studies have shown that salt may suppress the yield of secondary ions; <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b41">42</ref> however, the mechanism for this suppression is not well characterized. In this work, we identified various molecular fragments originating from PSM listed in  <ref type="bibr">PNO 4 +</ref> (m/z 184). The average spectra of the PSM system without NaCl and containing NaCl are presented in Fig. <ref type="figure">2</ref>(a) and Fig. <ref type="figure">S2</ref>. <ref type="bibr" target="#b42">43</ref> In this system, the primary fragments C 5 H 12 N + (m/z 86), C 5 H 14 NO + (m/z 104), and C 5 H 15 PNO 4 + (m/z 184) are present in both the PSM-only sample and the NaCl-containing samples and have high signal intensity. We observed decreased ion yields in some PSM fragment ions (i.e., C 5 H 14 NO + and C 5 H 15 PNO 4 + ) and increased in other fragment ions (i.e., C 5 H 12 N + ) [Fig. <ref type="figure">2(b)</ref>]. Another high-intensity fragment peak also appears at m/z 58, corresponding to C 3 H 6 N + . However, m/z 58 was excluded from this analysis due to possible interference from acetone and other hydrocarbon impurities that have the same nominal mass.</p><p>One possible theory for ion suppression is the formation of salt adduct peaks. This would result in the formation of Na + cations instead of the protonation of the PSM fragments. Notably, m/z 147 and m/z 208 show increased yields in the salt-containing samples [Fig. <ref type="figure">2(a)</ref>]. These peaks correspond to Na + cations of C 5 H 14 PNO 4 + and C 2 H 5 PO 4 + , which are found as their protonated ions at m/z 125 and m/z 184, respectively (Fig. <ref type="figure">S3</ref>). <ref type="bibr" target="#b42">43</ref> This increase in abundance accounts for 7% and 1% of the decrease in signal </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARTICLE</head><p>pubs.aip.org/avs/bip intensity observed for m/z 125 and m/z 184, respectively. Therefore, this increase in the abundance of cation species does not fully explain the reduction in protonated ions. An increase in cation species that did not compensate for the decrease in protonated ions was also observed for arginine in a salt-containing sample by Piwowar et al. <ref type="bibr" target="#b10">11</ref> In this previous study, global suppression of ion intensity for arginine in a salt-containing system was observed, whereas we observed an increased abundance of C 5 H 12 N + . This suggests that cation formation is not only an unlikely cause of the reduction in ion intensity observed for m/z 125 and m/z 184, but also no cations were observed with or without salt for m/z 86. Na + cation species of other fragments (i.e., m/z 86 or 104) were not observed in the SIMS spectra. An alternate theory to interpret these changes in ion yield is that interactions with salt (NaCl) and PSM fragment ions may result in ion suppression or enhancement. This may indicate that charged Na + and Cl -form favorable ionfragment interactions, which may prevent their ionization.</p><p>To understand the effect of salts on the abundance of detected fragments, we employed combined DFT calculations and all-atom MD simulations of the PSM. Additionally, three major fragment species observed in positive ion mode, m/z 86, m/z 104, and m/z 184, were modeled for the simulations in the presence of different lipid/salt ratios [Fig. <ref type="figure" target="#fig_0">1</ref>]. When no salts are present in the system, m/z 184 showed the highest intensity, followed by m/z 86 and m/z 104. Also, the summation of the bond dissociation energy and binding energy (ion-fragment interaction equal zero as there are no salts) is in line with a trend of the experimental intensities [Fig. <ref type="figure">3(a)</ref>]. An identical trend was observed in our previous study, where two different PSM orientations on Au(111) in a vacuum without any salts were simulated for the calculations. <ref type="bibr" target="#b4">5</ref> However, when salts are present, our simulations demonstrated that the nonbonded interaction energy between fragments and ions nearby should be considered. As shown in Figs. <ref type="figure">3(b</ref>) and 3(c), a summation of the bond dissociation energy and binding energy cannot determine the intensity of fragment species in the 1:1 and 1:2 cases. However, when ion-fragment interactions are added to the combined energy, linear correlations with experimental intensities are observed in the salt-containing cases. Moreover, experimental spectra from SIMS showed different trends depending on the lipid/ salt ratios. For example, in the case of 1:0 (no salt), m/z 184 has the weakest energy with the highest abundance, followed by m/z 86 and m/z 104 with the strongest energy and the least abundance [Fig. <ref type="figure">3(a)</ref>]. In contrast, when salts are present (both 1:1 and 1:2), m/z 86 became the fragment with the highest abundance, followed by m/z 184 and m/z 104. These two trends align with the calculated energies [Figs.  <ref type="formula">3</ref>) the ion-fragment interaction energy at the gold surface-are strongly related to the experimental fragment intensities measured by SIMS and, therefore, can be used as a good predictor for the fragment intensities in the presence of ions in the system. To validate whether our calculated energies can also be used to predict the effect of salt concentration on the intensities of certain PSM fragment species, we compared the calculated energies with the relative abundance of certain fragment species normalized by total ion counts (TICs) illustrated in Fig. <ref type="figure">2(b)</ref>. By doing this, a relative portion of a fragment of interest in the three different salt ratios can be compared. As illustrated in Figs. <ref type="figure">3(d</ref>)-3(f ), the combined energy is also correlated with the relative abundance of each fragment normalized by TIC. Specifically, our calculations matched a trend shown in the relative abundance of m/z 86 that increases as salt concentration increases [Fig. <ref type="figure">3(d)</ref>] and the trends of m/z 104 and m/z 184 that showed the opposite [Figs. 3(e) and 3(f )]. These correlations also indicate that the three combined values-a sum of the bond dissociation energy, the binding energy, and the ionfragment interaction energy-correlate well with the two trends observed in SIMS fragment ion abundance. Overall, this comparison confirmed that calculated energies by computational approaches can be used as a good predictor for fragment intensities in the presence of salts.</p><p>We focused on ion-fragment interactions to understand the increase in abundance observed in m/z 86, which is contrary to previous accounts of global ion suppression with the addition of salt. As such, these results indicate that ion suppression may be molecule and/or fragment-specific. Interaction between ions and fragments showed two distinct trends as the lipid and salt ratio changed [Fig. <ref type="figure" target="#fig_4">4</ref>]. In the case of the smaller fragment, m/z 86, the non-bonded interactions became weaker as salt concentration increased. In contrast, the longer fragments, m/z 104 and m/z 184, have more stable interactions with ion pairs as NaCl concentration was increased [Fig. <ref type="figure" target="#fig_4">4</ref>]. We assume that this is due to the charge distribution of the fragment. The partially positive charges are distributed to the hydrogen atoms of the triethylamine head group of m/z 86, which are exposed, but partially negative charges are mainly located in the carbon or nitrogen atoms that are buried inside; therefore, only Cl -ions can preferably interact with the fragment and a stronger repulsive interaction between m/z 86 and the Na + ions could be made as lipid/salt ratio increases (Fig. <ref type="figure" target="#fig_4">S4</ref>). <ref type="bibr" target="#b42">43</ref> However, both m/z 104 and m/z 184 have relatively neutral, partially positive, and negative regions in the fragment, thus facilitating the interaction with both Na + and Cl -ions (Fig. <ref type="figure" target="#fig_4">S4</ref>). <ref type="bibr" target="#b42">43</ref> These different charge distributions could be one of the significant contributors to explain why the presence of salts influences the fragment intensities of m/z 86 in a different manner compared to the other two fragment species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. SUMMARY AND CONCLUSIONS</head><p>In this follow-up study, combined experimental and computational approaches have been performed to elucidate the effect of substrate and salt on lipid ISF that occurs in SIMS. The binding energy between PSM and gold surface combined with the bond dissociation energy of fragment species in the gas phase can be used as a good predictor for fragment intensities in the absence of NaCl. These results were consistent with our previous study. <ref type="bibr" target="#b4">5</ref> However, these two energies are insufficient to determine the intensity of PSM fragment species in the presence of salts, and the ion-fragment interaction energy at the gold surface needs to be considered as well. Furthermore, we showed that the differences in charge distributions of fragment species could be a major factor in fragmentation trends in the presence of salts-either suppressing or enhancing the fragmentation and ionization of fragment species. Overall, this follow-up study shows that atomistic modeling can be used to predict the ionization potential in the addition of salt as well as provide a framework for experimental analyses on more complex samples.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc>FIG. 1. (a) Chemical structure of PSM with three major fragments (m/z 86, m/z 104, and m/z 184) observed in SIMS. (b) Overview of the simulation workflow used in this study with representative snapshots of each simulation step.</figDesc><graphic coords="4,114.01,343.11,383.98,317.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>FIG. (a) Representative mass spectra from the PSM-only sample (top; green) and 1:2 (PSM: NaCl) sample (bottom; cyan). (b) The relative abundance of Na + and major PSM fragments under each condition. The relative abundance is normalized by TIC.</figDesc><graphic coords="5,317.03,347.70,239.98,294.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 3 . 5 ©</head><label>35</label><figDesc>FIG. 3. (Top panel) Correlations between the relative intensities of three fragment species normalized by the intensity of m/z 184 and calculated energies at (a) 1:0 (no salt), (b) 1:1, and (c) 1:2 lipid/salt ratios. (Bottom panel) Correlations between the relative intensities of (d) m/z 86, (e) m/z 104, and (f ) m/z 184 with the different lipid/salt ratios normalized by TIC and their calculated energies. The computed energies represent a sum of the bond dissociation energy required for the fragmentation in vacuum, binding energy between PSM and the surface, and ion-fragment interaction energy at the surface.</figDesc><graphic coords="6,53.97,300.13,504.00,342.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>3(b) and 3(c)]. This change in relative abundance indicates that the three combined values-(1) the bond dissociation energy of a fragment species in vacuum, (2) the binding energy between PSM and gold surface, and (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG. 4 .</head><label>4</label><figDesc>FIG. 4. (a) Representative snapshots of m/z 86, m/z 104, and m/z 184 with 1:0, 1:1, and 1:2 ratios between lipid and salt on Au(111) surface (top view). Periodic boundaries are shown as blue rectangles. (b) Averaged interaction energy between ions and fragments between a fragment and adjacent ions in three different lipid/salt ratios.</figDesc><graphic coords="7,317.03,101.99,239.98,380.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="1,0.00,-0.00,116.21,852.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="1,130.00,645.29,435.00,116.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table S1 (</head><label>S1</label><figDesc>Ref. 43) but focused on three representative fragments: C 5 H 12 N + (m/z 86), C 5 H 14 NO + (m/z 104), and C 5 H 15</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© Author(s) 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Biointerphases 19(1), Jan/Feb 2024; doi: 10.1116/6.0003281</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work described in this manuscript is part of the m/q Initiative at PNNL. It was conducted under the <rs type="programName">Laboratory Directed Research and Development Program at PNNL</rs>, a multiprogram national laboratory operated by <rs type="funder">Battelle for the U.S. DOE</rs>. A portion of this research was performed on a project award (10.46936/staf.proj.<rs type="grantNumber">2020.51782/60000315</rs>) from the <rs type="funder">Environmental Molecular Sciences Laboratory</rs> (EMSL), a <rs type="funder">DOE Office of Science User Facility</rs> sponsored by the <rs type="funder">Biological and Environmental Research program</rs> under Contract No. <rs type="grantNumber">DE-AC05-76RL01830</rs>. Another portion of the research was performed using the Molecular Sciences Computing Facility (MSCF) in EMSL and using resources available through Research Computing at PNNL.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_q8zgsbc">
+					<idno type="grant-number">2020.51782/60000315</idno>
+					<orgName type="program" subtype="full">Laboratory Directed Research and Development Program at PNNL</orgName>
+				</org>
+				<org type="funding" xml:id="_baZDdKQ">
+					<idno type="grant-number">DE-AC05-76RL01830</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>The raw and processed data that support the findings of this study are available in FigShare.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR DECLARATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest</head><p>The authors have no conflicts to disclose.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>Hoshin Kim: Data curation (equal); Methodology (equal); Software (lead); Writingoriginal draft (lead); Writingreview &amp; editing (equal). Brittney L. Gorman: Data curation (equal); Formal analysis (equal); Methodology (equal); Writingoriginal draft (supporting); Writingreview &amp; editing (equal). Michael J. Taylor: Formal analysis (equal); Methodology (equal). Christopher R. Anderton: Conceptualization (lead); Project administration (lead); Writingoriginal draft (supporting); Writingreview &amp; editing (equal).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics Approval</head><p>Ethics approval is not required.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Agüi-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jähne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T N</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C9JA00118B</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anal. At. Spectrom</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">1355</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gamble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Anderton</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1551929516000018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microsc. Today</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Buchberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Delaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.analchem.7b04733</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">240</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Angerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Velickovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Nicora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Kyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Anderton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gamble</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.analchem.9b03763</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">15073</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bhattacharjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Engelhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Anderton</surname></persName>
+		</author>
+		<idno type="DOI">10.1116/6.0002298</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biointerphases</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">11003</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Alnajeebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Vickerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lockyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/rcm.8265</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Commun. Mass Spectrom</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1962</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rabbani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Barber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lockyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Vickerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac200288v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">3793</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sämfors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Ewing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Fletcher</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/rcm.8181</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Commun. Mass Spectrom</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1473</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Delcorte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bertrand</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac040158s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page">2107</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-T</forename><surname>Long</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13361-018-1983-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Soc. Mass Spectrom</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1567</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Piwowar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lockyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Vickerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac8020888</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">1040</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Nadtochenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Pogorelova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Melnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Pogorelov</surname></persName>
+		</author>
+		<idno type="DOI">10.1134/S106193482006009X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page">701</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Draude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Körsgen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pelster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schwerdtle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Müthing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Arlinghaus</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00216-014-8334-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Bioanal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">407</biblScope>
+			<biblScope unit="page">2203</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Kraft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Klitzing</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbalip.2014.03.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1841</biblScope>
+			<biblScope unit="page">1108</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zauscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Yingling</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.9b02926</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">931</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Oweida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Parlak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Yingling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zauscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsami.6b16593</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">10203</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kempson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Prestidge</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.5b02476</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">10198</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Baio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weidner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gamble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Stayton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Castner</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la203907t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">2107</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torrisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tuccitto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Licciardello</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijms.2009.01.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mass Spectrom</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page">157</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Iyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Im</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20945</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1859</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heinz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Emami</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la3038846</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1754</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Truhlar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00214-007-0310-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Chem. Acc</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">215</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Hehre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ditchfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pople</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1677527</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">2257</biblScope>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hariharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pople</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00533485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aprà</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/5.0004997</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page">184102</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kollman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Case</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">1157</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Joung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cheatham</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp8001614</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">9020</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">Dassault</forename><surname>Biovia</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Systèmes</surname></persName>
+		</author>
+		<title level="m">Discovery Studio Visualizer 2021 (Dassault Systèmes</title>
+		<meeting><address><addrLine>San Diego, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Hess, and the GROMACS development team, GROMACS User Manual version</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Abraham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Spoel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lindahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018. 2019</date>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+	<note>see www. gromacs.org</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J C</forename><surname>Berendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P M</forename><surname>Postma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Van Gunsteren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dinola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Haak</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.448118</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">3684</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Darden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pedersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.464397</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">10089</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J C</forename><surname>Berendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G E M</forename><surname>Fraaije</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(SICI)1096-987X(199709)18:12%3C1463::AID-JCC4%3E3.0.CO;2-H</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">1463</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Daura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gademann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jaun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Seebach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Van Gunsteren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Mark</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(SICI)1521-3773(19990115)38:1/2%3C236::AID-ANIE236%3E3.0.CO;2-M</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">236</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Roe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cheatham</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ct400341p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3084</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Roe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cheatham</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.25382</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">2110</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dalke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0263-7855(96)00018-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Graph Model</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Yingling</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adv</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/adv.2016.91</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">1883</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Frisz</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1216585110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">613</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Dannenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmet.2012.06.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Metab</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">420</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Passarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Winograd</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbalip.2011.05.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1811</biblScope>
+			<biblScope unit="page">976</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Long</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13361-018-1983-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Soc. Mass Spectrom</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1567</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lockyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kordys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Vickerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jasms.2007.05.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Soc. Mass Spectrom</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">1559</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">See supplementary material online for Figures S1-S4 and Table S1</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

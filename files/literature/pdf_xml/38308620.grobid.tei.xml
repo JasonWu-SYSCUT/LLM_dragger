@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Palmitoylation is required for Sept8-204 and Sept5 to form vesicle-like structure and colocalize with synaptophysin</title>
+				<funder ref="#_M8ZB2X2 #_kKZEMaG">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Huicong</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Psychiatry and Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Xinxiang Key Laboratory of Protein Palmitoylation and Major Human Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Henan Health Commission Key Laboratory of Gastrointestinal Cancer Prevention and Treatment</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rong</forename><surname>Tan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Psychiatry and Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Xinxiang Key Laboratory of Protein Palmitoylation and Major Human Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Henan Health Commission Key Laboratory of Gastrointestinal Cancer Prevention and Treatment</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jia</forename><surname>Tong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Psychiatry and Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Xinxiang Key Laboratory of Protein Palmitoylation and Major Human Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Henan Health Commission Key Laboratory of Gastrointestinal Cancer Prevention and Treatment</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shuo</forename><surname>Wen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Psychiatry and Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Xinxiang Key Laboratory of Protein Palmitoylation and Major Human Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Henan Health Commission Key Laboratory of Gastrointestinal Cancer Prevention and Treatment</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Can</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Psychiatry and Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Xinxiang Key Laboratory of Protein Palmitoylation and Major Human Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Henan Health Commission Key Laboratory of Gastrointestinal Cancer Prevention and Treatment</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Muding</forename><surname>Rao</surname></persName>
+							<idno type="ORCID">0000-0001-9399-2333</idno>
+							<affiliation key="aff0">
+								<orgName type="department">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Psychiatry and Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Xinxiang Key Laboratory of Protein Palmitoylation and Major Human Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Henan Health Commission Key Laboratory of Gastrointestinal Cancer Prevention and Treatment</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiangli</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Urology</orgName>
+								<orgName type="laboratory">State Key Laboratory of Biotherapy and Cancer Center</orgName>
+								<orgName type="institution">Sichuan University and National Collaborative Innovation Center</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Correspondence Eryan Kong</orgName>
+								<orgName type="department" key="dep2">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shiqian</forename><surname>Qi</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Urology</orgName>
+								<orgName type="laboratory">State Key Laboratory of Biotherapy and Cancer Center</orgName>
+								<orgName type="institution">Sichuan University and National Collaborative Innovation Center</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Correspondence Eryan Kong</orgName>
+								<orgName type="department" key="dep2">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eryan</forename><surname>Kong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Second Affiliated Hospital</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Psychiatry and Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Xinxiang Key Laboratory of Protein Palmitoylation and Major Human Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Henan Health Commission Key Laboratory of Gastrointestinal Cancer Prevention and Treatment</orgName>
+								<orgName type="institution">Xinxiang Medical University</orgName>
+								<address>
+									<settlement>Xinxiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Palmitoylation is required for Sept8-204 and Sept5 to form vesicle-like structure and colocalize with synaptophysin</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9774FE952DAE5DFC6E409CDD658E9DC0</idno>
+					<idno type="DOI">10.1002/jcb.30529</idno>
+					<note type="submission">Received: 14 August 2023 | Revised: 9 January 2024 | Accepted: 24 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>dynamics</term>
+					<term>palmitoylation</term>
+					<term>puncta</term>
+					<term>Sept8-204</term>
+					<term>vesicle-like structure</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sept8 is a vesicle associated protein and there are two typical transcriptional variants (Sept8-204 and Sept8-201) expressed in mice brain. Interestingly, the coexpression of Sept8-204/Sept5 induces the formation of small sized vesiclelike structure, while that of the Sept8-201/Sept5 produces large puncta. Sept8 is previously shown to be palmitoylated. Here it was further revealed that protein palmitoylation is required for Sept8-204/Sept5 to maintain small sized vesiclelike structure and colocalize with synaptophysin, since either the expression of nonpalmitoylated Sept8-204 mutant (Sept8-204-3CA) or inhibiting Sept8-204 palmitoylation by 2-BP with Sept5 produces large puncta, which barely colocalizes with synaptophysin (SYP). Moreover, it was shown that the dynamic palmitoylation of Sept8-204 is controlled by ZDHHC17 and PPT1, loss of ZDHHC17 decreases Sept8-204 palmitoylation and induces large puncta, while loss of PPT1 increases Sept8-204 palmitoylation and induces small sized vesiclelike structure. Together, these findings suggest that palmitoylation is essential for the maintenance of the small sized vesicle-like structure for Sept8-204/Sept5, and may hint their important roles in synaptic functions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>S-palmitoylation (hereafter named palmitoylation) is the only reversible lipid-modification, circulating between protein palmitoylation, catalyzed by palmitoyltransferases, that is, ZDHHCs, and protein depalmitoylation, catalyzed by palmitoyl-protein thioesterases (e.g., PPT1/2, APT1/2, and ABHD17s). <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> In general, dynamic protein palmitoylation may be involved in regulating protein subcellular localization, protein-protein interaction, and signaling transduction and so forth. and therefore participates in modulating diversified cellular and physiological functions. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> Previously, it was reported that Sept8-204, a transcript of Sept8 that is exclusively expressed in neuron, is modified by palmitoylation both in vitro and in vivo, <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> yet, many aspects of Sept8-204 palmitoylation at molecular and cellular levels remain largely unknown and invite further investigations.</p><p>Septin8 (Sept8) and Septin5 (Sept5) belong to Septin family, which are highly conserved GTP-binding proteins. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> Both Sept8 and Sept5 are enriched in presynapses and participate in the regulation of synaptic vesicle (SV) trafficking and neurotransmitter release via possibly forming a complex with syntaxin1A. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> Moreover, it was reported that Sept5, vesicle-associated membrane protein2 (VAMP2) and syntaxin1A are binding partners of Sept8, <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> which then regulates the interaction between VAMP2 and synaptophysin (SYP), and inhibits SNARE complex formation. <ref type="bibr" target="#b11">12</ref> Interestingly, Sept8 has two mainly transcriptional variants (Sept8-201 and Sept8-204) expressed in mouse brain, and the coexpression of Sept8 and Sept5 could induce the formation of vesicle-like structure ex vivo. <ref type="bibr" target="#b14">15</ref> Considering that Sept8-204 is palmitoylated protein uniquely expressed in CNS, we thought to understand whether palmitoylation is required for the formation of vesiclelike structure and may relate to neuronal function and the firing of action potentials.</p><p>Here, we showed that protein palmitoylation is required for Sept8-204/Sept5 to maintain small sized vesicle-like structure and colocalize with SYP, while Sept8-201/Sept5 produces large puncta, which barely colocalizes with SYP. Most importantly, reversible Sept8-204 palmitoylation controlled by ZDHHC17 and PPT1 dynamically modulates the size of vesicle-like structure, which may suggest their potential physiological functions in neural cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Regents, antibodies and plasmids</head><p>Cell treated with the following regent for different does. DMSO (Sigma-Aldrich, Cat # D2650) acts as control. 10 μM Palmostatin B (Palm B, Calbiochem, Cat # 178501) was treated for 1 h. 100 μM 2-Bromopalmitate (2-BP, Sigma-Aldrich, Cat # 238422) was treated for 6 h. Sept8 antibody (Abcam, ab191404,1:5000 for WB), Sept5 antibody (Abcam, ab154228,1:500 for WB), PSD95 (Abcam, ab18258, 1:1000 for WB), SYP (Abcam, ab32127, 1/20000 for WB), VAMP2 (Abcam, ab181869, 1/10000 for WB), SNAP25 (Abcam, ab109105, 1/1000 for WB), Syntaxin1A (Abcam, ab41453, 1:1000 for WB), Syntaxin1B (Synaptic Systems, 110402, 1:1000 for WB), Flag (Millipore, F7425, 1:500 for immunofluorescence), HRP-conjugated mouse anti Flag-tag (ABclonal, AE024,, 1:500 for WB), Ha (Sino Biological, 100028-MM10, 1:10000 for WB, 1:500 for immunofluorescence), GM130 (BD Transduction laboratories, 610823,1:200 for immunocytochemistry) were purchased. The cDNA sequences of Sept8-204 and Sept8-201 were cloned into pCMV3 vector with Flag or GFP tag on the N-terminal. The cDNA sequences of Sept5, ZDHHC17 and PPT1 were cloned into pCMV3 vector with Ha tag on the C-terminal. The cDNA sequences of SYP were cloned into pCMV3 vector with OFP at the N-terminal. The cDNA sequences of Rab5 and Lamp1 were cloned into pCMV3 vector with RFP at the N-terminal. The cDNA sequences of LC3 were cloned into pCMV3 vector with mCherry at the N-terminal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| N2a cells cultures and transfection</head><p>N2a cells were cultured in MEM supplemented with 10% FBS (HyClone, SH30024.01), 100 U/mL penicillin and 100 μg/mL streptomycin (HyClone, SV30010). When the cell fusion reached 70%, DNA were transfected with lipofectamine 3000 (Invitrogen, L3000-015) following the instructions. Cells were incubated at 37°C, 5% CO 2 incubator for 24 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Generation of zdhhc17-KO N2a cells</head><p>In brief, Cas9 mRNA and gRNA (gRNA1: GTTGTA-CAACCATGGATAAA TGG and gRNA2: GCAGACCC CTCCTTAATTGA TGG) were mixed by in-vitro transcript kits, and transfected into N2a cells. The transfected cells were screened by flow cytometry. The following primers (F: CTCCTCAAGTCTGCGCTTTC and R: ACG-CACACTATTGAGAGTTCC) were used for genotyping purpose. ZDHHC17 antibody (ab154054) was used to analyze ZDHHC17 expression in knockout cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Animals</head><p>Wild-type C57BL6 (B6) mice were purchased from Beijing Vital River Laboratory Animal Technology Co., Ltd. Mice were housed in SPF environment at 25°C with a 12/12 h light/dark cycle with access to food and water. All animal procedures were performed according to guidelines approved by the committee on animal care at Xinxiang Medical University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Neuron culture and transfection</head><p>Hippocampal neurons were cultured as described previously with modification. Briefly, mouse hippocampus was isolated from embryos at E19 and kept in cold HBSS (Gibco, 14175). The tissues were washed three times with HBSS and incubated for 15 min with 0.25% trypsin (sigma, SM-2001) at 37°C. Dissociated cells were suspended in DMEM+++ (5% FBS, 1% Glutamax, 1% sodium pyruvate, and 1% Pen/Strep) and washed three times with DMEM+++. Neurons were plated at a density of 0.8 × 10 6 cells/well onto a poly-D-lysine coated 12 well plate on glass coverslips. NBM+++ (Gibco, 21103-049) (2% B27, 1% Glutamax, and 1% Pen/Strep) was used as maintaining media. Lipofectamine 2000 (Invitrogen, 11668-019) was used for transient transfection according to Lipofectamine 2000: plasmid = 1:1 at DIV 7.</p><p>As described, <ref type="bibr" target="#b15">16</ref> cultured neurons (DIV15) expressing Flag-Sept8/Sept5-Ha or Flag-Sept8-3CA/Sept5-Ha were stimulated for 60 s with 55 mM KCl in Krebs'-Ringer's-HEPES solution (KRH, 130 mM NaCl, 5 mM KCl, 1.2 mM MgSO 4 , 1.2 mM KH 2 PO 4 , 2 mM CaCl 2 , 6 mM glucose, and 25 mM HEPES, pH 7.4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| ABE and RAC assay</head><p>Palmitoylation of Sept8-204 was analyzed by RAC and ABE assay, as previously described. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b16">17</ref> Briefly, 1 mg mice brain lysate was used for RAC assay and incubated in blocking buffer (100 mM HEPES, 1 mM EDTA, 2.5% SDS, 50 mM NEM, pH 7.5) and kept at 50°C for 1 h with agitation. NEM was removed by three sequential acetone precipitations. The pellet was resuspended in 600 μL binding buffer (100 mM HEPES, 1 mM EDTA, 1% SDS, pH 7.5) and divided into two equal samples: one samples (+HA) was treated with 40 μL 2 M hydroxylamine (HA) and one samples (-HA) was treated with 40 μL 2 M NaCl. Both samples were added with 50 μL pre-equilibrated thiopropyl Sepharose 6B (Cat#17-0420-01, GE Healthcare). Resins were washed five times with binding buffer and eluted with 40 μL Leammli loading buffer (2.1% SDS, 66 mM Tris-HCl, 26% (W/V) glycerol, 50 mM DTT, pH 7.5) on a shaker at 42°C for 15 min and used for WB analysis.</p><p>ABE assay was performed using 1 mg mice brain lysate. The protein lysate was incubated with 50 mM NEM in LB buffer (150 mM NaCl, 50 mM Tris, 5 mM EDTA, pH 7.4) overnight at 4°C. Chloroform-methanol (CM) precipitate samples. The pellet was dissolved in 400 μL SB buffer (4% SDS, 50 mM Tris, 5 mM EDTA, pH 7.4), and divided into two equal parts: +HA sample and -HA sample. +HA sample was diluted with Hydroxylamine (HA) -containing +HA buffer (0.7 M hydroxylamine, 1 mM HPDP-biotin, 0.2% Triton X-100, 1 mM PI, 1 × PI pH 7.4), while -HA sample was diluted with -HA buffer (50 mM Tris, 1 mM HPDP-biotin, 0.2% Triton X-100, 1 mM PMSF, 1 × PI, pH 7.4) at 25°C for 1 h. CM precipitate samples. The sample was incubated with (150 mM NaCl, 50 mM Tris, 5 mM EDTA, 0.2 mM HPDP-biotin, 0.2% Triton X-100, 1 mM PMSF, 1 × PI, pH 7.4) at 25°C for 1 h. CM precipitate samples. The pellet was dissolved with 100 μL TB buffer, 1.9 μL mL LB buffer and 25 μL streptavidinagarose at 4°C for overnight. Agarose was washed using Washing buffer was for six times and eluted by 150 μL LB buffer containing 1% β-ME and used for WB analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">| Click chemistry</head><p>Clikc chemistry was performed as previous described. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> N2a Cells transfected with Flag-Sept8-204 were treated with 50 μM 17-ODYA (Cayman Chemical, Cat#90270) probe for 8hs, and then cells were washed with PBS and lysed in lysis buffer (50 mM Tris-HCl, pH 7.4, 150 mM NaCl, 0.1% TritonX-100, 0.1% SDS) supplemented with protease inhibitor cocktail. Cell lysates were collected by centrifugation (12000 rpm, 10 min) at 4°C to remove the debris. Protein concentrations were quantified by BCA assay. For Cu 2+catalyzed click reaction: aliquot (94 μL) lysates were incubated with 1 μL of 10 mM biotin-azide stock in DMSO, 2 μL of 50 mM TECP, 1 μL of 10 mM TBTA stock in DMSO, 2 μL of 50 mM CuSO 4 stock in H 2 O at room temperature for 1 h. 0.2 μL of 10 mM EDTA was added to terminate the reaction. Biotinylated (palmitoylated) proteins were affinity isolated using 25 μL streptavidin beads at RT for 4 h and analyzed by WB using Flag antibody.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8">| Western blot</head><p>Different ages brain tissue and cultured cells were homogenized in RIPA buffer (Beyotime Biotechnonogy, P0013) containing protein inhibitor (PI). Samples were centrifuged at 12 000g for 10 min at 4°C and quantified by BCA kits. Lyates were separately by SDS-PAGE and transferred into nitrocellulose membrane. The membrane was immunoblotted with different antibodies and immunoreactive bands were visualized by enhanced chemiluminescence. Data were quantitated by using ImageJ software and GraphPad Prism 8.0.1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.9">| Immunoprecipitation (IP)</head><p>Cells were lysed in RIPA (with PI) and centrifuged at 12 000g for 10 min at 4°C. The supernatant of cell lysates was precleared Flag-agrose (sigma, #SLG8965) overnight at 4°C. After washing five times with 1 × TBS, the bound proteins were eluted with 0.1 M glycine•HCl at room temperature (RT) for 5 min. Samples were analyzed by SDS-PAGE, followed by immunoblotting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.10">| Immunocytochemistry</head><p>In general, cultured cells were fixed with 4% paraformaldehyde (PFA) for 20 min at RT. After washed with PBS, cells were permeabilized with 0.01% TritonX-100 for 5 min, washed with PBS, and then blocked with 3% BSA for 1 h, labeled with primary antibodies overnight at 4°C. After washing with PBS, cells were incubated with different secondary antibodies for 1 h at 37°C. Fluorescent images were acquired with Leica TCS SP8 confocal laser scanning microscopy with 63 × oil-immersion lens. The fluorescence intensity and colocalization rates were measured by Leica software LAS X (version:3.3.0.16799) along the blue lines. Similarly, the longest axis of puncta was calculated as puncta diameter with the same software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.11">| Electrophysiological recordings from cultured neurons</head><p>Pipette (3.8-4.4 mΩ) were pulled from borosilicate glass (O.D.: 1.5 mm, I.D.: 0.86 mm, Sutter Instrument) and filled with internal solution containing 40 mM CsCl, 10 mM HEPES, 10 mM EGTA, 2 mM Na 2 -ATP. Extracellular bath solution contained 140 mM NaCl, 5 mM KCl, 2 mM CaCl2, 1 mM MgCl 2 , 10 mM HEPES, 10 mM, and 10 mM glucose. TTX (1 μM) was added to block action potential for mEPSCs recording. To record excitatory postsynaptic currents, the GABAR antagonist bicuculline (10 μM) was added in the bath solution just before use. Cells were voltage clamped at -70 mV and all patch-clamp recordings were performed at room temperature. Currents were amplified using a Multiclamp 700B amplifier (Molecular Devices), low-pass filtered at 1 kHz, and digitized using a Digidata 1550B interface (Molecular Devices) at 5 kHz. Offline analysis of mEPSCs was performed using Mini analysis software (version: 6. 0. 3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.12">| Statistics and reproducibility</head><p>All data were presented as means ± S.E.M. Statistics analysis was performed using GraphPad Prism 8.0. Paired Student's t test, one-way analysis of variance (ANOVA) followed by Tukey's post hoc test, and Kolmogorov-Smirnov test. Significance was defined as: *p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001 and n.s., not significant. All experiments were repeated at least three times independently. None of the samples were excluded from the statistical analysis. Sample sizes were chosen based on what is commonly used in the field and were not statistically predicted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| The coexpression of Sept8 variants with Sept5 result in divergent size of vesicle-like structure</head><p>To profile the expression patterns of Sept8 and Sept5, WT mice brains were collected from varied timepoints and the results showed that the protein level of Sept8-204, Sept8-201, or Sept5 gradually increases along with brain development, which is in line with synaptic proteins, such as synaptophysin (SYP), VAMP2, SNAP25, and syntaxi-n1A/1B (Supporting Information S1: Figure <ref type="figure" target="#fig_0">1A,</ref><ref type="figure">B</ref>).</p><p>Sept8 has two major variants in mice brain, Sept8-204 (484 aa) and Sept8-201 (429 aa). Previously, it was shown that the coexpression of Sept8 with Sept5 forms vesiclelike structure in mammalian cells, <ref type="bibr" target="#b19">20</ref> however, it was not clear which variant of Sept8 was used. To test whether Sept8 variants may cause divergent cellular consequence, we constructed Sept8-204 or Sept8-201 with a Flag (DYKDDDDK) tag at the N-terminal, and Sept5 with a Ha (YPYDVPDYA) tag at the C-terminal. Flag-Sept8-204 or Flag-Sept8-201 were coexpressed with Sept5-Ha in N2a cells. Interestingly, the expression of Flag-Sept8-204 with Sept5-Ha produces a similar size of vesicle-like structure as shown before (vesicle diameter approximately 0.25 μm), <ref type="bibr" target="#b14">15</ref> while the expression of Sept8-201 with Sept5 produces significantly larger puncta (puncta diameter approximately 1.79 μm) (Figure <ref type="figure" target="#fig_0">1A</ref>,B), confirmed also by 3D scanning images (Figure <ref type="figure" target="#fig_0">1C</ref>). Both Flag-Sept8-204 and Flag-Sept8-201 have strong interactions with Sept5-Ha (Figure <ref type="figure" target="#fig_0">1D,</ref><ref type="figure">E</ref>). Most strikingly, the expression of either Flag-Sept8-204, Flag-Sept8-201, or Sept5-Ha alone produces no such structure (Supporting Information S1: Figure <ref type="figure" target="#fig_0">1C</ref>), suggesting that the coexpression with Sept5 is essential for the formation of vesicle-like structure. Furthermore, to understand how the large puncta forms, GFP-Sept8-201 (N-terminal green fluorescent protein-tagged Sept8-201) was coexpressed with Sept5-RFP (C-terminal red fluorescent proteintagged Sept5) for live cell imaging, and the imaging data showed that Sept8-201/Sept5 initially forms small vesicles, and gradually, they seem able to fuse and become larger puncta (Figure <ref type="figure" target="#fig_0">1F</ref> and Supporting Information S2: Video 1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| The palmitoylation of Sept8-204 is required for maintaining the size of puncta</head><p>Previous studies suggested that Sept8 is a palmitoylation modified protein in neurons. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> For confirmation, Flag-Sept-204 and its nonpalmitoyl mutant Flag-Sept8-204-3CA (C469A/C470A/C472A) were expressed in N2a cells for ABE, RAC and Click analysis, the results showed that Sept8-204 is readily palmitoylated, while Sept8-204-3CA is not palmitoylation (Figure <ref type="figure" target="#fig_1">2A</ref>-D, Supporting Information S1: Figure <ref type="figure" target="#fig_1">2A,</ref><ref type="figure">B</ref>). Moreover, the treatment of 2-BP (palmitoylation inhibitor) decreases (Figure <ref type="figure" target="#fig_1">2E</ref>,F), and that of PalmB (depalmitoylation inhibitor) increases (Figure <ref type="figure" target="#fig_1">2G,</ref><ref type="figure">H</ref>), the level of Sept8-204 palmitoylation. To determine whether Sept8-204 palmitoylation is involved in regulating the size of puncta, Flag-Sept8-204 or the nonpalmitoylated Flag-Sept8-204-3CA was coexpressed with Sept5-Ha in N2a cells. Interestingly, the results showed that Flag-Sept8-204/Sept5-Ha produces small size vesicle-like structure, however, Flag-Sept8-204-3CA/Sept5-Ha produces large puncta (Figure <ref type="figure" target="#fig_1">2I</ref>,J, upper). Both Flag-Sept8-204/Sept5-Ha and Flag-Sept8-204-3CA/Sept5-Ha were weakly colocalized with early endosome marker Rab5, lysosome marker Lamp1, autophagy marker LC3 or Golgi marker GM130 in N2a cells (Supporting Information S1: Figure <ref type="figure" target="#fig_1">2C</ref>). Consistently, inhibiting palmitoylation by 2-BP treatment transforms small size to large size puncta in cells expressing Sept8-204/Sept5 (Figure <ref type="figure" target="#fig_1">2I</ref>,J, under). As we measure the size of vesicle-like structure, it suggests that the large puncta produced by Flag-Sept8-204-3CA/Sept5-Ha is comparable to that of the Flag-Sept8-201/Sept5-Ha (Figure <ref type="figure" target="#fig_0">1A,</ref><ref type="figure">B</ref>), hinting that palmitoylation at the C-terminus of Sept8-204 is essential for the formation of small size vesicle-like structure. Additionally, applying live-cell imaging, it was shown that Flag-Sept8-204/ Sept5-Ha induced vesicles are moving around very rapidly, while Flag-Sept8-204-3CA/Sept5-Ha induced puncta are not moving dynamically, rather tend to gather together to form large puncta (Figure <ref type="figure" target="#fig_1">2K</ref>, Supporting Information S1: Figure <ref type="figure">S3</ref>, Supporting Information S2: Videos 2-5). These results supported that Sept8-204 palmitoylation is required to maintain the stability of small vesicle-like structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| ZDHHC17 mediated Sept8-204 palmitoylation dynamically regulated vesicle size</head><p>Previous study suggested that ZDHHC17 may catalyze the palmitoylation of Sept8. <ref type="bibr" target="#b20">21</ref> For confirmation, first, we performed immunoprecipitation assay and the results showed that ZDHHC17-Ha (C-terminal Ha-tagged ZDHHC17) does coprecipitate with Flag-Sept8-204/ Sept5-Ha (Figure <ref type="figure">3A,</ref><ref type="figure">B</ref>), and importantly, the expression of ZDHHC17-Ha enhances (Figure <ref type="figure">3C,</ref><ref type="figure">D</ref>), while the deletion of ZDHHC17 (Supporting Information S1: Figure <ref type="figure">4</ref>) decreases (Figure <ref type="figure">3E</ref>,F), the level of Sept8-204 palmitoylation. Furthermore, to test whether ZDHHC17 is involved in regulating vesicle size, Flag-Sept8-204/ Sept5-Ha was coexpressed in either N2a/WT or N2a/ ZDHHC17-KO cells, and the imaging data showed that Sept8-204/Sept5 produces small sized vesicle-like structure in N2a/WT cells, whereas Sept8-204/Sept5 produces large puncta in ZDHHC17-KO cells (Figure <ref type="figure">3G,</ref><ref type="figure">H</ref>), implying that ZDHHC17 mediated Sept8-204 palmitoylation is required for small sized vesicle formation. As shown in Figure <ref type="figure" target="#fig_1">2G</ref>,H that depalmitoylation inhibitor PalmB may increase the level of palm-Sept8-204, indeed, the incubation of PalmB significantly augments the level of palm-Sept8-204 in ZDHHC17-KO cells (Figure <ref type="figure">3I,</ref><ref type="figure">J</ref>). Dynamically, the large puncta in ZDHHC17-KO is turning into small sized vesicle-like structure upon the treatment of PalmB (Figure <ref type="figure">3K,</ref><ref type="figure">L</ref>). Together, these data support that ZDHHC17 mediated Sept8-204 palmitoylation dynamically regulates the size of puncta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| PPT1 negatively regulates Sept8-204 palmitoylation and modulates puncta size</head><p>PPT1 was suggested to catalyze the depalmitoylation of Sept8-204. <ref type="bibr" target="#b21">22</ref> For confirmation, PPT1-Ha (C-terminal Hatagged PPT1) was coexpressed and the results showed that PPT1 does significantly lower the level of palm-Sept8-204 (Figure <ref type="figure">4A,</ref><ref type="figure">B</ref>). Moreover, the loss of PPT1 increases the level of palm-Sept8-204 (Figure <ref type="figure">4C,</ref><ref type="figure">D</ref>). Plus, the IP experiment suggested that PPT1 precipitates with Sept8-204/Sept5 (Figure <ref type="figure">4E,</ref><ref type="figure">F</ref>). These data supported that PPT1 catalyzes the depalmitoylation of Sept8-204. Next, we thought to test whether palmitoylation inhibitor 2-BP might alter Sept8-204 palmitoylation in PPT1-KO cells. <ref type="bibr" target="#b21">22</ref> ABE results showed that 2-BP treatment again significantly downregulates the level of palm-Sept8-204 in N2a/PPT1-KO cells (Figure <ref type="figure">4G,</ref><ref type="figure">H</ref>). Consequently, small sized vesicle-like structure in PPT1-KO cells transforms into large puncta upon the treatment of 2-BP (Figure <ref type="figure">4I,</ref><ref type="figure">J</ref>). In total, these experiments suggest that PPT1 depalmitoylates Sept8-204 and thus modulates the formation of puncta in N2a cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| Sept8-204 palmitoylation dynamically modulates the colocalization of vesicle-like structure with SYP</head><p>Sept8 and Sept5 were suggested to be involved in neuronal exocytosis, whereby they colocalize with SYP and Syntaxin1A. <ref type="bibr" target="#b22">23</ref> To determine whether the palmitoylation of Sept8-204 is required for this process, we transfected Flag-Sept8-204/Sept5-Ha or Flag-Sept8-204-3CA/Sept5-Ha with OFP-SYP (C-terminal orange fluorescent protein) in N2a cells and the results showed that Sept8-204/Sept5 (form small vesicle-like structure) induced vesicle colocalizes well with SYP (colocalization rate, 84.13%), while that of the Sept8-204-3CA/Sept5 with SYP is about 11.86% (Figure <ref type="figure" target="#fig_3">5A-C</ref>). In parallel, loss of ZDHHC17 decreases the level of palm-Sept8-204 (Figure <ref type="figure">3E,</ref><ref type="figure">F</ref>) and thus keeps the low colocalization rate of Sept8-204/Sept5 (form large puncta) with SYP (17.24%) (Figure <ref type="figure" target="#fig_3">5D</ref> upper, Figure <ref type="figure" target="#fig_3">5E,</ref><ref type="figure">F</ref>). Critically, upregulated level of palm-Sept8-204 (Figure <ref type="figure">3I</ref>,J) induced by PalmB in N2a/ZDHHC17-KO cells dramatically enhances the colocalization rate of Sept8-204/Sept5 with SYP (63.49%) (Figure <ref type="figure" target="#fig_3">5D</ref> under, Figure <ref type="figure" target="#fig_3">5F</ref>). Consistently, these findings are in line with the coprecipitation results (Figure <ref type="figure" target="#fig_3">5G-J</ref>). Together, the above data revealed that modulating Sept8-204 palmitoylation dynamically regulate the colocalization of vesicle-like structure with SYP.</p><p>To investigate whether Sept8-204 palmitoylation is involved in regulating the colocalization of vesicle-like structure with endogenous SYP, Flag-Sept8-204/Sept5-Ha or Flag-Sept8-204-3CA/Sept5-Ha were expressed in cultured hippocampal neurons. The imaging data showed that Flag-Sept8-204/Sept5-Ha is enriched in SYP-positive signal (Figure <ref type="figure" target="#fig_4">6A</ref>, upper panel and Figure <ref type="figure" target="#fig_4">6D</ref>, and Supporting Information S1: Figure <ref type="figure" target="#fig_3">5A</ref>) and show small vesicle-like structure and nice colocalization (75.00%), while Flag-Sept8-204-3CA, or Flag-Sept8-204/Sept5 treated with 2-BP, mainly retains within the soma as large puncta and is largely no longer colocalized with SYP (Figure <ref type="figure" target="#fig_4">6A</ref>-C and Supporting Information S1: Figure <ref type="figure" target="#fig_3">5A</ref>). Next, to test whether KClinduced the firing of action potentials in neurons may be relevant for such cellular phenomenon, KCl (55 mM) was used to treat cultured hippocampal neurons and the results showed that KCl-induced depolarization decreased the palmitoylation level of Sept8-204 in cultured hippocampal neurons (Figure <ref type="figure" target="#fig_4">6E,</ref><ref type="figure">F</ref>). Consequently, Sept8-204/Sept5 induced vesicle-like structure transforms into large puncta in the soma of neurons when treated with KCl (Figure <ref type="figure" target="#fig_4">6G-I</ref>). Furthermore, to assess whether endogenously-expressed Sept8-204 may have similar behavior, cultured hippocampal neurons were used. The corresponding results showed that scattered Sept8 is tending to accumulate into larger aggregates (Supporting Information S1: Figure <ref type="figure" target="#fig_3">5B</ref>), partially mimics the behaviors illustrated in ectopically expressed conditions when palm-Sept8 is downregulated (Figure <ref type="figure" target="#fig_4">6A</ref>). However, one should note that commercially-available Sept8 antibody cannot differentiate between Sept8-201 and Sept8-204. Finally, to evaluate probability curve and significantly inhibited mEPSCs amplitude (Figure <ref type="figure" target="#fig_4">6J,</ref><ref type="figure">K</ref>). Together, these results may suggest that Sept8-204 palmitoylation is relevant for neurophysiological functions and required for the colocalization of Sept8-204/Sept5 induced vesicle with SYP.</p><formula xml:id="formula_0">F I G U R E 3 ZDHHC17 mediated Sept8-</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>Previous studies suggested that Sept8 partners with Sept5, <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b23">24</ref> the proper cellular localization of Sept8 and Sept5 requires concomitant expression of both proteins and coexpression of Sept8/Sept5 results in both proteins targeted to a vesicle-like location. <ref type="bibr" target="#b14">15</ref> By analyzing Sept8 variants, Sept8-201 and Sept8-204 were found highly expressed in the mouse brain (Supporting Information S1: Figure <ref type="figure" target="#fig_0">1A,</ref><ref type="figure">B</ref>). Consistently, our immunofluorescence experiments confirmed that the coexpression of Sept8-204 and Sept5 could form vesicle-like structures in N2a (Figure <ref type="figure" target="#fig_0">1</ref>), as shown in previous reports. <ref type="bibr" target="#b14">15</ref> While the coexpression of Sept8-201/Sept5 or Sept8-204-3CA/Sept5 forms large puncta (Figures <ref type="figure" target="#fig_0">1</ref> and<ref type="figure" target="#fig_1">2</ref>), a phenomenon that has not been reported. Furthermore, it was revealed that dynamic palmitoylation of Sept8-204, maintained by ZDHHC17 and PPT1, is essential for the transformation of vesicle-like structure either large or small (Figures <ref type="figure">3</ref> and<ref type="figure">4</ref>). Nevertheless, here we uncovered a mechanism in N2a cells that the expression of transcriptional variants of Sept8 (Sept8-201 or Sept8-204) and Sept5 produce different sized vesicle-like structure, which is controlled by protein palmitoylation of Sept8-204.</p><p>Various lines of evidence showed that both Sept8 and Sept5 locate in the presynaptic membrane and have been shown to interact with VAMP2, syntain-1 of SNARE complex. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> Moreover, Sept8 promotes the release of VAMP2 form SYP during action potential stimulation and enhanced docking of vesicles to presynaptic membrane, <ref type="bibr" target="#b11">12</ref> while Sept5 negatively regulate synaptic vesicle release at presynaptic membrane. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b24">25</ref> Indeed, small size vesicle-like structure induced by the expression of Sept8-204/Sept5 colocalizes with SYP, a marker of synaptic vesicles, in neuronal branches, indicating that small size vesicle-like structure may be involved in modulating the dynamics of synaptic vesicles. Consistently, the application of KCl (55 mM) to induce the firing of action potentials significantly downregulates the level of Sept8-204 palmitoylation and therefore may alter the localization, size, as well as physiological function of vesicle-like structure in cultured hippocampal neurons (Figure <ref type="figure" target="#fig_4">6</ref>). Similarly, inhibiting Sept8 palmitoylation by 2-BP or the expression of Sept8-204-3CA/Sept5 in cultured hippocampal neurons produces large puncta, which mainly resides in the soma of cell body (Figure <ref type="figure" target="#fig_4">6</ref>). These data suggested that Sept8-204/ Sept5 colocalize with SYP and may have functional relevance in the firing of action potentials. Indeed, a recent study reported that palmitoylation of Sept8 goes up with chemical long-term potentiation, <ref type="bibr" target="#b25">26</ref> implying that Sept8 palmitoylation is closely associated with neuronal activities.</p><p>It should be noted that the deletion of ZDHHC17 does not completely abrogate the level of palm-Sept8-204, and the facts that palmB or 2-BP can further modulate Sept8-204 palmitoylation in ZDHHC17-KO or PPT1-KO cells, suggesting that other unknown palmitoyltransferases or thioesterases may also be involved in regulating the dynamicity of palm-Sept8-204. Indeed, in a different study where it was reported that multiple ZDHHCs can enhance the level of palm-Sept8-204, <ref type="bibr" target="#b21">22</ref> extending the evidence that the regulation of the homeostasis of Sept8-204 palmitoylation is likely important and complicated in neurons.</p><p>Collectively, here we showed that palmitoylation is essential for Sept8-204 and Sept5 to form vesicle-like structure and distribute along neuronal branches, where they colocalize with SYP. In the firing of action potentials, Sept8-204 palmitoylation is downregulated and may result in the relocation of vesicle-like structure into the soma of neural cells. Our study implicated that dynamic Sept8-204 palmitoylation and Sept5 may play important roles in modulating the activity of action potentials. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 1</head><label>1</label><figDesc>The coexpression of Sept8 variants with Sept5 result in divergent size of vesicle-like structure. (A and B) N2a cells expressing Flag-Sept8-204/Sept5-Ha or Flag-Sept8-201/Sept5-Ha for morphological analysis and the diameter of puncta was quantified. Images are presentative, and data are quantified as means ± S.E.M. of 10 cells from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (C) Representative 3D images of Flag-Sept8-204/Sept5-Ha and Flag-Sept8-201/Sept5-Ha in N2a cells. (D and E) N2a cells expressing Flag/Sept5-Ha, Flag-Sept8-204/Sept5-Ha, or Flag-Sept8-201/Sept5-Ha were immunoprecipitated by Flag-conjugated resin. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and one-way ANOVA followed by Tukey's post hoc test. (F) Representative images of live cell imaging of N2a cells expressing GFP-Sept8-201/Sept5-RFP.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>F I G U R E 2</head><label>2</label><figDesc>The palmitoylation of Sept8-204 is required for maintaining the size of vesicle-like structure. (A-D) Flag-Sept8-204, Flag-Sept8-204-3CA, or Flag-Sept8-201 was expressed in N2a cells and subjected for the analysis of ABE (A and B) and RAC (C and D). Hydroxylamine (HA) was used to hydrolyze thioester linkage. +: with HA, -: without HA. Blots are representative, and data are means ± S. E.M. from three biological replicates. ***p &lt; 0.001 and one-way ANOVA followed by Tukey's post hoc test. (E and F) N2a cells expressing Flag-Sept8-204/Sept5-Ha were treated with 2-BP (100 μM) and subjected for ABE assay. Blots are representative, and data are means ± S.E. M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (G and H) N2a cells expressing Flag-Sept8-204/Sept5-Ha were treated with PalmB (10 µM) and subjected for ABE assay. Blots are representative, and data are means ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (I and J) N2a cells expressing Flag-Sept8-204-3CA/Sept5-Ha, Flag-Sept8-204-3CA/Sept5-Ha treated with DMSO, Flag-Sept8-204-3CA/Sept5-Ha treated with 100 μm 2-BP for 6 h, were analyzed for diameter of puncta. Images are representative, data are quantified as means ± S.E.M. of 10 images from three biological replicates. ***p &lt; 0.001 and one-way ANOVA followed by Tukey's post hoc test. (K) Representative images of live cell imaging from N2a cells expressing GFP-Sept8-204/Sept5-RFP or GFP-Sept8-204-3CA/Sept5-RFP.F I G U R E 3 (See caption on next page).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>204 palmitoylation dynamically regulated vesicle size. (A and B) N2a cells expressing Flag/Sept5-Ha/ZDHHC17-Ha or Flag-Sept8-204/Sept5-Ha/ZDHHC17-Ha were immunoprecipitated by Flag-conjugated resin. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (C and D) ABE assay to assess the abundance of palmitoylated Spet8-204 in lysates from N2a cells expressing Flag-Sept8-204/Sept5-Ha with empty-Ha or ZDHHC17-Ha. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (E and F) Flag-Sept8-204 was expressed in WT or ZDHHC17-KO N2a cells and subjected for ABE assay. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (G and H) N2a/WT or N2a/ZDHHC17-KO cells expressing Flag-Sept8-204-3CA/Sept5-Ha were analyzed for diameter of puncta and quantified. Images are representative, data are quantified as means ± S.E.M. of 13 images from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (I and J) N2a/ZDHHC17-KO cells expressing Flag-Sept8-204 were treated with DMSO or PalmB (10 µM) for 2 h, and subjected for ABE analysis. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (K and L) N2a/ZDHHC17-KO cells expressing Flag-Sept8-204/Sept5-Ha were treated with either DMSO or PalmB (10 µM) for 2 h and the diameter of puncta was quantified. Images are representative, data are quantified as means ± S.E.M. of 11 images from three biological replicates. ***p &lt; 0.001 and paired Student's t test. whether downregulated level of palm-Sept8-204 is involved in the physiological function of neurons, hippocampal neurons cultured from either WT or Sept8-204 palmitoylation site mutations (Sept8-204-KI, C469A/C470A/C472A) mice were subjected for the measurement of miniature Excitatory PostSynaptic Currents (mEPSCs). The results showed that Sept8-204-KI neurons displayed a leftward shift in cumulative F I G U R E 4 PPT1 negatively regulates Sept8-204 palmitoylation and modulates vesicle size. (A and B) N2a cells expressing Flag-Sept8-204/Sept5-Ha with empty-Ha or PPT1-Ha co-transfection were subjected for ABE analysis. Blots are representative, and data are mean ± S.E. M. from three biological replicates. **p &lt; 0.01 and paired Student's t test. (C and D) Flag-Sept8-204/Sept5-Ha was expressed in N2a/WT or N2a/PPT1-KO cells, their lysates were detected by ABE. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (E and F) N2a cells expressing Flag-Sept8-204/Sept5-Ha/PPT1-Ha or Flag/Sept5-Ha/PPT1-Ha were immunoprecipitated by Flag-conjugated resin. Blots are representative, and data are mean .E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (G and H) N2a/PPT1-KO cells expressing Flag-Sept8-204/Sept5-Ha were treated with either DMSO or 2-BP (100 μM) for 6 h and subjected for ABE analysis. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (I and J) N2a/PPT1-KO cells expressing Flag-Sept8-204/Sept5-Ha were incubated with either DMSO or 2-BP (100 μM) for morphological analysis, and the diameter of puncta was quantified. Images are representative, data are quantified as means ± S.E.M. of 10 images from three biological replicates. ***p &lt; 0.001 and paired Student's t test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>F I G U R E 5</head><label>5</label><figDesc>Sept8-204 palmitoylation promotes the colocalization of vesicle-like structure with SYP. (A-C) N2a cells expressing Flag-Sept8-204/Sept5-Ha/OFP-SYP or Flag-Sept8-204-3CA/Sept5-Ha/OFP-SYP were analyzed for puncta size and colocalization rate. Images are representative, data are quantified as means ± S.E.M. of five images from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (D-F) N2a/ZDHHC17-KO cells expressing Flag-Sept8-204/Sept5-Ha/OFP-SYP treated with DMSO or PalmB (10 µM) for 2 h for morphological analysis. Images are representative, data are quantified as means ± S.E.M. of five images from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (G and H) N2a cells expressing Flag/Sept5-Ha/OFP-SYP, Flag-Sept8-204-WT/Sept5-Ha/OFP-SYP or Flag-Sept8-204-3CA/Sept5-Ha/OFP-SYP were immunoprecipitated by Flag-conjugated resin. Blots are representative, and data are mean ± S.E.M. from three biological replicates. **p &lt; 0.001 and one-way ANOVA followed by Tukey's post hoc test. (I and J) N2a/ZDHHC17-KO cells expressing Flag-Sept8-204/Sept5-Ha/OFP-SYP treated with DMSO or PalmB (10 µM) were immunoprecipitated by Flag-conjugated resin. Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>F I G U R E 6</head><label>6</label><figDesc>Inhibiting Sept8-204 palmitoylation attenuates the colocalization rate of vesicle-like structure with SYP and in cultured hippocampal neurons. (A-C) Cultured hippocampal neurons transfected with Flag-Sept8-204/Sept5-Ha, Flag-Sept8-204-3CA/Sept5-Ha, Flag-Sept8-204/Sept5-Ha treated with 2-BP (100 μM, for 6 h) and fixed at DIV15 for imaging. The puncta size and the colocalization rate with endogenous SYP were quantified. Data are means ± S.E.M. of five cells from three independent cultures. ***p &lt; 0.001 by one-way ANOVA, Tukey's post hoc test. (D) The intensity of Flag-Sept8-204/Sept5-Ha and SYP in WT (A) were quantified along the scattered white line (indicating neuronal branches). Images are representative. (E and F) ABE assay to assess the abundance of palmitoylated Sept-204 in cultured hippocampal neurons treated with or without KCl (55 mM, 60 s). Blots are representative, and data are mean ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (G and H) Representative images of cultured hippocampal neurons (DIV15) expressing Flag-Sept8-204/Sept5-Ha were treated with or without KCl (55 mM, 60 s). Images are representative, data are quantified as means ± S.E.M. from three biological replicates. ***p &lt; 0.001 and paired Student's t test. (I) The intensity of Flag-Sept8-204/Sept5-Ha and endogenous SYP in (G) -KCl were quantified along the scattered white line (indicating neuronal branches). Images are representative. (J) Representative traces of mEPSCs recorded from WT (black trace) and Sept8-204-KI (C469A/C470A/C472A) neurons (red trace). (K) Amplitude of mEPSCs from (J). Cumulative probability curve: WT versus Sept8-204-KI, Kolmogorov-Smirnov test, p = 0.0384; Bar graph: WT versus Sept8-204-KI, Student's t test, p = 0.0199. Data are means ± S.E.M. of eight cells from three independent cultures.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>10974644, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/jcb.30529 by Zhongshan University, Wiley Online Library on [08/06/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This study was supported by the <rs type="funder">National Natural Science Foundation of China</rs> (Grant No. <rs type="grantNumber">32000686</rs> and <rs type="grantNumber">32371309</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_M8ZB2X2">
+					<idno type="grant-number">32000686</idno>
+				</org>
+				<org type="funding" xml:id="_kKZEMaG">
+					<idno type="grant-number">32371309</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>DATA AVAILABILITY STATEMENT Data sharing not applicable to this article as no data sets were generated or analyzed during the current study.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>Huicong Liu, Jia Tong, Shuo Wen, Shiqian Qi, and Eryan Kong carried out the study designing and performed the major part of the experiments, participated in the data analysis and interpretation of data and wrote the manuscript. Can Wu, Muding Rao, Rong Tan, and Jiangli Zhu participated in the biochemical experiments. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors declare no conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Activitydependent post-translational regulation of palmitoylating and depalmitoylating enzymes in the hippocampus</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Abazari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Bamji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">260629</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Palmitoylated proteins: purification and identification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1573" to="1584" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The transferrin receptor and the tetraspanin web molecules CD9, CD81, and CD9P-1 are differentially sorted into exosomes after TPA treatment of K562 cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Naour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Planchon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boucheix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rubinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="650" to="664" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The role of palmitoylation in signalling, cellular trafficking and plasma membrane localization of proteaseactivated receptor-2</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Hooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011">2011. 28018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Localization of palmitoylated and activated G protein α-subunit in Dictyostelium discoideum</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kageyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Gundersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="4975" to="4989" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Synaptic activity-dependent changes in the hippocampal palmitoylome</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nasseri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Matin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Signal</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page">2519</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Cell type-specific CLIP reveals that NOVA regulates cytoskeleton interactions in motoneurons</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Darnell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">117</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Cell and molecular biology of septins</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Fung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Trimble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Rev Cell Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="289" to="339" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Septin structure and filament assembly</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Valadares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D' Muniz</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ulian</forename><surname>Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Garratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys Rev</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="481" to="500" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The septin CDCrel-1 binds syntaxin and inhibits exocytosis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Beites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bowser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Trimble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="434" to="439" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Synaptic dysfunction and septin protein family members in neurodegenerative diseases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marttinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kurkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Soininen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haapasalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hiltunen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Neurodegener</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Sept8 controls the binding of vesicle-associated membrane protein 2 to synaptophysin</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Atsuzawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Morishita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="867" to="880" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Phosphorylation of adult type Sept5 (CDCrel-1) by cyclin-dependent kinase 5 inhibits interaction with syntaxin-1</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Itakura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="7869" to="7876" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Septin 8 is an interaction partner and in vitro substrate of MK5</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shiryaev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="98" to="109" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Human septin-septin interactions as a prerequisite for targeting septin complexes in the cytosol</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Martínez C, Sanjuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ware</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<biblScope unit="page" from="783" to="791" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Potent dual MAGL/FAAH inhibitor AKU-005 engages endocannabinoids to diminish meningeal nociception implicated in migraine pain</title>
+		<author>
+			<persName><forename type="first">Della</forename><surname>Pietra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krivoshein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Headache Pain</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">38</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Site-specific analysis of protein S-acylation by resin-assisted capture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Forrester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="393" to="398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Optimized incorporation of alkynyl fatty acid analogs for the detection of fatty acylated proteins using click chemistry</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vis Exp</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">170</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Crosstalk of Synapsin1 palmitoylation and phosphorylation controls the dynamicity of synaptic vesicles in neurons</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">786</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Human septin-septin interactions as a prerequisite for targeting septin complexes in the cytosol</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sanjuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ware</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<biblScope unit="page" from="783" to="791" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Tracking brain palmitoylation change: predominance of glial change in a mouse model of Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Savas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1421" to="1434" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Palmitoylated Sept8-204 modulates learning and anxiety by regulating filopodia arborization and actin dynamics</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Signal</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">8645</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Cyclin-dependent kinase 5 phosphorylation of human septin SEPT5 (hCDCrel-1) modulates exocytosis</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kesavapany</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3631" to="3643" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Human septin-septin interaction: CDCrel-1 partners with KIAA0202</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bläser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hainmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">519</biblScope>
+			<biblScope unit="page" from="169" to="172" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Septin dynamics are essential for exocytosis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tokhtaeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Capri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Marcus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="page" from="5280" to="5297" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Synaptic activitydependent changes in the hippocampal palmitoylome</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Nasseri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Matin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Wild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Signal</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page">2519</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Identification and validation of palmitoylation metabolism-related signature for liver hepatocellular carcinoma</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2023-11-25">25 November 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Rui</forename><surname>Feng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Interventional Medicine</orgName>
+								<orgName type="institution" key="instit1">Zhejiang Provincial People&apos;s Hospital</orgName>
+								<orgName type="institution" key="instit2">People&apos;s Hospital of Hangzhou Medical College</orgName>
+								<address>
+									<postCode>310000</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dexin</forename><surname>Cheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Interventional Medicine</orgName>
+								<orgName type="institution" key="instit1">Zhejiang Provincial People&apos;s Hospital</orgName>
+								<orgName type="institution" key="instit2">People&apos;s Hospital of Hangzhou Medical College</orgName>
+								<address>
+									<postCode>310000</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaochen</forename><surname>Chen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Medical Oncology</orgName>
+								<orgName type="institution">Zhejiang Provincial People&apos;s Hospital</orgName>
+								<address>
+									<addrLine>Cancer Center</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">People&apos;s Hospital of Hangzhou Medical College</orgName>
+								<address>
+									<postCode>310000</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liu</forename><surname>Yang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Medical Oncology</orgName>
+								<orgName type="institution">Zhejiang Provincial People&apos;s Hospital</orgName>
+								<address>
+									<addrLine>Cancer Center</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">People&apos;s Hospital of Hangzhou Medical College</orgName>
+								<address>
+									<postCode>310000</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hao</forename><surname>Wu</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Vascular Surgery</orgName>
+								<orgName type="institution" key="instit1">Zhejiang Provincial People&apos;s Hospital</orgName>
+								<orgName type="institution" key="instit2">People&apos;s Hospital of Hangzhou Medical College</orgName>
+								<address>
+									<postCode>310000</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<address>
+									<addrLine>158 Shangtang Road</addrLine>
+									<settlement>Hangzhou</settlement>
+									<region>Zhejiang</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Identification and validation of palmitoylation metabolism-related signature for liver hepatocellular carcinoma</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-11-25">25 November 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1E78702C592DA512BA3C50772AF14BED</idno>
+					<idno type="DOI">10.1016/j.bbrc.2023.149325</idno>
+					<note type="submission">Received 18 September 2023; Received in revised form 21 November 2023; Accepted 22 November 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Palmitoylation metabolism LIHC ZDHHC20 Prognostic model Immune</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Protein S-palmitoylation is a reversible posttranslational modification widely involved in tumor progression. Nevertheless, the function of palmitoylation metabolism in prognosis and tumor microenvironment characteristics in liver hepatocellular carcinoma (LIHC) patients is not fully understood. Methods: mRNA and clinical data of LIHC patients were obtained from the TCGA and ICGC databases. Consensus clustering was used to construct palmitoylation metabolism-related clusters. Univariate Cox and Lasso regression analyses were employed to establish a palmitoylation metabolism-related signature (PMS). ssGSEA was applied to evaluate the immune cell score in each LIHC sample. Functional enrichments were accessed through GO, KEGG and GSVA. Drug sensitivity data were downloaded from the GDSC database. Results: Three palmitoylation metabolism-related clusters with different prognostic and immune infiltration characteristics were constructed in LIHC. We identified PMS with distinct survival, clinical, and tumor immune microenvironment characteristics. The high PMS group had a poorer prognosis, higher infiltration of immunosuppressive cells and higher expression of immune checkpoints. ZDHHC20 exerted a tumor-promoting role in LIHC and was significantly associated with immunosuppressive cells and immunosuppressive checkpoints. Additionally, in HepG-2 and SMCC-7721 cells, si-ZDHHC20 boosted apoptosis but decreased proliferation and migration when compared to si-NC. Conclusion: Our research revealed that PMS may accurately predict the prognosis and immune characteristics of LIHC patients. ZDHHC20 has significant clinical and immune relevance in LIHC and may contribute to the formulation of new targets for LIHC immunotherapy.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>LIHC was also the sixth most common cancer and the fourth leading cause of cancer-related death globally in 2018 <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>. α-Fetal proteins (AFPs) are important criteria for the diagnosis and prognosis of liver cancer <ref type="bibr" target="#b3">[4]</ref>. However, its accuracy is suboptimal due to the interference of many non-LIHC-related factors <ref type="bibr" target="#b4">[5]</ref>. Therefore, to better treat LIHC patients, it is necessary to screen biomarkers that can predict prognosis as early as possible.</p><p>Posttranslational modifications (PTMs) of proteins refer to chemical modifications of proteins after translation. PTMs may change intracellular signal transduction, metabolism, and gene regulation networks by regulating the stability and localization of proteins and the interactions between proteins and other biological macromolecules (including proteins, nucleic acids, and lipids), thus regulating a variety of cellular functions <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. In normal cells, PTMs may accurately and rapidly regulate cell proliferation, thus determining the cell state (quiescence or proliferation) <ref type="bibr" target="#b7">[8]</ref>. In cancer cells, PTMs may lead to abnormal proliferation of tumor cells by regulating cell proliferation and cell cycle-related effector proteins and providing continuous proliferation signals <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. Hundreds of PTMs have been discovered, and their main forms include phosphorylation, glycosylation, acetylation, ubiquitination, and acylation <ref type="bibr" target="#b10">[11]</ref>. Among them, protein acylation represents an important posttranslational modification <ref type="bibr" target="#b11">[12]</ref>. Lapidated proteins are usually closely related to nonpolar structures such as lipid bilayers, which significantly increase the hydrophobicity of proteins and thus regulate their conformation, membrane binding, localization, and diffusion <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. Therefore, in both tumor cells and normal cells, protein acylation plays an important role in cell proliferation and metabolism.</p><p>Protein acylation mainly includes prenylation, N myristylation, and palmitoylation, while protein S-palmitoylation is the only completely reversible protein acylation modification <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. S-palmitoylation means that the fatty acid and the sulfhydryl group of cysteine are connected by a thioester bond, which may influence the structure, assembly, maturation, transportation and function of proteins, thereby regulating membrane receptors, ion channels, cell adhesion and other physiological processes <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref>. In mammalian cells, s-palmitoylation is regulated by a family of 23 zinc-finger Asp-His-His-Cys (DHHC) domain (ZDHHC) protein acyltransferases (PATs) <ref type="bibr" target="#b18">[19]</ref>. To analyze the role of palmitoylation metabolism in LIHC, a comprehensive analysis of key ZDHHC families and regulatory genes was necessary.</p><p>In this study, we constructed palmitoylation metabolism-related clusters with different prognostic and immune features depending on palmitoylation metabolism-related genes (PMGs). PMS was constructed and facilitated to explore the prognostic features of LIHC. The palmitoylation metabolism prognostic model had distinct prognostic, mutational, and immune features. In addition, we further evaluated the immune and clinicopathological characteristics of ZDHHC20, a key gene in palmitoylation metabolism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Data acquisition and processing</head><p>The consolidated transcriptome expression matrix and clinical data of LIHC were acquired from The Cancer Genome Atlas (TCGA) database (https://portal.gdc.cancer.gov/). A total of 23 PMGs were summarized from related reviews <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b19">20]</ref>. The International Cancer Genome Consortium (ICGC) database (https://dcc.icgc.org/) was adopted to further validate the prognostic features of the model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Construction of palmitoylation metabolism-related clusters and bioinformatics analysis</head><p>Based on the expression of the 23 PMGs, we utilized the Con-sensuClusterPlus package to identify disparate palmitoylation modification patterns and classified patients for further analysis. We used Kaplan-Meier (KM) analysis to explore the survival differences between palmitoylation metabolism-related clusters. Then, we screened differentially expressed genes (DEGs) among palmitoylation metabolismrelated clusters according to |logFC|≥1 and adj P value &lt; 0.01. Depending on the DEG expression, we evaluated the enrichment of biological pathways between different clusters by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG). In addition, gene set variation analysis (GSVA) was adopted to evaluate the enrichment of cancer-related pathways between different palmitoylation metabolism-related clusters with the "h.all.v2023.1.Hs.symbols" from MSigDB.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Analysis of immune infiltration and function</head><p>Single-sample gene set enrichment analysis (ssGSEA) was conducted to calculate the enrichment scores of various immune cells and immune functions by the "GSVA" package and immune-related gene set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Construction of the palmitoylation metabolism-related signature</head><p>We used univariate Cox regression analysis, according to the standard of P value &lt; 0.05, to screen candidate PMGs related to prognosis. Then, least absolute shrinkage and selection operator (LASSO) Cox regression analysis was conducted to construct the PMS. The algorithm was as follows: PMS = Coef 1 * Gene 2 expression + Coef 2 * Gene 2 expression + … …Coef X * Gene X expression, with Coef referring to the coefficient calculated by LASSO and gene expression referring to the expression of PMGs. All patients were classified into low-and high PMS groups based on the median value of PMS. In addition, KM analysis, area under the curve (AUC) of the receiver operating characteristic (ROC) curve, and univariate and multivariable logistic regression were adopted to assess the prognostic accuracy of PMS. Tracking tumor immunophenotype (TIP, http://biocc.hrbmu.edu.cn/TIP/) immune activity scores for LIHC samples were collected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Cell culture and gene silencing</head><p>Dulbecco's modified Eagle medium (DMEM) (Gibco, Grand Island, NY) supplemented with 10 % fetal bovine serum (FBS) was used to cultivate the HepG-2 and SMCC-7721 cell lines, which were obtained from the Cell Bank of the Chinese Academy of Sciences (Beijing, China). At a density of 4 × 10 5 /mL, HepG-2 and SMCC-7721 cells were injected into 6-well plates for 24 h. Synthesized small interfering RNA (siRNA) was transfected into cells using Lipofectamine 3000 (Invitrogen, Carlsbad, CA, USA). The effectiveness of the silencing was evaluated via quantitative reverse transcription polymerase chain reaction (qRT-PCR). Table <ref type="table">S1</ref> contains all of the ZDHHC20 siRNA sequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">In vitro detection of gene silencing efficiency</head><p>Using TRIzol Reagent (Invitrogen), total RNA was isolated from the HepG-2 and SMCC-7721 cell lines. Then, using High Capacity cDNA Reverse Transcription kits (Vazyme, China), extracted RNA was converted into cDNA. Finally, SYBR Green PCR Master Mix (Vazyme, China) was used to process the qRT-PCR. Table <ref type="table">S2</ref> displays the ZDHHC20 primers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">In vitro detection of LIHC proliferation and migration</head><p>After incubation for 24, 48, and 72 h, 10 μL of Cell Counting Kit-8 (CCK-8) reagent was added to 96-well plates containing HepG-2 and SMCC-7721 cells from various groups. The cells were then cultivated for 1-4 h in the dark. With the use of an automated microplate reader (Synergy4; BioTek, USA), the absorbance at 450 nm was calculated. Additionally, HepG-2 and SMCC-7721 cells were seeded into a 6-well plate and scratched with a 1 mL pipette tip after cell confluence reached 90 %. The diameter of the wounds was assessed after 24 h of treatment with 1 μg/mL mitomycin C in serum-free media using a microscope (ICX41, SDPTOP, China) at a magnification of 40. ImageJ software was used to measure the wound widths and wound closure rates after photographs of the wounds were taken at 0 and 24 h after scratching. Using a Transwell chamber (Corning, USA) with a 6.5-mm diameter, the transwell migration experiment was also used to test the ability of cells to migrate. In the Transwell chamber, 5 × 10 5 HepG-2 and SMCC-7721 cells were plated in the top chamber, and 700 μL of DMEM containing 10 % FBS was introduced to the lower chamber. The membranes of the chamber were fixed with 4 % paraformaldehyde for 30 min after 24 h of incubation at 37 • C. The migrating cells were then stained with 0.1 % crystal violet for 30 min at 37 • C, and the number of cells was counted using an inverted biological microscope (ICX41, SDPTOP, China) at a magnification of 200. In each group, five locations were chosen at random. Three separate independent runs of each experiment were conducted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">In vitro detection of LIHC apoptosis</head><p>Different groups of transfected HepG-2 and SMCC-7721 cells were seeded in 6-well plates. Then, using ethylene diamine-tetra acetic acid (EDTA)-free trypsinization, approximately 1 × 105 cells, including suspended cells, were extracted. They were then rinsed twice with cold phosphate-buffered saline (PBS). Cell apoptosis was identified using a CytoFLEX-3 flow cytometer (BD, USA) in accordance with the directions of the Annexin V-fluorescein isothiocyanate (FITC)/propidium iodide (PI) apoptosis kit (MultiSciences, China). FlowJo software was used to analyze the collected data. Each group was given three replicates, and each experiment was run three times independently.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.9.">Statistical analysis</head><p>All analyses were performed using R 4.2.2. All statistical tests were two-sided, and a P value &lt; 0.05 was considered to indicate statistical significance unless otherwise noted. KM curves and log-rank tests were utilized to analyze the correlation between PMGs and overall survival (OS) in LIHC patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Establishment and bioinformatic analysis of palmitoylation metabolism-related clusters</head><p>The flowchart of the study is shown in Fig. <ref type="figure" target="#fig_0">S1</ref>. Based on the expression of the 23 PMGs, we utilized the ConsensuClusterPlus package to establish 3 disparate palmitoylation metabolism-related clusters (Fig. <ref type="figure" target="#fig_0">1A</ref>). A heatmap showed the distribution of gene expression profiles and clinicopathological variables among different clusters (Fig. <ref type="figure" target="#fig_0">1B</ref>). The KM curve showed that the prognosis of Cluster B was the worst (Fig. <ref type="figure" target="#fig_0">1C</ref>). A Venn diagram showed that a total of 838 common DEGs between clusters were screened (Fig. <ref type="figure" target="#fig_0">1D</ref>). As a further validation, the GO results suggested that the DEGs were mainly localized to histone modification, mRNA metabolism, and transcriptional coregulator activity (Fig. <ref type="figure" target="#fig_0">1E</ref>). Simultaneously, KEGG analysis suggested that DEGs were focused on hepatocellular carcinoma, the cell cycle, the mTOR signaling pathway and the mRNA surveillance pathway (Fig. <ref type="figure" target="#fig_0">1F</ref>). GSVA analysis revealed that Cluster B was markedly localized to cancer-promoting pathways, including PI3K AKT MTOR signaling and TNFA signaling, via NFKB (Fig. <ref type="figure" target="#fig_0">1G</ref>). Cluster A was localized to multiple metabolism pathways (Fig. <ref type="figure" target="#fig_0">1H</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Identification of immune characteristics of palmitoylation metabolism-related clusters</head><p>To further explore the causes of survival differences among clusters, we analyzed the characteristics of infiltration. The heatmap shows the distribution of tumor microenvironment scores and immune cells in the clusters (Fig. <ref type="figure" target="#fig_1">2A</ref>). Fig. <ref type="figure" target="#fig_1">2B</ref> indicates that Cluster C had the lowest immune function score. In addition, the estimate algorithm was utilized to evaluate tumor microenvironment scores. The stromal score, immune score, and ESTIMATEScore were all significantly overexpressed in Cluster A and Cluster B (Fig. <ref type="figure" target="#fig_1">2C</ref>). By analyzing the differential expression of immune infiltrating cells in different clusters, the results indicated that the expression of immune infiltrating cells was the highest in Cluster B and the lowest in Cluster C (Fig. <ref type="figure" target="#fig_1">2D</ref>). In addition, the expression of most immunosuppressive checkpoints was highest in Cluster B and lowest in Cluster A (Fig. <ref type="figure" target="#fig_1">2E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Establishment of a palmitoylation metabolism-related signature</head><p>First, we found that these PMGs are significantly overexpressed in LIHC and are significantly associated with poor prognosis (Fig. <ref type="figure" target="#fig_1">S2</ref>). Then, to construct the PMS, univariate Cox regression analysis was adopted to screen out prognosis-related PMGs. According to the P &lt; 0.05 standard, 8 prognosis-related PMGs were screened (Fig. <ref type="figure" target="#fig_2">3A</ref>). Then, the 8 prognosis-related PMGs were analyzed by Lasso regression. Finally, 4 PMGs were selected to establish the PMS (Fig. <ref type="figure" target="#fig_2">3B</ref> and<ref type="figure">C</ref>). A heatmap showed the distribution of the 4 modeled genes in the PMS groups (Fig. <ref type="figure" target="#fig_2">3D</ref>). The KM curve and distribution of survival status revealed that patients in the high PMS group had a worse prognosis (Fig. <ref type="figure" target="#fig_2">3E-G</ref>). The ROC curves for PMS at 1, 2, and 3 years in the TCGA dataset were 0.731, 0.662, and 0.644, respectively (Fig. <ref type="figure" target="#fig_2">3H</ref>). Univariate and multivariate Cox analyses showed that PMS had good accuracy in predicting the prognosis of LIHC patients (Fig. <ref type="figure" target="#fig_2">3I</ref> and<ref type="figure">J</ref>). The ICGC dataset was adopted as an external validation dataset to validate the accuracy of the PMS. The KM curve indicated that patients in the high PMS group had a worse prognosis in the ICGC dataset (Fig. <ref type="figure" target="#fig_2">3K</ref>). The AUCs of the 1-, 2-, and 3year OS of PMS in the ICGC dataset were 0.750, 0.669, and 0.679, respectively (Fig. <ref type="figure" target="#fig_2">3H</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Identification of the mutation and immune characteristics of the palmitoylation metabolism-related signature</head><p>Then, we further evaluated the correlation between PMS and tumor mutation burden (TMB). The mutation rate was 155/175 (88.57 %) in the high PMS group and 148/177 (83.62 %) in the low PMS group (Fig. <ref type="figure" target="#fig_3">4A</ref> and<ref type="figure">B</ref>). Meanwhile, the expression of TMB was higher in the high PMS group, which was the same as expected (Fig. <ref type="figure" target="#fig_3">4C</ref>). Therefore, patients with high TMB may have a worse prognosis (Fig. <ref type="figure" target="#fig_3">4D</ref>). Next, we evaluated the prognostic features of combined PMS and TMB in LIHC patients. The KM survival curve revealed that H-TMB + H-PMS had the worst prognosis, and L-TMB + L-PMS had the best prognosis (Fig. <ref type="figure" target="#fig_3">4E</ref>). A heatmap showed immune cell expression in the PMS group under various algorithms (Fig. <ref type="figure" target="#fig_4">5A</ref>). Fig. <ref type="figure" target="#fig_4">5B</ref> shows the correlation between immune cells and PMS under various algorithms. Immunosuppressive cells (macrophages, MDSCs, regulatory T cells) were significantly overexpressed in the high PMS group (Fig. <ref type="figure" target="#fig_4">5C-E</ref>). To further assess the relevance of PMS to immune typing, we then analyzed the differential expression of PMS in previously reported pancancer immune subtypes. The expression of PMS was higher in C1 and C2 and lowest in C3 (Fig. <ref type="figure" target="#fig_4">5F</ref>). Fig. <ref type="figure" target="#fig_4">5G</ref> reveals that C1 and C2 accounted for more in the high PMS group, while C3 and C4 accounted for more in the low PMS group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Identification of clinicopathologic characteristics and drug sensitivity of the palmitoylation metabolism-related signature</head><p>To assess the prognostic features of PMS, we further analyzed the association of PMS with clinicopathologic variables. First, we analyzed the differential expression of PMS in different clinicopathologic variables. We found that PMS differed significantly in different clinicopathologic variables (histological grade, pathological stage and T stage) and was significantly overexpressed in advanced clinicopathological variables (Fig. <ref type="figure" target="#fig_5">6A</ref>). Furthermore, we found that there were significant differences in the proportions of different clinicopathological variables between the PMS groups and that there were more advanced clinicopathological variables in the high PMS group (Fig. <ref type="figure" target="#fig_5">6B</ref>). The KM curves indicated that among different clinicopathological variables, patients in the high PMS group had a poor prognosis (Fig. <ref type="figure" target="#fig_5">6C</ref>). The above results further confirmed that PMS was significantly negatively correlated with LIHC patient prognosis. To further guide the development of clinical treatment strategies, we screened 15 major chemotherapeutic agents from the pRRophetic package to determine whether PMS was associated with LIHC resistance. The IC50 of Epothilone. B, Etoposide, gemcitabine, bortezomib and doxorubicin were higher in the low PMS group, suggesting that these 5 drugs may be more suitable for patients with higher PMS (Fig. <ref type="figure" target="#fig_2">S3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Identification of the clinicopathologic and immune characteristics of palmitoylation metabolism-related genes</head><p>To further analyze the key events leading to tumorigenesis and progression, we analyzed the correlation between 4 modeled genes and clinicopathological variables. The outcomes showed that ZDHHC20 was differentially expressed in different clinicopathologic variables (Fig. <ref type="figure" target="#fig_3">S4</ref>). ZDHHC20 was highly correlated with the clinicopathological stage of LIHC patients and played a tumor-promoting role in LIHC. Therefore, the immune characteristics of ZDHHC20 were further investigated. Fig. <ref type="figure">7A</ref> indicates that immunosuppressive cells (MDSCs, regulatory T cells and macrophages) were overexpressed in the high ZDHHC20 group. Similarly, tumor microenvironment scores (immunescore, stromal score and estimated score) were obviously overexpressed in the high ZDHHC20 group (Fig. <ref type="figure">7B</ref>). Moreover, we further analyzed the correlations between ZDHHC20 and immunosuppressive checkpoints. The results indicated that immunosuppressive checkpoints were highly expressed in the high ZDHHC20 group (Fig. <ref type="figure">7C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7.">ZDHHC20 suppresses LIHC cell apoptosis while promoting their proliferation and migration</head><p>We looked at how the ZDHHC20 gene affected LIHC proliferation, migration, and apoptosis to learn more about the role of ZDHHC20 in LIHC cells. In HepG-2 and SMCC-7721 cells, si-ZDHHC20-1 effectively reduced ZDHHC20 expression (Fig. <ref type="figure" target="#fig_6">8A</ref> and<ref type="figure">B</ref>). When compared to the si-NC group, CCK-8 analysis revealed that ZDHHC20 knockdown affected the capacity of both HepG-2 and SMCC-7721 cells to proliferate (Fig. <ref type="figure" target="#fig_6">8C</ref> and<ref type="figure">D</ref>). Additionally, ZDHHC20 depletion greatly inhibited the migration of HepG-2 and SMCC-7721 cells, as demonstrated by transwell migration and wound healing assays (Fig. <ref type="figure" target="#fig_6">8E-H</ref>). According to the flow cytometry findings, ZDHHC20 dramatically reduced LIHC apoptosis (Fig. <ref type="figure" target="#fig_6">8I</ref>). In Fig. <ref type="figure" target="#fig_4">S5</ref>, a nomogram combined with clinical data revealed the correlation between the expression of the ZDHHC20 gene and LIHC clinical features. Further validation of ZDHHC20's potential role in LIHC was supported by GSEA analysis and immunohistochemical images from the Human Protein Atlas (HPA) database.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>LIHC patients have a wide range of treatment options, including liver transplantation and surgical resection <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>. However, the prognosis of LIHC patients is still not satisfactory <ref type="bibr" target="#b22">[23]</ref>. With the in-depth study of LIHC, traditional histopathological features (tumor size, stage, grade) may not be able to meet the needs of diagnosis and prognosis <ref type="bibr" target="#b23">[24]</ref>. Palmitoylation acts on a variety of proteins and is widely involved in various metabolic and cancer-promoting pathways <ref type="bibr" target="#b24">[25]</ref>. Therefore, we explored the role of palmitoylation metabolism in LIHC and provided a prognostic prediction method to rationally guide clinical decision-making.</p><p>In this paper, based on the expression profiles of 23 PMGs, we divided LIHC patients into 3 palmitoylation metabolism-related clusters with different prognostic and immune features. By analyzing the differences in immune infiltration among the 3 palmitoylation metabolismrelated clusters, we found that the three clusters had significantly different characteristics of immune infiltration. We speculated that a large number of immune cell infiltration and immune-related pathways were enriched in Cluster A, which was considered to be an immuneinflammatory type; a large number of innate immune cell infiltration and cancer-promoting activation-related pathways were enriched in Cluster B, and Cluster B was considered an immune excluded type; and there was a lack of immune cell infiltration in Cluster C, which was considered an immune desert type. However, Cluster B was significantly enriched in innate immune cells but had a poorer prognosis. It has been shown that immune-excluded tumors are infiltrated by immune cells, but these immune cells are only present in the stroma surrounding the tumor cells. Therefore, activation of the stroma in the tumor microenvironment was considered to be T-cell suppression <ref type="bibr" target="#b25">[26]</ref>. Next, a palmitoylation metabolism-related prognostic model was constructed by using unicox and Lasso analysis, and the stability of the palmitoylation metabolism-related prognostic model was validated through univariate and multivariate independent prognostic analysis and the ICGC dataset. In the tumor microenvironment, invasive immune cells play key roles in tumor proliferation, metastasis, and anticancer immune regulation and are extremely important therapeutic targets <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>. The tumor microenvironment score and immunosuppressive cell infiltration were higher in the high PMS group. Therefore, the palmitoylation metabolism-related prognostic model may be a key marker to evaluate patient prognosis and immune response and help guide the formulation of individualized treatment plans for LIHC patients.</p><p>Palmitoylation is an important and reversible posttranslational modification that is widely involved in the proliferation and metastasis of various tumors. Liu et al. revealed that immune dysregulation or activation of cancer-promoting pathways caused by abnormal expression of ZDHHC family genes may be one of the reasons for the poor prognosis of patients with clear cell renal cell carcinoma <ref type="bibr" target="#b29">[30]</ref>. ZDHHC5 was overexpressed in lung adenocarcinoma and promoted tumorigenesis and metastasis of lung adenocarcinoma by mediating S-palmitoylation of INCENP <ref type="bibr" target="#b30">[31]</ref>. ZDHHC9 plays a tumor-promoting role in colon adenocarcinoma and may be a potential therapeutic target <ref type="bibr" target="#b31">[32]</ref>. ZDHHC20 may drive cell growth and transformation through palmitoylation of N-terminal myristoylated substrate proteins <ref type="bibr" target="#b32">[33]</ref>. ZDHHC20 may participate in the regulation of tumor progression by regulating the palmitoylation of the EGFR pathway <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>. In this paper, we found that ZDHHC20 was a key regulator of palmitoylation metabolism and played an oncogenic role in LIHC. In addition, ZDHHC20 was significantly associated with immunosuppressive cells and immune checkpoints and involved in the construction of an immunosuppressive tumor microenvironment to promote tumor proliferation and metastasis.</p><p>Inevitably, our study had limitations. First, the current analysis only utilized statistical data from existing retrospective data, and prospective studies are necessary to further verify the accuracy of the palmitoylation metabolism-related prognostic model. Second, considering that there are no immune cells in the cell culture system, the mechanisms by which the ZDHHC20 gene and immune cells affect LIHC proliferation, migration, and apoptosis need more experiments to explore in the future. Finally, there should be further experimental studies on the protein expression level of ZDHHC20 and its mechanism of action in the progression of LIHC, especially in vivo detections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>Briefly, we divided patients into 3 palmitoylation metabolism-related clusters with distinct prognostic and immune characteristics. Moreover, a palmitoylation metabolism-related prognostic model was constructed in LIHC patients, which may be a marker to predict the prognosis and immune response of LIHC patients.' Meanwhile, ZDHHC20 may contribute to the construction of an immunosuppressive tumor microenvironment, which may become a target for immunotherapy to further guide clinical treatment decisions.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Construction of Palmitoylation metabolism-related clusters. (A) Different palmitoylation metabolism-related clusters were identified for k = 3; (B) Distribution of clinical variables and gene expression profiles among clusters; (C) Survival analyses between different palmitoylation metabolism-related clusters through KM curve; (D) Intersection of differential expression genes between clusters; (E) GO analysis results of differently expressed genes among palmitoylation metabolism-related clusters; (F) KEGG analysis results of differently expressed genes among palmitoylation metabolism-related clusters; (G-H) Representative enriched GSVA terms between clusters.</figDesc><graphic coords="3,77.39,284.83,440.50,403.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Identification of immune characteristics of Palmitoylation metabolism-related clusters. (A) Distribution of tumor microenvironment scores and immune cell among palmitoylation metabolism-related clusters; (B) Differential expression of immune function score among different palmitoylation metabolismrelated clusters; (C) Differences in tumor microenvironment scores among palmitoylation metabolism-related clusters; (D) Differences in immune inflating cells among palmitoylation metabolism-related clusters; (E) Differences in immunosuppressive checkpoints among palmitoylation metabolism-related clusters.</figDesc><graphic coords="4,39.63,454.85,517.10,242.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Establishment of Palmitoylation metabolism related signature. (A) Outcomes of the univariate Cox analysis of 23 palmitoylation metabolism-related genes; (B,C) Lasso analysis of prognostic palmitoylation metabolism-related genes with minimum lambda value; (D)The distribution of palmitoylation metabolism-related genes expression profile in PMS groups; (E,F) The risk curve of each sample reordered by palmitoylation metabolism related signature and the distribution of survival states; (G) Kaplan-Meier curves for survival difference in the PMS groups; (H) ROC curves about palmitoylation metabolism-related signature in 1, 2, 3 years in the TCGA dataset; (I,J) The results of univariate and multivariate cox analysis of palmitoylation metabolism-related signature; (K) Kaplan-Meier curves for survival difference in the palmitoylation metabolism related signature groups in the ICGC dataset; (L) ROC curves about palmitoylation metabolism-related signature in 1,2,3years in the ICGC dataset.</figDesc><graphic coords="5,39.63,55.45,517.25,304.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Identification of mutation characteristics of Palmitoylation metabolism related signature. (A-B) Waterfall plots of somatic mutations in tumors in palmitoylation metabolism related signature groups; (C) Differential expression of Tumor Mutation Burden in palmitoylation metabolism related signature groups; (D) Kaplan-Meier curves for survival difference in tumor mutation burden groups; (E) Kaplan-Meier curves for the survival difference for combination of Tumor Mutation Burden and palmitoylation metabolism related signature.</figDesc><graphic coords="6,39.63,55.43,517.10,379.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Identification of immune characteristics of Palmitoylation metabolism-related signature. (A) Heatmap representing expression of immune cells in palmitoylation metabolism related signature groups under various algorithms; (B) Correlation analysis between immune cells and palmitoylation metabolism related signature under various algorithms; (C-E) Differential expression of immunosuppressive cells in palmitoylation metabolism related signature groups; (F) Differences in the expression of palmitoylation-related metabolic signatures among immune subtypes; (G) Proportion of different immune subtypes in palmitoylation metabolism related signature groups.</figDesc><graphic coords="7,39.63,55.43,517.10,548.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Identification of clinicopathological characteristics of Palmitoylation metabolism-related signature. (A) Differential expression of palmitoylation metabolism related signature in different clinicopathological stages (Pathological stage, Histological Grade and T stage); (B) Differences in proportions of different clinicopathological variables in palmitoylation metabolism related signature groups; (C) Survival analysis of palmitoylation metabolism related signature in different clinicopathological variables.</figDesc><graphic coords="8,77.39,55.43,440.50,541.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. The role of ZDHHC20 in LIHC cell proliferation, migration, and apoptosis. According to the qRT-PCR findings, si-ZDHHC20-1 effectively reduced ZDHHC20 expression in HepG-2 (A) and SMCC-7721 (B) cells. In comparison to the si-NC group, the knockdown of ZDHHC20 decreased the capacity of both HepG-2 (C) and SMCC-7721 (D) cells to proliferate. HepG-2 (E, G) and SMCC-7721 (F, H) cell migration was markedly inhibited by ZDHHC20 elimination. (I) ZDHHC20 knockdown was shown to be able to accelerate apoptosis in HepG-2 and SMCC-7721 cells using flow cytometry. *p 0.05, **p 0.01, ***p 0.001, ****p 0.0001, t-test based p-value. Each experiment was carried out in duplicate and independently.</figDesc><graphic coords="10,88.27,55.42,418.74,612.59" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>R. Feng et al.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Not applicable.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>None.</p></div>
+<div><head>CRediT authorship contribution statement</head><p>Rui Feng: Writingreview &amp; editing, Writingoriginal draft, Software, Methodology, Formal analysis, Conceptualization. <rs type="person">Dexin Fig</rs>. 7. Identification of immune characteristics of ZDHHC20. (A) Expression distribution of immunosuppressive cells in ZDHHC20 groups; (B) Expression distribution of tumor microenvironment scores in ZDHHC20 groups; (C) Expression distribution of immunosuppressive checkpoints in ZDHHC20 groups.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>Supplementary material for this article is available online.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interest statement</head><p>The authors declare that they have no conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare no competing financial interests. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferlay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laversanne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Soerjomataram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jemal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CA Cancer J. Clin</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="209" to="249" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Locoregional therapies in the era of molecular and immune treatments for hepatocellular carcinoma</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Llovet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>De Baere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kulik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Haber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Greten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Gastroenterol. Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="293" to="313" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferlay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Soerjomataram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CA Cancer J. Clin</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="394" to="424" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Longitudinal assessment of three serum biomarkers to detect very early-stage hepatocellular carcinoma</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hepatology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1983" to="1994" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Prognosis of hepatocellular carcinoma: assessment of eleven staging systems</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Hsia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="601" to="608" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Posttranslational modification of caspases: the other side of apoptosis regulation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Zamaraev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Kopeina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Prokhorova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhivotovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Lavrik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="322" to="339" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Post-translational modifications of g protein-coupled receptors control cellular signaling dynamics in space and time</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patwardhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trejo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="120" to="151" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Prognostic role of DNA damage response genes mutations and their association with the sensitivity of olaparib in prostate cancer patients</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Control</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">10732748221129451</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Post-translational protein modification as the substrate for long-lasting memory</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Routtenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rekart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="12" to="19" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Regulating tumor suppressor genes: post-translational modifications</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct. Targeted Ther</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Post-translational modification of SOX family proteins: key biochemical targets in cancer? Semin</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soufi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Pollard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Biol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="30" to="38" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Adipogenic transdifferentiation and regulatory factors promote the progression and the immunotherapy response of renal cell carcinoma: insights from integrative analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">781932</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Oncometabolites drive tumorigenesis by enhancing protein acylation: from chromosomal remodelling to nonhistone modification</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Clin. Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">144</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Audia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Histone modifications and cancer</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">19521</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation and cancer</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">46666</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Lipid-induced s-palmitoylation as a vital regulator of cell signaling and disease development</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="4223" to="4237" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation in cancer: molecular functions and therapeutic potential</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="26" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Global profiling of dynamic protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adibekian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Tully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="84" to="89" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Emerging roles of DHHC-mediated protein S-palmitoylation in physiological and pathophysiological context</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sadhukhan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="319" to="338" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of proteins in cancer</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="409" to="416" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Forner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bruix</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hepatocellular Carcinoma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="1301" to="1314" />
+			<date type="published" when="2018">10127. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Hepatocellular carcinoma: epidemiology and molecular carcinogenesis</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>El-Serag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Rudolph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gastroenterology</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2557" to="2576" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Comprehensive and integrative genomic characterization of hepatocellular carcinoma</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balasundaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carlsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chuah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dhalla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1327" to="1341" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>e23</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A global view of hepatocellular carcinoma: trends, risk, prevention and management</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hainaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Gores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amadou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Plymoth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Gastroenterol. Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="589" to="604" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation and its pathophysiological relevance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">236</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="3220" to="3233" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Elements of cancer immunity and the cancer-immune set point</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mellman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">541</biblScope>
+			<biblScope unit="issue">7637</biblScope>
+			<biblScope unit="page" from="321" to="330" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Targeting the tumor microenvironment: removing obstruction to anticancer immune responses and immunotherapy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marabelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Eggermont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Soria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kroemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zitvogel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1482" to="1492" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">PYCR1 regulates glutamine metabolism to construct an immunosuppressive microenvironment for the progression of clear cell renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3780" to="3798" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Pyroptosis regulators and tumor microenvironment infiltration characterization in clear cell renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">774279</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Bioinformatics analysis of the prognostic and biological significance of ZDHHC-protein acyltransferases in kidney renal clear cell carcinoma</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">565414</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Potential role of S-palmitoylation in cancer stem cells of lung adenocarcinoma</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Lien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">734897</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Differential expression of DHHC9 in microsatellite stable and instable human colorectal cancer subgroups</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mansilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Birkenkamp-Demtroder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kruhøffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Sørensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laiho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Cancer</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1896" to="1903" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The src tyrosine kinase hck is required for tel-abl-but not for teljak2-induced cell transformation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pecquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nyga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Penard-Lacronique</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Smithgall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Régnier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1577" to="1585" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Inhibition of DHHC20-mediated EGFR palmitoylation creates a dependence on EGFR signaling</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Runkle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kharbanda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stypulkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Garcia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="385" to="396" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Regulation of EGFR signalling by palmitoylation and its role in tumorigenesis</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Kadry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Witze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">210033</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

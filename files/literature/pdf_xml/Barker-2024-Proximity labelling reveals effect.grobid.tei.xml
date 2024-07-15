@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Proximity labelling reveals effects of diseasecausing mutation on the DNAJC5/cysteine string protein α interactome</title>
+				<funder ref="#_cx5JAvw">
+					<orgName type="full">Wellcome Trust</orgName>
+				</funder>
+				<funder ref="#_35Sn9QZ">
+					<orgName type="full">Medical Research Council</orgName>
+				</funder>
+				<funder ref="#_mKfPsg9">
+					<orgName type="full">British Heart Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CSP</orgName>
+				</funder>
+				<funder ref="#_EyMfZYk #_aJVgFwV">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-29">29 January 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Eleanor</forename><surname>Barker</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">E</forename><surname>Milburn</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nordine</forename><surname>Helassa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dean</forename><forename type="middle">E</forename><surname>Hammond</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Natalia</forename><surname>Sanchez-Soriano</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alan</forename><surname>Morgan</surname></persName>
+							<email>amorgan@liverpool.ac.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">Jeff</forename><forename type="middle">W</forename><surname>Barclay</surname></persName>
+							<email>barclayj@liverpool.ac.uk</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry, Cell and Systems Biology</orgName>
+								<orgName type="institution" key="instit1">ISMIB</orgName>
+								<orgName type="institution" key="instit2">University of Liverpool</orgName>
+								<address>
+									<settlement>Liverpool</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Diabetes, Endocrinology and Gastroenterology</orgName>
+								<orgName type="department" key="dep2">Faculty of Biology, Medicine and Health</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>Oxford Road</addrLine>
+									<postCode>M13 9PT</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Proximity labelling reveals effects of diseasecausing mutation on the DNAJC5/cysteine string protein α interactome</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-29">29 January 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1118BE658B82CB0828481C7FACABB1E9</idno>
+					<idno type="DOI">10.1042/BCJ20230319</idno>
+					<note type="submission">Accepted Manuscript online: 9 January 2024 Version of Record Received: 29 July 2023 Revised: 8 January 2024 Accepted: 9 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Cysteine string protein α (CSPα), also known as DNAJC5, is a member of the DnaJ/Hsp40 family of co-chaperones. The name derives from a cysteine-rich domain, palmitoylation of which enables localisation to intracellular membranes, notably neuronal synaptic vesicles. Mutations in the DNAJC5 gene that encodes CSPα cause autosomal dominant, adult-onset neuronal ceroid lipofuscinosis (ANCL), a rare neurodegenerative disease. As null mutations in CSP-encoding genes in flies, worms and mice similarly result in neurodegeneration, CSP is evidently an evolutionarily conserved neuroprotective protein. However, the client proteins that CSP chaperones to prevent neurodegeneration remain unclear. Traditional methods for identifying protein-protein interactions, such as yeast 2-hybrid and affinity purification approaches, are poorly suited to CSP due to its requirement for membrane anchoring and its tendency to aggregate after cell lysis. Therefore, we employed proximity labelling, which enables the identification of interacting proteins in situ in living cells via biotinylation. Neuroendocrine PC12 cell lines stably expressing wild type or L115R ANCL mutant CSP constructs fused to miniTurbo were generated; then the biotinylated proteomes were analysed by liquid chromatography-mass spectrometry and validated by western blotting. This confirmed several known CSP-interacting proteins, such as Hsc70 and SNAP-25, but also revealed novel binding proteins, including STXBP1/Munc18-1. Interestingly, some protein interactions (such as Hsc70) were unaffected by the L115R mutation, whereas others (including SNAP-25 and STXBP1/Munc18-1) were inhibited. These results define the CSP interactome in a neuronal model cell line and reveal interactions that are affected by ANCL mutation and hence may contribute to the neurodegeneration seen in patients.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Cysteine string protein (CSP) was initially discovered in a search for Drosophila brain-enriched proteins, and named after a cluster of cysteine residues within the central region of the protein <ref type="bibr" target="#b5">[1]</ref>. Subsequently, CSP homologues were identified in various multicellular organisms. Although the genomes of invertebrates such as Drosophila and Caenorhabditis elegans encode only a single CSP homologue, mammals contain three genes: DNAJC5, DNAJC5B and DNAJC5G, encoding CSPα, β and γ, respectively. DNAJC5/CSPα is by far the best studied and is thought to be the major isoform expressed in the brain (but see <ref type="bibr" target="#b6">[2]</ref>). CSPα is enriched in neurons, where it mainly localises to synaptic vesicles <ref type="bibr" target="#b7">[3]</ref>. Other secretory cells, such as adrenal chromaffin <ref type="bibr" target="#b8">[4]</ref> and pancreatic beta cells <ref type="bibr" target="#b9">[5]</ref>, similarly express high levels of CSPα that mainly localise to regulated secretory vesicles. In contrast, CSPα localises to the plasma membrane in adipocytes <ref type="bibr" target="#b10">[6]</ref> and to endosomal/lysosomal organelles in fibroblasts <ref type="bibr" target="#b11">[7]</ref> and A549 cells <ref type="bibr" target="#b12">[8]</ref>. Trafficking of CSP to post-Golgi membranes requires S-palmitoylation of cysteine residues within the cysteine string domain <ref type="bibr" target="#b13">[9]</ref><ref type="bibr" target="#b14">[10]</ref><ref type="bibr" target="#b15">[11]</ref>.</p><p>The localisation of CSP to synaptic and secretory vesicles suggests a functional role in regulated exocytosis. Indeed, early studies demonstrated defects in synaptic transmission in Drosophila csp mutants <ref type="bibr" target="#b16">[12,</ref><ref type="bibr" target="#b17">13]</ref>. Subsequently, CSPα was shown to affect both early and late stages of calcium-dependent exocytosis in various secretory cells, including adrenal chromaffin cells <ref type="bibr" target="#b18">[14,</ref><ref type="bibr" target="#b19">15]</ref>, pancreatic beta cells <ref type="bibr" target="#b9">[5,</ref><ref type="bibr" target="#b20">16]</ref> and PC12 cells <ref type="bibr" target="#b21">[17,</ref><ref type="bibr" target="#b22">18]</ref>. The key neuroprotective role of CSP was revealed by studies in model organisms, where null mutations in CSP orthologues result in neurodegeneration in flies <ref type="bibr" target="#b16">[12]</ref>, mice <ref type="bibr" target="#b23">[19]</ref> and worms <ref type="bibr" target="#b24">[20]</ref>. Mutations in human DNAJC5/CSPα cause autosomal dominant, adult-onset neuronal ceroid lipofuscinosis (ANCL), a rare disease characterised by neurodegeneration, sensorimotor dysfunction and early death <ref type="bibr" target="#b25">[21]</ref>. Four ANCL-causing mutations have been described to date, but all cluster around the cysteine string domain. The first discovered and most common recurrent variants are a Leu115Arg substitution (L115R) and a Leu116 single amino-acid deletion (L116Δ) <ref type="bibr" target="#b26">[22]</ref><ref type="bibr" target="#b27">[23]</ref><ref type="bibr" target="#b28">[24]</ref><ref type="bibr" target="#b29">[25]</ref>. Recently, two further ANCL-associated variants have been reported: a duplication of residues Cys124-Cys133 <ref type="bibr" target="#b30">[26]</ref> and a Cys128Tyr substitution <ref type="bibr" target="#b31">[27]</ref>. It is generally accepted that the L115R and L116Δ mutations induce oligomerisation/aggregation of CSP, although whether this requires palmitoylation of the cysteine string has been contentious <ref type="bibr" target="#b32">[28]</ref><ref type="bibr" target="#b33">[29]</ref><ref type="bibr" target="#b34">[30]</ref><ref type="bibr" target="#b35">[31]</ref>. It was recently reported that mutant CSP aggregation is caused by ectopic misloading of iron-sulfur (Fe-S) clusters by iron-sulfur cluster assembly enzyme (ISCU), which leads to co-aggregation with wild-type CSP, thereby providing a molecular explanation for the dominant nature of ANCL mutations <ref type="bibr" target="#b33">[29]</ref>.</p><p>CSP contains a DnaJ domain, which enables it to bind to and activate its co-chaperone Hsc70 <ref type="bibr" target="#b36">[32,</ref><ref type="bibr" target="#b37">33]</ref>. Hence, it has long been accepted that a major cellular function of CSP is to maintain the correct folding of client proteins at neuronal synapses <ref type="bibr" target="#b38">[34]</ref>. Compelling evidence suggests that the synaptic SNARE protein, SNAP-25, is a functionally important substrate, as it misfolds and is degraded by the proteasome in CSP knockout mice, leading to neurodegeneration <ref type="bibr" target="#b39">[35,</ref><ref type="bibr" target="#b40">36]</ref>. In addition, a variety of different proteins that directly or indirectly modulate synaptic vesicle exo/endocytosis have been shown to bind to CSP and so represent further potential client proteins. These include the two other synaptic SNARE proteins, VAMP2 <ref type="bibr" target="#b41">[37]</ref> and syntaxin-1 <ref type="bibr" target="#b19">[15,</ref><ref type="bibr" target="#b42">38,</ref><ref type="bibr" target="#b43">39]</ref>, the exocytotic calcium sensor synaptotagmin <ref type="bibr" target="#b44">[40,</ref><ref type="bibr" target="#b45">41]</ref>, the endocytic protein dynamin-1 <ref type="bibr" target="#b46">[42]</ref>, G-protein subunits <ref type="bibr" target="#b47">[43,</ref><ref type="bibr" target="#b48">44]</ref>, 14-3-3 proteins <ref type="bibr" target="#b49">[45]</ref>, calcium channels <ref type="bibr" target="#b41">[37,</ref><ref type="bibr" target="#b50">46]</ref> and potassium channels <ref type="bibr" target="#b51">[47]</ref>. In the last few years, a different neuroprotective role has been proposed for CSP: as a downstream mediator in misfolding-associated protein secretion (MAPS) <ref type="bibr" target="#b52">[48]</ref><ref type="bibr" target="#b53">[49]</ref><ref type="bibr" target="#b54">[50]</ref><ref type="bibr" target="#b55">[51]</ref>. In this process, misfolded proteins, such as α-synuclein and tau, are recruited onto the endoplasmic reticulum by USP-19 and deubiquitylated, switching their fate from proteasomal degradation to release from the cell via unconventional secretion in a CSP-regulated manner <ref type="bibr" target="#b53">[49]</ref><ref type="bibr" target="#b54">[50]</ref><ref type="bibr" target="#b55">[51]</ref><ref type="bibr" target="#b56">[52]</ref>. Most recently, CSP has also been implicated in a protein degradation pathway that is mechanistically distinct to MAPS: endolysosomal microautophagy <ref type="bibr" target="#b54">[50]</ref>.</p><p>Current evidence suggests that CSP helps to maintain neuronal proteostasis either by directly refolding misfolded client proteins, or by re-routing them for disposal via MAPS and endolysosomal microautophagy. However, little is known about the proteins that CSP interacts with to enable these neuroprotective functions. The relatively small number of CSP-binding proteins identified to date have mostly been discovered via biochemical affinity purification or immunoprecipitation techniques. This is a potential problem, as CSP forms SDS-resistant oligomers after detergent extraction from cellular membranes <ref type="bibr" target="#b21">[17,</ref><ref type="bibr" target="#b47">43,</ref><ref type="bibr" target="#b57">53,</ref><ref type="bibr" target="#b58">54]</ref>, which would prevent the detection of physiologically relevant protein interactions mediated by binding sites buried within the oligomeric aggregates. The yeast 2-hybrid method is also poorly suited to membrane proteins like CSP, which may explain why screening of brain cDNA libraries using this approach identified only two interacting proteins, both of which are cytoplasmic: Hsc70 <ref type="bibr" target="#b59">[55]</ref> and SGT <ref type="bibr" target="#b60">[56]</ref>. We, therefore, chose to characterise the CSP interactome using the BioID proximity labelling approach <ref type="bibr" target="#b61">[57]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). This enables protein interactions to be detected in situ in living cells by fusing the biotin ligase, miniTurbo, onto the protein of interest and identifying biotinylated proteins using liquid chromatography-mass spectrometry (LC-MS). As biotinylation can only occur within a 10-nm radius of the fusion protein <ref type="bibr" target="#b62">[58]</ref>, equivalent to the size of a typical globular protein, this selectively labels proteins that are in extremely close proximity and hence are likely to be physical binding partners. Here, we report the application of the BioID approach in neuroendocrine PC12 cells to define the protein interactome of wild-type CSP and how this is affected by the L115R ANCL-causing mutation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>It has previously been established that the addition of fluorescent protein tags on either the N terminus <ref type="bibr" target="#b63">[59,</ref><ref type="bibr" target="#b64">60]</ref> or the C terminus <ref type="bibr" target="#b39">[35]</ref>, of DNAJC5/CSPα does not affect its localisation or chaperone activity. However, the N terminus comprises seven alpha helices, the first of which is a target for phosphorylation that triggers major structural changes; whereas the C terminus is essentially unstructured <ref type="bibr" target="#b65">[61]</ref>. Therefore, the miniTurbo tag was fused onto the C terminal domain of CSPα via Gibson assembly (Figure <ref type="figure" target="#fig_0">1</ref>), to minimise the possibility of interfering with CSPα structure or function. To investigate how CSP interactions are affected in ANCL, the most common and most extensively studied ANCL-causing mutation, L115R <ref type="bibr" target="#b31">[27,</ref><ref type="bibr" target="#b66">62]</ref>, was introduced to the miniTurbo-tagged CSP constructs through site-directed mutagenesis. An empty vector containing non-fused miniTurbo was utilised as a negative control, to eliminate proteins which may be randomly biotinylated due to the expression of miniTurbo within the cell, or proteins which have an affinity to the miniTurbo enzyme itself or the neutravidin/streptavidin beads used for the biotin-affinity purification (hereafter referred to as miniTurbo control). An additional negative control was utilised whereby cells expressing the miniTurbo-tagged WT CSP construct were not exposed to exogenous biotin, to eliminate proteins that are pulled down in a biotin-independent, non-specific manner (hereafter referred to as no biotin control).</p><p>To confirm that the miniTurbo CSP constructs were effectively biotinylating proteins, HEK293T cells transiently transfected with miniTurbo constructs were supplemented with biotin in the cell culture media and analysed by western blotting. Probing with streptavidin-horse radish peroxidase (HRP), which has a high affinity for biotinylated proteins, revealed a strong signal when compared with the no biotin control (Figure <ref type="figure" target="#fig_1">2A</ref>). This indicated that the constructs were expressed and capable of biotinylating proteins in a biotin-dependent manner. Next, to validate the efficiency of biotinylated protein capture, the lysates were subjected to biotin-affinity purification, initially utilising Neutravidin beads. Western blotting for streptavidin-HRP revealed an enrichment of biotinylated proteins in the elution (bound), compared with the flow-through (unbound) for the miniTurbo-tagged CSP lysates (Figure <ref type="figure" target="#fig_1">2B</ref>). Finally, to ensure that the CSP-miniTurbo constructs were biotinylating genuine CSP interactors, rather than randomly biotinylating proteins within the cell, lysates subjected to biotin-affinity purification were analysed by western blotting utilising antisera against the best-characterised CSP-binding protein, its co-chaperone Hsc70 <ref type="bibr" target="#b59">[55]</ref>. As CSP's interaction with Hsc70 has been demonstrated to not be impacted by the ANCL-causing L115R mutation <ref type="bibr" target="#b32">[28,</ref><ref type="bibr" target="#b33">29]</ref>, it was expected that both WT and L115R CSP-miniTurbo would biotinylate Hsc70. Consistent with this prediction, Hsc70 was eluted from the biotin-affinity purification in both the WT and L115R CSP fused miniTurbo conditions and was absent from miniTurbo control (Figure <ref type="figure" target="#fig_1">2C</ref>). This confirmed that the CSP-miniTurbo constructs are not only expressed and enzymically active, but are biotinylating proteins that are known to interact with CSP.</p><p>It was noticeable that a large proportion of the biotinylated proteins were not captured by the Neutravidin beads and were, therefore, present in the unbound flow-through, which is particularly visible in the miniTurbo-tagged WT CSP unbound lysates (Figure <ref type="figure" target="#fig_1">2B</ref>). To ensure that there was minimal loss of proteins during the BioID process, we focused on optimisation of both the biotinylation of proteins and their subsequent capture/elution by biotin-affinity purification. HEK293T cells transiently transfected with WT CSP-miniTurbo were exposed to biotin concentrations ranging from 0 to 500 μM for 0-24 h. Western blotting the cell lysates with streptavidin-HRP revealed that the levels of biotinylated proteins saturated following exposure to 100 μM biotin (Supplementary Figure <ref type="figure" target="#fig_0">S1A</ref>). Additionally, exposure to biotin for 24 h yielded more biotinylated proteins compared with the shorter incubation times (Supplementary Figure <ref type="figure" target="#fig_0">S1B</ref>). In particular, 24 h biotin exposure yielded considerably more biotinylated proteins compared with the 10 min timepoint frequently utilised for miniTurbo BioID protocols <ref type="bibr" target="#b61">[57]</ref>. Next, the length of time the proteins were incubated with the biotin-affinity beads was assessed. This revealed that most biotinylated proteins were captured within 1-2 h, after which point it appeared another factor such as bead binding capacity was the limiting factor (Supplementary Figure <ref type="figure" target="#fig_1">S2A</ref>). Therefore, both the quantity (Supplementary Figure <ref type="figure" target="#fig_1">S2B</ref>) and type of beads used (Neutravidin versus streptavidin; Supplementary Figure <ref type="figure" target="#fig_3">S3</ref>) were optimised. It was found that magnetic streptavidin beads eluted an increased quantity of biotinylated protein. Furthermore, unlike the Neutravidin beads, no biotinylated protein was visible in the unbound flow-through when western blotting for streptavidin-HRP when using streptavidin beads (Supplementary Figure <ref type="figure" target="#fig_3">S3</ref>). Lastly, to ensure there was maximum elution of biotinylated proteins from the beads, elution time was optimised. Through boiling the beads at timepoints from 1 to 30 min, it was observed that most of the biotinylated proteins were eluted after 10 min (Supplementary Figure <ref type="figure" target="#fig_4">S4</ref>). However, increasing the elution time to 30 min marginally increased the quantity of biotinylated proteins eluted. Overall, our optimised protocol for protein biotinylation involved exposure to 100 μM biotin for 24 h, capture of biotinylated proteins with magnetic streptavidin beads for a minimum of 1 h, with subsequent elution through boiling in SDS for 10 min.</p><p>To determine the most physiologically relevant cell line to use for identifying CSP interactions through LC-MS, various cell lines were analysed by western blotting to assess their expression levels of proteins previously reported to bind to CSP, in addition to general synaptic proteins. Utilising rat brain lysates as a positive control for antisera binding, HEK293T and HeLa cells were compared due to their high transfection efficiencies and ease of culture. Furthermore, HEK293T cells have been used previously to determine CSP interactions utilising  BioID <ref type="bibr" target="#b67">[63]</ref>. SH-SY5Y neuroblastoma cell lines were included due to their frequent use in the study of neurobiology and neuronal properties <ref type="bibr" target="#b68">[64]</ref>. PC12 cells were chosen as they are widely used as a neuronal model of exocytosis, and express relatively high levels of synaptic/secretory vesicle-associated proteins, CSP included <ref type="bibr" target="#b69">[65]</ref>. Moreover, PC12 cells have been widely used to study CSP function <ref type="bibr" target="#b21">[17,</ref><ref type="bibr" target="#b35">31,</ref><ref type="bibr" target="#b64">60]</ref>. Finally, A549 cells were also compared, given the recent discovery that CSP is required to traffic Pseudomonas aeruginosa toxin ExoU from the cytoplasm to the plasma membrane in these cells <ref type="bibr" target="#b12">[8]</ref>. Overall, PC12 cells had the highest endogenous expression of all proteins tested (Figure <ref type="figure" target="#fig_3">3</ref>), thus it was reasoned that PC12 cells would be the most physiologically relevant cell line to use for identifying neuronal CSP interactions.</p><p>We therefore created stable PC12 cell lines expressing WT or L115R CSP fused to miniTurbo, as well as the unfused miniTurbo control construct. Stable cell lines were chosen to provide reproducibility between technical repeats and sufficient transfected cells for proteomic analyses. To investigate whether overexpression of CSP or the miniTurbo tag itself affects CSP localisation, immunofluorescence was carried out. Antisera against the V5 tag was used to reveal localisation of exogenously expressed miniTurbo-tagged CSP, and antisera against CSP Western blot of HEK293T, HeLa, SH-SY5Y, PC12 and A549 cell lysates, probing for both reported CSPα-interacting proteins and general synaptic proteins. Rat brain lysates were used as a positive control for antisera binding. Ponceau S staining represents total protein loading. was used to identify both endogenous and exogenous CSP (Figure <ref type="figure" target="#fig_4">4A</ref>). A high degree of co-localisation was observed between CSP and V5 in cells expressing WT CSP-miniTurbo, primarily near the plasma membrane (which may correspond to docked secretory vesicles) and to a lesser extent throughout the cytoplasm. This suggests that the miniTurbo tag does not interfere with CSP localisation in PC12 cells. The extent of co-localisation between CSP and V5 in the cells stably expressing L115R CSP-tagged miniTurbo was much lower compared with that of the WT. A degree of co-localisation could be observed throughout the cytoplasm. However, the co-localisation with endogenous CSP near the plasma membrane was not observed with V5 labelling. This is consistent with published data showing that ANCL-causing mutations result in CSP mislocalisation <ref type="bibr" target="#b26">[22,</ref><ref type="bibr" target="#b30">26]</ref>. Detection of biotinylated proteins in cells expressing miniTurbo-tagged WT CSP using AlexaFluor-streptavidin revealed a change from faint punctate localisation in the no biotin condition to a more widespread distribution that was particularly concentrated near the plasma membrane, where it overlapped with the V5 signal (Figure <ref type="figure" target="#fig_4">4B</ref>). Streptavidin fluorescence in cells expressing miniTurbo-tagged WT CSP also co-localised with endogenous CSP near the plasma membrane, in contrast with cells expressing the miniTurbo control (Supplementary Figure <ref type="figure" target="#fig_5">S5</ref>).</p><p>Having established that miniTurbo-tagged WT CSP biotinylates proteins in a biotin-dependent manner and that its cellular localisation is comparable to that of endogenous CSP, the entire complement of proteins biotinylated by miniTurbo-tagged CSP was determined. This involved on-bead tryptic digestion followed by LC-MS and label-free quantification using three independent biological repeats per condition. The resulting data were first analysed by principal component analysis, to assess variance within the datasets (Supplementary Figure <ref type="figure" target="#fig_6">S6</ref>). This revealed that all three samples for WT CSP miniTurbo were closely clustered and distinct from those of L115R CSP-tagged miniTurbo, miniTurbo and no biotin controls. Proteins identified by LC-MS were then analysed based on their abundance relative to control conditions and statistical significance. Full MS data, including information on quantification, statistics and GO terms are shown in Supplementary Dataset 1. The gene names and UniProt accession numbers of the top 50 proteins enriched in WT or L115R CSP compared with miniTurbo and no biotin controls are listed in Table <ref type="table" target="#tab_0">1</ref>. Functional enrichment analysis of WT and L115R CSP compared with miniTurbo control was performed using DAVID <ref type="bibr" target="#b70">[66]</ref> and the results are displayed in Supplementary Dataset 2. Proteins exhibiting reduced abundance in WT or L115R CSP compared with controls were not analysed further, as these represent non-specific and/or endogenously biotinylated proteins.</p><p>The single most abundant protein when comparing miniTurbo-tagged WT CSP with the miniTurbo control was CSP's co-chaperone Hsc70 (gene name hspa1a), which was 5.5-fold enriched (Figure <ref type="figure" target="#fig_5">5A</ref>). Several other previously identified CSP interactors were also identified, including SNAP-25 and VAMP2. Interestingly, many biotinylated proteins were detected that have not been reported as CSP-binding proteins. Notably, the essential exocytosis protein Munc18-1 (gene name stxbp1) was increased in abundance 4.1-fold in the miniTurbo-tagged WT CSP condition, compared with the miniTurbo control. A subset of these potential interactions identified through LC-MS were further validated through western blotting, including Hsc70, SNAP-25, VAMP2 and Munc18-1 (Figure <ref type="figure" target="#fig_6">6</ref>). Whilst the lack of Hsc70 observed in the miniTurbo control in Figures <ref type="figure" target="#fig_6">6</ref> and<ref type="figure" target="#fig_7">7</ref> could conceivably be due to a lower level of input protein, the Hsc70-CSP interaction has been experimentally demonstrated by various groups over many years <ref type="bibr" target="#b19">[15,</ref><ref type="bibr" target="#b33">29,</ref><ref type="bibr" target="#b36">32,</ref><ref type="bibr" target="#b37">33,</ref><ref type="bibr" target="#b46">42,</ref><ref type="bibr" target="#b59">55]</ref>, and hence is likely to be authentic. In addition, the well-established interaction between CSP and syntaxin-1 <ref type="bibr" target="#b10">[6,</ref><ref type="bibr" target="#b19">15,</ref><ref type="bibr" target="#b42">38,</ref><ref type="bibr" target="#b43">39]</ref> was confirmed by western blotting, although it did not reach the threshold for detection in our LC-MS analysis.</p><p>When comparing the BioID hits between miniTurbo-tagged WT and L115R CSP, several synaptic exocytosis proteins were significantly reduced in abundance in the L115R mutant, including SNAP-25, Munc18-1 and VAMP2 (Figure <ref type="figure" target="#fig_5">5B</ref>). Western blot validation confirmed that the biotinylation of Munc18-1 and SNAP-25 in the WT CSP condition was reduced in the L115R mutant (Figure <ref type="figure" target="#fig_7">7</ref>). This could not be simply due to reduced expression of the L115R CSP miniTurbo construct, as LC-MS analysis revealed no change in Hsc70 levels between the WT and L115R mutant CSP conditions, which was subsequently validated by western blotting (Figure <ref type="figure" target="#fig_7">7</ref>). This suggests that the ANCL L115R mutation does indeed affect interactions between CSP and these binding clients. There was only one protein significantly enriched in the L115R CSP mutant, compared with WT CSP: acetyl-CoA carboxylase alpha (gene name acaca; Figure <ref type="figure" target="#fig_5">5B</ref>). However, this naturally biotinylated enzyme (also known as biotin carboxylase) is typically excluded from LC-MS results in BioID studies <ref type="bibr" target="#b71">[67]</ref>, and was also present in the miniTurbo control condition. Hence, acetyl-CoA carboxylase alpha is likely an artefact that binds to streptavidin beads via its endogenous biotin moiety, rather than via miniTurbo-driven biotinylation. Finally, in order to assess how our LC-MS results correspond to published data, the results were correlated with that of published data investigating WT CSP interactions using BioID in HEK293T cells <ref type="bibr" target="#b67">[63]</ref>. This revealed that 33 of the 108 proteins we found to be enriched in the miniTurbo-tagged WT CSP condition compared with both miniTurbo and no biotin controls were also identified by Piette et al. <ref type="bibr" target="#b67">[63]</ref> (Figure <ref type="figure" target="#fig_8">8</ref>). Details of the proteins present across datasets from the Venn diagram in Figure <ref type="figure" target="#fig_8">8</ref> are listed in Supplementary Table <ref type="table">S3</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we used BioID to define the CSP interactome in a neuronal model cell line, in order to shed light on potential substrate proteins that may underlie its evolutionarily conserved neuroprotective role(s). BioID was chosen as it labels proteins in situ in their physiological subcellular compartments within living cells. This avoids potential artefacts that can arise with conventional pull-downs and co-immunoprecipitation approaches, which particularly affects membrane-localised proteins that aggregate after detergent solubilisation such as CSP. One caveat of BioID is that it does not directly demonstrate that biotinylated proteins bind to the bait protein, only that they are in close proximity (&lt;10 nm). However, the most enriched biotinylated protein in WT CSP compared with miniTurbo control was Hsc70, thereby confirming the well-established direct interaction between CSP and its co-chaperone <ref type="bibr" target="#b59">[55]</ref>. CSP's best-characterised client for refolding, SNAP-25 <ref type="bibr" target="#b39">[35,</ref><ref type="bibr" target="#b46">42,</ref><ref type="bibr" target="#b72">68]</ref> was also verified through our unbiased proximity labelling approach; in addition to the reported CSP interacting protein, VAMP2 <ref type="bibr" target="#b41">[37]</ref>. This provides reassurance that BioID proteomic screening can identify genuine CSP interactions. Not all previously published CSP-binding proteins were detected, however. There are several potential explanations for this. Our stringent MS identification criteria, requiring multiple peptides to be detected in every biological repeat, may have filtered out some genuine hitsfor example, syntaxin-1, which was validated here by western blotting. In addition, interactions that are dependent on post-translational modifications would be missed if the recombinant bait protein is not sufficiently modifiedfor example, binding CSP WT miniTurbo of 14-3-3 requires CSP phosphorylation on serine-10 <ref type="bibr" target="#b49">[45]</ref>. We may also have failed to detect some bona fide interacting proteins because they lack surface-exposed lysine residues that are accessible to the miniTurbo ligase, which is an inherent limitation of the BioID approach. Alternatively, it is possible that some previously reported interactions are a consequence of the non-physiological, aggregation-prone conformation of CSP when removed from membranes, and so may not reflect in vivo binding proteins.</p><p>In addition to confirming previously reported interactions, our LC-MS analysis revealed over 100 new potential CSP-binding proteins. The vast majority of these are cytoplasmic proteins or membrane proteins with domains that project into the cytosol, consistent with CSP's known topology as a membrane-associated cytoplasmic protein. However, a few hits are likely to be false positivesfor example, H2ac (Table <ref type="table" target="#tab_0">1</ref>) encodes histone H2A, a nuclear protein that is therefore unlikely to be a bona fide CSP-interacting protein. Around a third of our hits were also identified in a recent BioID screen of all DnaJ-domain-containing proteins in HEK293 cells <ref type="bibr" target="#b67">[63]</ref>. However, as shown in Figure <ref type="figure" target="#fig_1">2</ref>, HEK293 cells express low levels of many of CSP's previously reported prey proteins, relative to PC12 cells used in this study. This, as well as technical differences in the BioID methodologies used, could account for the relatively small overlap in results. Nevertheless, if homologous proteins were considered to match, there would be better overlap between the datasets. For example,  <ref type="figure" target="#fig_7">-7</ref>) is striking given that mammalian genomes only encode 36 SNARE proteins in total <ref type="bibr" target="#b73">[69]</ref>. Indeed, unbiased functional annotation clustering analysis of our WT CSP BioID hits using DAVID revealed that the most significantly enriched GO terms for molecular function, cellular component and biological process were: SNARE activity, SNARE complex and vesicle fusion, respectively (Supplementary Dataset 2). Intracellular membrane fusion events throughout the secretory and endocytic pathways are driven by SNAREs, but also require the function of the equally conserved Rab and Sec1/Munc18 (SM) protein families <ref type="bibr" target="#b73">[69]</ref>. Various Rab proteins were identified in our BioID study (Rab3D, Rab7A, Rab11B, Rab23) and Rab 7A was also identified by Piette et al. <ref type="bibr" target="#b67">[63]</ref>. A further link between CSP and the universal membrane fusion machinery comes from our identification by BioID screening and western blot validation of Munc18-1, a neuronal SNARE-binding SM protein that is essential for synaptic vesicle exocytosis <ref type="bibr" target="#b74">[70]</ref>. Taken together, these BioID hits suggest that a major cellular function of CSP is to modulate intracellular membrane fusion events. In addition, functional clustering analysis revealed various other significantly enriched GO terms, including α-catenin binding, endocytic vesicle, clathrin binding and clathrin coat assembly (Supplementary Dataset 2). This may be relevant to published work showing that CSPα partially localises to endolysosomal structures <ref type="bibr" target="#b11">[7]</ref> and plays a functional role in endocytic recycling <ref type="bibr" target="#b46">[42,</ref><ref type="bibr" target="#b75">71]</ref>.</p><p>Analysis of BioID hits from PC12 cells expressing CSP L115R-miniTurbo revealed that several synaptic proteins were significantly reduced in abundance compared with WT CSP. In contrast, the levels of various other proteins remained unchanged between the WT and L115R mutant, notably Hsc70an interaction that has previously been shown to persist in ANCL mutant CSP <ref type="bibr" target="#b32">[28,</ref><ref type="bibr" target="#b33">29]</ref>. This suggests that the reduction seen by both LC-MS and western blotting of SNAP-25, Munc18-1 and VAMP2 is likely to be a direct result of the L115R mutation itself, rather than a reduction in CSP L115R-miniTurbo transgene expression. Indeed, a major advantage of the label-free quantification approach used in our proteomic analysis is that it inherently takes account of variability in miniTurbo expression levels (and hence biotinylation levels) between different constructs and biological replicates <ref type="bibr" target="#b76">[72]</ref>. Furthermore, the reduction in SNAP-25 biotinylation in the L115R mutant is consistent with studies utilising cultured neurons, which demonstrated through co-immunoprecipitation that L115R/ L116Δ CSP interaction with SNAP-25 is severely reduced compared with WT CSP <ref type="bibr" target="#b33">[29]</ref>. This is consistent with the mislocalisation of L115R CSP observed here and previously reported in the literature <ref type="bibr" target="#b26">[22,</ref><ref type="bibr" target="#b27">23]</ref>. Contrary to findings in cultured neurons whereby L115R CSP (but not WT CSP) was identified to interact with ISCU <ref type="bibr" target="#b33">[29]</ref>, LC-MS did not identify ISCU in the complement of proteins biotinylated by miniTurbo-tagged L115R CSP. However, this should not be interpreted as evidence against the proposed interaction between ISCU and ANCL mutant CSP, as there are various reasons why bona fide interactions may be missed in BioID screening (explained above). Although relatively few proteins were enriched &gt;1.5-fold in CSP L115-miniTurbo compared with miniTurbo control, these may represent potential CSP interacting proteins involved in endolysosomal microautophagy, as the ANCL-causing L115R mutation has no effect on this protein degradation pathway <ref type="bibr" target="#b54">[50]</ref>. One such protein, SIDT2, is a lysosomal membrane protein that has been shown to protect against mRNA-encoding mutant Huntingtin <ref type="bibr" target="#b77">[73]</ref>. Intriguingly, CSP has previously been shown to bind to mutant (but not WT) Huntingtin protein <ref type="bibr" target="#b78">[74]</ref>. Further studies are required to investigate if the putative CSP-SIDT2 interaction is relevant to CSP's L115R-resistant role in endolysosomal microautophagy and its ability to ameliorate neurodegeneration.</p><p>Although the proximity labelling analysis reported here has shed light on potential CSP-protein interactions that may be affected in ANCL, there are many limitations of our study. For example, only a few of these interactions could be validated through western blotting, due to limitations in antisera availability and/or specificity, and so may not all be authentic CSP-binding proteins. In addition, our proteomics approach involved stable overexpression of transgenic WT and L115R CSPα in PC12 cells, which already contain high levels of endogenous WT CSPα. Hence, these cells may be partially protected from mutation-associated phenotypes by the endogenous WT protein. Significant work would be required to address this, by first creating CSP knockout PC12 cells and then rescuing these with WT or mutant CSPα ( preferably at single-copy level, to mirror the human condition). It will also be important in the future to investigate whether the putative novel interactions reported here are functionally significant, as has been done previously for the SNAP-25 interaction using CSP knockout mice <ref type="bibr" target="#b39">[35,</ref><ref type="bibr" target="#b40">36]</ref>. Thus, considerable future work is needed to independently validate the potential novel interactions identified here, to determine if they bind directly to CSP, and to investigate their functional relevance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head><p>All reagents were purchased from Sigma unless stated otherwise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture</head><p>Cells were cultured at 37°C in 5% CO 2 in the following media.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HEK293T and HeLa</head><p>High glucose Dulbecco's modified Eagle's medium (DMEM), supplemented with 10% (v/v) foetal bovine serum, 1% (v/v) penicillin/streptomycin and 1% (v/v) non-essential amino acids.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PC12</head><p>High glucose DMEM, or RPMI 1640 media, supplemented with 10% (v/v) horse serum, 5% (v/v) foetal bovine serum, 1% (v/v) penicillin/streptomycin and 1% (v/v) non-essential amino acids. For stably transfected PC12 cell lines, culture media was additionally supplemented with 500 μg/ml G418 to maintain selection for the miniTurbo constructs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SH-SY5Y</head><p>DMEM-F12 supplemented with 10% (v/v) foetal bovine serum, 1% (v/v) penicillin/streptomycin and 1% (v/v) non-essential amino acids.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A549</head><p>Ham's F-12K supplemented with 10% (v/v) foetal bovine serum and 1% (v/v) penicillin/streptomycin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cloning of miniTurbo plasmids</head><p>Initial biotinylation plasmid cloning was based on a previously described <ref type="bibr" target="#b34">[30,</ref><ref type="bibr" target="#b35">31]</ref> pcDNA DEST40 untagged wild-type human CSPα plasmid, kindly gifted by Professor Luke Chamberlain. A XhoI restriction site was inserted immediately upstream of the stop codon for CSPα, in order to create a fusion protein, using a Q5® Site-Directed Mutagenesis Kit (New England Biolabs). The L115R mutation was introduced through sitedirected mutagenesis, using a QuikChange II site-directed mutagenesis kit (Agilent Technologies). Gibson assembly using the NEBuilder kit (New England Biolabs) was employed to introduce the V5 tag and the miniTurbo protein immediately downstream of both wild-type and mutant CSP plasmids, utilising V5-hBirA (64-321) 'miniTurbo' plasmid (Addgene plasmid #107170) <ref type="bibr" target="#b61">[57]</ref>. All primers used in Gibson assembly and mutagenesis were synthesised by Sigma-Genosys and are described in Supplementary Table <ref type="table" target="#tab_1">S1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transfections</head><p>Cells were seeded in six-well plates 24 h prior to transfection, to 70% confluency at the time of transfection. miniTurbo plasmid constructs were transfected with Lipofectamine® 2000 reagent diluted 1:30 in OptiMEM® medium, added to 2 μg plasmid DNA diluted in OptiMEM and incubated for 30 min at room temperature. The DNA-lipid complex was added to cells following aspiration of media, and incubated at 37°C in 5% CO 2 , following which time, fully supplemented DMEM was added. For generation of stable cell lines, 24 h post transient transfection cell culture media was replaced with fully supplemented media containing 500 μg/ml G418, which was replaced every 2 days until 100% of untransfected control cells had died. After which point, 500 μg/ ml G418 was supplemented in the culture medium to maintain selection for the miniTurbo constructs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>miniTurbo biotinylation</head><p>Biotin was dissolved in serum-free DMEM to create a 20× stock solution. This was then added to serumcontaining cell media at 1 in 20 dilutions, resulting in a final concentration of 100 μM exogenous biotin, unless stated otherwise. Biotin supplementation was added overnight, either 4 h post-transfection for transient transfections, or 24 h after seeding for stable cell lines, unless stated otherwise. Biotin-free and empty miniTurbo constructs with biotin supplementation were used as negative controls.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biotinylated protein immunoprecipitation</head><p>This was based on previously published protocols for BioID <ref type="bibr" target="#b61">[57,</ref><ref type="bibr" target="#b79">75]</ref>, with modifications. Cells were lysed in RIPA buffer (50 mM Tris pH 8, 150 mM NaCl, 5 mM EDTA, 0.5% sodium deoxycholate, 0.1% SDS, 1% Triton X-100) with protease inhibitor cocktail containing EDTA (Roche) diluted 1:100, and clarified at 4°C for 10 min at 16 000 g. Prior to the addition of cell lysates, the NeutrAvidin/StreptAvidin beads were washed twice for 10 min in RIPA buffer. Fifty microlitres of normalised lysates were used as the input fraction, and the remaining lysates were then added to the washed beads at a ratio of 10 μl of NeutrAvidin/StreptAvidin beads per 100 μg of protein and incubated at 4°C on a rotator overnight, unless stated otherwise. The following day the supernatant was collected as the unbound fraction. The beads were then washed twice in RIPA buffer, once in 1 M KCl, once in 0.1 M Na 2 CO 3 , once in 2 M urea in 10 mM Tris HCl pH 8, then again twice in RIPA buffer. The beads were then eluted in 100 μl 2× Laemlli buffer (65.8 mM Tris-HCl, pH 6.8, 2.1% SDS, 26.3% (w/v) glycerol, 0.01% bromophenol blue) at 95°C for 10 min, and the supernatant collected as the bound fraction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SDS-PAGE and western blotting</head><p>Lysates for western blotting were diluted 1:1 in Laemlli buffer, vortexed and heated to 95°C for 10 min, prior to separation by SDS-PAGE and transfer onto nitrocellulose membranes. The transferred proteins were then rapidly stained for total protein with Ponceau S solution before immunoblotting. Details of the antisera used are shown in Supplementary Table <ref type="table">S2</ref>. Nitrocellulose membranes re-probed with different primary antibodies were stripped by incubation in stripping buffer (20 mM glycine, 140 mM NaCl, pH 2.5) for 30 min. Western blots were visualised through incubation with HRP-labelled secondary antibodies at 1/1000 dilution and subsequent imaging with Clarity™ Western ECL Blotting Substrates (Bio-Rad) and imaged using a Bio-Rad ChemiDoc XRS using ImageLab software. Relative protein quantification was performed using ImageJ software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence</head><p>PC12 cells grown on poly-L-lysine-coated coverslips were fixed in 4% paraformaldehyde, washed in phosphatebuffered saline (PBS) and permeabilised in PBT (PBS containing 3% bovine serum albumin and 0.1% Triton X-100). Primary antibodies were incubated for 1 h in PBT at 1/200 dilution; secondary antibodies conjugated to Alexa594 and Alexa488-Streptavidin were incubated for 1 h in PBT at 1/400 dilution. Coverslips were air dried and then mounted in ProLong Gold mounting medium containing DAPI (Thermo Fisher) to visualise DNA. Imaging was performed on a Zeiss Axio Examiner ZI LSM880 confocal microscope, using 405, 488 and 594 nm excitation lasers with 63× objective lens. Image analysis was performed using Zen software (Zeiss).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mass spectrometry</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation</head><p>To prepare samples for analysis by mass spectrometry, 80% of the streptavidin bead slurry from the final stages of immunoprecipitation, instead of boiling in SDS, was washed twice in 50 mM Tris HCl buffer, pH 7.5. This was then followed by two further washes in 2 M urea/50 mM Tris, pH 7.5 and then incubation in 2 M urea/ 50 mM Tris, pH 7.5 with 1 mM dithiothreitol (DTT) and 0.4 μg trypsin at 25°C for 1 h, with shaking. The subsequent supernatant was collected and the beads were further washed twice in 2 M urea/50 mM Tris, pH 7.5 and the washes were combined with the supernatant collected from the on-bead digest and reduced with 4 mM DTT at 25°C for 30 min, with shaking. The sample was then alkylated with 10 mM iodoacetamide in the dark at 25°C for 45 min, with shaking. A further 0.5 μg of trypsin was then added to complete the digestion at 25°C overnight, with shaking. Lastly, the sample was acidified with formic acid so that the sample contains ∼1% formic acid, then evaporated to dryness overnight using a ThermoFisher Savant Speedvac SC210A at ambient temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NanoLC-ESI-MS/MS analysis</head><p>Reversed-phase chromatography was used to separate tryptic peptides prior to mass spectrometric analysis. Two columns were utilised, an Acclaim PepMap μ-precolumn cartridge 300 μm i.d. × 5 mm 5 μm 100 Å and an Acclaim PepMap RSLC 75 μm × 50 cm 2 μm 100 Å (Thermo Scientific). The columns were installed on an Ultimate 3000 RSLCnano system (Thermo Scientific). Mobile phase buffer A was composed of 0.1% formic acid in water and mobile phase B of 0.1% formic acid in acetonitrile. Samples were loaded onto the μ-precolumn equilibrated in 2% aqueous acetonitrile containing 0.1% trifluoroacetic acid for 5 min at 10 μl min -1 after which peptides were eluted onto the analytical column at 250 nl min -1 by increasing the mobile phase B concentration from 8% B to 25% over 36 min, then to 35% B over 10 min, and to 90% B over 3 min, followed by a 10 min re-equilibration at 8% B.</p><p>Eluting peptides were converted to gas-phase ions by means of electrospray ionisation and analysed on a Thermo Orbitrap Fusion (Q-OT-qIT, Thermo Scientific). Survey scans of peptide precursors from 375 to 1575 m/z were performed at 120 K resolution (at 200 m/z) with a 50% normalised AGC target and the max injection time was 150 ms. Tandem MS was performed by isolation at 1.2 Th using the quadrupole, HCD fragmentation with normalised collision energy of 33, and rapid scan MS analysis in the ion trap. The MS2 was set to 50% normalised AGC target and the max injection time was 200 ms. Precursors with charge states 2-6 were selected and sampled for MS2. The dynamic exclusion duration was set to 45 s with a 10 ppm tolerance around the selected precursor and its isotopes. Monoisotopic precursor selection was turned on. The instrument was run in top speed mode with 2 s cycles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>The raw data were searched using MaxQuant (version 2.0.3.0) against the Rattus norvegicus database (www. uniprot.org/proteomes) and the MaxQuant common contaminant database. In addition, sequences for the nonnative miniTurbo and CSP L115R proteins were manually added to the database. For database searches, enzyme specificity was set to trypsin with up to two missed-cleavages and carbamidomethylation of cysteines was set as a fixed modification. Oxidation of methionine and acetylation of the protein N terminus were added as variable modifications. Protein abundance was estimated using the label-free intensity quantification algorithm in MaxQuant <ref type="bibr" target="#b76">[72]</ref>. To analyse the results, Perseus software (version 2.03.0) was used. Three independent biological replicate samples for each condition were used for the analysis. Functional enrichment analysis of identified proteins enriched &gt;1.5 fold in WT and L115R CSP compared with miniTurbo control was performed using DAVID <ref type="bibr" target="#b70">[66]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open Access</head><p>Open access for this article was enabled by the participation of the University of Liverpool in an all-inclusive Read &amp; Publish agreement with Portland Press and the Biochemical Society under a transformative agreement with JISC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT Author Contribution</head><p>Alan Morgan: Conceptualisation, Supervision, Funding acquisition, Writingoriginal draft, Project administration. Eleanor Barker: Investigation, Methodology, Writingoriginal draft. Amy Milburn: Supervision, Investigation, Methodology, Writingreview and editing. Nordine Helassa: Resources, Supervision, Methodology, Writingreview and editing. Dean Hammond: Resources, Supervision, Methodology, Writingreview and editing. Natalia Sanchez-Soriano: Conceptualisation, Resources, Supervision, Methodology, Writing review and editing. Jeff Barclay: Conceptualisation, Supervision, Funding acquisition, Methodology, Writing original draft.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Proximity labelling approach. (A) Plasmids are constructed containing cDNA encoding DNAJC5 (wild type or mutant) fused to miniTurbo. (B) Following transfection and biotin addition, the miniTurbo enzyme tag labels proteins within 10 nm of the bait with biotin (denoted by yellow circles). (C) Cells are lysed and biotinylated proteins isolated using streptavidin beads, and identified by either mass spectrometry or western blotting.</figDesc><graphic coords="3,87.87,77.27,360.00,551.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Validation of miniTurbo biotinylation.</figDesc><graphic coords="5,87.87,77.27,360.00,499.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>(</head><label></label><figDesc>A) Representative western blot of HEK293T cells transfected with either an empty miniTurbo control vector, or CSP WT/ L115R-V5-miniTurbo, either in the presence (+) or absence (-) of biotin. Membranes were probed for streptavidin-HRP, with Ponceau S representing total protein. (B,C) Representative western blot of lysates from (A) following a pull-down of biotinylated protein. Samples loaded include whole cell lysate prior to the pull-down (input), proteins eluted (bound) and the flow-through (unbound). Membranes were probed for streptavidin-HRP (B) and Hsc70 (C), with Ponceau S representing total protein.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. PC12 cells express high levels of CSPα-associated proteins.</figDesc><graphic coords="6,202.68,252.57,249.45,409.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Immunofluorescence of PC12 cells stably transfected with WT/L115R CSP-V5-miniTurbo constructs. Cells were fixed, permeabilised and then probed with DAPI and antisera against the V5 epitope; along with either anti-CSP antibody (A) or Alexa488-Streptavidin (B) to label biotinylated proteins. Images shown were acquired on a Zeiss Axio Examiner ZI LSM880 confocal microscope, using 405, 488 and 594 nm excitation lasers with 63× objective lens. Scale bars: 10 μm.</figDesc><graphic coords="7,69.90,139.18,396.00,524.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Volcano plot of LC-MS hits from biotin-affinity purification. Comparison of proteins enriched in PC12 cells expressing WT CSP-miniTurbo versus miniTurbo control (A) and L115R CSP-miniTurbo (B). Proteins identified in the proteomic analysis are distributed according to fold abundance change and statistical significance. The curved line indicates a false discovery rate of 0.05. Proteins enriched in WT CSP are shown in green, with the exception of selected hits of interest, which are colour co-ordinated based on whether they were affected (VAMP-2, SNAP-25, Munc18-1, in magenta) or unaffected (Hsc70, CSP, SIDT2, in blue) by the L115R mutation. Proteins enriched in the miniTurbo control and L115R mutant are shown in red.</figDesc><graphic coords="11,87.87,77.27,360.00,441.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Validation of WT CSP LC-MS hits through western blotting. PC12 cells stably transfected with miniTurbo control or WT CSP-V5-miniTurbo, with a biotin-free control, were subjected to pull-down of biotinylated proteins. Samples loaded include whole cell lysate prior to the pull-down (input), protein bound to the streptavidin beads (bound) and the flow-through (unbound). Membranes were probed for various hits of interest from the LC-MS results, with total protein loaded represented by Ponceau S staining.</figDesc><graphic coords="12,214.02,77.27,226.77,461.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Validation of WT/L115R CSP LC-MS hits through western blotting. PC12 cells stably transfected with miniTurbo control or WT/L115R CSP-V5-miniTurbo and subject to pull-down of biotinylated protein. Samples loaded include whole cell lysate prior to the pull-down (input), protein bound to the streptavidin beads (bound) and the flow-through (unbound). Membranes were probed for Munc18-1, SNAP-25 and Hsc70, with total protein loaded represented by Ponceau S staining.</figDesc><graphic coords="13,146.95,77.27,241.80,407.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Venn diagram of BioID hits common to this study and other published data. Overlap was assessed between proteins increased in abundance by &gt;1.5-fold in WT CSP compared with the miniTurbo control and no biotin control, in L115R CSP compared with the miniTurbo control, and LC-MS results on WT CSP from Piette et al. [63].</figDesc><graphic coords="14,135.38,77.27,383.98,279.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Gene names of top 50 LC-MS hits</figDesc><table><row><cell>Part 1 of 2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Gene names of top 50 LC-MS hits</figDesc><table><row><cell>Part 2 of 2</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2024 The Author(s). This is an open access article published by Portland Press Limited on behalf of the Biochemical Society and distributed under the Creative Commons Attribution License 4.0 (CC BY).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Biochemical Journal (2024) 481 141-160 https://doi.org/10.1042/BCJ20230319</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We gratefully acknowledge <rs type="person">Drs Cleidiane Zampronio</rs> and <rs type="person">Andrew Bottrill</rs> (<rs type="affiliation">University of Warwick Proteomics Facility</rs>) for performing LC-MS and advice on data analysis. We thank <rs type="person">Dr Tom Waring</rs> at the <rs type="affiliation">University of Liverpool's Centre for Cell Imaging</rs> for expert assistance with confocal microscopy. We acknowledge the generous gift of <rs type="funder">CSP</rs> plasmids from <rs type="person">Prof Luke Chamberlain</rs> (<rs type="affiliation">University of Strathclyde</rs>). We thank <rs type="person">Dr Rob Chard</rs> (<rs type="affiliation">University of Liverpool</rs>) for advice about miniTurbo and BioID screening.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This work was supported by a PhD studentship from the <rs type="funder">Wellcome Trust</rs> to EB (WT reference <rs type="grantNumber">102172/B/13/Z</rs>) and by research grants from the <rs type="funder">British Heart Foundation</rs> to NH (BHF references <rs type="grantNumber">FS/17/56/32925</rs>, <rs type="grantNumber">FS/EXT/22/ 35014</rs>, <rs type="grantNumber">PG/21/10521</rs>). The Zeiss LSM880 confocal microscope was funded by an equipment grant from the <rs type="funder">Medical Research Council</rs> (MRC reference <rs type="grantNumber">MR/M009114/1</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_cx5JAvw">
+					<idno type="grant-number">102172/B/13/Z</idno>
+				</org>
+				<org type="funding" xml:id="_mKfPsg9">
+					<idno type="grant-number">FS/17/56/32925</idno>
+				</org>
+				<org type="funding" xml:id="_EyMfZYk">
+					<idno type="grant-number">FS/EXT/22/ 35014</idno>
+				</org>
+				<org type="funding" xml:id="_35Sn9QZ">
+					<idno type="grant-number">PG/21/10521</idno>
+				</org>
+				<org type="funding" xml:id="_aJVgFwV">
+					<idno type="grant-number">MR/M009114/1</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability</head><p>The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE <ref type="bibr" target="#b80">[76]</ref> partner repository with the dataset identifier PXD037258 and 10.6019/PXD037258.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors declare that there are no competing interests associated with the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head><p>ANCL, adult-onset neuronal ceroid lipofuscinosis; CSP, cysteine string protein; DMEM, Dulbecco's modified Eagle's medium; DTT, dithiothreitol; HRP, horse radish peroxidase; LC-MS, liquid chromatography-mass spectrometry; MAPS, misfolding-associated protein secretion; PBS, phosphate-buffered saline.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m">Sept8* (G3V9Z6) Pdap1* (Q62785) Snap25*</title>
+		<imprint>
+			<biblScope unit="volume">60881</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m">Ykt6 (Q5EGY4) Arhgdia* (Q5XI73) Esyt1*</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Atp</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="64542" to="64544" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Sptbn1* (G3V6S0) Stxbp1* (P61765</title>
+		<imprint/>
+	</monogr>
+	<note>Pdcd5* (D4ADF5</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Proteins with &gt;1.5-fold increase in abundance are listed by gene name and UniProt accession number in order of greatest fold-change. Statistically significant hits are highlighted in bold and marked by an asterisk</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A cysteine-string protein is expressed in retina and brain of Drosophila</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zinsmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hofbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Heimbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Pflugfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Buchner</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/01677069009084150</idno>
+		<ptr target="https://doi.org/10.3109/01677069009084150" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurogenet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="15" to="29" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Cysteine string proteins</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Gundersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pneurobio.2020.101758</idno>
+		<ptr target="https://doi.org/10.1016/j.pneurobio.2020.101758" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<date type="published" when="2020">2020. 101758</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Cysteine string proteins: a potential link between synaptic vesicles and presynaptic Ca 2+ channels</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mastrogiacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Zampighi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Jenden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Umbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Gundersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.7906056</idno>
+		<ptr target="https://doi.org/10.1126/science.7906056" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="981" to="982" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cysteine string proteins are associated with chromaffin granules</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.271.32.19514</idno>
+		<ptr target="https://doi.org/10.1074/jbc.271.32.19514" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="19514" to="19517" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Cysteine string protein (CSP) is an insulin secretory granule-associated protein regulating beta-cell exocytosis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Branstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Leibiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Leibiger</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/emboj/17.17.5048</idno>
+		<ptr target="https://doi.org/10.1093/emboj/17.17.5048" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="5048" to="5058" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The synaptic vesicle protein, cysteine-string protein, is associated with the plasma membrane in 3T3-L1 adipocytes and interacts with syntaxin 4</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.114.2.445</idno>
+		<ptr target="https://doi.org/10.1242/jcs.114.2.445" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="445" to="455" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Primary fibroblasts from CSPα mutation carriers recapitulate hallmarks of the adult onset neuronal ceroid lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Benitez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sands</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-06710-1</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-06710-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The bacterial toxin ExoU requires a host trafficking chaperone for transportation and to induce necrosis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Deruelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bouillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Job</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Taillebourg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Fauvarque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Attrée</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-021-24337-9</idno>
+		<ptr target="https://doi.org/10.1038/s41467-021-24337-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The cysteine-string domain of the secretory vesicle cysteine-string protein is required for membrane targeting</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj3350205</idno>
+		<ptr target="https://doi.org/10.1042/bj3350205" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">335</biblScope>
+			<biblScope unit="issue">Pt 2</biblScope>
+			<biblScope unit="page" from="205" to="209" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Association of Drosophila cysteine string proteins with membranes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van De Goor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Kelly</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0014-5793(96)00026-9</idno>
+		<ptr target="https://doi.org/10.1016/0014-5793(96" />
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="26" to="29" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Dual role of the cysteine-string domain in membrane binding and palmitoylation-dependent sorting of the molecular chaperone cysteine-string protein</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.e06-03-0183</idno>
+		<ptr target="https://doi.org/10.1091/mbc.e06-03-0183" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="4748" to="4759" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Paralysis and early death in cysteine string protein mutants of Drosophila</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zinsmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Eberle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Buchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Benzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.8310297</idno>
+		<ptr target="https://doi.org/10.1126/science.8310297" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="977" to="980" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Presynaptic dysfunction in Drosophila csp mutants</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Umbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zinsmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Eberle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Buchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Benzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Gundersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0896-6273(94)90255-0</idno>
+		<ptr target="https://doi.org/10.1016/0896-6273(94)90255-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="899" to="907" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Comparison of cysteine string protein (Csp) and mutant α-SNAP overexpression reveals a role for Csp in late steps of membrane fusion in dense-core granule exocytosis in adrenal chromaffin cells</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.20-04-01281.2000</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.20-04-01281" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1281" to="1289" />
+			<date type="published" when="2000">2000. 2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Phosphorylation of cysteine string protein by protein kinase A. Implications for the modulation of exocytosis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M108186200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M108186200" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="47877" to="47885" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The variable C-terminus of cysteine string proteins modulates exocytosis and protein-protein interactions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tessier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Scotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi048612&amp;plus;</idno>
+		<ptr target="https://doi.org/10.1021/bi048612+" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="16212" to="16223" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cysteine string protein functions directly in regulated exocytosis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.9.8.2259</idno>
+		<ptr target="https://doi.org/10.1091/mbc.9.8.2259" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2259" to="2267" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Phosphomimetic mutation of cysteine string protein-α increases the rate of regulated exocytosis by modulating fusion pore dynamics in PC12 cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Hsiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0099180</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0099180" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The synaptic vesicle protein CSPα prevents presynaptic degeneration</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernández-Chacón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wölfel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nishimune</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tabares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Castellano-Muñoz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0896-6273(04)00190-4</idno>
+		<ptr target="https://doi.org/10.1016/S0896-6273(04)00190-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="237" to="251" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Caenorhabditis elegans dnj-14, the orthologue of the DNAJC5 gene mutated in adult onset neuronal ceroid lipofuscinosis, provides a new platform for neuroprotective drug screening and identifies a SIR-2.1-independent action of resveratrol</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kashyap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Mccue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Edmonds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ayala</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/ddu316</idno>
+		<ptr target="https://doi.org/10.1093/hmg/ddu316" />
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="5916" to="5927" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The contribution of multicellular model organisms to neuronal ceroid lipofuscinosis research</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Tuxworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbadis.2019.165614</idno>
+		<ptr target="https://doi.org/10.1016/j.bbadis.2019.165614" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta Mol. Basis Dis</title>
+		<imprint>
+			<biblScope unit="volume">1866</biblScope>
+			<date type="published" when="2020">2020. 165614</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Mutations in DNAJC5, encoding cysteine-string protein alpha, cause autosomal-dominant adult-onset neuronal ceroid lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nosková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stránecký</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hartmannová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Přistoupilová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Barešová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ivánek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ajhg.2011.07.003</idno>
+		<ptr target="https://doi.org/10.1016/j.ajhg.2011.07.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="241" to="252" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Exome-sequencing confirms DNAJC5 mutations as cause of adult neuronal ceroid-lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Benitez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alvarado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraverty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Norton</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0026741</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0026741" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011">2011. 26741</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Recurrent mutations in DNAJC5 cause autosomal dominant Kufs disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cadieux-Dion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Andermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lachance-Touchette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ansorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meloche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barnabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cge.12020</idno>
+		<ptr target="https://doi.org/10.1111/cge.12020" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Genet</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="571" to="575" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Mutations in the gene DNAJC5 cause autosomal dominant Kufs disease in a proportion of cases: study of the Parry family and 8 other families</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Velinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dolzhanskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Konidari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hulme</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0029729</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0029729" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2012">2012. 29729</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Autosomal-dominant adult neuronal ceroid lipofuscinosis caused by duplication in DNAJC5 initially missed by Sanger and whole-exome sequencing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Jedličková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cadieux-Dion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Přistoupilová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stránecký</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hartmannová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hodaňová</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41431-019-0567-2</idno>
+		<ptr target="https://doi.org/10.1038/s41431-019-0567-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="783" to="789" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Adult-onset neuronal ceroid lipofuscinosis with a novel DNAJC5 mutation exhibits aberrant protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Dammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnagi.2022.829573</idno>
+		<ptr target="https://doi.org/10.3389/fnagi.2022.829573" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Aging Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2022">2022. 829573</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Oligomerization of cysteine string protein alpha mutants causing adult neuronal ceroid lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Chandra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbadis.2014.07.009</idno>
+		<ptr target="https://doi.org/10.1016/j.bbadis.2014.07.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1842</biblScope>
+			<biblScope unit="page" from="2136" to="2146" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Aggregation of mutant cysteine string protein-alpha via Fe-S cluster binding is mitigated by iron chelators</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Naseri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ergel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kharel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41594-020-0375-y</idno>
+		<ptr target="https://doi.org/10.1038/s41594-020-0375-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="192" to="201" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Palmitoylation-induced aggregation of cysteine-string protein mutants that cause neuronal ceroid lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lemonidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Gorleku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cruchaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grefen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M112.389098</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M112.389098" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="37330" to="37339" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A cluster of palmitoylated cysteines are essential for aggregation of cysteine-string protein mutants that cause neuronal ceroid lipofuscinosis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Diez-Ardanuy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C O</forename><surname>Tomkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-00036-8</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-00036-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The cysteine string secretory vesicle protein activates Hsc70 ATPase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Wilbanks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Scheller</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.271.42.25989</idno>
+		<ptr target="https://doi.org/10.1074/jbc.271.42.25989" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="25989" to="25993" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Activation of the ATPase activity of heat-shock proteins Hsc70/Hsp70 by cysteine-string protein</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj3220853</idno>
+		<ptr target="https://doi.org/10.1042/bj3220853" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="853" to="858" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note>Pt 3</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Cysteine-string protein: the chaperone at the synapse</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1471-4159.2000.0741781.x</idno>
+		<ptr target="https://doi.org/10.1046/j.1471-4159.2000.0741781.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1781" to="1789" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">CSPα promotes SNARE-complex assembly by chaperoning SNAP-25 during synaptic activity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Südhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncb2131</idno>
+		<ptr target="https://doi.org/10.1038/ncb2131" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="30" to="39" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">CSPα knockout causes neurodegeneration by impairing SNAP-25 function</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bronk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Südhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/emboj.2011.467</idno>
+		<ptr target="https://doi.org/10.1038/emboj.2011.467" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="829" to="841" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Interaction of cysteine string proteins with the α1A subunit of the P/Q-type calcium channel</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leveque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pupier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Marqueze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Geslin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kataoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takahashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.273.22.13488</idno>
+		<ptr target="https://doi.org/10.1074/jbc.273.22.13488" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="13488" to="13492" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Syntaxin 1A interacts with multiple exocytic proteins to regulate neurotransmitter release in vivo</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fergestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Broadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bellen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0896-6273(00)80811-9</idno>
+		<ptr target="https://doi.org/10.1016/S0896-6273(00)80811-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="593" to="605" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Overexpression of cysteine-string proteins in Drosophila reveals interactions with syntaxin</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ranjan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wenniger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bronk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zinsmaier</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.19-23-10270.1999</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.19-23-10270.1999" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="10270" to="10279" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Phosphorylation-dependent interaction of the synaptic vesicle proteins cysteine string protein and synaptotagmin I</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morgan</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj20020123</idno>
+		<ptr target="https://doi.org/10.1042/bj20020123" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page" from="343" to="347" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A charged prominence in the linker domain of the cysteine-string protein CSPα mediates its regulated interaction with the calcium sensor synaptotagmin 9 during exocytosis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laguerre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Milochau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Scotti</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.09-152033</idno>
+		<ptr target="https://doi.org/10.1096/fj" />
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="9" to="152033" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Identification of CSPα clients reveals a role in dynamin 1 regulation</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Colangelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Ginsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bruce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2012.01.029</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2012.01.029" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="136" to="150" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cysteine string protein regulates G protein modulation of N-type calcium channels</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Magga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Arnot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Zamponi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Braun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0896-6273(00)00096-9</idno>
+		<ptr target="https://doi.org/10.1016/S0896-6273(00)00096-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="195" to="204" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Characterization of the Gαs regulator cysteine string protein</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Natochin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hameed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">O</forename><surname>Artemyev</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M500722200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M500722200" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="30236" to="30241" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Phosphorylation of cysteine string protein on Serine 10 triggers 14-3-3 protein binding</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Prescott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morgan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbrc.2008.10.069</idno>
+		<ptr target="https://doi.org/10.1016/j.bbrc.2008.10.069" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">377</biblScope>
+			<biblScope unit="page" from="809" to="814" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Molecular determinants of cysteine string protein modulation of N-type calcium channels</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Swayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Zamponi</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.00595</idno>
+		<ptr target="https://doi.org/10.1242/jcs.00595" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="2967" to="2974" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The large conductance, calcium-activated K+ (BK) channel is regulated by cysteine string protein</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Kyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ahrendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Braun</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep02447</idno>
+		<ptr target="https://doi.org/10.1038/srep02447" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2013">2013. 2447</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">DNAJC5 facilitates USP19-dependent unconventional secretion of misfolded cytosolic proteins</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dibello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saidi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41421-018-0012-7</idno>
+		<ptr target="https://doi.org/10.1038/s41421-018-0012-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Discov</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">DnaJ/Hsc70 chaperone complexes control the extracellular release of neurodegenerative-associated proteins</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Fontaine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sabbagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Darling</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/embj.201593489</idno>
+		<ptr target="https://doi.org/10.15252/embj.201593489" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1537" to="1549" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Abnormal triaging of misfolded proteins adult neuronal ceroid lipofuscinosisassociated DNAJC5/CSPα mutants causes lipofuscin accumulation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zinsmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15548627.2022.2065618</idno>
+		<ptr target="https://doi.org/10.1080/15548627.2022.2065618" />
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="204" to="223" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Neurons export extracellular vesicles enriched in cysteine string protein and misfolded protein cargo</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Koutras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Donnelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alshehri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fotouhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Girard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-01115-6</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-01115-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Secretion of misfolded cytosolic proteins from mammalian cells is independent of chaperone-mediated autophagy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.RA118.003660</idno>
+		<ptr target="https://doi.org/10.1074/jbc.RA118.003660" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="page" from="14359" to="14370" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Cysteine string protein, a DnaJ family member, is present on diverse secretory vesicles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Scheller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0028-3908(95)00114-L</idno>
+		<ptr target="https://doi.org/10.1016/0028-3908(95)00114-L" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropharmacology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1361" to="1369" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Oligomerization characteristics of cysteine string protein</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Swayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Blattler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Braun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-291X(02)02964-9</idno>
+		<ptr target="https://doi.org/10.1016/S0006-291X(02)02964-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="921" to="926" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Two distinct domains in hsc70 are essential for the interaction with the synaptic vesicle cysteine string protein</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tobaben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sudhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0171-9335(99)80079-X</idno>
+		<ptr target="https://doi.org/10.1016/S0171-9335(99)80079-X" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="375" to="381" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A trimeric protein complex functions as a synaptic chaperone machine</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tobaben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thakur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernández-Chacón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Südhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rettig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stahl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0896-6273(01)00427-5</idno>
+		<ptr target="https://doi.org/10.1016/S0896-6273(01)00427-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="987" to="999" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Efficient proximity labeling in living cells and organisms with TurboID</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Branon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Udeshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Svinkina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Carr</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt.4201</idno>
+		<ptr target="https://doi.org/10.1038/nbt.4201" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="880" to="887" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Probing nuclear pore complex architecture with proximity-dependent biotinylation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Birendra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Motamedchaboki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Doye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Roux</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1315147111</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1315147111" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="2453" to="E2461" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Palmitoylation and membrane interactions of the neuroprotective chaperone cysteine-string protein</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salaun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M802140200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M802140200" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="25014" to="25026" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The role of cysteine string protein α phosphorylation at Serine 10 and 34 by protein kinase Cγ for presynaptic maintenance</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shirafuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ueyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Yoshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sotomaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Uwada</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.1649-17.2017</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.1649-17.2017" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="278" to="290" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Phosphorylation of cysteine string protein triggers a major conformational switch</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Prescott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Burgoyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Lian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morgan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.str.2016.06.009</idno>
+		<ptr target="https://doi.org/10.1016/j.str.2016.06.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1380" to="1386" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Autosomal dominant neuronal ceroid lipofuscinosis: clinical features and molecular basis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Naseri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Velinov</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cge.13829</idno>
+		<ptr target="https://doi.org/10.1111/cge.13829" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Genet</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="111" to="118" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Comprehensive interactome profiling of the human Hsp70 network highlights functional differentiation of J domains</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Piette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alerasool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lacoste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H Y</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Qian</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2021.04.012</idno>
+		<ptr target="https://doi.org/10.1016/j.molcel.2021.04.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="2549" to="2565" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The SH-SY5Y cell line in Parkinson&apos;s disease research: a systematic review</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xicoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wieringa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J M</forename><surname>Martens</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13024-017-0149-0</idno>
+		<ptr target="https://doi.org/10.1186/s13024-017-0149-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Neurodegener</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Analysis of regulated secretion using PC12 cells</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Taupenot</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/0471143030.cb1512s36</idno>
+		<idno>1002/ 0471143030.cb1512s36</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Protoc. Cell Biol. Chapter</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>Unit 15.12 https</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lempicki</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nprot.2008.211</idno>
+		<ptr target="https://doi.org/10.1038/nprot.2008.211" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="44" to="57" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">BioID: a screen for protein-protein interactions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>May</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cpps.51</idno>
+		<ptr target="https://doi.org/10.1002/cpps.51" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Protoc. Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="11" to="19" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">α-Synuclein cooperates with CSPα in preventing neurodegeneration</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gallardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernández-Chacón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Schlüter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Südhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2005.09.028</idno>
+		<ptr target="https://doi.org/10.1016/j.cell.2005.09.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="383" to="396" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">SNAREs-engines for membrane fusion</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Scheller</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm2002</idno>
+		<ptr target="https://doi.org/10.1038/nrm2002" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="631" to="643" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Synaptic assembly of the brain in the absence of neurotransmitter secretion</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Verhage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Maia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Plomp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Brussaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Heeroma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vermeer</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.287.5454.864</idno>
+		<ptr target="https://doi.org/10.1126/science.287.5454.864" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="864" to="869" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Motorneurons require cysteine string protein-α to maintain the readily releasable vesicular pool and synaptic vesicle recycling</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rozas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gómez-Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mircheski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Linares-Clemente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Nieto-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Vázquez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2012.02.019</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2012.02.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="151" to="165" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Accurate proteome-wide label-free quantification by delayed normalization and maximal peptide ratio extraction, termed MaxLFQ</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Luber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Paron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nagaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/mcp.M113.031591</idno>
+		<ptr target="https://doi.org/10.1074/mcp.M113.031591" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2513" to="2526" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Cytosolic domain of SIDT2 carries an arginine-rich motif that binds to RNA/DNA and is important for the direct transport of nucleic acids into lysosomes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Contu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kabuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kataoka</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15548627.2020.1712109</idno>
+		<ptr target="https://doi.org/10.1080/15548627.2020.1712109" />
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="1974">2020. 1974. 1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Cysteine string protein (CSP) inhibition of N-type calcium channels is blocked by mutant huntingtin</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Swayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Wacker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Muchowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M306230200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M306230200" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="53072" to="53081" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Spatially resolved proteomic mapping in living cells with the engineered peroxidase APEX2</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Udeshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pedram</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nprot.2016.018</idno>
+		<ptr target="https://doi.org/10.1038/nprot.2016.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="456" to="475" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">The PRIDE database and related tools and resources in 2019: improving support for quantification data</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Perez-Riverol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Csordas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bernal-Llinares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hewapathirana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kundu</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1106</idno>
+		<ptr target="https://doi.org/10.1093/nar/gky1106" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="442" to="D450" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

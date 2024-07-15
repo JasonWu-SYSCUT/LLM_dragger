@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Palmitoylation of proteolipid protein M6 promotes tricellular junction assembly in epithelia of Drosophila</title>
+				<funder ref="#_k7H7Gx2">
+					<orgName type="full">Bloomington Drosophila Stock Center</orgName>
+				</funder>
+				<funder ref="#_jsaRu6y">
+					<orgName type="full">University of Münster. Open Access</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NICHD</orgName>
+				</funder>
+				<funder ref="#_4Zftdbv">
+					<orgName type="full">Deutsche Forschungsgemeinschaft</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Developmental Studies Hybridoma Bank</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Münster Imaging Network</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Münster</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Raphael</forename><surname>Schleutker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Integrative Cell Biology and Physiology</orgName>
+								<orgName type="department" key="dep2">Cells in Motion (CiM) Interfaculty Centre</orgName>
+								<orgName type="institution">University of Münster</orgName>
+								<address>
+									<postCode>D-48149</postCode>
+									<settlement>Münster</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Stefan</forename><surname>Luschnig</surname></persName>
+							<email>luschnig@uni-muenster.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Integrative Cell Biology and Physiology</orgName>
+								<orgName type="department" key="dep2">Cells in Motion (CiM) Interfaculty Centre</orgName>
+								<orgName type="institution">University of Münster</orgName>
+								<address>
+									<postCode>D-48149</postCode>
+									<settlement>Münster</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Palmitoylation of proteolipid protein M6 promotes tricellular junction assembly in epithelia of Drosophila</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2C9444CA59FA0282D6065152DF1170C8</idno>
+					<idno type="DOI">10.1242/jcs.261916</idno>
+					<note type="submission">Received 18 December 2023; Accepted 2 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Epithelium, Tricellular junction, Cell vertex, Palmitoylation, Drosophila Author contributions Conceptualization: R.S., S.L.</term>
+					<term>Methodology: R.S., S.L.</term>
+					<term>Software: R.S.</term>
+					<term>Validation: R.S.</term>
+					<term>Formal analysis: R.S.</term>
+					<term>Investigation: R.S., S.L.</term>
+					<term>Resources: S.L.</term>
+					<term>Data curation: R.S.</term>
+					<term>Writing -original draft: R.S.</term>
+					<term>Writing -review &amp; editing: R.S., S.L.</term>
+					<term>Visualization: R.S.</term>
+					<term>Supervision: S.L.</term>
+					<term>Project administration: S.L.</term>
+					<term>Funding acquisition: S.L</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Tricellular junctions (TCJs) seal epithelial cell vertices and are essential for tissue integrity and physiology, but how TCJs are assembled and maintained is poorly understood. In Drosophila, the transmembrane proteins Anakonda (Aka, also known as Bark), Gliotactin (Gli) and M6 organize occluding TCJs. Aka and M6 localize in an interdependent manner to vertices and act jointly to localize Gli, but how these proteins interact to assemble TCJs was not previously known. Here, we show that the proteolipid protein M6 physically interacts with Aka and with itself, and that M6 is palmitoylated on conserved juxta-membrane cysteine residues. This modification promotes vertex localization of M6 and binding to Aka, but not to itself, and becomes essential when TCJ protein levels are reduced. Abolishing M6 palmitoylation leads to delayed localization of M6 and Aka but does not affect the rate of TCJ growth or mobility of M6 or Aka. Our findings suggest that palmitoylation-dependent recruitment of Aka by M6 promotes initiation of TCJ assembly, whereas subsequent TCJ growth relies on different mechanisms that are independent of M6 palmitoylation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Directional and selective transport across epithelia depends on occluding cell-cell junctions that seal the space between cells to restrict paracellular diffusion. Tight junctions (TJs) in vertebrates and septate junctions (SJs) in invertebrates play analogous roles as diffusion barriers, although they differ in their ultrastructure and molecular composition (reviewed in <ref type="bibr" target="#b17">Higashi and Chiba, 2020)</ref>. Junctions between two adjacent cells (bicellular junctions; BCJs) represent the most abundant intercellular contacts in epithelia. However, where three cells meet at cell vertices, BCJ strands are discontinuous and turn from having an orientation that is parallel to the apical cell surface to align with the central gap, which is flanked by three adjoining cells and sealed by specialized tricellular junctions (TCJs; <ref type="bibr" target="#b37">Staehelin, 1973;</ref><ref type="bibr" target="#b14">Fristrom, 1982;</ref><ref type="bibr" target="#b15">Graf et al., 1982;</ref><ref type="bibr">Noirot-Timothée et al., 1982)</ref>. TCJs are composed of a distinct set of proteins that mediate adhesive and occluding properties at cell vertices. In vertebrates, the tetraspan transmembrane (TM) protein tricellulin (also known as MARVELD2) <ref type="bibr" target="#b23">(Ikenouchi et al., 2005)</ref> is recruited to tricellular tight junctions (tTJs) by the angulin family transmembrane protein lipolysis-stimulated lipoprotein receptor (angulin-1, also known as LSR; <ref type="bibr" target="#b29">Masuda et al., 2011)</ref> and immunoglobulin-like domaincontaining receptors 1 and 2 (ILDR1 and ILDR2; <ref type="bibr" target="#b19">Higashi et al., 2013)</ref>. TCJs play fundamental roles in epithelial barrier function, tissue integrity, cytoskeletal organization and mitotic spindle orientation (reviewed in <ref type="bibr" target="#b6">Bosveld et al., 2018;</ref><ref type="bibr" target="#b17">Higashi and Chiba, 2020;</ref><ref type="bibr" target="#b18">Higashi and Miller, 2017)</ref>. Mutations in tricellulin and ILDR1 cause deafness associated with degeneration of cochlear hair cells in mice and humans <ref type="bibr" target="#b19">(Higashi et al., 2013;</ref><ref type="bibr" target="#b34">Riazuddin et al., 2006)</ref>. Moreover, TCJs provide preferred routes for leukocyte extravasation from blood vessels <ref type="bibr" target="#b7">(Burns et al., 1997;</ref><ref type="bibr" target="#b38">Sumagin and Sarelius, 2010)</ref> and are exploited by bacterial pathogens for breaching epithelial barriers <ref type="bibr" target="#b32">(Papatheodorou et al., 2011;</ref><ref type="bibr" target="#b39">Sumitomo et al., 2016)</ref>. However, despite the key functions of tTJs in epithelial biology and disease, the mechanisms underlying their assembly at cell vertices are only beginning to be understood.</p><p>Epithelia of invertebrates also display specialized tricellular occluding junctions. In Drosophila, the transmembrane proteins Anakonda (Aka, also known as Bark; <ref type="bibr" target="#b20">Hildebrandt et al., 2015;</ref><ref type="bibr" target="#b9">Byri et al., 2015)</ref>, Gliotactin (Gli; <ref type="bibr" target="#b36">Schulte et al., 2003)</ref> and <ref type="bibr">M6 (Zappia et al., 2011)</ref> organize tricellular septate junctions (tSJs) and are required for epithelial barrier function. Aka and M6 localize to TCJs in a mutually dependent fashion and act jointly to recruit Gli. Gli, in turn, is dispensable for targeting Aka and M6 to vertices, but is required for maintaining Aka and M6 localization, possibly by linking TCJ complexes to adjacent bicellular SJ strands (Esmangart de Bournonville and Le Borgne, 2020; <ref type="bibr" target="#b45">Wittek et al., 2020)</ref>.</p><p>A key open question is which specific features of cell vertices, and which corresponding cellular mechanisms, direct the assembly of TCJ complexes to this small portion of the plasma membrane. In Drosophila, Aka mediates homophilic cell adhesion with its triple-repeat-extracellular domain and is required on three adjoining cells for TCJ formation, suggesting that the extracellular domain of Aka recognizes vertex geometry or the presence of three adjacent plasma membranes <ref type="bibr" target="#b9">(Byri et al., 2015)</ref>. In addition, negative membrane curvature and a specific lipid composition at vertices might attract specific proteins through interactions mediated by special transmembrane or lipid-binding domains <ref type="bibr" target="#b1">(Aimon et al., 2014)</ref>. In vertebrates, angulin-1 is palmitoylated on cytoplasmic cysteine residues, and this post-translational modification is required, along with the extracellular domain, for its targeting to tTJs, possibly by mediating attraction to a cholesterol-enriched membrane domain at vertices <ref type="bibr" target="#b31">(Oda et al., 2020)</ref>.</p><p>S-palmitoylation is the covalent attachment of a C16 acyl chain to cytosolic cysteine residues of cytoplasmic or integral membrane proteins and is catalyzed by cytoplasmic palmitoyltransferases (reviewed in <ref type="bibr" target="#b10">Chamberlain and Shipston, 2015)</ref>. Unlike other lipid modifications, S-palmitoylation is reversible, and can hence regulate protein distribution or function in a switch-like manner. S-palmitoylation was shown to regulate partitioning of proteins into specific membrane domains, intracellular trafficking, proteinprotein interactions, and activity of TM proteins (reviewed in <ref type="bibr" target="#b5">Blaskovic et al., 2013)</ref>.</p><p>In a search for molecular determinants that promote vertex localization of TCJ proteins, we found that the Drosophila proteolipid protein M6, like its vertebrate homolog GPM6a <ref type="bibr" target="#b22">(Honda et al., 2017)</ref>, is S-palmitoylated on a conserved cluster of juxtamembrane cysteine residues, whereas S-palmitoylation is not detectable on other known TCJ components in Drosophila. We show that S-palmitoylation promotes vertex localization of M6 and its direct interaction with Aka. S-palmitoylation of M6 is required for efficient initiation of TCJ assembly, but not for subsequent TCJ growth, thus revealing a distinct role of palmitoylation during an early step of TCJ assembly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Three M6 isoforms are expressed in epithelia and localize to vertices</head><p>To identify mechanisms that target M6 to vertices, we analyzed the subcellular distribution of M6 protein isoforms. The M6 locus encodes six annotated protein isoforms (B through G; Fig. <ref type="figure" target="#fig_0">1A</ref>; http://flybase.org/reports/FBgn0037092.htm; <ref type="bibr" target="#b40">Thurmond et al., 2019)</ref>, which differ in their N-terminal cytoplasmic domain. Isoforms B, C and D were detectable by immunoblotting in embryo lysates (Fig. <ref type="figure" target="#fig_0">S1A-C</ref>) and are expressed in ectodermal (isoforms C and D) and endodermal (isoform B) tissues (Fig. <ref type="figure" target="#fig_0">S1D-H</ref>).</p><p>We tagged each isoform C-terminally with GFP, drove expression of these constructs in the embryonic epidermis (Fig. <ref type="figure" target="#fig_0">1D-K</ref>), and determined the enrichment of M6-GFP proteins at vertices as the ratio of signals at tricellular and bicellular contacts (Fig. <ref type="figure" target="#fig_0">1C</ref>). This revealed that all M6 isoforms accumulated at vertices with mean enrichment factors of greater than 2.3-fold, whereas the bicellular SJ protein Neuroglian (Nrg-GFP; control) was enriched less than 2-fold (Fig. <ref type="figure" target="#fig_0">1L</ref>). Notably, vertex enrichment varied between M6-GFP isoforms and was inversely proportional to overall signal intensity (Fig. <ref type="figure" target="#fig_1">S2</ref>), suggesting that saturation effects upon overexpression impede vertex enrichment. Consistent with this notion, endogenous GFP::M6 CA06602 showed higher vertex enrichment (7.8-fold; Fig. <ref type="figure" target="#fig_0">1E,</ref><ref type="figure">L</ref>) than the individual overexpressed isoforms. We conclude that all M6 isoforms contain the element(s) sufficient for vertex localization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>All M6 isoforms support TCJ formation</head><p>To test which M6 isoforms support TCJ formation, we expressed each isoform in epidermal stripes in M6-deficient [M6 MB02608 / Df(3L)BSC419] embryos and asked whether the M6 isoforms rescue TCJ localization of Aka and Gli, which are mislocalized along BCJs in the absence of M6 (Fig. <ref type="figure" target="#fig_1">S2</ref>). cDNAs of M6 isoforms B, C, and D, as well as an intron-containing UAS-M6 construct capable of producing all M6 long-transcript isoforms, rescued TCJ localization of Aka and Gli (Fig. <ref type="figure" target="#fig_1">S2A-E</ref>). Isoforms M6-E and M6-F showed low expression levels and rescued TCJ localization of Gli, but only partially rescued Aka localization (Fig. <ref type="figure" target="#fig_1">S2F,</ref><ref type="figure">G</ref>). However, in principle, all M6 isoforms can support TCJ formation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M6 protein is S-palmitoylated on a conserved cluster of cysteine residues</head><p>We next asked which elements that are shared by all M6 isoforms mediate vertex localization. Because S-palmitoylation modulates membrane localization of the vertebrate M6 homolog GPM6a <ref type="bibr" target="#b22">(Honda et al., 2017)</ref>, we asked whether palmitoylation is involved in vertex localization of Drosophila M6. To test whether M6 is palmitoylated, we used an acyl-biotin-exchange (ABE) assay that detects S-palmitoylation of cysteine residues <ref type="bibr" target="#b44">(Wan et al., 2007)</ref>. After replacing thioester-linked-palmitate for biotin, formerly S-palmitoylated proteins are affinity-purified using Streptavidin beads and are detected by immunoblotting (Fig. <ref type="figure" target="#fig_1">2A</ref>). To validate this assay, we analyzed extracts from embryos expressing either cytosolic GFP or palmitoylated YFP ( palm-YFP) in tracheal cells. Indeed, we detected S-palmitoylation of palm-YFP, but not of GFP (Fig. <ref type="figure" target="#fig_1">2B</ref>). We then tested the three known TCJ proteins and found that M6, but not Aka or Gli, was palmitoylated in embryos (Fig. <ref type="figure" target="#fig_1">2C</ref>). M6 is predicted to be palmitoylated at a conserved cluster of three cysteine residues in the N-terminal cytoplasmic portion that is common to all M6 isoforms (Fig. <ref type="figure" target="#fig_1">2D</ref>). The corresponding cysteine residues are palmitoylated in mouse GPM6a <ref type="bibr" target="#b22">(Honda et al., 2017)</ref>. We mutated the three cysteine residues to serine residues in UAS-M6-GFP and tested for palmitoylation of the mutant protein (referred to as M6 3xCS ) in transfected S2R+ cells. Whereas palmitoylation was readily detectable on wild-type M6-GFP, it was absent from M6 3xCS -GFP (Fig. <ref type="figure" target="#fig_1">2F</ref>), indicating that M6 is palmitoylated on at least one of the three cysteine residues and that this is the only site of S-palmitoylation in M6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation promotes accumulation of M6 at vertices</head><p>Having established a palmitoylation-deficient M6 mutant, we asked whether palmitoylation is involved in vertex localization of M6. Therefore, we expressed either wild-type M6-GFP or M6 3xCS -GFP in the embryonic epidermis (using 69B-Gal4) and analyzed the subcellular distribution of the GFP-tagged proteins (Fig. <ref type="figure" target="#fig_2">3A,</ref><ref type="figure">B</ref>). M6 3xCS -GFP was present at the plasma membrane at similar levels to those observed for wild-type M6-GFP (Fig. <ref type="figure" target="#fig_1">S2</ref>), indicating that palmitoylation is not required for intracellular trafficking or membrane targeting of M6, unlike other proteins, such as Wingless (Wg), which require palmitoylation for their secretion <ref type="bibr" target="#b13">(Franch-Marro et al., 2008)</ref>. However, M6 3xCS -GFP showed significantly lower (2.2±0.3-fold) vertex enrichment compared to wild-type M6-GFP (3.2±0.3; mean±s.d., P&lt;0.001; n=20 embryos; Fig. <ref type="figure" target="#fig_2">3I</ref>), suggesting that palmitoylation promotes targeting of M6 to or stabilization at vertices.</p><p>To test whether M6 palmitoylation is required for TCJ formation, we expressed M6 3xCS -GFP in epidermal stripes of M6-deficient embryos and analyzed the distribution of Aka and Gli (Fig. <ref type="figure" target="#fig_2">3M,</ref><ref type="figure">N</ref>). Surprisingly, Aka localization was partially rescued and Gli localization was fully rescued in M6 3xCS -GFP-expressing cells (Fig. <ref type="figure" target="#fig_2">3N</ref>), suggesting that M6 palmitoylation is dispensable for TCJ assembly, despite the low enrichment of M6 3xCS -GFP at vertices. However, in this experiment, M6 3xCS protein was overexpressed, thus impeding conclusions about functional roles of M6 palmitoylation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylated M6 outcompetes palmitoylation-deficient M6 from localizing to vertices</head><p>To analyze functions of M6 palmitoylation without overexpression, we mutated the cysteine cluster in the endogenous M6 locus (with or without the GFP-trap insertion, referred to as GFP::M6 3xCS or M6 3xCS , respectively; Fig. <ref type="figure" target="#fig_1">2E</ref>). Endogenous GFP::M6 3xCS protein showed significantly lower enrichment (4.7±0.5-fold; mean±s.d.) than wild-type GFP::M6 (7.2±0.8-fold; P&lt;0.001; n=20 embryos) at epidermal cell vertices in heterozygous (GFP::M6 3xCS /+) embryos (Fig. <ref type="figure" target="#fig_2">3C,</ref><ref type="figure">D,</ref><ref type="figure">J</ref>), resembling the distribution of overexpressed M6 3xCS -GFP (Fig. <ref type="figure" target="#fig_2">3B</ref>). Surprisingly, however, in homozygous GFP::M6 3xCS embryos, vertex enrichment of GFP::M6 3xCS was indistinguishable from that of wild-type GFP::M6 protein (Fig. <ref type="figure" target="#fig_2">3E,</ref><ref type="figure">F,</ref><ref type="figure">K</ref>), suggesting that, in the heterozygous situation, wildtype M6 protein outcompetes GFP::M6 3xCS from occupying vertices. Despite this effect, TCJ localization of Aka and Gli appeared normal in GFP::M6 3xCS heterozygous and homozygous embryos (Fig. <ref type="figure" target="#fig_2">3O,</ref><ref type="figure">P</ref>), and homozygous GFP::M6 3xCS flies were viable and fertile. Thus, although palmitoylation is not essential for vertex localization of M6, it promotes transport to or maintenance of M6 at vertices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TCJ localization of M6 is delayed in the absence of palmitoylation</head><p>To test the hypothesis that palmitoylation mediates localization of M6 at vertices, we analyzed the dynamics of GFP::M6 accumulation at epidermal cell vertices in time-lapse movies (Fig. <ref type="figure" target="#fig_3">4A</ref>). At the onset of TCJ formation, GFP::M6 accumulates at the apical tip of each vertex in a single spot that subsequently extends basally with a speed of 0.09 µm/min (n=15 vertices in three embryos; Fig. <ref type="figure" target="#fig_3">4A′,</ref><ref type="figure">D</ref>; Movie 1; <ref type="bibr" target="#b45">Wittek et al., 2020)</ref>. This process starts at a small number of vertices during stage 13 and subsequently sweeps across the epidermis over the course of 95±10 min (n=3 embryos) until all vertices are occupied by GFP::M6 during stage 14 (Fig. <ref type="figure" target="#fig_3">4A,</ref><ref type="figure">C</ref>; Movie 2; <ref type="bibr" target="#b45">Wittek et al., 2020)</ref>. To quantify the kinetics of M6 vertex localization, we determined in each movie frame the fraction of vertices marked by accumulation of GFP::M6 (Fig. <ref type="figure" target="#fig_3">4A</ref>). Whereas wild-type GFP::M6 occupied all vertices at 95±10 min (n=3 embryos) after the onset of TCJ formation, GFP::M6 3xCS reached complete vertex occupancy with a delay of 76% after 167±21 min (delay of 26 min in half-maximal occupancy time, P&lt;0.05; Fig. <ref type="figure" target="#fig_3">4B,</ref><ref type="figure">C</ref>; Movie 2), indicating that efficient TCJ localization of M6 depends on palmitoylation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M6 palmitoylation promotes initial accumulation, but not extension of M6 clusters at vertices</head><p>Interestingly, although the rate of vertex occupancy by GFP::M6 was impaired by the lack of M6 palmitoylation, there was no detectable effect on the rate of extension along a vertex after GFP:: M6 had accumulated at its apical tip (0.088 µm/min; n=15 vertices from three embryos; Fig. <ref type="figure" target="#fig_3">4D</ref>). A similar delay in initial vertex accumulation, but not in subsequent extension along vertices, was observed for Aka::GFP in M6 3xCS mutant embryos (Fig. <ref type="figure" target="#fig_2">S3</ref>). These findings suggest that efficient initial accumulation of Aka and M6 at vertices depends on M6 palmitoylation, whereas the subsequent extension of TCJ complexes during TCJ growth is independent of M6 palmitoylation. Consistent with this notion, the lack of M6 palmitoylation had only a slight, if any, effect on the mobility of M6 (GFP::M6 3xCS ) or of Aka (Aka::GFP) proteins at vertices, as measured by fluorescence recovery after photobleaching (FRAP) experiments (Fig. <ref type="figure" target="#fig_3">S4</ref>), whereas complete loss of M6 protein was previously shown to lead to substantially increased mobility of Aka and abolishes TCJ formation <ref type="bibr" target="#b45">(Wittek et al., 2020)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M6 palmitoylation becomes essential when dosage of Aka is reduced</head><p>Because vertex accumulation of M6 depends on Aka <ref type="bibr" target="#b45">(Wittek et al., 2020)</ref>, we wondered whether the delayed TCJ assembly in the absence of M6 palmitoylation can be further perturbed by reducing the dosage of Aka. Indeed, removing one copy of aka in the absence of M6 palmitoylation aggravated the delay in vertex occupancy of GFP::M6 3xCS , with many vertices failing to accumulate M6 even in late-stage embryos (Fig. <ref type="figure" target="#fig_3">4G</ref>), and led to synthetic embryonic lethality, indicating that M6 palmitoylation becomes essential when TCJ protein concentration is reduced. Taken together, these results highlight the requirement of M6 palmitoylation for robust TCJ assembly, and raised the question of whether Aka and M6 proteins interact with each other, possibly in a palmitoylation-dependent manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M6 interacts with Aka and with itself</head><p>To test for potential interactions between Aka and M6 proteins, we carried out co-immunoprecipitation (co-IP) experiments using GFP-tagged M6 as a bait protein (Fig. <ref type="figure" target="#fig_5">5A</ref>). We found that GFP:: M6 specifically co-precipitated Aka from embryo extracts (Fig. <ref type="figure" target="#fig_5">5B</ref>), suggesting that Aka and M6 are part of a protein complex. This interaction was detected also in transfected S2R+ cells expressing UAS-Aka ( prey) and UAS-M6-GFP (bait) but no other known junction components, suggesting that Aka and M6 interact directly (Fig. <ref type="figure" target="#fig_5">5D,</ref><ref type="figure">G</ref>). We further noticed that GFP::M6 specifically also co-precipitated the untagged M6-B isoform expressed in embryos (Fig. <ref type="figure" target="#fig_5">5B</ref>, arrow). Likewise, M6-GFP coprecipitated 2×-hemagglutinin-tagged M6 (M6-2×HA) in extracts from transfected S2R+ cells (Fig. <ref type="figure" target="#fig_5">5E</ref>), indicating that M6, like vertebrate GPM6a <ref type="bibr" target="#b12">(Formoso et al., 2015)</ref>, interacts with itself.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M6 palmitoylation is required for M6-Aka interaction, but not for M6-M6 interaction</head><p>To test whether palmitoylation of M6 influences its binding to Aka or to itself, we performed co-IP experiments with extracts from GFP::M6 3xCS embryos (Fig. <ref type="figure" target="#fig_5">5C</ref>) or from M6 3xCS -GFP-transfected S2R+ cells (Fig. <ref type="figure" target="#fig_5">5D</ref>). Interestingly, the Aka-M6 interaction was strongly reduced or absent (a weakly co-precipitating band at 130 kDa is bound non-specifically by the anti-Aka antiserum), whereas the M6-M6 homotypic interaction was unaffected (Fig. <ref type="figure" target="#fig_5">5C</ref>, arrow), suggesting that M6 interacts with Aka in a palmitoylationdependent manner, but self-interacts in a palmitoylation-independent manner. Aiming to narrow down the M6-interacting site in Aka, we found that an Aka fragment comprising only the C-type-lectin domain (CLTD) and the TM domain (Aka-CTLD-2×HA) but lacking the remaining extracellular and cytosolic parts of Aka (Fig. <ref type="figure" target="#fig_5">5A</ref>), still co-precipitated with M6-GFP (Fig. <ref type="figure" target="#fig_5">5F</ref>). This suggests that Aka and M6 interact either via their TM domains or via the CTLD of Aka and implies that the palmitoylated cytosolic cysteine cluster in M6 is not the site of interaction with Aka. Instead, M6 palmitoylation appears to influence the interaction with Aka in an allosteric fashion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>How specialized junctional complexes with distinct adhesive and occluding properties are built at three-cell contacts remains a fundamental open question in epithelial biology (Bosveld et al., 2018; <ref type="bibr" target="#b17">Higashi and Chiba, 2020;</ref><ref type="bibr" target="#b18">Higashi and Miller, 2017)</ref>. Three TCJ-specific proteins, Aka, Gli and M6, are known in Drosophila, but how they interact to assemble TCJs was not known. Here, we report insights into the early steps of TCJ assembly, which depends on interactions between the transmembrane proteins Aka and M6. We show first that all M6 isoforms share the elements required for vertex localization. Second, we demonstrate that M6 is palmitoylated on a conserved cysteine cluster and that this modification is required for efficient initial localization of M6 to vertices, but not for subsequent TCJ growth and maintenance, indicating that different mechanisms control the early and late phases, respectively, of TCJ formation. Third, we show that Aka interacts with M6 in a palmitoylation-dependent manner, whereas M6 interacts with itself independently of palmitoylation, possibly forming homotypic clusters like the mammalian M6 homolog GPM6a.</p><p>These findings provide a molecular basis for the interdependent localization of Aka and M6 at TCJs, although it is not yet clear which physical or chemical features of vertices mediate localization of proteins to these sites. Aka engages in homotypic transinteractions that depend on its expression in three adjacent cells and on its large extracellular domain, but not on its cytoplasmic domain, for accumulating at vertices <ref type="bibr" target="#b9">(Byri et al., 2015)</ref>. This suggests that the specific geometry of vertices or the presence of three adjacent plasma membranes act to recruit or maintain Aka localization. M6 is required for vertex localization of Aka in a permissive fashion <ref type="bibr" target="#b45">(Wittek et al., 2020)</ref>. Our findings suggest possible mechanisms underlying this role. In one scenario, M6 might stabilize Aka in the plasma membrane by preventing its internalization. Supporting this idea is the finding that in the absence of M6 Aka was barely detectable at the plasma membrane but instead distributed throughout the cytoplasm <ref type="bibr" target="#b45">(Wittek et al., 2020)</ref>. Alternatively, association with M6 might concentrate Aka in a vertex-specific plasma membrane domain and thereby facilitate trans-interactions between Aka molecules on adjacent cells. This is reminiscent of the role of tetraspanins, which interact laterally among themselves and with other proteins to form large assemblies called tetraspanin-enriched microdomains (TEMs; <ref type="bibr" target="#b16">Hemler, 2003)</ref> or a tetraspanin web (Lagaudriere-Gesbert et al., 1997) that controls the clustering and activity of TM proteins, such as EGFR or integrins (reviewed in <ref type="bibr" target="#b42">van Deventer et al., 2017)</ref>.</p><p>We identified S-palmitoylation as a post-translational modification, which, although not essential for vertex localization of M6 or for TCJ formation, significantly enhances the efficiency and robustness of this process. Supporting this notion, palmitoylation of M6 becomes essential for TCJ formation and viability under conditions of reduced TCJ protein concentration. How could palmitoylation promote targeting of M6 to vertices? In many TM proteins, including claudins <ref type="bibr" target="#b43">(Van Itallie et al., 2005)</ref>, tetraspanins <ref type="bibr" target="#b46">(Yang et al., 2004)</ref> and mammalian GPM6a <ref type="bibr" target="#b22">(Honda et al., 2017)</ref>, palmitoylation of juxtamembrane cysteine residues mediates association with cholesterol-rich membrane domains <ref type="bibr" target="#b5">(Blaskovic et al., 2013)</ref>. Negative plasma membrane curvature at vertices might favor accumulation of cholesterol <ref type="bibr" target="#b47">(Yesylevskyy et al., 2017)</ref> and could thereby attract palmitoylated proteins. Consistent with this idea, methyl-β-cyclodextrin-induced depletion of cholesterol from the plasma membrane impaired the vertex localization of palmitoylated angulin-1 in cultured mammalian cells <ref type="bibr" target="#b31">(Oda et al., 2020)</ref>, although direct evidence for elevated cholesterol levels at cell vertices is lacking thus far.</p><p>Lack of M6 palmitoylation reduces, although it does not completely abolish, its interaction with Aka, resulting in delayed accumulation of M6 and Aka at vertices. How could palmitoylation affect the interaction of M6 with Aka? Structural predictions using AlphaFold <ref type="bibr" target="#b25">(Jumper et al., 2021)</ref> and PPM3 (Predicting Protein position in Membranes; <ref type="bibr" target="#b28">Lomize et al., 2022)</ref> suggest that M6 protein adopts a tilted orientation in the membrane (Fig. <ref type="figure" target="#fig_5">S5</ref>). Palmitoylation of the juxtamembrane cysteine cluster could stabilize the tilt and help to resolve a potential hydrophobic mismatch resulting from the different lengths of the four TMDs, thereby promoting a confirmation of M6 that is favorable for interaction with Aka. Palmitoylation of LRP6 has been proposed to act in this way by resolving a hydrophobic mismatch that otherwise causes the protein to be retained in the ER <ref type="bibr" target="#b0">(Abrami et al., 2008)</ref>. Similarly, tetraspanins (e.g. CD151), require palmitoylation for interaction with other TM proteins <ref type="bibr" target="#b48">(Zevian et al., 2011)</ref>.</p><p>Intriguingly, eliminating palmitoylation of M6 revealed a distinct requirement of this modification for efficient initial accumulation of M6 at vertex tips, whereas the subsequent extension of these clusters along the apical-basal vertex axis apparently relies on a different mechanism. This might include homotypic M6-M6 interactions, which we found to be independent of M6 palmitoylation and which might aid in organizing an M6-enriched plasma membrane domain, reminiscent of TEMs <ref type="bibr" target="#b16">(Hemler, 2003)</ref>. Interestingly, in mammalian cells, palmitoylation of juxtamembrane cysteine residues has been proposed to play an analogous role in targeting angulin-1 to cholesterol-enriched membrane domains at vertices, where angulin-1 recruits tricellulin <ref type="bibr" target="#b31">(Oda et al., 2020)</ref>. However, angulin-1 vertex localization appears to be dispensable for maintaining tricellulin localization after its initial recruitment to TCJs <ref type="bibr" target="#b31">(Oda et al., 2020)</ref>, suggesting that tricellulin is maintained at vertices through association with other factors, for example, with claudin-based TJ strands <ref type="bibr" target="#b24">(Ikenouchi et al., 2008)</ref>. Analogously, in Drosophila, M6 palmitoylation is required early during TCJ formation for efficient targeting of M6 and Aka to vertices, whereas Aka is subsequently stabilized at TCJs through interaction with components of SJ limiting strands, including Gli (Esmangart de Bournonville and Le Borgne, 2020). Thus, although TCJs of vertebrates and invertebrates comprise different sets of proteins, our findings suggest that in both cases juxtamembrane palmitoylation contributes to targeting TM proteins to cell vertices during TCJ assembly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drosophila husbandry</head><p>Drosophila was maintained on cornmeal-agar medium with added dry yeast. Embryos were collected on apple juice agar plates at 22°C or 25°C. The sex of embryos was not assessed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drosophila strains and genetics</head><p>Drosophila stocks are described in FlyBase <ref type="bibr" target="#b40">(Thurmond et al., 2019)</ref>, unless noted otherwise: aka L200 <ref type="bibr" target="#b9">(Byri et al., 2015)</ref>, M6 CA06602 <ref type="bibr" target="#b8">(Buszczak et al., 2007)</ref>, M6 MB02608 <ref type="bibr" target="#b3">(Bellen et al., 2011)</ref>, aka::GFP, UAS-M6, UAS-M6-GFP <ref type="bibr" target="#b45">(Wittek et al., 2020)</ref>, UAS-Nrg 167 -GFP <ref type="bibr" target="#b9">(Byri et al., 2015)</ref>, UAS-GFP, UAS-palm-YFP, UAS-mCherry-nls, 69B-Gal4, btl-Gal4, en-Gal4, Df(3L)BSC419, CyO Dfd-GMR-nvYFP, TM6b Dfd-GMR-nvYFP <ref type="bibr" target="#b27">(Le et al., 2006)</ref>, TM2 Delta2-3, nos-Cas9.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genome editing</head><p>A CRISPR-Cas9-based strategy was used to mutate the three clustered cysteine residues to serine residues in the M6 locus of the GFP::M6 CA06602 line to yield GFP::M6 3xCS . The sgRNA sequence 5′-GAATACGCGC-CATGCAGGAT-3′ was cloned in the pCFD3 vector <ref type="bibr" target="#b33">(Port et al., 2014)</ref>. The resulting sgRNA plasmid (300 ng/µl) along with the ssDNA repair template (5′-ATTGCATTCAAAAGTTTATTGATATTATTTTTCCTAAAAATGT-TTTTAGGAGAATcCTcgCAATCCTcCATGGCGCGTATTCCCTACGC-CACCCTGATAGCCACTCTGATGTGTCTCCTG-3′; mutations underlined, 100 ng/µl, Eurofins Genomics) was injected into nos-Cas9;; GFP:: M6 CA06602 embryos. Individual F 2 males were screened for successful conversion by amplifying from genomic DNA of single adult flies a 795 bp Immunoblots of input (IN; 5% of lysate), depleted input (labeled D, 5% of lysate), washes (W), and immunoprecipitation (IP) fractions were probed with antibodies indicated to the right. α-tubulin (αTub) was used as a loading control. Sizes (kDa) of a molecular mass marker are indicated to the left. A band at ∼130 kDa (marked by an asterisk) is non-specifically bound by the anti-Aka antiserum. At least three independent repeats were performed for each IP experiment shown. (B) IP with anti-GFP antibodies to immunoprecipitate GFP::M6. Note that GFP::M6 co-precipitates Aka and the non-GFP-tagged M6-B isoform (arrow) from lysates of embryos expressing GFP::M6 but not from negative control ( y w) embryos. (C) IP of wild-type GFP::M6 (left) or palmitoylation-deficient GFP::M6 3xCS (right). Note that co-precipitation of Aka is strongly reduced with GFP::M6 3xCS compared to GFP::M6, whereas co-precipitation of M6-B (black arrow) is unchanged, indicating that the Aka-M6 interaction is palmitoylation dependent, whereas M6-M6 interactions are palmitoylation independent. (D) IP experiment with S2R+ cells co-transfected either with M6-GFP (bait) and Aka ( prey; left) or with Aka alone (control; right). Note that M6-GFP specifically co-precipitates Aka. (E) IP experiment with S2R+ cells co-transfected either with M6-D-GFP (bait) and M6-D-2×HA ( prey; left) or with M6-D-2×HA alone (control; right). Note that M6-D-GFP specifically co-precipitates M6-D-2XHA, indicating that M6 self-interacts. (F) A short fragment of Aka (scheme in A) comprising the extracellular C-type lectin-like domain (CTLD), the TM domain and a cytosolic 2×HA tag was co-transfected with UAS-M6-GFP into S2R+ cells. M6 specifically co-precipitates the short Aka fragment. (G) Each M6 isoform (isoforms B, C, D, E and F) was tagged with GFP (bait) and was individually co-transfected with Aka ( prey) into S2R+ cells. Note that all M6 isoforms co-precipitate Aka.</p><p>fragment using a forward primer (5′-GAGAATcCTcgCAATCCTcCAT-3′) that is specific to the mutated sequence and a reverse primer (5′-GCTCCTGGAACTTTTCGTGG-3′). Positive candidates were analyzed by sequencing the target region. One line containing all four mutations was kept. In this line, the w + -marked GFP-trap P-element (P{PTT-GA}; <ref type="bibr" target="#b8">Buszczak et al., 2007)</ref> was excised by P-element transposase to generate non-GFP-tagged M6 3xCS .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular biology</head><p>Coding sequences for each annotated M6 isoform (FlyBase) were synthesized (GenScript) with a 5′ EcoRI site and 3′ (GGS) 5 linker followed by a NotI site. M6 isoforms were fused either with the GFP coding sequence (flanked by 5′ NotI and 3′ XbaI sites) or with a 2×HA tag sequence (flanked by 5′ NotI and 3′ XbaI sites) and subcloned into EcoRI/ XbaI digested pUASt-attB vector <ref type="bibr" target="#b4">(Bischof et al., 2007)</ref>, such that each M6 isoform was tagged C-terminally either with GFP or with 2XHA.</p><p>Point mutations to change cysteine residues to serine residues were inserted into the pUASt-attB-M6-GFP plasmid <ref type="bibr" target="#b45">(Wittek et al., 2020)</ref> using site-directed mutagenesis. The plasmid was amplified using mutationbearing oligonucleotides (forward primer: 5′-GAGAATcCTcCCAA-TCCTcCATGGCGC-3′; complementary reverse primer). Bacterial template DNA was digested with DpnI.</p><p>All UAS constructs were inserted into the attP2 genomic landing sites using PhiC31-mediated site-specific integration <ref type="bibr" target="#b4">(Bischof et al., 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture</head><p>Drosophila S2R+ cells (Drosophila Genomics Resource Center) were cultured in Shields and Sang M3 medium (Biomol) supplemented with 1× penicillin-streptomycin (from 100× stock; Thermo Fisher Scientific) and 10% fetal calf serum (Thermo Fisher Scientific). 10 6 cells were seeded per well in 24-well plates (Sarstedt) at 1 day before transfection. Cells were transfected with pCaSpeR4-Act5c-GAL4 plasmid <ref type="bibr">(Byri et al., 2015, 600 ng)</ref> and pUASt-based expression plasmid (1000 ng) using FugeneHD reagent (Promega). Transfected cells were cultured at 25°C and processed within 1 to 3 days.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunostaining</head><p>Embryos were dechorionated in sodium hypochlorite, washed, and fixed in 4% formaldehyde in PBS/heptane for 20 min at room temperature and then devitellinized by shaking in methanol/heptane. The following primary antibodies were used: guinea pig anti-M6 serum #1 (1:3000; <ref type="bibr" target="#b45">Wittek et al., 2020)</ref>, guinea pig anti-M6 serum #2 (1:3000; see below), rabbit anti-Aka (1:250; <ref type="bibr" target="#b9">Byri et al., 2015)</ref> and mouse anti-Gli IF6.3 (1:500; <ref type="bibr" target="#b36">Schulte et al., 2003)</ref>. Goat secondary antibodies were conjugated to Alexa Fluor 488, Alexa Fluor 568 or Alexa Fluor 647 (1:500; Thermo Fisher Scientific). GFP signal was enhanced with FluoTag-X4 anti-GFP antibody (1:500; NanoTag).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antisera</head><p>The anti-M6 antiserum #2 was generated by immunizing guinea pigs (Eurogentec) with the peptides GKGNNRDRIRDPRE and RRNSYRSDHSLDRYT (corresponding to amino acids 57-71 and 102-116 in M6 isoform F) conjugated to keyhole limpet hemocyanin. Final serum was used at a dilution of 1:3000 for immunostainings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acyl-biotin-exchange assay</head><p>The acyl-biotin-exchange (ABE) assay was adapted from <ref type="bibr" target="#b44">(Wan et al., 2007)</ref>. Approximately 200 embryos [16-20 hours after egg laying (hAEL)] were collected, dechorionated and homogenized using a 7.5 ml Dounce homogenizer in 1.2 ml lysis buffer containing 1.7% Triton X-100, 10 mM N-ethylmaleimide (NEM) and 1× protease inhibitor (Thermo Fisher Scientific). GFP-tagged M6 was purified using 20 µl GFP-Trap magnetic agarose (Chromotek). For other proteins, lysates were further processed without an intermediate purification step. Further steps including hydroxylamine (HA) treatment and biotinylation were carried out as described previously <ref type="bibr" target="#b44">(Wan et al., 2007)</ref>. Biotinylated proteins were purified using 10 µl streptavidin-coupled magnetic beads (Thermo Fisher Scientific) and eluted in 40 µl 1× Laemmli buffer at 70°C for 10 min. Samples were applied to SDS-PAGE followed by western blotting and staining for detection of palmitoylated proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Co-immunoprecipitation</head><p>Co-immunoprecipitation experiments were performed with extracts from embryos or from transfected S2R+ cells. Approximately 500 embryos (14 to 18 hAEL) were dechorionated and homogenized using a 7.5 ml Dounce homogenizer in 600 µl lysis buffer (1% Brij-97, 0.1% Tween-20, 10 mM Tris-HCl, 150 mM NaCl, 1 mM MgCl 2 , 1 mM CaCl 2 , 1× protease inhibitor; pH 7.4) on ice. S2R+ cells were lysed in 200 µl lysis buffer and otherwise treated like embryo extracts. Lysates were incubated at 4°C with end-overend rotation for 30 min followed by centrifugation (2000 g, 5 min, 4°C). Supernatants were incubated for 30 min with 20 µl GFP-Trap magnetic beads (Chromotek gtd-20) at 4°C with end-over-end rotation. Beads were washed three times with 200 µl lysis buffer. During the last washing step, beads were transferred to a new vial and NaCl concentration was raised to 300 mM. Proteins were eluted in 60 µl 1× Laemmli buffer by incubating for 10 min at 70°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoblotting</head><p>Samples were mixed 3:1 with 4× Laemmli buffer and incubated at 70°C for 10 min. 14 µl were loaded on 4%-20% Mini-PROTEAN TGX gels (Bio-Rad) and blotted on 0.45 µm PVDF membranes (Amersham). The following primary antibodies were used: mouse anti-GFP JL-8 (1:1000; TaKaRa), mouse anti-Tubulin AA4.3-c (1:5000; DSHB), rabbit anti-Aka (1:1000; <ref type="bibr" target="#b9">Byri et al., 2015)</ref> and guinea pig anti-M6 serum #1 (1:2500; <ref type="bibr" target="#b45">Wittek et al., 2020)</ref>. Primary antibodies were detected with HRP-conjugated secondary antibodies (1:10000; Thermo Fisher) and ECL Prime kit (Amersham). Raw images were adjusted for brightness and contrast using ImageJ <ref type="bibr" target="#b35">(Schindelin et al., 2012)</ref>. Uncropped images of immunoblots are shown in the Fig. <ref type="figure">S6</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microscopy</head><p>Imaging was performed on a Leica SP8 confocal microscope with a 40×/ 1.3 NA oil immersion objective. For live imaging, dechorionated embryos were staged according to gut morphology, mounted on glue-coated coverslips (0.17 mm, grade #1.5), and covered with Voltalef 10S oil (VWR).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Image analysis</head><p>Images were processed using either FIJI software <ref type="bibr" target="#b35">(Schindelin et al., 2012)</ref> or Python 3.9 with the Scikit-Image package v0. <ref type="bibr">18.2 (van der Walt et al., 2014)</ref>. Image panels in figures were assembled using OMERO.figure v4.4.1 <ref type="bibr" target="#b2">(Allan et al., 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantification of vertex enrichment</head><p>Enrichment of fluorescently tagged proteins at cell vertices was determined as follows. Embryos (stage 15) were aligned laterally and mounted as described above. Z-stacks (15 slices with 768×768px each) through epidermal cells were acquired at 100 Hz. In each stack, several cells were analyzed using a semiautomatic pipeline. Vertices were marked manually in the slice with highest vertex intensity and segmented by selecting a circular area of 5 px diameter around the marked point. Using the marked vertices as starting points the bicellular membrane was then segmented automatically using a self-written Python script (available upon request). For each cell, the mean intensity at vertices (I TCJ ), the bicellular membrane (I BCJ ), and in the cytoplasm (I BG ) was measured (see Fig. <ref type="figure" target="#fig_0">1C</ref>). Enrichment was calculated as:</p><formula xml:id="formula_0">Enrichment ¼ I TCJ À I BG I BCJ À I BG</formula><p>Per embryo, three to eight cells were selected and the mean for each embryo was calculated. Only vertices bordered by three cells but not four or more cells were considered. Sample size (n) indicated in the figures states the number of analyzed embryos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantification of M6-GFP signal intensities</head><p>To compare expression levels (GFP signal intensities) of UAS-M6-GFP constructs, image stacks of the lateral epidermis in stage 15 embryos were acquired. For each slice of the stack, a mask for the plasma membrane was created by applying first a median filter (1 px radius) and second a Gaussian filter (s.d.=1 px) before local thresholding was done using Niblacks algorithm with a windows size of 51 pixels. The binary image was further processed by applying binary erosion (1 px radius). The final stack of binary mask images was used to measure the mean intensity of the corresponding region in the original image. The relationship between signal intensity and enrichment factor was analyzed using a linear regression modelling the enrichment factor as a function of signal intensities. The dataset for the palmitoylation-deficient M6 3xCS -GFP was not included in this model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantification of TCJ initiation and junction growth</head><p>Staged embryos were mounted dorso-laterally. The thorax region of embryos was imaged using a 40×/1.3 NA oil immersion objective and 2.5× zoom, 200 lines/s speed, 1528×1528 px resolution, 18 slices with a step-size of 0.5 µm, at 5 min intervals. Movies were processed frame by frame by applying a Gaussian filter (s.d. 1.5) followed by a white top-hat transform with a circular kernel of 9 px diameter. Movies were afterwards binarized using Otsu's threshold based on the stack at the last timepoint. Objects smaller than 10 px were filtered out. Afterwards, we counted the number of objects at each timepoint and normalized the count to the highest number of objects found at any timepoint yielding the relative vertex count. All movies were aligned temporally such that the first timepoint with a relative vertex count of at least 0.05 was set to 30 min. This data was used to fit a logistic regression model using the nls and SSlogis function of the R statistical software package (v4.1; https://www.r-project.org/). A 95% confidence interval was calculated for the xmid parameter, which represents the timepoint with a relative vertex count of 0.5. While an overlap of the intervals does not allow statements about statistical significance, a nonoverlap indicates statistically significant differences in accumulation time to a test-niveau of α=0.05. Extension of GFP signals along the apico-basal vertex axis was analyzed at manually selected vertices that were oriented mostly parallel to the xy-plane and grew throughout the entire observation phase. TCJ length was measured in 3D shortly after initial accumulation and 30 min later by manually tracing GFP::M6 signal through z-stacks. TCJ growth rate was calculated by dividing the measured length increase by the observation time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fluorescence recovery after photobleaching</head><p>Stage 15 embryos were selected according to gut morphology and were mounted dorsally. Movies were acquired using a 40×/1.3 NA oil immersion objective using the FRAP wizard of the LAS X software (Leica) with a speed of 400 lines/s and 2× line accumulation. For each embryo, three prebleach stacks (each with four z-slices) were acquired followed by three successive bleach rounds at 100% laser intensity, followed by 41 postbleach stacks. The interval between pre-and post-bleach stacks was 30 s. Z-shift was corrected manually during acquisition. Given that the FRAP data of vertices is not suitable for classical FRAP analysis, we used a simplified approach to model the recovery. For each timepoint t we generated average intensity projections of slices 2-4. The vertex of interest was selected manually in each frame. We measured the intensities using circular regions of interest with a radius of 5 pixels. The FRAP values were calculated as follows. Let be I t , t∈{-3,-2, …, 40}, the raw intensities at timepoint t (bleached between t=-1 and t=0). Let be I 0.95,t the 95% intensity quantile of the frame (to account for bleaching during acquisition) and b t the background intensity at timepoint t. Then the corrected intensities C t were calculated as: C t ¼ I t À b t I 0:95;t À b t À I 0 À b 0 I 0:95;0 À b 0 :</p><p>The normalized intensities N t were calculated as:</p><formula xml:id="formula_1">N t ¼ C t C t,0 with C t,0 ¼ 1 3 X À1 t¼À3 C t :</formula><p>The graphs show the mean values of N t ±SD t . The recovery function f A,τ is defined as:</p><p>f A;t ðtÞ ¼ Að1 À e Àtt Þ:</p><p>Here, A represents the mobile fraction and τ defines the fluorescence recovery rate. A and τ were fitted numerically with a non-linear least square approach using the nls function of the R statistical software package (v4.1). The mobile fraction was directly inferred from A. The half-recovery time was calculated as t1 2 ¼ À lnð0:5Þ t .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistics</head><p>For phenotypic analyses, sample size (n) was not predetermined using statistical methods, but was assessed by considering the variability of a given phenotype, determined by the standard deviation. Experiments were considered independent if the specimens analyzed were derived from different parental crosses. During experiments investigators were aware of allocation groups. Sample groups were checked for normality using the Shapiro-Wilk test and for equal variances using an F test. In case of normality and equal variances a pairwise two-or one-tailed t-test was applied. In case of unequal variances, a t-test using pooled standard deviations was used (Welch test). If data was not normally distributed, a Wilcoxon rank-sum test was applied. If samples were used for several tests, a P-value correction according to Holm <ref type="bibr" target="#b21">(Holm, 1979)</ref> was applied to correct for multiple testing.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. All M6 protein isoforms localize to cell vertices. (A) M6 genomic locus (top) and transcripts encoding isoforms B-G (FlyBase). Exons shared by all isoforms are marked in black, isoform-specific exons are colored. Green triangle marks the M6::GFP (CA06602) protein trap insertion site. (B) Topology of M6 protein (isoform F). M6 isoforms comprise four TM domains, extra-and intra-cellular loops, and a variable N-terminus. Coloring corresponds to exons as in A. Palmitoylated cysteine residues are marked in red. (C) Analysis of vertex enrichment of M6-GFP fusion proteins. Example of a raw (left) and segmented (right) image of M6-GFP in an epidermal cell is shown. Vertex enrichment is calculated as the ratio of background-subtracted signals at TCJs and BCJs. (D-K) Distribution of Nrg::GFP (control; D), endogenous GFP::M6 (E) and UAS-M6-GFP (F-K) constructs expressed under control of 69B-Gal4 in epidermis of living embryos (stage 15). M6-E and M6-F (J,K) show low signals and corresponding images were acquired with higher gain. (L) Quantification of vertex enrichment of Nrg-GFP (control), endogenous GFP::M6 and M6-GFP isoforms. Note that vertex enrichment of all M6 isoforms is significantly higher than that of Nrg-GFP. ***P≤0.001; *P≤0.05 ( pairwise Wilcoxon rank-sum test with Holm correction). Each datapoint represents the mean of one embryo. Number of embryos (n) analyzed is indicated. Box plots show maximum and minimum observations within 1.5× interquartile range from the first and third quartile boundaries, upper and lower quartile, median (horizontal line) and mean (black dot). Scale bars: 2.5 µm (C); 5 µm (D-K).</figDesc><graphic coords="3,49.78,58.56,512.39,314.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig.2. M6 is palmitoylated on a conserved cluster of juxtamembrane cysteine residues. (A) Principle of acyl-biotin-exchange (ABE) assay for detecting S-palmitoylation of proteins. Cell or embryo lysates are treated with N-ethylmaleimide (NEM) to mask free thiols, followed by hydroxylamine (HA) treatment to cleave off thioester-linked palmitate, thiol-specific biotinylation and purification of biotinylated proteins using streptavidin-coupled magnetic beads. (B) Lysates of embryos expressing palmitoylated YFP ( palm-YFP) or unmodified GFP were subjected to the ABE assay. Eluate (E) and supernatant (SN) fractions after streptavidin purification were analyzed by immunoblotting and probed with anti-GFP antibodies. Presence or absence (control) of hydroxylamine (HA) treatment is indicated. Note that S-palmitoylation is detectable on palm-YFP, but not on unmodified GFP. (C) ABE assay to test for S-palmitoylation of the TCJ proteins Aka, Gli (Gli::YFP) and M6 (GFP::M6) in lysates of embryos (14 to 18 hAEL). Note that M6 (two bands corresponding to isoforms M6-B, M6-C and M6-D), but not Aka or Gli, is S-palmitoylated. (D) Multiple sequence alignment of N-terminus of Drosophila melanogaster M6 (isoform D) and M6 homologs from indicated species. Note conserved cluster of three cysteine residues (red arrows) in the juxtamembrane region shared by all D. melanogaster M6 isoforms. (E) CRISPR/Cas9-based genome editing approach to mutate the three clustered cysteine residues to serine residues (red) to generate palmitoylation-deficient M6 mutant (M6 3xCS ). Position of guide RNA (underlined), PAM and cut site (arrowhead) are indicated. (F) UAS-M6-GFP or UAS-M6 3xCS -GFP were expressed in S2R+ cells and tested for palmitoylation. Note that M6 3xCS did not exhibit detectable palmitoylation. Two independent repeats were carried out for each ABE experiment shown in B, C and F.</figDesc><graphic coords="4,49.44,58.56,513.07,351.33" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Palmitoylation promotes but is not essential for vertex localization of M6. (A-H) En face views of epidermis in living embryos (stage 15) overexpressing wild-type M6-GFP or palmitoylation-deficient M6 3xCS -GFP under control of 69B-Gal4 (A,B), or expressing endogenous wild-type GFP::M6 (C,E), GFP::M6 3xCS (D,F), or Aka::GFP (G, H). (A,B) When overexpressed in epidermis under control of 69B-Gal4, M6-GFP (A) shows stronger enrichment at vertices compared to M6 3xCS -GFP (B). (C,D) In heterozygous embryos carrying one wild-type copy of untagged M6, endogenous GFP::M6 (C) shows stronger enrichment at vertices compared to GFP::M6 3xCS (D). (E,F) In homozygous embryos lacking untagged M6, endogenous GFP::M6 and GFP::M6 3xCS show indistinguishable enrichment at vertices. (G,H) Vertex enrichment of Aka::GFP in control embryos (G) is indistinguishable from that in M6 3xCS homozygous embryos (H). (I-L) Quantification of vertex enrichment of GFP signals in the indicated genotypes. Each datapoint represents the mean of 3 to 8 vertices in one embryo. Number of embryos (n) and P-values are indicated. Two-tailed unpaired Student's t-test (J,K) or two-tailed unpaired Wilcoxon ranksum test (I,L). (M,N) En face view of lateral epidermis in M6-deficient (M6 MB02608 /Df(3L)BSC419) embryos (stage 15) expressing UAS-M6-GFP (M) or UAS-M6 3xCS -GFP (N) in epidermal stripes under control of en-Gal4. Embryos were fixed and immunostained against Aka, M6 and Gli. Note that palmitoylationdeficient M6 3xCS rescues TCJ localization of Gli and partially rescues Aka localization in en-Gal4-expressing cells. (O,P) En face view of lateral epidermis in fixed embryos (stage 15) heterozygous (M6 3xCS /+; O) or homozygous (M6 3xCS /M6 3xCS ; P) for M6 3xCS . Embryos were immunostained against Aka, M6 and Gli. Note that TCJ localization of Gli is normal and Aka localization is only mildly affected in M6 3xCS homozygotes (P). Three independent repeats were carried out for each rescue experiment shown in M-P. Box plots show maximum and minimum observations within 1.5× interquartile range from the first and third quartile boundaries, upper and lower quartile, median (horizontal line) and mean (black dot). Scale bars: 5 µm (A,C,E,G); 10 µm (M-P).</figDesc><graphic coords="5,49.78,58.56,512.39,313.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Lack of M6 palmitoylation leads to delayed vertex accumulation of M6 but does not affect the rate of extension along vertices. (A,B) En face view of dorso-lateral epidermis in living embryos (stage 13) homozygous for either GFP::M6 (A) or GFP::M6 3xCS (B). White arrows denote first appearance of GFP::M6 accumulation at vertices. Maximum intensity projections are shown. See also Movie 2. (A′,B′) Close-up showing extension of GFP::M6 (A′) or GFP::M6 3xCS (B′) signals along vertices. Time is indicated. Rate of extension is quantified in D. (C) Quantification of vertex accumulation of GFP::M6 (blue) and GFP::M6 3xCS (red). The number of GFP-positive vertices was determined at each timepoint and normalized to the maximum number of GFP-positive vertices at the end of each movie. Note that GFP::M6 accumulated at most vertices throughout the epidermis within 100 min, whereas vertex accumulation of GFP::M6 3xCS was delayed. Dashed lines indicate fitted logistic model. 95% confidence intervals (CI; upper and lower limit) for time of half-maximal accumulation are indicated. A non-overlap indicates a statistical difference with P&lt;0.05 (*). n=3 embryos per genotype. a.u., arbitrary units. (D) Quantification of extension rate of GFP::M6 (blue) and GFP::M6 3xCS (red) along vertices. Note that GFP::M6 and GFP::M6 3xCS extend with similar rates. n=15 vertices from 3 embryos per genotype. P-value is indicated (one-tailed t-test). (E-G) En face view of living embryos (stage 14). GFP::M6 occupies all vertices by stage 14 in wild-type (E) and aka L200 heterozygotes (F), whereas GFP::M6 3xCS accumulates only at a small number of vertices at stage 14 in aka L200 /+ heterozygotes (G). Note that many vertices fail to accumulate (red arrows) GFP::M6 3xCS even in late (stage 17) embryos. Box plots show maximum and minimum observations within 1.5× interquartile range from the first and third quartile boundaries, upper and lower quartile, median (horizontal line) and mean (black dot). Scale bars: 50 µm (A, B, E-G); 2 µm (A′,B′).</figDesc><graphic coords="6,50.06,58.56,511.88,410.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. See next page for legend.</figDesc><graphic coords="7,49.78,58.56,512.39,556.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. M6 interacts with Aka and with itself. (A) Schemes of proteins used as bait or prey in co-immunoprecipitation (co-IP) experiments. The extracellular portion of Aka comprises an N-terminal signal peptide (SP), scavenger receptor-cysteine-rich (SRCR) domains, complement C1r/C1s, UEGF, BMP1 (CUB) domains, right-handed parallel β-helices (PβH), and a C-type lectin-like domain (CTLD). Black bars indicate transmembrane domains. (B-G) IP experiments with lysates from embryos (B,C) or transfected S2R+ cells (D-G) expressing the indicated bait proteins.Immunoblots of input (IN; 5% of lysate), depleted input (labeled D, 5% of lysate), washes (W), and immunoprecipitation (IP) fractions were probed with antibodies indicated to the right. α-tubulin (αTub) was used as a loading control. Sizes (kDa) of a molecular mass marker are indicated to the left. A band at ∼130 kDa (marked by an asterisk) is non-specifically bound by the anti-Aka antiserum. At least three independent repeats were performed for each IP experiment shown. (B) IP with anti-GFP antibodies to immunoprecipitate GFP::M6. Note that GFP::M6 co-precipitates Aka and the non-GFP-tagged M6-B isoform (arrow) from lysates of embryos expressing GFP::M6 but not from negative control ( y w) embryos. (C) IP of wild-type GFP::M6 (left) or palmitoylation-deficient GFP::M6 3xCS (right). Note that co-precipitation of Aka is strongly reduced with GFP::M6 3xCS compared to GFP::M6, whereas co-precipitation of M6-B (black arrow) is unchanged, indicating that the Aka-M6 interaction is palmitoylation dependent, whereas M6-M6 interactions are palmitoylation independent. (D) IP experiment with S2R+ cells co-transfected either with M6-GFP (bait) and Aka ( prey; left) or with Aka alone (control; right). Note that M6-GFP specifically co-precipitates Aka. (E) IP experiment with S2R+ cells co-transfected either with M6-D-GFP (bait) and M6-D-2×HA ( prey; left) or with M6-D-2×HA alone (control; right). Note that M6-D-GFP specifically co-precipitates M6-D-2XHA, indicating that M6 self-interacts. (F) A short fragment of Aka (scheme in A) comprising the extracellular C-type lectin-like domain (CTLD), the TM domain and a cytosolic 2×HA tag was co-transfected with UAS-M6-GFP into S2R+ cells. M6 specifically co-precipitates the short Aka fragment. (G) Each M6 isoform (isoforms B, C, D, E and F) was tagged with GFP (bait) and was individually co-transfected with Aka ( prey) into S2R+ cells. Note that all M6 isoforms co-precipitate Aka.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Wilko Backer</rs> for expert technical help and <rs type="person">Vanessa Auld</rs>, <rs type="person">Manuel Hollmann</rs>, <rs type="person">Anne Uv</rs>, and <rs type="person">Tian Xu</rs> for providing antibodies and fly stocks. We acknowledge service by the <rs type="funder">Münster Imaging Network</rs>, the <rs type="funder">Developmental Studies Hybridoma Bank</rs> (created by the <rs type="funder">NICHD</rs> of the <rs type="funder">NIH</rs> and maintained at the <rs type="affiliation">University of Iowa</rs>), and by the <rs type="funder">Bloomington Drosophila Stock Center</rs> (<rs type="grantNumber">NIH P40OD018537</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>Work in the laboratory of S.L.s was supported by the <rs type="funder">Deutsche Forschungsgemeinschaft</rs> (<rs type="grantNumber">SFB 1348</rs> '<rs type="projectName">Dynamic Cellular Interfaces'; SFB 1009 'Breaking Barriers</rs>'), the '<rs type="projectName">Cells-in-Motion' Cluster of Excellence (EXC 1003-CiM</rs>), and the <rs type="funder">University of Münster. Open Access</rs> funding provided by <rs type="funder">University of Münster</rs>. Deposited in PMC for immediate release.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_k7H7Gx2">
+					<idno type="grant-number">NIH P40OD018537</idno>
+				</org>
+				<org type="funded-project" xml:id="_4Zftdbv">
+					<idno type="grant-number">SFB 1348</idno>
+					<orgName type="project" subtype="full">Dynamic Cellular Interfaces&apos;; SFB 1009 &apos;Breaking Barriers</orgName>
+				</org>
+				<org type="funded-project" xml:id="_jsaRu6y">
+					<orgName type="project" subtype="full">Cells-in-Motion&apos; Cluster of Excellence (EXC 1003-CiM</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All relevant data can be found within the article and its supplementary information. Fly stocks, reagents and custom Python scripts described in this study are available upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peer review history</head><p>The peer review history is available online at https://journals.biologists.com/jcs/ lookup/doi/10.1242/jcs.261916.reviewer-comments.pdf</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing or financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Palmitoylation and ubiquitination regulate exit of the Wnt signaling protein LRP6 from the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Iacovache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Van Der Goot</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0710389105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="5384" to="5389" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Membrane shape modulates transmembrane protein distribution</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aimon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Callan-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berthaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pinot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E S</forename><surname>Toombes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bassereau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2013.12.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="212" to="218" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">OMERO: flexible, model-driven data management for experimental biology</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Allan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Burel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Blackburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Linkert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Loynton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patterson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1896</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="245" to="253" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Drosophila gene disruption project: progress using transposons with distinctive site specificities</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bellen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Levis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Evans-Holm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Metaxakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Savakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Schulze</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.111.126995</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="731" to="743" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">An optimized transgenesis system for Drosophila using germ-line-specific C31 integrases</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bischof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hediger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Basler</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0611511104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="3312" to="3317" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">What does S-palmitoylation do to membrane proteins?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blaskovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Goot</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Der</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/febs.12263</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="2766" to="2774" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Tricellular junctions: a hot corner of epithelial biology</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bosveld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bellaïche</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ceb.2018.05.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="80" to="88" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Neutrophil transendothelial migration is independent of tight junctions and occurs preferentially at tricellular corners</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Thurmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Bowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Keese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Entman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.4049/jimmunol.159.6.2893</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="2893" to="2903" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buszczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paterno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lighthouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bachman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Planck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Skora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Nystul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ohlstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.106.065961</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The Carnegie Protein Trap Library: A Versatile Tool for Drosophila Developmental Studies</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="1505" to="1531" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The triple-repeat protein Anakonda controls epithelial tricellular junction formation in Drosophila</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Byri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Syed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bätz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boril</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Glashauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aegerter-Wilmsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matzat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Moussian</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2015.03.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="535" to="548" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The physiology of protein S-acylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00032.2014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="341" to="376" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Interplay between Anakonda, Gliotactin, and M6 for tricellular junction assembly and anchoring of septate junctions in Drosophila epithelium</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Esmangart De Bournonville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Le Borgne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2020.07.090</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="4245" to="4253" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Filopodia formation driven by membrane glycoprotein M6a depends on the interaction of its transmembrane domains</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Formoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Garcıá</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scorticati</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jnc.13153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="499" to="512" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">In vivo role of lipid adducts on Wingless</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Franch-Marro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wendler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Griffith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Maurice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Vincent</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.015958</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="1587" to="1592" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Septate junctions in imaginal disks of Drosophila: a model for the redistribution of septa during cell rearrangement</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Fristrom</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.94.1.77</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="77" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The specialization of septate junctions in regions of tricellular junctions: I. Smooth septate junctions (=Continuous junctions)</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Graf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Noirot-Timotheé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Noirot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0022-5320(82)80019-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ultrastruct. Res</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="80019" to="80020" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Tetraspanin proteins mediate cellular penetration, invasion, and fusion events and define a novel type of membrane microdomain</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hemler</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.cellbio.19.111301.153609</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="397" to="422" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Molecular organization, regulation and function of tricellular junctions</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chiba</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2019.183143</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta BBA Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1862</biblScope>
+			<biblScope unit="page">183143</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Tricellular junctions: how to build junctions at the TRICkiest points of epithelial cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.e16-10-0697</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2023" to="2034" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Analysis of the &apos;angulin&apos; proteins LSR, ILDR1 and ILDR2 -Tricellulin recruitment, epithelial barrier function and implication in deafness pathogenesis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tokuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitajiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furuse</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.138271</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="966" to="977" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Bark beetle controls epithelial morphogenesis by septate junction maturation in Drosophila</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hildebrandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pflanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Behr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tarp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Riedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schuh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ydbio.2015.02.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">400</biblScope>
+			<biblScope unit="page" from="237" to="247" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A simple sequentially rejective multiple test procedure</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand. J. Stat</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="65" to="70" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Extracellular Signals Induce Glycoprotein M6a Clustering of Lipid Rafts and Associated Signaling Molecules</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takahashi-Niki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Matsushita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nozumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tabata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Igarashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.3319-16.2017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="4046" to="4064" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Tricellulin constitutes a novel barrier at tricellular contacts of epithelial cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ikenouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furuse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Furuse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsukita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsukita</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.200510043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="939" to="945" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Loss of occludin affects tricellular localization of Tricellulin</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ikenouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsukita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furuse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsukita</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.e08-05-0530</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="4687" to="4693" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Highly accurate protein structure prediction with AlphaFold</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pritzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figurnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tunyasuvunakool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Žıdek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Potapenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03819-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="page" from="583" to="589" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">CD81, and CD82, suggests a common role in costimulation, cell adhesion, and migration: only CD9 upregulates HB-EGF activity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lagaudriere-Gesbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Naour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lebel-Binay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Billard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lemichez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boucheix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Conjeaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rubinstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/cimm.1997.1223</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="105" to="112" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note>CD</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A new family of drosophila balancer chromosomes with a w-dfd-GMR yellow fluorescent protein marker</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sivasubramaniam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Slovitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tanentzapf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.106.063461</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="2255" to="2257" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Spatial arrangement of proteins in planar and curved membranes by PPM 3.0</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Lomize</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Pogozheva</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pro.4219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="209" to="220" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">LSR defines cell corners for tricellular tight junction formation in epithelial cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ikenouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Akashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furuse</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.072058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="548" to="555" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The specialization of septate junctions in regions of tricellular junctions: II. Pleated septate junctions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Noirot-Timotheé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Graf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Noirot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0022-5320(82)80020-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ultrastruct. Res</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="152" to="165" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The extracellular domain of angulin-1 and palmitoylation of its cytoplasmic region are required for angulin-1 assembly at tricellular contacts</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Izumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Otani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furuse</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.RA119.010491</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="4289" to="4302" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Lipolysis-stimulated lipoprotein receptor (LSR) is the host receptor for the binary toxin Clostridium difficile transferase (CDT)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Papatheodorou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Carette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guttenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Brummelkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aktories</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1109772108</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="16422" to="16427" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Optimized CRISPR/Cas tools for efficient germline and somatic genome engineering in Drosophila</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Port</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Bullock</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1405500111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="2967" to="E2976" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Tricellulin Is a Tight-Junction Protein Necessary for Hearing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Riazuddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Fanning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lagziel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitajiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ramzan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chattaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/510022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1040" to="1051" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Fiji: an open-source platform for biological-image analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schindelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kaynig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Longair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pietzsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Preibisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rueden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmid</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="676" to="682" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Gliotactin, a novel marker of tricellular junctions, is necessary for septate junction development in Drosophila</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Tepass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Auld</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.200303192</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="991" to="1000" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Further observations on the fine structure of freeze-cleaved tight junctions</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Staehelin</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.13.3.763</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="763" to="786" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Intercellular adhesion molecule-1 enrichment near Tricellular endothelial junctions is preferentially associated with leukocyte transmigration and signals for reorganization of these junctions to accommodate leukocyte passage</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sumagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Sarelius</surname></persName>
+		</author>
+		<idno type="DOI">10.4049/jimmunol.0903319</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page" from="5242" to="5252" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Group A Streptococcus exploits human plasminogen for bacterial translocation across epithelial barrier via tricellular tight junctions</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sumitomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Higashino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kawabata</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep20069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016">2016. 20069</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">FlyBase 2.0: the next generation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thurmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Strelets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Attrill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Gramates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Marygold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Millburn</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="759" to="D765" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Walt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Schönberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nunez-Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boulogne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gouillart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.453</idno>
+	</analytic>
+	<monogr>
+		<title level="m">scikit-image: image processing in Python</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">453</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Molecular interactions shaping the tetraspanin web</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Van Deventer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V.-M</forename><forename type="middle">E</forename><surname>Dunlock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Van Spriel</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BST20160284</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="741" to="750" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of claudins is required for efficient tight-junction localization</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Van Itallie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Gambling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Carson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.01735</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1427" to="1436" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Palmitoylated proteins: purification and identification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nprot.2007.225</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1573" to="1584" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The transmembrane proteins M6 and Anakonda cooperate to initiate Tricellular junction assembly in epithelia of Drosophila</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wittek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schleutker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luschnig</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2020.08.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="4254" to="4262" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Palmitoylation supports assembly and function of integrin-tetraspanin complexes</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Claas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Stipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hemler</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.200404100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="1231" to="1240" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The influence of curvature on the properties of the plasma membrane. Insights from atomistic molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Yesylevskyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rivel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ramseyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Zappia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Brocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Billi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ceriani</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0019715</idno>
+		<idno>doi:10.1371/journal.pone.0019715</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">16078</biblScope>
+			<date type="published" when="2011">2017. 2011. 19715</date>
+		</imprint>
+	</monogr>
+	<note>PLoS ONE</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Structure-function analysis of tetraspanin CD151 reveals distinct requirements for tumor cell behaviors mediated by α3β1 versus α6β4 Integrin *</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zevian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Winterwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Stipp</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M110.173583</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="7496" to="7506" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

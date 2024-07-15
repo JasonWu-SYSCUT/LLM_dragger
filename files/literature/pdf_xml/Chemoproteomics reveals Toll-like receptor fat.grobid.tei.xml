@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemoproteomics reveals Toll-like receptor fatty acylation</title>
+				<funder>
+					<orgName type="full">Ohio State University Open Access Fund</orgName>
+				</funder>
+				<funder ref="#_dXqSz7b">
+					<orgName type="full">National Science Foundation Graduate Research Fellowship Program</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ohio State University Public Health Preparedness for Infectious Diseases</orgName>
+					<orgName type="abbreviated">PHPID</orgName>
+				</funder>
+				<funder ref="#_mmhtshc">
+					<orgName type="full">NIH/NIAID</orgName>
+				</funder>
+				<funder ref="#_tZ3KcYS">
+					<orgName type="full">Ohio State University Systems and Integrative Biology Training Program (NIH/NIGMS</orgName>
+				</funder>
+				<funder ref="#_Sgz2gwx">
+					<orgName type="full">NIH/NIGMS</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">M</forename><surname>Chesarino</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jocelyn</forename><forename type="middle">C</forename><surname>Hach</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Biomedical Informatics</orgName>
+								<orgName type="department" key="dep2">Division of Medical Oncology</orgName>
+								<orgName type="institution" key="instit1">Internal Medicine</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Balyn</forename><forename type="middle">W</forename><surname>Zaro</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Departments of Chemistry and Molecular and Computational Biology</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<postCode>90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Murugesan</forename><forename type="middle">Vs</forename><surname>Rajaram</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joanne</forename><surname>Turner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Larry</forename><forename type="middle">S</forename><surname>Schlesinger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">R</forename><surname>Pratt</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Departments of Chemistry and Molecular and Computational Biology</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<postCode>90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Howard</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Laboratory of Chemical Biology and Microbial Pathogenesis</orgName>
+								<orgName type="institution">Rockefeller University</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jacob</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+							<email>yount.37@osu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Microbial Infection and Immunity</orgName>
+								<orgName type="department" key="dep2">Center for Microbial Interface Biology</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemoproteomics reveals Toll-like receptor fatty acylation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1186/s12915-014-0091-3</idno>
+					<note type="submission">Received: 11 August 2014 Accepted: 20 October 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-04T08:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Palmitoylation</term>
+					<term>Post-translational modification</term>
+					<term>Click chemistry</term>
+					<term>Toll-like receptor</term>
+					<term>TLR2</term>
+					<term>Fatty acylation</term>
+					<term>Proteomics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Palmitoylation is a 16-carbon lipid post-translational modification that increases protein hydrophobicity. This form of protein fatty acylation is emerging as a critical regulatory modification for multiple aspects of cellular interactions and signaling. Despite recent advances in the development of chemical tools for the rapid identification and visualization of palmitoylated proteins, the palmitoyl proteome has not been fully defined. Here we sought to identify and compare the palmitoylated proteins in murine fibroblasts and dendritic cells.</p><p>Results: A total of 563 putative palmitoylation substrates were identified, more than 200 of which have not been previously suggested to be palmitoylated in past proteomic studies. Here we validate the palmitoylation of several new proteins including Toll-like receptors (TLRs) 2, 5 and 10, CD80, CD86, and NEDD4. Palmitoylation of TLR2, which was uniquely identified in dendritic cells, was mapped to a transmembrane domain-proximal cysteine. Inhibition of TLR2 S-palmitoylation pharmacologically or by cysteine mutagenesis led to decreased cell surface expression and a decreased inflammatory response to microbial ligands.</p><p>Conclusions: This work identifies many fatty acylated proteins involved in fundamental cellular processes as well as cell type-specific functions, highlighting the value of examining the palmitoyl proteomes of multiple cell types. Spalmitoylation of TLR2 is a previously unknown immunoregulatory mechanism that represents an entirely novel avenue for modulation of TLR2 inflammatory activity.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Protein palmitoylation is the addition of a 16-carbon fatty acid primarily to cysteines via a thioester linkage (termed S-palmitoylation) <ref type="bibr" target="#b0">[1]</ref>. This form of fatty acylation targets cytoplasmic proteins to membranes, but can also occur on transmembrane proteins where it often affects protein localization or stability <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>. Identification and characterization of palmitoylated proteins has traditionally been encumbered because of insensitive detection methods, the lack of a consensus amino acid motif for bioinformatics prediction of palmitoylation sites, a lack of antibodies for detecting palmitoylation and challenges in detecting palmitoylated peptides with standard mass spectrometry techniques <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>. To overcome these difficulties, non-radioactive chemical tools and methodologies have been recently developed that are advancing the study of protein palmitoylation <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>. An analogue of palmitic acid possessing a terminal alkyne group (alk-16, Figure <ref type="figure" target="#fig_0">1A</ref>) is incorporated by cells onto proteins at sites of palmitoylation <ref type="bibr" target="#b5">[6]</ref>. The alkynyl group allows a targeted reaction with azidefunctionalized detection tags via the copper-catalyzed azide-alkyne cycloaddition reaction commonly termed click chemistry (Figure <ref type="figure" target="#fig_0">1A</ref>). Azido-rhodamine (az-rho) is a detection tag that can be used for visualization, while azido-azo-biotin (az-biotin) allows selective retrieval of alk-16-labeled proteins using streptavidincoated agarose <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b11">12]</ref>. We, and others, have previously used, and continue to apply these tools for enhancing our understanding of regulation of immune responses by lipid post-translational modifications (PTMs) <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref>.</p><p>Of particular importance, the aforementioned chemical tools allowed the identification of palmitoylation-dependent antiviral activity of the interferon (IFN)-induced transmembrane protein 3 (IFITM3) <ref type="bibr" target="#b6">[7]</ref>. In the present study, we performed an analysis of palmitoylated proteins in a murine antigen presenting dendritic cell line (DC2.4) in comparison with murine embryonic fibroblasts (MEFs), both at steady state and after IFNα treatment. Known lipidated and IFN-induced proteins, IFITM3, bone marrow stromal antigen 2 (BST2) and immunity related GTPase M1 (IRGM1), were detected in both cell types after IFNα treatment. We also detected novel palmitoylated proteins expressed at steady state, and validated several of these proteins, including T-lymphocyte activation antigen CD86 and Toll-like receptor 2 (TLR2) in dendritic cells (DCs), and E3 ubiquitin-protein ligase NEDD4 in MEFs. Given the complete novelty of the discovery of a lipid modification occurring on a member of the extensively studied TLR family, we chose to focus further on determining the effects of palmitoylation on TLR2. TLRs are critical for the cellular recognition of most pathogens <ref type="bibr" target="#b17">[18]</ref>. Their detection of microbial products results in activation of the transcription factor NF-κB and production of inflammatory cytokines and other mediators of the immune response <ref type="bibr" target="#b17">[18]</ref>. At least 10 human and 11 mouse TLRs have now been identified, which recognize distinct sets of pathogen-associated molecules <ref type="bibr" target="#b18">[19]</ref>. TLR2 is expressed primarily on myelomonocytic cells including antigen presenting cells, such as DCs and macrophages <ref type="bibr" target="#b19">[20]</ref>. TLR2 detects the widest range of microbial products among the TLRs, including lipomannan from mycobacteria, zymosan from yeast and bacterial lipopeptides typified by the PamCSK synthetic lipopeptides <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b20">21]</ref>. As such, TLR2 knockout mice and humans with deleterious TLR2 polymorphisms are more susceptible to multiple pathogens <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>. Thus, TLR2 is a critical component of the innate immune system, and a better understanding of its posttranslational regulation may prove useful in our defense against pathogenic organisms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visualization of palmitoylated proteins in MEFs and DC2.4 cells</head><p>Having made the previous discovery of the critical role of palmitoylation of IFITMs in the innate antiviral immune response <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15]</ref>, we sought to determine whether any additional IFN-induced proteins are regulated by palmitoylation. For our experiments, we chose to use murine antigen presenting cells (DC2.4) and MEFs because these cell lines are responsive to type I IFNs <ref type="bibr" target="#b13">[14]</ref>, are amenable to labeling with the alk-16 reporter of protein palmitoylation <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b13">14]</ref> and serve as a control for one another in that type I IFN should induce a similar set of proteins in both cell types. Additionally, this analysis would provide a valuable comparison of the general palmitoylomes of two cell types (myeloid and non-myeloid) with unique functions. DC2.4 cells and MEFs were either left untreated or were treated with IFNα for four hours prior to metabolic labeling with alk-16 in the presence or absence of IFNα for an additional two hours. Cell lysates were reacted with azrho or az-biotin via click chemistry (Figure <ref type="figure" target="#fig_0">1A</ref>). Az-rholabeled proteins were separated by SDS-PAGE and visualized by fluorescence gel scanning (Figure <ref type="figure" target="#fig_0">1B</ref>). Anti-IFITM3 and anti-GAPDH blotting were used as controls for the activity of IFNα on these cells and for loading, respectively. The fluorescent profiles of the two cell types did not indicate that drastic changes to palmitoylation occur upon IFNα treatment. However, one specific band could be seen uniquely in the IFNαtreated samples, appearing at approximately 15 kDa, potentially corresponding to the molecular weight of the IFITMs (Figure <ref type="figure" target="#fig_0">1B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mass spectrometric identification of palmitoylated proteins in MEFs and DC2.4 cells</head><p>Given that differences induced by IFNα could possibly be masked by highly abundant proteins within the fluorescent palmitoylome profiles observed in Figure <ref type="figure" target="#fig_0">1B</ref>, we next utilized the fraction of our samples that had been reacted with az-biotin in order to affinity purify alk-16labeled palmitoylated proteins using streptavidin-coated agarose. These purified proteins were separated by SDS-PAGE (Figure <ref type="figure" target="#fig_4">1C</ref>) and subjected to in-gel trypsin digestion. Extracted peptides were then identified by tandem mass spectrometry (MS/MS) analysis and assigned to proteins using Mascot software. After subtraction of proteins identified in the control lanes as described in the Methods Section and eliminating proteins with fewer than three spectral counts, a total of 247 proteins were identified from the DC2.4 samples and 437 proteins were identified from the MEF samples, indicating that there is a large difference in the repertoire of palmitoylated proteins expressed by these different cell types (see Additional file 1: Table <ref type="table">S1</ref>, S2, Figure <ref type="figure" target="#fig_0">1D</ref>). Of the proteins identified in DC2.4 cells, 76% had been previously identified as palmitoylated proteins in our past analysis of this cell line, and by others in proteomic studies of other cell types <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref> (see Additional file 1: Table <ref type="table">S1</ref>). Of the proteins identified in MEFs, which had not been palmitoylome profiled before, 64% were previously reported to be palmitoylated, providing strong validation of our methodology (see Additional file 1: Table <ref type="table">S2</ref>).</p><p>Analysis of several known palmitoylated proteins that were identified uniquely in only one of the two cell types would suggest that their differential detection is due to cell type-specific expression differences. For example, sortilin-1 (SORT1), inducible nitric oxide synthase (NOS2) and HLA class II histocompatibility antigen gamma chain (CD74) were uniquely detected in DC2.4 cells, consistent with published data curated by BioGPS showing that murine DCs express these genes while MEFs do not <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> (Figure <ref type="figure" target="#fig_0">1D</ref>). Conversely, catenin delta (CTNND1), flotillin-2 (FLOT2), GTPase HRAS and tyrosine-protein kinase YES were detected in MEFs, but not in DCs (Figure <ref type="figure" target="#fig_0">1D</ref>), again corresponding to cell type-specific expression patterns <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref>. Further supporting the assertion that the observed differences in the proteins detected are not due to differences in the ability of the two cell types to palmitoylate different subsets of proteins, BioGPS was also utilized to examine the MEF and DC expression patterns for the DHHC palmitoyltransferases (hereafter referred to as DHHCs), the enzyme family responsible for the majority of S-palmitoylation in cells <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref>. Indeed, murine MEFs and DCs each express nearly all of the DHHCs, with the exception of DHHCs 11 and 19 which are testisspecific and DHHC22 which is brain-specific <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bioinformatic classification of alk-16-labeled proteins commonly identified in both MEFs and DC2.4 cells</head><p>We identified 121 alk-16-labeled proteins that were common to both DC2.4 cells and MEFs (listed in Additional file 1: Table <ref type="table">S3</ref>), suggesting that these proteins may perform fundamental cellular functions. These included critical cellular proteins such as calnexin (CANX), GTPase NRAS and the cation-dependent mannose-6-phosphate receptor (M6PR) (Figure <ref type="figure" target="#fig_0">1D</ref>). Indeed, exploring the classification of these 121 proteins shows that proteins with enzymatic activity constituted 40% of the 121. Transporters and ion channels formed another 20%. An additional 37% constituted structural proteins and those in ubiquination and glycosolation processes, with the remaining 3% being cellular receptors and transcription regulators (see Additional file 2: Figure <ref type="figure" target="#fig_1">S2A</ref>). Enrichment analysis using Ingenuity defined pathways recapitulated that palmitoylation is critical for a multitude of signaling pathways, including those downstream of ephrin receptors and integrins, as well as axonal guidance signaling (see Additional file 1: Table <ref type="table">S4</ref>). Similarly, pathways centering on the cellular morphology-controlling small GTPases, RAC1 and/or RHOA, involving multiple palmitoylated proteins were identified (see Additional file 1: Table <ref type="table">S4</ref>).</p><p>On a more global level, network analysis of the 121 shared palmitoylated proteins demonstrated that the MYC proto-oncogene protein and the cellular tumor antigen p53 are upstream of 35 (29%) of these proteins, which is more than would be expected by chance (P &lt;0.001, Additional file 2: Figure <ref type="figure" target="#fig_1">S2B</ref>). Several DHHCs have been discovered to be misregulated in various tumors, but their contribution to tumorigenesis is currently unclear <ref type="bibr" target="#b36">[37]</ref>. Palmitoylated MYC and p53 effector proteins may offer candidates for future experiments determining the role of specific DHHCs and palmitoylated proteins in cancer progression. Taken together, a multitude of coherent pathways are regulated by palmitoylation in both DCs and MEFs, and these data add to our growing appreciation of the roles palmitoylation plays in regulating a myriad of basic cellular processes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IFN-induced fatty acylated proteins</head><p>We also identified proteins present only in the IFNαtreated samples or that had peptide peak area measurements that were increased in the IFNα-treated samples by at least 2.5 fold. Since type I IFNs generally induce a common set of antiviral proteins even in distinct cell types, we reasoned that true IFN-induced palmitoylated proteins should be present in the MS/MS results of both DC2.4 cells and MEFs. With this additional criterion, we were left with only three proteins enriched in the IFNα-treated samples in both cell types: IFITM3, IRGM1 and BST2, also known as tetherin. Indeed, each of these proteins is known to be IFN-inducible, and IFITM3 serves as a control since we expected to identify this protein based on our past work <ref type="bibr" target="#b6">[7]</ref>. Palmitoylation of IRGM1 was verified in our laboratory (see Additional file 2: Figure <ref type="figure" target="#fig_0">S1</ref>), and was also recently reported to be important for its membrane localization and ability to affect mitochondria membrane dynamics <ref type="bibr" target="#b37">[38]</ref>. Interestingly, past palmitoylome profiling studies of murine T cells <ref type="bibr" target="#b16">[17]</ref> and human B cells <ref type="bibr" target="#b15">[16]</ref> also identified BST2 as a putative palmitoylated protein. Although BST2 palmitoylation has not yet been validated by visualization methods, the study performed in murine T cells found that mass spectrometric detection of alk-16-labeled BST2 was diminished upon sample treatment with hydroxylamine, which cleaves thioester bonds characteristic of palmitoylation <ref type="bibr" target="#b16">[17]</ref>. Likewise, the work identifying BST2 in B cells utilized acyl-biotin exchange chemistry, which allows specific enrichment of S-acylated proteins <ref type="bibr" target="#b15">[16]</ref>. BST2 is also well characterized to be lipidated with a GPI anchor <ref type="bibr" target="#b38">[39]</ref>, which could incorporate long chain fatty acids such as alk-16, although previous alk-16 proteomic profiling studies have not been significantly contaminated with GPI anchored proteins, arguing against this possibility <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b26">27]</ref>. Mutation of individual residues within BST2 will be necessary to determine the precise location and type of lipidation reported by alk-16 labeling. Nonetheless, our data confirm that the IFNinduced effector proteins, IFITM3, IRGM1 and BST2, are each lipid-modified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Novel palmitoylated proteins identified in MEFs and DC2.4 cells</head><p>Our work identified 168 proteins in MEFs and 59 proteins in DC2.4 cells that had not been previously reported to be palmitoylated in past proteomic studies (see Additional file 1: Table <ref type="table">S1</ref>, S2). Many of these proteins were found in only one of the two cell types. For example, we observed the E3 ubiquitin-protein ligase NEDD4 specifically in MEFs (Figure <ref type="figure" target="#fig_0">1D</ref>), and confirmed its palmitoylation, thereby identifying an entirely new modification with potential regulatory activity on this extensively studied and critically important protein <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref> (see Additional file 2: Figure <ref type="figure" target="#fig_2">S3</ref>). Of particular interest to our laboratory were two proteins uniquely identified in DC2.4 cells that are essential to immune responses, CD86 and TLR2. CD86 is expressed on the surface of mature DCs and provides a costimulatory signal to T cells that is necessary for their proper activation <ref type="bibr" target="#b41">[42]</ref>. We thus sought to confirm CD86 palmitoylation and map its site of modification. Utilizing a C-terminally HA-tagged construct of murine CD86 (CD86-HA), we were able to validate our MS/MS results by demonstrating robust labeling of CD86-HA with alk-16 (Figure <ref type="figure" target="#fig_1">2A</ref>). Interestingly, palmitoylated CD86-HA was observed as multiple high MW bands indicating that its glycosylated forms are palmitoylated <ref type="bibr" target="#b42">[43]</ref>, while its non-glycosylated form at the expected molecular weight of 35 kDa was not modified, potentially suggesting sequential modification (Figure <ref type="figure" target="#fig_1">2A</ref>). Mutation of Cys-264 to Ala at the cytoplasmic edge of the CD86 transmembrane domain resulted in a complete loss of alk-16 labeling, implicating Cys-264 as the primary site of CD86 palmitoylation (Figure <ref type="figure" target="#fig_1">2A</ref>). CD86 has homology to, and a partially redundant function with, T-lymphocyte activation antigen CD80 <ref type="bibr" target="#b44">[44]</ref>. We thus generated a CD80-HA construct and also confirmed its palmitoylation (see Additional file 2: Figure <ref type="figure" target="#fig_3">S4</ref>), thereby demonstrating a conservation of this PTM on the CD80 and CD86 costimulatory molecules.</p><p>We similarly confirmed TLR2 palmitoylation utilizing a previously generated construct in which the human TLR2 ER signal sequence was replaced by an artificial signal sequence followed by a FLAG epitope tag <ref type="bibr" target="#b45">[45,</ref><ref type="bibr" target="#b46">46]</ref>. Indeed, FLAG-TLR2 was readily labeled by alk-16 (Figure <ref type="figure" target="#fig_1">2B</ref>). Two cytoplasmic-facing cysteines within TLR2, Cys-595 and Cys-596, were predicted by the CSS-Palm version 3.0 palmitoylation site prediction program <ref type="bibr" target="#b47">[47]</ref> to be highly probable sites of palmitoylation. Generating Cys to Ala mutations at these positions and at the nearby Cys-609 allowed for the demonstration that palmitoylation is lost only when Cys-609 is mutated (Figure <ref type="figure" target="#fig_1">2B</ref>). Thus, while bioinformatic methods may provide candidate sites of modification, the study of protein palmitoylation requires empirical validation. We further confirmed that Cys-609 is the primary site of human TLR2 S-palmitoylation using a TLR2 construct with its natural ER signal sequence and a C-terminal YFP tag <ref type="bibr" target="#b48">[48,</ref><ref type="bibr" target="#b49">49]</ref> (Figure <ref type="figure" target="#fig_1">2C</ref>), and also verified that murine TLR2 is S-palmitoylated on the same residue (see Additional file 2: Figure <ref type="figure">S5</ref>).</p><p>To determine the extent to which palmitoylation is conserved on TLRs other than TLR2, we tested a panel of human TLRs 1 to 10 for alk-16 labeling in HEK293T cells. While the expression levels of the different TLRs varied, TLR2, TLR5 and TLR10 clearly showed palmitoylation signals above background bands (see Additional file 2: Figure <ref type="figure">S5</ref>). Interestingly, TLR10, which physically interacts with TLR2 and has been associated with regulating TLR2 responses <ref type="bibr" target="#b42">(43,</ref><ref type="bibr" target="#b44">44)</ref>, had the strongest palmitoylation signal relative to its total protein level (see Additional file 2: Figure <ref type="figure">S5</ref>). These findings reveal that palmitoylation is at least partially conserved on a subset of the human TLRs. These data also confirm that palmitoylation of transmembrane proteins occurs with specificity that is not currently predictable by sequence analysis or by homology with known palmitoylated proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation of CD86 and TLR2 can be increased by specific DHHCs</head><p>In order to examine whether or not S-palmitoylation of CD86 and TLR2 could be installed by specific DHHCs, we performed overexpression screens of each of the DHHCs with CD86 and TLR2. This method is commonly used to identify DHHCs capable of modifying individual protein substrates <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b50">[50]</ref><ref type="bibr" target="#b51">[51]</ref><ref type="bibr" target="#b52">[52]</ref><ref type="bibr" target="#b53">[53]</ref>. CD86-HA S-palmitoylation was increased by DHHCs 2, 3, 6 and 7 (Figure <ref type="figure" target="#fig_1">2D</ref>, Additional file 2: Figure <ref type="figure">S7</ref>). FLAG-TLR2 S-palmitoylation was similarly enhanced by the DHHCs 2, 3, 6 and 7 (Figure <ref type="figure" target="#fig_1">2E</ref>, Additional file 2: Figure <ref type="figure">S7</ref>). Since the palmitoylation sites of CD86 and TLR2 are both at the cytoplasmic edge of their respective transmembrane domains, this may suggest that this subset of DHHCs is particularly adept at modifying cysteines adjacent to membranes. However, unlike CD86, palmitoylation of TLR2 was also increased by DHHC15, demonstrating substrate specificity for individual DHHCs (Figure <ref type="figure" target="#fig_1">2E</ref>). Overall, these experiments further validate that CD86 and TLR2 are S-palmitoylated proteins whose modification can be mediated enzymatically by specific DHHCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation is required for complete activation of NF-κB by TLR2</head><p>Given our laboratory's focus on innate immunity, we chose to further investigate the effects of S-palmitoylation on the activity of TLR2 in primary cultured DCs. For these experiments, we utilized a commonly used covalent inhibitor of DHHCs, 2-bromopalmitate (2-BP) <ref type="bibr" target="#b54">[54]</ref>. We found that 2-BP treatment of murine bone marrow-derived (BM) DCs resulted in a loss of the endogenous TLR2 S-palmitoylation signal (Figure <ref type="figure" target="#fig_2">3A</ref>). Concomitantly, 2-BP-treated BMDCs lost the ability to produce high levels of the pro-inflammatory cytokines IL-6 and TNFα in response to Pam 3 CSK 4 and lipomannan, which are microbe-based ligands specifically detected by TLR2 (Figure <ref type="figure" target="#fig_2">3B</ref>). Since prolonged exposure to 2-BP can result in off-target effects and cellular toxicity <ref type="bibr" target="#b55">[55,</ref><ref type="bibr" target="#b56">56]</ref>, we also employed Sendai virus, a TLR-independent activator of cytoplasmic RIG-I-like receptors, as a control <ref type="bibr" target="#b57">[57]</ref><ref type="bibr" target="#b58">[58]</ref><ref type="bibr" target="#b59">[59]</ref><ref type="bibr" target="#b60">[60]</ref><ref type="bibr" target="#b61">[61]</ref>. Sendai virus induced high levels of IL-6 and TNFα secretion even in the presence of 2-BP (although TNFα was partially affected), indicating that the effects of 2-BP were largely specific to the TLR2 pathway (Figure <ref type="figure" target="#fig_2">3B</ref>). Additionally, we did not observe overt cellular toxicity upon 2-BP treatment in the time period examined, as judged by Trypan blue exclusion. Treatment with 2-BP also inhibited lipomannan-induced IL-6 and TNFα secretion from primary human monocyte-derived DCs (see Additional file 2: Figure <ref type="figure">S8</ref>). Thus, the inhibition of cellular palmitoylation by 2-BP leads to an impaired TLR2-dependent proinflammatory cytokine response by DCs.</p><p>We next measured the ability of TLR2-YFP and TLR2-C609A-YFP to stimulate NF-κB-dependent gene expression in response to microbial ligands. TLR2-C609A-YFP was significantly less able than TLR2-YFP to induce NF-κBdependent luciferase production in response to Pam 3 CSK 4 , lipomannan and zymosan (Figure <ref type="figure" target="#fig_2">3C</ref>). Levels of WT and mutant TLR2 were comparable in these experiments as measured by Western blotting (Figure <ref type="figure" target="#fig_2">3D</ref>). Similar results demonstrating a defect in the induction of NF-κBdependent luciferase activity by the palmitoylation-deficient TLR2-C609A mutant were also obtained when utilizing FLAG-tagged constructs, and further demonstrated that this decrease in activity is specific for mutation of the Cys-609 palmitoylation site since a Cys-596 to Ala mutant possessed activity similar to WT FLAG-TLR2 (see Additional file 2: Figure <ref type="figure">S9</ref>). In sum, our data demonstrate that the TLR2 Cys-609 S-palmitoylation site is required for proper activation of NF-κB in response to microbial ligands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S-pamitoylation of TLR2 promotes its cell surface localization</head><p>We next examined the effect of endogenous TLR2 ligation on its S-palmitoylation status. We observed that TLR2 palmitoylation is decreased upon stimulation of murine BMDCs with lipomannan (Figure <ref type="figure" target="#fig_3">4A,</ref><ref type="figure">B</ref>). This palmitoylation decrease correlates with a decrease in TLR2 surface staining, while surface staining of costimulatory molecules and MHC II increased as expected for activated DCs (Figure <ref type="figure" target="#fig_3">4C</ref>). This finding is also consistent with past observations of TLR2 downregulation at the cell surface upon binding of its ligands <ref type="bibr" target="#b62">[62]</ref><ref type="bibr" target="#b63">[63]</ref><ref type="bibr" target="#b64">[64]</ref>. The correlation between decreased TLR2 Spalmitoylation and decreased cell surface levels suggested that, perhaps, S-palmitoylation affects TLR2 localization. Indeed, inhibition of palmitoylation with 2-BP decreased endogenous TLR2 surface staining of BMDCs, while overall cellular levels of TLR2 remained similar (Figure <ref type="figure" target="#fig_3">4D</ref>). In accord with these results, overexpressed murine FLAG-TLR2-C609A showed a subtle, but reproducible, decrease in cell surface staining when compared to WT FLAG-TLR2 (Figure <ref type="figure" target="#fig_3">4E</ref>), with their mean fluorescence intensities differing by approximately 25% on average (Figure <ref type="figure" target="#fig_3">4F</ref>). Importantly, achieving robust cell surface staining of FLAG-TLR2 constructs required transfection of five to ten times more DNA than was required for activity assays, perhaps suggesting that the forced overexpression of the WT and C609A TLR2 constructs results in underestimation of their cell surface differences. We further confirmed that overall protein levels and the stability of TLR2 are not affected by palmitoylation by performing pulse-chase analysis of FLAG-TLR2 and FLAG-TLR2-C609A, which demonstrated that the decay of the WT and mutant proteins was similar (see Additional file 2: Figure <ref type="figure" target="#fig_0">S10</ref>). Overall, we conclude that S-palmitoylation positively regulates TLR2 activity, at least in part, by promoting its trafficking to the cell surface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The development of chemical proteomic methods to identify palmitoylated proteins has led to a tremendous increase in our appreciation of the numerous ways in which palmitoylation regulates key cellular processes and can control cell type-specific pathways <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b65">65]</ref>. We previously reported the identification of 157 palmitoylated proteins in DC2.4 cells that included proteins critical to antiviral immune responses <ref type="bibr" target="#b6">[7]</ref>. However, the absence of several expected palmitoylated proteins from our MS/ MS identification led us to hypothesize that additional unknown palmitoylated proteins also remained to be identified in this cell type <ref type="bibr" target="#b12">[13]</ref>. Indeed, refinements to our palmitoylated protein enrichment protocol that included increased incubation time with streptavidin agarose and repeated washing steps, along with updates to our mass spectrometry capabilities, have led to a deeper coverage of the DC2.4 palmitoylome (Figure <ref type="figure" target="#fig_0">1</ref> and Additional file 1: Table <ref type="table">S1</ref>). In comparison to the palmitoylome of MEFs, we identified novel putative palmitoylated proteins that play a role in the immune functions of DCs. Following up on several of these proteins, we were able to validate palmitoylation of the CD80 and CD86 costimulatory molecules (Figure <ref type="figure" target="#fig_1">2A</ref> and Additional file 2: Figure <ref type="figure" target="#fig_3">S4</ref>) as well as TLR2 (Figure <ref type="figure" target="#fig_1">2B</ref>,C and Additional file 2: Figure <ref type="figure">S5</ref>). Interestingly, our proteomic results indicated that MEFs express a wider diversity of palmitoylated proteins than DCs (Figure <ref type="figure" target="#fig_0">1D</ref> and Additional file 1: Table <ref type="table">S1</ref>, S2), and include many proteins, such as NEDD4, that should lead to exciting follow up studies.</p><p>Our discovery of CD80, CD86 and TLR2 palmitoylation in DCs reveals novel mechanisms of immune regulation, and underscores the value of examining palmitoylation in diverse cells types. CD80 and CD86 are essential for immune responses to most pathogens as well as for elimination of tumor cells by the immune system <ref type="bibr" target="#b66">[66]</ref>. These costimulatory molecules provide a second signal for T-cell activation in addition to MHC/peptide complexes presented on the surface of mature DCs <ref type="bibr" target="#b66">[66]</ref>. Future studies will aim to determine whether palmitoylation is involved in the trafficking of these molecules to the DC surface, their subsequent clustering at the immunological synapse and their impact on immune function.</p><p>Here, we specifically followed up on the role of S-palmitoylation in regulating TLR2 activity. Indeed, the Anti-TLR2 Western blotting confirmed comparable protein loading. B) Fluorescent gel scans from four experiments as in A were quantified and normalized to their respective Western blots. Values for lipomannan were normalized relative to a value set to 1 for mock, and were averaged. The error bar represents the standard deviation of four experiments. *P &lt;0.001 by Student's t-test. C) Cells were stained with antibodies against the indicated surface proteins and analyzed by flow cytometry. Results in C are representative of at least three experiments. D) BMDCs were treated with 100 uM 2-BP or solvent control for 12 hours, and stained with anti-TLR2 antibody for flow cytometry analysis of TLR2 surface levels, or were lysed and subjected to anti-TLR2 Western blotting to examine total TLR2 levels. Anti-GAPDH blotting served as a loading control. Results in D are representative of at least three similar experiments. E, F) MEFs were transfected with plasmids expressing murine FLAG-TLR2 (WT), FLAG-TLR2-C609A (C609A), or vector control. E) Cells were subjected to anti-TLR2 staining for flow cytometry analysis of TLR2 surface expression or were lysed for western blotting with anti-FLAG antibodies for comparing total TLR2 protein levels. Anti-GAPDH Western blotting was performed as a loading control. F) Flow cytometry results from three experiments as in E were quantified in terms of mean fluorescence intensity (MFI). Values for C609A were normalized relative to a value set to 1 for WT, and were averaged. The error bar represents the standard deviation of three experiments. *P &lt;0.01 by Student's t-test. az-rho, azido-rhodamne; BMDCs, bone marrow dendritic cells; MEFs, murine embryonic fibroblasts; TLR, Toll-like receptor.</p><p>response to all microbial ligands of TLR2 that were tested was decreased in the absence of TLR2 S-palmitoylation, indicating that this lipid modification is a positive regulator of TLR2 activity (Figure <ref type="figure" target="#fig_2">3</ref> and Additional file 2: Figure <ref type="figure">S8,</ref><ref type="figure">S9</ref>). S-palmitoylation is necessary for complete localization of TLR2 at the cell surface, and thus likely affects its interactions with its ligands (Figure <ref type="figure" target="#fig_3">4D-F</ref>). While an effect of palmitoylation on the cell surface expression of multiple other proteins has been previously reported <ref type="bibr" target="#b2">[3]</ref>, it is interesting to note that although CD86 and TLR2 are both S-palmitoylated at membrane-proximal cysteines (Figure <ref type="figure" target="#fig_1">2A-C</ref>) by a similar subset of DHHCs (Figure <ref type="figure" target="#fig_1">2D,</ref><ref type="figure">E</ref>), their cell surface localization is inversely regulated during DC activation (Figure <ref type="figure" target="#fig_3">4B</ref>). This reinforces the commonly observed theme that palmitoylation can have unpredictable effects depending on the protein context in which it occurs <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b67">67]</ref>. Future analyses of how S-palmitoylation of additional immune receptors controls their localization, interactions and signaling will be an exciting area of future study, as will the examination of potential subversion of TLR2 S-palmitoylation by pathogens. Importantly, the identification of S-palmitoylation of TLRs suggests that this reversible form of protein lipidation <ref type="bibr" target="#b68">[68]</ref> may be targeted in the future to manipulate beneficial and non-beneficial TLR2-mediated immune responses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Click chemistry, fluorescence gel scanning, and proteomic identification of palmitoylated proteins Click chemistry was performed as previously described <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b69">69]</ref>. In short, immunoprecipitated proteins or cell lysates were reacted for one hour at room temperature with 100 μM azido-rhodamine <ref type="bibr" target="#b5">[6]</ref> or azido-azo-biotin <ref type="bibr" target="#b11">[12]</ref>, 1 mM tris(2-carboxyethyl)phosphine hydrochloride (TCEP), 100 μM tris[(1-benzyl-1H-1,2,3-triazol-4-yl)methyl]amine (TBTA), and 1 mM CuSO 4 • 5H 2 O. In-gel fluorescence scanning was performed using a Typhoon 9400 imager (Amersham Biosciences, Amersham, United Kingdom) (excitation 532 nm, 580 nm detection filter). Enrichment of alk-16labeled proteins was performed according to a standard protocol <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> with minor adjustments in the amount of protein and buffers used and the number of washing steps, in order to increase specificity and recovery of labeled proteins. Proteins in cell lysates reacted with azido-azo-biotin were methanol precipitated at -20°C overnight, washed with ice-cold methanol three times, dried, and resolubilized in SDS buffer (4% SDS, 150 mM NaCl, 50 mM triethanolamine, pH 7.4). A total of 2.5 mg of the resolubilized protein in 1 mL was diluted to 15 mL with PBS containing 1% Brij-97 and was incubated with 100 μL of pre-washed highcapacity streptavidin agarose (Thermo Scientific, Waltham, Massachusetts, United States) at 4°C on a nutating mixer overnight. The streptavidin agarose was then washed five times with 15 mL PBS containing 1% SDS followed by three washes with 15 mL PBS and two washes with 250 mM ammonium bicarbonate. Cysteines were then capped with iodoacetamide, followed by three additional washes with 250 mM ammonium bicarbonate. Proteins were eluted from the agarose three times using sodium dithionite, and concentrated using low molecular weight Centricons (Millipore, Billerica, Massachusetts, United States) as previously described <ref type="bibr" target="#b7">[8]</ref>. Proteins were then separated by SDS-PAGE for in-gel digestion, peptide extraction and MS/MS analysis. MS/MS was performed by the Rockefeller University Proteomics Resource Center on a Thermo LTQ-Orbitrap mass spectrometer that had undergone recent professional tuning and alignment, and that was equipped with a Dionex 3000 capillary/nano HPLC. MS/MS spectra of peptides were analyzed against the mouse protein database using the Mascot version 2.3 search tool. Data from samples analyzed by Mascot were compared with Proteo-meDiscoverer software (Thermo Scientific) utilizing a cutoff score of 40 and a requirement of two peptides per protein. Data were then further manually analyzed by eliminating proteins that were identified with less than a 20fold detection increase over the controls based on the ProteomeDiscoverer software peptide peak area measurement, and by eliminating proteins with a sum of less than three spectral counts in the alk-16-treated samples. Proteomic lists from other studies were compared with this data set using gene symbols obtained, if necessary, by converting published identifiers into gene symbols using the UniProt database along with the DAVID Gene ID Conversion Tool (National Institute of Allergy and Infectious Diseases, National Insttutes of Health (NIAID, NIH)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pathway enrichment and network analysis</head><p>Protein data from DC2.4 and MEF cells with suitable quality as described above were standardized using GenPept accession numbers. Overlapping proteins were subsequently ported into Ingenuity IPA software <ref type="bibr" target="#b70">[70]</ref>. Canonical pathway enrichment was performed using IPA defined classes and corrected for multiplicity using the Benjamini-Hochberg method. Network analysis and subsequent diagrams were generated using only direct associations among the proteins. P-values for upstream analysis were calculated using the Fisher's exact test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA constructs and luciferase assays</head><p>TLR2-YFP, pCDNA3-YFP and fluorescent protein-tagged constructs for the other human TLRs were obtained from Addgene (plasmids 13014, 13033, 13016, 13641, 13018, 13019, 13020, 13022, 13024, 13642, and 13643, deposited by Doug Golenbock). The human FLAG-TLR2 construct was also obtained from Addgene (plasmid 13082, deposited by Ruslan Medzhitov), as was the mouse FLAG-TLR2 construct (plasmid 12291 deposited by Bruce Beutler <ref type="bibr" target="#b71">[71]</ref>). CD80 and CD86 coding sequences were amplified by PCR from DC2.4 cell cDNA incorporating a C-terminal HA tag, as well as EcoRI and BglII restriction sites for insertion into the pCAGGS expression vector. IRGM1 coding sequence was amplified by PCR from DC2.4 cell cDNA incorporating SalI and XhoI restriction sites for in-frame insertion into the pCMV-HA expression vector. The QuikChange Multi-Site Directed Mutagenesis Kit from Stratagene (La Jolla, California, United States) was used for cysteine mutagenesis. HA-tagged DHHCs and GST control plasmids were kindly provided by Masaki Fukata (NIPS, Okazaki, Japan). For luciferase assays, a NF-kB-dependent firefly luciferase reporter construct provided by Dimitris Thanos (Biomedical Sciences Research Center, Athens, Greece) was used along with the pRL-TK plasmid (Promega, Madison, Wisconsin, United States) driving constitutive expression of Renilla luciferase. The Dual Luciferase Reporter Assay System from Promega was used for detection of firefly and Renilla luciferase. Mycobacterium smegmatis lipomannan, zymosan and Pam 3 CSK 4 were purchased from InvivoGen (San Diego, California, United States). Sendai virus strain Cantell was grown in 10-day embryonated chicken eggs and titered as previously described <ref type="bibr" target="#b72">[72]</ref>.</p><p>Cell culture and flow cytometry DC2.4, MEFs, and HEK293T cells were grown in DMEM supplemented with 10% FBS in a 37°C humidified incubator with an atmosphere of 5% CO 2 . BMDCs were generated by culturing bone marrow cells for 7 days in RPMI supplemented with 10% FBS, 10 ug/mL and 25 ng/ mL GMCSF, with media changes on days 3 and 5. Nonadherent cells were used for experimentation and were validated to be DCs based on 70% to 80% of the cells staining positive for CD11c and MHCII as measured by flow cytometry. Murine IFNα was purchased from eBioscience (San Diego, California, United States). All flow cytometry staining was performed after a 10-minute incubation in ice cold PBS with Fc receptor block (BD Biosciences, San Jose, California, United States). Antibodies from BD Biosciences directed at the following molecules were used at 1:200 dilution in ice cold PBS for 20 minutes at 4°C: CD11c (#557400), MHCII (#553552), CD80 (#553769), CD86 (#553691) and TLR2 (#562625). All samples were washed three times with ice cold PBS, read on a BD FACSCanto II flow cytometer and analyzed using Flowjo software. For flow cytometry of transfected MEFs, cells were detached from plates by incubating in PBS/10 mM ethylenediaminetetraacetic acid (EDTA) for 20 minutes at 37°C.</p><p>Transfections, metabolic labeling, cell lysis, immunoprecipitations, and Western blotting HEK293T cells were transfected overnight at 60% confluency using Lipofectamine 2000 (Life Technologies, Carlsbad, California, United States) according to the manufacturer's instructions. For TLR2 activity experiments, 100 ng of TLR2-expressing plasmids were transfected into wells of a 12-well plate along with 1 ug of NF-κB luciferase reporter plasmid and 50 ng of pRL-TK. For all other experiments, 1 ug or 2 ug of plasmid was transfected for 12-well and 6-well plates, respectively. For cell labeling, alk-16 was added to 37°C DMEM containing 2% charcoal/ dextran-filtered fetal bovine serum for a final concentration of 50 uM. For mock-labeled samples, an equivalent volume of DMSO rather than alk-16 solution was added to the labeling media. After replacing the media, labeling was allowed to proceed for one to two hours under standard culture conditions at 37°C or for four hours for proteomic experiments. 2-BP was purchased from Sigma-Aldrich (St. Louis, Missouri, United States), prepared fresh in DMSO for each experiment and used at a concentration of 100 μM. For all alk-16 labeling experiments, cells were washed twice with room temperature PBS and pellets were flash-frozen with liquid nitrogen for storage at -80°C. Cell pellets were lysed with Brij97 buffer (1% Brij 97, 150 mM NaCl, 50 mM triethanolamine, pH 7.4) and cellular debris was cleared by centrifugation for five minutes at 1,000 x g. For immunoprecipitations, anti-FLAG or anti-HA conjugated agarose (Sigma), or anti-GFP antibody (JL-8, Clontech, Mountain View, California, United States) or anti-TLR2 antibody (MAb-mTLR2, InvivoGen, San Diego, California, United States) with protein G agarose (Roche Diagnostics, Indianapolis, Indiana, United States) was used. Western blots for FLAG-tagged proteins were performed with anti-FLAG antibody produced in rabbit (Sigma-Aldrich, St. Louis, Missouri, United States) at a 1:1,000 dilution. Blots for HA-tagged proteins were performed using a polyclonal antibody preparation from Clontech at a 1:1,000 dilution. Blots for fluorescent proteintagged TLRs were performed with Clontech mouse monoclonal anti-GFP (JL-8) at a 1:2,500 dilution and blots for endogenous mouse TLR2 was performed with anti-TLR2 (MAB1530) from R&amp;D Systems (Minneapolis, Minnesota, United States) at a 1:1,000 dilution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of supporting data</head><p>MS/MS raw data files have been uploaded to the Peptide Atlas data repository and are freely available for download and analysis. Files for DC2.4 samples can be accessed at PeptideAtlas under dataset identifier PASS00594 <ref type="bibr" target="#b73">[73]</ref>. These files correspond to gel slices cut from the first four lanes of Figure <ref type="figure" target="#fig_4">1C</ref>. Specifically, files 1 to 7 are from lane 1 (DMSO treated cells), files 8 to 14 are from lane 2 (IFN alpha/DMSO treated cells), files 15 to 21 are from lane 3 (alk-16 treated cells), and files 22 to 28 are from lane 4 (IFN alpha/alk-16 treated cells). Files for MEF samples can be accessed at PeptideAtlas under dataset identifier PASS00595 <ref type="bibr" target="#b74">[74]</ref>. These files correspond to gel slices cut from lanes 5 through 8 of </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Identification of palmitoylated proteins in DC2.4 cells and MEFs. A) Schematic depicting alk-16 chemical reporter metabolic labeling of live cells and subsequent reaction of cell lysates with detection tags for fluorescence visualization of palmitoylated proteins or affinity purification and proteomic identification of palmitoylated proteins. B, C) Mock treated or IFNα treated DC2.4 cells and MEFS were labeled with alk-16 or DMSO as a control. Lysates were subjected to click chemistry with azido-rhodamine (az-rho) (B) or azido-biotin (C). B) Proteins were separated by SDS-PAGE for fluorescence gel scanning to visualize palmitoylome profiles. Anti-IFITM3 Western blotting served as a control for the activity of IFNα and anti-GAPDH blotting served as a loading control. The red arrow points to the most prominent change in the banding pattern when comparing mock and IFNα treated samples. C) Alk-16/azido-biotin labeled proteins enriched using streptavidin agarose were separated by SDS-PAGE, and were stained with coomassie blue for visualization. Each lane was cut into slices for trypsin digestion and extraction of peptides for MS/MS identification. D) Venn diagram representing proteins identified in C. After subtracting proteins identified in control lanes, 237 DC2.4 proteins and 438 MEF proteins were considered putative palmitoylated proteins. The majority of identified proteins were known to be palmitoylated, including most proteins identified in both cell types and also many of those specifically identified in either DC2.4 cells or MEFs (examples of each are shown in black text). The known IFN-induced and palmitoylated proteins IFITM3 and IRGM1 (blue text) were identified as upregulated in both IFNα-treated DC2.4 cells and MEFs. CD86 and TLR2 are example immunomodulatory proteins specifically identified in DC2.4 cells, while NEDD4 is an example protein specifically identified in MEFs (red text). DMSO, dimethyl sulfoxide; IFITM3, interferon (IFN)-induced transmembrane protein 3; IRFM1, immunity related GTPase M1; MEFs, murine embryonic fibroblasts; MS/MS, tandem mass spectrometry; TLR2, Toll-like receptor 2.</figDesc><graphic coords="2,63.84,96.27,467.66,350.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Confirmation of the S-palmitoylation of immunomodulatory proteins, CD86 and TLR2. A-C) Validation and mapping of CD86 and TLR2 palmitoylation. HEK293T cells were transfected with the indicated CD86-HA (A), FLAG-TLR2 (B), or TLR2-YFP (C) constructs. Transfected cells were labeled with 50 uM alk-16 or DMSO as a control for one hour. Cell lysates were subjected to immunoprecipitation for the respective epitope tag or fluorescent protein. Immunoprecipitates were reacted with azido-rhodamine (az-rho) for visualization of palmitoylation by fluorescent gel scanning. Western blotting was performed to confirm comparable protein loading. D,E) Overexpression screens to identifiy DHHCs capable of modifying CD86-HA and FLAG-TLR2. HEK293T cells were co-transfected with HA-tagged DHHCs 1 to 23 or GST as a control and either CD86-HA (D) or FLAG-TLR2 (E). Immunoprecipitated proteins were treated and visualized as in A-C. Western blotting was performed to confirm comparable protein loading. Bar graphs represent average quantified fluorescence intensities from at least three identical experiments normalized to their respective western blots. Values for CD86 or TLR2 co-transfected with GST control were set to 1. DHHC constructs are labeled according to previously used DHHC nomenclature in order to be consistent with past studies using these constructs. Importantly, DHHCs 2, 3, 6, 7 and 15 are the same in both the previous and modern nomenclature. Note that in D, DHHC14 itself is visible in the fluorescent gel scan of this region. The expression levels of the individual DHHCs obtained in a representative experiment are shown in Additional file 2: Figure S6. DMSO, dimethyl sulfoxide; TLR2 Toll-like receptor 2.</figDesc><graphic coords="5,63.84,96.27,467.66,461.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 TLR2 S-palmitoylation is necessary for NF-kB-dependent gene induction and cytokine production in response to TLR2 microbial ligands. A) TLR2 S-palmitoylation is inhibited by 2-BP in BMDCs. Cells were treated with 100 uM 2-BP or an equivalent volume of DMSO for eight hours prior to labeling for one hour with 50 uM alk-16. TLR2 was immunoprecipitated from cell lysates and reacted with az-rho for fluorescence visualization of palmitoylation. Western blotting with anti-TLR2 antibodies was performed to confirm comparable protein loading. B) Cytokine secretion in reponse to TLR2 ligands is inhibited by 2-BP in BMDCs. Cells were treated with 100 uM 2-BP or an equivalent volume of DMSO for eight hours. TLR2 ligands, Pam 3 CSK 4 (2 ug/mL) or lipomannan (4 ug/mL), or Sendai virus (SeV) (MOI 5), were added to the cellular media for an additional six hours. IL-6 and TNFα levels in cellular supernatants were measured by ELISA. Results in A,B are representative of three experiments. Error bars in B are the standard deviation of triplicate samples. C) Palmitoylation-deficient TLR2 is less able than WT to induce NF-κB-dependent gene expression in response to microbial ligands. HEK293T cells were co-transfected with the indicated plasmids along with a reporter construct expressing NF-κB-driven firefly luciferase and a plasmid constitutively expressing renilla luciferase for normalization. Cells were mock treated or treated for eight hours with Pam 3 CSK 4 (2 ug/mL), lipomannan (4 ug/mL) or zymosan (10 ug/mL), and luciferase activity was measured in cell lysates. Results are presented as fold induction over mock treated samples. D) Western blots confirming similar expression of TLR2-YFP and TLR2-C609A-YFP in experiments performed in C. Results in C, D are representative of at least five experiments. Error bars in C represent standard deviation of triplicate samples. *P &lt;0.001 by Student's t-test. az-rho, azido-rhodamne; BMDCs, bone marrow dendritic cells; DMSO dimethyl sulfoxide; TLR, Toll-like receptor; 2-BP, 2-bromopalmitate.</figDesc><graphic coords="7,63.84,96.27,467.66,273.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 S</head><label>4</label><figDesc>Figure 4 S-palmitoylation promotes TLR2 cell surface expression. A-C) BMDCs were mock treated or treated with 4 ug/mL lipomannan for 24 hours. A) Cells were labeled with 50 uM alk-16 for one hour. Immunoprecipitated TLR2 was reacted with az-rho for visualization of palmitoylation. Anti-TLR2 Western blotting confirmed comparable protein loading. B) Fluorescent gel scans from four experiments as in A were quantified and normalized to their respective Western blots. Values for lipomannan were normalized relative to a value set to 1 for mock, and were averaged. The error bar represents the standard deviation of four experiments. *P &lt;0.001 by Student's t-test. C) Cells were stained with antibodies against the indicated surface proteins and analyzed by flow cytometry. Results in C are representative of at least three experiments. D) BMDCs were treated with 100 uM 2-BP or solvent control for 12 hours, and stained with anti-TLR2 antibody for flow cytometry analysis of TLR2 surface levels, or were lysed and subjected to anti-TLR2 Western blotting to examine total TLR2 levels. Anti-GAPDH blotting served as a loading control. Results in D are representative of at least three similar experiments. E, F) MEFs were transfected with plasmids expressing murine FLAG-TLR2 (WT), FLAG-TLR2-C609A (C609A), or vector control. E) Cells were subjected to anti-TLR2 staining for flow cytometry analysis of TLR2 surface expression or were lysed for western blotting with anti-FLAG antibodies for comparing total TLR2 protein levels. Anti-GAPDH Western blotting was performed as a loading control. F) Flow cytometry results from three experiments as in E were quantified in terms of mean fluorescence intensity (MFI). Values for C609A were normalized relative to a value set to 1 for WT, and were averaged. The error bar represents the standard deviation of three experiments. *P &lt;0.01 by Student's t-test. az-rho, azido-rhodamne; BMDCs, bone marrow dendritic cells; MEFs, murine embryonic fibroblasts; TLR, Toll-like receptor.</figDesc><graphic coords="8,63.84,96.27,467.66,155.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 1C .</head><label>1C</label><figDesc>Figure 1C. Specifically, files 29 to 35 are from lane 5 (DMSO treated cells), files 36 to 42 are from lane 6 (IFN alpha/DMSO treated cells), files 43 to 49 are from lane 7 (alk-16 treated cells), and files 50 to 56 are from lane 8 (IFN alpha/alk-16 treated cells).</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by funding from the <rs type="funder">NIH/NIAID</rs> (grant <rs type="grantNumber">R00AI095348</rs> to J.S.Y.), the <rs type="funder">NIH/NIGMS</rs> (<rs type="grantNumber">R01GM087544</rs> to HCH), and the <rs type="funder">Ohio State University Public Health Preparedness for Infectious Diseases (PHPID) program</rs>. NMC is supported by the <rs type="funder">Ohio State University Systems and Integrative Biology Training Program (NIH/NIGMS</rs> grant <rs type="grantNumber">T32GM068412</rs>). BWZ is a fellow of the <rs type="funder">National Science Foundation Graduate Research Fellowship Program</rs> (<rs type="grantNumber">DGE-0937362</rs>). The authors thank <rs type="person">Dr. Masaki Fukata</rs> (<rs type="affiliation">NIPS, Japan</rs>) for providing DHHC constructs. Partial funding for Open Access provided by The <rs type="funder">Ohio State University Open Access Fund</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_mmhtshc">
+					<idno type="grant-number">R00AI095348</idno>
+				</org>
+				<org type="funding" xml:id="_Sgz2gwx">
+					<idno type="grant-number">R01GM087544</idno>
+				</org>
+				<org type="funding" xml:id="_tZ3KcYS">
+					<idno type="grant-number">T32GM068412</idno>
+				</org>
+				<org type="funding" xml:id="_dXqSz7b">
+					<idno type="grant-number">DGE-0937362</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional files</head><p>Additional file 1: Table <ref type="table">S1</ref>: Alk-16-labeled proteins identified from DC2.4 cells. Table <ref type="table">S2</ref>: Alk-16-labeled proteins identified from MEFs. Table <ref type="table">S3</ref>: Palmitoylated proteins identified in both DC2.4 cells and MEFs. Table <ref type="table">S4</ref>: Molecular pathway enrichment of palmitoylated proteins found in both MEFs and DC2.4 cells.         </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional file 2:</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>The study was conceived by HCH and JSY. HCH supervised proteomic studies and initial validation of TLR2 palmitoylation performed by JSY at the Rockefeller University. Further studies were supervised by JSY at The Ohio State University. JCH performed DHHC overexpression experiments. JLC performed bioinformatics pathway analysis of palmitoylated proteins. MVSR and LSS generated and performed experiments with human monocyte derived dendritic cells. MRP and BWZ confirmed palmitoylation of NEDD4. JT provided reagents and assistance in the generation and study of murine bone marrow derived dendritic cells. All remaining experiments unless otherwise mentioned above were performed by NMC. The manuscript was drafted by JSY with significant editorial contributions from NMC, HCH, and LSS. All authors read and approved the final manuscript.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The intracellular dynamic of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salaun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="1229" to="1238" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of membrane proteins (Review)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Charollais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Der Goot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Membr Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="55" to="66" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">What does S-palmitoylation do to membrane proteins?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blaskovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Van Der Goot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="2766" to="2774" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Exploring protein lipidation with chemical biology</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="6341" to="6358" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Fat chance! Getting a grip on a slippery modification</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Tom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="46" to="57" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Robust fluorescent detection of protein fatty-acylation with chemical reporters</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Raghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shamir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="4967" to="4975" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Palmitoylome profiling reveals S-palmitoylation-dependent antiviral activity of IFITM3</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Moltedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="610" to="614" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Visualization and identification of fatty acylated proteins using chemical reporters</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Protoc Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="65" to="79" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Bioorthogonal proteomics of 15hexadecynyloxyacetic acid chemical reporter reveals preferential targeting of fatty acid modified proteins and biosynthetic enzymes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="650" to="654" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Imaging the lipidome: omega-alkynyl fatty acids for detection and cellular visualization of lipid-modified proteins</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Hannoush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arenas-Ramirez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="581" to="587" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Large-scale profiling of protein palmitoylation in mammalian cells</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="135" to="138" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of cleavable azobenzene-based affinity tags for bioorthogonal chemical proteomics</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grammel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Raghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1212" to="1222" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Emerging roles for protein Spalmitoylation in immunity from chemical proteomics</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="27" to="33" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">S-palmitoylation and ubiquitination differentially regulate interferon-induced transmembrane protein 3 (IFITM3)-mediated resistance to influenza virus</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Karssemeijer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="19631" to="19641" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Palmitoylation on conserved and non-conserved cysteines of murine IFITM1 regulates its stability and anti-influenza A virus activity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mcmichael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Chesarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="9923" to="9927" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Proteomic analysis of S-acylated proteins in human B cells reveals palmitoylation of the immune regulators CD20 and CD23</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ivaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kieffer-Jaquinod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chapel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Levade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Journet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">37187</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Global profiling of dynamic protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adibekian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Tully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="84" to="89" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The roles of TLRs, RLRs and NLRs in pathogen recognition</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Immunol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="317" to="337" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="373" to="384" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Differential expression and regulation of toll-like receptors (TLR) in human leukocytes: selective expression of TLR3 in dendritic cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muzio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bosisio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Polentarutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stoppacciaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mancinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van't Veer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Penton-Rol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ruco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Allavena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mantovani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="5998" to="6004" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Tlr2: a crossroads between infections and autoimmunity?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Borrello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nicolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Delogu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pandolfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ria</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Immunopathol Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="549" to="556" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cutting edge: TLR2-deficient and MyD88deficient mice are highly susceptible to Staphylococcus aureus infection</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hoshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="5392" to="5396" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Myeloid differentiation primary response gene (88)-and toll-like receptor 2-deficient mice are susceptible to infection with aerosolized Legionella pneumophila</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Hawn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aderem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Skerrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="1693" to="1702" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">TLR9 regulates Th1 responses and cooperates with TLR2 in mediating optimal resistance to Mycobacterium tuberculosis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bafica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Scanga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cheever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="1715" to="1724" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A polymorphism in human TLR2 is associated with increased susceptibility to tuberculous meningitis</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Thuong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Hawn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Thwaites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Chau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Quy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Hieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aderem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Hien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dunstan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Immun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="422" to="428" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A novel polymorphism in the toll-like receptor 2 gene and its potential association with staphylococcal infection</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Cornish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Arbour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="6398" to="6401" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Proteomic analysis of fatty-acylated proteins in mammalian cells with chemical reporters reveals S-acylation of histone H3 variants</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Raghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1198</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Proteomic analysis of palmitoylated platelet proteins</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dowal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Flaumenhaft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="62" to="e73" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">DHHC5 protein palmitoylates flotillin-2 and is rapidly degraded on induction of neuronal differentiation in cultured cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="523" to="530" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Proteomic profiling of S-acylated macrophage proteins identifies a role for palmitoylation in mitochondrial targeting of phospholipid scramblase 3</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Merrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dhungana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Aloor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Peddada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Tomer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Fessler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">6007</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Yates JR 3rd, Davis NG, El-Husseini A: Neural palmitoyl-proteomics reveals dynamic synaptic palmitoylation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arstikaitis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Drisdel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mastro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">456</biblScope>
+			<biblScope unit="page" from="904" to="909" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">BioGPS: an extensible and customizable portal for querying and organizing gene annotation resources</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Orozco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leglise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goodale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Batalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Hodge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Haase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Janes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Huss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">130</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A gene atlas of the mouse and human protein-encoding transcriptomes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wiltshire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Batalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ching</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Block</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Soden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kreiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Hogenesch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="6062" to="6067" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Large-scale analysis of the human and mouse transcriptomes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ching</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hakak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wiltshire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Orth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Vega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Sapinoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moqrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patapoutian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Hampton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Hogenesch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="4465" to="4470" />
+			<date type="published" when="2002">2002</date>
+			<pubPlace>U S A</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">DHHC palmitoyl transferases: substrate interactions and (patho)physiology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biochem Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="245" to="253" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Mechanism and function of DHHC Sacyltransferases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Jennings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="29" to="34" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">New links between S-acylation and cancer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="4" to="6" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the immunity related GTPase, Irgm1: impact on membrane localization and ability to promote mitochondrial fission</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Fessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">95021</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Bst-2/ HM1.24 is a raft-associated apical membrane protein with an unusual topology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kupzig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Korolchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rollason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sugden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Banting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="694" to="709" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Physiological functions of the HECT family of ubiquitin ligases</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rotin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="398" to="409" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Mammalian HECT ubiquitin-protein ligases: biological and pathophysiological aspects</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheffner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1843</biblScope>
+			<biblScope unit="page" from="61" to="74" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Human melanoma cells transfected with the B7-2 costimulatory molecule induce tumor-specific CD8+ cytotoxic T lymphocytes in vitro</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Imro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dellabona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Heltai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Consogno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bellone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rugarli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Protti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Gene Ther</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1335" to="1344" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Expression of a hypoglycosylated form of CD86 (B7-2) on human T cells with altered binding properties to CD</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hollsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Greenfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Kuchroo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hafler</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="4799" to="4805" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Cloning of B7-2: a CTLA-4 counter-receptor that costimulates human T cell proliferation</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Gribben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Boussiotis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Restivo</forename><surname>Va</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lombard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Nadler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page" from="909" to="911" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Cooperation of Toll-like receptor 2 and 6 for cellular activation by soluble tuberculosis factor and Borrelia burgdorferi outer surface protein A lipoprotein: role of Tollinteracting protein and IL-1 receptor signaling molecules in Toll-like receptor 2 signaling</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bulut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Faure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Equils</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arditi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="987" to="994" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Cutting edge: a novel Toll/IL-1 receptor domain-containing adapter that preferentially activates the IFN-beta promoter in the Toll-like receptor signaling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hoshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="6668" to="6672" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">CSS-Palm 2.0: an updated software for palmitoylation sites prediction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">C</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng Des Sel</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="639" to="644" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Lipopolysaccharide rapidly traffics to and from the Golgi apparatus with the toll-like receptor 4-MD-2-CD14 complex in a process that is distinct from the initiation of signal transduction</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Latz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Visintin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lien</forename><forename type="middle">E</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Monks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kurt</forename><forename type="middle">-</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Golenbock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Espevik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="47834" to="47843" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Importance of extra-and intracellular domains of TLR1 and TLR2 in NFkappa B signaling</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sandor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Latz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Re</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mandell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Repik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Golenbock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Espevik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kurt</forename><forename type="middle">-</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Finberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="1099" to="1110" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Systematic screening for palmitoyl transferase activity of the DHHC protein family in mammalian cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="177" to="182" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Identification of PSD-95 palmitoylating enzymes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Adesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="987" to="996" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keighren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mckie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Palmitoylation regulates epidermal homeostasis and hair follicle differentiation</title>
+		<imprint>
+			<date type="published" when="2009">2009. 1000748</date>
+			<biblScope unit="volume">5</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Identification of G protein alpha subunit-palmitoylating enzyme</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Noritake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="435" to="447" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Inhibition of protein palmitoylation, raft localization, and T cell signaling by 2-bromopalmitate and polyunsaturated fatty acids</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hermida-Matsumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="261" to="270" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Profiling targets of the irreversible palmitoylation inhibitor 2bromopalmitate</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Davda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El</forename><surname>Azzouny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Majmudar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1912" to="1917" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">2-Bromopalmitate analogues as activity-based probes to explore palmitoyl acyltransferases</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">B</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="7082" to="7085" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">A novel role for viral-defective interfering particles in enhancing dendritic cell maturation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Horvath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Lopez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="4503" to="4513" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Cytokine-independent upregulation of MDA5 in viral infection</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Lopez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="7316" to="7319" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">MDA5 participates in the detection of paramyxovirus infection and is essential for the early activation of dendritic cells in response to Sendai Virus defective interfering particles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gitlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Lopez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="4910" to="4918" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Differential roles of MDA5 and RIG-I helicases in the recognition of RNA viruses</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoneyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Uematsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Ishii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Otsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsujimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reis E Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">441</biblScope>
+			<biblScope unit="page" from="101" to="105" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor-independent triggering of dendritic cell maturation by viruses</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="3128" to="3134" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">de Moerloose P: TLR2 ligands induce NF-kappaB activation from endosomal compartments of human monocytes</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fickentscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Kruithof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">80743</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor 2 on inflammatory monocytes induces type I interferon in response to viral but not bacterial ligands</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barbalat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Locksley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Barton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1200" to="1207" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Membrane sorting of toll-like receptor (TLR)-2/6 and TLR2/ 1 heterodimers at the cell surface determines heterotypic associations with CD36 and intracellular targeting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Triantafilou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Gamper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Haston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mouratis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hartung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Triantafilou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="31002" to="31011" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Yates JR 3rd, Davis NG: Global analysis of protein palmitoylation in yeast</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wan</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuchar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Phinney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="1003" to="1013" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Taking dendritic cells into medicine</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Steinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banchereau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="page" from="419" to="426" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Rodriguez-Crespo I: Protein palmitoylation and subcellular trafficking</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aicart-Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Valero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1808</biblScope>
+			<biblScope unit="page" from="2981" to="2994" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Profiling and inhibiting reversible palmitoylation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Majmudar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="20" to="26" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Alkynyl-farnesol reporters for detection of protein S-prenylation in cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Tsou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Maguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biosyst</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="67" to="73" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">Ingenuity pathway analysis software</title>
+		<ptr target="www.ingenuity.com" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Details of Toll-like receptor:adapter interaction revealed by germ-line mutagenesis</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crozat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rutschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bigby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mudd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sovath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beutler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="10961" to="10966" />
+			<date type="published" when="2006">2006</date>
+			<pubPlace>U S A</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Sendai virus infection induces efficient adaptive immunity independently of type I interferons</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hermesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="4538" to="4545" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Proteins purified from DC2.4 cells labeled with DMSO or alk-16</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+		<ptr target="http://www.peptideatlas.org/PASS/PASS00594" />
+	</analytic>
+	<monogr>
+		<title level="j">PeptideAtlas</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Proteins purified from MEFs labeled with DMSO or alk-16. PeptideAtlas</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yount</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12915-014-0091-3</idno>
+		<ptr target="http://www.peptideatlas.org/PASS/PASS00595" />
+	</analytic>
+	<monogr>
+		<title level="m">Chemoproteomics reveals Toll-like receptor fatty acylation</title>
+		<imprint>
+			<date type="published" when="2014">2014. 2014</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">91</biblScope>
+		</imprint>
+	</monogr>
+	<note>Cite this article as: Chesarino et al.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

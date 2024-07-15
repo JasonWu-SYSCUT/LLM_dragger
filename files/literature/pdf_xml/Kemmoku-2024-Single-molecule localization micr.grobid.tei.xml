@@ -1,0 +1,1886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Single-molecule localization microscopy reveals STING clustering at the trans-Golgi network through palmitoylation-dependent accumulation of cholesterol</title>
+				<funder ref="#_MZmGqxT #_HnYHDgm #_utBFfXK #_EmPwK9Z">
+					<orgName type="full">JST CREST</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Takeda Science Foundation</orgName>
+				</funder>
+				<funder ref="#_eVb477r">
+					<orgName type="full">SGH</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Uehara Memorial Foundation</orgName>
+				</funder>
+				<funder ref="#_G4a5nvg">
+					<orgName type="full">MEXT</orgName>
+				</funder>
+				<funder ref="#_NFR3sSb">
+					<orgName type="full">JSPS KAKENHI</orgName>
+				</funder>
+				<funder ref="#_4vD2Ukn">
+					<orgName type="full">The Naito Foundation</orgName>
+				</funder>
+				<funder ref="#_tueJ2V9">
+					<orgName type="full">JSPS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Daiichi Sankyo Foundation of Life Science</orgName>
+					<orgName type="abbreviated">.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Research Foundation for Opto-Science and Technology</orgName>
+					<orgName type="abbreviated">.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Mitsubishi Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Mizutani Foundation for Glycoscience</orgName>
+				</funder>
+				<funder ref="#_Ht69tf6">
+					<orgName type="full">Princess Takamatsu Cancer Research Fund</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Sumitomo Foundation</orgName>
+				</funder>
+				<funder ref="#_Y9tfXUw">
+					<orgName type="full">Nagoya University</orgName>
+				</funder>
+				<funder ref="#_8PaFWuH">
+					<orgName type="full">National Cancer Center Research and Development Fund</orgName>
+				</funder>
+				<funder ref="#_qpNj3Bb #_zumRMyT #_zyK6b4R #_vrURZar #_Uu4akn9 #_sYcYs7b">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Haruka</forename><surname>Kemmoku</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Integrative Life Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Life Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Organelle Pathophysiology</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kanoko</forename><surname>Takahashi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Integrative Life Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Life Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Organelle Pathophysiology</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kojiro</forename><surname>Mukai</surname></persName>
+							<idno type="ORCID">0000-0001-9806-910X</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Integrative Life Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Life Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Organelle Pathophysiology</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Toshiki</forename><surname>Mori</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">United Graduate School of Agricultural Science</orgName>
+								<orgName type="institution">Gifu University</orgName>
+								<address>
+									<settlement>Gifu</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Koichiro</forename><forename type="middle">M</forename><surname>Hirosawa</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute for Glyco-core Research (iGCORE)</orgName>
+								<orgName type="institution">Gifu University</orgName>
+								<address>
+									<settlement>Gifu</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fumika</forename><surname>Kiku</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Health Chemistry</orgName>
+								<orgName type="department" key="dep2">Graduate School of Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of Tokyo</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yasunori</forename><surname>Uchida</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Integrative Life Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Life Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Organelle Pathophysiology</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yoshihiko</forename><surname>Kuchitsu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Integrative Life Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Life Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Organelle Pathophysiology</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><surname>Nishioka</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Research and Development</orgName>
+								<orgName type="institution">Carna Biosciences, Inc</orgName>
+								<address>
+									<settlement>Kobe</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masaaki</forename><surname>Sawa</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Research and Development</orgName>
+								<orgName type="institution">Carna Biosciences, Inc</orgName>
+								<address>
+									<settlement>Kobe</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takuma</forename><surname>Kishimoto</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Division of Molecular Interaction</orgName>
+								<orgName type="department" key="dep2">Institute for Genetic Medicine</orgName>
+								<orgName type="institution">Hokkaido University Graduate School of Life Science</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<region>Hokkaido</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kazuma</forename><surname>Tanaka</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Division of Molecular Interaction</orgName>
+								<orgName type="department" key="dep2">Institute for Genetic Medicine</orgName>
+								<orgName type="institution">Hokkaido University Graduate School of Life Science</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<region>Hokkaido</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yasunari</forename><surname>Yokota</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Department of EECE</orgName>
+								<orgName type="department" key="dep2">Faculty of Engineering</orgName>
+								<orgName type="institution">Gifu University</orgName>
+								<address>
+									<settlement>Gifu</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hiroyuki</forename><surname>Arai</surname></persName>
+							<idno type="ORCID">0000-0003-4571-6777</idno>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Health Chemistry</orgName>
+								<orgName type="department" key="dep2">Graduate School of Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of Tokyo</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kenichi</forename><forename type="middle">G N</forename><surname>Suzuki</surname></persName>
+							<email>suzuki.kenichi.b7@f.gifu-u.ac.jp</email>
+							<idno type="ORCID">0000-0002-8436-5757</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Institute for Glyco-core Research (iGCORE)</orgName>
+								<orgName type="institution">Gifu University</orgName>
+								<address>
+									<settlement>Gifu</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Division of Advanced Bioimaging</orgName>
+								<orgName type="institution">National Cancer Center Research Institute</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tomohiko</forename><surname>Taguchi</surname></persName>
+							<email>tomohiko.taguchi.b8@tohoku.ac.jp</email>
+							<idno type="ORCID">0000-0003-0464-6370</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Integrative Life Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Life Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Organelle Pathophysiology</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Single-molecule localization microscopy reveals STING clustering at the trans-Golgi network through palmitoylation-dependent accumulation of cholesterol</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5D14A8667CD2F25C3A09603019E74912</idno>
+					<idno type="DOI">10.1038/s41467-023-44317-5</idno>
+					<note type="submission">Received: 1 May 2023 Accepted: 7 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Stimulator of interferon genes (STING) is critical for the type I interferon response to pathogen-or self-derived DNA in the cytosol. STING may function as a scaffold to activate TANK-binding kinase 1 (TBK1), but direct cellular evidence remains lacking. Here we show, using single-molecule imaging of STING with enhanced time resolutions down to 5 ms, that STING becomes clustered at the trans-Golgi network (about 20 STING molecules per cluster). The clustering requires STING palmitoylation and the Golgi lipid order defined by cholesterol. Single-molecule imaging of TBK1 reveals that STING clustering enhances the association with TBK1. We thus provide quantitative proof-of-principle for the signaling STING scaffold, reveal the mechanistic role of STING palmitoylation in the STING activation, and resolve the long-standing question of the requirement of STING translocation for triggering the innate immune signaling. The innate immune system is an evolutionary ancient system to fight against invading pathogens 1,2 . It acts as the first line of defense, detecting the virus and bacteria through pattern recognition receptors (PRRs) and activating intracellular signaling cascades that promote the expression of proinflammatory cytokines, type I interferons, and other antiviral proteins that all coordinate the elimination of pathogens and infected cells. PRRs include Toll-like receptors, RIG-I-like receptors, nucleotide-binding domain and leucine-rich repeat-containing receptors, and C-type lectin receptors (CLRs) <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> . Furthermore, STING (also known as MITA, ERIS, MPYS or TMEM173) <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> has been shown to control a sensing pathway that is essential for the innate immune response against double-stranded DNA (dsDNA) viruses. While the STINGmediated dsDNA-sensing signaling pathway is critical for successful protection against infections, dysregulated STING activity leads to the excessive production of inflammatory mediators with detrimental effects on surrounding cells and tissues 10 . Recent studies have revealed the critical role of STING in the pathogenesis of a number of autoinflammatory and neurodegenerative diseases, such as STING-associated vasculopathy with onset in infancy (SAVI) <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> , COPA syndrome 13-18 , Parkinson's disease 19 , and amyotrophic lateral sclerosis <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> .</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>STING is an ER-localized transmembrane protein. After binding to cyclic GMP-AMP (cGAMP) <ref type="bibr" target="#b21">22</ref> , which is generated by cGAMP synthase (cGAS) <ref type="bibr" target="#b22">23</ref> in the presence of cytosolic dsDNA, STING translocates through the Golgi to the trans-Golgi network (TGN), where STING recruits TBK1 kinase from the cytosol <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> and triggers the type I interferon and proinflammatory responses through the activation of interferon regulatory factor 3 (IRF3) and nuclear factor-kappa B (NF-κB). The activation of TBK1 and IRF3 by STING requires the palmitoylation of STING on Cys88 and Cys91 and the Golgi lipid order <ref type="bibr" target="#b25">26</ref> , leading to the hypothesis that STING becomes clustered in the specific lipid microdomain at the TGN in palmitoylation-dependent manner and that the cluster facilitates the activation of TBK1 and IRF3 by recruiting multiple TBK1 and IRF3 molecules simultaneously onto it. In the present study, we examined whether STING formed the signalingcompetent homocluster at the TGN by photoactivated localization microscopy (PALM) and direct stochastic optical reconstruction microscopy (dSTORM).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cluster formation of STING at the TGN</head><p>To quantitatively analyze the STING cluster, we performed live-cell PALM observation of mEos4b-STING. First, we performed data acquisition using purified mEos4b embedded in polyvinyl alcohol (PVA) on glass at 33 ms/frame and quantified the blinking and photoactivation based on the kinetic model <ref type="bibr" target="#b26">27</ref> (Fig. <ref type="figure" target="#fig_1">1a,</ref><ref type="figure">b</ref>). This is the calibration for the actual experiment that is described later. The distribution of fluorescence intensity of mEos4b could be fitted with a single lognormal function based on both Akaike and Bayesian information criteria <ref type="bibr" target="#b27">28</ref> (Fig. <ref type="figure" target="#fig_1">1c</ref>), indicating that only the mEos4b monomer was observed. The measured probability distribution of the number of blinking times before photobleaching (N blink ) and the probability density function of T on were fitted with predicted geometric distribution (Fig. <ref type="figure" target="#fig_1">1d</ref>) or single exponential function (Fig. <ref type="figure" target="#fig_1">1e</ref>), respectively, which allowed us to estimate &lt;N blink &gt; (=k d /k b ) to be 1.7.</p><p>The photo-switching behavior of mEos4b in PVA was similar to that in bacterial cells <ref type="bibr" target="#b28">29</ref> . Nevertheless, we cannot exclude the possibility that PVA matrix restricts oxygen accessibility and exerts redox effects, and the imperative necessity arises to validate the methodology. Therefore, to test if we could accurately estimate the number of molecules in clusters using &lt;N blink &gt; , we performed positive control observations. PC3 cells express caveolin but remain devoid of cavin1, thereby resulting in the absence of caveolae. A previous report <ref type="bibr" target="#b29">30</ref> showed that the transfection of PC3 cells with cavin1 cDNA induced the formation of caveolae. Accordingly, we performed PALM observations of mEos4b-cavin1 in PC3 cells (Fig. <ref type="figure" target="#fig_1">1f</ref>, left and middle), taking advantage of the 100% labeling efficiency of cavin1 with mEos4b. The images were binarized (Fig. <ref type="figure" target="#fig_1">1f</ref>, right) using a traditional method of kernel density estimation (KDE) <ref type="bibr" target="#b30">31</ref> , which is applicable to a wide range of objects of observation <ref type="bibr" target="#b31">32</ref> . By dividing the numbers of emission bursts of mEos4b in clusters with 1 + &lt;N blink &gt; for the unbiased multi-blinking correction <ref type="bibr" target="#b26">27</ref> , the number of cavin1 molecules in each caveolae (hereafter, denoted as [#cavin1/caveolae]) was determined. The average of [#cavin1/caveolae] was estimated to be 52 ± 2 (Fig. <ref type="figure" target="#fig_1">1g</ref>, left), which is close to the previously reported one (50 ± 5) measured by fluorescence correlation spectroscopy (FCS) <ref type="bibr" target="#b32">33</ref> . Another segmentation method of the PALM images, SR-Tesseler <ref type="bibr" target="#b33">34</ref> , which has been frequently used <ref type="bibr" target="#b31">32</ref> , gave essentially the similar results (Fig. <ref type="figure" target="#fig_1">1g</ref>, right). These results unequivocally affirm the successful quantification of molecular counts in clusters using &lt;N blink &gt; of mEos4b in PVA.</p><p>mEos4b-STING was stably expressed with virus transduction in STING-knockout (KO) mouse embryonic fibroblasts (MEFs). In these cells, the expression level of STING was comparable to that of endogenous STING in MEFs (Supplementary Fig. <ref type="figure" target="#fig_1">1a</ref>). mEos4b-STING activated TBK1 and IRF3 with less potency than wild-type (WT) STING. We stimulated the cells with DMXAA (a membrane-permeable STING agonist) for the indicated time and obtained live-cell PALM images (Fig. <ref type="figure" target="#fig_1">1h-k</ref>). The number of STING molecules in each cluster (hereafter, denoted as [#STING/cluster]) was determined and we found that the average of [#STING/cluster] increased up to 360 min after stimulation (Fig. <ref type="figure" target="#fig_1">1i,</ref><ref type="figure">j</ref>). The clusters consisting of &gt;800 STING molecules formed around 30-60 min after stimulation (Fig. <ref type="figure" target="#fig_1">1k</ref>). SR-Tesseler also gave essentially the similar results (Supplementary Fig. <ref type="figure" target="#fig_2">2a</ref>). Importantly, STING clusters were also observed after stimulation with HT-DNA transfection (Supplementary Fig. <ref type="figure" target="#fig_3">3</ref>).</p><p>The average of [#STING/cluster] estimated by performing the PALM data acquisitions at 5 ms/frame, was not significantly different from those at 33 ms/frame (Supplementary Fig. <ref type="figure" target="#fig_4">4</ref>). We also corrected multi-blinking of mEos4b by the recently reported model-based correction (MBC) workflow, calibration-free estimation of blinking dynamics <ref type="bibr" target="#b34">35</ref> , and found no significant difference between two methods of multiple-blinking correction (Supplementary Fig. <ref type="figure" target="#fig_5">5</ref>).</p><p>Phosphorylated TBK1 (p-TBK1) and phosphorylated STING (p-STING) emerged 30-60 min after stimulation in cells expressing mEos4b-STING (Supplementary Fig. <ref type="figure" target="#fig_1">1b</ref>). Given that STING activates TBK1 at the TGN <ref type="bibr" target="#b25">26</ref> , not the other domains of the Golgi, these results suggested that mEos4b-STING reached the TGN by that time. To corroborate this, we performed simultaneous dual-color observation of PALM of mEos4b-STING and dSTORM of a cis-Golgi network (CGN) protein, GM130-HaloTag7, or a TGN protein, TGN38-HaloTag7 labeled with SaraFluor650B (SF650B) in living cells. As indicated by arrowheads (Fig. <ref type="figure" target="#fig_2">2a</ref>), the mEos4b-STING clusters colocalized with GM130 10 min, not 30 min after stimulation. The quantitative coordinatebased colocalization (CBC) analysis <ref type="bibr" target="#b35">36</ref> showed that the localization coordinates of mEos4b-STING and GM130-HaloTag7-SF650B were distributed in higher CBC scores (0.7-1.0) more frequently than control 10 min after stimulation, but were reduced to the control level 30 min after stimulation (Fig. <ref type="figure" target="#fig_2">2b,</ref><ref type="figure">c</ref>). In contrast, the mEos4b-STING clusters became extensively colocalized with TGN38 30-60 min after stimulation (Fig. <ref type="figure" target="#fig_2">2d-f</ref>). The colocalization of mEos4b-STING with TGN38 then decreased during 60-120 min after stimulation. It is of note that Spearman's correlation coefficients pertaining to the amounts of mEos4b-STING or TGN38-HaloTag7 and the CBC scores 60 min after stimulation consistently fell within the range of -0.3-0.3 across all instances (Supplementary Fig. <ref type="figure" target="#fig_6">6</ref>). These results indicated that the colocalization of mEos4b-STING with TGN38-HaloTag7 was less affected by the expression level of mEos4b-STING or TGN38-HaloTag7.</p><p>After the exit of STING from the Golgi/TGN, STING translocates to recycling endosomes <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b36">37</ref> . In line with this, colocalizations of mEos4b-STING with recycling endosomal proteins (transferrin receptor (TfnR) and Rab11) increased only 120-360 min after DMXAA stimulation (Fig. <ref type="figure" target="#fig_3">3a-f</ref>).</p><p>In sum, the PALM analysis (Fig. <ref type="figure" target="#fig_1">1i,</ref><ref type="figure">j</ref>) showed that STING became clustered at the TGN, with some clusters containing &gt;800 STING molecules (Fig. <ref type="figure" target="#fig_1">1k</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation of STING is required for the cluster formation at the TGN</head><p>We previously demonstrated that STING palmitoylation, the posttranslational modification essential for the STING signaling <ref type="bibr" target="#b25">26</ref> , facilitated the STING clustering to trigger the activation of TBK1 and IRF3. To prove this, we performed live-cell PALM observation of mEos4b-STING in the presence of palmitoylation inhibitors, 2-bromopalmitate (2-BP) and a STING-specific palmitoylation inhibitor H-151 <ref type="bibr" target="#b37">38</ref> (Fig. <ref type="figure" target="#fig_4">4a,</ref><ref type="figure">b</ref>). The treatment with both inhibitors decreased the average of [#STING/ cluster] and suppressed the formation of clusters consisting of &gt;800 STING molecules after stimulation with DMXAA or HT-DNA (Fig. <ref type="figure" target="#fig_4">4c-f</ref>, Supplementary Figs. <ref type="figure" target="#fig_2">2b,</ref> and<ref type="figure" target="#fig_3">3</ref>). To further corroborate the role of STING palmitoylation in the STING clustering, we generated STING-KO MEFs stably expressing mEos4b-STING (C88/91S) (Fig. <ref type="figure" target="#fig_4">4g</ref>), the palmitoylation deficient variant of STING <ref type="bibr" target="#b25">26</ref> . Live-cell PALM observation of mEos4b-STING (C88/91S) showed that the average of [#STING/ cluster] of this variant was significantly decreased, compared to that of wild-type (WT) STING (Fig. <ref type="figure" target="#fig_4">4h</ref>-j and Supplementary Fig. <ref type="figure" target="#fig_2">2c</ref>). mEos4b-STING (C88/91S) was less active in forming the cluster containing &gt;800 STING molecules (Fig. <ref type="figure" target="#fig_4">4k</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cluster formation in the presence of the disease-causative COPA variants</head><p>COPA syndrome is a monogenic disorder of immune dysregulation characterized by the increased expression of type I interferonstimulated genes. The disease is caused by heterozygous mutations of the COPA gene <ref type="bibr" target="#b12">13</ref>  complex, which is essential for the retrograde transport from the Golgi to the ER and may regulate the anterograde transport from the ER to the Golgi. We and others have recently shown that STING was constitutively activated in the disease-causative COPAexpressing cells because of the inefficient retrograde transport of STING to the ER, and that the constitutive activation of STING contributed to the upregulated inflammatory responses in COPA syndrome <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> .</p><p>We stably expressed the disease-causative COPA variants in cells expressing mEos4b-STING and performed live-cell PALM observation. The average of [#STING/cluster] was significantly increased in the COPA variants-expressing cells, compared to control cells (Fig. <ref type="figure" target="#fig_5">5</ref> and  Supplementary Fig. <ref type="figure" target="#fig_2">2d</ref>), showing that STING formed the clusters in the COPA variant-expressing cells. Next we examined whether cGAMP, the natural STING ligand, was required for the clustering of STING. To address this question, we exploited cGAS-KO MEFs <ref type="bibr" target="#b15">16</ref> , in which the production of cGAMP was inhibited. As shown (Supplementary Fig. <ref type="figure" target="#fig_7">7</ref>), the average of [#STING/cluster] in cGAS-KO MEF cells expressing COPA(D243G) was significantly larger than that in control cells. These results showed that cGAMP binding to STING was not intrinsically essential for the STING clustering.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The role of cholesterol in the STING signaling and clustering</head><p>We previously showed that the Golgi lipid order, besides STING palmitoylation, was essential for the STING signaling <ref type="bibr" target="#b25">26</ref> . Treatment of cells with D-ceramide-C6, which caused a reduced membrane order in the Golgi membrane through the generation of short-chain sphingomyelin <ref type="bibr" target="#b38">39</ref> , suppressed the STING signaling (Fig. <ref type="figure" target="#fig_6">6a</ref>) and decreased the average of [#STING/cluster] (Fig. <ref type="figure" target="#fig_6">6b-d</ref> and Supplementary Fig. <ref type="figure" target="#fig_2">2e</ref>). In contrast, L-ceramide-C6, a non-metabolizable enantiomer of D-ceramide-C6, had a minimal effect on the average of [#STING/cluster]. Di-4-ANEPPDHQ is a fluorescent probe that exhibits distinct changes in its emission spectrum in response to variations in lipid environment <ref type="bibr" target="#b39">40</ref> . Notably, it is highly sensitive to the state of lipid packing within cellular membranes <ref type="bibr" target="#b40">41</ref> . An increase in the concentration of cholesterol in biomembranes enhances lipid packing, thus affecting the emission spectrum of Di-4-ANEPPDHQ. With this probe, we confirmed that D-ceramide-C6, not L-ceramide-C6, caused a reduced membrane order in the Golgi membrane (Supplementary Fig. <ref type="figure" target="#fig_8">8</ref>).</p><p>We sought to examine a role of cholesterol, a lipid essential for the generation of the lipid order <ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43</ref> , in the STING signaling and clustering by interfering with the function of oxysterol-binding protein (OSBP). OSBP transports cholesterol from the ER to the TGN <ref type="bibr" target="#b43">44</ref> , and its function is inhibited by 25-hydroxycholesterol (25-HC) <ref type="bibr" target="#b44">45</ref> or a plant-derived steroidal saponin OSW-1 <ref type="bibr" target="#b45">46</ref> . Treatment of cells with these compounds (30 μM of 25-HC for 16 h or 0.125 nM of OSW-1 for 6 h) suppressed the stimulation-dependent emergence of p-TBK1, p-STING, and phosphorylated IRF3 (p-IRF3) (Fig. <ref type="figure" target="#fig_7">7a,</ref><ref type="figure">b</ref>), without affecting the translocation of STING from the ER to the Golgi (Supplementary Fig. <ref type="figure">9a-c</ref>). Treatment of cells with 25-HC or OSW-1 decreased the average of [#STING/cluster] (Fig. <ref type="figure" target="#fig_7">7c</ref>-e and Supplementary Fig. <ref type="figure" target="#fig_2">2f</ref>) and suppressed the formation of clusters consisting of &gt;800 STING molecules (Fig. <ref type="figure" target="#fig_7">7f</ref>).</p><p>We have recently developed a cell-free assay <ref type="bibr" target="#b46">47</ref> using recombinant TBK1 and microsomes harboring STING, so that we can examine whether STING is primed for the phosphorylation by TBK1. When microsomes were prepared from cells stimulated with DMXAA and used for the reaction, STING was phosphorylated <ref type="bibr" target="#b46">47</ref> (Fig. <ref type="figure" target="#fig_7">7g,</ref><ref type="figure">h</ref>). In contrast, STING was insufficiently phosphorylated when microsomes from cells pretreated with 25-HC or OSW-1 were used. Importantly, the treatment of the microsomes with cholesterol/methyl-β-cyclodextrin (MβCD) complex, not MβCD alone, restored the phosphorylation of STING. Lastly, we performed cholesterol add-back experiments in live cells. STING-KO MEFs stably expressing mEos4b-STING were pretreated with 25-HC or OSW-1, incubated with medium containing cholesterol-methyl-β-cyclodextrin complex for 3 h, and then stimulated with DMXAA for 60 min. As shown (Supplementary Fig. <ref type="figure">9d,</ref><ref type="figure">e</ref>), the cholesterol add-back to cells restored the formation of p-TBK1, p-STING, and p-IRF3.</p><p>In sum, these results (Fig. <ref type="figure" target="#fig_7">7</ref> and Supplementary Fig. <ref type="figure">9</ref>) suggested the role of cholesterol in the STING signaling and clustering.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The STING cluster colocalizes with cholesterol-enriched domains</head><p>The role of cholesterol in the STING signaling and clustering led us to examine the subcellular localization of cholesterol. To visualize cholesterol, we exploited a recently established cholesterol biosensor iD4H (derived from the Clostridium Perfringens theta-toxin) <ref type="bibr" target="#b47">48</ref> . Recombinant mNeonGreen-tagged iD4H bound to liposomes at which cholesterol exceeded 20% molar content (Supplementary Fig. <ref type="figure" target="#fig_1">10a,</ref><ref type="figure">b</ref>). In the resting state, mRuby3-STING localized at the ER and did not colocalize with puncta positive with mNeonGreen-iD4H (Fig. <ref type="figure" target="#fig_7">7i,</ref><ref type="figure">j</ref>). In contrast, after STING stimulation with DMXAA, mRuby3-STING, especially the one forming puncta at the Rab6 (a TGN protein)-positive area, partly colocalized with mNeonGreen-iD4H. We also noted the stimulation-dependent increase of the signal of mNeonGreen-iD4H at the Rab6-positive area (Fig. <ref type="figure" target="#fig_7">7k</ref>).</p><p>The increased signal of mNeonGreen-iD4H did not colocalize with lipid droplets visualized by Lipi-Blue (Supplementary Fig. <ref type="figure" target="#fig_1">11</ref>), suggesting that lipid droplet was not involved in the enhanced accumulation of mNeonGreen-iD4H at the TGN.</p><p>The treatment with OSW-1 suppressed the increase of mNeonGreen-iD4H at the Rab6-positive area (Supplementary Fig. <ref type="figure" target="#fig_1">10c,</ref><ref type="figure">d</ref>). The area of the Rab6-positive region was not affected with OSW-1 treatment (Supplementary Fig. <ref type="figure" target="#fig_1">10e</ref>). Intriguingly, palmitoylation inhibitors (2-BP and H-151) abolished the increase of the signal of mNeonGreen-iD4H at the Rab6-positive area (Fig. <ref type="figure" target="#fig_7">7i-k</ref>). These results indicated the STING palmitoylation drove the local accumulation of cholesterol in the cytosolic leaflet of the TGN membranes.</p><p>We also examined the subcellular distribution of cholesterol by filipin, a polyene macrolide antibiotic. As shown (Supplementary Fig. <ref type="figure" target="#fig_2">12</ref>), DMXAA stimulation did not increase the signal of filipin at the Rab6-positive area. Thus, the level of the cholesterol in the TGN membranes was not grossly affected by STING stimulation.</p><p>After STING stimulation, mNeonGreen-iD4H colocalized also well with TBK1-mScarletI (Supplementary Fig. <ref type="figure" target="#fig_1">10f</ref>). The treatment with OSW-1 partially suppressed the TBK1-positive puncta formation, which was also indicated by the remaining cytoplasmic signal of TBK1. The  colocalization of the TBK1-positive puncta with iD4H motivated us to examine the lipid order of the Golgi membranes. We observed that the TBK1-positive puncta showed a high value of the generalized polarization (GP) of di-4-ANEPPDHQ (movie S1). These results suggested that the membrane domains positive with TBK1 had high membrane rigidity or were highly ordered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The clustering of STING facilitates TBK1 recruitment</head><p>STING has long been assumed to act as a protein scaffold to recruit and activate TBK1 <ref type="bibr" target="#b48">49</ref> . To directly examine if the clustering of STING facilitates TBK1 recruitment from the cytosol, simultaneous dual-color livecell PALM and single-molecule imaging were performed. We observed that single molecules of TBK1-HaloTag7-SF650T molecules were transiently recruited to mEos4b-STING clusters after STING stimulation (Fig. <ref type="figure" target="#fig_8">8a-c</ref>, Supplementary Fig. <ref type="figure" target="#fig_1">1c</ref>, and movie S2). The lifetime of the colocalization durations of single-molecules of TBK1-HaloTag7-SF650T with STING clusters was determined as around 150 ms in DMXAA-stimulated cells (Fig. <ref type="figure" target="#fig_8">8d,</ref><ref type="figure">e</ref>). The result indicated that the large TBK1 clusters shown in Supplementary Fig. <ref type="figure" target="#fig_1">10f</ref> were formed by transient recruitment of TBK1 to STING clusters. Treatment of cells with H-151, which reduced the size of STING cluster (Fig. <ref type="figure" target="#fig_4">4c-f</ref>), significantly reduced it to 74 ms (Fig. <ref type="figure" target="#fig_8">8d,</ref><ref type="figure">e</ref>). Treatment of cells with MRT67307 (TBK1 inhibitor) <ref type="bibr" target="#b49">50</ref> reduced it to 92 ms (Fig. <ref type="figure" target="#fig_8">8d,</ref><ref type="figure">e</ref>), but did not affect the size of STING cluster (Supplementary Fig. <ref type="figure" target="#fig_3">13a,</ref><ref type="figure">b</ref>). STING (L373A) lacks the ability to bind TBK1 <ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> . STING (L373A) clustered as wild-type STING (Supplementary Fig. <ref type="figure" target="#fig_3">13b,</ref><ref type="figure">c</ref>), however, the lifetime of colocalization durations of TBK1 with clusters of STING (L373A) was very short and comparable to that of control (Fig. <ref type="figure" target="#fig_8">8d,</ref><ref type="figure">e</ref>).</p><p>We analyzed the numbers of STING molecules within 100 nm radius around TBK1-HaloTag7-SF650T spots and those around randomized TBK1 spots in silico. The histograms of the difference showed that the frequency of TBK1 recruitment (Fig. <ref type="figure" target="#fig_8">8f</ref>) and the density of STING around the TBK1 spots (Fig. <ref type="figure" target="#fig_8">8g</ref>) were significantly reduced after treatment of cells with H-151 or MRT67307, or in cells expressing STING (L373A).</p><p>These results suggested that the recruitment of TBK1 to STING was facilitated by a palmitoylation-dependent STING cluster growth, and that the phosphorylation of STING by TBK1, in turn, stabilizes the binding of TBK1 to STING clusters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>By in vitro and in silico analyses, STING is suggested to oligomerize in the presence of cGAMP <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref> , which may facilitate the activation of the STING signaling. However, these results do not explain the reason why TBK1/IRF3 activation occurs at the Golgi/TGN <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref> , not at the ER where STING binds cGAMP. On the basis of the present cellular data by single-molecule localization microscopy, we propose a model underlying STING activation at the TGN (Fig. <ref type="figure" target="#fig_8">8h</ref> and Supplementary Fig. <ref type="figure" target="#fig_3">13d</ref>): Binding of cGAMP to STING dimer induces conformational change and/or oligomerization of STING <ref type="bibr" target="#b56">57</ref> , which allows STING to translocate from the ER to cis-Golgi network. STING further translocates to the TGN along the exocytic membrane flow, during which STING undergoes palmitoylation <ref type="bibr" target="#b25">26</ref> . At the TGN, STING clusters with the aid of the palmitoyl groups on Cys88 and Cys91 on STING (Fig. <ref type="figure" target="#fig_4">4</ref>), cholesterol (a lipid directly transported from the ER to the TGN by lipid-transfer proteins <ref type="bibr" target="#b57">58</ref> (Fig. <ref type="figure" target="#fig_7">7</ref>), and sphingomyelin (a lipid synthesized at the TGN) <ref type="bibr" target="#b38">39</ref> (Fig. <ref type="figure" target="#fig_6">6</ref>). Palmitoylation of STING drove the local accumulation of cholesterol in the cytosolic leaflet of the TGN membranes (Fig. <ref type="figure" target="#fig_7">7</ref>), which may further facilitate STING clustering given the affinity of palmitoylated proteins and raft lipids <ref type="bibr" target="#b58">59</ref> .</p><p>By the analysis of the durations and frequencies of colocalization of TBK1 with STING (Fig. <ref type="figure" target="#fig_8">8</ref>), we suggested that STING clustering facilitated TBK1 recruitment. The advantage of STING clustering in TBK1 recruitment may be explained as follows: Once TBK1 is detached from STING, there are other TBK1-free STING molecules around, in addition to the STING molecule that TBK1 originally binds to. Thus, STING clustering increases the encounter probability of TBK1 and STING. Clustering of STING may also be beneficial for TBK1 activation because two TBK1 dimers need to be placed close each other for autophosphorylation/autoactivation.</p><p>We noted that p-TBK1 was less affected in the conditions where the Golgi cholesterol was reduced (Fig. <ref type="figure" target="#fig_7">7a,</ref><ref type="figure">b</ref>). In contrast, p-TBK1 was severely reduced in the conditions where palmitoylation of STING was inhibited (Fig. <ref type="figure" target="#fig_4">4a,</ref><ref type="figure">b</ref>). We assume that orientation of individual STING molecules in the small STING cluster may differ in the two conditions. In cholesterol-depleted conditions, even a small STING cluster may accommodate two TBK1 dimers simultaneously, thus still facilitating autophosphorylation of TBK1. In contrast, a small cluster that palmitoylation-deficient STING forms may not accommodate two TBK1 dimers.</p><p>The TGN functions as the central hub for secretory cargo protein sorting and trafficking to the plasma membrane <ref type="bibr" target="#b59">60</ref> . A number of studies have established a cholesterol-and/or sphingolipid-based system for cargo sorting and membrane-carrier biogenesis at the TGN <ref type="bibr" target="#b60">61</ref> . In the present study, we showed that a cholesterol-based system at the TGN operated also in triggering the innate immunity signaling. By exploiting a cholesterol biosensor and an environmentally sensitive probe for lipid membranes, we further demonstrated that cholesterol generated a specific membrane domain, or a liquid-ordered domain, in which palmitoylated STING formed clusters to activate TBK1 at the TGN. Our results provided direct evidence of the generation of liquid-ordered lipid microdomain in the TGN, which was originally postulated as "lipid raft" by Simons' group 26 years ago <ref type="bibr" target="#b61">62</ref> . Our results also endorsed in vitro observations that palmitoylation of proteins increased the affinity to liquid-ordered phase <ref type="bibr" target="#b38">39</ref> .</p><p>STING activates a wide array of innate immune and proinflammatory genes in addition to the type I interferons. However, the significance of the activation of these genes remains mostly elusive. One example is cholesterol 25-hydroxylase (CH25H) <ref type="bibr" target="#b62">63</ref> , which metabolizes cholesterol to 25-HC <ref type="bibr" target="#b63">64</ref> . Given the inhibitory effect of 25-HC on the STING signaling, the induction of CH25H in response to STING activation may contribute to the homeostasis of the STING signaling. Of note, knockdown of CH25H in B16 melanoma cells enhanced the STING signaling (Supplementary Fig. <ref type="figure" target="#fig_4">14</ref>), suggesting the causal link between the STING signaling and CH25H/25-HC.</p><p>H-151, a small-molecule inhibitor that suppresses STING palmitoylation on Cys91, has been developed <ref type="bibr" target="#b37">38</ref> . Given the success of The P-values (Welch's t-test, both-sided) were less than the significance levels corrected by the Holm-Sidak method. g Scheme of TBK1-dependent phosphorylation of STING in vitro. h TBK1-knockout MEFs were pretreated with (top) 25-HC (30 µM) for 16 h or (bottom) OSW-1 (0.125 nM) for 6 h, followed by stimulation with DMXAA for 60 min. The membrane fraction of the cells was collected by ultracentrifugation. The resuspended membrane fraction was incubated with cholesterol-methyl-β-cyclodextrin complex (chol/MβCD) or only methyl-β-cyclodextrin (MβCD), followed by incubation with recombinant TBK1 and ATP. Phosphorylation of STING at Ser365 was then analyzed by western blot. i, j Sting -/-MEFs stably expressing mRuby3-STING (magenta), mNeonGreen-iD4H (yellow), and HaloTag7-Rab6 (cyan) were pretreated with (i) 2-BP (200 µM) for 4 h or (j) H-151 (10 µM) for 2 h, and then stimulated with DMXAA for 60 min. Cells were fixed, permeabilized, and stained with HaloTag SaraFluor 650 T Ligand and with DAPI (blue). k The fluorescence intensity of mNeonGreen-iD4H within the Rab6-positive region in cells observed in (i and j) was quantified. Data are presented in box-and-whisker plots with the minimum, maximum, sample median, first versus third quartiles and whiskers extend to a maximum of 1.5× interquartile range beyond the box. The data were statistically analyzed by performing one-way analysis of variance followed by Tukey-Kramer post hoc test for multiple comparisons. The sample size (n) represents the number of cells examined over 3 independent experiments. NS, not significant. Scale bars, 5 µm (c) and 10 μm (i and j). Source numerical data and unprocessed blots are available in source data.</p><p>H-151 in quelling a variety of the STING-mediated inflammatory responses in animal models and the critical roles of the STING clustering in the STING signaling <ref type="bibr" target="#b64">65</ref> , the interference of the cellular cholesterol levels in particular, and ideally the ones in the TGN, may also provide a strategy to treat the STING-mediated inflammatory diseases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antibodies</head><p>Antibodies used in this study were as follows: rabbit anti-STING (19851-1-AP, dilution 1:1000) and rabbit anti-calnexin (10427-2-AP, dilution 1:1000) (Proteintech); rabbit anti-phospho-STING (D8F4W, dilution 1:1000 for western blot), rabbit anti-phospho-TBK1 (D52C2, dilution 1:1000), rabbit anti-IRF3 (D83B9, dilution 1:1000), and rabbit antiphospho-IRF3 (4D4G, dilution 1:1000) (Cell Signaling Technology); rabbit anti-TBK1 (ab40676, dilution 1:1000) (Abcam); mouse anti-αtubulin (10G10, dilution 1:1000) and mouse anti-FLAG (1E6, dilution 1:1000) (Wako); mouse anti-CH25H (J2617, dilution 1:100; Santa Cruz); Goat anti-Rabbit IgG (H + L) Mouse/Human ads-HRP (4050-05, dilution 1:10,000) and Goat anti-Mouse IgG (H + L) Human ads-HRP (1031-05, dilution 1:10,000) (SouthernBiotech); sheep anti-TGN38 (AHP499G, dilution 1:200) (Bio-Rad); mouse anti-GM130 (610823, dilution 1:4000) (BD Biosciences); Alexa 568-, 594-, or 647-conjugated secondary antibodies (A10037, A11016, A21448, dilution 1:1000) (Thermo Fisher Scientific).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reagents</head><p>The following reagents were purchased from the manufacturers as noted: DMXAA (14617, Cayman); di-4-ANEPPDHQ (D36802, Thermo Fisher Scientific); HaloTag® SaraFluor TM 650 T Ligand (A308-02, Goryo Chemical, Inc.), HaloTag® SaraFluor TM 650B Ligand (A201-01, Goryo Chemical, Inc.), D-ceramide-C6 (62525, Cayman); L-ceramide-C6 (24388, Cayman); MRT67307 (19916, Cayman); 2-Bromopalmitate (320-76562, Wako); HT-DNA (D6898, Sigma); Filipin III (70440, Cayman); 25-hydroxycholesterol (11097, Cayman); OSW-1 (30310, Cayman); Cholesterol, Water Soluble (C4951, Sigma); Dioleoyl phosphatidylcholine (850375, Avanti Polar Lipids); Cholesterol (C8667, Sigma); Lipi-Blue (LD01, DOJINDO). DMXAA was routinely used at 25 µg mL -1 throughout the present study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PCR cloning</head><p>N-terminal mNeonGreen-, mRuby3-, or mEos4b-tagged mouse STING (NM_028261) was introduced into pMXs-IPuro. C-terminal HaloTag7tagged mouse TBK1 (NM_019786), mouse GM130 (NM_001080968.2), mouse TfnR (Transferrin Receptor) (NM_011638.4), or mouse TGN38 (NM_009443.3) was introduced into pMXs-IBla. C-terminal mScarletItagged human TBK1 (NM_013254) was introduced into pMXs-IBla. Nterminal HaloTag7-tagged mouse Rab6a (NM_024287) or mouse Rab11a (NM_017382.5) was introduced into pMXs-IHyg. C-terminal FLAG-tagged mouse α-COP (NM_009938.4) was introduced into pMXs-IBla. The cDNA plasmid encoding N-terminal mEos4b-tagged mouse cavin1 (NM_008986.2) was produced by replacing GFP in the pEGFP-C1 vector (addgene, #68401) with mEos4b.</p><p>The iD4H (D4 Y415A/D434S/A463W ) mutant fragment was generated by the standard two-step PCR mutagenesis technique using pCold I-GFPenvy-D4H (D4 D434S ) <ref type="bibr" target="#b65">66</ref> as a template. The iD4H fragment was introduced into pMXs-IBla. To construct E. coli expression vector, mNeonGreen-iD4H fragment was amplified by PCR using pmNeonGreen-iD4H as a template and cloned into pCold I (Takara Bio, Shiga, Japan).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture</head><p>MEFs were cultured in DMEM supplemented with 10% fetal bovine serum (FBS) and penicillin/streptomycin/glutamine (PSG) in a 5% CO 2 incubator. MEFs that stably express tagged proteins were established using retrovirus. Plat-E cells were transfected with pMXs vectors, and the medium that contains the retrovirus was collected. MEFs were incubated with the medium and then selected with puromycin (2 µg mL -1 ), blasticidin (5 µg mL -1 ), or hygromycin (400 µg mL -1 ) for several days. STING/TBK1-or STING/cGAS-double knockout MEFs were generated by CRISPR-Cas9 system <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b24">25</ref> . Human prostate cancer (PC3; ATCC, CRL-1435) cells were cultured in HAM's F12 supplemented with 10% FBS, 100 μ/ml penicillin, and 100 μg/ml streptomycin in a 5% CO2 incubator.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunocytochemistry</head><p>Cells were fixed with 4% paraformaldehyde (PFA) in PBS at room temperature for 15 min and permeabilized with 0.1% Triton X-100 in PBS at room temperature for 5 min. After blocking with 3% BSA in PBS, cells were incubated with primary antibodies. After washing with PBS three times, cells were then incubated with the secondary antibody at room temperature for 60 min, washed, and mounted with ProLong™ Glass Antifade Mountant (P36982, Thermo Fisher Scientific).</p><p>For cholesterol staining, cells were fixed with 4% paraformaldehyde in PBS at room temperature for 15 min. After permeabilization by freeze-thawing with liquid nitrogen, cells were incubated with filipin III (50 µg mL -1 ) at room temperature for 30 min. For HaloTag7 staining, cells were fixed with 4% paraformaldehyde in PBS at room temperature for 15 min, and incubated with HaloTag® SaraFluor 650 T Ligand (1 µM) at room temperature for 30 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fixed-cell imaging with confocal microscopy</head><p>Cells were seeded on coverslips (13 mm No.1 S, MATSUNAMI) the day before fixation. Confocal microscopy was performed using a LSM880 with Airyscan (Zeiss) with a 63 × 1.4 Plan-Apochromat oil immersion lens or 100 × 1.46 alpha-Plan-Apochromat oil immersion lens. Images were analyzed and processed with Zeiss ZEN 2.3 SP1 FP3 (black, 64-bit) (ver. 14.0.21.201) and Fiji (ver. 2.0.0-rc-69/1.52p). Pearson's correlation coefficient was quantified by BIOP JACoP in Fiji plugin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Live-cell imaging with confocal microscopy</head><p>Live-cell imaging was performed using LSM880 with Airyscan (Zeiss) equipped with a 100 × 1.46 alpha-Plan-Apochromat oil immersion lens and Immersol TM 518 F/37 °C (444970-9010-000, Zeiss). The day before imaging, cells were seeded on a glass bottom dish (627870, Greiner bio-one) with growth medium without phenol red. During live-cell imaging, the dish was mounted in a chamber (STXG-WSKMX-SET, TOKAI HIT) to maintain the incubation conditions at 37 °C and 5% CO 2 . The PALM image of STING clusters after DMXAA stimulation was superimposed with the image of single molecules of TBK1 in the steady-state cells, and the colocalization lifetime was estimated. n indicates the number of colocalizations between STING clusters and single molecules of TBK1HaloTag7-SF650T. e The colocalization lifetimes in (d). Data are presented as mean ± SEM. The P-values (logrank test) in the comparison of colocalization lifetimes before and after treatment with H-151 or MRT67307, were less than the significance levels corrected by the Holm-Sidak method, whereas that of L373A mutant was not significantly different from the control. f (top) Distribution of the numbers of STING molecules within 100 nm radius around TBK1 spots (black bars) and those around randomized TBK1 spots in silico (magenta bars). Event numbers were normalized by the observation periods and areas. (bottom) The histograms show the difference between black bars and magenta bars in the top row. The number in the graphs indicates the summation of the differences in the range showing the continuous positive values. g The average number of STING molecules in the range showing continuous positive values of the difference in the bottom row in (f). Data are presented as mean ± SEM. The P-values (Welch's t-test, both-sided) were less than the significance levels corrected by the Holm-Sidak method. h A graphical abstract illustrating cholesterol-and palmitoylation-dependent STING clustering at the TGN. Source numerical data are available in source data.</p><p>Images were acquired at intervals of 6 s, analyzed and Airyscan processed with Zeiss ZEN 2.3 SP1 FP3 (black, 64 bit) (ver. 14.0.21.201) and Fiji (ver. 2.0.0-rc-69/1.52p). For HaloTag7 staining before live-cell imaging, cells were cultured in medium containing HaloTag7 ligand at 37 °C for 30 min in a 5% CO 2 incubator.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In vitro assay of recombinant TBK1-dependent phosphorylation of STING</head><p>Cells were collected in an ice-cold buffer (50 mM Tris-HCl pH 7.4, 100 mM NaCl, 1 mM EGTA, 2 mM DTT, 200 mM sucrose) containing protease inhibitors (25955-11, nacalai tesque), and phosphatase inhibitors (8 mM NaF, 12 mM β-glycerophosphate, 1 mM Na 3 VO 4 , 1.2 mM Na 2 MoO 4 , 5 μM cantharidin, and 2 mM imidazole), homogenized with 2 passages through a 27-gauge needle after 6 passages through a 23gauge needle and centrifuged at 3000 × g for 5 min at 4 °C. The postnuclear supernatant was overlaid on 10 μL of 2 M sucrose and centrifuged at 100,000 × g for 1 h at 4 °C. The membrane fractions were resuspended in a buffer (50 mM Tris-HCl pH 7.4, 100 mM NaCl, 1 mM EGTA, 2 mM DTT, 200 mM sucrose, 20 mM MgCl 2 , protease inhibitors, and phosphatase inhibitors), and incubated with ATP (1 mM) and recombinant TBK1 (100 ng) at 37 °C for 30 min. The samples were then subjected to SDS-PAGE and phosphorylation of STING was detected by western blot.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Liposome co-sedimentation assay</head><p>Recombinant mNeonGreen-iD4H protein was expressed in E. coli and purified with Ni-NTA (Qiagen) according to the manufacturer's protocol <ref type="bibr" target="#b66">67</ref> . Lipid mixtures (Dioleoyl phosphatidylcholine and cholesterol) were dried under nitrogen gas and hydrated in buffer A (20 mM HEPES-NaOH (pH 7.4), 100 mM sucrose, 100 mM KCl, and 1 mM EDTA) for 15 min at room temperature, and vortexed briefly. mNeonGreen-iD4H recombinant protein was diluted with HEPES Buffered Saline, incubated with the liposomes in buffer A for 30 min at 30 °C. The mixture was centrifuged at 20,000 x g for 30 min at 25 °C. The resultant supernatant was collected, and the pellet was washed twice with buffer A. The pellet was then subjected to SDS-PAGE and Coomassie Brilliant Blue (CBB) Staining.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement of lipid order using di-4-ANEPPDHQ</head><p>Cells were incubated with di-4-ANEPPDHQ (1 µg mL -1 ) in DMEM at 37 °C for 30 min followed by image acquisition. All images for di-4-ANEPPDHQ were acquired on LSM880 (Zeiss) with a 488 nm Ar laser and a 633 nm He-Ne laser line using a 63 × 1.4 Plan-Apochromat oil immersion lens. di-4-ANEPPDHQ was excited at 488 nm, and the emissions were captured at the following manual bandwidth settings of the spectral detection channel: Ch-L, 505-530 nm; and Ch-H, 675-700 nm. The SaraFluor TM 650 T was excited at 633 nm and detected with the spectral detector at 670-750 nm. di-4-ANEPPDHQ intensity images were converted into generalized polarization (GP) images <ref type="bibr" target="#b40">41</ref> , with each pixel calculated in Fiji from the two di-4-ANEPPDHQ intensity images according to the equation: GP = (I Ch-L -I Ch-H ) / (I Ch-L + I Ch-H ). GP values in the Golgi area or TBK1 foci were obtained by using binarized images of HaloTag7-Rab6 or TBK1-HaloTag7 generated by Trainable Weka Segmentation, a machine learning tool for microscopy pixel classification in Fiji plugin. GP values in the cytoplasm without plasma membrane were obtained by measuring the mean of GP values in a region 2 µm inside the cell edge.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>qRT-PCR</head><p>Total RNA was reverse-transcribed by using ReverTraAce qPCR RT Master Mix with gDNA Remover (TOYOBO). Quantitative real-time PCR (qRT-PCR) was performed using KOD SYBR qPCR (TOYOBO) and LightCycler 96 (Roche). The sequences of the primers were as follows. 5'-AGTGCTGCCGTCATTTTCTGCCTC-3' (mouse Cxcl10; sense primer) and 5'-GCAGGATAGGCTCGCAGGGATGATT-3' (mouse Cxcl10; antisense primer); 5'-AGGTCGGTGTGAACGGATTTG-3' (mouse Gapdh; sense primer) and 5'-TGTAGACCATGTAGTTGAGGTCA-3' (mouse Gapdh; antisense primer). Target gene expression was normalized based on Gapdh content.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lipid analysis</head><p>Cells were collected in an ice-cold buffer (50 mM Tris-HCl pH 7.4, 100 mM NaCl, 1 mM EGTA, 2 mM DTT, 200 mM sucrose) containing protease inhibitors (25955-11, nacalai tesque), and phosphatase inhibitors (8 mM NaF, 12 mM β-glycerophosphate, 1 mM Na 3 VO 4 , 1.2 mM Na 2 MoO 4 , 5 µM cantharidin, and 2 mM imidazole), homogenized with 2 passages through a 27-gauge needle after 6 passages through a 23gauge needle, and centrifuged at 3000 × g for 5 min at 4 °C. The postnuclear supernatant was overlaid on 10 µL of 2 M sucrose and centrifuged at 100,000 × g for 1 h at 4 °C. Total lipids were extracted by the Bligh and Dyer method <ref type="bibr" target="#b67">68</ref> . To detect cholesterol, lipid extracts were subjected to high-performance TLC (Merck) separation with hexane/ diethyl ether/ acetic acid (80:20:1, vol:vol:vol). Cholesterols were stained with a mixture of ferric chloride/sulfuric acid/acetic acid by heating <ref type="bibr" target="#b68">69</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA interference</head><p>siRNA specific to Ch25h (Ch25h Stealth Select RNAi) purchased from Thermo Fisher Scientific. Negative control siRNA was purchased from Dharmacon. A total of 5 nM siRNA was introduced to cells using Lipofectamine RNAiMAX (Invitrogen) according to the manufacturer's instruction. Cells were further incubated for 72 h for subsequent experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cholesterol add-back experiments</head><p>Cells were incubated with medium containing cholesterol-methyl-βcyclodextrin complex (Chol/MβCD) (3.9 mM) for 3 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Error bars displayed in bar plots throughout this study represent s.e.m. unless otherwise indicated and were calculated from triplicate or quadruplicate samples. In box-and-whisker plots, the box bounds the interquartile range (IQR) divided by the median, and whiskers extend to a maximum of 1.5 × IQR beyond the box. The corresponding data points are overlayed on the plots. The data were statistically analyzed by performing one-way ANOVA followed by Tukey-Kramer post hoc test with KNIME (4.6.3) and R (4.0.2).</p><p>The number of STING molecules per cluster and the number of STING molecules within 100 nm radius around TBK1 spots were statistically analyzed by performing Welch's t-test (both-sided). In cases requiring multiple statistical tests, the significance level was corrected by the Holm-Sidak method.</p><p>When the histogram of colocalization durations was fitted with a single exponential decay function, the 68.3% confidence limit was given as the fitting error for the decay time. The statistical analysis for these distributions was performed using log-rank test (statistical survival analysis). The significance level was corrected by the Holm-Sidak method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data acquisition of live-cell PALM of mEos4b-STING or mEos4b-cavin1</head><p>For live-cell PALM observation of mEos4b-STING, MEFs were sparsely seeded in a glass-base dish (4 × 10 3 cells on the glass window of 12 mm in diameter, 0.15-mm-thick glass; Iwaki), and grown in DMEM without phenol red supplemented with 10% FBS for 2 days before each experiment. The data acquisitions of PALM of mEos4b-STING were performed at 37 °C and at a video rate (33 ms/frame) or 5 ms/frame for 5400 frames with an image size of 1024 × 1024 pixels or 512 × 512 pixels, respectively, using an Olympus IX-83 inverted microscope (100 × 1.50 NA oil objective) equipped with a high-speed gate image intensifier (C9016-02MLG; Hamamatsu Photonics) coupled to an sCMOS camera (OCRA-Flash4.0 V2; Hamamatsu Photonics). mEos4b-STING molecules in cells were illuminated with the oblique-angle illumination mode using an activation laser (405 nm, approximately 4 nW/µm 2 and 20 nW/µm 2 for observation at 33 ms/frame and 5 ms/frame, respectively) and an excitation laser (561 nm, approximately 7 µW/µm 2 and 14 µW/µm 2 for observation at 33 ms/frame and 5 ms/frame, respectively). The single-molecule localization precision of mEos4b was 20 ± 1 nm. The final magnifications were 133×, resulting in pixel sizes of 47.1 nm (square pixels).</p><p>For live-cell PALM observation of mEos4b-cavin1, PC3 cells were transfected with cDNA encoding mEos4b-cavin1 by 4D-nucleofector (LONZA) and the cells were sparsely seeded in a glass-base dish, and grown in HAM/F12 with 10% FBS for 2 days before observation. The data acquisitions of PALM of mEos4b-cavin1 were performed at 37 °C and at a video rate (33 ms/frame) with an image size of 1024 × 1024 pixels. Single mEos4b-cavin1 molecules in cells were observed by total internal reflection microscopy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In vitro blinking observation of immobilized mEos4b and analysis</head><p>For correction of multiple blinking of mEos4b, we observed in vitro blinking and photoactivation behaviors of purified mEos4b. mEos4b gene was cloned in the pET15b plasmid, transformed in E coli, BL21 (DE3) to overexpress proteins, and mEos4b was purified using a His60 Ni Superflow Cartridge Purification Kit (Clontech), followed by a gelfiltration step using a PD-10 column (Cytiva). The purified mEos4b was diluted to 5 nM in a solution of 1% polyvinyl alcohol (PVA, nacalai tesque) in HBSS (pH = 7.4). Then, 150 µl of the mEos4b solution was placed in a glass window of the glass base dish and was incubated for 1 h at room temperature to form a uniform thin layer. After washing with HBSS, 1 ml HBSS was added to the dish.</p><p>The blinking and photoactivation behaviors of mEos4b molecules were observed under the same laser illumination condition as that in cells. As shown in Fig. <ref type="figure" target="#fig_1">1b</ref>, we observed single mEos4b molecule emission trace, and measured the number of times mEos4b blinks &lt;N blink &gt; before a photobleaching event, the fluorescence-on time (T on ) before the molecule goes into the dark state or it photobleaches, the fluorescence-off time (T off ) or the time the molecule spends in the dark state as previously reported <ref type="bibr" target="#b26">27</ref> . The estimation of these parameters from the obtained images of mEos4b immobilized in PVA was performed by using the GDSC SMLM plugin of ImageJ (Time threshold was set to 2.5 s). The histogram of relationship between &lt;N blink &gt; and the probability was fitted by the predicted geometric distribution;</p><formula xml:id="formula_0">PðN blink = nÞ = h n ð1 À hÞ ð<label>1Þ</label></formula><p>where h = k d /(k d +k b ) is the probability of transition to the dark state and k d and k b are the rates of transition to the dark and the photobleach states, respectively (Fig. <ref type="figure" target="#fig_1">1d</ref>). The histogram of relationship between T on and probability density function (PDF) was fitted with single exponential decay function, providing k b + k d (Fig. <ref type="figure" target="#fig_1">1e</ref>). N blink (= k d /k b ) was estimated from these values.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of images obtained by super-resolution microscopy</head><p>The detection of the fluorescent spots in the images was performed by using the ThunderSTORM plugin of ImageJ with "Wavelet filtering" (B-Spline order = 6 and B-Spline scale = 6.0) and the "Local maximum method" (Peak intensity threshold = 30-50 and Connectivity = 8neighborhood). After spot detection, the post-processing steps of "Remove duplications" (Distance threshold = uncertainty) and "Drift correction" (cross-correlation with 5 bins) were further performed. Several methods for PALM image segmentation have been proposed, but which method is the most appropriate is under debate and depends on characteristics of the objects of observation such as molecular density, cluster size, and the ratio of molecules in clusters to those in bulk phase, etc <ref type="bibr" target="#b31">32</ref> . For example, a pair-correlation method identifies molecular interactions inside clusters by analyzing distance correlation between localizations, but this method does not give us the number and position of clusters, and can be applied only to small clusters of relatively homogenous sizes. Density based spatial clustering analysis with noise (DBSCAN), which allows the classification of molecules in clusters, is known to be sensitive to background noise and difficult to parameterize experimentally. In the present study, we employed two kinds of ways for the image segmentation to detect mEos4b-STING clusters, kernel density estimation (KDE) and SR-Tesseler. In these methods, image segmentation is performed directly from the localization coordinates, which is applicable for the analysis of clusters of heterogenous size, and insensitive to background noise. Furthermore, these methods can be applicable to a wide range of the objects of observation <ref type="bibr" target="#b31">32</ref> . SR-Tessler 34 is one of the most frequently used methods for PALM image segmentation. Meanwhile, KDE <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b69">70</ref> is a traditional image segmentation method and can rapidly determine the criterion for segmenting PLAM images as reported previously <ref type="bibr" target="#b70">71</ref> and described below. KDE provides a way to interpolate object boundaries without bias by the random fluctuations of activated boundary fluorophores. In this study, the binarized PALM images of STING clusters were used for estimation of the residency time of single-molecules of TBK1-HaloTag7 inside the STING clusters upon stimulation (Fig. <ref type="figure" target="#fig_8">8d,</ref><ref type="figure">e</ref>).</p><p>The datasets obtained by Thunderstorm were imported to the KDE software (MATLAB) for the cluster analysis and the image reconstruction. We used not only localization coordinates, but also uncertainty outputted by Thunderstorm, which represents the degree of spatial precision of the spot. Let x i ,y i , and u i ,i = 1,2, Á Á Á ,N be the horizontal and vertical localization coordinates and uncertainty of spot i, respectively. N represents the total number of spots. Considering the uncertainty of the location measurement of spot i, it is considered that the existence probability p i x,y ð Þ of the spot i spreads to the Gaussian distribution with the center coordinate x i ,y i and the standard deviation (S.D.) that is proportional to the uncertainty u i as follows:</p><formula xml:id="formula_1">p i x,y ð Þ= 1 2πðAu i Þ 2 e À ðxÀx i Þ 2 + ðyÀy i Þ 2 2ðAu i Þ 2<label>ð2Þ</label></formula><p>in which, A is the proportional coefficient of S.D. to the uncertainty u i ; that is estimated as A≈6 by some preliminary experiments. Gaussian distribution constructing each existence probability p i x,y ð Þ is called Gaussian kernel. The existence probability distribution for all spots, i.e., the PALM image is obtained by the average of the existence probability distribution p i x,y ð Þ as</p><formula xml:id="formula_2">p x,y ð Þ= 1 N X N i = 1 p i x,y ð Þ<label>ð3Þ</label></formula><p>excluding spots having extremely small or large uncertainty u i because such spots are likely to be noise. It can be considered that clusters exist where the PALM image, which represents the cluster existence probability distribution, takes above a certain threshold value θ because the spots appear uniformly inside the clusters with a certain probability. It is necessary to appropriately determine the optimal threshold value θ for each obtained PALM image because the optimal value differs depending on the target molecule and the experimental environments. In general, the histogram of pðx,yÞ values for all x,y forms a bimodal shape consisting of both larger values created by dense spots appeared in clusters and smaller values created by sporadic noise. Therefore, the threshold value θ should be determined so as to separate these two clusters. Otsu's method is well known as a method for determining such a threshold value <ref type="bibr" target="#b71">72</ref> . Let S in and S out be sets of coordinates ðx,yÞ where pðx,yÞ ≥ θ and p x,y ð Þ&lt;θ, respectively. The sets S in and S out mean the inside and outside of clusters, respectively. The number of elements of the sets S in and S out are respectively represented by N in and N out . The intra-class variances of the sets S in and S out are calculated by</p><formula xml:id="formula_3">σ 2 S in Â Ã = 1 N in X x,y ð Þ2S in p x,y ð Þ<label>ð4Þ</label></formula><formula xml:id="formula_4">σ 2 S out Â Ã = 1 N out X x,y ð Þ2S out p x,y ð Þ<label>ð5Þ</label></formula><p>The average of these intra-class variances is</p><formula xml:id="formula_5">σ 2 S in ,S out Â Ã = N in σ 2 S in Â Ã + N out σ 2 S out Â Ã N in + N out<label>ð6Þ</label></formula><p>The Otsu's method determines the optimal threshold value θ so as to minimize the average of the intra-class variances σ 2 S in ,S out Â Ã as follows:</p><formula xml:id="formula_6">θ = arg min θ σ 2 ½S in , S out<label>ð7Þ</label></formula><p>In this study, the clusters are determined using the above Otsu's method.</p><p>Alternatively, the dataset obtained by Thunderstorm was also imported to the SR-Tesseler software for the cluster analysis and image reconstruction <ref type="bibr" target="#b33">34</ref> . Cluster contour detection was performed by using a Voronoi polygon density factor of 2 without correction of blinking and multi-ON frame detections by the"Detection cleaner" function (within the whole ROI).</p><p>Multiple blinking effects were corrected by two methods. One of them is the most commonly used method to merge events that appear close in space and time which is referred to as dark-time thresholding (DTT) <ref type="bibr" target="#b26">27</ref> . To estimate the numbers of mEos4b-STING in clusters, the numbers of localizations in clusters obtained by the KDE or SR-Tesseler method were divided by 1 + &lt;N blink &gt; , which is the number of localizations per one mEos4b molecule (2.7 for observation at 33 ms/ frame and 2.9 for observation at 5 ms/frame observation). The previous study demonstrated <ref type="bibr" target="#b26">27</ref> that this method accomplishes unbiased counting of molecules in clusters.</p><p>DTT has been most commonly used for the correction of multiple-blinking, but we need to assume that the blinking behaviors of isolated mEos4b are maintained also in cells. Therefore, to validate the STING numbers per cluster, we also corrected multiple-blinking artifacts by another method, using the PALM dataset and the parameters of a realistic model of fluorescent protein photophysics, which was recently reported and referred to as model-based correction (MBC) <ref type="bibr" target="#b34">35</ref> . MBC requires neither user input nor additional calibration data.</p><p>Using two methods of PALM image segmentation (KDE and SR-Tesseler) and two methods of multiple-blinking correction (division by 1 + &lt;N blink &gt; and MBC), we estimated averaged numbers of mEos4b-STING in clusters by three ways. Namely, we performed PALM image segmentation and multiple-blinking correction in the following three ways; (1) The number of localizations segmented by KDE was divided by 1 + &lt;N blink &gt; , (2) The number of localizations segmented by SR-Tesseller was divided by 1 + &lt;N blink &gt; , (3) mEos4b-STING spots corrected by MBC was segmented by SR-Tessler.</p><p>Simultaneous dual-color observation of live-cell PALM of mEos4b-STING and dSTORM of GM130-HaloTag7, TGN38-Halo-Tag7, TfnR-HaloTag7 or HaloTag7-Rab11 and coordinate-based colocalization analysis of PALM and dSTORM data Simultaneous data acquisitions of live-cell PALM of mEos4b-STING and dSTORM of GM130-HaloTag7 (a CGN protein), TGN38-HaloTag7 (a TGN protein), TfnR-HaloTag7 (an endosome protein) or HaloTag7-Rab11 (an endosome protein) were performed at 5 ms resolution and at 37 °C. The data acquisition of PALM of mEos4b-STING was performed as described in the method section of "Data acquisition of live-cell PALM of mEos4b-STING". For live-cell dSTORM of GM130-HaloTag7, TGN38-HaloTag7, TfnR-HaloTag7 or HaloTag7-Rab11, these molecules expressed in cells and labeled with SaraFluor650B (SF650B) were illuminated with the oblique-angle illumination mode using an excitation laser (647 nm, approximately 16 µW/µm 2 ). In the excitation arm, a multiple-band mirror (ZT405/488/561/647rpc, Chroma) was employed. The two-color fluorescence images of mEos4b and SF650B were separated into the two detection arms of the microscope by a dichroic mirror (Chroma: ZT561rdc-xr-UF2 or ZT647rdc-UF2). The detection arms were equipped with band-pass filters of FF01-600/37-25 (Semrock) or ET700/75 (Chroma), and the data acquisitions of PALM/dSTROM were performed at 5 ms/frame with an image size of 512 × 512 pixels, using two high-speed gate image intensifiers (C9016-02MLG; Hamamatsu Photonics) coupled to two sCMOS cameras (OCRA-Flash4.0 V2; Hamamatsu Photonics). The superimposition of images in different colors obtained by two separate cameras was performed as reported previously <ref type="bibr" target="#b72">73</ref> .</p><p>To quantitatively analyze the degree of colocalization between mEos4b-STING and GM130-HaloTag7-SF650B, TGN38-HaloTag7-SF650B, TfnR-HaloTag7-SF650B, or SF650B-HaloTag7-Rab11, we performed coordinate-based colocalization (CBC) analysis of PLAM and dSTORM data according to ref. 36. with modification. Briefly, to estimate CBC values, for each molecule of protein A, the number of localizations of protein A (mEos4b-STING) and protein B (GM130-HaloTag7-SF650B, TGN38-HaloTag7-SF650B, TfnR-HaloTag7-SF650B, or SF650B-HaloTag7-Rab11) within circles of the increasing radius was calculated, respectively, providing the density gradients of localizations of protein A and protein B around this molecule.</p><formula xml:id="formula_7">D Ai,A ðrÞ = N Ai,A<label>ðrÞ</label></formula><formula xml:id="formula_8">πr 2 × πR 2 max N Ai,A ðR max Þ = N Ai,A ðrÞ N Ai,A ðR max Þ × R 2 max r 2<label>ð8Þ</label></formula><formula xml:id="formula_9">D Ai,B ðrÞ = N Ai,B ðrÞ N Ai,B ðR max Þ × R 2 max r 2<label>ð9Þ</label></formula><p>Here, N Ai,A (r) is the number of localization of protein A within the distance r around protein Ai, and N Ai,B (r) is the number of localization of protein B within the distance r around Ai. Then, these density gradients were corrected for the area (πr 2 ), normalized by the number of localizations within the largest observed distance R max and divided by the largest area for protein A (</p><formula xml:id="formula_10">N Ai,A ðR max Þ πR 2 max</formula><p>) and protein B (</p><formula xml:id="formula_11">N Ai,B ðR max Þ πR 2 max ).</formula><p>Namely, the density gradients were corrected by the density at the maximum radius respectively for protein A and protein B. R max and dR (the bin of radius for analysis) were set at 500 nm and 50 nm, respectively, and if both the number of localizations of protein A and that of protein B were less than 50 (= R max dR × 5) in a circle with R max , CBC values were not calculated because the density gradients cannot be accurately calculated. A uniform distribution gives an expected value of D(r) = 1 for all r.</p><p>The two distributions were compared by calculating a rank correlation coefficient (Spearman), in which the colocalization coefficient was weighted by a value proportional to the distance to the nearest neighbor to avoid long-distance effects <ref type="bibr" target="#b35">36</ref> . (anti-colocalized or segregated), through 0 (no colocalization), to +1 (totally colocalized). Furthermore, C Bi was also calculated as well. The summation of C Ai and C Bi in the bins between 0.7 and 1 was used as an index for the colocalization. For control analysis, dSTORM images of GM130-HaloTag7-SF650B, TGN38-HaloTag7-SF650B, TfnR-HaloTag7-SF650B, or SF650B-HaloTag7-Rab11 were rotated by 180°and overlapped with PALM images of mEos4b-STING and the CBC scores were estimated.</p><formula xml:id="formula_12">S Ai = P R max r j = 0 ðO D Ai,A ðr j Þ À O D Ai,A ÞðO D Ai,B ðr j Þ À O D Ai,B Þ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi P R max r j = 0 ðO D Ai,A ðr j Þ À O D Ai,A 2 Þ r ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi P R max r j = 0 ðO D Ai,B ðr j Þ À O D Ai,B Þ 2 r<label>ð10Þ</label></formula><p>Simultaneous live-cell PALM of mEos4b-STING, to visualize STING clusters and single-molecule imaging of TBK1-HaloTag7, to track their recruitment to STING clusters, and estimation of the residency lifetimes of TBK1-HaloTag7 inside the STING cluster</p><p>Simultaneous data acquisitions of live-cell PALM of mEos4b-STING and single-molecule tracking of TBK1-HaloTag7 labeled with Sara-Fluor650T (SF650T) were performed at 37 °C. The data acquisition of PALM of mEos4b-STING was performed as described in the method section of "Data acquisition of live-cell PALM of mEos4b-STING". Single-molecules of SF650T bound to TBK1-HaloTag7 were illuminated with the oblique-angle illumination mode using a 647 nm laser at 2.0 µW/µm 2 . The two-color fluorescence images of mEos4b and SF650T were recorded at 33 ms/frame. Under the conditions, the photobleaching lifetimes for SF650T was 7.3 ± 0.1 s.</p><p>Each individual fluorescent spot in the image was identified and tracked as described previously <ref type="bibr" target="#b73">74,</ref><ref type="bibr" target="#b74">75</ref> . The superimposition of images in different colors obtained by two separate cameras was performed as reported previously <ref type="bibr" target="#b72">73</ref> . The PALM image segmentation of mEos4b-STING was performed by KDE and the boundaries of STING clusters were determined by binarizing the STING cluster image as described in the section of "Analysis of images obtained by super-resolution microscopy". After binarization, the coordinates of the pixels located at the edges of the STING clusters were defined as the boundary. We measured the periods of trajectories of TBK1-HaloTag7 labeled with SF650T inside the boundary of STING clusters, and estimated the residency lifetimes by fitting the histograms with a single-exponential decay function. For control analysis to measure the lifetimes of nonspecific colocalization, PALM images of mEos4b-STING after DMXAA stimulation were superimposed with images of single-molecules of TBK1-HaloTag7-SF650T before the stimulation.</p><p>To quantitatively evaluate STING densities in the cluster at which TBK1-HaloTag7-SF650T molecules were recruited, we estimated the numbers of mEos4b-STING molecules within 100 nm radius around all the recruited TBK1-HaloTag7-SF650T spots for all the frames. For control analysis, we generated the pseudo-trajectories by shifting the trajectories of TBK1-HaloTag7-SF650T in random directions by random distances. In PALM image, let x(t) and y(t) be the x and y coordinates in the PALM image is defined as x = 1, 2, •••, N x and y = 1, 2, •••, N y , respectively. We generated two random natural numbers x 0 and y 0 , both less than or equal to N x and N y , respectively, then use x(t)x(0) + x 0 and y(t) -y(0) + y 0 as the trajectories of the control. In case that any part of the trajectories exceeds the range of x and y coordinates in the PALM image, we regenerate the random numbers and start over the process. Then, we estimated the numbers of mEos4b-STING molecules within 100 nm around the same numbers of randomized TBK1-HaloTag7-SF650T spots in silico. Subsequently, we created the histograms of the difference between the numbers of STING molecules around the observed TBK1 spots and the randomized spots in silico, which was normalized by periods and areas of the observations (Fig. <ref type="figure" target="#fig_8">8f</ref>, bottom). The reason for choosing 100 nm as the distance around the recruited TBK1 molecules to quantify the number of STING molecules is that shorter distances make analysis more difficult. For example, if we employ 50 nm as the distance, the area the number of STING molecules become one forth and the bars in the histogram of Fig. <ref type="figure" target="#fig_8">8f</ref> fluctuate very much and the negative values often appear. It becomes hard to perform the same analysis shown in Fig. <ref type="figure" target="#fig_8">8f</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>, encoding the α subunit (α-COP) of the COP-I</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Stimulation-dependent formation of STING cluster. a Kinetic model of photoactivation and photobleaching of mEos4b. N, A, B, and D indicate nonactive, active, bleach, and dark states, respectively. k a , k b , k d indicate kinetic rates from N to A, from A to B, and from A to D, respectively. k r1 and k r2 indicate kinetic rates from D to A and α indicates the ratio between the contributions of the fast recovery rate k r2 and the slow recovery rate k r1 . b A typical single-molecule emission trace allows us to estimate the kinetic rates. T on and T off indicate the fluorescence-on time before the molecule goes into the dark state or it photobleaches, and the fluorescence off-time, respectively. c Distribution of fluorescence intensity of individual mEos4b spots in PVA. The histogram could be fitted with a single lognormal function based on the Akaike and Bayesian information criteria (red curve). d Distribution of N blink fitted with a geometric distribution (red line). e T on distribution of mEos4b fitted with a single exponential decay (red line). f (left) Typical PALM super-resolution image of mEos4b-cavin1 in PC3 cells. (middle) Enlarged PALM image of the part indicated by the square in the left image. (right) Binarized PALM images after segmentation by kernel density estimation (KDE) method. The numbers of mEos4b-cavin1 molecules/caveolae are indicated, and the clusters are colored according to the numbers. g The distribution of [#cavin1/caveolae]. KDE (left) or SR-Tesseler (right) method was used for segmentation. The number in the graph indicates mean ± SEM. n and N indicate the number of examined clusters and cells, respectively. h (left) Typical PALM super-resolution images of mEos4b-STINGexpressing Sting -/-MEFs after DMXAA stimulation for indicated times. (middle) Enlarged PALM images of the part indicated by the square in the left images. (right) Binarized PALM images after segmentation by KDE method. The numbers of mEos4b-STING molecules/cluster are indicated, and clusters are colored according to the numbers. i The distribution of [#STING/cluster] in cells stimulated with DMXAA for the indicated times. The KDE method was used for the segmentation. The number in the graph indicates mean ± SEM. n and N indicate the number of examined clusters and cells, respectively. Time course of (j) the average of [#STING/cluster] (Data are presented as mean ± SEM) and (k) #STING in large clusters/µm 2 (large cluster = cluster consisting of &gt;800 STING molecules) after DXMAA stimulation. Source numerical data are available in source data.</figDesc><graphic coords="4,67.81,245.99,473.05,256.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | The colocalization analysis of STING with the Golgi proteins. a mEos4b-STING-and GM130-HaloTag7-expressing Sting -/-MEFs were stimulated with DMXAA for the indicated times. Typical PALM images of mEos4b-STING and dSTORM images of GM130-HaloTag7-SF650B. Colocalized areas are indicated by arrowheads. b Distribution of frequency of coordinate-based colocalization (CBC) scores for STING relative to GM130 (top) and for GM130 relative to STING (bottom). CBC scores relative to control (180°rotated image) are shown in red. The number of replicates was 10 (10 min) and 12 (30 min), respectively. Data are presented as mean ± SEM. c Time course of summation of frequency in each bin of CBC scores between 0.7 and 1.0 for STING relative to GM130 (closed circle), for GM130 relative to STING (open circle), for STING relative to control (closed triangle) and for GM130 relative to control (open triangle). Data are presented as mean ± SEM. d mEos4b-STING-and TGN38-HaloTag7-expressing Sting -/-MEFs were stimulated with DMXAA for the indicated times. Typical PALM images of mEos4b-STING and dSTORM images of TGN38-HaloTag7-SF650B. Colocalized areas are indicated by arrowheads. e Distribution of frequency of CBC scores for STING relative to TGN38 (top) and for TGN38 relative to STING (bottom). CBC scores relative to control are shown in red. The number of replicates was 12 (10 min), 11 (30 min), 13 (60 min) and 12 (120 min), respectively. Data are presented as mean ± SEM. f Time course of summation of frequency in each bin of CBC scores between 0.7 and 1.0 for STING relative to TGN38 (closed circle), for TGN38 relative to STING (open circle), for STING relative to control (closed triangle) and for TGN38 relative to control (open triangle). Data are presented as mean ± SEM. Scale bars, 5 µm (a and d). Source numerical data are available in source data.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | The colocalization analysis of STING with recycling endosomal proteins. a mEos4b-STING-and TfnR-HaloTag7-expressing Sting -/-MEFs were stimulated with DMXAA for the indicated times. Typical PALM images of mEos4b-STING and dSTORM images of TfnR-HaloTag7-SF650B. Colocalized areas are indicated by arrowheads. b Distribution of frequency of coordinate-based colocalization (CBC) scores for STING relative to TfnR (top) and for TfnR relative to STING (bottom). CBC scores relative to control (180°rotated image) are shown in red. The number of replicates was 10 for all stimulation periods. Data are presented as mean ± SEM. c Time course of summation of frequency in each bin of CBC scores between 0.7 and 1.0 for STING relative to TfnR (closed circle), for TfnR relative to STING (open circle), for STING relative to control (closed triangle) and for TfnR relative to control (open triangle). Data are presented as mean ± SEM. d mEos4b-STING-and HaloTag7-Rab11-expressing Sting -/-MEFs were stimulated with DMXAA for the indicated times. Typical PALM images of mEos4b-STING and dSTORM images of HaloTag7-SF650B-Rab11. Colocalized areas are indicated by arrowheads. e Distribution of frequency of CBC scores for STING relative to Rab11 (top) and for Rab11 relative to STING (bottom). CBC scores relative to the control are shown in red. The number of replicates was 10 for all stimulation periods. Data are presented as mean ± SEM. f Time course of summation of frequency in each bin of CBC scores between 0.7 and 1.0 for STING relative to Rab11 (closed circle), for Rab11 relative to STING (open circle), for STING relative to control (closed triangle) and for Rab11 relative to control (open triangle). Data are presented as mean ± SEM. Scale bars, 5 µm (a and d). Source numerical data are available in source data.</figDesc><graphic coords="5,66.40,62.36,474.49,268.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Palmitoylation of STING is required for clustering. mEos4b-STINGexpressing Sting -/-MEFs were pretreated with (a) 2-bromopalmitate (2-BP) (200 µM) for 4 h or (b) H-151 (10 µM) for 2 h, and stimulated with DMXAA. Cell lysates were prepared and analyzed by western blot. c Typical PALM images of mEos4b-STING in cells treated with (top) 2-BP or (bottom) H-151 after DMXAA stimulation for 60 min. d The distribution of [#STING/cluster] in (c). The KDE method was used for the segmentation. n and N indicate the number of examined clusters and cells, respectively. e The average of [#STING/cluster] (top: average in all the observed clusters, bottom: average of the averages in individual cells shown by individual dots, data are presented as mean ± SEM) and (f) #STING in large clusters/µm 2 (large cluster = cluster consisting of &gt;800 STING molecules) in (d). The P-values (Welch's t-test, both-sided) were less than the significance levels corrected by the Holm-Sidak method. g mEos4b-STING (WT or C88/91 S)-expressing Sting -/-MEFs were stimulated with DMXAA for 60 min. Cell lysates were prepared and analyzed by western blot. h Typical PALM images of mEos4b-STING (C88/91 S) in cells stimulated with DMXAA for 60 min. i The distribution of [#STING/cluster] in (h). The KDE method was used for the segmentation. n and N indicate the number of examined clusters and cells, respectively. j The average of [#STING/cluster] (top: average in all the observed clusters, bottom: average of the averages in individual cells shown by individual dots, data are presented as mean ± SEM) and (k) #STING in large clusters/µm 2 (large cluster = cluster consisting of &gt;800 STING molecules) in (i). The P-values (Welch's t-test, both-sided) were less than the significance level. Scale bars, 5 µm (c and h). Source numerical data and unprocessed blots are available in source data.</figDesc><graphic coords="6,101.59,366.32,130.60,100.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | Expression of the α-COP variants induces the clustering of STING. a Typical PALM images of Sting -/-MEFs expressing mEos4b-STING and/or α-COP-FLAG (WT or the disease-causative variants). b The distribution of [#STING/cluster] in (a). The KDE method was used for the segmentation. n and N indicate the number of examined clusters and cells, respectively. c The average of [#STING/ cluster] in (a). Data are presented as mean ± SEM. The P-values (Welch's t test, bothsided) were less than the significance levels corrected by the Holm-Sidak method. d Lysates of cells in (a) were prepared and analyzed by western blot. Scale bar, 5 µm (a). Source numerical data and unprocessed blots are available in source data.</figDesc><graphic coords="7,61.30,79.70,106.84,176.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 |</head><label>6</label><figDesc>Fig. 6 | Disturbing the Golgi lipid order with D-ceramide-C6 suppresses STING clustering. a Sting -/-MEFs expressing mEos4b-STING were treated with Dceramide-C6 (D-Cer-C6) (20 μM) or L-ceramide-C6 (L-Cer-C6) (20 μM) for 60 min. Cells were then stimulated with DMXAA for 60 min. Cell lysates were prepared and analyzed by western blot. b Typical PALM images of mEos4b-STING in cells treated with D-ceramide-C6 or L-ceramide-C6, followed by DMXAA stimulation for 60 min. c The distribution of [#STING/cluster] in (b). The KDE method was used for the segmentation. n and N indicate the number of examined clusters and cells, respectively. d The average of [#STING/cluster] in (c). Data are presented as mean ± SEM. The P-values (Welch's t-test, both-sided) were less than the significance levels corrected by the Holm-Sidak method. Scale bar, 5 µm (b). Source numerical data and unprocessed blots are available in source data.</figDesc><graphic coords="7,94.18,364.85,199.96,127.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 |</head><label>7</label><figDesc>Fig.7| Cholesterol in the TGN facilitates the clustering of STING. Sting -/-MEFs expressing mEos4b-STING were pretreated with (a) 25-HC (30 µM) for 16 h or (b) OSW-1 (0.125 nM) for 6 h, and stimulated with DMXAA for 60 min. Cell lysates were prepared and analyzed by western blot. c Typical PALM images of mEos4b-STING in cells pretreated with (top) OSW-1 (0.125 nM) for 6 h or (bottom) 25-HC (30 µM) for 16 h, followed by stimulation with DMXAA for 60 min. d The distribution of [#STING/cluster] in (c). The KDE method was used for the segmentation. n and N indicate the number of examined clusters and cells, respectively. e The average of [#STING/cluster] (top: average in all the observed clusters, bottom: average of the averages in individual cells shown by individual dots, data are presented as mean ± SEM) and (f) #STING in large clusters/µm 2 (large cluster = cluster consisting of &gt;800 STING molecules) in (d). The P-values (Welch's t-test, both-sided) were less than the significance levels corrected by the Holm-Sidak method. g Scheme of TBK1-dependent phosphorylation of STING in vitro. h TBK1-knockout MEFs were pretreated with (top) 25-HC (30 µM) for 16 h or (bottom) OSW-1 (0.125 nM) for 6 h, followed by stimulation with DMXAA for 60 min. The membrane fraction of the cells was collected by ultracentrifugation. The resuspended membrane fraction</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 |</head><label>8</label><figDesc>Fig. 8 | The recruitment of TBK1 requires the clustering of STING. mEos4b-STING and TBK1-HaloTag7 were stably expressed in STING/TBK1-double knockout MEFs. a A typical overlapped image obtained by simultaneous observation of mEos4b-STING clusters (green, PALM image) and single-molecules of TBK1-HaloTag7-SF650T (magenta) 60 min after stimulation with DMXAA. Arrowheads indicate the colocalization of STING clusters with single molecules of TBK1. b The area indicated by square in (a) was expanded, and the image sequence is shown. The numbers at the top-right indicate time (second) from the first image. c Superposition of PALM image of a STING cluster and trajectories of TBK1-HaloTag7-SF650T. d Distribution of periods of colocalization between STING (WT and L373A mutant) clusters and single molecules of TBK1 in cells treated with H-151 (10 μM, 2 h) or MRT67307 (10 μM, 2 h) before stimulation with DMXAA for 60 min. The PALM image of STING clusters after DMXAA stimulation was superimposed with the image of single molecules of TBK1 in the steady-state cells, and the colocalization lifetime was estimated. n indicates the number of colocalizations between STING clusters and single molecules of TBK1HaloTag7-SF650T. e The</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>Article https://doi.org/10.1038/s41467-023-44317-5 Nature Communications | (2024) 15:220</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head></head><label></label><figDesc>Article https://doi.org/10.1038/s41467-023-44317-5 Nature Communications | (2024) 15:220 Here, O D Ai,A ðr j Þ is the rank of O D Ai,A ðr j Þ calculated after Spearman, and O D Ai,A is the arithmetic average of O D Ai,A ðr j Þ. The colocalization value C Ai , was calculated as C Ai = S Ai × e Àð E Ai,B R max Þ , with E Ai,B as the distance from Ai to the nearest neighbor from protein B. C Ai (CBC score) was calculated for every single-molecule localization and ranged from -1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,67.03,62.27,472.36,385.72" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Nature Communications | (2024) 15:220</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by <rs type="funder">JSPS KAKENHI</rs> Grant Numbers <rs type="grantNumber">JP19H00974 (T.T.)</rs>, <rs type="grantNumber">JP21H02424</rs> (K.G.N.S.), <rs type="grantNumber">JP20K21387</rs> (K.G.N.S.), <rs type="grantNumber">JP20H05307</rs> (K.M.), <rs type="grantNumber">JP20H03202</rs> (K.M.), <rs type="grantNumber">JP19K06536</rs> (<rs type="person">K.Tanaka</rs>.), <rs type="grantNumber">JP21K06076 (T.K.)</rs>, <rs type="grantNumber">JP22K11920</rs> (Y.Y.), <rs type="funder">JSPS</rs> <rs type="grantName">Research Fellowship for Young Scientists</rs> (<rs type="person">K.Takahashi</rs>., H.K. and Y.K.), <rs type="grantNumber">AMED-PRIME (17939604</rs>) (T.T.), <rs type="funder">JST CREST</rs> (<rs type="grantNumber">JPMJCR18H2</rs>) (K.G.N.S.), <rs type="funder">JST CREST</rs> (<rs type="grantNumber">JPMJCR21E4</rs>) (K.M.), the establishment of university fellowships towards the creation of science technology innovation, Grant Number <rs type="grantNumber">JPMJFS2102</rs> (H.K.), the <rs type="projectName">Subsidy for Interdisciplinary Study and Research concerning COVID-19</rs> (<rs type="funder">Mitsubishi Foundation</rs>) (T.T.), <rs type="funder">National Cancer Center Research and Development Fund</rs> (<rs type="grantNumber">2023-A-03</rs>) (K.G.N.S.), <rs type="funder">Takeda Science Foundation</rs> (T.T., K.G.N.S., and K.M.), The <rs type="funder">Uehara Memorial Foundation</rs> (K.G.N.S.), <rs type="funder">Mizutani Foundation for Glycoscience</rs> (K.G.N.S.), <rs type="funder">Daiichi Sankyo Foundation of Life Science (K.G.N.S.)</rs>, <rs type="funder">Research Foundation for Opto-Science and Technology (K.G.N.S.)</rs>, <rs type="funder">The Naito Foundation</rs> (K.G.N.S.), <rs type="grantName">Grant for Basic Science Research Projects</rs> from the <rs type="funder">Sumitomo Foundation</rs> (K.M.), <rs type="funder">SGH</rs> <rs type="grantName">Cancer Research Grant</rs> (K.M.), and <rs type="grantName">Research Grant</rs> of the <rs type="funder">Princess Takamatsu Cancer Research Fund</rs> (K.M.). T.M. was supported by <rs type="funder">Nagoya University</rs> <rs type="programName">CIBoG program</rs> from <rs type="funder">MEXT</rs> <rs type="programName">WISE program</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_NFR3sSb">
+					<idno type="grant-number">JP19H00974 (T.T.)</idno>
+				</org>
+				<org type="funding" xml:id="_qpNj3Bb">
+					<idno type="grant-number">JP21H02424</idno>
+				</org>
+				<org type="funding" xml:id="_zumRMyT">
+					<idno type="grant-number">JP20K21387</idno>
+				</org>
+				<org type="funding" xml:id="_zyK6b4R">
+					<idno type="grant-number">JP20H05307</idno>
+				</org>
+				<org type="funding" xml:id="_vrURZar">
+					<idno type="grant-number">JP20H03202</idno>
+				</org>
+				<org type="funding" xml:id="_Uu4akn9">
+					<idno type="grant-number">JP19K06536</idno>
+				</org>
+				<org type="funding" xml:id="_sYcYs7b">
+					<idno type="grant-number">JP21K06076 (T.K.)</idno>
+				</org>
+				<org type="funding" xml:id="_tueJ2V9">
+					<idno type="grant-number">JP22K11920</idno>
+					<orgName type="grant-name">Research Fellowship for Young Scientists</orgName>
+				</org>
+				<org type="funding" xml:id="_MZmGqxT">
+					<idno type="grant-number">AMED-PRIME (17939604</idno>
+				</org>
+				<org type="funding" xml:id="_HnYHDgm">
+					<idno type="grant-number">JPMJCR18H2</idno>
+				</org>
+				<org type="funding" xml:id="_utBFfXK">
+					<idno type="grant-number">JPMJCR21E4</idno>
+				</org>
+				<org type="funded-project" xml:id="_EmPwK9Z">
+					<idno type="grant-number">JPMJFS2102</idno>
+					<orgName type="project" subtype="full">Subsidy for Interdisciplinary Study and Research concerning COVID-19</orgName>
+				</org>
+				<org type="funding" xml:id="_8PaFWuH">
+					<idno type="grant-number">2023-A-03</idno>
+				</org>
+				<org type="funding" xml:id="_4vD2Ukn">
+					<orgName type="grant-name">Grant for Basic Science Research Projects</orgName>
+				</org>
+				<org type="funding" xml:id="_eVb477r">
+					<orgName type="grant-name">Cancer Research Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_Ht69tf6">
+					<orgName type="grant-name">Research Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_Y9tfXUw">
+					<orgName type="program" subtype="full">CIBoG program</orgName>
+				</org>
+				<org type="funding" xml:id="_G4a5nvg">
+					<orgName type="program" subtype="full">WISE program</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data sets generated during and/or analyzed during the current study are available from the corresponding author upon request. Source data are provided with this paper.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>H.K. and K.Takahashi. designed and performed the experiments, analyzed the data, and interpreted the results; K.M. designed the experiments, analyzed the data, interpreted the results, and wrote the paper; T.M. purified mEos4b and performed in vitro observation; K.M.H. and Y.Y. developed analysis software; F.K. performed the experiments with 25-HC; Y.U. designed the experiments, analyzed the data, and interpreted the results with OSW-1; Y.K. discussed the results; Y.N. and M.S. prepared Tag-free recombinant TBK1; T.K. and K.Tanaka. designed and performed the experiments, analyzed the data, and interpreted the results with iD4H and di-4-ANEPPDHQ; H.A. discussed the results; K.G.N.S. designed and performed the experiments, analyzed the data, and interpreted the results, and wrote the paper; T.T. designed the experiments, interpreted the results, and wrote the paper. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Supplementary information The online version contains supplementary material available at https://doi.org/10.1038/s41467-023-44317-5.</p><p>Correspondence and requests for materials should be addressed to Kenichi G. N. Suzuki or Tomohiko Taguchi.</p><p>Peer review information Nature Communications thanks Ana García-Sáez and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. A peer review file is available.</p><p>Reprints and permissions information is available at http://www.nature.com/reprints Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p><p>Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/ licenses/by/4.0/.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Pattern recognition receptors and control of adaptive immunity</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Palm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medzhitov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="page" from="221" to="233" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Pattern recognition receptors and inflammation</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="805" to="820" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Intracellular toll-like receptors</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Blasius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beutler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="305" to="315" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The RNA helicase RIG-I has an essential function in double-stranded RNA-induced innate antiviral responses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoneyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="730" to="737" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">NLR, the nucleotide-binding domain leucinerich repeat containing gene family</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName><surname>-Y</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="3" to="9" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">STING is an endoplasmic reticulum adaptor that facilitates innate immune signalling</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Barber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">455</biblScope>
+			<biblScope unit="page" from="674" to="678" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The adaptor protein MITA links virus-sensing receptors to IRF3 transcription factor activation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="538" to="550" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">ERIS, an endoplasmic reticulum IFN stimulator, activates innate immune signaling through dimerization</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="8653" to="8658" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">MPYS, a novel membrane tetraspanner, is associated with major histocompatibility complex class II and mediates transduction of apoptotic signals</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="5014" to="5026" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">DNA sensing by the cGAS-STING pathway in health and disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Motwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pesiridis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Fitzgerald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="657" to="674" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Activated STING in a vascular and pulmonary syndrome</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page" from="507" to="518" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Inherited STING-activating mutation underlies a familial inflammatory syndrome with lupus-like manifestations</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jeremiah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Investig</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="5516" to="5520" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">COPA mutations impair ER-Golgi transport and cause hereditary autoimmune-mediated lung disease and arthritis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Watkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="654" to="660" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mutations in COPA lead to abnormal trafficking of STING to the Golgi and interferon signaling</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lepelley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page">20200600</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A defect in COPI-mediated transport of STING causes immune dysregulation in COPA syndrome</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page">20201045</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Homeostatic regulation of STING by retrograde membrane traffic to the ER</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">61</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Augmentation of Stimulator of Interferon Genes-Induced Type I Interferon Production in COPA Syndrome</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthr. Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="2105" to="2115" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Deficiency in coatomer complex I causes aberrant activation of STING signalling</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Steiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">2321</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Parkin and PINK1 mitigate STING-induced inflammation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Sliter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">561</biblScope>
+			<biblScope unit="page" from="258" to="262" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">C9orf72 in myeloid cells suppresses STINGinduced inflammation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Mccauley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">585</biblScope>
+			<biblScope unit="page" from="96" to="101" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">TDP-43 Triggers Mitochondrial DNA Release via mPTP to Activate cGAS/STING in ALS</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="636" to="649" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cyclic GMP-AMP is an endogenous second messenger in innate immune signaling by cytosolic DNA</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page" from="826" to="830" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page" from="786" to="791" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The binding of TBK1 to STING requires exocytic membrane traffic from the ER</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Arai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Taguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">503</biblScope>
+			<biblScope unit="page" from="138" to="145" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Specific association of TBK1 with the trans-Golgi network following STING stimulation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kemmoku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuchitsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Taguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Struct. Funct</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="19" to="30" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Activation of STING requires palmitoylation at the Golgi</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11932</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Counting single photoactivatable fluorescent molecules by photoactivated localization microscopy (PALM)</title>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bustamante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="17436" to="17441" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Super-long single-molecule tracking reveals dynamic-anchorage-induced integrin function</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Tsunoyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="497" to="506" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Photoswitching of green mEos2 by intense 561 nm light perturbs efficient green-tored photoconversion in localization microscopy</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thédié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Berardozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bourgeois</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="4424" to="4430" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">PTRF-Cavin, a conserved cytoplasmic protein required for caveola formation and function</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="113" to="124" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">DENCLUE 2.0: Fast clustering based on kernel density estimation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinneburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-H</forename><surname>Gabriel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">80</biblScope>
+			<date type="published" when="2007">2007</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin; Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A framework for evaluating the performance of SMLM cluster analysis algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Nieves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="259" to="267" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Single-molecule analysis reveals self assembly and nanoscale segregation of two distinct cavin subcomplexes on caveolae</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gambin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1434</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">SR-Tesseler: a method to segment and quantify localization-based super-resolution microscopy data</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Levet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1065" to="1071" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Correction of multiple-blinking artifacts in photoactivated localization microscopy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="594" to="602" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Coordinate-based colocalization analysis of single-molecule localization microscopy data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Malkusch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Histochem. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">STING signalling is terminated through ESCRTdependent microautophagy of vesicles originating from recycling endosomes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuchitsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="453" to="466" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Targeting STING with covalent small-molecule inhibitors</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Haag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">559</biblScope>
+			<biblScope unit="page" from="269" to="273" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Sphingomyelin organization is required for vesicle biogenesis at the Golgi complex</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Duran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="4535" to="4546" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Characterization and application of a new optical probe for membrane lipid domains</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="2563" to="2575" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Quantitative imaging of membrane lipid order in cells and organisms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rentero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Magenau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abu-Siniyeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="24" to="35" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Membrane lipids: where they are and how they behave</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Meer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Voelker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Feigenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="112" to="124" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Revitalizing membrane rafts: new tools and insights</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gerl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="688" to="699" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Functional implications of sterol transport by the oxysterol-binding protein gene family</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Colbourne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Ridgway</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">429</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Oxysterol-binding protein (OSBP) is required for the perinuclear localization of intra-Golgi v-SNAREs</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishimura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3534" to="3544" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Natural products reveal cancer cell dependence on oxysterol-binding proteins</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W G</forename><surname>Burgett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="639" to="647" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A cell-free assay implicates a role of sphingomyelin and cholesterol in STING phosphorylation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Complementary probes reveal that phosphatidylserine is required for the proper transbilayer distribution of cholesterol</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maekawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Fairn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="1422" to="1433" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Phosphorylation of innate immune adaptor proteins MAVS, STING, and TRIF induces IRF3 activation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page">2630</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Novel cross-talk within the IKK family controls innate immunity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">434</biblScope>
+			<biblScope unit="page" from="93" to="104" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Structural basis of STING binding with and phosphorylation by TBK1</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="394" to="398" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A conserved PLPLRT/SD motif of STING mediates the recruitment and activation of TBK1</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">569</biblScope>
+			<biblScope unit="page" from="718" to="722" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">STING polymer structure reveals mechanisms for activation, hyperactivation, and inhibition</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Atg9a controls dsDNA-driven dynamic translocation of STING and the innate immune response</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Saitoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="20842" to="20846" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">STING regulates intracellular DNA-mediated, type i interferon-dependent innate immunity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Barber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">461</biblScope>
+			<biblScope unit="page" from="788" to="792" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">STING activation by translocation from the ER is associated with infection and autoinflammatory disease</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dobbs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="157" to="168" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Cryo-EM structures of STING reveal its mechanism of activation by cyclic GMP-AMP</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="389" to="393" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Sterol transfer, PI4P consumption, and control of membrane lipid order by endogenous OSBP</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mesmin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="3156" to="3174" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Palmitoylation regulates raft affinity for the majority of integral raft proteins</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Levental</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lingwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grzybek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ü</forename><surname>Coskun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="22050" to="22054" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Exiting the Golgi complex</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>De Matteis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="273" to="284" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Lipid-dependent protein sorting at the trans-Golgi network</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Surma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1821</biblScope>
+			<biblScope unit="page" from="1059" to="1067" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Functional rafts in cell membranes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ikonen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page" from="569" to="572" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">STING recognition of cytoplasmic DNA instigates cellular defense</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="5" to="15" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">25-Hydroxycholesterols in innate and adaptive immunity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Cyster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Dang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reboldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="731" to="743" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The cGAS-STING pathway as a therapeutic target in inflammatory diseases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Decout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venkatraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ablasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="548" to="569" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Phospholipid flippases and Sfk1 are essential for the retention of ergosterol in the plasma membrane</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kishimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1374" to="1392" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Cholesterol asymmetry at the tip of filopodia during cell adhesion</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kishimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="6185" to="6197" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">A rapid method of total lipid extraction and purification</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Bligh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Dyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Biochem. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="911" to="917" />
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Ferric chloride spray detector for cholesterol and cholesteryl esters on thin-layer chromatograms</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">397</biblScope>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Multivariate density estimation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Scott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Spatioal density estimation based segmentation of super-resolution localization microsocpy images</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kovacevic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE. Int. Conf. on Image Processing</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="867" to="871" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Regression models of emergency medical service demand for different types of emergencies</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Kvalseth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst. Man Cybern</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="10" to="17" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">GPI-anchored receptor clusters transiently recruit Lyn and G alpha for temporary cluster immobilization and Lyn activation: single-molecule tracking study 1</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G N</forename><surname>Suzuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="717" to="730" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Raft-based interactions of gangliosides with a GPIanchored receptor</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Komura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="402" to="410" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Raft-based sphingomyelin interactions revealed by new fluorescent sphingomyelin analogs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kinoshita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="1183" to="1204" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

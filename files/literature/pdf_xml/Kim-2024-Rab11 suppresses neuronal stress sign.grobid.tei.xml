@@ -1,0 +1,3157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Rab11 suppresses neuronal stress signaling by localizing Dual leucine zipper kinase to axon terminals for protein turnover</title>
+				<funder ref="#_kqAWXAK #_mNGna6a #_VnEd4Md">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NV INBRE)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Seungmi</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Nevada</orgName>
+								<address>
+									<postCode>89557</postCode>
+									<settlement>Reno, Reno</settlement>
+									<region>NV</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yaw</forename><surname>Quagraine</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Nevada</orgName>
+								<address>
+									<postCode>89557</postCode>
+									<settlement>Reno, Reno</settlement>
+									<region>NV</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Monika</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Nevada</orgName>
+								<address>
+									<postCode>89557</postCode>
+									<settlement>Reno, Reno</settlement>
+									<region>NV</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jung</forename><forename type="middle">Hwan</forename><surname>Kim</surname></persName>
+							<email>jungkim@unr.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Nevada</orgName>
+								<address>
+									<postCode>89557</postCode>
+									<settlement>Reno, Reno</settlement>
+									<region>NV</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Rab11 suppresses neuronal stress signaling by localizing Dual leucine zipper kinase to axon terminals for protein turnover</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">302C47B3B5FA867BCA4A2017C3955DC7</idno>
+					<idno type="DOI">10.1101/2023.04.18.537392</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>DLK</term>
+					<term>Wallenda</term>
+					<term>Rab11</term>
+					<term>axon terminals</term>
+					<term>protein turnover</term>
+					<term>Highwire</term>
+					<term>protein palmitoylation</term>
+					<term>neurodegeneration</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Dual Leucine Zipper Kinase (DLK) mediates multiple neuronal stress responses, and its expression levels are constantly suppressed to prevent excessive stress signaling. We found that Wallenda (Wnd), the Drosophila ortholog of DLK, is highly enriched in the axon terminals of Drosophila sensory neurons in vivo and that this subcellular localization is necessary for Highwire-mediated Wnd protein turnover under normal conditions. Our structure-function analysis found that Wnd palmitoylation is essential for its axon terminal localization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation-defective</head><p>Wnd accumulated in neuronal cell bodies, exhibited dramatically increased protein expression levels, and triggered excessive neuronal stress responses. Defective intracellular transport is implicated in neurodegenerative conditions. Comprehensive dominant-negative Rab protein screening identified Rab11 as an essential factor for Wnd localization in axon terminals. Consequently, Rab11 loss-of-function increased the protein levels of Wnd and induced neuronal stress responses. Inhibiting Wnd activity significantly ameliorated neuronal loss and c-Jun N-terminal kinase signaling triggered by Rab11 loss-of-function. Taken together, these suggest that DLK proteins are constantly transported to axon terminals by Rab11 for protein turnover. Our study demonstrates how subcellular protein localization is coupled to protein turnover for neuronal stress signaling.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>A typical neuron is composed of distinct somatodendritic and axonal compartments that express unique compositions of membrane and cytoplasmic proteins, which are precisely established and maintained through a complex network of intracellular transport processes <ref type="bibr" target="#b18">(Guedes-Dias and Holzbaur, 2019;</ref><ref type="bibr" target="#b19">Guillaud et al., 2020)</ref>. Consistently, impaired neuronal intracellular transport has been recognized as an early cellular event in various neurodegenerative disorders including amyotrophic lateral sclerosis <ref type="bibr" target="#b8">(Collard et al., 1995;</ref><ref type="bibr" target="#b11">De Vos and Hafezparast, 2017</ref>), Alzheimer's <ref type="bibr" target="#b5">(Calkins et al., 2011;</ref><ref type="bibr" target="#b69">Wang et al., 2015)</ref>, Parkinson's <ref type="bibr" target="#b52">(Saha et al., 2004;</ref><ref type="bibr" target="#b7">Chu et al., 2012)</ref>, and Huntington's diseases <ref type="bibr" target="#b30">(Lee et al., 2004;</ref><ref type="bibr" target="#b50">Reddy and Shirendeb, 2012;</ref><ref type="bibr" target="#b58">Smith et al., 2014)</ref>. The intricate regulation of intracellular transport relies on a family of small G proteins known as Rab (Ras-related in brain) proteins <ref type="bibr" target="#b59">(Stenmark, 2009)</ref>. Studies have demonstrated altered Rab activity or expression levels in Huntington's disease model <ref type="bibr">(Li et al., 2009b</ref><ref type="bibr">(Li et al., , 2009a</ref>), Alzheimer's disease model <ref type="bibr" target="#b46">(Pensalfini et al., 2020)</ref> and from the amyotrophic lateral sclerosis patients <ref type="bibr" target="#b41">(Mitra et al., 2019)</ref>. However, how defective neuronal intracellular transport leads to neuronal loss is not fully understood.</p><p>Dual Leucine Zipper Kinase (DLK), also known as MAP3K12 is a cytoplasmic protein kinase essential for stress signaling and mediates diverse neuronal responses including axon regeneration, axon degeneration, and cell death <ref type="bibr" target="#b40">(Miller et al., 2009;</ref><ref type="bibr" target="#b76">Xiong et al., 2010;</ref><ref type="bibr" target="#b55">Shin et al., 2012;</ref><ref type="bibr">Xiong and Collins, 2012;</ref><ref type="bibr" target="#b70">Watkins et al., 2013;</ref><ref type="bibr" target="#b36">Li et al., 2021)</ref>. Under normal conditions, neurons tightly control DLK activity to prevent excessive stress signaling primarily through protein turnover by an evolutionarily conserved PHR1/RPM-1/Highwire (Hiw) ubiquitin ligases <ref type="bibr" target="#b42">(Nakata et al., 2005;</ref><ref type="bibr" target="#b9">Collins et al., 2006;</ref><ref type="bibr" target="#b76">Xiong et al., 2010;</ref><ref type="bibr" target="#b23">Huntwork-Rodriguez et al., 2013)</ref>. Notably, recent studies have shown potential widespread involvement of DLK in neuronal death observed in neurotrophic factor deprivation, glaucoma, amyotrophic lateral sclerosis, and Alzheimer's disease models <ref type="bibr" target="#b48">(Pozniak et al., 2013;</ref><ref type="bibr" target="#b71">Welsbie et al., 2013</ref><ref type="bibr" target="#b72">Welsbie et al., , 2017;;</ref><ref type="bibr">Larhammar et al.,</ref> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.</p><p>The copyright holder for this preprint this version posted January 25, 2024. ; https://doi.org <ref type="bibr">/10.1101/2023.04.18</ref>.537392 doi: bioRxiv preprint 2017a; Le <ref type="bibr" target="#b28">Pichon et al., 2017;</ref><ref type="bibr" target="#b45">Patel et al., 2017)</ref>. These observations suggest the possibility of dysregulated or elevated DLK protein/activity levels in these conditions. Interestingly, DLK proteins are found within axonal compartments <ref type="bibr" target="#b76">(Xiong et al., 2010;</ref><ref type="bibr" target="#b25">Klinedinst et al., 2013;</ref><ref type="bibr" target="#b22">Holland et al., 2016;</ref><ref type="bibr" target="#b44">Niu et al., 2020</ref><ref type="bibr" target="#b43">Niu et al., , 2022))</ref>. However, there is limited understanding of the mechanisms underlying DLK protein localization in axonal compartments and how such axonal localization of DLK plays a role in neuronal stress responses.</p><p>Here, we report a novel coupling between axon terminal localization and protein turnover of DLK. We further found that Rab11 is essential for this coupling, which when disrupted, leads to neuronal loss by excessive stress signaling. We found that Wallenda (Wnd), Drosophila DLK is highly enriched in the axon terminals of Drosophila sensory neurons in vivo. Furthermore, we found that Wnd protein turnover by Hiw is confined to axon terminals. We identified a protein palmitoylation on Wnd as an essential motif for Wnd protein localization in axon terminals. By taking advantage of this unique behavior of Drosophila DLK, Wnd in its reliance to protein palmitoylation for axonal localization, we demonstrated that Wnd protein turnover is greatly diminished when Wnd proteins are not transported to axon terminals, which in turn causes excessive Wnd signaling and neuronal cell death. We further uncovered the selective role of Rab11 in Wnd axonal localization and protein turnover. Importantly, neuronal stress responses caused by Rab11 loss-of-function were significantly mitigated by inhibiting Wnd. Together, our findings suggest that Rab11 suppresses DLK protein levels by coupling axonal localization and protein turnover of DLK.</p><p>(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.</p><p>The copyright holder for this preprint this version posted January 25, 2024. ; https://doi.org <ref type="bibr">/10.1101/2023.04.18</ref>.537392 doi: bioRxiv preprint</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Result</head><p>Wnd is highly enriched in axon terminals and Wnd protein turnover is restricted to axon terminals.</p><p>DLK proteins are found in the axonal compartments of diverse animals <ref type="bibr" target="#b22">(Holland et al., 2016;</ref><ref type="bibr" target="#b44">Niu et al., 2020</ref><ref type="bibr" target="#b43">Niu et al., , 2022))</ref>. To understand the mechanism of DLK axonal localization, we first set out to investigate the extent of axonal localization of Drosophila DLK, Wallenda (Wnd). We took advantage of a wnd protein-trap allele, Mi{MIC}wnd GFSTF , which allows us to visualize endogenous Wnd protein localization via an EGFP tag <ref type="bibr" target="#b67">(Venken et al., 2011;</ref><ref type="bibr" target="#b32">Li et al., 2017)</ref>.</p><p>The levels of Wnd-GFSTF proteins in the third instar larva stage were extremely low. To enhance detection of Wnd-GFSTF, the experiment was performed in highwire (hiw) mutants, hiw ΔN <ref type="bibr" target="#b73">(Wu et al., 2005)</ref>. Hiw is a neuronal ubiquitin ligase that selectively targets Wnd for protein degradation <ref type="bibr" target="#b9">(Collins et al., 2006)</ref>. Immunostaining was conducted using an anti-GFP antibody, and the larval samples were examined using a confocal microscope. The result showed a strikingly polarized expression pattern of Wnd. While Wnd-GFSTF expression was evident in the neuropil region in the ventral nerve cord (VNC) (Figure <ref type="figure" target="#fig_3">1A</ref> and 1B), we could not detect any meaningful signal from neuronal cell bodies, especially from the peripheral nervous system neurons. Neuropils are enriched in neuronal dendrites and axons, while neuronal cell bodies are mostly absent in this region. This suggests that Wnd protein expression levels are kept extremely low in neuronal cell bodies but enriched in neuronal processes likely in axon terminals.</p><p>Next, we employed a transgene approach. We generated Wnd-GFP transgenes with and without wnd mRNA's untranslated region (UTR), namely 5'UTR-Wnd::GFP-3'UTR and Wnd::GFP to test a role of wnd-UTRs in Wnd protein localization. These transgenes were expressed specifically in larval class IV dendritic arborization (C4da) neurons using the ppk-GAL4 driver <ref type="bibr" target="#b17">(Grueber et al., 2007)</ref>. C4da neurons have their cell bodies positioned in the larval body wall, where they extend dendrites and send axons to the VNC of the larval central nervous system. This sensory neuron system provides an excellent opportunity for studying protein localization in cell bodies, dendrites, and axon terminals (Figure <ref type="figure" target="#fig_3">1B</ref>) <ref type="bibr" target="#b17">(Grueber et al., 2007)</ref>. We quantified the expression levels of Wnd transgenes in the cell bodies and axon terminals of C4da neurons using quantitative confocal microscope imaging. The expression levels were normalized using a general membrane marker, mCD8::RFP. The expression levels of mCD8::RFP in axon terminals may represent passive diffusion of membrane proteins, which reports the absence of axonal enrichment or equals to the axonal enrichment of 1. We observed a significant enrichment of Wnd in the axon terminals of C4da neurons, regardless of wnd-UTRs (Figure <ref type="figure" target="#fig_3">1C</ref> and<ref type="figure" target="#fig_3">1D</ref>). Overactive Wnd signaling impairs ppk-GAL4 activity, compounding our analysis <ref type="bibr" target="#b68">(Wang et al., 2013)</ref>. To address this, we treated larvae with DLKi/GNE-3511, a specific inhibitor of DLK/Wnd kinase activity <ref type="bibr" target="#b45">(Patel et al., 2017;</ref><ref type="bibr" target="#b51">Russo and DiAntonio, 2019)</ref>. The treatment with DLKi did not affect larval viability or basal Cd4a morphology. Additionally, a kinase-dead version of Wnd, Wnd-KD::GFP, exhibited similar axonal enrichment in comparison to Wnd::GFP in the presence and absence of DLKi (Figure <ref type="figure" target="#fig_2">1</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>-supplement).</head><p>What might be the biological significance of such high axon terminal enrichment of Wnd proteins? Interestingly, a previous work has shown that nerve injury in Drosophila larvae increased Wnd protein levels in proximal axons but not in motor neuron cell bodies <ref type="bibr" target="#b76">(Xiong et al., 2010)</ref>, which suggests that injury signal does not affect Wnd protein levels in neuronal cell bodies. Thus, we wondered whether Wnd protein degradation under normal conditions is also compartment specific. To test this possibility, we expressed Wnd-KD::GFP in C4da neurons of wild-type and hiw mutant animals (hiw ΔN ). The expression levels of Wnd-KD::GFP was measured in C4da cell bodies and C4da axon terminals by quantitative confocal microscope imaging (Figure <ref type="figure" target="#fig_3">1E</ref>). The result showed that hiw mutations did not change Wnd-KD::GFP expression in C4da cell bodies as compared to a wild-type control. In contrast, there was a remarkable 7-fold increase in Wnd-KD::GFP expression levels specifically in the axon terminals in the presence of hiw mutations.</p><p>Taken together, these suggest that Wnd proteins are highly enriched in axon terminals and that this axon terminal localization is a necessary step for Hiw-mediated Wnd protein turnover. DLK proteins act as a sensor in neuronal stress responses, and under normal conditions, their protein levels are constantly suppressed to prevent undesired stress responses <ref type="bibr" target="#b42">(Nakata et al., 2005;</ref><ref type="bibr" target="#b9">Collins et al., 2006;</ref><ref type="bibr" target="#b76">Xiong et al., 2010;</ref><ref type="bibr" target="#b23">Huntwork-Rodriguez et al., 2013)</ref>. In this context, if Wnd localization in axon terminals is disrupted, it may lead to dysregulated Wnd protein expression levels, potentially resulting in exacerbated stress signaling. To test the model, we decided to identify the mechanisms underlying Wnd localization in axon terminals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The protein palmitoylation of Wnd is essential for axonal localization of Wnd.</head><p>The coding region of wnd was sufficient for Wnd axon terminal localization (Figure <ref type="figure" target="#fig_2">1</ref>). Wnd proteins are found on axonally transporting vesicles <ref type="bibr" target="#b76">(Xiong et al., 2010)</ref>. Together these further suggest that Wnd protein localization in axon terminals are through axonal anterograde transport of Wnd proteins, and that Wnd protein degradation is dependent on this axonal anterograde transport. Protein transport often involves small protein domains or motifs. To find the motifs necessary for axonal transport of Wnd, we performed a structure-function analysis by progressively deleting 100 amino acids (aa) from Wnd transgenes (Figure <ref type="figure" target="#fig_7">2A</ref>). These Wnd transgenes were expressed in C4da neurons, and the axonal enrichment of Wnd was measured as described in Figure <ref type="figure" target="#fig_3">1D</ref>. Deletion of the first 100 aa of Wnd (WndΔ100::GFP) did not have an impact on enrichment of Wnd in axon terminals. However, deleting the first 200 aa of Wnd (WndΔ200::GFP) resulted in a dramatic 43-fold reduction of Wnd enrichment. Similarly, deleting aa 101-200 of Wnd (WndΔ101-200::GFP) led to a dramatic decrease in Wnd localization in axon terminals (Figure <ref type="figure" target="#fig_7">2B</ref>). These findings suggest that the 101-200 aa region of Wnd contains a crucial motif for axonal anterograde transport of Wnd.</p><p>Interestingly, this region contains an evolutionarily conserved palmitoylation motif, Cysteine-130 (Wnd-C130) (Figure <ref type="figure" target="#fig_7">2C</ref>). Previous studies have shown that palmitoylation is required for DLK association with neuronal vesicles and DLK signaling in cultured mammalian neurons and C. elegans <ref type="bibr" target="#b22">(Holland et al., 2016)</ref>. However, whether DLK palmitoylation changes DLK protein localization in axon terminals remains unknown. Additionally, whether Wnd undergoes protein palmitoylation is not known. To examine the protein palmitoylation of Wnd, we introduced a mutation changing the Cysteine to Serine, resulting in Wnd-C130S. We expressed wild-type Wnd (Wnd::GFP) and the palmitoylation site mutant Wnd (Wnd-C130S::GFP) in cultured Drosophila Schneider 2 (S2) cells using PEI-mediated transfection <ref type="bibr" target="#b37">(Longo et al., 2013)</ref>. The Acyl-Biotin Exchange (ABE) assay <ref type="bibr" target="#b13">(Drisdel et al., 2006)</ref> was conducted to measure protein palmitoylation of Wnd proteins after pulldown using a GFP-tag. The results showed a 50% reduction in protein palmitoylation in Wnd-C130S::GFP compared to Wnd::GFP (Figure <ref type="figure" target="#fig_7">2D</ref>), providing strong evidence that Wnd-C130 is a palmitoylation site. Subsequently, we expressed Wnd::GFP and Wnd-C130S::GFP in larval C4da neurons and measured their axonal enrichment. The findings revealed a dramatic 30-fold reduction in Wnd axonal localization for Wnd-C130S::GFP compared to Wnd::GFP (Figure <ref type="figure" target="#fig_7">2E</ref>). Taken together, our data demonstrates that Wnd-C130 is palmitoylated in Drosophila, which is essential for Wnd localization in axon terminals.</p><p>Interestingly, we noticed that unlike diffuse cytoplasmic expression patterns of palmitoylationdefective DLK observed in mammalian cells <ref type="bibr" target="#b22">(Holland et al., 2016)</ref>, Wnd-C130S::GFP exhibited discrete localization patterns in C4da cell bodies (Figure <ref type="figure" target="#fig_7">2E</ref>). These structures extensively colocalized with somatic Golgi complex (Figure <ref type="figure" target="#fig_4">2</ref> -supplement 1). In mammalian cultured cells, DLK was found in somatic Golgi complex where its palmitoyltransferase, HIP14 localizes <ref type="bibr" target="#b44">(Niu et al., 2020)</ref>. Consistently, we found that Wnd is localized to somatic Golgi complex in C4da cell bodies, which required the 101-200 aa region of Wnd (Figure <ref type="figure" target="#fig_4">2</ref>  Wnd-C130S does not localize in the axon terminals but rather retained in neuronal cell bodies. This may prevent protein turnover of Wnd-C130S, which may result in increased protein expression levels of Wnd-C130S. To test the idea, we expressed Wnd::GFP and Wnd-C130S::GFP using a pan-neuronal driver, Elav-GAL4. The larvae were treated with DLKi/GNE-3511 to prevent lethality caused by overactive Wnd signaling. The total protein expression levels of Wnd::GFP and Wnd-C130S::GFP were measured in larval brain lysates using Western blot analysis with GFP antibody (Figure <ref type="figure" target="#fig_8">3A</ref>). The results revealed a dramatic 7.1-fold increase in protein levels of Wnd-C130S::GFP compared with Wnd::GFP. To determine the cellular localization of increased Wnd-C130S::GFP expression, we expressed Wnd::GFP and Wnd-C130S::GFP along with mCD8::RFP in larval C4da neurons using ppk-GAL4 and directly compared the protein expression levels of the Wnd transgenes in C4da axon terminals and cell bodies as measured by GFP fluorescent intensity (Figure <ref type="figure" target="#fig_8">3B</ref>). We observed a dramatic 10-fold increase in protein expression levels of Wnd-C130S::GFP in C4da cell bodies compared with Wnd::GFP. On the other hand, Wnd-C130S::GFP exhibited greatly reduced protein expression levels in C4da axon terminals (3-fold reduction) compared with Wnd::GFP. Together, these findings strongly support the notion that Wnd localization in axon terminals is crucial for protein turnover of Wnd.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitoylation-defective Wnd triggers excessive stress signaling and neuronal loss.</head><p>DLK triggers neuronal stress signaling <ref type="bibr" target="#b42">(Nakata et al., 2005;</ref><ref type="bibr" target="#b9">Collins et al., 2006;</ref><ref type="bibr" target="#b24">Karney-Grobe et al., 2018)</ref>. A failure to suppress Wnd protein levels in Wnd-C130S::GFP may lead to excessive neuronal stress signaling. While the essential role of palmitoylation in DLK signaling has been demonstrated in C. elegans and cultured mammalian cells <ref type="bibr" target="#b22">(Holland et al., 2016;</ref><ref type="bibr" target="#b38">Martin et al., 2019;</ref><ref type="bibr" target="#b44">Niu et al., 2020</ref><ref type="bibr" target="#b43">Niu et al., , 2022))</ref>, its impact on the signaling capacity of Wnd remains unknown. In contrast to the diffuse cytoplasmic expression pattern of palmitoylation-deficient DLK proteins in worms and mammalian cells, Wnd-C130S::GFP exhibited clear somatic Golgi localization (Figure <ref type="figure" target="#fig_4">2</ref> -supplement 1). A recent study suggested that the membrane localization of DLK proteins, rather than palmitoylation itself, is crucial for DLK signaling <ref type="bibr" target="#b64">(Tortosa et al., 2022)</ref>. Therefore, we investigated whether Wnd-C130S::GFP retains signaling capacity.</p><p>We expressed Wnd::GFP and Wnd-C130S::GFP in larval C4da neurons using ppk-GAL4. We used puc-lacZ, a transcription reporter downstream of c-Jun N-terminal Kinase (JNK) as a proxy for Wnd signaling <ref type="bibr">(Martin-Blanco et al., 1998)</ref>. Expression levels of puc-lacZ were evaluated by immunostaining and its fluorescent intensity was measured in C4da nucleus. The results showed robust induction of puc-lacZ by Wnd::GFP as well as by Wnd-C130S::GFP (Figure <ref type="figure" target="#fig_9">4</ref> supplement 1). Additionally, the excessive axon arborization induced by Wnd signaling was also observed both in Wnd::GFP and Wnd-C130S::GFP expressing C4da neurons. These were dependent on Wnd kinase activity since there was no exuberant axon arborization by Wnd-KD::GFP nor by Wnd-C130S-KD::GFP -the kinase dead versions of Wnd and Wnd-C130S respectively (Figure <ref type="figure" target="#fig_9">4</ref> -supplement 2). These strongly suggest that unlike DLK proteins in C. elegans and mammalian cells, the palmitoylation of Wnd is not essential for signaling in</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drosophila.</head><p>Wnd-C130S::GFP exhibited 7-fold increase in protein expression levels compared to Wnd::GFP (Figure <ref type="figure" target="#fig_8">3A</ref>) while showing similar signaling capacity both in axon arborization and puc-LacZ expression. We wondered if excessive transgene expression levels caused signaling pathway saturation. Thus, we decided to reduce transgene expression levels. We recently have generated a plasmid system for reduced transgene expression <ref type="bibr">(Singh and Kim, 2022)</ref>. Using these plasmids, additional Wnd transgenes containing two UAS sites (2XUAS) rather than five UAS sites (5XUAS) were generated and were expressed in larval C4da neurons. Then, puc-LacZ expression levels were measured. The result showed that Wnd-C130S::GFP induced a 3.7-fold more puc-lacZ expression than Wnd::GFP when expressed under 2XUAS (Figure <ref type="figure" target="#fig_11">4A</ref>). This strongly suggests that Wnd-C130S::GFP triggers stronger stress signaling because it cannot be transported towards axon terminals thus, evades protein turnover.</p><p>To determine whether this excessive Wnd signaling from Wnd-C130S::GFP results in neuronal loss, we expressed Wnd-C130S::GFP and Wnd::GFP under GMR-GAL4, eye specific driver <ref type="bibr" target="#b54">(Seong et al., 2001)</ref>. Expressing Wnd transgenes with 5XUAS caused complete lethality under a standard growth condition for both Wnd::GFP and Wnd-C130S::GFP. Growing flies at a lower temperature partially rescued lethality -likely due to lower transgene expression levels. Severe eye loss phenotypes were observed from Wnd-C130S::GFP and Wnd::GFP expressing flies in this experimental condition. We observed, albeit to a small extent, more severe eye loss phenotypes in Wnd-C130S::GFP flies as compared to Wnd::GFP flies (Figure <ref type="figure" target="#fig_9">4</ref> -supplement C and D). To substantiate our findings, we expressed Wnd-C130S::GFP and Wnd::GFP under 2XUAS using GMR-GAL4. Even with 2XUAS transgenes, animals expressing Wnd-C130S::GFP showed significant lethality as compared to Wnd::GFP expressing animals (Figure <ref type="figure" target="#fig_11">4B</ref>). Moreover, 100% of surviving flies of Wnd-C130S::GFP exhibited rough eye and eye pigmentation loss phenotypes, which indicates loss of photoreceptors. On the other hand, flies expressing 2XUAS-Wnd::GFP did not show any discernable phenotypes as compared to the controls (Figure <ref type="figure" target="#fig_11">4C</ref>). Wnd transgenes alone did not exhibit any defects in eye development.</p><p>These strongly suggest that axonal anterograde transport of Wnd is essential for Wnd protein turnover and that a failure of this transport triggers excessive stress signaling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selective involvement of Rab proteins in Wnd axonal localization.</head><p>Protein palmitoylation enhances the hydrophobicity of target proteins, leading to increased membrane association. This suggests that Wnd proteins are transported to axons through an intracellular vesicular transport system. The regulation of intracellular vesicular transport is governed by Rab proteins <ref type="bibr" target="#b59">(Stenmark, 2009)</ref>. To gain insights on axonal anterograde transport of DLK proteins, we conducted a screening of Rab proteins to identify those that contribute to Wnd axonal localization. We tested a total of 26 Rab proteins out of the 33 annotated Drosophila Rab proteins <ref type="bibr">(Zhang et al., 2007)</ref>. YFP-tagged dominant-negative (DN) Rab proteins were expressed along with RFP-fused Wnd-KD (Wnd-KD::mRFP) in C4da neurons. The axonal enrichment of Wnd-KD::mRFP was analyzed by measuring the fluorescence intensities of Wnd-KD::mRFP in C4da cell bodies and axon terminals (Figure <ref type="figure" target="#fig_12">5</ref>). Among the tested DN-Rab proteins, only Rab1 and Rab11 showed a significant reduction in Wnd axonal enrichment. These findings suggest that Wnd targeting to axon terminals is a highly specific process. Rab1 is involved in ER to Golgi traffic. The dramatic decrease in Wnd axonal localization observed upon Rab1 inhibition is interesting as Wnd palmitoylation likely occurs at the somatic Golgi complex.</p><p>Rab11 regulates membrane traffic at the recycling endosome <ref type="bibr" target="#b59">(Stenmark, 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rab11 inhibition caused dysregulated Wnd protein levels.</head><p>Rab11-positive recycling endosomes (REs) play a role in mediating anterograde Golgi-toplasma membrane trafficking <ref type="bibr" target="#b1">(Ang et al., 2004;</ref><ref type="bibr" target="#b53">Satoh et al., 2005;</ref><ref type="bibr" target="#b61">Taguchi, 2013)</ref>. This raises an interesting possibility that once palmitoylated at the Golgi, Wnd is sorted at the REs for axonal transport. To investigate this, we examined whether Wnd proteins are present at the REs in C4da cell bodies. Wnd-KD::mRFP was expressed in C4da neurons, and the Rab11-positive REs were labeled using endogenously tagged YFP::Rab11 (TI-YFP::Rab11) <ref type="bibr" target="#b12">(Dunst et al., 2015)</ref>. We analyzed the portion of Wnd-KD::mRFP that colocalizes with YFP::Rab11 using the Manders' Overlap Coefficient. The results showed extensive colocalization between Wnd-KD::mRFP and YFP::Rab11 in C4da cell bodies (Manders' coefficient 0.60 ± 0.14) (Figure <ref type="figure" target="#fig_14">6A</ref>).</p><p>Similar results were obtained with transgenic expression of YFP::Rab11 and Wnd-KD::mRFP (Manders' coefficient 0.81 ± 0.11) (Figure <ref type="figure" target="#fig_14">6B</ref>). On the other hand, we did not detect any meaningful colocalization between YFP::Rab11 and Wnd-KD::mRFP in C4da axon terminals (Manders' coefficient 0.34 ± 0.14) (Figure <ref type="figure" target="#fig_13">6</ref> -supplement).</p><p>If Rab11 mediates Wnd anterograde transport, inhibiting Rab11 may lead to dysregulated Wnd protein turnover and increased Wnd protein levels. To test the idea, we expressed DN-YFP::Rab11 along with Wnd-KD::mRFP in C4da neurons. We directly compared the expression levels of Wnd-KD::mRFP in C4da cell bodies and axon terminals. A mCD8::GFP transgene was used as a control for DN-Rab11. The results revealed a dramatic 4.2-fold increase in Wnd-KD::mRFP expression levels in C4da cell bodies by DN-Rab11, but not in the axon terminals (Figure <ref type="figure" target="#fig_14">6C</ref>), which is reminiscent of Wnd-C130S behavior (Figure <ref type="figure" target="#fig_8">3B</ref>).</p><p>We further examined the role of Rab11 in Wnd axonal localization using Rab11 mutants, Rab11 93Bi , which is a strong loss-of-function allele <ref type="bibr" target="#b16">(Giansanti et al., 2007)</ref>. Wnd-KD::GFP was expressed along with mCD8::RFP in wild-type and homozygous Rab11 93Bi C4da neurons, and the axonal enrichment of Wnd-KD::GFP was measured. The results showed a dramatic reduction in Wnd axonal enrichment by Rab11 mutations (Figure <ref type="figure" target="#fig_14">6D</ref>). Next, we measured the total expression levels of endogenous Wnd using Western blot analysis on brain lysates from wild-type control and homozygous Rab11 93Bi larvae (Figure <ref type="figure" target="#fig_14">6E</ref>). The results showed a significant 2.8-fold increase in total Wnd protein levels by Rab11 mutations. Together, these findings strongly suggest that Rab11 mediates Wnd protein transport out of neuronal cell bodies toward axon terminals and that a failure in this transport leads to dysregulated Wnd protein turnover.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Neuronal loss caused by Rab11 loss of function requires Wnd activity.</head><p>A previous work has shown that Rab11 mutations caused photoreceptor loss in Drosophila eye and JNK signaling activation <ref type="bibr" target="#b62">(Tiwari and Roy, 2009)</ref>. However, how Rab11 mutations induce JNK signaling is not clear. One of the pathways leading to JNK activation is DLK/Wnd <ref type="bibr" target="#b9">(Collins et al., 2006;</ref><ref type="bibr" target="#b76">Xiong et al., 2010;</ref><ref type="bibr" target="#b15">Ghosh et al., 2011)</ref>. Thus, we hypothesized that increased Wnd expression contributes to the neuronal loss and JNK activation by Rab11 loss-of-function. To test the idea, we expressed DN-Rab11 along with a membrane marker mCD8::RFP in the larval C4da sensory neurons using ppk-GAL4 <ref type="bibr" target="#b17">(Grueber et al., 2007)</ref>. JNK activation was monitored by puc-lacz induction <ref type="bibr">(Martin-Blanco et al., 1998)</ref>. The result showed a 2.8-fold increase of puclacz expression in C4da neurons by DN-Rab11 (Figure <ref type="figure" target="#fig_15">7A</ref>), which was completely abolished by treating larvae with DLKi/GNE-3511, Wnd kinase inhibitor. This strongly suggests that increased Wnd protein levels, hence Wnd activity mediates JNK activation induced by DN-Rab11. Taken together, these support a model in which Wnd proteins are transported to the axon terminals for Hiw-mediated protein degradation under normal conditions, and that Rab11 is essential for anterograde transport of Wnd towards axon terminals. In this model, Rab11 inactivation leads to defective anterograde transport of Wnd, thus a deficit in Wnd protein degradation. Subsequent increase in Wnd protein levels triggers excessive stress signaling leading to neuronal death (Figure <ref type="figure" target="#fig_16">8</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Here, we report that axonal localization and protein turnover of Wnd are tightly coupled and that failure in this coupling leads to dysregulated Wnd protein turnover and triggers excessive stress signaling. We further uncover the role of Rab11 in this coupling.</p><p>Many neuronal proteins exhibit polarized protein expression patterns. DLK proteins are found in the axonal compartments of diverse animals <ref type="bibr" target="#b76">(Xiong et al., 2010;</ref><ref type="bibr" target="#b25">Klinedinst et al., 2013;</ref><ref type="bibr" target="#b22">Holland et al., 2016;</ref><ref type="bibr" target="#b44">Niu et al., 2020</ref><ref type="bibr" target="#b43">Niu et al., , 2022))</ref>. However, the extent of DLK axonal localization has not been thoroughly studied, presumably because of technical limitations. We employed Drosophila larval sensory neurons to answer this question. Our data suggests that Wnd proteins are highly enriched in the axon terminals of these neurons (Figure <ref type="figure" target="#fig_2">1</ref>). Given that Wnd encodes a cytoplasmic protein, the extent of axonal enrichment was rather surprising. Wnd protein levels are constantly suppressed by Hiw in the axon terminals. Without such suppression, Wnd proteins would show well over 70-fold enrichment in axons. The UTRs of wnd are dispensable for Wnd axonal enrichment (Figure <ref type="figure" target="#fig_3">1C</ref>), which suggests that axonal anterograde transport of Wnd is responsible for such axonal enrichment. This is supported by previous observations of DLK proteins on membrane vesicles undergoing both anterograde and retrograde transport in axons <ref type="bibr" target="#b76">(Xiong et al., 2010;</ref><ref type="bibr" target="#b22">Holland et al., 2016;</ref><ref type="bibr" target="#b32">Li et al., 2017)</ref>. Taken together, these indicate that Wnd proteins are synthesized in the neuronal cell body and subsequently transported into axon terminals through a highly active and efficient anterograde transport process.</p><p>What might be such a transport mechanism? DLK genes encode cytoplasmic proteins. Protein palmitoylation is an important post-translational mechanism for protein transport <ref type="bibr" target="#b0">(Aicart-Ramos et al., 2011;</ref><ref type="bibr" target="#b63">Tortosa and Hoogenraad, 2018)</ref>. It increases hydrophobicity of target proteins to aid membrane association so that palmitoylated proteins are transported along with the membrane vesicles they associate. In our study, we found that protein palmitoylation on Wnd at the Cysteine residue 130 (Wnd-C130) is essential for its axonal localization. Interestingly, the palmitoylation-defective mutant Wnd-C130S exhibited large punctate structures in the cell body (Figure <ref type="figure" target="#fig_7">2E</ref>), which colocalized with the somatic Golgi complex (Figure <ref type="figure" target="#fig_4">2</ref> -supplement 1). This suggests that Wnd-C130 palmitoylation is not solely responsible for membrane association. The presence of residual palmitoylation in Wnd-C130S (Figure <ref type="figure" target="#fig_7">2D</ref>) may indicate the existence of an additional palmitoylation site, which may explain how Wnd-C130S associates with the Golgi.</p><p>Consistent with our findings, previous studies have shown that DLK proteins in mammalian cells and C. elegans are palmitoylated on a single Cysteine residue, and when this residue is mutated, the proteins exhibit a diffuse cytoplasmic expression pattern <ref type="bibr" target="#b22">(Holland et al., 2016)</ref>.</p><p>These observations raise the question of why Wnd-C130S, with its residual palmitoylation and membrane association, fails to be transported to axon terminals. Interestingly, recent research has proposed a role for protein palmitoylation in anterograde transport within the Golgi complex <ref type="bibr" target="#b14">(Ernst et al., 2018)</ref>. We envision that Wnd-C130 palmitoylation is a necessary sorting step towards the axonal anterograde transport from the somatic Golgi complex rather than merely acting as a membrane anchor.</p><p>The role of Rab11 in Wnd axonal targeting and protein turnover uncovered by our DN-Rab screening suggests a role of RE in these processes (Figure <ref type="figure" target="#fig_12">5</ref> and<ref type="figure" target="#fig_13">6</ref>). Rab11 plays a critical role in membrane trafficking events at the RE and is often used as a marker for the RE <ref type="bibr" target="#b61">(Taguchi, 2013)</ref>. It is involved in the anterograde transport of cargo from the Golgi apparatus to the plasma membrane through the RE <ref type="bibr" target="#b1">(Ang et al., 2004;</ref><ref type="bibr" target="#b53">Satoh et al., 2005;</ref><ref type="bibr" target="#b61">Taguchi, 2013)</ref>. We envision that once Wnd is palmitoylated, it is sorted at the peri-nuclear RE for subsequent axonal anterograde transport. Our observation of significant colocalization between Wnd proteins and Rab11-positive puncta in C4da cell bodies (Figure <ref type="figure" target="#fig_13">6</ref>) but not in axon terminals (Figure <ref type="figure" target="#fig_13">6</ref> -supplement) supports the idea that Wnd proteins are associated with the RE during their anterograde transport.</p><p>Inhibiting Rab11 activity led to increased Wnd protein levels (Figure <ref type="figure" target="#fig_14">6E</ref>). Reduced activity or expression levels of Rab11 have been reported in experimental models of Huntington's disease, Parkinson's disease and in patients with amyotrophic lateral sclerosis <ref type="bibr">(Li et al., 2009a</ref><ref type="bibr" target="#b35">(Li et al., , 2010;;</ref><ref type="bibr" target="#b4">Breda et al., 2015;</ref><ref type="bibr" target="#b41">Mitra et al., 2019;</ref><ref type="bibr" target="#b49">Rai and Kumar Roy, 2022)</ref>. Furthermore, recent studies point to the involvement of DLK in multiple neurodegenerative conditions <ref type="bibr" target="#b48">(Pozniak et al., 2013;</ref><ref type="bibr" target="#b71">Welsbie et al., 2013</ref><ref type="bibr" target="#b72">Welsbie et al., , 2017;;</ref><ref type="bibr">Larhammar et al., 2017a;</ref><ref type="bibr" target="#b28">Le Pichon et al., 2017;</ref><ref type="bibr" target="#b45">Patel et al., 2017)</ref>.</p><p>These raise a tantalizing possibility that disrupted anterograde transport of DLK, and subsequent dysregulated DLK protein turnover, could be a contributing factor in these neurodegenerative disorders. In this regard, it is highly encouraging that inhibiting Wnd activity mitigated the neuronal loss and JNK activation by Rab11 loss-of-function (Figure <ref type="figure" target="#fig_15">7</ref>). Further investigations are needed to elucidate the causal role of dysregulated DLK protein turnover in neurodegenerative conditions and to better understand the interplay between Rab11-mediated transport, protein turnover, and DLK-mediated stress signaling.</p><p>The mechanism by which Hiw performs compartmentalized Wnd protein turnover in axons is an interesting question. There are several possibilities to consider. One possibility is that Hiw protein itself is specifically present in the axon terminals and not in the cell body. Studies have shown that Phr1, the mammalian homolog of Hiw, is expressed in axonal segments of motor neuron explants and in the axon shaft of sensory neurons, but its expression in the growth cone is low or absent <ref type="bibr" target="#b31">(Lewcock et al., 2007)</ref>. However, it is not known whether Hiw proteins are present in the cell body and to what extent. Unfortunately, the lack of an immunostaining compatible Hiw antibody has limited our ability to test this possibility. Nevertheless, transgenic expression of GFP::Hiw in Drosophila has shown significantly higher expression in the motor neuron cell bodies <ref type="bibr" target="#b76">(Xiong et al., 2010)</ref>. Moreover, a study has demonstrated that Hiw controls the expression of dNMNAT2, a substrate of Hiw, both in the cell body and the neuromuscular junction <ref type="bibr">(Xiong et al., 2012)</ref>. These observations suggest that Hiw expression itself may not be restricted to the axon terminals. Another possibility is that DLK proteins are protected from PHR1/RMP-1/Hiw-mediated protein turnover in the cell body. DLK protein stability can be enhanced by Hsp90 <ref type="bibr" target="#b24">(Karney-Grobe et al., 2018)</ref>, protein phosphorylation by JNK <ref type="bibr" target="#b23">(Huntwork-Rodriguez et al., 2013)</ref>, and PKA <ref type="bibr" target="#b21">(Hao et al., 2016)</ref>. These protective pathways may collaborate with PHR1/RMP-1/Hiw to execute axon-specific protein turnover of DLK proteins.</p><p>Understanding the interplay between these protective mechanisms and PHR1/RMP-1/Hiw in regulating DLK protein turnover will provide valuable insights on subcellular specific Wnd protein turnover.</p><p>The coupling between axonal transport and protein turnover of DLK proteins may have important implications in the context of neurodegenerative disorders. Recent studies have implicated DLK as a central player in neuronal death, including in diseases such as Alzheimer's disease and amyotrophic lateral sclerosis <ref type="bibr" target="#b48">(Pozniak et al., 2013;</ref><ref type="bibr" target="#b71">Welsbie et al., 2013</ref><ref type="bibr" target="#b72">Welsbie et al., , 2017;;</ref><ref type="bibr">Larhammar et al., 2017a</ref><ref type="bibr">Larhammar et al., , 2017b;;</ref><ref type="bibr" target="#b28">Le Pichon et al., 2017;</ref><ref type="bibr" target="#b45">Patel et al., 2017)</ref>. Defective axonal transport is a common feature observed in many neurodegenerative disorders <ref type="bibr" target="#b6">(Chevalier-Larsen and Holzbaur, 2006;</ref><ref type="bibr" target="#b10">De Vos et al., 2008;</ref><ref type="bibr" target="#b20">Guo et al., 2020)</ref>, and it has been proposed to contribute to disease pathogenesis. Interestingly, studies have reported increased DLK protein levels in neuronal cell bodies following neuronal insults <ref type="bibr" target="#b70">(Watkins et al., 2013;</ref><ref type="bibr" target="#b71">Welsbie et al., 2013)</ref>. Furthermore, DLK signaling has been shown to be activated by cytoskeletal disruptions <ref type="bibr" target="#b66">(Valakh et al., 2013</ref><ref type="bibr" target="#b65">(Valakh et al., , 2015))</ref>, which may impair cytoskeleton-based axonal transport. This raises an intriguing possibility that disrupted axonal transport, leading to the accumulation of DLK proteins, could be a contributing factor for DLK activation and neuronal loss in neurodegenerative diseases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drosophila Strains, rearing, DNA Constructs for Generating Transgenic Flies</head><p>The following Drosophila strains were reared at 25°C in a humidified chamber. ppk-GAL4 <ref type="bibr" target="#b17">(Grueber et al., 2007)</ref>; UAS-dHIP14::Tdtomato and Dhip14 ex11 <ref type="bibr" target="#b60">(Stowers and Isacoff, 2007)</ref>; hiw ∆N  <ref type="bibr" target="#b73">(Wu et al., 2005)</ref>; UAS-ManII::GFP <ref type="bibr" target="#b77">(Ye et al., 2007)</ref>; UAS-ManII-Tag::RFP <ref type="bibr" target="#b79">(Zhou et al., 2014)</ref>; Mi{MIC}wnd GFSTF <ref type="bibr" target="#b67">(Venken et al., 2011)</ref>; GMR-Gal4 <ref type="bibr" target="#b54">(Seong et al., 2001)</ref>; elav-Gal4 C155   (BDSC #459); w 1118 (BDSC #3605); TI{TI}Rab11 EYFP (BDSC #62549) <ref type="bibr" target="#b12">(Dunst et al., 2015)</ref>; UASp-YFP.Rab11 (BDSC #50782) <ref type="bibr">(Zhang et al., 2007)</ref>; Rab11 93Bi (BDSC #4158) <ref type="bibr" target="#b16">(Giansanti et al., 2007)</ref>; puc-lacZ <ref type="bibr">(Martin-Blanco et al., 1998)</ref>. For DN-Rab screening, the fly lines <ref type="bibr">(Zhang et al., 2007)</ref> were obtained from the Bloomington Drosophila Stock Center and the full list of fly lines is provided in Table <ref type="table">1</ref>.</p><p>To generate DNA constructs of Wnd with its natural 5'-and 3'-UTRs and the serial deletion constructs of Wnd, the genomic sequences of the 5'-UTR and 3'-UTR of Wnd were obtained from w 1118 genomic DNA by PCR. The coding sequence of Wnd was recovered from UAS-Wnd <ref type="bibr" target="#b9">(Collins et al., 2006)</ref> via PCR and inserted into the pUASTattB plasmid using NotI and Xbal restriction sites. UAS-Wnd-KD::GFP, Wnd-KD∆100::GFP, and WndC130S-KD::GFP were generated by site-directed mutagenesis using In-Fusion® Snap Assembly Master Mix (Takara Bio USA, Inc, San Jose, CA). UAS-Wnd-C130S::GFP and UAS-Wnd∆101-200::GFP were generated by site-directed mutagenesis. To generate UAS-Wnd-KD::mRFP, the coding sequence of Wnd-KD was obtained from UAS-Wnd-KD::GFP via PCR and inserted into the pUASTattB plasmid using NotI and Xbal sites. To generate 2XUAS-Wnd::GFP and 2XUAS-Wnd-C130S::GFP, the coding sequences of Wnd and Wnd-C130S were obtained from UAS-Wnd::GFP and UAS-Wnd-C130S::GFP via PCR respectively. Subsequently, they were inserted into the p2xUASTattB plasmid (Addgene #189860) <ref type="bibr">(Singh and Kim, 2022)</ref> using NotI and XbaI restriction sites.</p><p>Transgenic flies were generated by PhiC31-mediated germline transformation using an identical landing site <ref type="bibr" target="#b2">(Bischof et al., 2007)</ref>.</p><p>To dose larvae with DLKi (GNE-3511, Sigma Aldrich), DLKi was dissolved in DMSO and was added to a final concentration of 35 µM in fly food. Fly larvae were raised directly on either control (DMSO) or DLKi containing food.</p><p>Drosophila Schneider 2 cell culture, transfection, Palmitoylation assay, and Western blot.</p><p>Drosophila Schneider 2 (S2) cells were prepared as previously described <ref type="bibr">(Singh et al., 2022)</ref>.</p><p>Cells were transfected with indicated DNA constructs and tubulin-Gal4 <ref type="bibr" target="#b29">(Lee and Luo, 1999)</ref> using polyethyleneimine (Polysciences, Warrington, PA) <ref type="bibr" target="#b37">(Longo et al., 2013)</ref>.</p><p>Two days after transfection, the Acyl-Biotin Exchange (ABE) assay was performed <ref type="bibr" target="#b13">(Drisdel et al., 2006)</ref>. Cells were lysed in the ice-cold Lysis buffer (LB, 50 mM HEPES/pH 7.4, 150 mM NaCl, 1 mM EDTA, 1% NP40, 5% glycerol, 1 mM PMSF, 1 mM Na3VO4, 5 mM NaF) with Halt TM protease inhibitor cocktail EDTA-free (ThermoFisher Scientific, Waltham, MA) and 25 mM Nethylmaleimide (Sigma, St. Louis, MO), incubated for 1hr at 4˚C and centrifuged at 1000 xg for 5 min. The resulting post-nuclear lysates were centrifuged at 20,000 x g for 30 min at 4˚C. The supernatant was incubated with the GFP selector (NanoTag Biotechnologies, Göttingen, Germany) for 2 hr at 4˚C to pulldown Wnd-GFP proteins. The GFP selector beads along with bound proteins were recovered by a brief centrifugation and washed two times with LB containing 0.1% SDS before incubating with 1 M hydroxylamine hydrochloride (HAM, Sigma, St.</p><p>Louis, MO) in LB (pH 7.2) at room temperature for 1 hr. Half of the protein-bound GFP selector beads were incubated with LB without HAM and used as a "-HAM" control. Then, the protein GFP selector beads were washed with pH 6.2 LB twice and treated with 1.6 µM EZ-Link TM BMCC-Biotin (ThermoFisher Scientific, Waltham, MA) in pH 6.2 LB for 45 min at 4˚C. Beads were washed twice with LB without NP40 before being processed for SDS-PAGE. Proteins were separated by SDS-PAGE and were subjected to Western blot analysis with mouse monoclonal anti-Biotin antibody (Jackson Immunoresearch, West Grove, PA) and chicken polyclonal anti-GFP antibody (Aves Labs, Tigard, OR).</p><p>To measure Wnd expression in larva brain lysates, larvae were grown on fly food containing 35 µM DLKi food in a humidified chamber. The larval central nervous system (the ventral nerve cord and brain lobes) was dissected out from the 3 rd instar larvae and collected in ice-cold PBS before recovery by a brief centrifugation at 4°C. The total brain lysates were prepared by directly adding SDS-PAGE sample buffer and homogenization before being resolved on 8% SDS-PAGE gel and subsequent Western blot analysis. The samples were blotted using anti-Wnd antibody <ref type="bibr" target="#b9">(Collins et al., 2006)</ref> to estimate total Wnd proteins. Anti-Elav antibody (DSHB -9F8A9) <ref type="bibr">(O'Neill et al., 1994)</ref> was used as a loading control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunostaining and Imaging</head><p>Drosophila 3 rd instar larvae were prepared for immunostaining as previously described <ref type="bibr">(Singh et al., 2022)</ref>. Primary antibodies used were rabbit polyclonal anti-RFP (Rockland Immunochemicals, Limerick, PA), chicken polyclonal anti-GFP (Aves Labs, Tigard, OR), and goat anti-horseradish peroxidase conjugated with Cy5 (Jackson ImmunoResearch, West Grove, PA). The secondary antibodies used were Cy2-or Cy5-conjugated goat anti-chicken and Cy2or Cy5-conjugated goat anti-Rabbit (Jackson ImmunoResearch, West Grove, PA).</p><p>Confocal imaging was done with a Leica SP8 confocal system, or a custom-built spinning disk confocal microscope equipped with a 63x oil-immersion objective with a 0.3 µm step-sizes.</p><p>For Wnd axonal enrichment analysis, the C4da neuron cell bodies from abdominal segments 4-6 and the corresponding segments in the ventral nerve cord were imaged. The resulting 3D images were projected into 2D images using a maximum projection method in the imageJ software. A region of interest was drawn in the cell body of C4da neurons, and the mean fluorescence intensity was measured using ImageJ software. The mean fluorescence intensity of UAS-mCD8::mRFP transgene expression was measured from the same region of interest and used as a normalization control. The mean intensities of the C4da cell bodies from a single larva were averaged out to calculate the axonal enrichment index. The axonal enrichment index was defined as Wnd expression (mean intensity) in the axon terminals divided by an average</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wnd expression in cell bodies (mean intensity).</head><p>To analyze Golgi and Wnd colocalization, the resulting 3D images were projected into 2D images using a maximum projection method in the ImageJ software. The Manders' Overlap Coefficient <ref type="bibr" target="#b47">(Pike et al., 2017)</ref> was measured as the percentage of total GFP signal overlapping with RFP signal using the ImageJ plugin, JACoP <ref type="bibr" target="#b3">(Bolte and Cordelières, 2006)</ref>. To analyze puncta colocalization, we used the Manders' coefficient <ref type="bibr" target="#b47">(Pike et al., 2017)</ref> that is correlation between each channel signal using JACop. For Wnd colocalization with TI-YFP::Rab11, a single confocal slice was selected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drosophila eye degeneration</head><p>The flies that are 24 -48 hr after eclosion were imaged using the Basler ace acA2440-75 μm CCD-camera or Moticam A5 camera installed on a stereomicroscope. The region of interest was drawn on the fly eye area from the images and expressed as pixel numbers divided by 1000.</p><p>Flies were raised at 27°C in a humidified incubator except for Figure <ref type="figure" target="#fig_9">4</ref> -supplement 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drosophila Viability and Lethality Analysis</head><p>Flies were raised at 27°C. Viability was determined by counting the number of filial pupae generation (adult flies after eclosion) and pupae lethality by counting the number of dead pupae per vial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design and statistical analysis.</head><p>All statistical analysis was performed as two-tailed using GraphPad Prism software version 7.04. The Mann-Whitney test was used for immunostaining results. A ratio paired t-test was used for Western blot analysis (Figure <ref type="figure" target="#fig_8">3A</ref> and<ref type="figure" target="#fig_14">6E</ref>). For multigroup comparisons, one-way ANOVA was used followed by post hoc Tukey's multiple comparisons tests. The Chi-square test was performed for Drosophila lethality analysis (Figure <ref type="figure" target="#fig_11">4B</ref>). A p-value smaller than 0.05 was considered statistically significant. All p values are indicated as NS; non-significant, *; P &lt; 0.05, **; P &lt; 0.01, ***; P &lt; 0.001, and ****; P &lt; 0.0001 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wnd is highly enriched in axon terminals (A-D).</head><p>(A) A representative image of Mi{MIC}wnd GFSTF in the neuropil of larval ventral nerve cords (top) and C4da neuron cell body (bottom) from a hemizygous male hiw mutant (hiw △ N ) were shown. Wnd-GFP (Wnd-GFSTF, green) and anti-HRP staining (magenta). Scale bar = 10 µm.</p><p>(B) Schematic of Drosophila larval C4da neurons. C4da cell bodies and dendrites are located in the body wall (green) while their axons (red) terminate in the ventral nerve cord (VNC) collectively forming the ladder-like structure of axon terminals (yellow).</p><p>(C) The Wnd::GFP (with or without wnd-UTRs, green) along with mCD8::RFP (magenta) were expressed in the larval C4da neurons in the presence of DLK inhibitor, DLKi. The expression levels of transgenes were shown in C4da cell body and the axon terminals.</p><p>(D) The axonal enrichment index was expressed as median ± 95% CI. Sample numbers were 5'-Wnd::GFP-3' (w 1118 ; UAS-wnd-5'UTR-Wnd::GFP-wnd-3'UTR/+;ppk-GAL4, UAS-mCD8::RFP/+) (n = 26), Wnd::GFP (w 1118 ; UAS-Wnd::GFP-SV40 3'UTR /+; ppk-GAL4, UAS-mCD8::RFP/+) (n = 22), Wnd-KD::GFP (w 1118 ; UAS-Wnd-KD::GFP/+; ppk-GAL4, UAS-mCD8::RFP/+) (n = 6). All samples were treated with DLKi ; One-way ANOVA (F(2,51) = 0.5176) followed by post hoc Tukey's multiple comparison test.</p><p>(E) The Wnd-KD::GFP transgene along with mCD8::RFP was expressed in C4da neurons with the ppk-Gal4 driver, in wild-type (wt) (w 1118 ;UAS-Wnd-KD::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+, sample n = 8) or in hiw mutant (hiw △ N ; UAS-Wnd-KD::GFP/+;ppk-Gal4,UAS-mCD8::RFP/+, sample n = 9) larvae. Representative images of Wnd-KD::GFP in C4da cell bodies and axon terminals, stained for anti-GFP (green). The average Wnd-KD::GFP intensity from cell bodies and axon terminals were quantified and expressed as median ± 95% CI; (Cell body: U=25, P=0.3213, Axon terminal: U=0, P&lt;0.0001, two-tailed Mann-Whitney test). Scale bar = 10 µm. (B) The axonal enrichment index from Figure <ref type="figure" target="#fig_2">1</ref> and supplement 1 were expressed as median ± 95% CI. Genotypes and sample numbers were 5'-Wnd::GFP-3' (w 1118 ; UAS-wnd-5'UTR-Wnd::GFP-wnd-3'UTR/+;ppk-GAL4, UAS-mCD8::RFP/+) with DLKi (n = 26), Wnd::GFP (w 1118 ; UAS-Wnd::GFP-SV40 3'UTR /+; ppk-GAL4, UAS-mCD8::RFP/+) with DLKi (n = 22), Wnd-KD::GFP (w 1118 ; UAS-Wnd-KD::GFP/+; ppk-GAL4, UAS-mCD8::RFP/+) (n = 10), with DLKi (n = 6), with DMSO (n = 6); One-way ANOVA (F(4,65) = 1.017) followed by post hoc Tukey's multiple comparison test. (B) The transgenes of serially deleted Wnd (green) along with mCD8::mRFP were expressed in the larval C4da neurons. Note that Wnd∆100 was further mutated to remove kinase activity (Wnd-KD∆100). The expression levels of Wnd::GFP proteins in C4da cell body and the axon terminals were shown (left). Scale bars = 10 µm. The axonal enrichment of each Wnd transgenes was measured using mCD8::RFP (not shown in figure) as a normalization control and expressed as median ± 95% CI. One-way ANOVA (F(3,59) = 103.8) followed by post hoc Tukey's multiple comparison test. The p values from Tukey's test are indicated in the graph. Genotypes and sample numbers were Wnd-KD (UAS-Wnd-KD::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+, n=22), Wnd-KD∆100 (UAS-Wnd-KD∆100::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+, n=18), Wnd∆200 (UAS-Wnd∆200::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+, n=13), and Wnd∆101-200 (UAS-Wnd∆101-200::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+, n=10).</p><p>(C) Wnd-C130 is an evolutionarily conserved palmitoylation site. The protein sequence alignment of DLK proteins from the indicated species is shown. The conserved Cysteine residue is shown in red.</p><p>(D) GFP-tagged Wnd proteins were expressed in S2 cells before pulled down by GFP nanobody beads. The Acyl Biotin Exchange assay was performed on the beads coupled Wnd proteins. Wnd-C130S::GFP is a palmitoylation defective version of Wnd. "No HAM" serves as a negative control since Biotin exchange does not occur in the absence of HAM. Biotin blot shows protein palmitoylation levels while total Wnd shows Wnd protein levels in the pulldown. The numbers indicate the total intensity of palmitoylation blot that were normalized by GFP blot from Wnd::GFP and Wnd-C130S::GFP.</p><p>(E) A wild-type Wnd::GFP transgene (Wnd::GFP) and a palmitoylation-defective Wnd transgene (Wnd-C130S::GFP) along with mCD8::RFP were expressed in the larval C4da neurons in the presence of DLKi. GFP immunostaining from Wnd::GFP proteins in C4da cell body and the axon terminals were shown (top). Scale bar = 10 µm. The axonal enrichment of the Wnd transgenes was measured using mCD8::RFP (not shown in figure) as a normalization control and expressed as median ± 95% CI (U=0, P&lt;0.0001, two-tailed Mann-Whitney test). Genotypes and samples numbers were Wnd::GFP (UAS-Wnd::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+ , n = 12) and Wnd-C130S::GFP (UAS-WndC130S::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+ , n=10).    (A) Wnd::GFP and Wnd-C130S::GFP were expressed in the larval nervous system using a panneuronal driver, Elav-GAL4 in the presence of DLKi. Larval brain lysates were subjected to Western blot analysis using a GFP antibody. Elav blot was used as a loading control. The GFP blots were normalized by Elav blots and expressed as mean ± SEM (n = 4, t = 9.409, df =3, p=0.0025, two-tailed ratio paired t-test). Genotypes were Wnd::GFP (elav-Gal4/+; UAS-Wnd::GFP/+;) and WndC130S::GFP (elav-Gal4/+; UAS-WndC130S::GFP/+;).</p><p>(B) Wnd transgenes (green) along with mCD8::RFP were expressed in the larval C4da neurons to directly compare the expression levels of Wnd::GFP and Wnd-C130S::GFP in C4da cell bodies and axon terminals. The larvae were treated with DLKi. Scale bar = 10 µm. The average fluorescent intensities from GFP staining of each larva sample (C4da cell bodies and axon terminals) were measured and expressed as median ± 95% CI (Axon terminal: Mann-Whitney U=2, P=0.0162, two-tailed Mann-Whitney test, Cell body: Mann-Whitney U=0, P&lt;0.0001, twotailed Mann-Whitney test). Genotypes and sample numbers were Wnd::GFP (UAS-Wnd::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+, n = 8) and Wnd-C130S::GFP (UAS-WndC130S::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+, n = 4).  (B) Wnd transgenes along with mCD8::RFP were expressed in the larval C4da neurons using ppk-GAL4. The axon terminal morphology was visualized by mCD8::RFP. Wnd-KD::GFP (UAS-Wnd-KD::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+), Wnd::GFP(UAS-Wnd::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+), WndC130S::GFP (UAS-WndC130S::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+) and WndC130S-KD::GFP (UAS-WndC130S-KD::GFP/+;ppk-Gal4, UAS-mCD8::RFP/+). Scale bar = 10 µm.   (D) Wnd-KD::GFP (green) along with mCD8::RFP (magenta) were expressed in the larval C4da neurons from wild-type (wt) or from homozygous Rab11 mutants (Rab11 93bi ). Images from C4da axon terminals and cell bodies were shown. Scale bar = 10 µm. The axonal enrichment of Wnd-KD::GFP was measured using mCD8::RFP as a normalization control and expressed as median ± 95% CI (Mann-Whitney U=0, P&lt;0.0001, two-tailed Mann-Whitney test). Genotypes and sample numbers were wt (UAS-Wnd-KD::GFP/ppk-Gal4, U-mCD8::RFP, n=17) and Rab11 93bi (UAS-Wnd-KD::GFP/ppk-Gal4, U-mCD8::RFP; Rab11 93bi , n=12).</p><p>(E) Western blot was performed on the larval brain lysates from wild-type (wt, w 1118 ) or homozygous Rab11 93bi using Wnd antibody to measure total Wnd protein levels. Elav blot was used as a loading control. The Wnd blots were normalized by Elav blots and expressed as mean ± SEM (n = 3, t = 6.06, df =2, p=0.026, two-tailed ratio paired t-test).   Under normal conditions, the newly synthesized Wnd proteins are recruited to the Golgi apparatus in neuronal cell body. Wnd is palmitoylated at somatic Golgi apparatus, which enables it to be sorted into the Recycling Endosomes via Rab11. Wnd is actively transported out of neuronal cell bodies towards axon terminals where Hiw-mediated degradation of Wnd occurs. When Rab11 function is lost, Wnd proteins cannot be transported towards axon terminals. This prevents Wnd protein turnover resulting in higher Wnd protein expression, which in turn triggers cell death pathway. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>-supplement 2). Drosophila HIP14, dHIP14 showed somatic Golgi localization and extensive colocalization with Wnd proteins in C4da cell bodies (Figure 2 -supplement 3). Furthermore, mutating dHIP14 significantly decreased Wnd enrichment in axon terminals (Figure 2 -supplement 3). These suggest that Wnd protein palmitoylation is catalyzed by HIP14 in somatic Golgi complex like mammalian cells. However, unlike mammalian and C. elegans DLK proteins, Wnd palmitoylation is not necessary for Golgi localization since Wnd-C130S::GFP retained Golgi localization (Figure 2 -supplement 1). Moreover, Wnd palmitoylation plays a unique role in localizing Wnd proteins in axon terminals in Drosophila. Palmitoylation-defective Wnd evades protein turnover and accumulates in neuronal cell bodies.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Expressing DN-Rab11 caused severe eye loss phenotypes (Figure7B). To test whether increased Wnd expression contributes to the neuronal loss caused by DN-Rab11, we treated DN-Rab11 expressing flies with Wnd kinase inhibitor, DLKi/GNE-3511. The treatment partially but significantly mitigated eye loss phenotype caused by DN-Rab11 expression (Elav-GAL4/DN-Rab11) while having no effect on eye development in control flies (Elav-GAL4 and DN-Rab11) (Figure7B).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig 1 .</head><label>1</label><figDesc>Fig 1. Wnd protein turnover by Hiw is restricted in the axon terminals of Drosophila sensory neurons.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1-Supplement 1. The axon terminal enrichment of Wnd is independent of Wnd kinase activity. (A) A Wnd kinase-dead (Wnd-KD::GFP, green) along with mCD8::RFP (magenta) were expressed in the larval C4da neurons in either regular food, food containing DMSO (vehicle control) or DLKi. The expression levels of transgenes were shown in C4da cell body and the axon terminals. Scale bar = 10 µm.</figDesc><graphic coords="35,72.00,72.00,422.90,422.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Wnd palmitoylation is essential for Wnd axonal localization. (A) Schematic of Wnd deletion mutants. Deletion of the N-terminal 1-100aa of Wnd (Wnd∆100), Deletion of the N-terminal 1-200 aa of Wnd (Wnd∆200), and Deletion of the N-terminal 101-200 aa of Wnd (Wnd∆101-200).</figDesc><graphic coords="36,72.00,72.00,412.30,514.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2-Supplement 1. Wnd palmitoylation is not required for Wnd localization in somatic Golgi complex. Wnd-C130S::GFP (green) along with a Golgi marker, ManII-Tag::RFP (magenta) were expressed in the larval C4da neurons. The expression patterns of the two transgenes in C4da cell bodies were shown (left). Scale bar = 10 µm. The Manders' overlap coefficient between Wnd transgenes and ManII-Tag::RFP was measured and expressed as median ± 95% CI (right). The Genotype and sample numbers were Wnd-C130S::GFP (w 1118 ; UAS-Wnd-C130S-KD::GFP/+;ppk-GAL4/UAS-ManII-Tag-RFP, n=22).</figDesc><graphic coords="38,72.00,72.00,468.00,180.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2-Supplement 2. Somatic Golgi localization is necessary for Wnd localization in axon terminals. Wnd transgenes (green) along with a Golgi marker, ManII-Tag::RFP (magenta) were expressed in the larval C4da neurons. The expression patterns of the two transgenes in C4da cell bodies were shown (left). Scale bar = 5 µm. The Manders' overlap coefficient between Wnd transgenes and ManII-Tag::RFP was measured and expressed as median ± 95% CI (right). Genotypes and sample numbers were Wnd-KD::GFP (w 1118 ; UAS-Wnd-KD::GFP/+;ppk-GAL4/UAS-ManII-Tag-RFP, n = 23), Wnd-KD∆100::GFP (w 1118 ; UAS-Wnd-∆100-KD::GFP/+;ppk-GAL4/UAS-ManII-Tag-RFP, n=26), Wnd-∆200::GFP (w 1118 ;UAS-Wnd-∆200::GFP/+;ppk-GAL4/UAS-ManII-Tag-RFP, n=28) and Wnd-∆101-200::GFP (w 1118 ;UAS-Wnd∆101-200::GFP/+;ppk-GAL4/UAS-ManII-Tag-RFP, n = 15). One-way ANOVA (F(3,88) = 129.8) followed by post hoc Tukey's multiple comparison test. The p values from Tukey's test are indicated in the graph.</figDesc><graphic coords="39,72.00,89.45,468.00,256.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2-Supplement 3. dHIP14 is required for Wnd localization in axon terminals. (A) A Golgi marker, ManII::GFP (green) was expressed in the larval C4da neurons along with dHIP14::Tdtomato (magenta). The image was taken from a C4da cell body. Scale bar = 10 µm. (B) Wnd-KD::GFP (green) was expressed in the larval C4da neurons along with dHIP14::Tdtomato (magenta). The image was taken from a C4da cell body. Scale bar = 10 µm.(C) Wnd-KD::GFP (green) along with mCD8::RFP (magenta) were expressed in the larval C4da neurons from wild-type (wt) or homozygous dHIP14 mutants (dHIP14 ex11 ). Scale bar = 10µm. The axonal enrichment of Wnd-KD::GFP was measured and expressed as a median ± 95% CI (Mann-Whitney U=13, P&lt;0.0001, two-tailed Mann-Whitney test). Genotypes and sample numbers were wt (UAS-Wnd-KD::GFP/ppk-Gal4, U-mCD8::RFP;+/+, n=17) and dHIP14 ex11 (UAS-Wnd-KD::GFP/ppk-Gal4, U-mCD8::RFP;dHIP14 ex11 , n=16).</figDesc><graphic coords="40,72.00,89.45,468.00,328.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Increased protein expression levels of palmitoylation-defective Wnd.</figDesc><graphic coords="41,72.00,89.45,468.00,333.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Palmitoylation-defective Wnd caused exacerbated stress responses. (A) puc-LacZ were expressed along with 2XUAS-Wnd::GFP and 2XUAS-Wnd-C130S::GFP in the larval C4da neurons. The average fluorescent intensities from puc-LacZ staining of each larva sample in C4da cell body were measured and expressed as median ± 95% CI (Mann-Whitney U=56, P&lt;0.0001, two-tailed Mann-Whitney test). Genotypes and sample numbers were 2XUAS-Wnd::GFP (2XUAS-Wnd::GFP/ppk-Gal4,UAS-mCD8::RFP ;puc-LacZ/+, n = 28) and 2XUAS-Wnd-C130S::GFP (2XUAS-Wnd-C130S::GFP/ ppk-Gal4,UAS-mCD8::RFP ;puc-LacZ/+, n = 28) Scale bar = 10 µm.</figDesc><graphic coords="42,72.00,89.45,442.88,477.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 4 -</head><label>4</label><figDesc>Figure 4-Supplement 1. Wnd-C130S::GFP retains Wnd signaling capacity. (A) puc-LacZ were expressed along with 5XUAS-Wnd::GFP and 5XUAS-Wnd-C130S::GFP in the larval C4da neurons. The average fluorescent intensities from puc-LacZ staining of each larva sample in C4da cell body were measured and expressed as median ± 95% CI (Mann-Whitney U=909, P=0.0016, two-tailed Mann-Whitney test). Genotypes and sample numbers were 5XUAS-Wnd::GFP (;ppk-Gal4,UAS-mCD8::RFP/5XUAS-Wnd::GFP;puc-LacZ/+, n = 54) and 5XUAS-Wnd-C130S::GFP (;ppk-Gal4,UAS-mCD8::RFP/5XUAS-Wnd-C130S::GFP;puc-LacZ/+, n = 52) Scale bar = 10 µm.</figDesc><graphic coords="44,72.00,89.45,460.35,400.79" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 4 -</head><label>4</label><figDesc>Figure 4 -Supplement 2. Wnd-C130S::GFP exhibits higher toxicity levels than Wnd::GFP. (A) Representative images of fly eyes from Wnd::GFP under GMR-GAL4 (GMR&gt;Wnd::GFP), Wnd-C130S::GFP under GMR-GAL4 (GMR&gt;Wnd-C130::GFP), and Wnd-KD::GFP under GMR-GAL4 (GMR&gt;Wnd-KD::GFP). Flies were reared at 18˚C. (B) Eye area was quantified and expressed as median ± 95% CI. One-way ANOVA (F(6, 136) = 362.0) followed by post hoc Tukey's multiple comparison test (****, P &lt; 0.0001). Genotypes and sample numbers were GMR (GMR-GAL4/+, n = 21), Wnd::GFP (UAS-Wnd::GFP/+, n = 22), Wnd-C130S::GFP (UAS-Wnd-C130S::GFP/+, n = 20), Wnd-KD::GFP (UAS-Wnd-KD::GFP/+, n = 24), GMR&gt;Wnd::GFP (GMR-GAL4/UAS-Wnd::GFP, n = 17), GMR&gt;Wnd-C130S::GFP (GMR-GAL4/UAS-Wnd-C130S::GFP, n = 16), and GMR&gt;Wnd-KD::GFP (GMR-GAL4/UAS-Wnd-KD::GFP, n = 23). Note more severe eye phenotypes in GMR&gt;Wnd-C130S::GFP as compared to GMR&gt;Wnd::GFP.</figDesc><graphic coords="45,72.00,89.45,468.00,293.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Screening of Dominant negative Rab proteins for Wnd axonal enrichment. (A) YFP-tagged dominant negative-Rab (DN-Rab) transgenes along with Wnd-KD::mRFP were expressed in the larval C4da neurons. The axonal enrichment of Wnd-KD::mRFP was measured by Wnd-KD::mRFP expression levels from C4da cell bodies and axon terminals and expressed as mean ± sem of a fold change of control (mCD8::GFP) (n ≥10). One way ANOVA followed by post hoc Dunnett test (F(27,284) = 7.146). A mCD8::GFP transgene was used as a transgene control (UAS-Wnd-KD::mRFP/+;ppk-Gal4, UAS-mCD8::GFP/+). Note that YFP::DN-Rab1 and YFP::DN-Rab11 reduced Wnd axonal enrichment by more than 50% compared to the control (gray bar).(B) Representative images of Wnd-KD::mRFP expression in the axon terminals and cell bodies from the C4da neurons that express mCD8::GFP, DN-Rab1, and DN-Rab11 were shown. The Wnd axonal enrichment was expressed as median ± 95% CI (Mann-Whitney U=0, P &lt; 0.0001 for DN-Rab1, U=13, P&lt;0.0001 for DN-Rab11, two-tailed Mann-Whitney test). Genotypes and sample numbers were mCD8::GFP (UAS-Wnd-KD::mRFP/+;ppk-Gal4, UAS-mCD8::GFP/+, n= 19) DN-Rab1 (UAS-Wnd-KD::mRFP/+;ppk-Gal4/ UAST-YFP.Rab1 S25N, n=12) and DN-Rab11 (UAS-Wnd-KD::mRFP/ UASp-YFP.Rab11 S25N; ppk-Gal4/+, n=10) Scale bar = 10 µm.</figDesc><graphic coords="46,72.00,89.45,468.00,394.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Rab11 is necessary for Wnd localization in axon terminals and Wnd protein turnover.(A) and(B). Wnd localizes at the Rab11-positive endosomes in C4da cell bodies.Wnd-KD::mRFP was expressed in C4da neurons of TI-YFP::Rab11 larvae (A). TI-YFP::Rab11 is endogenously YFP-(Yellow fluorescent protein) tagged Rab11 allele. Wnd-KD::mRFP was expressed in C4da neurons along with YFP::Rab11 (B). Wnd-KD::mRFP (magenta) and YFP::Rab11 (green) were visualized in C4da cell bodies using an RFP and GFP antibodies, respectively. Genotypes and sample numbers were TI-YFP::Rab11 (UAS-Wnd-KD::mRFP/+;TI{TI}Rab11[EYFP]/ppk-Gal4, n=28) and YFP::Rab11 (UAS-Wnd-KD::mRFP/UAS-YFP::Rab11;ppk-Gal4/+; , n=30). Scale bar = 10 µm.(C) Wnd transgenes (magenta) along with mCD8::GFP or YFP::DN-Rab11 were expressed in the larval C4da neurons to directly compare the expression levels of Wnd-KD::mRFP in C4da cell bodies and axon terminals. Scale bar = 10 µm. The average fluorescent intensities from mRFP staining of each larva sample were measured and expressed as median ± 95% CI (Cell body: Mann-Whitney U=0, P &lt;0.0001, two-tailed Mann-Whitney test; Axon terminal: Mann-Whitney U=12, P=0.0160, two-tailed Mann-Whitney test). Genotypes and sample numbers were wt (UAS-Wnd-KD::mRFP/+;ppk-Gal4, UAS-mCD8::GFP/+, n = 9) and YFP::DN-Rab11 (UAS-Wnd-KD::mRFP/UASp-YFP.Rab11.S25N ;ppk-Gal4, UAS-mCD8::RFP/+, n = 9).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 6 -</head><label>6</label><figDesc>Figure 6-Supplement. Wnd do not localize in the Rab11-positive endosomes in axon terminals.(A) Wnd-KD::mRFP and YFP::Rab11 were expressed in the larval C4da neurons using ppk-GAL4. Wnd-KD::mRFP (magenta) and YFP::Rab11 (green) were visualized in C4da axon terminals using RFP and GFP antibodies, respectively.(B) The Manders' overlap coefficient between Wnd-KD::mRFP and YFP::Rab11 was measured in cell body and axon terminals and expressed as median ± 95% CI. (Mann-Whitney U=56, P &lt;0.0001, two-tailed Mann-Whitney test). Sample numbers were; Cell body n=30, neuropils n=21.</figDesc><graphic coords="49,72.00,72.00,310.65,375.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Wnd mediates stress signaling induced by Rab11 loss-of-function. (A) puc-LacZ were expressed along with YFP::DN-Rab11 and mCD8::GFP in the larval C4da neurons in the presence of DMSO (vehicle) or DLK inhibitor (DLKi). The average fluorescent intensities from LacZ staining of each larva sample in C4da cell bodies were measured and quantified as median ± 95% CI. One-way ANOVA (F (3,171) = 11.48) followed by post hoc Tukey's multiple comparison test (****, P &lt; 0.0001). Genotypes and sample numbers were wt (; ppk-Gal4, UAS-mCD8::RFP/+;puc-LacZ/+, in DMSO, n = 36, in DLKi n=42) and DN-Rab11 (; ppk-Gal4, UAS-mCD8::RFP/+;puc-LacZ/UASp-YFP.Rab11.S25N, in DMSO, n = 51, in DLKi, n=46) Scale bar = 10 µm.(B) Representative images of fly eyes from Elav-GAL4 only, DN-Rab11 only, and DN-Rab11 expression under a pan-neuronal driver, Elav-GAL4 (Elav-GAL4/DN-Rab11). Flies were reared in the presence ofDMSO and DLKi (down). Eye area was quantified and expressed as median ± 95% CI. One-way ANOVA (F (5,114) = 290.3) followed by post hoc Tukey's multiple comparison test (****, P &lt; 0.0001). Genotypes and sample numbers were Elav-Gal4 (Elav-GAL4/+, n = 20), DN-Rab11 (;;UASp-YFP.Rab11.S25N/+, n = 20), Elav-Gal4/DN-Rab11 (ElavGal4/+;;UASp-YFP.Rab11.S25N /+, n = 20).</figDesc><graphic coords="50,72.00,72.00,441.05,402.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Rab11 suppresses neuronal stress signaling by localizing Dual leucine zipper kinase to axon terminals for protein turnover.</figDesc><graphic coords="51,72.00,72.00,460.10,255.03" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We thank <rs type="person">Drs. Steve Stowers</rs> and <rs type="person">Catherine Collins</rs> for sharing reagents. Research reported in this study used the <rs type="institution">Cellular and Molecular Imaging Core facility</rs> at the <rs type="institution">University of Nevada Reno</rs>, which was supported by <rs type="funder">NIH</rs> <rs type="grantNumber">GM103650</rs>. This study was supported by <rs type="funder">NIH</rs> <rs type="grantNumber">R01NS116463</rs> and <rs type="grantNumber">P20GM103440</rs> (<rs type="funder">NV INBRE)</rs> to J.K. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_kqAWXAK">
+					<idno type="grant-number">GM103650</idno>
+				</org>
+				<org type="funding" xml:id="_mNGna6a">
+					<idno type="grant-number">R01NS116463</idno>
+				</org>
+				<org type="funding" xml:id="_VnEd4Md">
+					<idno type="grant-number">P20GM103440</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author contributions S.K., Y.Q., M.S., and J.K. designed the experiments. S.K., Y.Q., and M.S. experiments. S.K. and J.K. wrote the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interests</head><p>The authors declare no competing financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation and subcellular trafficking</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aicart-Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Valero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rodriguez-Crespo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2011.07.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1808</biblScope>
+			<biblScope unit="page" from="2981" to="2994" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Recycling endosomes can serve as intermediates during transport from the Golgi to the plasma membrane of MDCK cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Ang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Taguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fölsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Murrells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pypaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mellman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="531" to="543" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An optimized transgenesis system for Drosophila using germ-line-specific phiC31 integrases</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bischof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hediger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Basler</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0611511104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="3312" to="3317" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A guided tour into subcellular colocalization analysis in light microscopy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bolte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Cordelières</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2818.2006.01706.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Microsc</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="page" from="213" to="232" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Rab11 modulates α-synuclein-mediated defects in synaptic transmission and behaviour</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Breda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Nugent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Estranero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Kyriacou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Outeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Steinert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giorgini</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/ddu521</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mol Genet</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1077" to="1091" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Impaired mitochondrial biogenesis, defective axonal transport of mitochondria, abnormal mitochondrial dynamics and synaptic degeneration in a mouse model of Alzheimer&apos;s disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Calkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Shirendeb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Reddy</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/ddr381</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mol Genet</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="4515" to="4529" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Axonal transport and neurodegenerative disease</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chevalier-Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Holzbaur</surname></persName>
+		</author>
+		<idno type="DOI">1094-1108.10.1016/j.bbadis.2006.04.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1762</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Alterations in axonal transport motor proteins in sporadic and experimental Parkinson&apos;s disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Morfini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Langhamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kordower</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/brain/aws133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brain</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="2058" to="2073" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Defective axonal transport in a transgenic mouse model of amyotrophic lateral sclerosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Collard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Côté</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Julien</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/375061a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="61" to="64" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Highwire restrains synaptic growth by attenuating a MAP kinase signal</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Wairkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2006.05.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="57" to="69" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Role of axonal transport in neurodegenerative diseases</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>De Vos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Grierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ackerley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="151" to="173" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Neurobiology of axonal transport defects in motor neuron diseases: Opportunities for translational research?</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>De Vos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hafezparast</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nbd.2017.02.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol Dis</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="283" to="299" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Endogenously tagged rab proteins: a resource to study membrane trafficking in Drosophila</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dunst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kazimiers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zadow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jambor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Brankatschk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahmoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Spannl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tomancak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brankatschk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2015.03.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="351" to="365" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Assays of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Drisdel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sayeed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Green</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ymeth.2006.04.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="127" to="134" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">S-Palmitoylation Sorts Membrane Cargo for Anterograde Transport in the Golgi</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ernst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Syed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bottanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hacke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rivera-Molina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Rebane</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2018.10.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="479" to="493" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">DLK induces developmental neuronal degeneration via selective regulation of proapoptotic JNK activity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pozniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lewcock</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201103153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page" from="751" to="764" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Rab11 is required for membrane trafficking and actomyosin ring constriction in meiotic cytokinesis of Drosophila males</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Giansanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Belloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gatti</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.e07-05-0415</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="5034" to="5047" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Projections of Drosophila multidendritic neurons in the central nervous system: links with peripheral dendrite morphology</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Grueber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Younger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Borden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Jan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename></persName>
+		</author>
+		<idno type="DOI">10.1242/dev.02666</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="55" to="64" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Axonal transport: Driving synaptic function</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Guedes-Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L F</forename><surname>Holzbaur</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaw9997</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Anterograde Axonal Transport in Neuronal Homeostasis and Disease</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>El-Agamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Otsuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terenzio</surname></persName>
+		</author>
+		<idno type="DOI">556175.10.3389/fnmol.2020.556175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Mol Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Axonal transport defects and neurodegeneration: Molecular mechanisms and therapeutic implications</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stoklund Dittlau</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Den</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bosch</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.semcdb.2019.07.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Cell Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="133" to="150" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">An evolutionarily conserved mechanism for cAMP elicited axonal regeneration involves direct activation of the dual leucine zipper kinase DLK</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nestorovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Holzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Giger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.14048</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Palmitoylation controls DLK localization, interactions and activity to ensure effective axonal injury signaling</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Collura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ketschek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Noma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="763" to="768" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">JNK-mediated phosphorylation of DLK suppresses its ubiquitination to promote neuronal apoptosis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huntwork-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Watkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pozniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bustos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lewcock</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201303066</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="747" to="763" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">HSP90 is a chaperone for DLK and is required for axon injury signaling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karney-Grobe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milbrandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">9899-E9908.10.1073/pnas.1805351115</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Independent pathways downstream of the Wnd/DLK MAPKKK regulate synaptic structure, axonal transport, and injury signaling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klinedinst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Haenfler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.5160-12.2013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="12764" to="12778" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Dual leucine zipper kinase-dependent PERK activation contributes to neuronal degeneration following insult</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Larhammar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huntwork-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Solanoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sengupta Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Kaminker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eastham-Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Siu</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.20725</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Ste20 Family Kinases MAP4K4, MINK1, and TNIK Converge to Regulate Stress-Induced JNK Signaling in Neurons</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Larhammar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huntwork-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rudhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sengupta-Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lewcock</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.0905-17.2017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="11074" to="11084" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Loss of dual leucine zipper kinase signaling is protective in animal models of neurodegenerative disease</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Le Pichon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Meilandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dominguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Solanoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ngu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gogineni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sengupta Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/scitranslmed.aag0394</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Transl Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Mosaic analysis with a repressible cell marker for studies of gene function in neuronal morphogenesis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0896-6273(00)80701-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="451" to="461" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Cytoplasmic aggregates trap polyglutaminecontaining proteins and block axonal transport in a Drosophila model of Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Littleton</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0400243101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="3224" to="3229" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The ubiquitin ligase Phr1 regulates axon outgrowth through modulation of microtubule dynamics</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lewcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Genoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lettieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Pfaff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="604" to="620" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Restraint of presynaptic protein levels by Wnd/DLK signaling mediates synaptic defects associated with the kinesin-3 motor Unc-104</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Asghari Adib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Stanchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klinedinst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Soppina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Rasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.24271</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Disruption of Rab11 activity in a knock-in mouse model of Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Comer-Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Masso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Esteves</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nbd.2009.08.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol Dis</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="374" to="383" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Mutant huntingtin impairs vesicle formation from recycling endosomes by interfering with Rab11 activity</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Standley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Comer-Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Esteves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chase</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MCB.00420-09</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="6106" to="6116" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Aberrant Rab11-dependent trafficking of the neuronal glutamate transporter EAAC1 causes oxidative stress and cell death in Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Masso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Difiglia</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.5865-09.2010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="4552" to="4561" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Activation of MAP3K DLK and LZK in Purkinje cells causes rapid and slow degeneration depending on signaling strength</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Steinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.10.7554/eLife.63509</idno>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Transient mammalian cell transfection with polyethylenimine (PEI)</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Longo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kavran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Leahy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-12-418687-3.00018-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="227" to="240" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Identification of Novel Inhibitors of DLK Palmitoylation and Signaling by High Content Screening</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D O</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Kanuparthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Einarson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">3632.10.1038/s41598-019-39968-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">puckered encodes a phosphatase that mediates a feedback loop regulating JNK activity during dorsal closure in Drosophila</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martín-Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gampel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Virdee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kirov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Tolkovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martinez-Arias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="557" to="570" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A dual leucine kinase-dependent axon self-destruction program promotes Wallerian degeneration</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Press</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Daniels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milbrandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn.2290</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="387" to="389" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Loss of endosomal recycling factor RAB11 coupled with complex regulation of MAPK/ERK/AKT signaling in postmortem spinal cord specimens of sporadic amyotrophic lateral sclerosis patients</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Hegde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hegde</surname></persName>
+		</author>
+		<idno type="DOI">55.10.1186/s13041-019-0475-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Brain</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Regulation of a DLK-1 and p38 MAP kinase pathway by the ubiquitin ligase RPM-1 is required for presynaptic development</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abrams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goncharov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Chisholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2004.12.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="407" to="420" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Palmitoylation couples the kinases DLK and JNK3 to facilitate prodegenerative axon-to-soma signaling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ketschek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Collura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Hesketh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">2674.10.1126/scisignal.abh2674</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Signal</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Coupled Control of Distal Axon Integrity and Somal Responses to Axonal Damage by the Palmitoyl Acyltransferase ZDHHC17</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Collura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Hayden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">108365.10.1016/j.celrep.2020.108365</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Selective Inhibitors of Dual Leucine Zipper Kinase (DLK, MAP3K12) with Activity in a Model of Alzheimer&apos;s Disease</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Meilandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Deshmukh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Estrada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Fuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gustafson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Harris</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jmedchem.7b00843</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="8083" to="8102" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Endosomal Dysfunction Induced by Directly Overactivating Rab5 Recapitulates Prodromal and Neurodegenerative Features of Alzheimer&apos;s Disease</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pensalfini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Subbanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleiwas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Goulbourne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Stavrides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Darji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pawlik</surname></persName>
+		</author>
+		<idno type="DOI">108420.10.1016/j.celrep.2020.108420</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Quantifying receptor trafficking and colocalization with confocal microscopy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Styles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Rappoport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Heath</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ymeth.2017.01.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="42" to="54" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Dual leucine zipper kinase is required for excitotoxicity-induced neuronal degeneration</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pozniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sengupta Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gogineni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Solanoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bustos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ngu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="2553" to="2567" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Endosomal recycling protein Rab11 in Parkin and Pink1 signaling in Drosophila model of Parkinson&apos;s disease</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kumar Roy</surname></persName>
+		</author>
+		<idno type="DOI">113357.10.1016/j.yexcr.2022.113357</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">420</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Mutant huntingtin, abnormal mitochondrial dynamics, defective axonal transport of mitochondria, and selective synaptic degeneration in Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">P</forename><surname>Shirendeb</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbadis.2011.10.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1822</biblScope>
+			<biblScope unit="page" from="101" to="110" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Wnd/DLK Is a Critical Target of FMRP Responsible for Neurodevelopmental and Behavior Defects in the Drosophila Model of Fragile X Syndrome</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2019.08.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2581" to="2593" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Parkinson&apos;s disease alphasynuclein mutations exhibit defective axonal transport in cultured neurons</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Utton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Asuni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ackerley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Grierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Buchman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Anderton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Hanger</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.00967</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="1017" to="1024" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Rab11 mediates post-Golgi trafficking of rhodopsin to the photosensitive apical membrane of Drosophila photoreceptors</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Satoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>O'tousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Ready</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/dev.01704</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="1487" to="1497" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Neural-specific overexpression of drosophila plenty of SH3s (DPOSH) extends the longevity of adult flies</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Seong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fuyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aigaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1013249326285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biogerontology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="271" to="281" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Dual leucine zipper kinase is required for retrograde injury signaling and axonal regeneration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beirowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milbrandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cavalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2012.04.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1015" to="1022" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Generation and validation of pX-UASTattB for dose-dependent misexpression studies in</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.17912/micropub.biology.000626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MicroPubl Biol</title>
+		<imprint>
+			<date type="published" when="2022">2022. 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Dual Leucine Zipper Kinase Regulates Dscam Expression through a Noncanonical Function of the Cytoplasmic Poly(A)-Binding Protein</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.0543-21.2022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="6007" to="6019" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Progressive axonal transport and synaptic protein changes correlate with behavioral and neuropathological abnormalities in the heterozygous Q175 KI mouse model of Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Rocha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Mclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Izen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Isacson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hallett</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/ddu166</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mol Genet</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4510" to="4527" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Rab GTPases as coordinators of vesicle traffic</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stenmark</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm2728</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="513" to="525" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Drosophila huntingtin-interacting protein 14 is a presynaptic protein required for photoreceptor synaptic transmission and expression of the palmitoylated proteins synaptosome-associated protein 25 and cysteine string protein</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Stowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Isacoff</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.2464-07.2007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="12874" to="12883" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Emerging roles of recycling endosomes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Taguchi</surname></persName>
+		</author>
+		<idno type="DOI">505-510.10.1093/jb/mvt034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Mutation in Rab11 results in abnormal organization of ommatidial cells and activation of JNK signaling in the Drosophila eye</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Roy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejcb.2009.02.188</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="445" to="460" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Polarized trafficking: the palmitoylation cycle distributes cytoplasmic proteins to distinct neuronal compartments</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tortosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Hoogenraad</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ceb.2018.02.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="64" to="71" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Stress-induced vesicular assemblies of dual leucine zipper kinase are signaling hubs involved in kinase activation and neurodegeneration</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tortosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sengupta Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hinkle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sandoval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Hoogenraad</surname></persName>
+		</author>
+		<idno type="DOI">110155.10.15252/embj.2021110155</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Cytoskeletal disruption activates the DLK/JNK pathway, which promotes axonal regeneration and mimics a preconditioning injury</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Valakh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Babetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nbd.2015.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol Dis</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="13" to="25" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Loss of the spectraplakin short stop activates the DLK injury response pathway in Drosophila</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Valakh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Skeath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.2196-13.2013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="17863" to="17873" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">MiMIC: a highly versatile transposon insertion resource for engineering Drosophila melanogaster genes</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Venken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Haelterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Evans-Holm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Levis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Spradling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hoskins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bellen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1662</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="737" to="743" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Bimodal control of dendritic and axonal growth by the dual leucine zipper kinase pathway</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ye</surname></persName>
+		</author>
+		<idno type="DOI">1001572.10.1371/journal.pbio.1001572</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Axonal transport defects in Alzheimer&apos;s disease</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12035-014-8810-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1309" to="1321" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">DLK initiates a transcriptional program that couples apoptotic and regenerative responses to axonal injury</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Watkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huntwork-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eastham-Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Modrusan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Kaminker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tessier-Lavigne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lewcock</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1211074110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="4039" to="4044" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Functional genomic screening identifies dual leucine zipper kinase as a key mediator of retinal ganglion cell death</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Welsbie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Berlinicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hackler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1211284110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="4045" to="4050" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Enhanced Functional Genomic Screening Identifies Novel Mediators of Dual Leucine Zipper Kinase-Dependent Injury Signaling in Neurons</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Welsbie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jaskula-Ranga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Sluch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Buehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">1146.10.1016/j.neuron.2017.06.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="1142" to="1154" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Highwire function at the Drosophila neuromuscular junction: spatial, structural, and temporal requirements</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Wairkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.2532-05.2005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="9557" to="9566" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A conditioning lesion protects axons from degeneration via the Wallenda/DLK MAP kinase signaling cascade</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="610" to="615" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The Highwire ubiquitin ligase promotes axonal degeneration by tuning levels of Nmnat protein</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Soppina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">1001440.10.1371/journal.pbio.1001440</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Protein turnover of the Wallenda/DLK kinase regulates a retrograde response to axonal injury</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ewanek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diantonio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201006039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="211" to="223" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Growing dendrites and axons differ in their reliance on the secretory pathway</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Younger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Jan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="717" to="729" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Thirty-one flavors of Drosophila rab proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hiesinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Acar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hoskins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bellen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Scott</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.106.066761</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="1307" to="1322" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">GM130 is required for compartmental organization of dendritic golgi outposts</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Savelieff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ye</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2014.04.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1227" to="1233" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">were expressed under an eye specific driver, GMR-GAL4. Adult fly lethality was scored and analyzed using the Chi-square (df = 41.57,1, z= 6.448, p&lt;0.0001, two-sided contingency test)</title>
+		<idno>Wnd-C130S::GFP (2XUAS-Wnd- C130S::GFP/GMR-Gal4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Genotypes and sample numbers were Wnd::GFP (2XUAS-Wnd::GFP/GMR-Gal</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<idno>Wnd-C130S::GFP under GMR-GAL4 (2XUAS-Wnd-C130S::GFP/GMR- Gal4). UAST-YFP.Rab1.S25</idno>
+	</analytic>
+	<monogr>
+		<title level="m">GFP/+), Wnd-C130S::GFP (2XUAS-Wnd-C130S::GFP/+)</title>
+		<title level="s">Representative images of fly eyes from Wnd::GFP (2XUAS-Wnd</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9757</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<editor>Rab2.S20N Zhang et al.</editor>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23640</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ; N</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9843</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ; N</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9766</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uast-Yfp ;</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">9849</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ;</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">9771</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uast-Yfp ; N</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23249</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uast-Yfp ;</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">9856</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ;</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">9778</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ;</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">9780</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ; N</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23642</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ;</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">9786</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9792</biblScope>
+		</imprint>
+	</monogr>
+	<note>Rab11.S25N Zhang et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<title level="m">Rab18.S19N Zhang et al</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23238</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9799</biblScope>
+		</imprint>
+	</monogr>
+	<note>Rab19.T35N Zhang et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uast-Yfp ; N</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23241</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9804</biblScope>
+		</imprint>
+	</monogr>
+	<note>Rab23.S51N Zhang et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9807</biblScope>
+		</imprint>
+	</monogr>
+	<note>Rab26.T204N Zhang et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ; N</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23267</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp ;</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">23281</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9819</biblScope>
+		</imprint>
+	</monogr>
+	<note>Rab35.S22N Zhang et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23247</biblScope>
+		</imprint>
+	</monogr>
+	<note>Rab39.S23N Zhang et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uast-Yfp ; N</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">9829</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<title level="m">CG9807.T21N Zhang et al</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23257</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<title level="m">CG9807.T21N Zhang et al</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23258</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<monogr>
+		<author>
+			<persName><surname>Uast-Yfp</surname></persName>
+		</author>
+		<title level="m">CG32673.T21N Zhang et al</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">23254</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Uasp-Yfp.Rab11</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">50782</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<monogr>
+		<title level="m" type="main">TI{TI}Rab11</title>
+		<author>
+			<persName><surname>Eyfp] Dunst</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page">62549</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Giansanti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">4158</biblScope>
+		</imprint>
+	</monogr>
+	<note>Rab11[93Bi</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

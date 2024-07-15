@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder>
+					<orgName type="full">Korea Health Industry Development Institute</orgName>
+				</funder>
+				<funder ref="#_7khRaeR">
+					<orgName type="full">Korea Government</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation of Korea</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Health &amp; Welfare</orgName>
+				</funder>
+				<funder ref="#_fy5pbAJ #_umq5xp6">
+					<orgName type="full">Korea Health Technology R&amp;D Project &apos;Strategic Center of Cell and Bio Therapy&apos;</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-06-03">Jun 3, 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Sang</roleName><forename type="first">Young-Chan</forename><surname>Kim</surname></persName>
+							<idno type="ORCID">0000-0002-6726-5957</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Strategic Center of Cell &amp; Bio Therapy</orgName>
+								<orgName type="institution">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Korea Research-Driven Hospital</orgName>
+								<orgName type="institution" key="instit2">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eun</forename><surname>Lee</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Somi</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+							<idno type="ORCID">0000-0001-7806-6200</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Strategic Center of Cell &amp; Bio Therapy</orgName>
+								<orgName type="institution">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Korea Research-Driven Hospital</orgName>
+								<orgName type="institution" key="instit2">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hyun-Duk</forename><surname>Jang</surname></persName>
+							<idno type="ORCID">0000-0002-7126-3647</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Strategic Center of Cell &amp; Bio Therapy</orgName>
+								<orgName type="institution">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Korea Research-Driven Hospital</orgName>
+								<orgName type="institution" key="instit2">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sang</forename><forename type="middle">Eun</forename><surname>Lee</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Asan Medical Center</orgName>
+								<orgName type="institution">University of Ulsan College of Medicine</orgName>
+								<address>
+									<settlement>Cardiology, Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Injoo</forename><surname>Hwang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Strategic Center of Cell &amp; Bio Therapy</orgName>
+								<orgName type="institution">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Korea Research-Driven Hospital</orgName>
+								<orgName type="institution" key="instit2">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sooryeonhwa</forename><surname>Jin</surname></persName>
+							<idno type="ORCID">0000-0002-8588-1059</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Strategic Center of Cell &amp; Bio Therapy</orgName>
+								<orgName type="institution">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Korea Research-Driven Hospital</orgName>
+								<orgName type="institution" key="instit2">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Molecular Medicine and Biopharmaceutical Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Convergence Science and Technology</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eun-Byeol</forename><surname>Hong</surname></persName>
+							<idno type="ORCID">0000-0002-8218-862X</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Strategic Center of Cell &amp; Bio Therapy</orgName>
+								<orgName type="institution">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Korea Research-Driven Hospital</orgName>
+								<orgName type="institution" key="instit2">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kyoung-Soon</forename><surname>Jang</surname></persName>
+							<idno type="ORCID">0000-0001-5451-5788</idno>
+							<affiliation key="aff4">
+								<orgName type="department">Biomedical Omics Center</orgName>
+								<orgName type="institution">Korea Basic Science Institute</orgName>
+								<address>
+									<settlement>Cheongju</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hyo-Soo</forename><surname>Kim</surname></persName>
+							<idno type="ORCID">0000-0003-0847-5329</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Strategic Center of Cell &amp; Bio Therapy</orgName>
+								<orgName type="institution">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Korea Research-Driven Hospital</orgName>
+								<orgName type="institution" key="instit2">Seoul National University Hospital</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Molecular Medicine and Biopharmaceutical Sciences</orgName>
+								<orgName type="department" key="dep2">Graduate School of Convergence Science and Technology</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Molecular Medicine and Biopharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">World Class University Program</orgName>
+								<orgName type="institution" key="instit2">Seoul National University</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-06-03">Jun 3, 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2DC9982008874F84E3536D28B8031AC1</idno>
+					<idno type="DOI">10.1038/s41589-019-0344-0</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-04T08:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Toll-like receptor (TLR)/myeloid differentiation primary response protein (MYD88) signaling aggravates sepsis by impairing neutrophil migration to infection sites. However, the role of intracellular fatty acids in TLR/MYD88 signaling is unclear. Here, inhibition of fatty acid synthase by C75 improved neutrophil chemotaxis and increased the survival of mice with sepsis in cecal ligation puncture and lipopolysaccharide-induced septic shock models. C75 specifically blocked TLR/MYD88 signaling in neutrophils. Treatment with GSK2194069 that targets a different domain of fatty acid synthase, did not block TLR signaling or MYD88 palmitoylation. De novo fatty acid synthesis and CD36-mediated exogenous fatty acid incorporation contributed to MYD88 palmitoylation. The binding of IRAK4 to the MYD88 intermediate domain and downstream signal activation required MYD88 palmitoylation at cysteine 113. MYD88 was palmitoylated by ZDHHC6, and ZDHHC6 knockdown decreased MYD88 palmitoylation and TLR/MYD88 activation upon lipopolysaccharide stimulus. Thus, intracellular saturated fatty aciddependent palmitoylation of MYD88 by ZDHHC6 is a therapeutic target of sepsis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S</head><p>epsis is a life-threatening systemic inflammation due to dysregulation of the host response to bacterial infection and causes more than 250,000 annual deaths in the United States as well as a great medical-care cost burden to patients <ref type="bibr" target="#b0">1</ref> . Numerous clinical trials with the aim of alleviating septic conditions have been unsuccessful <ref type="bibr" target="#b1">2</ref> . Upon infection, neutrophils protect the host using bactericidal signals through interleukin (IL)-8/C-X-C chemokine receptor type 2 (CXCR2) and formylated peptide/formyl peptide receptor <ref type="bibr" target="#b2">3</ref> . Under septic conditions, however, such bactericidal activity of neutrophils is impaired because of the uncontrollable activation of inflammatory signaling through TLR/MYD88, making neutrophils less apoptotic and chemotactic <ref type="bibr" target="#b3">4</ref> . Thus, developing methods of suppressing the TLR/MYD88 response without affecting the signaling pathway of CXCR2 or formyl peptide receptor may prevent host damage, while maintaining the antibacterial activity of neutrophils, leading to improved survival of patients with sepsis and breakthroughs in the clinical setting.</p><p>Saturated fatty acid (SFA) activates TLR signaling and generates proinflammatory conditions <ref type="bibr" target="#b4">5</ref> . However, the precise mechanism by which SFA facilitates TLR responses remains poorly understood. Previously, numerous studies have focused on exogenous SFA, which has been suggested to directly stimulate TLR <ref type="bibr" target="#b5">6</ref> or to change the lipid raft composition of the plasma membrane <ref type="bibr" target="#b6">7</ref> . However, a recent paper challenged the current concept, with structural evidence showing that SFA is not a TLR4 agonist, suggesting a different method of activating TLRs by SFA <ref type="bibr" target="#b7">8</ref> . In contrast, fatty acid synthase (FASN) generates endogenous de novo fatty acids that are also important regulators of signal transduction; emerging evidence suggests that endogenous fatty acids regulate inflammation and the immune system <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> . We predicted that fatty acids can modulate TLR signaling in a different manner from the established route.</p><p>Endogenous fatty acids synthesized by FASN can be converted to palmitoyl-CoA and incorporated into cysteine residues of the protein via thioester linkage in a process known as S-palmitoylation. Extensive studies have revealed diverse roles of palmitoylation in protein trafficking and subcellular localization <ref type="bibr" target="#b10">11</ref> . However, very little is known about whether palmitoylation directly influences inflammatory signaling, particularly TLR/MYD88 signaling, and whether it is dynamically regulated in the immune system.</p><p>Here, we demonstrate that treatment with C75 (1), an FASN inhibitor, enhanced the chemotactic activity of neutrophils and improved the survival of mice under septic conditions in vivo.</p><p>In vitro experiments showed that MYD88, a common adapter molecule in the TLR family, was palmitoylated. By comparing the effects of different FASN inhibitors, we demonstrated that MYD88 palmitoylation is affected by both de novo fatty acid synthesis and CD36mediated exogenous fatty acid incorporation. Mass spectrometric analysis showed that MYD88 was palmitoylated at cysteine 113 and cysteine 274. The ZDHHC6 enzyme was the strongest candidate for MYD88-specific palmitoyl-acyl transferase (PAT). In vitro analyses of MYD88 palmitoylation after treatment with FASN inhibitors, cysteine mutagenesis or PAT knockdown decreased the TLR4 response, revealing a novel regulatory mechanism of inflammation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>C75, a FASN inhibitor, improves the survival of septic mice. To investigate the potential role of endogenous fatty acid synthesis in inflammation, C57BL/6J mice subjected to a cecal ligation puncture (CLP) were treated with C75 (Fig. <ref type="figure">1a</ref>). Compared to DMSOtreated mice, C75-pretreated mice (4 h before CLP procedure) had a higher survival rate and the median overall survival was extended from 4.0-8.5 d (Fig. <ref type="figure">1b</ref>); additionally, a lower bacterial burden was</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Toll-like receptor mediated inflammation requires FASN-dependent MYD88 palmitoylation</head><p>Articles Nature ChemiCal Biology observed in the peritoneal exudate (Fig. <ref type="figure">1c</ref>), suggesting that the FASN inhibitor may be useful as a therapeutic agent under early septic conditions. In another in vivo model intraperitoneally injected with lipopolysaccharide (LPS; 45 mg kg -1 ), C75-pretreated mice showed better survival (Supplementary Fig. <ref type="figure">1</ref>). LPS-induced inflammation at the bacterial infection site is known to impair neutrophil migration. This process involves p38 mitogen-activated protein kinase (MAPK) activation that can promote CXCR2 internalization to desensitize bactericidal signals produced by neighboring cells <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b11">12</ref> . We found that C75 treatment inhibited LPS-induced internalization of surface CXCR2 (Fig. <ref type="figure">1d</ref> and Supplementary Fig. <ref type="figure">2</ref>) and improved the chemotactic ability of neutrophils toward only IL-8 in the presence of LPS by blocking LPS-induced activation of TLR signaling (Fig. <ref type="figure">1e</ref>). An enhanced chemotactic response to IL-8 was also observed when FASN expression was downregulated by human short hairpin RNA in a DMSO-differentiated HL-60 cell line (Fig. <ref type="figure">1f</ref>). These data indicate that inhibiting FASN prevents the desensitization of neutrophils, such as internalization of CXCR2, upon bacterial infection. Taken together, pharmacologic inhibition of FASN may play a therapeutic role in vivo by effectively inhibiting septic inflammation and improving survival by modulating TLR signaling.</p><p>FASN inhibitor specifically decreases TLR signaling. To explain the observed in vivo effect of C75 in TLR-mediated inflammation, we isolated neutrophils and exposed them in vitro to three differ-ent stimulants, namely LPS, IL-8 or N-formyl-methionyl-leucylphenylalanine (fMLP). We evaluated whether neutrophil activation was prevented by pretreatment with C75 <ref type="bibr" target="#b12">13</ref> . All three stimulants resulted in a dented and activated morphology of neutrophils in the DMSO-pretreated control group; C75 treatment specifically blocked LPS-induced morphological changes, whereas it did not affect IL-8or fMLP-induced neutrophil activation (Fig. <ref type="figure">2a</ref>). We also performed fluorescence-activated cell sorting (FACS) analysis of neutrophil activation, such as the shedding of L-selectin and induction of CD11b. C75, a FASN inhibitor, blocked only LPS-induced neutrophil activation but not IL-8-or fMLP-induced activation (Fig. <ref type="figure">2b</ref>). Furthermore, treatment with C75 effectively blocked LPS-induced p38MAPK activation in neutrophils (Fig. <ref type="figure">2c</ref>). To rule out the possibility that the observed effect was due to C75 toxicity, we analyzed the apoptotic cell population after pretreatment of C75 in human neutrophils and observed no significant difference in the nonapoptotic cell population (Supplementary Fig. <ref type="figure" target="#fig_1">3</ref>). Moreover, gross morphology did not differ between the two groups. Because neutrophils are the first leukocytes to be recruited to an inflammatory site, we used a 'carrageenan-induced air pouch' model <ref type="bibr" target="#b13">14</ref> to determine whether FASN inhibition inhibits TLR-dependent neutrophil migration in vivo. When inflammation was induced by carrageenan to stimulate TLR4 signaling in the air pouch, C75-pretreated mice showed fewer infiltrated neutrophils than DMSO-pretreated mice (Fig. <ref type="figure">2d</ref>). Thus, our results demonstrate that C75 specifically inhibits TLR-induced neutrophil activation in vitro and in vivo. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nature ChemiCal Biology</head><p>In TLR signaling, each adapter is differentially used by different receptor complexes. To further investigate the inhibitory mechanism of C75 in TLR signaling, we used purified Pam3CSK4 (TLR2 agonist), LPS (TLR4 agonist) and R848 (TLR7-8 agonist) to activate different TLR signaling pathways. Agonist-induced neutrophil activation was blocked by C75, maintaining the normal and round morphology of the cells (Fig. <ref type="figure">2e</ref>). Transcript levels of the MYD88dependent proinflammatory cytokine TNF messenger RNA were downregulated by C75, while those of the MYD88-independent proinflammatory cytokine IFNB1 mRNA were unaffected in neutrophils (Supplementary Fig. <ref type="figure" target="#fig_2">4a,</ref><ref type="figure">b</ref>). A previous study showed that the MYD88-independent pathway (TLR3) is not activated in mature human neutrophils <ref type="bibr" target="#b14">15</ref> and our data suggest that C75 inhibits only MYD88-dependent pathways. We therefore hypothesized that C75 acts downstream of a common adapter molecule of TLR signaling, MYD88 (Supplementary Fig. <ref type="figure" target="#fig_2">4c</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FASN regulates MYD88-dependent inflammation.</head><p>To search for a downstream molecular target of C75, we used the nuclear factor (NF)-κB luciferase gene reporter system. At the plasma membrane level, LPS-activated NF-κB luciferase, which was dosedependently blocked by C75 in hTLR4-293T cells. However, at the submembrane or cytoplasmic level, overexpression of MYD88, TRAF6, IKBKB or RELA activated NF-κB luciferase, which was not blocked by C75 (Fig. <ref type="figure" target="#fig_1">3a</ref>). Because MYD88 overexpression can cause death-domain self-dimerization and subsequent nonspecific downstream activation independently of TLR <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> , we generated a MYD88-GyrB stable cell line from hTLR4-293T cells by fusing the C-terminus of MYD88 with the subunit of Escherichia coli DNA gyrase <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b18">19</ref> . MYD88-GyrB dimerizes only on binding with the Streptomyces product, coumermycin (2), and elicits the TLR signal to bypass the TLR4 surface receptor. In the MYD88-GyrB stable cell line, dimerization of MYD88 by coumermycin activated phospho-p65 and degraded IκBα that was dose-dependently blocked by C75 (Fig. <ref type="figure" target="#fig_1">3b</ref>). Consistent results were obtained in the NF-κB luciferase assay in which C75 blocked coumermycin-induced NF-κB activation (Supplementary Fig. <ref type="figure" target="#fig_3">5</ref>) and the reduction in NF-κB activity was similar to that observed following genetic inhibition of FASN with targeting shRNA (Fig. <ref type="figure" target="#fig_1">3c</ref>). Taken together, these results indicate that C75 targets the machinery of MYD88 dimerization such as the intermediate (INT) or TIR domain of MYD88 (Supplementary Fig. <ref type="figure" target="#fig_4">6</ref>).</p><p>To investigate the direct effect of FASN on MYD88, coimmunoprecipitation and proximity ligation assays were conducted. The results suggest a physical interaction between FASN and MYD88 (Supplementary Fig. <ref type="figure">7</ref>). Because FASN is an enzyme known to produce palmitate as its primary product, we evaluated MYD88 palmitoylation. GPS-Lipid, a free software recently developed for the comprehensive prediction of lipid modification sites <ref type="bibr" target="#b19">20</ref> , supported our hypothesis that at a default threshold, cysteine at positions 113, 166, 192 and 274 were identified as potent S-palmitoylation sites in the MYD88 protein (Supplementary Fig. <ref type="figure">8</ref>). Accordingly, the NF-κB luciferase assay revealed that treatment with a well-known palmitoylation inhibitor, 2-bromopalmitate (2-BP) (3), decreased NF-κB activation, while treatment with palmostatin B (4) <ref type="bibr" target="#b20">21</ref> that is known to increase steady-state palmitoylation by inhibiting depalmitoylating enzyme acyl-protein thioesterase-1, enhanced NF-κB activation in the MYD88-GyrB stable cell line treated with coumermycin (Fig. <ref type="figure" target="#fig_1">3d</ref>). Additionally, when all cysteine residues were mutated to alanine (MYD88-CA), both coumermycin-and LPS-induced p38MAPK activation were inhibited (Supplementary Fig. <ref type="figure">9a,</ref><ref type="figure">b</ref>). The competitive inhibitor of coumermycin, novobiocin, completely blocked coumermycin-induced p38MAPK activation (Supplementary Fig. <ref type="figure">9c</ref>), confirming that the MYD88-GyrB fusion protein does not exhibit nonspecific activation unless cells are exposed to coumermy-cin stimulation. Therefore, the cysteine residues of MYD88 are important in TLR signaling and FASN-associated palmitoylation may account for the mechanism of MYD88-dependent TLR signaling activation.</p><p>Two sources of palmitate for MYD88 palmitoylation. We used an in vitro acyl-biotin exchange (ABE) assay and click chemistry method to test the palmitoylation of MYD88. After transiently overexpressing wild-type (WT) MYD88 and CS-mutant MYD88, in which all cysteine residues were mutated to serine (MYD88-CS), we detected a specific band in the hydroxylamine-treated sample of WT MYD88, whereas it completely disappeared in MYD88-CS (Fig. <ref type="figure" target="#fig_2">4a</ref>). Moreover, treatment with 2-BP significantly inhibited WT MYD88 palmitoylation (Supplementary Fig. <ref type="figure">10a</ref>). The click chemistry method also revealed palmitoylated MYD88 only in the 17-octadecynoic acid (ODYA) (5)-treated group. Treatment with hydroxylamine completely detached 17-ODYA-labeled MYD88, confirming that the detected band was specific for palmitoylated MYD88 (Fig. <ref type="figure" target="#fig_2">4b</ref>). Furthermore, an In-Gel fluorescence detection method after the click reaction revealed a distinct band the size of MYD88 in the 17-ODYA-treated group (Supplementary Fig. <ref type="figure">10b</ref>), confirming MYD88 palmitoylation. MYD88 palmitoylation was nearly completely blocked 2 h after C75 treatment (Supplementary Fig. <ref type="figure">10c</ref>) and was not induced by LPS (Supplementary Fig. <ref type="figure">10d</ref>). The observed palmitoylated MYD88 was also detected in endogenous THP-1 cells (Supplementary Fig. <ref type="figure">10e</ref>).</p><p>On the basis of our hypothesis that FASN is required to supply the endogenous fatty acids required for MYD88 palmitoylation, shFASN RAW264.7 cells were generated to evaluate the changes in MYD88 palmitoylation levels. The ABE assay demonstrated that MYD88 palmitoylation was reduced in shFASN cells compared to control cells (Fig. <ref type="figure" target="#fig_2">4c</ref>). Furthermore, pretreatment with C75 and cerulenin (6) effectively inhibited MYD88 palmitoylation in hTLR4-293T-GyrB cells (Supplementary Fig. <ref type="figure">10f</ref>), suggesting that MYD88 is FASN-dependently palmitoylated. However, treatment with another potent FASN chemical inhibitor, GSK2194069 (7), did not inhibit MYD88 palmitoylation and TLR activation (Supplementary Fig. <ref type="figure">11</ref>). Previous studies showed that FASN protein can regulate membrane cholesterol levels <ref type="bibr" target="#b9">10</ref> , which is important for the influx of exogenous palmitate and that different chemical inhibitors that bind to different subdomains of FASN may have different impacts on cholesterol synthesis <ref type="bibr" target="#b21">22</ref> . C75 or cerulenin inhibits FASN in the ketoacyl synthase domain, which may decrease the production of acetoacetyl-CoA, a potent precursor of cholesterol synthesis, leading to decreased cholesterol synthesis. In contrast, GSK2194069 inhibits the ketoacyl reductase domain of FASN and increases acetoacetyl-CoA levels, leading to increased cholesterol synthesis. We hypothesized that the FASN protein maintains the total intracellular palmitate pool by both regulating the influx of exogenous fatty acids through membrane cholesterol level and producing endogenous fatty acids. We examined whether treatment with cholesterol reversed the C75mediated inhibition of MYD88 palmitoylation. Treatment with acetoacetyl-CoA, β-hydroxy β-methylglutaryl (HMG)-CoA and cholesterol reversed C75 inhibition of MYD88 palmitoylation, while treatment with exogenous palmitate alone did not (Fig. <ref type="figure" target="#fig_2">4d</ref>). This result suggests that the mechanisms of C75 to inhibit MYD88 palmitoylation are twofold: (1) inhibition of de novo synthesis of endogenous palmitate and (2) suppression of membrane cholesterol contents leading to decreased influx of exogenous palmitate. We hypothesized that, in contrast to C75, GSK2194069 may increase membrane cholesterol leading to the influx of exogenous palmitate. To further validate our hypothesis, we treated MYD88-transfected hTLR4-293T cells with GSK2194069 during culture in delipidated FBS media to block both, de novo synthesis of endogenous palmitates and influx of exogenous palmitate. The </p><note type="other">Articles Nature ChemiCal Biology</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature ChemiCal Biology result showed that depleting exogenous fatty acids and inhibiting de novo fatty acid synthesis blocked MYD88 palmitoylation (Supplementary Fig. <ref type="figure" target="#fig_0">12a</ref>) and TLR signaling (Supplementary Fig. <ref type="figure" target="#fig_0">12b</ref>). Next, to evaluate the effect of blocking exogenous fatty acid transport on MYD88 palmitoylation, we treated the cells with 50 µM of sulfo-N-succinimidyl oleate (SSO) (8), an inhibitor of the long-chain fatty acid transporter, CD36. Either SSO (inhibitor of influx of exogenous palmitate) or GSK2194069 (inhibitor of synthesis of endogenous palmitate) alone slightly decreased the amount of MYD88 palmitoylation. But, combination treatment with SSO and GSK2194069 completely blocked MYD88 palmitoylation (Supplementary Fig. <ref type="figure" target="#fig_0">12c</ref>) and LPS-activated TLR signaling (Supplementary Fig. <ref type="figure" target="#fig_0">12d</ref>). These results suggest that a total intracellular palmitate pool comprising both de novo-synthesized palmitate and incorporated exogenous palmitate is an important source of palmitate-mediated posttranslational modification of MYD88.</p><p>MYD88 is palmitoylated at cysteine 113 and 274. MYD88 protein contains nine cysteine residues, all of which are highly conserved among vertebrates. Only the first residue (C113) resides in the INT domain, while others are within the TIR domain (Supplementary Fig. <ref type="figure" target="#fig_1">13</ref>). To identify specific palmitoylation sites in MYD88, we performed MS analysis. Briefly, (1) the free sulfhydryl groups were bound and blocked with N-ethylmaleimide (NEM); (2) the palmitoylated cysteine residue was de-palmitoylated by treatment with hydroxylamine; (3) cysteine residues that were initially palmitoylated and then de-palmitoylated with hydroxylamine were bound and marked with N-methylmaleimide (NMM) <ref type="bibr" target="#b22">23</ref> (Supplementary Fig. <ref type="figure" target="#fig_5">14a</ref>). Liquid chromatography-mass </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature ChemiCal Biology spectrometry analysis identified two NMM-modified MYD88 peptides containing Cys 113 and Cys 274 positions (Fig. <ref type="figure" target="#fig_2">4e</ref>). Collisioninduced dissociation analysis of the precursor ion at m/z 780.72 identified an NMM modification at the Cys 113 position with high confidence (Supplementary Fig. <ref type="figure" target="#fig_5">14b</ref>), while modification of NMM in the Cys 274 showed low confidence but the corresponding MS2 spectrum supported the modification (Supplementary Fig. <ref type="figure" target="#fig_5">14c</ref>).</p><p>To confirm the predicted palmitoylation sites from MS analysis, an ABE assay was performed using hTLR4-293T cells transiently overexpressing a series of mutant MYD88-GyrB plasmids: MyD88 C113A, C274A, C113/274A or CA mutant plasmid. Compared to WT MYD88, all mutant MYD88 (C113A, C274A, C113/274A and CA) showed decreased palmitoylation levels (Fig. <ref type="figure" target="#fig_2">4f</ref>), confirming that the C113 and C274 residues were palmitoylated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IRAK4 recruitment requires MYD88 palmitoylation.</head><p>To evaluate the function of MYD88 palmitoylation, NF-κB luciferase activity was measured using WT and various mutant MYD88-GyrB stable cell lines. The dimerization inducer, coumermycin, activated NF-κB luciferase, which was significantly inhibited in the C113A and CA mutants. As expected, when alanine at position 113 was reversed back to cysteine from the CA mutant (CA113C), NF-κB luciferase activity was rescued (Fig. <ref type="figure" target="#fig_3">5a</ref>). Furthermore, p38MAPK signal activation induced by coumermycin in MYD88-GyrB stable cells was effectively inhibited in the C113A mutant and completely inhibited in the CA mutant that was partially rescued in the CA113C reverse mutant (Fig. <ref type="figure" target="#fig_3">5b</ref>).</p><p>Previous studies suggested that an alternatively spliced variant of MYD88 that lacks an INT domain, negatively regulates IL-1/ TLR signaling because of defective IRAK4 recruitment to the myddosome complex <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> . Moreover, amino acids in MYD88 critical for IRAK4 binding (E110, E111 and D112) are adjacent to C113 within the INT domain <ref type="bibr" target="#b25">26</ref> . We therefore hypothesized that C113 palmitoylation affects IRAK4 recruitment during signal transmission. Compared to WT MYD88, CA and C113A MYD88 failed to interact with IRAK4; however, the CA113C reverse mutant restored the interaction with IRAK4, confirming the importance of MYD88 C113 palmitoylation in recruiting IRAK4 (Fig. <ref type="figure" target="#fig_3">5c</ref>). To rule out the possibility that defective binding with IRAK4 occurs because of structural disruption by alanine mutation, we used a chemical FASN inhibitor and palmitoylation inhibitor, C75 and 2-BP, respectively. Binding of IRAK4 to MYD88 was significantly retarded by C75 or 2-BP, confirming that FASN-dependent MYD88 palmitoylation is crucial for IRAK4 recruitment (Fig. <ref type="figure" target="#fig_3">5d</ref>). In contrast, MYD88 palmitoylation did not affect its self-dimerization, indicating a specific role for palmitoylation in the INT domain of MYD88 (Supplementary Fig. <ref type="figure" target="#fig_3">15</ref>). Moreover, mutating the E52 of MYD88, which was previously reported as a key amino acid for IRAK4 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature ChemiCal Biology binding <ref type="bibr" target="#b26">27</ref> , to alanine (E52A) had no effect on NF-κB activation by MYD88 overexpression (Supplementary Fig. <ref type="figure" target="#fig_4">16</ref>), indicating that in vitro activation of NF-κB in an MYD88 overexpression model by its self-dimerization was independent of IRAK4 and could not be blocked by the FASN inhibitor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC6 palmitoylates MYD88.</head><p>Protein palmitoylation is mediated by a family of PAT enzymes containing a conserved zinc-finger domain and DHHC motif (ZDHHC) <ref type="bibr" target="#b27">28</ref> . A total of 23 mammalian ZDHHC proteins have been identified, 17 of which are known to have PAT activity <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> . We screened all 23 ZDHHC enzymes to identify the one responsible for MYD88 palmitoylation. First, we tested the mRNA expression of 23 enzymes in THP-1 and RAW264.7 cells by real-time PCR (Supplementary Fig. <ref type="figure">17a</ref>). Next, we performed an overexpression screening assay <ref type="bibr" target="#b30">31</ref> involving overexpression of each ZDHHC plasmid to identify any palmitoyltransferases targeting MYD88 (Supplementary Fig. <ref type="figure">17b</ref>). We selected ZDHHC6 as a potent palmitoyltransferase for MYD88 as (1) abundant expression was observed in both cell lines and (2) overexpression increased MYD88 palmitoylation. A proximity ligation assay revealed an </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature ChemiCal Biology endogenous MYD88-ZDHHC6 interaction in the perinuclear region (Fig. <ref type="figure" target="#fig_4">6a</ref>) and coimmunoprecipitation in FLAG-ZDHHC6overexpressing cell lysates showed potent interactions with endogenous MYD88 (Supplementary Fig. <ref type="figure">18</ref>). We performed an ABE assay using shZDHHC6 RAW264.7 cells to monitor changes in MYD88 palmitoylation levels. In contrast to shNT control cells, different clones of shZDHHC6 cells failed to palmitoylate MYD88 (Fig. <ref type="figure" target="#fig_4">6b</ref>).</p><p>In contrast, when FLAG-ZDHHC6 was overexpressed in hTLR4-293T cells, the level of MYD88 palmitoylation was higher than in the control group (Fig. <ref type="figure" target="#fig_4">6c</ref>). To validate the functional significance of these results, we designed shZDHHC6 knockdown cell lines and tested the activation of the downstream signal by LPS in shZDHHC6 cells. Compared to shNT cells, shZDHHC6 cells showed markedly reduced p38MAPK (Fig. <ref type="figure" target="#fig_4">6d</ref>) and NF-κB p65 activation (Fig. <ref type="figure" target="#fig_4">6e</ref>). We also observed a similar pattern of TLR signaling inhibition using siRNA targeting ZDHHC6 (Supplementary Fig. <ref type="figure">19</ref>). Taking these results together, the ZDHHC6 enzyme may be a potent palmitoyltransferase responsible for MYD88 palmitoylation in macrophages and neutrophils (Supplementary Fig. <ref type="figure">20</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>There has been great expansion in our knowledge of fatty acid metabolism and its possible role in modulating inflammatory conditions. However, the direct molecular mechanisms underlying how endogenously synthesized free fatty acids contribute to the innate immune responses remain less well understood. In most cancer cells, de novo fatty acid synthesis is often facilitated to synthesize membranes and signaling molecules <ref type="bibr" target="#b31">32</ref> . In contrast, in normal cells, exogenous lipids act as ligands for nuclear hormone receptors including LXR, RXR and PPARs to transmit proper inflammatory signals <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> . The possible involvement of endogenous fatty acids in normal cell inflammation has recently been suggested; FASN, a producer of endogenous free fatty acids, is activated in LPS-induced macrophages <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b34">35</ref> . Moreover, alternating membrane lipid compositions controlled by fatty acid metabolism are thought to modulate TLR4 signaling in the innate immune system <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b35">36</ref> . We identified a previously undescribed neutrophil response to the FASN inhibitor C75 which is specific for MYD88-dependent TLR signaling pathways. Our identification of a previously unknown palmitoylation of the common adapter molecule MYD88 provides mechanistic insight into how MYD88-dependent TLR signaling is associated with endogenous fatty acid metabolism.</p><p>Although we identified two palmitoylation sites (C113 and C274) in MYD88 protein, p38MAPK and NFκB-p65 activation was significantly impaired in C113A MYD88. Notably, C113A MYD88 alone showed defective IRAK4 binding, emphasizing the importance of C113 palmitoylation in facilitating TLR signaling. Our finding is consistent with previous findings showing that the INT domain of MYD88 is critical for IRAK4 recruitment and subsequent downstream TLR activation. Because IRAK4 is downstream of MYD88, MYD88 palmitoylation in IRAK4 recruitment is in conflict with the finding that NF-κB activation by MYD88 overexpression was not blocked by the FASN inhibitor. However, even when we mutated the death domain residing in E52 of MYD88 that was previously reported as a key amino acid for IRAK4 binding <ref type="bibr" target="#b26">27</ref> , to alanine (E52A), NF-κB was activated by overexpression of E52A MYD88. This result indicates that C113 MYD88 palmitoylation in association with IRAK4 is a physiologically relevant mechanism, whereas in vitro NF-kB activation by MYD88 overexpression is independent of IRAK4.</p><p>Intracellular dynamics of palmitoylation are regulated by a family of 23 ZDHHC enzymes that are defined by the presence of a conserved 51-amino acid zinc-finger domain containing a highly conserved DHHC (Asp-His-His-Cys) tetra peptide. Most ZDHHC enzymes localize to cellular membranes, including the endoplasmic reticulum (ER), Golgi apparatus and plasma membrane <ref type="bibr" target="#b36">37</ref> . In this study, we showed that ZDHHC6 catalyzes MYD88 palmitoylation and observed downregulated inflammatory responses when ZDHHC6 was knocked down. Some pleiotropic mechanisms may exist to decrease the inflammatory response by knockdown of ZDHHC6, as ZDHHC6 was previously shown to palmitoylate calnexin <ref type="bibr" target="#b37">38</ref> and regulate the functions of the inositol 1,4,5-triphosphate receptor <ref type="bibr" target="#b38">39</ref> . However, we detected a palmitoyltransferase targeting MYD88 that participates in modulating TLR signaling in the innate immune system. In terms of spatial arrangement, ZDHHC6 localizes primarily in the ER <ref type="bibr" target="#b36">37</ref> ; how cytosolic MYD88 interacts with ZDHHC6 remains unclear. One possible explanation is the location where MYD88 mRNA is translated. Recent transcriptome-based studies have suggested that not only secretory and membrane-targeted proteins but also cytosolic proteins can be translated in ribosomes associated with the ER <ref type="bibr" target="#b39">40</ref> . We identified a ZDHHC6-MYD88 interaction that regulates inflammatory responses to bacteria, providing insight into how membraneassociated ZDHHC proteins are associated with cytosolic protein and its palmitoylation.</p><p>FASN is involved in S-palmitoylation of important proteins, such as Wnt-1 in prostate cancer cells <ref type="bibr" target="#b40">41</ref> , endothelial nitric oxide synthase in endothelial cells <ref type="bibr" target="#b41">42</ref> and Mucin2 in the colonic epithelium <ref type="bibr" target="#b42">43</ref> . As some proteins were reported to be FASN-dependently palmitoylated <ref type="bibr" target="#b41">42</ref> , we examined the mechanism of FASN-dependent MYD88 palmitoylation. Our study suggests that FASN plays an important role in maintaining the total intracellular palmitate pool both by de novo fatty acid synthesis and by maintaining exogenous fatty acid uptake via controlling membrane cholesterol levels. Our data are consistent with those in macrophage lineagespecific FASN knockout mice showing an attenuated response to inflammation with changes in lipid composition <ref type="bibr" target="#b9">10</ref> . We also found that ZDHHC6 is a potent enzyme that palmitoylates MYD88 protein. This model may have clinical implications, as no specific palmitoylation inhibitors have been identified to date. 2-BP is widely used to verify the function of palmitoylation of a specific protein, but it is also a nonselective inhibitor of many lipid enzymes <ref type="bibr" target="#b43">44</ref> . Other drugs such as cerulenin <ref type="bibr" target="#b44">45</ref> and tunicamycin are indirect palmitoylation inhibitors that inhibit FASN. Although the effects of the C75 inhibitors on cellular physiology were confirmed with genetic inhibition of FASN in our current study, C75 is nonspecific and can activate CPT1 <ref type="bibr" target="#b45">46</ref> . This study overcomes these limitations by providing clinically applicable insights into a drug or small molecule which can modulate ZDHHC6 activity for developing a specific modulator of innate immune functions while minimizing off-target effects.</p><p>In summary, our results reveal how bacterial toxin LPS activates NF-κB through TLR4 and MYD88 in neutrophils. The key step is the palmitoylation of C113 in the INT domain of MYD88 by ZDHHC6 enzyme using intracellular palmitic acids either from endogenous fatty acids synthesized by FASN or from exogenous fatty acids supplied by CD36-mediated uptake. In in vitro and animal experiments, blocking MYD88 palmitoylation in neutrophils suppressed TLR-induced inflammation and enhanced the chemotactic activity of neutrophils, improving the survival of mice with sepsis. This study directly demonstrates that endogenous fatty acids modulate innate immune function and suggests a therapeutic niche for controlling sepsis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>online content</head><p>Any methods, additional references, Nature Research reporting summaries, source data, statements of code and data availability and associated accession codes are available at https://doi.org/10.1038/ s41589-019-0344-0. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nature ChemiCal Biology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Experimental procedures. Mice. C57BL/6J male mice (8-16 weeks old) were purchased from the Jackson Laboratory. All mice were bred and maintained under specific pathogen-free conditions at the Animal Facility of Seoul National University. All experiments were carried out according to the guidelines of the Institutional Animal Care and Use Committees of Seoul National University and all relevant ethical regulations were followed (SNU-150901-2 and SNU-181205-9).</p><p>Cell culture and reagents. 293/hTLR4A-MD2-CD14 cells (hTLR4-293T) were obtained from InvivoGen. WT MYD88-GyrB and various mutant (C113A, C274A, A113C, A274C and CA MYD88)-GyrB constructs in the pcDNA4-V5/ His(A) expression vector were overexpressed in hTLR4-293T cells, followed by 500 μg ml -1 zeocin (InvivoGen) selection to generate hTLR4-MYD88-GyrB-293T stable cells. The hTLR4-293T and HEK-293T cells were cultured in DMEM highglucose supplemented with 10% FBS (Welgene), 1X penicillin and streptomycin and 1X normocin (InvivoGen). RAW264.7 (mouse macrophage cell line) and THP-1 (human monocytic cell line) cells were maintained in RPMI high-glucose supplemented with 10% FBS and 1X penicillin and streptomycin. Most culture media were from Gibco unless otherwise noted. Delipidated FBS (900-123, lot no. A24F02G) was purchased from Gemini Bio-Products. DMSO, LPS (E. coli; serotype O26:B6), 2-BP, cerulenin, puromycin, acetoacetyl-CoA, HMG-CoA, water-soluble cholesterol, palmitic acid, coumermycin A1 and novobiocin were from Sigma-Aldrich. C75 (10005270, lot no. 05040302), 17-ODYA, GSK2194069 and SSO were obtained from Cayman Chemical. From the manufacturer, the purity of C75 was confirmed by HPLC (100% purity) and the identity of C75 was confirmed by MS and IR. Palmostatin B was from Calbiochem. LPS-EB Ultrapure, Pam3CSK4 and R848 were from InvivoGen.</p><p>Human neutrophil isolation. Blood samples were obtained from healthy donors from whom written consent had been obtained. Ethics approval was granted by the Seoul National University Hospital Institutional Review Board. All relevant ethical regulations were followed. To isolate neutrophils, 30 ml of normal saline (PBS) was added to every 10 ml of human blood, and 10 ml of Ficoll-Hypaque solution (GE Healthcare) was added from the bottom of the tube, followed by centrifugation at 224g at 20 °C for 20 min. The bottom layer (red blood cells and neutrophils) was carefully separated and mixed with dextran solution (31392; Sigma) at a 1:1 ratio, inverted 20 times to ensure adequate mixing, and incubated at 25 °C for 1 h. When clearly layered, the top layer was transferred and centrifuged at 1,100 r.p.m. at 4 °C for 8 min. The pellet was resuspended in 1 ml PBS, after which 10 ml of 0.2% NaCl solution was added and left for 20 s. The same volume of 1.6% NaCl solution was quickly added and the tube was inverted. After washing twice with cold PBS, the pellet was resuspended in RPMI media containing 3% FBS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HL-60 cell differentiation.</head><p>The HL-60 cell line was obtained from the American Type Culture Collection and maintained in RPMI 1640 medium containing l-glutamine (11875; Gibco), 10% FBS and 1X penicillin and streptomycin. To differentiate the cells into the granulocyte lineage, the cells were cultured in 1.3% DMSO for 7 d. Cell characteristic changes were confirmed by flow cytometry to detect surface markers including CD11b and CXCR2.</p><p>Flow cytometry. Samples were pretreated with DMSO or 10 µM C75 for 3 h and LPS (1 µg ml -1 ), IL-8 (50 ng ml -1 ) or fMLP (1 µM) was added to activate neutrophils. As CD11b is reported to be a calcium-dependent epitope, cells (1 × 10 6 cells per tube) were suspended in FACS buffer with 1% FBS and 0.1% BSA in PBS containing Ca 2+ and Mg 2+ (0.9 mM CaCl 2 and 0.5 mM MgCl 2 (pH 7.4)). After blocking using 1:100 of FcR blocker (130-059-901; Miltenyi Biotec), the cells were incubated with antibodies to CD11b (ICRF44), L-selectin (DREG-56) (all from eBiosciences) or CXCR2 (6C6) (BD Biosciences). For the air pouch models, retrieved cells were washed and incubated with specific antibodies to Ly6G (1A8) or CD11b (M1/70) (both from BD Biosciences) to count neutrophil and monocyte numbers. For human neutrophil apoptosis analysis, an FITC Annexin V Apoptosis Detection Kit II (556570; BD Biosciences) was used. Appropriate isotype controls were used to exclude nonspecific binding results. Cells were washed three times with FACS buffer and analyzed with a FACS Canto II (BD Biosciences).</p><p>Air pouch mouse model. At the start of the experiment, 5 ml air was injected through a sterile 0.22-µm filter at the dermal site of a mouse to form an air pouch. On the third day, 2 ml air was injected. On the sixth day, 6 μl of 10 mM C75 or DMSO was intraperitoneally preinjected and 1% carrageenan (22049-5G-F; Sigma) solution, and 1 ml was injected 4 h later. After the irritants were injected into the pouch, predominant monocytes in the unstimulated pouch exudate were replaced with polymorphonuclear cells during first 24 h. Exudates were harvested 24 h later in 2 ml of sterile saline.</p><p>Quantitative real-time PCR. Total RNA was isolated with Trizol (Invitrogen) lysis reagent, reverse-transcribed into cDNA by reverse transcriptase (EP0451) and oligo (dT) primers (S0132) (both from Fermentas), and then amplified in a CFX Real-time PCR Detection System (Bio-Rad) with SYBR Green master mix (Applied Biosystems) and specific primers (listed below). Gene expression was normalized to a glyceraldehyde 3-phosphate dehydrogenase or 18S ribosomal RNA control. Primers used to amplify genes are listed from 5′ to 3′ (Supplementary Table <ref type="table">1</ref>). The sequence origin was either mouse (m) or human (h).</p><p>NF-κB luciferase reporter assay. hTLR4-293T (2.4 × 10 4 ) cells were seeded into a clear-bottom 96-well plate (Corning) overnight. Cells were then transfected with 10 ng of pNF-κB luciferase plasmid (pGL3-basic) and 2 ng of pRL-TK (E2241) (both from Promega) using lipofectamine LTX according to the manufacturer's instructions. After 24 h, the cells were treated with 10, 20 or 40 μM of C75 in 1% BSA DMEM media for 3 h. Next, the cells were treated with 100 ng ml -1 LPS, 1 μg MYD88, 1 μg TRAF6, 1 μg IKBKB or 1 μg p65 for 6 h. The expression constructs encoding TRAF6, IKBKB and p65 have been described previously <ref type="bibr" target="#b46">47</ref> . Cells were harvested and assayed using the Dual-Glo Luciferase Reporter System (E2920) according to the manufacturer's protocol. Luminescence was measured with a fluorescence detector (Glomax Discover, Promega). For the mutant MYD88 experiment, various mutant hTLR4-MYD88-GyrB-293T stable cells (2 × 10 4 ) were seeded into the same 96-well plate overnight and followed by the above-stated transfection method. At 24 h post-transfection, the cells were treated with 0, 1 or 5 ng coumermycin for 6 h.</p><p>Immunoblotting and co-immunoprecipitation studies. Whole cell extracts were prepared by lysing the cells in 1% NP-40 (Sigma)-containing lysis buffer or RIPA buffer (R0278; Sigma) with Complete Protease Inhibitor Cocktail (BioVision) and phenylmethylsulfonyl fluoride (93482; Sigma). Lysates were then fractionated by 10% SDS-PAGE, transferred to 0.45-μm polyvinylidene fluoride membranes (Merck Millipore), and probed with antibodies to detect FASN (3180), MYD88 (4283), p-p65 (3033), p-p38 (4511), IκB-α (9242), p38 (9212), p65 (8242) (all from Cell Signaling Technology), actin (sc1616; Santa Cruz Biotechnology), ZDHHC6 (ab121423), TLR4 (ab13556; both from Abcam) and FLAG (F1804; Sigma). For interaction experiments, hTLR4-293T cell (10 7 ) lysates were incubated for 1 h on ice followed by centrifugation at 13,300 r.p.m. at 4 °C for 30 min. Supernatants then were incubated with 20 μl FLAG-Gel (A2220; Sigma) for 4 h at 4 °C. After three washes, immunoprecipitated proteins were fractionated by 10% SDS-PAGE and immunoblotted with TLR4, MYD88 and FLAG. Immunoblot detection was conducted either using a FluorchemM detector (ProteinSimple), Amersham Imager 600 (GE Healthcare) or Automatic Film Processor (Daesung Tech).</p><p>Plasmids. Full-length MYD88 cDNA was cloned into pCDNA3.1 (Addgene) and pKS-GyrB expression plasmids. The pKS-MYD88-GyrB construct was cloned into pcDNA4-V5/His(A), followed by site-directed mutagenesis to generate pcDNA4-V5/His(A)-MYD88-GyrB WT, C113A, C274A, C113/274A, CA and CA113C. The pcDNA3.1-MYD88 construct was cloned into pCMV-tag2A, followed by site-directed mutagenesis to generate FLAG-MYD88 WT, CA, CA113A and E52A. Full-length FASN cDNA was cloned into the pCAG-FLAG-IP vector <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> to generate FLAG-FASN. The full-length IRAK4-containing plasmid purchased from Addgene (no. 23749) was cloned into the CAG vector. Deathdomain truncated-MYD88 cDNA was cloned into the pcDNA4-V5/His(A) vector to generate truncated-MYD88 WT, CA and CA113A. ZDHHC6 was cloned into the pCAG-FLAG-IP vector. All clones were confirmed by direct DNA sequencing from Macrogen. ABE assay. HEK-293T cells (10 7 ) were seeded into a 100-mm dish overnight. If transfection was required, the cells were transfected with 10 μg of MYD88-GyrB plasmid using polyethylenimine (PEI; 23966; Polysciences) according to the manufacturer's protocol. After 48 h, the cells were harvested using palmitoylation lysis buffer containing 1% NP-40, 10% glycerol, 50 mM Nethylmaleimide (NEM), 1 μM PMSF (all from Sigma), 200x PIC (Biovision), 50 mM Tris-HCl (pH 7.4) and 150 mM NaCl. Lysates were sonicated and incubated at 4 °C overnight. These lysates were centrifuged at 13,300 r.p.m. for 30 min at 4 °C and the supernatant was subject to chloroform-methanol protein precipitation (4:1:3, methanol:chloroform:water). Pellets were solubilized in 1% SDS buffer and briefly sonicated. Concentrated proteins were treated with 0.5 M hydroxylamine (159417; Sigma) or Tris-HCl pH 7.4 buffer (negative control) for 2 h at room temperature. The proteins were precipitated following the chloroform-methanol precipitation method, solubilized in 1% SDS and briefly sonicated. Solubilized proteins were diluted by 1/10 to prepare a 0.1% SDS solution and immunoprecipitated with 40 μl neutravidin agarose (29200; Thermo Fisher Scientific) for 2 h at 4 °C. Immunoprecipitated beads were washed three times with palmitoylation lysis buffer and eluted with 2x Laemmli sample buffer (S3401; Sigma). Click assay. Click assay was carried out as previously described <ref type="bibr" target="#b49">50</ref> . First, 10 7 cells were seeded into a 100-mm dish overnight and transfected with 10 μg of the WT MYD88-GyrB plasmid using PEI according to the manufacturer's protocol. Next, the cells were metabolically labeled with DMSO or 17-ODYA in 1% BSA DMEM media for 7 h. The DMSO-treated group was a negative control, as only samples labeled with 17-ODYA could undergo the click reaction. The cells were then lysed in lysis buffer containing 5 mM HEPES (pH 7.4), 150 mM NaCl, 5 mM EDTA, 1% Triton X-100 and 200x PIC. After centrifugation for 30 min at 4 °C, the supernatant nature research | reporting summary October 2018</p><p>Field-specific reporting Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Life sciences</head><p>Behavioural &amp; social sciences Ecological, evolutionary &amp; environmental sciences For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Life sciences study design</head><p>All studies must disclose on these points even when the disclosure is negative.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample size</head><p>Pilot studies were used to estimate the sample size to analyze with the adequate power. In most of experiments performed, 7-16 mice/group was sufficient to identify statistical differences with at least 80% power and a 5% significance level.</p><p>Data exclusions No data was excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Replication</head><p>Different biological replicates were performed at defined numbers described in each figure legend. All attempts of replication were successful.</p><p>Randomization No Randomization was performed. The current study used the same sample split into either control or drug treated group. For animal studies, we treated control or drug in syngenic C57BL/6J mice so no randomization methods were considered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Blinding</head><p>Blinding was not possible in the current study, as samples were analyzed shortly after collection, thus investigators were not blinded to samples.</p><p>Reporting for specific materials, systems and methods</p><p>We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material, system or method listed is relevant to your study. Recruitment neutrophils from the same person were compared between control vs drug-treated groups, it is less likely that inter-individual biases are minimized in interpreting the results of the study.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 |Fig. 2 |</head><label>12</label><figDesc>Fig. 1 | A FASN inhibitor, C75, lengthens the survival of mice with sepsis. a, Chemical structure of C75. b, Survival of CLP model mice pretreated with DMSO or C75 (7.5 mg kg -1 body weight) (n = 21 per group). Statistical analysis was conducted by a log-rank test. *P = 0.0302. c, CLP model mice pretreated with DMSO or C75 (3.75 mg kg -1 body weight) and bacterial counts in peritoneal fluid cultures at 24 h after the CLP model were counted (n = 6 per group). Statistical analysis was conducted by a two-tailed unpaired Student's t-test. * P = 0.0422. d, Isolated human neutrophils were cultured with DMSO or C75 and for 1 h with 1 µg ml -1 LPS. Representative flow cytometry plot of surface expression of CXCR2 (n = 4 independent experiments).e, Transwell migration assay of human neutrophils. Migrated cells to 30 ng ml -1 human IL-8 were determined (n = 3 biologically independent samples for lane 1; n = 4 for lane 2 and 3; and n = 5 for lane 4 and 5). Statistical analysis was conducted by one-way ANOVA followed by a post hoc Tukey's test. * P = 0.0160, # P = 0.0117 and ¶ P = 0.0299. f, After 7 d of HL-60 differentiation in 1.3% DMSO, human shFASN or shControl (Cont) was transfected with electroporation and Transwell migration assay was performed. Migrated cells to 30 ng ml -1 human IL-8 were determined (n = 4 replicates per group). Statistical analysis was conducted by one-way ANOVA followed by post hoc Tukey's test. * P = 0.0396, *** P = 0.0003, ### P = 0.0008. For c,e,f, data are presented as the mean ± s.e.m.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | FASN inhibitor affects a common adapter MYD88 to reduce inflammation. a, NF-κB luciferase activity in hTLR4-293T cells following stimulant or overexpressing plasmids (from top left to bottom right): LPS (n = 6 replicates per group), MYD88 (n = 3 replicates per group), TRAF6 (n = 4 replicates per group), IKBKB (n = 4 replicates per group) and P65 (n = 4 replicates per group). Statistical analysis was conducted by one-way ANOVA followed by a post hoc Tukey test. ** P = 0.0035. b, Immunoblot analysis of p65 and IκBα in hTLR4-MyD88-GyrB 293 T cells stimulated by coumermycin with or without pretreatment of C75 (n = 3 independent experiments). c, NF-κB luciferase activity in shFASN or shControl transduced RAW264.7 cells stimulated by LPS (n = 4 independent experiments). Statistical analysis was conducted by one-way ANOVA followed by a post hoc Tukey test. **P = 0.0068, ****P &lt; 0.0001, and # , ¶ for P values indicated comparisons among post hoc tests. d, NF-κB luciferase activity in hTLR4-MYD88-GyrB 293 T cells stimulated by coumermycin under control, pretreatment with palmitoylation inhibitor (2-BP; 20 and 50 μM) or pretreatment with the acyl-protein thioesterase-1 inhibitor, palmostatin B (Pal; 10 and 30 μM) (n = 4 independent experiments). Statistical analysis was conducted by one-way ANOVA followed by a post hoc Tukey test for each set. *P = 0.0432, ‡ P = 0.0257, † P = 0.0102 and § P = 0.0199. For a,c,d, data are presented as the mean ± s.e.m. See Supplementary Fig. 21 for full images of the blots in b.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | MYD88 is FASN-dependently palmitoylated using two sources of palmitate. a, In vitro ABE analysis of whole hTLR4-293T cell lysates after transiently overexpressing MYD88 WT and CS analyzed with anti-MYD88 (n = 10 independent experiments). IP, immunoprecipitation. b, Total 17-ODYAlabeled protein lysate from hTLR4-293T cells transfected with FLAG-MYD88 was used biotinylate all palmitoylated proteins. Labeled proteins were analyzed by immunoblotting (n = 4 independent experiments). c, shFASN or shNT RAW 264.7 macrophage cell lysates were analyzed by ABE and immunoblotted with anti-MYD88 (n = 3 independent experiments). d, ABE analysis of FLAG-MYD88-transfected hTLR4-293T cells pretreated with C75 (20 μM) followed by either treatment of acetoacetyl-CoA (1 mM), HMG-CoA (500 μM), exogenous palmitate (1 mM) or cholesterol (12.5 μM) (n = 3 independent experiments). e, Selected MS spectra of NMM-modified peptides at Cys 113 and Cys 274 positions, respectively. The expanded spectra show the precursor ions of the NMM-modified peptides. f, ABE assay of hTLR4-293T cells transiently transfected with plasmids of WT, C113A, C274A, C113/274A or CA MYD88-GyrB (n = 3 independent experiments). See Supplementary Fig. 21 for full images of the blots in a-f.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | Palmitoylation of MYD88 at C113 is required for IRAK4 recruitment and activation of TLR4-MYD88 signaling. a, NF-κB luciferase activity after stimulation with coumermycin in various stable 293T cell lines transfected with plasmids expressing TLR4-MYD88 WT-GyrB, C113A-GyrB, C274A-GyrB, CA-GyrB or CA113C-GyrB (n = 4 independent experiments). Statistical analysis was conducted by one-way ANOVA followed by a post hoc Tukey test. **P = 0.0028, † † P = 0.0017 and # , ¶ for P values indicating comparisons among post hoc tests. Data are presented as the mean ± s.e.m. b, Immunoblot analysis of p38, p65 and IκB after stimulation with coumermycin in various stable 293T cell lines transfected with plasmid expressing TLR4-MYD88 WT-GyrB, C113A-GyrB, C274A-GyrB, CA-GyrB or CA113C-GyrB (n = 3 independent experiments). c, Immunoprecipitation of FLAG-IRAK4 in hTLR4-293T cells cotransfected with MYD88 WT-GyrB, C113A-GyrB, C274A-GyrB, CA-GyrB or CA113C-GyrB (n = 3 independent experiments). d, Immunoprecipitation of FLAG-IRAK4 transfected into hTLR4-MYD88 WT-GyrB stable cells after treatment with DMSO, C75 (20 μM) or 2-BP (25 nM) (n = 3 independent experiments). See Supplementary Fig. 22 for full images of the blots in b-d.</figDesc><graphic coords="7,98.83,274.46,164.54,89.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 |</head><label>6</label><figDesc>Fig.6| MYD88 is potentially palmitoylated by ZDHHC6. a, Duolink PLA method to detect endogenous interaction of MYD88 and ZDHHC6 protein in human neutrophils (n = 1 independent experiment). Scale bar, 10 μm. b, ABE assay in shNT or shZDHHC6 RAW264.7 cells, followed by immunoblot analysis with anti-MYD88 (n = 2 independent experiments). c, ABE assay in hTLR4-293T cells transfected with FLAG-ZDHHC6, followed by immunoblot analysis with anti-MYD88 or anti-FLAG (n = 2 independent experiments). d, Immunoblot analysis of p-p38, p38 in shNT or shZDHHC6 RAW264.7 cells before and after stimulation with LPS (100 ng ml -1 ) (n = 4 independent experiments). e, Luciferase activity in shNT or shZDHHC6 RAW264.7 cells transfected with a luciferase reporter vector driven by an NF-κB-responsive promoter and stimulated with 100 ng ml -1 LPS (n = 4 replicates per group). Statistical analysis was conducted by one-way ANOVA followed by a post hoc Tukey test. **** P &lt; 0.0001. Data are presented as the mean ± s.e.m. See Supplementary Fig.23for full images of the blots in b-e.</figDesc><graphic coords="8,345.78,425.53,99.50,64.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Received: 14</head><label>14</label><figDesc>April 2018; Accepted: 11 July 2019; Published online: 19 August 2019</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>If you are not sure if a list item applies to your research, read the appropriate section before selecting a response. Human CD11b/Mac-1 (1:100, 550019, ICRF44 clone, Lot# 3085881, BD Biosciences) CD62L mouse anti-human APC (1:100, 17-0629-41, DREG-56 clone, Lot# E12961-103, eBioscience) FITC mouse Anti-Human CD182 (1:100, 551126, 6C6 clone, Lot# 16322, BD Biosciences) Ly6G anti-mouse PE (1:100, 551641,1A8 clone, Lot# 62738, BD Biosciences) CD11b anti-mouse PerCP-Cy5.5 (1:100, 550993, M1/70 clone, Lot# 07363, BD Biosciences) were used.</figDesc><table><row><cell></cell><cell></cell><cell>nature research | reporting summary</cell></row><row><cell cols="2">Materials &amp; experimental systems</cell><cell>Methods</cell></row><row><cell>n/a Involved in the study</cell><cell></cell><cell>n/a Involved in the study</cell></row><row><cell>Antibodies</cell><cell></cell><cell>ChIP-seq</cell></row><row><cell>Eukaryotic cell lines</cell><cell></cell><cell>Flow cytometry</cell></row><row><cell>Palaeontology</cell><cell></cell><cell>MRI-based neuroimaging</cell></row><row><cell cols="2">Animals and other organisms</cell></row><row><cell cols="2">Human research participants</cell></row><row><cell>Clinical data</cell><cell></cell></row><row><cell>Antibodies</cell><cell></cell></row><row><cell>Antibodies used</cell><cell>For immunoblotting,</cell></row><row><cell></cell><cell cols="2">MYD88 (1:1000, 4283S, D80F5 clone, Lot# 4, Cell Signaling Technology),</cell></row><row><cell></cell><cell cols="2">p-p65 (1:1000, 3033S, 93H1 clone, Lot# 14, Cell Signaling Technology),</cell></row><row><cell></cell><cell cols="2">p-p38 (1:1000, 4511S, D3F9 clone, Cell Signaling Technology),</cell></row><row><cell></cell><cell cols="2">IκB-α (1:1000, 9242S, Lot# 10, Cell Signaling Technology),</cell></row><row><cell></cell><cell cols="2">actin (1:3000, sc1616, I-19, Lot# B1116, Santa Cruz Biotechnology)</cell></row><row><cell></cell><cell cols="2">ZDHHC6 (1:500, ab121423, polyclonal, Abcam),</cell></row><row><cell></cell><cell cols="2">TLR4 (1:500, ab13556, polyclonal, Abcam)</cell></row><row><cell></cell><cell cols="2">FLAG (1:4000, F1804, M2 clone, Sigma).</cell></row><row><cell></cell><cell cols="2">P38 (1:1000, 9212S, Lot# 23, Cell Signaling Technology)</cell></row><row><cell></cell><cell cols="2">P65 (1:1000, 8242S, D14E12 clone, Lot# 4, Cell Signaling Technology)</cell></row><row><cell></cell><cell>were used.</cell></row><row><cell></cell><cell cols="2">For flow cytometry, APC Mouse Anti-For proximity ligation assay,</cell><cell>October 2018</cell></row><row><cell></cell><cell cols="2">For MYD88-ZDHHC6 interaction,</cell></row><row><cell></cell><cell cols="2">MYD88 (ab107585, 4D6 clone, Abcam) and</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATuRE CHEMICAL BIoLogY | VOL 15 | SEPTEMBER 2019 | 907-916 | www.nature.com/naturechemicalbiology</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">M.A. Farrar</rs> (<rs type="affiliation">Univ. of Minnesota</rs>) for the pKS-GyrB construct; <rs type="person">M. Fukata</rs> (<rs type="affiliation">National Institute for Physiological Science and National Institutes of Natural Sciences</rs>) for the 24 pEF-Bos-zDHHC-HA constructs. This study was supported by grants from the <rs type="funder">Korea Health Technology R&amp;D Project 'Strategic Center of Cell and Bio Therapy'</rs> (grant no. <rs type="grantNumber">HI17C2085</rs>; H.-S.K.) and '<rs type="projectName">Korea Research-Driven Hospital</rs>' (grant no. <rs type="grantNumber">HI14C1277</rs>; H.-S.K.) through the <rs type="funder">Korea Health Industry Development Institute</rs>, funded by the <rs type="funder">Ministry of Health &amp; Welfare</rs>, <rs type="institution">Korea</rs> and from the <rs type="funder">National Research Foundation of Korea</rs> funded by the <rs type="funder">Korea Government</rs> (grant no. <rs type="grantNumber">2018R1C1B5086482</rs>; S.E.L.).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_fy5pbAJ">
+					<idno type="grant-number">HI17C2085</idno>
+					<orgName type="project" subtype="full">Korea Research-Driven Hospital</orgName>
+				</org>
+				<org type="funding" xml:id="_umq5xp6">
+					<idno type="grant-number">HI14C1277</idno>
+				</org>
+				<org type="funding" xml:id="_7khRaeR">
+					<idno type="grant-number">2018R1C1B5086482</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Any Supplementary information, chemical compound information are available in the online version of the paper. The data that support the findings of this study are available from the corresponding author upon request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nature ChemiCal Biology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>Y.-C.K provided the design and execution of experiments, data analysis and interpretation and drafting of the manuscript; S.E.L. provided the conception and design of experiments, data analysis and interpretation and drafting of the manuscript; S.K. provided the execution of experiments, data analysis and interpretation and drafting of the manuscript; H.-D.J. provided a critical review of the manuscript; I.H. provided the execution of experiments, data analysis and interpretation; S.J. provided a critical review of the manuscript; E.-B.H. provided data analysis and interpretation and a critical review of the manuscript; K.-S.J. provided the execution of experiments with mass spectrometry, data analysis and interpretation; H.-S.K. provided the conception and design of experiment, data analysis and interpretation and a critical review of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature ChemiCal Biology was subject to chloroform-methanol protein precipitation and solubilized in 1% SDS buffer and briefly sonicated. Concentrated protein lysates were subject to the click reaction for 1 h with 100 μM TBTA (678937), 1 mM CuSO 4 (C8027), 1 mM TCEP (C4706; all from Sigma) and 20 μM biotin-azide (B10184; Invitrogen). After chloroform-methanol protein precipitation, the precipitated protein was resuspended in 4% SDS buffer and divided in half (100 μl each), and either 400 μl of 0.5 M hydroxylamine or Tris buffer was added to check for cleavage of the thioester bond. After rotating at room temperature for 1 h, chloroform-methanol protein precipitation was performed and the precipitate was solubilized with 1% SDS buffer. The mixture was further diluted 10x with 0.2% Triton X-100/ PBS buffer, and 50 μl of neutravidin beads were added to purify the biotinylated proteins. The samples were rotated for 2 h, washed three times and eluted with 2x Laemmli buffer.</p><p>In-Gel fluorescence click assay. Because TAMRA-azide has an excitation/ emission spectrum of 546/579 nm, we could detect palmitoylated proteins while in the SDS-PAGE gel <ref type="bibr" target="#b50">51</ref> . The cells were transfected with FLAG-MYD88 using PEI. After metabolic labeling with DMSO or 17-ODYA for 7 h, the cells were lysed and immunoprecipitated first with anti-FLAG M2 affinity gel (A2220; Sigma), and then subjected to an on-bead click reaction as described in above. The beads were washed three times and eluted with DTT-containing SDS sample buffer, separated by SDS-PAGE and detected with a fluorescence detector (FluorchemM; ProteinSimple). Sample preparation for MS analysis. HEK-293T cultures were lysed after 30 h of incubation following transfection with FLAG-MYD88, solubilized and immunoprecipitated with anti-FLAG affinity beads in the presence of 50 mM NEM. After washing with the IP lysis buffer three times at 4 °C, the beads were treated with hydroxylamine buffer (pH 7.4) at room temperature for 1 h, followed by NEM or N-methylmaleimide (NMM; Sigma) labeling at 4 °C for 2 h. The beads were washed three times and eluted with 250 g ml -1 3X FLAG peptide solution (F4799; Sigma). The eluate was separated by SDS-PAGE and the gels were stained with colloidal blue reagent at room temperature overnight, followed by de-staining with 100 mM ammonium bicarbonate/acetonitrile (1:1, v/v). MYD88-specific bands were excised and subjected to an in-gel trypsin digestion procedure as previously described <ref type="bibr" target="#b51">52</ref> . Trypsin-digested peptides were then dried under vacuum and reconstituted with 0.1% (v/v) trifluoroacetic acid and water for MS analysis.</p><p>MS and spectral processing. Trypsin-digested peptide samples were analyzed by liquid chromatography tandem mass spectrometry using a nanoAcquity UPLC system (Waters) and LTQ Orbitrap Elite mass spectrometer (Thermo Fisher Scientific) equipped with a nano-electrospray source at the Korea Basic Science Institute, as described previously <ref type="bibr" target="#b52">53</ref> . Briefly, the peptide solutions (2 μg of total proteins) were separated over 80 min with a solvent gradient of 5-50% (v/v) acetonitrile/water with 0.1% formic acid on a homemade microcapillary C18 column (100 µm, length 200 mm; particle size 3 µm, 125 Å), and then MS and MS/MS spectra were acquired over the entire run time at a resolution of 120,000 (full width at half maximum) for each sample. Data were processed using Xcalibur 2.2 and Tune 2.7 software and raw data were processed using the MaxQuant quantitative proteomics tool (v.1.5.2.8), as described previously with minor modifications <ref type="bibr" target="#b53">54</ref> , against the human MYD88 isoform 2 sequence downloaded from UniprotKB to identify matched spectra. Cysteine carbamidomethylation (+57.0215), N-ethylmaleimidylation (+125.0477) and N-methylmaleimidylation (+111.0320) were used as variable modifications to identify MYD88-specific modifications. All other parameters were used as defaults, except for a fragment ion tolerance of 0.8 Da and maximum precursor ion tolerance of 25 and 100 ppm for high and low confidence results, respectively.</p><p>RNA knockdown and virus production for shRNA. HEK-293T cells were transfected with 10 μg of psPAX2 (12260), pPMD2 (12259; both from Addgene), and pLKO.1-shRNA plasmid (control-SHC016) or mouse ZDHHC6 (TRCN0000012168 and TRCN0000012172), mouse FASN (TRCN0000075705; all from Sigma) using PEI according to the manufacturer's instructions. The culture supernatant was collected at 48 h after transfection, filtered through a lowprotein-binding 0.22-μm filter and added to target cells for 24 h before selection with 2 μg ml -1 puromycin (Sigma). For the HL-60 cell migration assay, cells were transfected with pLKO.1-shRNA plasmid (control-SHC016) or human shFASN (TRCN0000003127, TRCN000000003128 and TRCN0000003129; from Sigma) by electroporation. For siRNA the experiment, THP-1 cells were transfected with 50 nM siRNA control or 50 nM siRNA targeting ZDHHC6 (L-014101-00-0005; Dharmacon).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Migration assay.</head><p>Neutrophil chemotaxis was assayed using a 6.5-mm Transwell with a 3-µm pore polyester membrane insert (3472; Corning). Isolated human neutrophils were equally divided into two group and treated with DMSO or 10 μM C75 for 2 h. Next, 1 μg ml -1 LPS or PBS was sequentially added to each well and incubated for 1 h; 5 × 10 5 cells per well neutrophils were added to the upper chamber in 150 µl RPMI 1640 containing 2% FBS. Neutrophil chemotaxis was induced by adding 30 ng ml -1 IL-8 (200-08 M; Peprotech) to the lower chamber.</p><p>The total migrated cells were counted. For the migration assay using DMSOinduced differentiated HL-60 cells, 100 ng ml -1 LPS was treated for 1 h and 5 × 10 5 HL-60 cells per well were added to the upper chamber and 30 ng ml -1 of IL-8 was added to the lower chamber <ref type="bibr" target="#b54">55</ref> .</p><p>Duolink proximity ligation assay. All procedures were conducted as described by the Duolink kit (DUO92101-1KT and DUO92106-1KT; both from Sigma) <ref type="bibr" target="#b55">56</ref> . Human neutrophils or DMSO-induced differentiated HL-60 cells were treated with 4% paraformaldehyde for 15 min and then permeabilized with 0.5% Triton X-100 in PBS. The blocking step was performed with blocking solution provided with the kit for 1 h, and then primary antibody (1:50 dilution) was added and incubated at 4 °C for 16 h. For MYD88-ZDHHC6 interaction, MYD88 (ab107585; Abcam) and ZDHHC6 (ab237621; Abcam). For MYD88-FASN interaction, MYD88 (sc-8196; Santa Cruz Biotechnology) and FASN (3180; Cell Signaling Technology) were used. The samples were washed with wash buffer A three times and with and without the Duolink PLA probe treated for 1 h at 37 °C. The ligation and amplification steps were performed for signal visualization. Images were acquired using a confocal microscope (LSM710; Carl Zeiss, Göttingen, Germany).</p><p>Cecal ligation and puncture model and LPS-induced sepsis model. The CLP model was prepared as previously published <ref type="bibr" target="#b56">57</ref> . Briefly, 10-12-week-old male C57BL/6J mice were anesthetized with 3.5% isoflurane followed by ligation and puncture of the cecum using an 18-gauge needle, followed by fluid resuscitation. In the LPS-induced sepsis model, mice were intraperitoneally injected with LPS (45 mg kg -1 ; Sigma) and subjected to fluid resuscitation. In both experiments, C75 or DMSO was intraperitoneally injected 4 h before cecal ligation or LPS injection. The bacterial load was evaluated as the counting colony-forming unit (c.f.u.) of aliquots of serial dilutions of peritoneal fluids after incubation for 24 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses.</head><p>We used unpaired two-tailed Student's t-tests to compare the ΔCt value of the RT-PCR, apoptotic assay of human neutrophils and luciferase assay using mutant MYD88. A Mann-Whitney U test was used to compare the air pouch model cell counts. A one-way ANOVA with Tukey's multiple comparisons test was used to compare multiple groups in the luciferase assay, Transwell migration assay and flow cytometry. Survival studies were evaluated by the log-rank test (CLP model) and Gehan-Breslow-Wilcoxon test (LPS-induced septic shock model). Means were shown ± s.e.m. The differences were considered significant when P values were below 0.05. Data were analyzed and presented with GraphPad Prism software (v.5, GraphPad).</p><p>Reporting Summary. Further information on research design is available in the Nature Research Reporting Summary linked to this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting Summary</head><p>Nature Research wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency in reporting. For further information on Nature Research policies, see Authors &amp; Referees and the Editorial Policy Checklist.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistics</head><p>For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>n/a Confirmed</head><p>The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly</p><p>The statistical test(s) used AND whether they are one-or two-sided Only common tests should be described solely by name; describe more complex techniques in the Methods section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A description of all covariates tested</head><p>A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals) For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted Give P values as exact values whenever suitable.</p><p>For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated Our web collection on statistics for biologists contains articles on many of the points above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Software and code</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Policy information about availability of computer code</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection</head><p>FlowJo v7, v10 was used for flow cytometry, Xcaliber 2.2 and Tune 2.7 software for mass spectrometry data acquisition, MaxQuant quantitative proteomics tool (Version 1.5.2.8) for processing raw data for mass spectrometry. CFX Manager Software (Version 3.1) for qRT-PCR data collection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Graphpad Prism software (version 5) for graph processing.</p><p>For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors/reviewers. We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code &amp; software for further information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Policy information about availability of data</head><p>All manuscripts must include a data availability statement. This statement should provide the following information, where applicable:</p><p>-Accession codes, unique identifiers, or web links for publicly available datasets -A list of figures that have associated raw data -A description of any restrictions on data availability All data that support the findings of this study are available from the corresponding author upon request. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eukaryotic cell lines</head><p>Policy information about cell lines Cell line source(s)</p><p>The eukaryotic cell lines THP-1, RAW264.7, HEK-293T cells, HL-60 cells were purchased from the American Type Culture Collection. 293/hTLR4A-MD2-CD14 cells (hTLR4-293T) were purchased from InvivoGen (Carlsbad, CA, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authentication</head><p>The cell lines were not authenticated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mycoplasma contamination</head><p>Cells were tested and certified as free of Mycoplasma contamination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Commonly misidentified lines (See ICLAC register)</head><p>No commonly misidentified cell lines were used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Animals and other organisms</head><p>Policy information about studies involving animals; ARRIVE guidelines recommended for reporting animal research Laboratory animals C57BL/6J male mice (8-16 weeks old) were purchased from The Jackson Laboratory. All mice were bred and maintained under specific pathogen-free conditions at the Animal Facility of Seoul National University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wild animals</head><p>Wild animals were not used in the current study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Field-collected samples</head><p>The current study did not involve samples collected from the field.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics oversight</head><p>All experiments were carried out according to the guidelines of the Institutional Animal Care and Use Committees of Seoul National University (SNU-150901-2, SNU-181205-9).</p><p>Note that full information on the approval of the study protocol must also be provided in the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Human research participants</head><p>Policy information about studies involving human research participants</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population characteristics</head><p>Blood samples were obtained from healthy donors from whom written consent had been obtained. Participants were mean age of 35.8 with standard deviation of 2.7 and 80% were male participants. All participants were healthy without any diagnosed diseases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recruitment</head><p>All recruitment materials approved by IRB were used for participant recruitment to invite the current study. As the isolated blood</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics oversight</head><p>Ethics was granted by the Seoul National University Hospital Institutional Review Board (IRB).</p><p>Note that full information on the approval of the study protocol must also be provided in the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Flow Cytometry Plots</head><p>Confirm that:</p><p>The axis labels state the marker and fluorochrome used (e.g. CD4-FITC).</p><p>The axis scales are clearly visible. Include numbers along axes only for bottom left plot of group (a 'group' is an analysis of identical markers).</p><p>All plots are contour plots with outliers or pseudocolor plots.</p><p>A numerical value for number of cells or percentage (with statistics) is provided.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methodology Sample preparation</head><p>Blood samples were obtained from normal healthy donors. Human neutrophils were isolated by centrifugation with Ficoll-Hypaque solution, dextran sedimentation, and hypotonic saline lysis of erythrocytes. Single cell suspension in FACS buffer (1% FBS, 0.1% BSA) was incubated with FcR blocker (Miltenyi Biotec) to block Fc binding. Subsequently, fluorochrome-conjugated direct antibodies were used for the FACS staining. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gating strategy</head><p>Live cells were gated according to forward scatter (FSC-A) and side scatter (SSC-A). Purified neutrophils were highly lineagespecified (&gt;95%) when being checked with CD11b/CD16/CD66b markers in flow cytometry or Wright/Giemsa staining.</p><p>Tick this box to confirm that a figure exemplifying the gating strategy is provided in the Supplementary Information.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sepsis-induced immunosuppression: from cellular dysfunctions to immunotherapy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hotchkiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Monneret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Payen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="862" to="874" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Sepsis: a roadmap for future research</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="581" to="614" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Multistep navigation and the combinatorial control of leukocyte chemotaxis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Foxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Butcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="1349" to="1360" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The neutrophil in vascular inflammation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Phillipson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kubes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1381" to="1390" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor signaling links dietary fatty acids to the metabolic syndrome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Fessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Rudel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Lipidol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">379</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Saturated fatty acids activate TLR-mediated proinflammatory signaling pathways</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="2002" to="2013" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The science of fatty acids and inflammation</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Fritsche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="293S" to="301S" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Evidence that TLR4 is not a receptor for saturated fatty acids but mediates lipid-induced inflammation by reprogramming macrophage metabolism</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Lancaster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1096" to="1110" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">De novo fatty acid synthesis controls the fate between regulatory T and T helper 17 cells</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Berod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1327" to="1333" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthesis configures the plasma membrane for inflammation in diabetes</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">539</biblScope>
+			<biblScope unit="page" from="294" to="298" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The intracellular dynamic of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salaun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="1229" to="1238" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor 4 signaling leads to neutrophil migration impairment in polymicrobial sepsis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Alves-Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De Freitas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Q</forename><surname>Cunha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Care Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="461" to="470" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Synthesis and antitumor activity of an inhibitor of fatty acid synthase</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Kuhajda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="3450" to="3454" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Models of inflammation: carrageenan air pouch</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Vasko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fehrenbacher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Protoc. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The MYD88-Independent pathway is not mobilized in human neutrophils stimulated via TLR4</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tamassia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="7344" to="7356" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">MyD88 is an adaptor protein in the hToll/IL-1 receptor family signaling pathways</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medzhitov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="253" to="258" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Specificity in Toll-like receptor signalling through distinct effector functions of TRAF3 and TRAF6</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hacker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">439</biblScope>
+			<biblScope unit="page" from="204" to="207" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Regulation of MyD88-dependent signaling events by S-nitrosylation retards Toll-like receptor signal transduction and initiation of acute-phase immune responses</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Into</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1338" to="1347" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Activation of the Raf-1 kinase cascade by coumermycin-induced dimerization</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alberol-Ila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Perlmutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="page" from="178" to="181" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">GPS-Lipid: a robust tool for the prediction of multiple lipid modification sites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">28249</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Small-molecule inhibition of APT1 affects ras localization and signaling</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dekker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="449" to="456" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">An unexpected link between fatty acid synthase and cholesterol synthesis in proinflammatory macrophage activation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Carroll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="page" from="5509" to="5521" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of nicotinic acetylcholine receptors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Alexander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="12" to="20" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">MyD88S, a splice variant of MyD88, differentially modulates NF-κB-and AP-1dependent gene expression</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Janssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vercammen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tschopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Beyaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">548</biblScope>
+			<biblScope unit="page" from="103" to="107" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Inhibition of interleukin 1 Receptor/Toll-like receptor signaling through the alternatively spliced, short form of MyD88 is due to its failure to recruit IRAK-4</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="263" to="268" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The role of intermediary domain of MyD88 in cell activation and therapeutic inhibition of TLRs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Avbelj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Horvat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jerala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="2394" to="2404" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Identification of critical residues of the MyD88 death domain involved in the recruitment of downstream kinases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Loiarro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="28093" to="28103" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bredt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<title level="m">The Dynamic Synapse: Molecular Methods in Ionotropic Receptor Biology</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Kittler</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Moss</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Chapter 5</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Analysis of substrate specificity of human DHHC protein acyltransferases using a yeast expression system</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4543" to="4551" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation in neuronal development and synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="161" to="175" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Systematic screening for palmitoyl transferase activity of the DHHC protein family in mammalian cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="177" to="182" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Cellular fatty acid metabolism and cancer. Cell Metab</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Currie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zechner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Walther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Farese</surname><genName>Jr</genName></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="153" to="161" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Macrophage ABCA1 reduces MyD88-dependent Toll-like receptor trafficking to lipid rafts by reduction of lipid raft cholesterol</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="3196" to="3206" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Cholesterol, inflammation and innate immunity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Tall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yvan-Charvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="104" to="116" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">UCP2-induced fatty acid synthase promotes NLRP3 inflammasome activation during sepsis</title>
+		<author>
+			<persName><forename type="first">J.-S</forename><surname>Moon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="665" to="680" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Role of lipid microdomains in TLR-mediated signalling</title>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Ruysschaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lonez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1848</biblScope>
+			<biblScope unit="page" from="1860" to="1867" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum localization of dhhc palmitoyltransferases mediated by lysine-based sorting signals</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Gorleku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-M</forename><surname>Barns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Prescott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="39573" to="39584" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Palmitoylated calnexin is a key component of the ribosome-translocon complex</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K K</forename><surname>Lakkaraju</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1823" to="1835" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Stable expression and function of the inositol 1,4,5-triphosphate receptor requires palmitoylation by a DHHC6/ selenoprotein K complex</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Fredericks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="16478" to="16483" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Diversity and selectivity in mRNA translation on the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Nicchitta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="221" to="231" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Overexpression of fatty acid synthase is associated with palmitoylation of Wnt1 and cytoplasmic stabilization of beta-catenin in prostate cancer</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fiorentino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab. Invest</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="1340" to="1348" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">De novo lipogenesis maintains vascular homeostasis through endothelial nitric-oxide synthase (eNOS) palmitoylation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="2933" to="2945" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthase modulates intestinal barrier function through palmitoylation of mucin 2</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="140" to="152" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">2-Bromopalmitoyl-CoA and 2-bromopalmitate: promiscuous inhibitors of membrane-bound enzymes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Fogelsong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bardes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1125</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note>Lipids Lipid Metab</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Clickable analogue of cerulenin as chemical probe to explore protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="115" to="121" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">C75 increases peripheral energy utilization and fatty acid oxidation in diet-induced obesity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Thupari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Landree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Ronnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Kuhajda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="9498" to="9502" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">PIAS3 suppresses NF-kappaB-mediated transcription by interacting with the p65/RelA subunit</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J .Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="24873" to="24880" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Nr0b1 is a negative regulator of Zscan4c in mouse embryonic stem cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">9146</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Aurkb/PP1-mediated resetting of Oct4 during the cell cycle determines the identity of embryonic stem cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">10877</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Rapid and selective detection of fatty acylated proteins using omega-alkynyl-fatty acids and click chemistry</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1566" to="1580" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Robust fluorescent detection of protein fatty-acylation with chemical reporters</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="4967" to="4975" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">In-gel digestion for mass spectrometric characterization of proteins and proteomes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shevchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Havlis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="2856" to="2860" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">In-depth analysis of site-specific N-glycosylation in vitronectin from human plasma by tandem mass spectrometry with immunoprecipitation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Bioanal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">406</biblScope>
+			<biblScope unit="page" from="7999" to="8011" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Quantitative proteome and transcriptome analysis of the archaeon thermoplasma acidophilum cultured under aerobic and anaerobic conditions</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Proteome Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="4839" to="4850" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Chemotaxis in neutrophil-like HL-60 cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Millius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">D</forename><surname>Weiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">571</biblScope>
+			<biblScope unit="page" from="167" to="177" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Direct observation of individual endogenous protein complexes in situ by proximity ligation</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Soderberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="995" to="1000" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Immunodesign of experimental sepsis by cecal ligation and puncture</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rittirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Huber-Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Flierl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="31" to="36" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Racemization of the substrate and product by serine palmitoyltransferase from Sphingobacterium multivorum yields two enantiomers of the product from D-serine</title>
+				<funder>
+					<orgName type="full">Japan Foundation for Applied Enzymology</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Toyo Institute of Food Technology</orgName>
+				</funder>
+				<funder ref="#_XYqf7Sj">
+					<orgName type="full">Japan Society for the Promotion of Science</orgName>
+					<orgName type="abbreviated">JSPS</orgName>
+				</funder>
+				<funder ref="#_fHxRfvp">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Hiroko</forename><surname>Ikushiro</surname></persName>
+							<email>hiroko.ikushiro@ompu.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biochemistry</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">Osaka Medical and Pharmaceutical University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takumi</forename><surname>Honda</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Life Science</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuta</forename><surname>Murai</surname></persName>
+							<email>ymurai@agr.hokudai.ac.jp.</email>
+							<idno type="ORCID">0000-0002-9115-6478</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Life Science</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Frontier Research Center for Advanced Material and Life Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Advanced Life Science</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<region>Hokkaido</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Division of Applied Bioscience</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Graduate School of Agriculture</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<region>Hokkaido</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Taiki</forename><surname>Murakami</surname></persName>
+							<idno type="ORCID">0000-0002-9115-6478</idno>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">Graduate School of Science</orgName>
+								<orgName type="institution">Osaka Metropolitan University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aya</forename><surname>Takahashi</surname></persName>
+							<idno type="ORCID">0000-0002-6729-5160</idno>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">Graduate School of Science</orgName>
+								<orgName type="institution">Osaka Metropolitan University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Taiki</forename><surname>Sawai</surname></persName>
+							<idno type="ORCID">0000-0002-6729-5160</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biochemistry</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">Osaka Medical and Pharmaceutical University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Haruna</forename><surname>Goto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biochemistry</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">Osaka Medical and Pharmaceutical University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shin-Ichi</forename><surname>Ikushiro</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Department of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Faculty of Engineering</orgName>
+								<orgName type="institution">Toyama Prefectural University</orgName>
+								<address>
+									<settlement>Imizu</settlement>
+									<region>Toyama</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ikuko</forename><surname>Miyahara</surname></persName>
+							<idno type="ORCID">0000-0002-0968-0343</idno>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">Graduate School of Science</orgName>
+								<orgName type="institution">Osaka Metropolitan University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yoshio</forename><surname>Hirabayashi</surname></persName>
+							<idno type="ORCID">0000-0002-5774-7354</idno>
+							<affiliation key="aff7">
+								<orgName type="institution" key="instit1">RIKEN Cluster for Pioneering Research</orgName>
+								<orgName type="institution" key="instit2">RIKEN</orgName>
+								<address>
+									<settlement>Wako</settlement>
+									<region>Saitama</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Institute for Environmental and Gender-Specific Medicine</orgName>
+								<orgName type="institution">Juntendo University Graduate School of Medicine</orgName>
+								<address>
+									<settlement>Chiba</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nobuo</forename><surname>Kamiya</surname></persName>
+							<idno type="ORCID">0000-0002-5774-7354</idno>
+							<affiliation key="aff9">
+								<orgName type="department">Research Center for Artificial Photosynthesis</orgName>
+								<orgName type="institution">Osaka Metropolitan University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kenji</forename><surname>Monde</surname></persName>
+							<idno type="ORCID">0000-0002-1424-1054</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Life Science</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Frontier Research Center for Advanced Material and Life Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Advanced Life Science</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Sapporo</settlement>
+									<region>Hokkaido</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takato</forename><surname>Yano</surname></persName>
+							<email>takato.yano@ompu.ac.jp</email>
+							<idno type="ORCID">0000-0002-1424-1054</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biochemistry</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">Osaka Medical and Pharmaceutical University</orgName>
+								<address>
+									<settlement>Osaka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Racemization of the substrate and product by serine palmitoyltransferase from Sphingobacterium multivorum yields two enantiomers of the product from D-serine</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">50DDCB41ABD22A43824AC01D2E614F41</idno>
+					<idno type="DOI">10.1016/j.jbc.2024.105728</idno>
+					<note type="submission">Received for publication, December 24, 2023, and in revised form, January 25, 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Author contributions-H. I., Y. M., K. M., and T. Y. conceptualization</term>
+					<term>H. K., Y. M., S.-I. I., K. M., and T. Y. methodology</term>
+					<term>H. I., Y. M., and K. M. resources</term>
+					<term>H. I., T. H., Y. M., T. M., A. T., T. S., H. G., S.-I. I., I. M., and Y. H. investigation</term>
+					<term>H. I., I. M., and N. K. formal analysis</term>
+					<term>H. I. and N. K. validation</term>
+					<term>H. I. and I. M. data curation</term>
+					<term>H. I. visualization</term>
+					<term>H. I., Y. M., and S.-I. I. writing-original draft</term>
+					<term>H. I., Y. M., S.-I. I., and T. Y. writing-review and editing</term>
+					<term>H. I. and T. Y. project administration</term>
+					<term>H. I. funding acquisition</term>
+					<term>H. I., I. M., K. M., and T. Y. supervision</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Reviewed by members of the JBC Editorial Board. Edited by Joseph Jez</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Serine palmitoyltransferase (SPT) catalyzes the pyridoxal-5 0phosphate (PLP)-dependent decarboxylative condensation of L- serine and palmitoyl-CoA to form 3-ketodihydrosphingosine (KDS). Although SPT was shown to synthesize corresponding products from amino acids other than L-serine, it is still arguable whether SPT catalyzes the reaction with D-serine, which is a question of biological importance. Using high substrate and enzyme concentrations, KDS was detected after the incubation of SPT from Sphingobacterium multivorum with D-serine and palmitoyl-CoA. Furthermore, the KDS comprised equal amounts of 2S and 2R isomers. 1 H-NMR study showed a slow hydrogen-deuterium exchange at Cα of serine mediated by SPT. We further confirmed that SPT catalyzed the racemization of serine. The rate of the KDS formation from D-serine was comparable to those for the α-hydrogen exchange and the racemization reaction. The structure of the D-serine-soaked crystal (1.65 Å resolution) showed a distinct electron density of the PLP-L-serine aldimine, interpreted as the racemized product trapped in the active site. The structure of the α-methyl-Dserine-soaked crystal (1.70 Å resolution) showed the PLP-αmethyl-D-serine aldimine, mimicking the D-serine-SPT complex prior to racemization. Based on these enzymological and structural analyses, the synthesis of KDS from D-serine was explained as the result of the slow racemization to L-serine, followed by the reaction with palmitoyl-CoA, and SPT would not catalyze the direct condensation between D-serine and palmitoyl-CoA. It was also shown that the S. multivorum SPT catalyzed the racemization of the product KDS, which would explain the presence of (2R)-KDS in the reaction products.</p><p>Serine palmitoyltransferase (SPT) is a key enzyme of sphingolipid biosynthesis and catalyzes the pyridoxal-5 0phosphate (PLP)-dependent decarboxylative condensation reaction between L-serine and palmitoyl-CoA to form 3ketodihydrosphingosine (KDS), also called a long-chain base (LCB), as a common precursor of all sphingolipids <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. Eukaryotic SPT functions as a membrane-bound large protein complex composed of SPTLC1/SPTLC2-or SPTLC1/ SPTLC3-core dimer <ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref> and small regulatory subunits, ssSPTa or ssSPTb <ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref> and ORMD3 proteins <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b13">14)</ref>. Bacterial SPTs from sphingolipid-containing bacteria such as Sphingomonas paucimobilis, which is rich in glycosphingolipids, and Sphingobacterium multivorum, which is rich in phosphosphingolipids, function as a water-soluble homodimer enzyme and are useful as a prototypical model system of human SPT <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b15">16)</ref>. In addition to the highresolution X-ray crystal structures of microbial SPTs <ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref><ref type="bibr" target="#b22">(23)</ref>, the structures of eukaryote SPT complexes were recently determined by cryo-EM at a resolution range of 2.6 to 3.8 Å <ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref>. The active site architecture of the human SPT thus determined was indicated to be almost the same as that of the bacterial enzymes. Specifically, in SPTLC2 subunit of the human SPT, the ε-amino group of Lys379 forms a Schiff base with PLP, the carboxy group of Asp344 located at the bottom of the enzyme active site interacts with N1 of the PLP pyridine ring, and the side chain of His347 interacts with O3 of PLP by a hydrogen bond. The imidazole ring of His263 stacks to the PLP pyridine ring in parallel, and Ala346 forms a van der Waals interaction with the other side of the pyridine ring of PLP. All of these amino acid residues are fully conserved in the active site of bacterial SPTs <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23)</ref>.</p><p>Complete deficiency of SPT activity has not been reported because sphingolipids are arguably essential for cell survival. SPT activity is appropriately regulated to ensure homeostasis of sphingolipids to prevent cytotoxicity due to overproduction of certain sphingolipids. SPT, even the WT enzyme, can metabolize L-alanine and glycine in addition to its native substrate, L-serine, to form 1-deoxy type of LCB <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28)</ref>. Some mutations of the genes of SPT subunits are thought to shift its amino acid usage from L-serine to L-alanine, result in elevated levels of atypical 1-deoxysphingolipids, and cause the hereditary sensory and autonomic neuropathy type I <ref type="bibr" target="#b28">(29)</ref><ref type="bibr" target="#b29">(30)</ref><ref type="bibr" target="#b30">(31)</ref>. SPT overactivity due to another cluster of mutations causes a motor neuron disease, the childhood-onset amyotrophic lateral sclerosis <ref type="bibr" target="#b31">(32)</ref>. Elevated levels of 1-deoxysphingolipids have been reported to be associated with various metabolic syndromes such as macular disease, diabetes mellitus, cardiovascular disease, and tumor growth <ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref><ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref>.</p><p>D-Serine, an optical isomer of L-serine, is known to act as an endogenous coagonist for synaptic N-methyl-D-aspartate type of glutamate receptor <ref type="bibr" target="#b37">(38,</ref><ref type="bibr" target="#b38">39)</ref>. D-Serine is known to be synthesized in neurons by serine racemase, and its concentration in the cerebrum has been reported to be 0.27 μmol/g tissue, which is one third the concentration of L-serine (0.89 μmol/g tissue) <ref type="bibr" target="#b39">(40)</ref>. Disrupted homeostasis of serine enantiomers is suggested to be involved in the pathophysiology of neuropsychiatric disorders such as Alzheimer's disease <ref type="bibr" target="#b40">(41)</ref>, amyotrophic lateral sclerosis <ref type="bibr" target="#b41">(42)</ref>, schizophrenia <ref type="bibr" target="#b42">(43)</ref>, and depression <ref type="bibr" target="#b43">(44)</ref> and is attracting attention as a candidate for a new diagnostic biomarker for these diseases.</p><p>Against this background, the relationship between D-serine and SPT, the first enzyme of the biosynthesis of all cellular sphingolipids, has been a persistent question among researchers: is D-serine really not metabolized by SPT? On the one hand, it has been reported that KDS formation from D- serine by SPT cannot be detected under the physiological reaction conditions and that D-serine acts only as a competitive inhibitor of mammalian SPT in the CHO cell culture system <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b44">45)</ref>. On the other hand, we previously reported that S. multivorum SPT could metabolize not only glycine and L- alanine but also L-homoserine, which is bulkier than L-serine <ref type="bibr" target="#b22">(23)</ref>, into the corresponding LCB products and form the external aldimine intermediate with a variety of amino acids or amine ligands, such as tris(hydroxymethyl)aminomethane, indicating a relatively promiscuous activity of this enzyme <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b45">46)</ref>. Here, we re-examined the reactivity of the S. multivorum SPT with D-serine to answer the above question and discussed the results based on the enzymatic and structural insights on SPT.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Formation of KDS from D-serine by the S. multivorum SPT</head><p>We previously reported that the KDS formation from D- serine was not detected under physiological assay conditions using S. paucimobilis SPT <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b46">47)</ref>. However, when 100 μM S. multivorum SPT was incubated with either 500 mM L-serine or D-serine in the presence of 1 mM [1-14 C]labeled palmitoyl-CoA, the reaction product was formed not only from L-serine but also from D-serine (Fig. <ref type="figure" target="#fig_0">1</ref>). Each reaction product was ninhydrin-positive with the specific color and the Rf value, which corresponded to those of a commercial authentic KDS on the TLC plate (Fig. <ref type="figure" target="#fig_0">1A</ref>, lanes 2 and 4). Both spots of the reaction products were highly radioactive, indicating that they carry the acyl group derived from [1-14 C]labeled palmitoyl-CoA (Fig. <ref type="figure" target="#fig_0">1B</ref>). Such radioactive reaction products were not detected under the reaction condition lacking the amino acid substrate or SPT. The structure of the reaction product derived from each serine enantiomer was confirmed by HPLC/triple quadrupole/linear ion trap mass spectrometry using a commercially available authentic KDS as the standard (Fig. <ref type="figure" target="#fig_0">1C</ref>). A positive ion MS/MS spectrum of the m/z 300 ion showed the presence of ions of m/z 282 and 270, resulting from the neutral loss of H 2 O and HCHO, respectively, which is consistent with a previous report <ref type="bibr" target="#b15">(16)</ref>.</p><p>Dependency of the reaction rates on amino acid concentrations under the condition of 1 mM palmitoyl-CoA was examined (Table <ref type="table" target="#tab_0">1</ref>). Each LCB product was quantified by the fluorescence intensity based on the standard curve obtained by using the corresponding authentic compound <ref type="bibr" target="#b22">(23)</ref>. The value of apparent catalytic efficiency (k app cat =K app m ) for D-serine was 0. 0013 min -1 mM -1 and was much smaller than that for L-serine (k app cat =K app m = 3.6 min -1 mM -1 ). Therefore, the KDS production by SPT from D-serine is considered to be negligible at the physiological concentration of D-serine. Next, binding of Dserine to the S. multivorum SPT was examined by spectroscopic titration. When SPT was incubated with D-serine, spectral changes corresponding to the external aldimine formation between PLP and the amino acid were observed (Supporting information). As shown in Table <ref type="table" target="#tab_0">1</ref>, the K d value for D-serine was 11 ± 1.8 mM and was more than 20 times larger than that for L-serine (0.45 ± 0.050 mM).</p><p>Because both L-homoserine and L-alanine could be converted to LCBs by SPT <ref type="bibr" target="#b21">(22)</ref>, the dissociation constants for enantiomers of these amino acids were also examined by the titration experiment. The K d value for D-homoserine was 90 ± 8 mM, and no significant spectral changes were observed up to 170 mM of D-alanine. Each K d value for the D-amino acid was much larger than that for the corresponding L-amino acid, L-homoserine (3.6 ± 0.20 mM), or L-alanine (65 ± 10 mM).</p><p>Stereochemistry of KDS formed by the S. multivorum SPT KDS has a chiral center at the C2 position to which hydrogen, hydroxymethyl, amino, and acyl groups are attached. In the present study, it was necessary to know which optical isomer, (2S)-or (2R)-KDS, was formed from D-serine. In order to detect KDS enantiomers, we developed a new method in which each enantiomer of 7-methoxycoumarinlabeled KDS was separated and quantified by chiral HPLC (Fig. <ref type="figure">2A</ref>). First, the standard compounds (2S)-2-amino-1hydroxyoctadecan-3-one (L-serine-type (2S)-KDS) and (2R)-2-amino-1-hydroxyoctadecan-3-one (D-serine-type (2R)-KDS) were chemically synthesized (Supporting information). Next, the conditions for fluorescence labeling and HPLC were examined using these authentic compounds; the successful separation of KDS enantiomers was achieved by 7-methoxycoumarin labeling of the amino group of KDS (Fig. <ref type="figure">2B</ref>, lines 1-3). The labeled (2S)-KDS and (2R)-KDS were eluted at 7.7 and 8.9 min, respectively, with the calculated separation factor of 1.3 (Fig. <ref type="figure">2B</ref>, line 3). When the SPT reaction product derived from L-serine was analyzed, two fluorescence peaks were detected (Fig. <ref type="figure">2B</ref>, line 4). The first peak corresponded to 7-methoxycoumarin-labeled (2S)-KDS and the second to 7-methoxycoumarin-labeled (2R)-KDS. Similarly, for the SPT reaction product derived from D-serine, two fluorescence peaks corresponding to 7-methoxycoumarin-labeled (2S)-KDS and 7-methoxycoumarin-labeled (2R)-KDS were detected (Fig. <ref type="figure">2B</ref>, line 5). The areas of the two fluorescence peaks in each case were measured, and it was determined that (2S)-KDS and (2R)-KDS were present at a ratio of approximately 1:1 in both cases.</p><p>Then, we incubated (2S)-KDS or (2R)-KDS with SPT and analyzed whether racemization of each KDS enantiomer proceeded in an SPT-dependent manner. It was confirmed that the racemized product was formed in each case, albeit in a smaller amount (Fig. <ref type="figure">2B</ref>, lines 6 and 7). α-Hydrogen exchange of serine by the S. multivorum SPT</p><p>The extent of the SPT-catalyzed hydrogen-deuterium exchange at Cα of D-serine was measured by 1 H-NMR in the absence of the other substrate palmitoyl-CoA, to know whether the α-hydrogen is abstracted from D-serine by the S. multivorum SPT. In a D 2 O buffer at pD 7.5, both L-serine and D-serine gave the same NMR spectra showing four resonance peaks centered at 3.85 p.p.m. and eight resonance peaks around 3.98 p.p.m., corresponding to the αand β-hydrogens, respectively <ref type="bibr" target="#b46">(47)</ref>. The hydrogen-deuterium exchange at Cα was observed by following the relative intensities of the αand β-hydrogens as shown in Figure <ref type="figure">3A</ref>.</p><p>No decrease in the α/β ratio was observed in the control experiments without SPT. Consistent with the previous observation <ref type="bibr" target="#b16">(17)</ref>, when 10 mM L-serine was incubated with 10 μM SPT, a slow exchange of the α-hydrogen for deuterium was observed (t 1/2 = 67 ± 5.2 h), and, when 1.5 mM S-(2oxoheptadecyl)-CoA was added to this L-serine-SPT reaction solution, the rate of the exchange was significantly increased (t 1/2 = 1.7 ± 0.18 h), indicating that binding of the palmitoyl-CoA analog to SPT enhanced the α-hydrogen abstraction of L-serine. Similar spectral changes were observed when 10 mM D-serine was incubated with 10 μM SPT, although the exchange of the α-hydrogen was slightly slower than that for L- serine. However, the α-hydrogen exchange of D-serine was almost suppressed in the presence of 1.5 mM S-(2oxoheptadecyl)-CoA. These results on the reactions of the S. multivorum SPT with D-serine are consistent with the observations for the S. paucimobillis SPT <ref type="bibr" target="#b46">(47)</ref>. Incubation with a higher concentration, 500 mM, of D-serine slightly, but significantly, increased the rates of the hydrogen-deuterium exchange at Cα in both the absence and presence of S-(2oxoheptadecyl)-CoA as shown in Figure <ref type="figure">3A</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Serine racemase activity of the S. multivorum SPT</head><p>In order to verify the possibility of conversion between D- serine and L-serine, the serine racemase activity of SPT in the absence of palmitoyl-CoA was examined by the combination of fluorescence labeling and reverse-phase HPLC (Fig. <ref type="figure">4</ref>). As shown in an HPLC profile in Figure <ref type="figure">4B</ref> (line 1), serine enantiomers were successfully separated by reverse-phase HPLC after the modification of serine with o-phthalaldehyde and N-isobutyryl-L-cysteine as indicated in Figure 4A <ref type="bibr" target="#b47">(48)</ref>. Based on the fluorescence intensity of the modified authentic serine, the purities of D-and L-serine used in this study were 99.6% and 99.9%, respectively (Fig. <ref type="figure">4B</ref>, lines 2 and 4). After the incubation of D-serine with SPT, L-serine was clearly detected in the assay mixture (Fig. <ref type="figure">4B</ref>, line 3). Alternatively, when L- serine was incubated with SPT, D-serine was also produced in the assay mixture (Fig. <ref type="figure">4B</ref>, line 5). As shown in Figure <ref type="figure">4C</ref>, time-dependent racemization of serine was observed with 1 mM D-serine or L-serine and 47 μM SPT. The formation rate of L-serine from D-serine was 0.0020 min -1 . This value was comparable to the apparent catalytic efficiency (k app cat =K app m ) of KDS formation from D-serine (0.0013 min -1 mM -1 ) (Table <ref type="table" target="#tab_0">1</ref>). As shown in Figure <ref type="figure">4D</ref>, the racemization of serine was observed only in the presence of SPT, and free PLP (1 mM) did not catalyze the racemization reaction. Racemase activity of SPT is orders of magnitude lower than that of other known serine racemases <ref type="bibr" target="#b48">(49)</ref><ref type="bibr" target="#b49">(50)</ref><ref type="bibr" target="#b50">(51)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystal structure of the S. multivorum SPT after soaking in a D-serine solution</head><p>To further study the substrate recognition mechanism and the mechanism of the KDS production from D-serine by SPT, we tried to prepare the crystal of SPT complexed with D-serine by a soaking experiment. The SPT crystals were soaked in a solution supplemented with 190 mM D-serine for 10 min and subjected to X-ray structure analysis. This D-serine-soaked crystal diffracted to 1.65 Å resolution, and the diffraction data were indexed in the tetragonal space group P4   Reaction of serine palmitoyltransferase with D-serine amino acid residues from Ser2 to Val395, and the last three Cterminal residues had no defined electron density, consistent with observations for other SPT-amino acid complexes reported previously <ref type="bibr" target="#b22">(23)</ref>. The active-site structure of D-serine- soaked SPT is shown in Figure <ref type="figure" target="#fig_5">5A</ref>. While the 2Fo-Fc electron density map calculated from the dataset clearly showed the formation of a PLP-amino acid external aldimine intermediate (Fig. <ref type="figure" target="#fig_5">5A</ref>), a model of the PLP-D-serine external aldimine could not fit this electron density map (refer the schematic drawing of the proposed PLP-D-serine external aldimine in Fig. <ref type="figure" target="#fig_5">5B</ref>). Unexpectedly, a model of the PLP-L-serine external aldimine was well assigned at the occupancy of 1 to this electron density map. The RMSD of the D-serine-soaked crystal structure and the L-serine complex structure (PDB 8H1Q) superimposed by the least-squares method between the Cα atoms was 0.14 Å, indicating that there was little change in the overall structure between the D-serine-soaked crystal and the L-serine-soaked crystal. In the two crystals, the architecture of the active site surrounding the PLP-L-serine external aldimine, that is, orientations of the side chains of amino acid residues, numbers and positions of water molecules, and hydrogen-bond networks, was exactly the same (Fig. <ref type="figure" target="#fig_5">5, A</ref> and<ref type="figure">C</ref>).</p><formula xml:id="formula_0">[min -1 ] K app m a [mM] k app cat =K app m [min -1 mM -1 ] K d [mM] L-serine<label>13</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystal structure of the SPT-α-methyl-D-serine complex</head><p>The amount of L-serine in the commercial D-serine sample was below the detection limit, but the possibility that the binding affinity of D-serine to SPT in crystal is so low that even a trace amount of contaminating L-serine yields the SPT-Lserine binary complex cannot be ruled out. Therefore, to confirm that the D-form of serine really binds to SPT, we analyzed the crystal structure of the SPT-α-methyl-D-serine complex. If α-methyl-D-serine carrying a methyl group at the Cα position could bind to the SPT active site, it is likely that D- serine can also bind to SPT.</p><p>The K d value for α-methyl-D-serine in solution was 27 ± 2.5 mM, while that for D-serine was 11 ± 1.8 mM (Fig. <ref type="figure" target="#fig_0">S1</ref> and Table <ref type="table" target="#tab_0">1</ref>). The crystal of the binary complex of SPT with αmethyl-D-serine could be prepared by soaking the SPT crystal into the buffer supplemented with 185 mM α-methyl-D-serine for 40 min. The crystal structure was determined at a resolution of 1.70 Å and refined to R work and R free values of 0.173 and 0.219, respectively, with a Cruickshank diffraction-component precision index of 0.1147 Å. A summary of the data statistics is shown in Table <ref type="table" target="#tab_1">2</ref>. The final model contained 394 amino acid residues (Ser2 to Val395), one PLP, 384 water molecules, and four ethylene glycol molecules per monomer. The RMSD of the αmethyl-D-serine-soaked SPT structure and the L-serine-soaked SPT structure (8H1Q) was 0.15 Å, and that of the α-methyl-Dserine-soaked SPT structure and the D-serine-soaked SPT structure was 0.17 Å. These values indicate little change in the overall structures among the three SPT-amino acid complexes. Four amino acid residues in the SPT active site, Asn52, His138, Asp210, and Lys244, were selected as key residues and drawn as stick models in Figure <ref type="figure" target="#fig_5">5</ref>. The conformations and orientations of the side chains of the three amino acid residues surrounding the A B Reaction of serine palmitoyltransferase with D-serine PLP molecule, His138, Asp210, and Lys244, appear to be exactly the same (Fig. <ref type="figure" target="#fig_5">5, A, C,</ref> and<ref type="figure">D</ref>).</p><p>The 2Fo-Fc electron density map calculated from the dataset clearly indicated the formation of the external aldimine intermediate (Fig. <ref type="figure" target="#fig_5">5D</ref>). A model of the PLP-α-methyl-D-serine external aldimine could be well assigned at the occupancy of 1 to this electron density map. This result shows that the serine analog could bind to the active site of SPT in the crystal while keeping its D-configuration. The carboxy group of α-methyl-Dserine formed a hydrogen bond/ionic interaction with Nε2 of His138 as did the carboxy group of L-serine. Due to this fixation, the hydroxymethyl group of α-methyl-D-serine turned toward the O3 0 atom of PLP, and its β-hydroxy group occupied the space that a water molecule occupied in the SPT-L-serine complex. The α-methyl group of α-methyl-D-serine was placed in the space occupied by the hydroxymethyl group of the SPT-L-serine complex. One water molecule that intermediated between the side chain of Asn52 and the hydroxymethyl group of L-serine via hydrogen bonds was expelled, and the orientation of the side-chain amide group of Asn52 was shifted by 0.8 Å (Fig. <ref type="figure" target="#fig_5">5E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We have proposed a seven-step reaction mechanism where SPT produces KDS from L-serine and palmitoyl-CoA starting from the internal aldimine (I) formed between PLP and the ε-amino group of Lys244 at the active site of SPT (Fig. Although our previous biochemical and structural findings showed that microbial SPTs have a relatively broad substrate specificity for both amino acids and acyl-CoA <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b22">23)</ref>, the detection of KDS after the incubation of D-serine and palmitoyl-CoA with SPT was an unexpected result. Consistent with the previous observation for the S. paucimobillis SPT, 1 H-NMR analysis showed that Cα of both L-serine and D-serine was slowly deprotonated in the active site of the S. multivorum SPT (Fig. <ref type="figure">3A</ref>). When a palmityl-CoA analog coexisted, the αdeprotonation was significantly accelerated for L-serine but almost suppressed for D-serine. This could be explained by the stereochemistry around Cα in the ternary complex (Fig. <ref type="figure">3B</ref>): the position of the α-hydrogen of the L-serine-SPT binary complex is not suitable for the proton withdrawal by Lys244 as confirmed by the crystal structure, and, upon binding palmitoyl-CoA, the serine moiety of the external aldimine would rotate to the conformation with its α-hydrogen perpendicular to the pyridine ring of PLP, which is ideal for the proton withdrawal. In the case of D-serine, the same rotation caused by palmitoyl-CoA binding should position the αhydrogen not only in an oblique angle relative to the pyridine ring of PLP but also away from Lys244. But, at a much higher concentration of D-serine, 500 mM, which is the same as that in the KDS formation assay (Fig. <ref type="figure" target="#fig_0">1</ref>), the deprotonation was not two random half datasets. d R free was calculated as for R cryst , but is calculated for 10% of the reflections that were chosen at random and omitted from the refinement process ( <ref type="formula">66</ref>). e Corresponding two atoms of 50% occupancies in the double conformers were counted separately. f RMSD. g The average temperature factor was calculated based on the values of no. of non-H atoms. Reaction of serine palmitoyltransferase with D-serine completely suppressed by the palmitoyl-CoA analog (Fig. <ref type="figure">3A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reaction of serine palmitoyltransferase with D-serine</head><p>These results indicate that the quinonoid intermediate, which adopts a planar conformation and loses the stereochemistry of serine, is tentatively produced to some extent. Then, L-serine, the original substrate of SPT, can be formed by reprotonation of the quinonoid intermediate derived from D-serine. This racemization reaction was confirmed by the fluorescence labeling of serine and HPLC analysis (Fig. <ref type="figure">4</ref>). The rates for the SPT-catalyzed α-deprotonation and racemization of D-serine were comparable to that for the catalytic efficiency of KDS formation from D-serine.</p><p>The crystal structure of D-serine-soaked SPT solved at a 1.7Å resolution showed that L-serine formed by racemization of D-serine was trapped in the SPT active site as the PLP-Lserine external aldimine intermediate (Fig. <ref type="figure" target="#fig_5">5A</ref>). The SPT crystal of the binary complex with α-methyl-D-serine, which has a bulkier side chain than that of D-serine and has less than half the binding affinity to SPT than D-serine, showed the clear As shown in the crystal structure of the SPT-L-serine binary complex (Fig. <ref type="figure" target="#fig_5">5</ref>), the conformation of the external aldimine in this complex, caused by the hydrogen/ionic bond between the carboxy group of L-serine and Nε2 of His138, is unfavorable for α-deprotonation of L-serine. Binding of the second substrate palmitoyl-CoA induces changes in the orientation of the L-serine moiety of the external aldimine to cancel the interaction with the side chain of His138, and the carbonyl group of palmitoyl-CoA binds to Nε2 of His138 (IIb). This causes the Cα-H bond to be nearly perpendicular to the imine-pyridine plane, which is favorable for α-deprotonation to form the quinonoid intermediate (ternarycomplex, IIIa). The carbanionic Cα of IIIa attacks palmitoyl-CoA (Claisen-type condensation), and CoA-SH is released from IIIb to form a condensation product (IV), which by decarboxylation yields the second quinonoid intermediate (V). Protonation at Cα of V yields the external aldimine of PLP-(2S)-KDS (VI). Finally, the release of (2S)-KDS regenerates the internal aldimine (I). D-Serine or (2R)-KDS can also bind to the SPT active site to form the corresponding external aldimine intermediate. In both cases, racemization occurs via the quinonoid intermediates, and the ε-amino group of Lys244 is thought to be responsible for the hydrogen transfer at the C2 position. KDS, 3-ketodihydrosphingosine; PLP, pyridoxal-5 0 -phosphate; SPT, serine palmitoyltransferase.</p><p>electron density of the PLP-α-methyl-D-serine external aldimine, suggesting that the active site of SPT can also accommodate D-serine and that this crystal structure mimics the SPT-D-serine binary complex preceding the racemization reaction. The reason why the electron density of the PLP-Dserine external aldimine was not detected in the D-serine- soaked SPT crystal is explained as follows: D-serine was converted to L-serine by SPT in the crystal during the soaking treatment, and the L-serine with more than 20 times higher affinity to SPT than D-serine remained in the active site, resulting in the structure of the L-serine complex of SPT.</p><p>It was surprising that both of the two KDS enantiomers were detected in the SPT reaction product from L-serine or Dserine and palmitoyl-CoA (Fig. <ref type="figure">2</ref>, lines 4 and 5). It was also found that SPT could catalyze the racemization of KDS (Fig. <ref type="figure">2</ref>, lines 6 and 7). In the latter racemization reaction, KDS was added to the SPT solution, and it is likely that only a small portion of the hydrophobic KDS added to the aqueous solution actually binds to SPT without sticking to the tube wall. On the other hand, in the former KDS formation reaction, KDS is formed in the SPT active site. The KDS thus generated would not easily dissociate from SPT in the aqueous solution and racemization proceeds while remaining in the active site of SPT. This might explain the difference in the extent of racemization between the two experiments: KDS was completely racemized to the 1:1 ratio in the KDS formation experiment, while only partially in the KDS racemization experiment. Under physiological conditions, KDS would be immediately transferred to KDS reductase, the next enzyme in the biosynthetic pathway of sphingolipids, thus preventing the racemization of KDS.</p><p>Based on the enzymological and structural results reported here, it is thought that SPT does not catalyze the decarboxylative condensation between D-serine and palmitoyl-CoA but that D-serine is racemized by SPT to L-serine via the quinonoid intermediate (Fig. <ref type="figure" target="#fig_6">6</ref>, green arrows). The resultant L-serine is then utilized as the substrate of SPT to from (2S)-KDS. However, palmitoyl-CoA would effectively inhibit the racemization at physiological concentrations of D-serine, although the α-deprotonation of D-serine could be detected with a high concentration, 500 mM, of D-serine even in the presence of the palmitoyl-CoA analog.</p><p>As for the racemization of KDS by SPT (Fig. <ref type="figure" target="#fig_6">6</ref>, blue arrows), its physiological significance would also be negligible: (2S)-KDS formed by SPT from L-serine is metabolized by KDS reductase to D-erythro (2S,3R)-sphinganine and (2R)-sphinganine has not been detected in biological samples. Since sphinganine contains two chiral centers at the C2 and C3 positions, there are three additional nonnatural stereoisomers of sphinganine. The synthetic L-threo (2S, 3S)-stereoisomer of natural D-erythro-sphinganine, called Safingol, is known to be an inhibitor of PKC and sphingosine kinase <ref type="bibr" target="#b51">(52,</ref><ref type="bibr" target="#b52">53)</ref> and has been shown in several human phase 1 clinical trials to act synergistically with other chemotherapeutic agents by potentiating chemotherapy drug-induced apoptosis as well as to induce autophagy in Safingol monotherapy <ref type="bibr" target="#b53">(54)</ref><ref type="bibr" target="#b54">(55)</ref><ref type="bibr" target="#b55">(56)</ref>. Interestingly, Safingol is known to be recognized and metabolized by enzymes of the sphingolipid biosynthetic pathway and converted into L-threo dihydroceramide or glycosphingolipids despite its nonnatural stereochemistry <ref type="bibr" target="#b56">(57,</ref><ref type="bibr" target="#b57">58)</ref>. Although the remaining two stereoisomers, that is, D-threo (2R, 3R)-sphinganine and L-erythro (2R, 3S)-sphinganine, have not been detected in biological samples, they might have some biological functions or toxicity. It is also interesting to see if (2R)-KDS, which can be efficiently synthesized using SPT from L- serine and palmitoyl-CoA as shown in the present study, becomes a substrate for KDS reductase and is converted to D- threo (2R, 3R)-sphinganine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedures</head><p>Expression and purification of the S. multivolum SPT Expression and purification of the S. multivolum SPT were performed as previously reported <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref>. Briefly, Escherichia coli BL21 (DE3) pLysS cells (Novagen) harboring the plasmid expressing the full-length SPT <ref type="bibr" target="#b15">(16)</ref> were grown, and SPT expression was induced with 0.1 mM IPTG at 37 C for 4 h. After harvesting, E. coli cells were sonicated in 50 mM Tris-HCl buffer (pH 7.5) with 0.1 mM EDTA and centrifuged to prepare the crude extract. The SPT was purified using HiPrep DEAE-FF crude 16/10, HiPrep butyl-FF crude 16/10, and the second HiPrep DEAE-FF crude 16/10 in an ÄKTA FPLC system (GE Healthcare). The purified SPT was desalted to 20 mM potassium phosphate buffer (pH 7.4) containing 0.1 mM EDTA and concentrated to 20 mg/ml and then stored at 4 C. The concentration of the purified SPT subunit in the solution was determined spectrophotometrically (using the molar extinction coefficient of 26,780 M -1 cm -1 at 280 nm for the PLP form of the enzyme) <ref type="bibr" target="#b15">(16)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of authentic standards of L-Ser-and D-Ser-type KDSs</head><p>Chemical synthesis of (2S)-2-amino-1-hydroxyoctadecan-3one (L-serine-type KDS) and (2R)-2-amino-1-hydroxyoc tadecan-3-one (D-serine-type KDS) was done using commercially available materials based on the method previously reported <ref type="bibr" target="#b58">(59)</ref>. For details of the synthesis, see Supporting information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TLC analysis of KDS</head><p>The assay was performed as previously reported <ref type="bibr" target="#b22">(23)</ref>. For qualitative analysis, 500 mM of L-serine or D-serine was incubated with 1 mM palmitoyl-CoA and 100 μM SPT in 100 μl of 100 mM potassium phosphate, pH 7.5, at 37 C for 60 min. [1-14 C] palmitoyl-CoA (20 kBq/μmol) was supplemented into the above reaction mixture as the tracer. The reactions were terminated by addition of the equal volume of 2 N ammonia. Lipids were extracted by successive addition and mixing of 750 μl of chloroform/methanol (1:2, v/v), 250 μl of chloroform, and 250 μl of 1% KCl. Phases were separated by centrifugation, and the organic phase was recovered. The aqueous phase was re-extracted with 200 μl of chloroform, and, after centrifugation, the organic phase was combined with the organic phase from the first extraction. The organic phase was washed with water/chloroform/methanol (47:48:3, v/v), dried, and suspended in chloroform/methanol (2:1, v/v). The extracted lipids were resolved by normal-phase TLC on Silica Gel 60 high-performance TLC plates (Merck) with chloroform/methanol/2 N ammonia (40:10:1, v/v) or chloroform/ methanol/triethanol amine (95:5:10, v/v) and visualized by spraying with ninhydrin reagent followed by gentle heating. Radioactive lipids on TLC plates were visualized by using a BAS2000 Image Analyzer (Fujifilm). For the quantitative analysis, the UV-fluorescence intensities of the reaction products on TLC plates were visualized by a Fusion chemiluminescence imaging system using a UV-light box and analyzed by a FUSION Capt software (Vilber Lourmat).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LC-MS/MS analysis of the reaction products</head><p>Liquid chromatography (HPLC) was performed on an LC system Nexera X2 (SHIMADZU) equipped with L-Column ODS (3 μm, 3 × 150 mm) (CELI). The HPLC mobile phases were as follows: A1, methanol/water (60:40, v/v); B1, methanol containing 0.1% formic acid, and 5 mM ammonium formate. A gradient program was used for the HPLC separation at a flow rate of 0.2 ml/min; the program consisted of holding at 40% B1 for 6 min, linearly increasing to 100% B1 over 10 min, and keeping it for 5 min, followed by re-equilibration to the initial condition for 35 min. The HPLC system was connected to a 4500 QTRAP hybrid triple quadrupole/linear ion trap mass spectrometer (AB SCIEX) equipped with a Turbo Ion Spray source. The mass spectrometer was run in the positive mode with the curtain gas set at 10 and interface heater "on." Ion spray voltage was used with an optimal value for analysis of a sphingoid base, 5500 V. Parameters of the temperature, ion source gas 1 (GS1), and GS2 were set at 600 C, 80 psi, and 45 psi, respectively. Identification of structure-specific fragments was performed in product ion scan mode. Data acquisition and analysis were performed using Analyst Software version 1.4.1 (AB SCIEX).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of 7-methoxycoumarin-labeled KDS enantiomers</head><p>Fluorescence labeling of each KDS enantiomer (21 mg in 5.0 ml of chloroform) was performed by mixing with 17 mg of N-succinimidyl-7-methoxycoumarin-3-carboxylate and 11 μl of N, N-diisopropylethylamine under shielded light and stirring at room temperature for 2 h, and 7-methoxycoumarinlabeled KDS was obtained in an average yield of 87% for L- serine type (22 mg) or 83% for D-serine type (18 mg). The specific rotation [α] D of each compound was measured as follows: +13.5 for 7-methoxycoumarin-labeled L-serine-type KDS and -12 for 7-methoxycoumarin-labeled D-serine-type KDS (c 0.5; CHCl 3 ). The labeled KDS sample was then washed with diethyl ether, in which KDS is insoluble, to remove impurities from the reaction mixture.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7-Methoxycoumarin labeling of the reaction product derived from L-/D-serine by SPT</head><p>L-serine or D-serine (100 mM) and palmitoyl-CoA (1 mM) were incubated with 230 μM SPT in 100 mM potassium phosphate, pH 7.5, at 37 C for 120 min. The reaction products were extracted and dried as described above for the TLC assay. N-succinimidyl 7-methoxycoumarin-3-carboxylate and N, Ndiisopropylethylamine/chloroform was added to the reaction products and kept at room temperature. After 1 h, the precipitate was filtered off, the filtrate was dried on a rotary evaporator, and then the crude residue was washed with diethyl ether and the 7-methoxycoumarin-labeled product was obtained without further purification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HPLC analysis of fluorescence-labeled KDS enantiomers</head><p>The enantioselective detection of 7-methoxycoumarinlabeled KDS was performed on an HPLC system with a Jasco PU-2089 Plus pump equipped with a Jasco FP-2020 Plus fluorescence detector (JASCO Corporation). The labeled product was injected into a chiral column (CHIRALPAK IB, DAICEL corporation, 4.6 i.d. × 250 mm). Flow rate and column temperature were 1 ml/min and 37 C. For fluorescence detection, the excitation and emission wavelengths were 380 nm and 450 nm, respectively. Composition of the mobile phase was 2-propanol:hexane:chloroform = 47.5:47.5:5 (v/v). Injection volume was 5 μl, containing 0.025 μmol of 7methoxycoumarin-labeled KDS.</p><p>The separation coefficient α was calculated as follows:</p><formula xml:id="formula_1">k 1 ¼ t 1 -t 0 t 0 ; k 2 ¼ t 2 -t 0 t 0 ; α ¼ k 2 k 1</formula><p>In these equations, k 1 and k 2 (k 1 &lt; k 2 ) are the retention factors of the two peaks, t 1 and t 2 (t 1 &lt; t 2 ) are the retention times of the two peaks, and t 0 is the holdup time at which the sample begins to pass through the column. The calculated value, α = 1.3, confirms adequate separation of the 7-methoxycoumarinlabeled KDS enantiomers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kinetic analysis of SPT for D-serine</head><p>Steady-state kinetic parameters were determined by varying the concentrations of D-serine in the presence of 1 mM palmitoyl-CoA in 100 μl of 100 mM potassium phosphate, pH 7.5, at 37 C. The concentration of SPT and the incubation time were 10 μM and 20 min. The range of concentrations of D-serine was 0 to 680 mM. The reaction termination, lipid extraction, TLC analysis, and quantification of the reaction products on TLC plates were described above. The apparent velocities (min -1 ) versus amino acid concentrations (mM) plots were fitted to the Michaelis-Menten equation, v = V max [S]/(K m +[S]), by nonlinear regression using the Igor Pro 6.37 software (Wave Matrix Inc; https://www.wavemetrics. com) to determine the apparent kinetic parameters, k app cat and K app m , of SPT for D-serine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Serine racemase assay of SPT</head><p>Serine racemase assay of SPT was performed by determining the amount of each antipodal serine derivative formed from D-serine or L-serine as previously reported with some modifications <ref type="bibr" target="#b47">(48)</ref>. After D/L-serine was derivatized to fluorescent diastereomer, the enantioselective detection of serine was performed on an HPLC system with a Multi lambda Fluorescence Detector (Waters Corporation). The reaction was carried out at 37 C for 1 to 24 h in a reaction mixture (100 μl) containing 100 mM Tris/HCl buffer (pH 7.5), 1 mM D/L-serine, and 47 μM SPT with or without 1 mM PLP. After incubation, the reaction mixture was mixed successively with 100 μl of 0.1 N HCl and 800 μl of 200 mM sodium borate buffer (pH 10) containing 1.75 mg/ml N-isobutyryl-L-cysteine and 1.25 mg/ml o-phthalaldehyde. The mixture was diluted to one-tenthand injected into the reverse-phase HPLC column (COSMOSIL 5C18-AR-II, 4.6 mm i.d. × 250 mm, Nacalai Tesq. Inc). Flow rate and column temperature were 1 ml/min and 37 C. For fluorescence detection, the excitation and emission wavelengths were 350 nm and 450 nm, respectively. Elution gradient condition was applied using the following eluents: eluent A, 10 mM sodium-borate/10 mM sodium phosphate buffer (pH 8.2); eluent B, methanol/acetonitrile/ eluent A/water (40:40:10:10, v/v). The gradient program was as follows: 15% B for 11 min; 15% to 60% B for 12 min; 60% B for 3 min; 60% to 15% B for 2 min; 15% B for 7 min. The derivatized L-serine and D-serine were used as calibration standards (concentration range of 0.001-0.05 mM).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NMR measurements</head><p>For the NMR spectroscopy, all exchangeable hydrogens of the enzyme, the ligands, and the buffer base were replaced with deuterium by a previously described method <ref type="bibr" target="#b46">(47)</ref>. Potassium pyrophosphate buffer (50 mM, pD 7.5) prepared in D 2 O was used. The 1 H NMR spectra were measured in Wilmad 5-mm NMR tubes kept at 25 C using a Bruker Avance III HD 600 MHz operating at 600 MHz. A flip angle of 30 C with a relaxation delay time of 5 s was used. To obtain a better signalto-noise ratio, an exponential window function for 0.3 Hz line broadening factor was applied to the free induction decays of NMR measurements. Chemical shifts are expressed as p.p.m. relative to an external standard of 3-(trimethylsilyl) propionic acid-d4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystallization of SPT</head><p>SPT was crystallized by the sitting drop vapor diffusion method in 24-well plates at 20 C as described previously <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b22">23)</ref>. Briefly, an aliquot of 2 μl of 20 mg/ml protein solution was mixed with 4 μl of the reservoir solution containing 100 mM Tris-HCl (pH 8.5), 200 mM sodium acetate, and 19 to 24% (w/ v) PEG4000. The drop was equilibrated against 500 μl of the reservoir solution for 2 days, and, then, the microbridge was transferred to a new 24-well plate, where the fresh reservoir solution contained 100 mM Tris-HCl (pH 8.5), 200 mM sodium acetate, and 13 to 18% (w/v) PEG4000. Plate-shaped or cube-shaped crystals were reproducibly grown within 2 to 5 days. We attempted to prepare the crystals of the binary complex with D-serine by soaking into the solution containing 100 mM Tris (pH 8.5), 200 mM sodium acetate, 15% (w/v) PEG4000, and 190 mM D-serine for 10 min. The crystals of the SPT-α-methyl-D-serine binary complex were prepared by two-step soaking method as described previously <ref type="bibr" target="#b22">(23)</ref>: The ligand-free form SPT crystals, which were obtained by soaking the crystals grown in the Tris-buffered solution into the Trisfree solution (100 mM Tricine-NaOH (pH 8.5), 200 mM sodium acetate, and 15% (w/v) PEG4000) for 90 min, were soaked again into the Tris-free solution containing 185 mM αmethyl-D-serine for 40 min before data collection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection and structural determination</head><p>Crystals were cryo-protected by quick transfer through the soaking solution supplemented with 20% (v/v) ethylene glycol, then flash-frozen in liquid nitrogen or under a N 2 gas cryostream (100 K). X-ray diffraction data were collected at the BL17A beamline at KEK Photon Factory, λ = 0.98 Å, and the BL38B1 beamline at SPring-8, λ = 0.9 Å.</p><p>All data were processed and scaled using XDS <ref type="bibr" target="#b59">(60)</ref>. Initial phases for each structure were determined by the molecular replacement method using MolRep software (https://www. ccp4.ac.ul/html/molrep.html) <ref type="bibr" target="#b60">(61)</ref> in the CCP4 program suite (62) using PDB entry 3A2B as the search model after the removal of all water molecules. The model was refined using REFMAC5 <ref type="bibr" target="#b62">(63)</ref> in the CCP4 suite, and manual adjustment and rebuilding of the model were performed using the program Coot <ref type="bibr" target="#b63">(64)</ref>. The quality of the structure was determined by MolProbity <ref type="bibr" target="#b64">(65)</ref>. Refinement statistics are summarized in Table 2. The atomic coordinates and crystal structures reported in the present study have been deposited in the Protein Data Bank with accession codes 8IYP and 8IYT.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Structural analysis and generation of figures</head><p>Illustrations of the structures and sequence-independent structural superposition were performed using the PyMOL molecular graphics system (DeLano Scientific; https://pymol. org/2/).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure1. Formation of KDS from L-serine and D-serine by the Sphingobacterium multivorum SPT. A, image of the TLC analysis of KDS visualized with ninhydrin reagent: lane 1, extract of the reaction mixture without the amino acid substrate; lane 2, extract of the reaction mixture with L-serine; lane 3, commercial authentic KDS (L-serine-derived, (2S)-KDS); lane 4, extract of the reaction mixture with D-serine; lane 5, extract of the reaction mixture without SPT. The complete reaction mixture contained 500 mM L-/D-serine, 1 mM palmitoyl-CoA, and 100 μM SPT and was incubated at 37 C for 60 min. B, autoradiographic analysis of the same TLC plate. Radioactivity was incorporated to the reaction product from the substrate [1-14 C]-palmitoyl-CoA. Each lane is the same as that in panel A. C, LC-MS/MS data for the reaction product. Top, commercial authentic KDS (L-serine-derived, (2S)-KDS); middle, L-serinederived KDS; bottom, D-serine-derived KDS. KDS, 3-ketodihydrosphingosine; PLP, pyridoxal-5 0 -phosphate; SPT, serine palmitoyltransferase.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>1 2 1 2 with unit cell parameters, a = b = 61.0 Å, c = 207.3 Å, α = β = γ = 90 . A summary of the data statistics is shown in Table 2. The crystal structure was determined at a resolution of 1.65 Å and refined to R work and R free values of 0.149 and 0.184, respectively, with a Cruickshank diffraction-component precision index of 0.0921 Å. The refinement statistics are also summarized in Table 2. The final model contained 394 amino acid residues, one PLP, 419 water molecules, and seven ethylene glycol molecules per monomer. The model contained 394 of 398</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Data are shown as mean ± SD of three or more measurements. a The k app cat and K app m values were determined in the presence of 1 mM palmitoyl-CoA. b Data from (21). c n.d., not determined. d No spectral changes were observed up to 170 mM D-alanine.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .Figure 3 .Figure 4 .</head><label>234</label><figDesc>Figure 2. Stereochemistry of KDS formed by the Sphingobacterium multivorum SPT. A, scheme of fluorescence derivatization of KDS enantiomers. The amino group of KDS was site specifically labeled to form (S or R)-N-(1-hydroxy-3-oxooctadecan-2-yl)-7-methoxycoumarin by using N-succinimidyl 7-methoxy-2-oxo-2H-chromene-3-carboxylate and DIPEA. B, chiral HPLC profiles of fluorescence-derivatized KDS. The vertical axis shows the fluorescence intensity, and the horizontal axis shows the retention time. Line 1, 7-methoxycoumarin-labeled L-serine-type (2S)-KDS; line 2, 7methoxycoumarin-labeled D-serine-type (2R)-KDS; line 3, mixture of 7methoxycoumarin-labeled L-/D-serine-type (2S/2R)-KDS; lines 4 and 5, 7methoxycoumarin-labeled products from the reaction of 230 μM SPT with 100 mM L-serine and D-serine, respectively, and 1 mM palmitoyl-CoA at 37 C for 120 min; and lines 6 and 7, 7-methoxycoumarin-labeled (2S)-KDS and (2R)-KDS (1.3 mM), respectively, after incubation with 230 μM SPT at 37 C for 120 min. DIPEA, N, N-diisopropylethylamine; KDS, 3ketodihydrosphingosine; PLP, pyridoxal-5 0 -phosphate; SPT, serine palmitoyltransferase.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>(1) the external aldimine (IIa) formation between PLP and the first substrate L-serine via transaldimination; (2) the ternary complex (IIb) formation after the second substrate palmitoyl-CoA binds to the external aldimine; (3) the quinonoid intermediate (IIIa) formation by the deprotonation at the Cα position of the L-serine moiety of IIb by Lys244; (4) the condensation product (IV) formation by the nucleophilic attack of the quinonoid Cα (IIIa) on the palmitoyl-CoA thioester (Claisen-type condensation) and subsequent release of CoA-SH; (5) the carbanion intermediate (V) formation by decarboxylation of IV; (6) the external aldimine of PLP-KDS (VI) formation by the protonation at Cα of V; and finally, (7) the regeneration of the internal aldimine (I) by release of KDS.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Active site of the Sphingobacterium multivorum SPT obtained by soaking the crystal with D-serine or α-methyl-D-serine. A, close-up view of the active site of the D-serine-soaked SPT crystal. B, schematic representation of the expected PLP-D-serine external aldimine intermediate. C, close-up view of the active site of the L-serine-soaked SPT crystal forming the PLP-L-serine external aldimine intermediate (PDB: 8H1Q) (left) and its schematic representation (right). D, close-up view of the active site of the α-methyl-D-serine-soaked SPT crystal forming the PLP-α-methyl-D-serine external aldimine intermediate (left) and its schematic representation (right). The amino acid residues, Asn52, His138, Asp210, and Lys244, and the PLP external aldimine moiety are shown in stick representation. The carbon atoms of the aldimine moiety are color coded by yellow and those of the polypeptides for each structure are by cyan (A), green (C), and magenta (D), and their nitrogen, oxygen, and phosphorus atoms are colored blue, red, and orange, respectively. Water molecules are drawn as spheres. Calculated 2Fo-Fc omit electron density map contoured at 1 σ level is shown for the PLP-amino acid external aldimine, water molecules, and the four amino acid residues by meshes. E, overlay of the active sites of the SPT-L-serine complex prepared by D-serine soaking (yellow and cyan) and the SPT-α-methyl-D-serine complex (pale orange and light magenta). PLP, pyridoxal-5 0 -phosphate; SPT, serine palmitoyltransferase.</figDesc><graphic coords="9,313.91,517.21,139.46,104.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Proposed reaction mechanism of the Sphingobacterium multivorum SPT. At the active site of SPT, PLP forms an aldimine with the ε-amino group of Lys244 (internal aldimine, I, highlighted in yellow). The SPT reaction pathway (IIVI) with L-serine and palmitoyl-CoA is shown by orange arrows and highlighted in orange. The pathway of D-serine or KDS racemization is shown by green or blue, respectively. The binding of the first substrate L-serine leads to the PLP-L-serine external aldimine (IIa) by transaldimination. As shown in the crystal structure of the SPT-L-serine binary complex (Fig.5), the conformation of the external aldimine in this complex, caused by the hydrogen/ionic bond between the carboxy group of L-serine and Nε2 of His138, is unfavorable for α-deprotonation of L-serine. Binding of the second substrate palmitoyl-CoA induces changes in the orientation of the L-serine moiety of the external aldimine to cancel the interaction with the side chain of His138, and the carbonyl group of palmitoyl-CoA binds to Nε2 of His138 (IIb). This causes the Cα-H bond to be nearly perpendicular to the imine-pyridine plane, which is favorable for α-deprotonation to form the quinonoid intermediate (ternarycomplex, IIIa). The carbanionic Cα of IIIa attacks palmitoyl-CoA (Claisen-type condensation), and CoA-SH is released from IIIb to form a condensation product (IV), which by decarboxylation yields the second quinonoid intermediate (V). Protonation at Cα of V yields the external aldimine of PLP-(2S)-KDS (VI). Finally, the release of (2S)-KDS regenerates the internal aldimine (I). D-Serine or (2R)-KDS can also bind to the SPT active site to form the corresponding external aldimine intermediate. In both cases, racemization occurs via the quinonoid intermediates, and the ε-amino group of Lys244 is thought to be responsible for the hydrogen transfer at the C2 position. KDS, 3-ketodihydrosphingosine; PLP, pyridoxal-5 0 -phosphate; SPT, serine palmitoyltransferase.</figDesc><graphic coords="10,404.09,411.75,106.13,79.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Apparent kinetic parameters of the Sphingobacterium multivorum SPT</figDesc><table><row><cell>Compounds</cell><cell>cat k app</cell><cell>a</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Data collection and refinement statistics I i ðhklÞ, where I i ðhklÞ is the intensity of the ith observation of reflection ðhklÞ and N is the redundancy. Values of the highest resolution shells. CC 1/2 , Pearson correlation calculated between</figDesc><table><row><cell></cell><cell cols="2">Value(s) for:</cell></row><row><cell></cell><cell>L-serine complex</cell><cell></cell></row><row><cell></cell><cell>formed by D-serine</cell><cell>D-methyl-serine</cell></row><row><cell>Parameter</cell><cell>soaking</cell><cell>complex</cell></row><row><cell>Data collection a</cell><cell></cell><cell></cell></row><row><cell>Diffraction source</cell><cell>SPring-8 BL38B1</cell><cell>PF BL17A</cell></row><row><cell>Wavelength (Å)</cell><cell>0.9</cell><cell>0.98</cell></row><row><cell>Temperature (K)</cell><cell>100</cell><cell>100</cell></row><row><cell>Detector</cell><cell>Rayonix MX225HE</cell><cell>Dectris Eiger X16M</cell></row><row><cell>Crystal-detector</cell><cell>200</cell><cell>180</cell></row><row><cell>distance (mm)</cell><cell></cell><cell></cell></row><row><cell>Rotation range</cell><cell>0.2</cell><cell>0.25</cell></row><row><cell>per image ( )</cell><cell></cell><cell></cell></row><row><cell>Total rotation range ( )</cell><cell>180</cell><cell>135</cell></row><row><cell>Exposure time</cell><cell>1.0</cell><cell>0.5</cell></row><row><cell>per image (s)</cell><cell></cell><cell></cell></row><row><cell>Space group</cell><cell>P4 1 2 1 2</cell><cell>P4 1 2 1 2</cell></row><row><cell>Cell dimensions</cell><cell></cell><cell></cell></row><row><cell>a, b, c (Å)</cell><cell>61.0, 61.0, 207.3</cell><cell>61.8, 61.8, 208.3</cell></row><row><cell>α, β, γ ( )</cell><cell>90, 90, 90</cell><cell>90, 90, 90</cell></row><row><cell>Resolution range (Å)</cell><cell>50.0-1.65 (1.75-1.65)</cell><cell>50-1.70 (1.80-1.70)</cell></row><row><cell>C I/σ(I)D R meas b CC 1/2 c</cell><cell>38.7 (9.7) 0.043 (0.180) 1.00 (0.991)</cell><cell>20.5 (3.8) 0.07 (0.651) 0.999 (0.959)</cell></row><row><cell>R p.i.m.</cell><cell>0.013 (0.077)</cell><cell>0.024 (0.253)</cell></row><row><cell>Completeness (%)</cell><cell>99.2 (95.3)</cell><cell>97.5 (99.0)</cell></row><row><cell>Redundancy</cell><cell>12.9 (9.3)</cell><cell>10.1 (10.3)</cell></row><row><cell>Mosaicity ( ) Refinement a</cell><cell>0.177</cell><cell>0.097</cell></row><row><cell>No. of reflections,</cell><cell>37,909 (365)</cell><cell>35,935 (279)</cell></row><row><cell>working set</cell><cell></cell><cell></cell></row><row><cell>Resolution range (Å) R work /R free d</cell><cell cols="2">42.25-1.65 (1.69-1.65) 46.19-1.70 (1.74-1.70) 0.149/0.184 0.173/0.219</cell></row><row><cell>Completeness (%)</cell><cell>99.2</cell><cell>97.5</cell></row><row><cell>Cruickshank DPI (Å) No. of non-H atoms e</cell><cell>0.0921</cell><cell>0.1147</cell></row><row><cell>Protein</cell><cell>3197</cell><cell>3173</cell></row><row><cell>PLP-external aldimine</cell><cell>22</cell><cell>23</cell></row><row><cell>Ethylene glycol</cell><cell>28</cell><cell>16</cell></row><row><cell>Water RMSDs f</cell><cell>419</cell><cell>387</cell></row><row><cell>Bonds (Å)</cell><cell>0.010</cell><cell>0.011</cell></row><row><cell>Angles ( ) Average B factors (Å 2 ) g</cell><cell>1.682</cell><cell>1.706</cell></row><row><cell>Protein</cell><cell>18.9</cell><cell>26.4</cell></row><row><cell>PLP-external aldimine</cell><cell>12.7</cell><cell>19.7</cell></row><row><cell>Ethylene glycol</cell><cell>41.2</cell><cell>54.6</cell></row><row><cell>Water</cell><cell>30.5</cell><cell>38.0</cell></row><row><cell>Ramachandran plot</cell><cell></cell><cell></cell></row><row><cell>Most favored (%)</cell><cell>97</cell><cell>96</cell></row><row><cell>Allowed (%)</cell><cell>3</cell><cell>4</cell></row><row><cell>PDB ID</cell><cell>8IYP</cell><cell>8IYT</cell></row></table><note><p>DPI, diffraction-component precision index; PLP, pyridoxal-5 0 -phosphate. a One crystal was used for each dataset. Values in parentheses are for the highest resolution shell. b R mears = P hkl ½N=ðN-1Þ 1=2 × P i jI i ðhklÞ -CIðhklÞDj= P hkl P i c</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J. Biol. Chem. (2024) 300(3) 105728 1 © 2024 THE AUTHORS. Published by Elsevier Inc on behalf of American Society for Biochemistry and Molecular Biology. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>J. Biol. Chem. (2024) 300(3) 105728 3</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>J. Biol. Chem. (2024) 300(3) 105728 5</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_3"><p>J. Biol. Chem. (2024) 300(3) 105728</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_4"><p>J. Biol. Chem. (2024) 300(3) 105728</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>J. Biol. Chem. (2024) 300(3) 105728 11</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>Reaction of serine palmitoyltransferase with D-serine</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>J. Biol. Chem. (2024) 300(3) 105728 15</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding and additional information-This study was supported by a <rs type="grantName">grant-in-aid for scientific research</rs> (C) <rs type="grantNumber">25440036</rs> and <rs type="grantNumber">22K06153</rs> from the <rs type="funder">Japan Society for the Promotion of Science (JSPS)</rs> (to H. I.) and a grant from the <rs type="funder">Japan Foundation for Applied Enzymology</rs> (to H. I.) and was partly supported by a grant from <rs type="funder">Toyo Institute of Food Technology</rs> (to H. I.).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_fHxRfvp">
+					<idno type="grant-number">25440036</idno>
+					<orgName type="grant-name">grant-in-aid for scientific research</orgName>
+				</org>
+				<org type="funding" xml:id="_XYqf7Sj">
+					<idno type="grant-number">22K06153</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All data are contained in the article and supporting information.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supporting information-This article contains Supporting information. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments-The</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Serine palmitoyltransferase, a key enzyme of sphingolipid metabolism</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hanada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1632</biblScope>
+			<biblScope unit="page" from="16" to="30" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mechanistic enzymology of serine palmitoyltransferase</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hayashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1814</biblScope>
+			<biblScope unit="page" from="1474" to="1480" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Cloning and characterization of LCB1, a Saccharomyces gene required for biosynthesis of the long-chain base component of sphingolipids</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rinker-Schaffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Dickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="4325" to="4332" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The LCB2 gene of Saccharomyces and the related LCB1 gene encode subunits of serine palmitoyltransferase, the initial enzyme in sphingolipid synthesis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Nagiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Baltisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Dickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="7899" to="7902" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Sphingolipid synthesis: identification and characterization of mammalian cDNAs encoding the Lcb2 subunit of serine palmitoyltransferase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Nagiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Dickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="237" to="241" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A mammalian homolog of the yeast LCB1 encodes a component of serine palmitoyltransferase, the enzyme catalyzing the first step in sphingolipid synthesis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hanada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nishijima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kuge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Nagiec</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="32108" to="32114" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Purification of the serine palmitoyltransferase complex responsible for sphingoid base synthesis by using affinity peptide chromatography techniques</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hanada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nishijima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="8409" to="8415" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Cloning and initial characterization of a new subunit for mammalian serine-palmitoyltransferase</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hornemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Rutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Von Eckardstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="37275" to="37281" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Is the mammalian serine palmitoyltransferase a high-molecular-mass complex?</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hornemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Von Eckardstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">405</biblScope>
+			<biblScope unit="page" from="157" to="164" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Tsc3p is an 80-amino acid protein associated with serine palmitoyltransferase and required for optimal enzyme activity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Slife</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bacikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Monaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="7597" to="7603" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Identification of small subunits of mammalian serine palmitoyltransferase that confer distinct acyl-CoA substrate specificities</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Niranjanakumari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Moitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Eichler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="8186" to="8191" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">SSSPTA is essential for serine palmitoyltransferase function during development and hematopoiesis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Parthibane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Acharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abimannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Srideshikan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Klarmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page">100491</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Orm family proteins mediate sphingolipid homeostasis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Breslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bodenmiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Aebersold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shevchenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">463</biblScope>
+			<biblScope unit="page" from="1048" to="1053" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Regulation of sphingolipid biosynthesis by the morphogenesis checkpoint kinase Swe1</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chauhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Somashekarappa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Kohlwein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page" from="2524" to="2534" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A water-soluble homodimeric serine palmitoyltransferase from Sphingomonas paucimobilis EY2395T strain. Purification, characterization, cloning, and overproduction</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kagamiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="18249" to="18256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Molecular characterization of membrane-associated soluble serine palmitoyltransferases from Sphingobacterium multivorum and Bdellovibrio stolpii</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hayashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="5749" to="5761" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Structural insights into the enzymatic mechanism of serine palmitoyltransferase from Sphingobacterium multivorum</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoseki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="549" to="562" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The external aldimine form of serine palmitoyltransferase: structural, kinetic, and spectroscopic analysis of the wild-type enzyme and HSAN1 mutant mimics</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Raman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Yard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lowther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Naismith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="17328" to="17339" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The structure of serine palmitoyltransferase; gateway to sphingolipid biosynthesis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Yard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Overton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dorward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="870" to="886" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The serine palmitoyltransferase from Sphingomonas wittichii RW1: an interesting link to an unusual acyl carrier protein</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Raman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Naismith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Campopiano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biopolymers</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="811" to="822" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The chemical basis of serine palmitoyltransferase inhibition by myriocin</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wadsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mcmahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lowther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Beattie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Langridge-Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="14276" to="14285" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Crystal structure of Sphingobacterium multivorum serine palmitoyltransferase complexed with tris(hydroxymethyl)aminomethane</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Goto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. F Sruct. Biol. Commun</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="408" to="415" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Structural insights into the substrate recognition of serine palmitoyltransferase from Sphingobacterium multivorum</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Goto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page">104684</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Structural insights into the regulation of human serine palmitoyltransferase complexes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Somashekarappa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="240" to="248" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Structural insights into the assembly and substrate selectivity of human SPT-ORMDL3 complex</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="249" to="257" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mechanism of sphingolipid homeostasis revealed by structural analysis of Arabidopsis SPT-ORM1 complex</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">728</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Overexpression of the wild-type SPT1 subunit lowers desoxysphingolipid levels and rescues the phenotype of HSAN1</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Eichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hornemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mccampbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuljis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Penno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vardeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="14646" to="14651" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Hereditary sensory neuropathy type 1 is caused by the accumulation of two neurotoxic sphingolipids</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Penno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Houlden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rentsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Niederkofler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="11178" to="11187" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Mutations in SPTLC1, encoding serine palmitoyltransferase, long chain base subunit-1, cause hereditary sensory neuropathy type I</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Dawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hulme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Brahmbhatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Auer-Grumbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nicholson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="309" to="312" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">SPTLC1 is mutated in hereditary sensory neuropathy, type 1</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bejaoui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Scheffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ashby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="261" to="262" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">HSAN1 mutations in serine palmitoyltransferase reveal a close structure-function-phenotype relationship</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bourquin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suriyanarayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Alecu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Othman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="853" to="865" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Childhood amyotrophic lateral sclerosis caused by excess sphingolipid synthesis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mohassel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Donkervoort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nalls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1197" to="1204" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Sphingolipids as critical players in retinal physiology and pathology</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Basu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Qaladize</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Grambergs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Rotstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mandal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">100037</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Insulin-regulated serine and lipid metabolism drive peripheral neuropathy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Handzlik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gengatharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Frizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Mcgregor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rahman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">614</biblScope>
+			<biblScope unit="page" from="118" to="124" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The role of ceramides in metabolic disorders: when size and localization matters</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Turpin-Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Bruning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="224" to="233" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Ceramides and other sphingolipids as drivers of cardiovascular disease</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Tatum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Symons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Summers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Holland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="701" to="711" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Serine restriction alters sphingolipid diversity to constrain tumour growth</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Muthusamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cordes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Handzlik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gengatharan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page" from="790" to="795" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The neurobiology of d-serine signaling</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wolosker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="325" to="348" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Structure, function, and pharmacology of glutamate receptor ion channels</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Wollmuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bowie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Menniti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Sobolevsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="298" to="487" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The presence of free D-serine in rat brain</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="33" to="36" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Serum D-serine levels are altered in early phases of Alzheimer&apos;s disease: towards a precocious biomarker</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Piubelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pollegioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rabattoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mauri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Princiotta Cariddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Versino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transl. Psych</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Paradoxical roles of serine racemase and Dserine in the G93A mSOD1 mouse model of amyotrophic lateral sclerosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Marecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marinesco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Labrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Roder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Barger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="598" to="610" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">D-amino acids as a biomarker in schizophrenia</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sawamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kitagishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matsuda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">9</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">D-serine: potential therapeutic agent and/or biomarker in schizophrenia and depression? Front</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kravtsenyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Dursun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">25</biblScope>
+		</imprint>
+	</monogr>
+	<note>Psych</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">D-Serine inhibits serine palmitoyltransferase, the enzyme catalyzing the initial step of sphingolipid biosynthesis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hanada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nishijima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">474</biblScope>
+			<biblScope unit="page" from="63" to="65" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Reactions of serine palmitoyltransferase with serine and molecular mechanisms of the actions of serine derivatives as inhibitors</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kagamiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1082" to="1092" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Acceleration of the substrate Calpha deprotonation by an analogue of the second substrate palmitoyl-CoA in Serine Palmitoyltransferase</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ikushiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shiraiwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hayashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="7542" to="7553" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Distribution of eukaryotic serine racemases in the bacterial domain and characterization of a representative protein in Roseobacter litoralis Och</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kubota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shimamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nunoura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology (Reading)</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="53" to="61" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Purification of serine racemase: biosynthesis of the neuromodulator D-serine</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wolosker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Sheth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mothet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Ferris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="721" to="725" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Metal ion dependency of serine racemase from Dictyostelium discoideum</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maekawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Saito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amino Acids</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1567" to="1576" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">A novel PLP-dependent alanine/serine racemase from the hyperthermophilic archaeon pyrococcus horikoshii OT-3. Front. Microbiol</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kawakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sakuraba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohshima</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1481</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Potentiation of apoptosis by treatment with the protein kinase C-specific inhibitor safingol in mitomycin Ctreated gastric cancer cells</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haimovitz-Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Dhupar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ehleiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maslak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Natl. Cancer Inst</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="1394" to="1399" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Purification and characterization of rat kidney sphingosine kinase</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Olivera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kohama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Milstien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Spiegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="12576" to="12583" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A pilot clinical/pharmacological study of the protein kinase C-specific inhibitor safingol alone and in combination with doxorubicin</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saltz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Casper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Spiess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mullen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="537" to="543" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ambrosini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Musi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Truman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haimovitz-Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Allegood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Safingol (L-threo-sphinganine) induces autophagy in solid tumor cells through inhibition of PKC and the PI3kinase pathway</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="184" to="193" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A phase I clinical trial of safingol in combination with cisplatin in advanced solid tumors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Carvajal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Merrill</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Cane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="2484" to="2492" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Metabolism of the unnatural anticancer lipid safingol, L-threo-dihydrosphingosine, in cultured cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dragusin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gurgui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schwarzmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoernschemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Echten-Deckert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1772" to="1779" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Safingol toxicology after oral administration to TRAMP mice: demonstration of safingol uptake and metabolism by Nacylation and N-methylation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Morales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Dillehay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Pallas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pruett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Allgood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Chem. Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="197" to="216" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Evaluation of chiral N,N-dimethyl-sphingosine for the interaction between nerve growth factor and tropomyosin receptor kinase A</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Murai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hirakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Usuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Igarashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Monde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chirality</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="807" to="812" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Integration, scaling, space-group assignment and postrefinement</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kabsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="133" to="144" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Molrep : an automated program for molecular replacement</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vagin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1022" to="1025" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Overview of the CCP4 suite and current developments</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Winn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Cowtan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Dodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="235" to="242" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">REFMAC5 for the refinement of macromolecular crystal structures</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Murshudov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Skubák</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Lebedev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Pannu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nicholls</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="355" to="367" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Features and development of Coot</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lohkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowtan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="486" to="501" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">MolProbity: all-atom structure validation for macromolecular crystallography</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Arendall</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Headd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Keedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Immormino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Kapral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="12" to="21" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Free R value: a novel statistical quantity for assessing the accuracy of crystal structures</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Brunger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="472" to="475" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Insight into the Molecular Mechanism of Surface Interactions of Phosphatidylcholines�Langmuir Monolayer Study Complemented with Molecular Dynamics Simulations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-02-06">February 6, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anna</forename><surname>Chachaj-Brekiesz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jan</forename><surname>Kobierski</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anita</forename><surname>Wnętrzak</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patrycja</forename><surname>Dynarowicz-Latka</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patrycja</forename><surname>Pietruszewska</surname></persName>
+						</author>
+						<title level="a" type="main">Insight into the Molecular Mechanism of Surface Interactions of Phosphatidylcholines�Langmuir Monolayer Study Complemented with Molecular Dynamics Simulations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-06">February 6, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">81FB48615F292638C239F5B628136FAA</idno>
+					<idno type="DOI">10.1021/acs.jpcb.3c06810</idno>
+					<note type="submission">Received: October 13, 2023 Revised: December 19, 2023 Accepted: January 18, 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Mutual interactions between components of biological membranes are pivotal for maintaining their proper biophysical properties, such as stability, fluidity, or permeability. The main building blocks of biomembranes are lipids, among which the most important are phospholipids (mainly phosphatidylcholines (PCs)) and sterols (mainly cholesterol). Although there is a plethora of reports on interactions between PCs, as well as between PCs and cholesterol, their molecular mechanism has not yet been fully explained. Therefore, to resolve this issue, we carried out systematic investigations based on the classical Langmuir monolayer technique complemented with molecular dynamics simulations. The studies involved systems containing 1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC) analogues possessing in the structure one or two polar functional groups similar to those of DPPC. The interactions and rheological properties of binary mixtures of DPPC analogues with 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) and cholesterol were compared with reference systems (DPPC/POPC and DPPC/cholesterol). This pointed to the importance of the ternary amine group in PC/cholesterol interactions, while in PC mixtures, the phosphate group played a key role. In both cases, the esterified glycerol group had an effect on the magnitude of interactions. The obtained results are crucial for establishing structure-property relationships as well as for designing substitutes for natural lipids.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>In biological systems, interactions between membrane components and with external molecules determine the membrane's biophysical properties and the physiological effects of bioactive compounds. The method used to study such interactions is the Langmuir monolayer technique, <ref type="bibr" target="#b0">1</ref> the successful applications of which in this area have been thoroughly discussed. <ref type="bibr" target="#b1">2</ref> It enabled, among others, to find molecular targets of many bioactive molecules (e.g., drugs, for example, antitumor lipids, abbr. antitumor lipids (ATLs), <ref type="bibr" target="#b2">3</ref> antimicrobial agents, <ref type="bibr" target="#b3">4</ref> or food supplements-unsaturated fatty acids or stanols <ref type="bibr" target="#b4">5</ref> ), their mechanism of action <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> and the reason for their selectivity <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> or toxicity. <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr">[15]</ref> It also allowed us to understand how changing the composition of the membrane and the mutual proportions of its components (e.g., cholesterol-to-phospholipid ratio; sphingolipid content; unsaturation of the phospholipids fatty acids) changes the stiffness of the membranes. Such variations occur in the physiological conditions (for example, when following a specific diet, <ref type="bibr" target="#b14">16</ref> taking various medications, <ref type="bibr" target="#b15">17</ref> or even during physical activity <ref type="bibr" target="#b16">18</ref> ), as well as are characteristic for the development of many pathological effects (related to cancer <ref type="bibr" target="#b17">19</ref> or other diseases, like anemia, <ref type="bibr" target="#b18">20</ref> or in poisoning (e.g., with ethanol <ref type="bibr" target="#b19">21</ref> )).</p><p>Studies of interactions between membrane components or between the membrane and the biomolecule are based on the calculation of particular qualitative and quantitative parameters <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b20">22</ref> derived from the experimental surface pressuremolecular area (π-A) isotherms. The most informative are values of the thermodynamic excess functions of mixing, among which the most frequently determined is excess Gibbs free energy of mixing (ΔG exc ), as it allows one to determine the type (attractive/repulsive) and strength of interactions and the thermodynamic stability of the investigated system.</p><p>Additionally, molecular dynamics (MD) simulations can be used to elucidate interactions between lipids in monolayers, offering a unique perspective into the systems of these molecules. By employing implementations of theoretical models, it is possible to study components of interactions between different types of molecules, even at the atomic level. These simulations provide valuable information about the structural arrangement, conformation, and energy distribution of the investigated lipid layers. A precise understanding of these aspects is essential to unraveling the fundamental principles underlying biological processes and membranerelated phenomena.</p><p>Studies of interactions between membrane components usually involve mixtures of lipids, for example, various phospholipids and sterols. In the case of membranebiomolecule interactions, the molecule under study can also have a lipid-like structure (e.g., ATLs or oxysterols). Although there is extensive literature in this field, several key issues remain unclear. Namely, it was demonstrated that polar interactions contribute more significantly to the overall molecular interactions compared to hydrophobic interactions; <ref type="bibr" target="#b21">[23]</ref><ref type="bibr" target="#b22">[24]</ref><ref type="bibr" target="#b23">[25]</ref><ref type="bibr" target="#b24">[26]</ref><ref type="bibr" target="#b25">[27]</ref> however, the molecular origin of these interactions is not fully understood. This applies especially to phospholipids, which have several polar groups in their structure, e.g., 1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC). Knowing the type of polar group with the greatest contribution to the interactions would allow for the possible use of substitutes with increased stability in laboratory research.</p><p>The aim of the work was to obtain information about the molecular origin of the interactions that are key to the stability and rheological properties of the membrane. For this purpose, we carried out systematic research based on classical thermodynamic analysis of π-A isotherms and MD simulations performed for a surface pressure of 35 mN/m, as it reflects the conditions in biomembranes. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b29">29</ref> For our experiments, we chose lipids responsible for maintaining the physicochemical properties of the biomembrane: cholesterol (Chol) and phosphatidylcholines (PC). <ref type="bibr" target="#b30">30</ref> As phosphatidylcholines with different chain lengths and unsaturation account for about 50% (in mass) in eukaryotic cells, <ref type="bibr" target="#b30">30</ref> we assumed that crucial for the membrane biophysical properties are interactions between Chol and PC as well as between different PCs. Taking this into account, we have chosen the representative of unsaturated (1-palmitoyl-2-oleoyl-snglycero-3-phosphocholine (POPC)) and saturated (1,2dipalmitoyl-sn-glycero-3-phosphocholine (DPPC)) phosphatidylcholines. DPPC analogues (compounds with saturated chains (mainly hexadecyl) in the hydrophobic part and having one or two functional groups analogous to those of DPPC in the hydrophilic head) are commercially available. In this way, a full library of DPPC analogues having at least one of the DPPC functional groups as their polar heads is readily available (Figure <ref type="figure" target="#fig_0">1</ref>). Moreover, by using an appropriate subphase, the same ionization of hydrophilic groups as that occurring in DPPC was achieved. The library of compounds mentioned above was investigated in binary mixtures with Chol and POPC. In the final step of our research, we employ MD simulations to delve into the complex processes occurring within lipid monolayers, shedding light on the nuanced mechanisms directing their dynamics. This has allowed us to explain the results of our experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">MATERIALS AND METHODS</head><p>2.1. Materials. Dimethyldioctadecylammonium chloride (DODAC) was obtained by ion exchange from dimethyldioctadecylammonium bromide (purity &gt;99%, Avanti Polar Lipids) spread on aqueous subphase containing NaCl (0.1 mol/L). The choice of this particular quaternary alkylammonium salt </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Journal of Physical Chemistry B</head><p>was dictated by the fact that among the dimethyl dioctadecyl ammonium salts, the one containing the chloride anion has the characteristic of the π-A isotherm most similar to DPPC, showing the LE-LC phase transition in a similar range of surface pressures. <ref type="bibr" target="#b31">31</ref> DHDP (sodium dihexadecylphosphate) was obtained from dihexadecylphosphate (purity &gt;99%, Avanti Polar Lipids) spread on an aqueous subphase containing NaOH (0.001 mol/L). Other compounds: 1,2-dipalmitoylsn-glycero-3-phosphocholine (DPPC), 1-palmitoyl-2oleoyl-sn-glycero-3-phosphocholine (POPC), cholesterol (Chol), 1,2-dipalmitoyl-sn-glycerol (DPG), sodium 1,2dipalmitoyl-sn-glycero-3-phosphate (DPPA), 1,2-dipalmitoyl-3-trimethylammonium-propane chloride (DPTAP) of high purity (&gt;99%) were supplied by Avanti Polar Lipids and used as received. Chloroform stabilized with ethanol (HPLC purity, Sigma-Aldrich) was used to prepare the spreading solutions. Unless otherwise indicated, ultrapure water from an HLP demineralizer (Hydrolab) with a conductivity of &lt;0.06 μS/cm was used as the subphase.</p><p>2.2. Methods. 2.2.1. Langmuir Monolayer Technique. Individual chemicals were dissolved in chloroform to obtain stock solutions with a concentration of 0.2-0.3 mg/mL. To prepare binary monolayers, the appropriate volume of stock solutions was measured by using a microsyringe (Hamilton, maximum capacity 250 ± 2.5 μL) and mixed in a vial. Then, the selected (one-or two-component) chloroform solution was carefully deposited dropwise at the appropriate subphase (water, aqueous NaCl, or NaOH) placed in a double-barrier Langmuir trough (KSV 2000, total area of 700 cm 2 ). The film was equilibrated for 5 min, and surface pressure measurements-molecular area (π-A) isotherms were started at a compression speed of 20 cm 2 /min. The subphase temperature was maintained at 20 ± 0.1 °C using a cooling unit (Julabo) with a circulating water system. Surface pressure measurement was performed using the Wilhelmy method using a strip of ashless filter paper (Whatman Chr1). On the basis of experimental π-A isotherms for binary monolayers, the values of excess Gibbs free energy of mixing (ΔG exc ) were calculated, reflecting the strength of mutual interactions and the affinity of its components to each other, using equation <ref type="bibr" target="#b20">22</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>G</head><formula xml:id="formula_0">N A X A X A d d d exc A 12 1 1 2 2 i k j j j y { z z z = * * *<label>(1)</label></formula><p>where N A is Avogadro number, A 1 , A 2 , and A 12 are area per molecule values read from isotherms of pure substances (1 and 2) and their mixtures, and X 1 and X 2 are the mole fractions of substances 1 and 2 in the mixture. ΔG exc provides information on whether the particular interaction is energetically favorable (negative values) or not (positive values), while for ΔG exc = 0, ideal mixing (or immiscibility) occurs. <ref type="bibr" target="#b20">22</ref> Additionally, in order to characterize the mechanical properties of monolayers, surface compressional modulus (C s -1</p><p>) values were calculated according to the equation</p><formula xml:id="formula_1">C A A T s 1 i k j j j y { z z z = (2)</formula><p>C s -1 values below 25 mN/m suggest that the film is in a lowdensity liquid phase; the ranges of 25-50 mN/m and 100-250 mN/m are characteristic for the liquid expanded and liquid condensed states, respectively, while for C s -1 above 500 mN/m, the film is in the solid state. <ref type="bibr" target="#b0">1</ref> 2.2.2. Theoretical Calculations. Molecular dynamics simulations were performed using the Amber22 package. <ref type="bibr">32</ref> Three simulated systems consisted of two rectangular symmetric monolayers, each monolayer having 128 lipid molecules (64 POPC molecules and 64 DPPC, DPPA, or DHDP molecules), and 15,000 water molecules were built in Packmol software. <ref type="bibr" target="#b32">33</ref> Sodium ions were added to neutralize the POPC/DPPA and POPC/DHDP systems. Periodic boundary conditions were utilized. We used the lipid21 <ref type="bibr" target="#b33">34</ref> force field for lipids and the 3-charge, 4-point OPC model for water. <ref type="bibr" target="#b34">35</ref> For DHDP, electrostatic potentials were calculated quantum mechanically using the Gaussian 16. <ref type="bibr" target="#b35">36</ref> Atomic point charges were calculated in the Antechamber program <ref type="bibr" target="#b36">37</ref> using the RESP model. <ref type="bibr" target="#b37">38</ref> The missing parameters were taken from the GAFF2 force field. <ref type="bibr" target="#b38">39</ref> The energy of the systems was minimized by 10,000 steps. The systems were then equilibrated by 75,000 steps with a 0.001 ps time step, followed by 150,000 steps with a 0.002 ps time step. Production calculations were carried out in an isothermal-isobaric ensemble with constant surface tension corresponding to a surface pressure of 35 mN/m (NPγT) with a 0.002 ps time step. The temperature was set at 20 °C, and a Langevin thermostat was used. Berendsen aerostat was used to control the pressure at 1 bar. The simulation was carried out for 600 ns of the system evolution. The last 100 ns were used for analysis. The results were analyzed in the CPPTRAJ program. <ref type="bibr" target="#b39">40</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Surface Behavior of DPPC and its Analogues.</head><p>DPPC is one of the most studied phospholipids, and the origin of its membrane activity was attributed to its unique surface and phase behavior. Namely, this lipid has the ability to arrange itself at the phase boundary into two types of stable two-dimensional (2D) states with different molecular packing and conformation. In experimental π-A isotherms most pronounced is a wide plateau region at around 5 mN/m reflecting the coexistence region of low-pressure liquid expanded (LE) state and high-pressure liquid condensed (LC) phase. <ref type="bibr" target="#b40">41</ref> The first question, which turned out to be crucial for our research, was whether modification of the hydrophilic region of the molecule would affect the phase transition, which is mainly related to changes in the order of apolar hydrocarbon chains. <ref type="bibr" target="#b40">41</ref> Therefore, we measured π-A curves for DPPC analogues and compared them with the results for DPPC (Figure <ref type="figure" target="#fig_1">2a</ref>). To gain insight into the mechanical properties, the surface compression modulus was also calculated and plotted against the surface pressure (Figure <ref type="figure" target="#fig_1">2b</ref>).</p><p>The measured curves were in accordance with the literature isotherms of DPTAP, <ref type="bibr" target="#b41">42</ref> DPPA, <ref type="bibr" target="#b42">43</ref> DPG, <ref type="bibr" target="#b43">44</ref> DHDP <ref type="bibr" target="#b44">45</ref> , and DODAC. <ref type="bibr" target="#b45">46</ref> Interestingly, molecules without a ternary amine group in their structure (DPG, DPPA, and DHDP) are characterized by experimental π-A dependencies of similar lift-off point values (49, 51, and 53 Å 2 /molecule, respectively), although they differ from the one observed for DPPC. In the course of the compression, no inflections are visible until the collapse, occurring above 50 mN/m (59, 52, and 57 mN/m, respectively). The isotherms of these compounds differ in slope, which is also reflected in compressional moduli values. In particular, for a surface pressure of 35 mN/m, these films have C s -1 values of approximately 1107 (for DPG), 490 (for DPPA), and 313 mN/m (for DHDP). On the contrary, compounds possessing in their structure the ternary amine</p><p>The Journal of Physical Chemistry B group (DPTAP and DODAC) have experimental curves with strikingly greater lift-off point values (at 111 and 117 Å 2 / molecule, respectively), which are close to that for DPPC (98 Å 2 /molecule) and show noticeable plateau regions. The plateau in both isotherms is not as well-defined as for DPPC (it is not perfectly horizontal); however, the C s -1 values for pressures at the plateau reach a minimum close to 0 mN/m, similar to DPPC. The latter, together with (i) maximum values of C s -1 for phase below transition falling in the range characteristic for LE phase (26 and 48 mN/m for DPTAP and DODAC, respectively) and (ii) C s -1 values for the phase above the plateau corresponding to the LC phase; confirms that we deal with the LE-LC phase transition. This was also supported by Brewster angle microscopy observations. <ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b46">47</ref> Therefore, based on the analysis of the π-A and C s -1 -π curves, it can be concluded that the ternary amine group promotes the induction of surface pressure-dependent conformational changes in molecules with hexadecyl hydrocarbon chains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Molecular Origin of DPPC Interactions with Cholesterol.</head><p>In the next step of our research, we were interested in how the surface activity and structure of DPPC analogues are reflected in interactions with one of the main membrane lipids � cholesterol. For this purpose, we investigated the DPPC analogues in binary mixtures with cholesterol (π-A and C s -1 -π curves for these systems are presented in Figures <ref type="figure" target="#fig_0">S1</ref> and<ref type="figure" target="#fig_1">S2</ref> in the Supporting Information). Based on π-A isotherms, ΔG exc values were calculated and plotted for the chosen surface pressure values (Figure <ref type="figure" target="#fig_2">S3</ref> in the Supporting Information). Next, the ΔG exc -X Chol curves obtained for each DPPC analogue at 35 mN/m were compared in Figure <ref type="figure" target="#fig_2">3a</ref>.</p><p>As can be seen, for the DPPC/Chol mixtures, deviations from the ideal behavior suggesting dose-dependent attractive interactions can be found. Their strongest magnitude is approximately equal to -1660 J/mol (for X Chol = 0.25) and is associated with the formation of DPPC/Chol surface complexes of a 3:1 stoichiometry. <ref type="bibr" target="#b47">48</ref> The results for binary mixtures indicate diverse behavior of DPPC analogues in binary films with cholesterol, starting from strong repulsion (DPPA) through weak or ideal interactions (DPG and DHDP) to attraction (DPTAP and DODAC). From a structural point of view, it appears that the ternary amino group, which is a moiety present in the structures of both DPTAP and DODAC, is crucial for the occurrence of attractive interactions with cholesterol. For these compounds, the minima in the ΔG exc -X Chol curves occur at approximately -1215 J/mol (for X Chol = 0.50 in the DPTAP/Chol film) and -2214 J/mol (for X Chol =  The Journal of Physical Chemistry B 0.50 in the DODAC/Chol film), suggesting strong affinity between molecules. Indeed, theoretical studies have shown that almost every ternary amino group of PC forms charge pairs with the hydroxyl group of Chol. <ref type="bibr" target="#b48">49</ref> The above interaction is considered to be the most probable in the Chol/DPPC systems, while the second important one is the H-bond between the hydroxyl group of Chol and the carbonyl groups of PC. <ref type="bibr" target="#b49">50</ref> Based on our results, it can be noticed that the existence or lack of glycerol backbone and ester groups in the structure of surface active compounds modifies the magnitude of interactions with cholesterol. Therefore, the secondary role of the carbonyl group is experimentally confirmed herein. At the same time, Chol does not participate preferentially in interactions with the phosphate group, as suggested by similar ΔG exc values for the Chol/DPPC and Chol/DPTAP systems. This issue has also been demonstrated in several MD simulations <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref> and energy minimalization studies. <ref type="bibr" target="#b53">54</ref> Since cholesterol is crucial to maintain the proper ordering and condensation of the biomembrane, we decided to analyze its effect on monolayers of DPPC and its analogues. Figure <ref type="figure" target="#fig_2">3b</ref> shows the percent change in the compressibility moduli values of the binary films in relation to C s -1 of the monolayers from the corresponding DPPC analogues. It is well-known that cholesterol exerts a condensing effect on phosphatidylcholine films, and what is important, the degree of condensation is strongly related to the increase in cholesterol concentration. <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b54">55</ref> In our case, the condensation of the DPPC film for X Chol = 0.25 is equal to 50%, while for X Chol = 0.75, it increases to 337%. As can be seen, the effect of cholesterol on films from the DPPC analogues investigated herein is varied. For example, DODAC and DPG monolayers are slightly fluidized (up to 60%) upon the addition of cholesterol. In contrast, the stiffness of films from compounds containing phosphate groups (DHDP and DPPA) is increased by cholesterol in the entire range of the investigated mole fractions, but the effect is not as dose-dependent as in the case of the DPPC/Chol system. In turn, a small decrease (11%) in C s -1 is observed for the DPTAP film with the lowest cholesterol content, while for higher doses, significant condensation occurs (up to 207%).</p><p>The condensing effect of cholesterol on films from saturated phosphatidylcholines, exemplified by DPPC, has been widely studied using theoretical MD approaches (for a review, see ref 50). It has been shown that this effect results from (i) an increase in the conformational order of the hydrocarbon chains (reduction of the number of gauche defects) and (ii) a decrease in the surface area occupied by PC molecules in mixed monolayers compared to pure PC monolayers. <ref type="bibr" target="#b49">50</ref> Such phenomenon was found to be related to the fact that the PC hydrocarbon chain packing is closer when they are at the same depth in the surface layer as the cholesterol ring system. <ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b55">56</ref> The results from our experiments suggest that the degree of condensation of monolayers from DPPC analogues with the same hydrocarbon chain length is related to the type of polar groups in their structure. Namely, cholesterol-induced condensation occurs in the entire range of concentrations for films containing DHDP (having a phosphate group) and DPPA (with a phosphate and glycerol moiety). Therefore, it can be assumed that the phosphate group is crucial for the occurrence of cholesterol-induced condensation of DPPC films. As indicated by the interaction analysis performed here (based on ΔG exc ) and MD simulations, <ref type="bibr" target="#b49">50</ref> the phosphate group of DPPC is involved in polar interactions with water rather than with cholesterol molecules. This, in turn, may suggest that DPPC analogues containing the phosphate group are anchored in water approximately at the same depth as DPPC, and therefore, their hydrocarbon chains may be packed more tightly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Molecular Origin of DPPC Interactions with Other Phosphatidylcholines on the Example of POPC.</head><p>Our further experiments aimed to obtain information on how the surface activity and structure of DPPC analogues influence interactions with the main lipid of the fluid membrane matrix � POPC. For this purpose, we investigated DPPC analogues in binary mixtures with POPC (π-A, C s -1 -π, and ΔG exc -X POPC curves for these systems are presented in Figures <ref type="figure" target="#fig_5">S4-S6</ref> in the Supporting Information). Based on these data, the ΔG exc -X POPC curves and the C s -1 change in reference to POPC were compared in Figure <ref type="figure" target="#fig_3">4</ref> for a surface pressure of 35 mN/m.</p><p>The ΔG exc values for the DPPC/POPC mixture suggest that in this system, the interactions of differential character occur (weak attractive for X POPC = 0.25 and weak repulsive for a greater POPC content). <ref type="bibr" target="#b56">57</ref> Therefore, it can be perceived that DPPC does not show a preferential affinity for POPC. However, mixtures of POPC with DPPC analogues having a quaternary amino group are characterized by very strong interactions of an attractive (for DODAC) or repulsive (for DPTAP) nature in the entire range of mole fractions. Slightly The Journal of Physical Chemistry B weaker (but repulsive) interactions were found in systems containing DPG and DHDP. Finally, among all binary mixtures tested, an approximately similar course of the ΔG exc -X POPC relationship as for DPPC/POPC can be observed for DPPA/POPC. However, the magnitude of interactions in the equimolar mixture is, in this case, weaker (ΔG exc is approximately 267 J/mol lower). This suggests that the cooperation of the phosphate group with the glycerol skeleton plays a key role in the mutual interactions between phosphatidylcholines. The importance of the latter is evidenced by the fact that the interactions of DHDP molecules possessing only a phosphate group in the structure are slightly stronger and repulsive.</p><p>Moving on to the analysis of mechanical properties, it can be seen that the addition of DPPC to the POPC film causes gradual, dose-dependent condensation and stiffening. This effect was attributed to the increase in conformational order and lipid chain packing caused by an increase in the concentration of the zig-zag conformation characteristic of saturated (DPPC) chains. <ref type="bibr" target="#b57">58</ref> What is interesting is that although all of the investigated DPPC analogues possess similar saturated hydrocarbon chains in their structure, they affect the rheology of films mixed with POPC in a different way. Namely, monolayers with compounds containing the ternary amine group (DPTAP and DODAC) are significantly more fluidized compared to the DPPC/POPC system. Meanwhile, DPG/POPC, DHDP/POPC, and DPPA/POPC systems show approximately the same rheological behavior as the DPPC/POPC mixture, with two exceptions: (i) a small dose of DPG exerts a fluidizing effect of about 15%, while (ii) DPPA in concentrations above 0.75 seems to exert about 30% greater condensation compared to DPPC/POPC.</p><p>The experimental results mentioned above suggest that the phosphate and glycerol moiety participate collectively in interactions between DPPC and POPC, whereas the amine group is noninteracting in this system. To gain better insight into this issue, we performed molecular dynamics simulations for the following systems mixed in a 1:1 ratio: reference DPPC/POPC (this system had been previously investigated using molecular dynamics simulations <ref type="bibr" target="#b57">58</ref> ), DPPA/POPC (as DPPA is a DPPC analogue that possesses a phosphate and glycerol moiety), and DHDP/POPC (as DHDP is a DPPC analogue that possesses a phosphate moiety). Figure <ref type="figure" target="#fig_4">5</ref> shows electron density profiles for simulated systems, which point to a strong similarity between the DPPC/POPC and DPPA/ POPC systems. The phosphorus atoms of the phosphate groups in POPC, DPPC, and also DPPA are immersed in water to a depth of about 9 Å. At the same time, the electron density profile for the DHDP/POPC system is different. Here, the lack of an ester moiety in the DHDP molecule prevents it from anchoring so deep in water, resulting in the phosphorus atom of the phosphate group of DHDP being located at a depth of approximately 4 Å.</p><p>A wider distribution of phosphate groups in the DHDP/ POPC system affects the distribution of sodium counterions, which may result in a change in electrostatic interactions. To  The Journal of Physical Chemistry B investigate the coordination of counterions with functional groups, we determined the radial distribution function (RDF) of the pairs sodium cation-nonbridging oxygen in the phosphate group in DPPA/POPC and DHDP/POPC systems (Figure <ref type="figure" target="#fig_5">6</ref>). The RDF plots show that the cations are distributed around the phosphate groups with two peaks, one narrow and one broad, at a distance of approximately 2.2 and 4.5 Å from the oxygen, respectively, which is consistent with values previously determined in the molecular dynamics of DPPC systems <ref type="bibr" target="#b58">59</ref> and corresponds to the coordination shells. In the DPPA/POPC system, more cations accumulate around the DPPA phosphate group than around the POPC phosphate group. In the case of the DHDP/POPC system, in turn, similar integrals of the RDF functions for POPC and DHDP suggest a similar distribution of cations around these lipids. Although the integral of RDF for DHDP does not differ significantly from that for DPPA, the integrals of the RDF for POPC differ dramatically for these two systems.</p><p>To explain this difference, we additionally determined the RDFs for the pairs sodium cation-oxygen in the carbonyl moiety of the ester group (Figure <ref type="figure" target="#fig_6">7</ref>). In the case of the DPPA/ POPC system, the values of the RDF functions for POPC and DPPA are similar. In the DHDP/POPC system, the integral of the RDF for POPC is higher than the integral of the RDF for this lipid in the DPPA/POPC system, which is understandable. However, this increase is lower than the value of the integral of the RDF for DPPA in the DPPA/POPC system. This means that some amounts of sodium ions, which in the DPPA/POPC system are coordinated with the oxygen atoms in the carbonyl moiety of the ester group, must be coordinated in the DHDP/ POPC system with the nonbridging oxygen atoms of the phosphate group. This coordination neutralizes the charge of the phosphate group in the POPC molecule, which affects the charge of the polar part of this phosphatidylcholine. Consequently, the electrostatic interactions between lipids are altered, leading to the repulsive interaction observed in Langmuir monolayer experiments conducted for the DHDP/ POPC mixture. These results show that the presence of an ester group in the DPPA molecule makes it possible to maintain the electrostatic balance in systems with this lipid. Furthermore, this explains why the interactions in the DPPA/ POPC system resemble those in the DPPC/POPC mixture.</p><p>We also confirmed the interchangeability of DPPC and DPPA by examining the conformational similarity of these molecules. For three systems of DPPC/POPC, DPPA/POPC, and DHDP/POPC mixtures, we determined the tilt angle of the P-N vector of the phosphocholine group relative to the normal interfacial plane. The average tilt angle of the P-N vector for POPC in the DPPC/POPC and DPPA/POPC systems is equal to 69.58 and 68.45°, respectively. A higher value of the tilt angle in the DHDP/POPC system, i.e., 80.17°, is caused by the small size of the DHDP polar group, which allows phosphatidylcholine to move more freely and orient almost parallel to the interfacial plane. This also translates to the values of the area per molecule. In the DPPC/POPC and DPPA/POPC systems, the area per molecule obtained from MD simulations is 61.89 and 57.53 Å 2 , respectively. In the DHDP/POPC system, the area per molecule is 45.64, which is the result of the overlap of phosphatidylcholine on the DHDP molecules.</p><p>Moreover, we compared the conformations of DPPC, DPPA, and DHDP by determining the dihedral angles for the polar groups. For the discussion, we used the notation from ref 60 (Figure <ref type="figure" target="#fig_6">S7</ref> in the Supporting Information). The distribution of dihedral angles reveals the same conformation of the polar headgroup of POPC in the three systems, i.e., DPPC/POPC, DPPA/POPC, and DHDP/POPC (Figure <ref type="figure">S8</ref> in the Supporting Information). α 1 angle, which is the dihedral angle around the C 3 -O 31 bond, is predominantly sin-clinical, which differs from the results obtained for POPC for the CHARMM36 and Berger force fields. <ref type="bibr" target="#b60">61</ref> The distributions of α 2 , α 3 , and α 5 angles show similarity to those determined in simulations using the Berger and GAFFlipid force fields, <ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b61">62</ref> while the α 4 angle occurs ± sin-clinical ranges, which is ± (60 ± 30°), but also anti-periplanar (180 ± 30°), what appears to be the superposition of distributions determined previously for the CHARMM36 and Berger force fields.</p><p>The distribution of dihedral angles in the polar headgroup of DPPC in the DPPC/POPC system shows similarity to that of POPC (Figure <ref type="figure">S9</ref> in the Supporting Information). The same applies to the α 1 angle for DPPA, which is the dihedral angle around the C 3 -O 31 bond. The distribution of the α 2 angle for DPPA, an angle around the bridging O-P bond, also shows similarities to DPPC, however, with a slightly larger contribution of +sin-clinical instead of -sin-clinical angle. These distributions show the conformational similarity of DPPA to DPPC. In the case of DHDP, due to the lack of an ester group, the plot of α 1 shows the equal distribution of the +sin-clinical and the -sin-clinical angles and the shift to the lower angle values (approximately 15°). The angles around the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Journal of Physical Chemistry B</head><p>bridging O-P bond in DHDP are distributed, in turn, differently than in the case of DPPC and DPPA. The doublet distributions of the adjacent dihedral angles in the polar group of POPC and DPPC reveal sequences of sin-clinical/sinclinical without a sign reverse (Figures S10 and S11 in the Supporting Information). This observation aligns with energy considerations. <ref type="bibr" target="#b62">63</ref> The exception is the pair α 1 /α 2 , where the sequence ±sin-clinical/∓sin-clinical is more significant and in the case of the DPPC/POPC and DHDP/POPC predominates.</p><p>A comparison of the dihedral angles for the glycerol backbone also shows a similar conformational behavior of POPC in all of the systems analyzed (Figure <ref type="figure" target="#fig_1">S12</ref> in the Supporting Information). In addition, in the case of DPPC and DPPA, these angles point to conformational similarity to POPC (Figure <ref type="figure" target="#fig_2">S13</ref> in the Supporting Information). The mutual orientation of the sn-1 and sn-2 chains is specified by the θ 4 dihedral angle (the dihedral angle around the C 1 -C 2 bond), while the θ 2 , around C 2 -C 3 , determines how the headgroup aligns in relation to the sn-2 chain. For all lipid glycerol backbones, the distributions of θ 4 (and its complement for tetrahedral bond angles θ 3 -120°) show the presence of only ± sin-clinical angles, which is the condition of parallel chain stacking characteristic for lipid membrane arrangement. <ref type="bibr" target="#b60">61</ref> The doublet distribution of the pairs θ 2 /θ 4 (Figure <ref type="figure" target="#fig_3">S14</ref> in the Supporting Information) shows the predominant presence of +sin-clinical/anti-periplanar configuration with a diminishing (except for DPPA) contribution from +sinclinical/+sin-clinical relation and negligible presence of +sinclinical/-sin-clinical combination. The latter is disfavored because that would rotate the headgroup back into the layer.</p><p>In summary, the magnitude of interactions between PCs (in this case, DPPC and POPC) results mainly from the contribution of polar interactions from phosphate and glycerol groups in phospholipid polar heads. This is evidenced by molecular dynamics simulations, which have shown that the absence of the ester group in the molecule implies a change in the coordination of the phosphate group of the phospholipid, disrupting interlipid interactions. The similarities between DPPC/POPC and DPPA/POPC systems in terms of subphase anchoring, coordination shell, electrostatic balance, and polar head tilt angles also confirm this deduction. This leads to the conclusion that the presence of both ester and phosphate groups is crucial for maintaining the electrostatic balance in monolayer lipid systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">CONCLUSIONS</head><p>The study was aimed at finding structural motives in PC molecules (particularly individual polar groups) that are of fundamental importance in maintaining the biophysical properties of the cellular membrane. To achieve this, we have selected two-component mixtures of PCs (DPPC/ POPC) and PC/Chol because these compounds are seen as the main membrane lipids. In a systematic way, we examined the interactions and rheological properties of a number of systems containing commercially available synthetic PC analogues, in which one or two polar groups present in PC were eliminated. This allowed us to identify the ternary amine and phosphate groups as those responsible for interactions in PC/cholesterol and PC/PC systems, respectively. Moreover, the importance of the esterified glycerol moiety as a modulator of the interaction magnitude was shown. These findings contribute to basic knowledge as they establish structure-property relationships for the main membrane lipids. Additionally, the knowledge achieved may find application in the design of laboratory experiments involving synthetic analogues instead of natural phosphatidylcholines, which can be more expensive and less stable. However, it should be emphasized that PC analogues are not universal and that the choice of a specific compound is dictated by the content of other membrane components. The developed methodology can be useful not only to mixtures with natural or synthetic PCs but also to molecules of biomedical importance having a phospholipid-like structure, like, for example, new generation antitumor lipids (ATLs).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ ASSOCIATED CONTENT</head><p>* sı Supporting Information</p><p>The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.jpcb.3c06810.</p><p>Surface pressure-molecular area isotherms; compressibility moduli surface pressure curves; excess Gibbs free energy of mixing mole fraction curves; and notation and distribution of dihedral angles (PDF)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ AUTHOR INFORMATION Corresponding Author</head><p>Anna Chachaj-Brekiesz -Faculty of Chemistry, Jagiellonian University, 30-387 Kraków, Poland; orcid.org/0000-0001-8990-082X; Email: anna.chachaj@uj.edu.pl</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Chemical structures of the investigated compounds along with a comparison of the functional groups present in their molecules (symbol means the presence, while □ means the absence of the selected functional group). Abbreviations: DPPC�1,2-dipalmitoyl-sn-glycerol-3phosphocholine; DPTAP�1,2-dipalmitoyl-3-trimethylammonium-propane chloride; DPPA�sodium 1,2-dipalmitoyl-sn-glycero-3phosphate; DPG�1,2-dipalmitoyl-sn-glycerol; DHDP�sodium dihexadecylphosphate; DODAC�dimethyldioctadecylammonium chloride.</figDesc><graphic coords="2,93.43,60.44,419.98,270.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Surface behavior of DPPC and its analogues in Langmuir monolayers: (a) experimental surface pressure-area per molecule isotherms measured at 20 °C and (b) calculated compressibility moduli-surface pressure curves.</figDesc><graphic coords="4,93.43,60.44,419.98,175.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. DPPC and its analogues in binary films with Chol: (a) the excess Gibbs free energy of mixing and (b) changes in compressibility moduli values with respect to a monolayer of the respective DPPC analogue versus film composition at a surface pressure of 35 mN/m.</figDesc><graphic coords="4,93.43,277.46,419.98,166.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. DPPC and its analogues in binary with POPC: (a) excess Gibbs free energy of mixing and (b) changes in compressibility moduli values in reference to the POPC monolayer versus film composition at a surface pressure of 35 mN/m.</figDesc><graphic coords="5,93.43,60.44,419.98,169.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Electron density profiles across systems simulated with MD: (a) DPPC/POPC, (b) DPPA/POPC, and (c) DHDP/POPC.</figDesc><graphic coords="6,52.89,60.44,501.11,146.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Radial distributions function of Na + ions around the nonbridging oxygens in a phosphate group of the (a) DPPA/POPC and (b) DHDP/ POPC systems.</figDesc><graphic coords="6,93.43,237.49,419.98,161.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Radial distribution functions of Na + ions around the carbonyl oxygen atoms of (a) the DPPA/POPC and (b) the DHDP/POPC systems.</figDesc><graphic coords="7,93.32,60.43,420.21,159.59" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://doi.org/10.1021/acs.jpcb.3c06810 J. Phys. Chem. B 2024, 128, 1473-1482</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>The Journal of Physical Chemistry B</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors</head><p>Jan Kobierski  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ ACKNOWLEDGMENTS</head><p>We gratefully acknowledge Polish high-performance computing infrastructure PLGrid (HPC Centers: ACK Cyfronet AGH) for providing computer facilities and support within computational grant no. PLG/2023/016100.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Past and the Future of Langmuir and Langmuir-Blodgett Films</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caseli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ariga</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.1c00754?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="6459" to="6513" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Interactions of Bioactive Molecules &amp; Nanomaterials with Langmuir Monolayers as Cell Membrane Models</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Nobre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Pavinatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caseli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barros-Timmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Łatka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Oliveira</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tsf.2015.09.047</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<imprint>
+			<biblScope unit="volume">593</biblScope>
+			<biblScope unit="page" from="158" to="188" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Antitumor Lipids in Biomembranes Modeled with the Langmuir Monolayer Technique</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Łątka</surname></persName>
+		</author>
+		<idno type="DOI">10.1680/si.13.00030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Innovations</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="194" to="200" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Molecular Organisation of Amphotericin B at the Air-Water Interface in the Presence of Sterols: A Monolayer Study</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seoane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minõnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Conde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Casas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iribarnegaray</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0005-2736(98)00137-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1375</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="73" to="83" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">How Unsaturated Fatty Acids and Plant Stanols Affect Sterols Plasma Level and Cellular Membranes? Review on Model Studies Involving the Langmuir Monolayer Technique</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L F</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Latka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Conde</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemphyslip.2020.104968</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lipids</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<date type="published" when="2020">2020. 104968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Action of Disinfectant Quaternary Ammonium Compounds against Staphylococcus Aureus</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ioannou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Hanlon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Denyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AAC.00375-06</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob. Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="296" to="306" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Interaction between Nystatin and Natural Membrane Lipids in Langmuir Monolayers� The Role of a Phospholipid in the Mechanism of Polyenes Mode of Action</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hąc-Wydro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Łatka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpc.2006.05.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys Chem</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="154" to="161" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Experimental Evidence for the Mode of Action Based on Electrostatic and Hydrophobic Forces to Explain Interaction between Chitosans and Phospholipid Langmuir Monolayers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pavinatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A M</forename><surname>Delezuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Pavinatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Volpati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Campana-Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Oliveira</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2016.05.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="201" to="207" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Antiviral Activity and Mode of Action Studies of Ribavirin and Mycophenolic Acid against Orthopoxviruses in Vitro</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Smee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Huggins</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/095632020101200602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antiviral Chem. Chemother</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="327" to="335" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Searching for the Role of Membrane Sphingolipids in Selectivity of Antitumor Ether Lipid-Edelfosine</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hąc-Wydro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Łatka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2010.07.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf., B</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="492" to="497" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Interaction in Mixed Amphotericin B/Sterols Monolayers Spread at the Air/Water Interface</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Łątka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Seoane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Trillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">C</forename><surname>Mouzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Parada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Pol. Acad. Sci. Chem</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="153" to="166" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Correlation of [RuCl3(Dppb)(VPy)] Cytotoxicity with Its Effects on the Cell Membranes: An Investigation Using Langmuir Monolayers as Membrane Models</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sandrino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Tominaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Nobre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scorsin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Wrobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Fiorin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>De Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caseli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wohnrath</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp505657x?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="issue">36</biblScope>
+			<biblScope unit="page" from="10653" to="10661" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Evidence for the Formation of Amphotericin B-Phospholipid Complexes in Langmuir Monolayers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Lance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Washington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1016046321726</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharm. Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1008" to="1014" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">N-(1-Piperidinepropionyl)Amphotericin B Methyl Ester (PAME)� a New Derivative of the Antifungal Antibiotic Amphotericin B: Searching for the Mechanism of Its Reduced Toxicity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hąc-Wydro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Łaţka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grzybowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Borowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minõnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Conde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minõnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M R</forename><surname>Patino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seoane</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la020290s?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Colloid Interface Sci</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="8601" to="8608" />
+			<date type="published" when="2002">2005. 2002</date>
+		</imprint>
+	</monogr>
+	<note>Langmuir</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Skeaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jn/136.3.565</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Dietary-Induced Changes in Fatty Acid Composition of Human Plasma</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="565" to="569" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of Valproic Acid, Carbamazepine, and Phenobarbitone on the Fatty Acid Composition of Erythrocyte Membranes in Children</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>König</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Knolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Friedewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Koelfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Longin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hannak</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1528-1157.2003.09802.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Epilepsia</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="708" to="711" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Changes in Erythrocyte Membrane Phospholipid Composition Induced by Physical Training and Physical Exercise</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sumikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Okochi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Adachi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00376656</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Appl. Physiol. Occup. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="132" to="137" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effect of Edelfosine on Tumor and Normal Cells Model Membranes-A Comparative Study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hąc-Wydro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Latka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2009.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf., B</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="366" to="369" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Abnormal Phospholipid Molecular Species of Erythrocytes in Sickle Cell Anemia</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Deloughery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0022-2275(20)30036-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2516" to="2528" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Modification of Lipid Composition of Erythrocyte Membranes in Chronic Alcoholism</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Benedetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Birarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brunelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Curatola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Del Prete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jezequel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Orlandi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0031-6989(87)90095-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="651" to="662" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Advantages of the Classical Thermodynamic Analysis of Single-and Multi-component Langmuir Monolayers from Molecules of Biomedical Importance -Theory and Applications Monolayers at the Air/Water Interface</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Latka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wneţrzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chachaj-Brekiesz</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsif.2023.0559</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Soc. Interface</title>
+		<imprint>
+			<date type="published" when="2024">2024, 21, 20230559</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Influence of Phytohormones on Polar and Hydrophobic Parts of Mixed Phospholipid Monolayers at Water/Air Interface</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gzyl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Filek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dudek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jcis.2003.09.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Colloid Interface Sci</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="153" to="157" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Interactions of Lipid Polar Headgroups with Carbendazim Fungicide</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Furini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F C</forename><surname>Morato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lemos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Feitosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J L</forename><surname>Constantino</surname></persName>
+		</author>
+		<idno type="DOI">10.1166/jnn.2019.16739</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nanosci. Nanotechnol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="3734" to="3743" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A Bactericide Peptide Changing the Static and Dilatational Surface Elasticity Properties of Zwitterionic Lipids at the Air-Water Interface: Relationship with the Thermodynamic, Structural and Morphological Properties</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J A</forename><surname>Santana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caseli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpc.2021.106638</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<date type="published" when="2021">2021. 106638</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Chondroitin Sulfate Interacts Mainly with Headgroups in Phospholipid Monolayers</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Ceridório</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caseli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Oliveira</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2016.02.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="595" to="601" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chachaj-Brekiesz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wnętrzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lipiec</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Dynarowicz-</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Surface Interactions Determined by Stereostructure on the Example of 7-Hydroxycholesterol Epimers -The Langmuir Monolayer Study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Latka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2019.05.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1275" to="1283" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Lateral Pressure in Membranes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0304-4157(96)00009-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Acta, Rev. Bioenerg</title>
+		<imprint>
+			<biblScope unit="volume">1286</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="183" to="223" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A Comparative Study of the Phase Transitions of Phospholipid Bilayers and Monolayers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blume</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0005-2736(79)90087-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">557</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="44" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Membrane Lipids: Where They Are and How They Behave</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Meer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Voelker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Feigenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm2330</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="112" to="124" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Using an Effective Surface Charge to Explain Surface Potentials of Langmuir Monolayers from Dialkyldimethylammonium Halides with the Gouy-Chapman Theory</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cavalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dynarowicz-Latka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Feitosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cheatham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Darden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gohlke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Merz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Onufriev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Simmerling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20290</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="1668" to="1688" />
+			<date type="published" when="2001">2001. 2005</date>
+		</imprint>
+	</monogr>
+	<note>J. Comput. Chem.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">PACKMOL: A Package for Building Initial Configurations for Molecular Dynamics Simulations</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Birgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Martínez</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.21224</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="2157" to="2164" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Lipid21: Complex Lipid Membrane Simulations with AMBER</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Gould</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.1c01217?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1726" to="1736" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Building Water Models: A Different Approach</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Izadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anandakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Onufriev</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jz501780a?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="3863" to="3871" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Frisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Trucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Schlegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Scuseria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Robb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scalmani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Barone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Petersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakatsuji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gaussian</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2016">2016</date>
+			<publisher>Wallingford CT</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Automatic Atom Type and Bond Type Perception in Molecular Mechanical Calculations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kollman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Case</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.3c06810?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<ptr target="https://doi.org/10.1021/acs.jpcb.3c06810" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Graphics Modell</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1473" to="1482" />
+			<date type="published" when="2006">2006. 2024</date>
+		</imprint>
+	</monogr>
+	<note>J. Phys. Chem. B</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Restrained Electrostatic Potential Atomic Partial Charges for Condensed-Phase Simulations of Carbohydrates</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chappelle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0166-1280(00)00487-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Struct.: THEOCHEM</title>
+		<imprint>
+			<biblScope unit="volume">527</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="149" to="156" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A Fast and High-Quality Charge Model for the next Generation General AMBER Force Field</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Man</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/5.0019056</idno>
+		<idno>114502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular Dynamics Trajectory Data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Roe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cheatham</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ct400341p?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="3084" to="3095" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">DPPC Langmuir Monolayer at the Air-Water Interface: Probing the Tail and Head Groups by Vibrational Sum Frequency Generation Spectroscopy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la0535227?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="5341" to="5349" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Studies of Lipid Monolayers Prepared from Native and Model Plant Membranes in Their Interaction with Zearalenone and Its Mixture with Selenium Ions</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gzyl-Malcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Filek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rudolphi-Skórska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sieprawska</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00232-017-9958-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Membr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="273" to="284" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Thermodynamic Characteristics and Langmuir-Blodgett Deposition Behavior of Mixed DPPA/DPPC Monolayers at Air/Liquid Interfaces</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jcis.2005.09.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Colloid Interface Sci</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="647" to="654" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Surface Properties of 1,2-Dipalmitoyl-3-Acyl-Sn-Glycerols</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Fahey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Small</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00363a045?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="4468" to="4472" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Thermodynamic Characteristics of Mixed DPPC/DHDP Monolayers on Water and Phosphate Buffer Subphases</title>
+		<author>
+			<persName><forename type="first">T.-H</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/LA990581?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="3385" to="3390" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Characterization of Monolayers and LB Multilayers of Dioctadecyldimethylammonium Chloride</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0040-6090(95)08288-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<imprint>
+			<biblScope unit="page" from="130" to="133" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The Effect of Neutral Helper Lipids on the Structure of Cationic Lipid Monolayers</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Dabkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lawrence</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsif.2011.0356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Soc. Interface</title>
+		<imprint>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="issue">68</biblScope>
+			<biblScope unit="page" from="548" to="561" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Thermodynamic Aspects of Cholesterol Effect on Properties of Phospholipid Monolayers: Langmuir and Langmuir-Blodgett Monolayer Study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jurak</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp401182c?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3496" to="3502" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">What Happens If Cholesterol Is Made Smoother: Importance of Methyl Substituents in Cholesterol Ring Structure on Phosphatidylcholine-Sterol Interaction</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Róg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pasenkiewicz-Gierula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vattulainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karttunen</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.106.095497</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3346" to="3357" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Ordering Effects of Cholesterol and Its Analogues</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Róg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pasenkiewicz-Gierula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vattulainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karttunen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2008.08.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1788</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="97" to="121" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Molecular Insight of Specific Cholesterol Interactions: A Molecular Dynamics Simulation Study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mondal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cplett.2007.03.068</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">439</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="166" to="170" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Constant-Pressure Molecular Dynamics Investigation of Cholesterol Effects in a Dipalmitoylphosphatidylcholine Bilayer</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tobias</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(98)77657-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2147" to="2156" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Structure of Dipalmitoylphosphatidylcholine/Cholesterol Bilayer at Low and High Cholesterol Concentrations: Molecular Dynamics Simulation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Smondyrev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Berkowitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(99)77049-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2075" to="2089" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Computation of Mixed Phosphatidylcholine-Cholesterol Bilayer Structures by Energy Minimization</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vanderkooi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(94)80936-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1457" to="1468" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Variations in the Condensing Effect of Cholesterol on Saturated versus Unsaturated Phosphatidylcholines at Low and High Sterol Concentration</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wydro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Knapczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Łapczynśka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la105142w?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="5433" to="5444" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Molecular-Level Organization of Saturated and Polyunsaturated Fatty Acids in a Phosphatidylcholine Bilayer Containing Cholesterol</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Pitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Suits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Mackerell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Feller</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi048231w?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="15318" to="15328" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Effect of Fe3O4 Nanoparticles on Mixed POPC/DPPC Monolayers at Air-Water Interface</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2019/5712937</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scanning</title>
+		<imprint>
+			<date type="published" when="2019">2019, 2019, No. 5712937</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Mixed DPPC/POPC Monolayers: All-Atom Molecular Dynamics Simulations and Langmuir Monolayer Experiments</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Olzẏnśka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zubek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roeselova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Korchowiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cwiklik</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2016.09.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta, Biomembr</title>
+		<imprint>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3120" to="3130" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Concentration Dependence of NaCl Ion Distributions around DPPC Lipid Bilayers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>García</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12539-011-0107-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Interdiscip. Sci.: Comput. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="272" to="282" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Discussion Paper: Molecular Structures and Conformations of the Phospholipids and Sphingomyelins</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sundaralihgam</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1749-6632.1972.tb54814.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. N. Y. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="324" to="355" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Lipid Configurations from Molecular Dynamics Simulations</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pezeshkian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khandelia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2018.02.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1895" to="1907" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Toward Atomistic Resolution Structure of Phosphatidylcholine Headgroup and Glycerol Backbone at Different Ambient Conditions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Botan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Favela-Rosales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F J</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Javanainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanduc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kulig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lamberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Loison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lyubartsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Miettinen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.5b04878?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="15075" to="15088" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Effect of Bond Angle Distortion on Torsional Potentials. Ab Initio and CNDO/2 Calculations on Dimethoxymethane and Dimethyl Phosphate</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Gorenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kar</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.3c06810?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<ptr target="https://doi.org/10.1021/acs.jpcb.3c06810" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1473" to="1482" />
+			<date type="published" when="1977">1977. 2024</date>
+		</imprint>
+	</monogr>
+	<note>J. Phys. Chem. B</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

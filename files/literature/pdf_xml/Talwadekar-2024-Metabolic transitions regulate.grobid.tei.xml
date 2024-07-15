@@ -1,0 +1,2372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Metabolic transitions regulate global protein fatty acylation</title>
+				<funder ref="#_n65abvb #_276Z39m">
+					<orgName type="full">DAE/TIFR-Govt. of India</orgName>
+				</funder>
+				<funder ref="#_Mz5BSWZ">
+					<orgName type="full">Department of Science &amp; Technology-Funds for Improvement of S&amp;T Infrastructure Development (DST-FIST)</orgName>
+				</funder>
+				<funder ref="#_EHbjepF">
+					<orgName type="full">National Analytical Facility for Nutrition &amp; Metabolism)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Science and Engineering Research Board</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Council for Scientific and Industrial Research</orgName>
+					<orgName type="abbreviated">CSIR</orgName>
+				</funder>
+				<funder ref="#_PnhWcFG">
+					<orgName type="full">Department of Science and Technology</orgName>
+					<orgName type="abbreviated">DST</orgName>
+				</funder>
+				<funder ref="#_hnQt5tW">
+					<orgName type="full">Department of Biotechnology, Government of India</orgName>
+				</funder>
+				<funder ref="#_9WGQyed">
+					<orgName type="full">Swarnajayanti Fellowship (DST Govt. of India</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Manasi</forename><surname>Talwadekar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Tata Institute of Fundamental Research</orgName>
+								<address>
+									<region>Mumbai</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Subhash</forename><surname>Khatri</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Tata Institute of Fundamental Research</orgName>
+								<address>
+									<region>Mumbai</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chinthapalli</forename><surname>Balaji</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Tata Institute of Fundamental Research</orgName>
+								<address>
+									<region>Mumbai</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Arnab</forename><surname>Chakraborty</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Indian Institute of Science Education and Research</orgName>
+								<address>
+									<settlement>Pune</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nandini-Pal</forename><surname>Basak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Tata Institute of Fundamental Research</orgName>
+								<address>
+									<region>Mumbai</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Siddhesh</forename><forename type="middle">S</forename><surname>Kamat</surname></persName>
+							<email>siddhesh@iiserpune.ac.in.</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Indian Institute of Science Education and Research</orgName>
+								<address>
+									<settlement>Pune</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ullas</forename><surname>Kolthur-Seetharam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Tata Institute of Fundamental Research</orgName>
+								<address>
+									<region>Mumbai</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Tata Institute of Fundamental Research</orgName>
+								<address>
+									<region>Hyderabad</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><forename type="middle">M</forename><surname>Carman</surname></persName>
+						</author>
+						<title level="a" type="main">Metabolic transitions regulate global protein fatty acylation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">402174A9D149677E6D90590EB46D624B</idno>
+					<idno type="DOI">10.1016/j.jbc.2023.105563</idno>
+					<note type="submission">Received for publication, June 29, 2023, and in revised form, November 28, 2023 Published, Papers in Press, December 13, 2023,</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Intermediary metabolites and flux through various pathways have emerged as key determinants of post-translational modifications. Independently, dynamic fluctuations in their concentrations are known to drive cellular energetics in a bidirectional manner. Notably, intracellular fatty acid pools that drastically change during fed and fasted states act as precursors for both ATP production and fatty acylation of proteins. Protein fatty acylation is well regarded for its role in regulating structure and functions of diverse proteins; however, the effect of intracellular concentrations of fatty acids on protein modification is less understood. In this regard, we unequivocally demonstrate that metabolic contexts, viz. fed and fasted states, dictate the extent of global fatty acylation. Moreover, we show that presence or absence of glucose that influences cellular and mitochondrial uptake/utilization of fatty acids and affects palmitoylation and oleoylation, which is consistent with their intracellular abundance in fed and fasted states. Employing complementary approaches including clickchemistry, lipidomics, and imaging, we show the top-down control of cellular metabolic state. Importantly, our results establish the crucial role of mitochondria and retrograde signaling components like SIRT4, AMPK, and mTOR in orchestrating protein fatty acylation at a whole cell level. Specifically, pharmacogenetic perturbations that alter either mitochondrial functions and/or retrograde signaling affect protein fatty acylation. Besides illustrating the cross-talk between carbohydrate and lipid metabolism in mediating bulk post-translational modification, our findings also highlight the involvement of mitochondrial energetics.</p><p>Dietary inputs via metabolic intermediates have emerged as key drivers of cellular functions and hence impinge on physiological fitness. Specifically, the ability of primary and secondary metabolites to impact protein structure and function, across cellular compartments, is known to exert control over wide-ranging molecular mechanisms <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. While protein fatty acylation is regarded as an abundant post-translational modification (3), metabolic contexts which dictate this globally are still unclear. Moreover, if/how in situ fluctuations in fatty acid concentrations contribute to protein acylation, for example, under fed and fast conditions, and its interplay with glucose metabolism and cellular energetics is largely unknown.</p><p>Fatty acylation of proteins is known to regulate a multitude of processes. In addition to facilitating membrane association by increasing the hydrophobicity of a protein, fatty acylation of intrinsic membrane proteins affects structure, function, and their interactions <ref type="bibr" target="#b3">(4)</ref>. For instance, transient membrane interactions brought about by myristoylation <ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref> or palmitoylation (8-10) of proteins regulate key signaling processes in various cells. Further, fatty acylation of membrane-anchored receptors and transporters is known to mediate diverse cellular functions from neuronal synapses <ref type="bibr" target="#b10">(11)</ref> to mitochondrial transporters and/or uncouplers <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref>. Not surprisingly, dysregulated fatty acylation has been implicated and is often thought to be central to the emergence of several diseases in humans <ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref>.</p><p>It is interesting to note that unlike short-chain acyl moieties, which are largely formed by amide linkages of protein lysine residues (N-linked), long-chain fatty acyl chains seem to be conjugated either by amide or thioester bonds of protein lysine (N-linked) or cysteine residues (S-linked), respectively <ref type="bibr" target="#b18">(19)</ref>. However, there seems to be a bias for S-linked fatty acylation in the case of ≥ C16 fatty acid chains <ref type="bibr" target="#b19">(20,</ref><ref type="bibr" target="#b20">21)</ref>, albeit this is not well established. Recent studies have demonstrated that acyl moieties can be covalently linked to proteins in an enzymedependent <ref type="bibr" target="#b21">(22)</ref> and/or independent manner <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>. Enzyme-dependent fatty acylation has been largely attributed to z-DHHC palmitoyl acyl transferases (PATs) that catalyze the formation of a thioester bond between the thiol group of cysteine and fatty acids. Of the nearly 23 zDHHC PATs that have been categorized, most of them localize to ER and Golgi, and only a handful of them have been found to be present on the plasma membrane <ref type="bibr" target="#b24">(25)</ref>. Specific members of the DHHC family have also been shown to catalyze the addition of nonpalmitate acyl-CoAs to cysteines of target proteins <ref type="bibr" target="#b25">(26,</ref><ref type="bibr" target="#b26">27)</ref>. On the contrary, enzyme-independent fatty acylation of proteins involves a direct nucleophilic reaction between a cysteine thiol group and the thioester moiety of fatty acyl-CoA <ref type="bibr" target="#b27">(28)</ref>. It is important to note that, regardless of the mechanism, it is still not clear whether intracellular fatty acid concentrations can directly influence enzyme-dependent/independent protein acylation. Furthermore, given that fatty acylation is a reversible modification, relatively less is known about physiological contexts and mechanisms that mediate de-fatty-acylation. Earlier reports indicate a potential role for promiscuous thioesterases and NAD-dependent sirtuins in catalyzing the removal of Sand N-linked fatty acids from proteins. For example, while some α/β-hydrolase domain proteins have been recently reported to play a role in regulating protein S-acylation (29), SIRT6 is reported to possess a de-myristoylase activity <ref type="bibr" target="#b29">(30)</ref>. Whether other members of these enzyme families play a role in de-fatty acylation remains unknown.</p><p>Independent of the mechanisms that mediate reversible fatty acylation, as mentioned earlier, intuitively, metabolic and physiological states are also likely to dictate the extent and nature of fatty acylation. Notably, various long-chain fatty acids such as palmitate, stearate, oleate, and arachidonate have been reported to reversibly modify proteins via cysteine linkages <ref type="bibr" target="#b30">(31)</ref>. This becomes interesting given that palmitate and oleate are the most abundant fatty acids in various cells and tissues in mammals, including humans <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33)</ref>. Moreover, in mammals, triglyceride composition, especially palmitate, stearate, and oleate, have been shown to change dramatically under fed and fasted conditions in tissues such as adipocytes and muscles <ref type="bibr" target="#b33">(34)</ref>. Therefore, if/how physiological states lead to global changes in fatty acylation remains to be elucidated. Given this, our current study illustrates a causal link between hepatic metabolism, energetics, and global protein fatty acylation. Our results describe the contribution of fed and fasted states and the involvement of mitochondrial functions in determining the extent of global protein fatty acylation. We provide unequivocal evidence, using pharmacological and genetic perturbations, that nutrient inputs exert direct control on fatty aciddependent post-translational modifications of proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cellular metabolic status dictates protein fatty acylation</head><p>Although earlier studies have postulated a nutrientdependent change in the fatty acylation of cellular proteins <ref type="bibr" target="#b34">(35)</ref><ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref><ref type="bibr" target="#b37">(38)</ref><ref type="bibr" target="#b38">(39)</ref>, whether this is governed by conditions that mimic fed or fasted states remain to be uncovered. Notably, glucose metabolism has also been shown to determine fatty acid flux in skeletal muscle <ref type="bibr" target="#b39">(40)</ref>. Therefore, we set out to investigate the impact of nutrient status on steady-state levels of protein fatty acylation across different cell types. We utilized three complementary approaches to assess fatty acylation viz. (a) exogenously administered clickable alkyne palmitate probe (C16-alkyne), (b) modified acyl exchange chemistry to label fatty acylated proteins, and (c) quantitative estimation of fatty acids released from proteins by liquid chromatography coupled to mass spectrometry (LC-MS/MS) (as detailed in the methods section) (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>Differential nutritional states were mimicked by growing cells in media containing either low glucose (LG; 5 mM: Fasted state) or high glucose (HG; 25 mM: Fed State). To label fatty acylated proteins using click chemistry in situ, 100 μM C16alkyne conjugated to BSA was exogenously added to the cells. Following this, protein lysates or fixed cells were fluorescently labeled using click chemistry by using a fluorescent azide probe (AlexaFluor 488). Enhanced protein palmitoylation (covalently linked C16-alkyne) was detected when cells were grown in low glucose conditions (Fig. <ref type="figure" target="#fig_1">2, A</ref> and<ref type="figure">B</ref>). Next, to assess the extent of endogenous fatty acylation, we employed hydroxylamine treatment for bulk biochemical measurements following acyl-exchange chemistry (Figs. <ref type="figure" target="#fig_0">1</ref> and<ref type="figure" target="#fig_0">S1</ref>) or quantitation of released fatty acids by LC-MS/MS (Fig. <ref type="figure" target="#fig_0">1</ref>). Hydroxylamine treatment has been employed to mostly report on S-linked fatty acylation <ref type="bibr" target="#b40">(41)</ref>. On assaying for hydroxylamine-sensitive fatty acylation levels, we found that the extent of global fatty acylation was significantly less under HG compared to LG conditions (Fig. <ref type="figure" target="#fig_1">2C</ref>). Since glucose/ nutrient-dependent changes in fatty acid flux are both dynamic and pertinent in the liver, we quantified fatty acids released from proteins isolated from primary hepatocytes following hydroxylamine treatment. Consistent with earlier reports, the cellular abundance of long-chain fatty acids, namely palmitate (C16:0), stearate (C18:0), and oleate (C18:1), was higher than other fatty acid species, which were elevated in LG conditions (Fig. <ref type="figure" target="#fig_1">S2</ref>). More importantly, we found that hydroxylamine-sensitive fatty acylation of proteins was significantly enhanced under LG conditions with specific enrichment of palmitate (C16:0), stearate (C18:0), and oleate (C18:1) (Fig. <ref type="figure" target="#fig_2">3A</ref>), and these correlated well with corresponding increased cellular free fatty acid (FFA) pools (Fig. <ref type="figure" target="#fig_2">3B</ref>). To ascertain such nutritional state-dependent changes of global protein fatty acylation in vivo, we harvested liver from ad libitum fed or 24 h fasted mice and repeated hydroxylamine sensitive lipidomics analysis. Akin to results so far, both the protein fatty acylation (Fig. <ref type="figure" target="#fig_2">3C</ref>) and cellular FFA pools (Fig. <ref type="figure" target="#fig_2">3D</ref>) were significantly elevated in the fasted liver samples. Together, these findings clearly indicated a strong correlation between cellular metabolic status, such as fed and fasted state, and the extent of protein fatty acylation. More importantly, our data showed concordance between intracellular FFA pools and the enrichment of specific species of fatty acids, which were covalently linked to proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein fatty acylation is associated with fatty acid concentration-dependent uptake and utilization</head><p>Substrate availability has been shown to affect metabolitederived protein modifications, as in the case of acetylation <ref type="bibr" target="#b41">(42)</ref>. In this context, we treated primary hepatocytes with increasing amounts of BSA-conjugated palmitate, which revealed a concentration-dependent change in intracellular levels of palmitate (Fig. <ref type="figure" target="#fig_2">S3A</ref>). We used this paradigm to assess the contribution of exogenously provided fatty acid on global protein acylation. Increased intracellular palmitate levels by the addition of 250 μM BSA-palmitate (Fig. <ref type="figure">4A</ref>), resulted in hydroxylamine-sensitive palmitoylation of proteins (Fig. <ref type="figure">4B</ref>). Further, to validate the dependence on fatty acid uptake, we treated primary hepatocytes with sulfo-N-succinimidyl oleate sodium (SSO), a CD36 inhibitor. CD36 is a key fatty acid transporter and has earlier been established to dictate intracellular FFA concentrations <ref type="bibr" target="#b42">(43)</ref>. SSO treatment of primary hepatocytes attenuated the increase in cellular palmitate levels caused by exogenously provided BSA-palmitate, indicating the inhibition of CD36 (Fig. <ref type="figure">4C</ref>). More interestingly, consistent with our hypothesis, we found a significant reduction in palmitate-induced protein palmitoylation following pharmacological inhibition of CD36 (Fig. <ref type="figure">4D</ref>). Moreover, the (i) Samples were resolved using gel electrophoresis and in-gel fluorescence was visualized using a Typhoon imaging system. (ii) Heat map depicting lane quantitation of band intensities. C, acyl exchange done using protein lysates (N = 2, n = 3): (i) C2C12 myoblasts grown in LG and HG media (n = 3) subjected to acyl exchange for total S-acylation using Rhodamine maleimide, tubulin used as loading control (ii) Heat map showing the quantitation of mean band intensities from three independent replicates for differential S-acylation in C2C12 cells in LG and HG.</p><p>exogenously added palmitate did not lead to any effects on the cellular oleate, stearate, and extent of protein oleoylation or stearoylation, in our paradigm (Fig. <ref type="figure" target="#fig_2">S3, B-D</ref>). Albeit intriguing, we posit that lack of protein oleoylation or stearoylation could be a consequence of the physiological context viz. fasted conditions, which likely dis-favors fatty acid elongation and desaturation owing to the energetic demands of the cell. Further, the fasted state is known to decrease the expression of lipogenic enzymes, including elongase and desaturase, compared to that in the fed state, promoting fatty acid oxidation <ref type="bibr" target="#b43">(44)</ref>. Also, molar excess of exogenously added palmitate may out compete low abundance of any oleoyl-CoA and stearoyl-CoA, which may be produced in situ, for cysteinedependent modification. Hence, in addition to providing strong corroborative evidence vis-à-vis substrate dependence, it also negated the contribution of lipogenic or fatty acid chain length elongation/desaturation mechanisms in driving global protein fatty acylation (Fig. <ref type="figure">4E</ref>).</p><p>As mentioned earlier, the acylation of proteins is proposed to occur both in an enzyme-dependent and -independent manner with a paucity of mechanistic insights for the latter. In the case of long-chain fatty acylation, enzyme-dependent modification has been largely attributed to the activity of PATs. Thus, we employed 2-bromopalmitate (2-BP), a general inhibitor for PATs (Fig. <ref type="figure">5A</ref>). Surprisingly, 2-BP treatment had no impact on the extent of protein fatty acylation as assayed by acyl exchange chemistry (Fig. <ref type="figure">5B</ref>). Further, quantitative analyses of hydroxylamine-sensitive released fatty acids corroborated these findings (Figs. <ref type="figure">5C</ref> and<ref type="figure">S4A</ref>). Interestingly, the 2-BP treatment also did not affect the soluble pools of C16:0 (Fig. <ref type="figure">5D</ref>), C18:0, and C18:1 (Fig. <ref type="figure">S4B</ref>). Although, 2-BP has been typically used in the field to inhibit PATs (45-50), we wanted to rule out insufficient uptake of 2-BP. Toward this, we conjugated 2-BP with BSA (similar to palmitate-BSA conjugation) and assayed for protein fatty acylation in LG medium. Akin to 2-BP alone treatment, BSA-2-BP also did not show any significant effect on both protein-conjugated FA (Fig. <ref type="figure">S4C</ref>) and cellular FFA levels (Fig. <ref type="figure">S4D</ref>). While these results suggest a predominant role of nonenzymatic covalent addition of fatty acids, this could be context-specific (hepatocytes grown in LG medium) and does not exclude the possibility of PATdependence in other physiological conditions. Together, results presented thus far suggest that the nutritional state drives intracellular concentration-dependent, nonenzymatic fatty acylation of proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolic sensors that promote fasted state contribute to protein fatty acylation</head><p>Since nutrient availability seemed to dictate the extent of protein fatty acylation, we next investigated the involvement of important metabolic sensors viz. AMPK and TOR. To reiterate, because global acylation was higher in a fasting state, we employed chemogenetic perturbations to mimic a nutrientdeprived state as reported earlier <ref type="bibr" target="#b50">(51,</ref><ref type="bibr" target="#b51">52)</ref>. As expected, rapamycin-mediated inhibition of mTORC1 (Fig. <ref type="figure">S5A</ref>) resulted in increased soluble FFAs (Fig. <ref type="figure">6A</ref>) and importantly, also the HAM-sensitive release of FFAs from proteins (Fig. <ref type="figure">6B</ref>). This was despite hepatocytes being grown in HG medium, which otherwise showed lower protein fatty acylation (Fig. <ref type="figure" target="#fig_2">3A</ref>). Conversely, under LG conditions, AMPK inhibition using compound C (Fig. <ref type="figure">S5B</ref>) resulted in a robust decrease in FFA levels both cellular (Fig. <ref type="figure">6C</ref>) and that released from proteins (Fig. <ref type="figure">6D</ref>). Here again, fatty acylation following AMPK inhibition that is known to counter the fasting response was comparable to that observed in cells grown in HG medium. To confirm this, we also activated AMPK by treating hepatocytes with AICAR (Fig. <ref type="figure">S6A</ref>) and FCCP (Fig. <ref type="figure">S6B</ref>) and found the opposite effect, i.e., an increase in protein fatty acylation. Together, these results suggest an interplay between cellular energetics and global fatty acylation.</p><p>The intracellular FFA concentration in a fasting state is also dependent upon mitochondrial β-oxidation. Therefore, we asked if directly inhibiting CPT1, which is essential for β-oxidation, affected fatty acylation under fasted conditions. Interestingly, incubating cells with etomoxir, a known inhibitor of CPT1, led to a significant decrease in protein fatty acylation (Fig. <ref type="figure" target="#fig_4">7A</ref>). Even though it was surprising to see this dependence on mitochondrial fatty acid utilization, this was well corroborated by the reduction in intracellular FFA pools (Figs. <ref type="figure" target="#fig_4">7B</ref> and<ref type="figure">S6C</ref>). Collectively, these results indicated the central role of factors that directly affect fatty acid uptake and utilization and mitochondrial functions in mediating fatty acylation (Fig. <ref type="figure" target="#fig_4">7C</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SIRT4-dependent mitochondrial energetics and metabolism exert control over fatty acylation</head><p>Our studies thus far hinted that fed-fast-dependent change in global protein acylation also involved aspects of mitochondrial metabolism. This prompted us to investigate whether any mitochondrial factors could drive this coupling. We and others have demonstrated that SIRT4, a mitochondrial NAD-dependent deacylase, is an essential component that regulates β-oxidation and cellular energetics in a fed-fast dependent manner <ref type="bibr" target="#b33">(34,</ref><ref type="bibr" target="#b52">(53)</ref><ref type="bibr" target="#b53">(54)</ref><ref type="bibr" target="#b54">(55)</ref><ref type="bibr" target="#b55">(56)</ref>. Thus, we next addressed the role of SIRT4, which would also provide additional evidence for mitochondrial dependence for the phenomena. C16alkyne-based click-chemistry in cells stably overexpressing SIRT4 showed a significant decrease in protein palmitoylation in both fluorescence imaging (Fig. <ref type="figure" target="#fig_5">8A</ref>) and gel-based fluorescence assays (Fig. <ref type="figure" target="#fig_5">8B</ref>). Interestingly, while exogenous expression of SIRT4 decreased the extent of fatty acylation in cells grown under LG conditions, liver lysate of mice devoid of SIRT4 (SIRT4-KO) displayed the opposite effect (Fig. <ref type="figure" target="#fig_4">S7A</ref>). We next wanted to assess the quantitative changes in the FFA pool and associated protein fatty acylation in genetic perturbations of SIRT4. Toward this, we used primary hepatocytes isolated from SIRT4KO mice, and then using the adenoviral technology, transduced either a control (Ad-CMV) vector or SIRT4 rescue (Ad-SIRT4) constructs (Fig. <ref type="figure" target="#fig_4">S7B</ref>). As anticipated, we found a substantial decrease in intracellular FFA pools, independent of the chain length or unsaturation, in hepatocytes devoid of SIRT4 after rescue with adenoviral SIRT4 (Fig. <ref type="figure" target="#fig_4">S7C</ref>). This also revalidated the central role that SIRT4 plays in regulating lipid metabolism in hepatocytes. More importantly, on measuring both soluble and proteinreleased FFAs from the same samples, we found a consistent reduction in hydroxylamine-sensitive fatty acylation when SIRT4 was rescued in SIRT4 devoid hepatocytes (Fig. <ref type="figure" target="#fig_5">8, C</ref> and<ref type="figure">D</ref>). Further, we also observed SIRT4-dependent dampening in FFA levels in cells that were fed with increasing amounts of fatty acid, as indicated in Fig. <ref type="figure" target="#fig_4">S7D</ref>.</p><p>Given the multiple modes of SIRT4-dependent control of fatty acid utilization and metabolism, we set out to delineate if the effects we observed were contributed by cellular uptake and/or β-oxidation. Toward this, the aforementioned SIRT4devoid hepatocytes rescued by adenoviral SIRT4 were treated with SSO or etomoxir to inhibit CD36-mediated fatty acid uptake and CPT1-mediated β-oxidation, respectively. While SSO treatment led to a significant decrease in soluble FFA pools in SIRT4-KO hepatocytes (Figs. 9A and S8, A and B), which was expected, interestingly, inhibition of CPT1 also led to a similar response (Fig. <ref type="figure" target="#fig_5">S8C</ref>). Although counterintuitive and intriguing, this pointed toward the mitochondrial β-oxidationmediated regulation of fatty acid uptake whose mechanistic details need further investigation. Nonetheless, since CD36dependent FFA uptake emerged as consistently being rate limiting vis-à-vis protein fatty acylation, we asked if enhanced modification in the absence of SIRT4 was sensitive to SSO treatment. Here, we found that inhibiting CD36 decreased hydroxylamine-sensitive protein-conjugated fatty acids [irrespective of the chain length and unsaturation (Figs. 9B and S8, D and E)] in SIRT4-null hepatocytes but not in those wherein SIRT4 expression was rescued. The ability of SIRT4 to exert control over lipid metabolism also involves antagonistic interplay with AMPK that is brought about by changes in mitochondrial energetics <ref type="bibr" target="#b52">(53)</ref>. Thus, we addressed the role of the SIRT4-AMPK axis, which was also motivated by our results that implicated AMPK as a key determinant of global fatty acylation. Consistent with our hypothesis, increased fatty acylation seen in SIRT4-null hepatocytes was significantly lowered following AMPK inhibition (Fig. <ref type="figure" target="#fig_6">9C</ref>), and this correlated well with decrease observed in soluble FFA pools (Fig. <ref type="figure" target="#fig_6">9D</ref>). Together these findings suggested the involvement of mitochondrial energetics and SIRT4-AMPK dependent retrograde signaling in governing cellular FFA homeostasis and consequential covalent modification of proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>It is intuitive to expect post-translational modifications of proteins to have bidirectional coupling with cellular physiology. This is especially relevant in contexts wherein concentrations of intracellular metabolite, dictated by both its uptake and utilization for anabolic/catabolic processes and energetics, determine their availability for such posttranslational modifications. In this regard, while protein fatty acylation has been established among key regulatory posttranslational modifications, whether it is governed by cellular metabolic and energetic status is not well understood. In this context, here, we provide substantial evidence to highlight the pivotal role of glucose-dependent metabolic shifts and mitochondrial functions toward impacting global protein fatty acylation. In addition to this, in conditions that mimic fed and fasted states, we have also elucidated this dependence on metabolic sensing.</p><p>Fatty acids are covalently linked to proteins via amide linkages at lysine (N-linked) or thioester bonds at cysteine (S-linked) residues <ref type="bibr" target="#b26">(27)</ref>. Even though fatty acid chain lengthdependent bias is not well established, protein fatty acylation mediated by &gt; C16 has been proposed to be largely through thioester bonds with protein cysteine residues <ref type="bibr" target="#b19">(20,</ref><ref type="bibr" target="#b20">21)</ref>. In this context, our study has utilized complementary approaches, such as alkyne-based click chemistry, acyl biotin exchange, and quantitative LC-MS/MS-based lipidomics to score for the global changes in protein fatty acylation across physiological states. To assess fatty acylation by both the gel and lipidomicsbased assays, we have employed hydroxylamine treatment, a method that is well established and has been shown to preferentially target S-linked modifications (41). Our results, across physiological and pharmacogenetic perturbations, clearly illustrate high concordance between these approaches. Moreover, hydroxylamine-sensitive global fatty acylation seems to be mostly contributed by long-chain fatty acids. Fatty acylation of proteins has been shown to regulate several physiological processes, even in evolutionarily diverse organisms. Besides altering localization by providing membrane anchorage, fatty acylation of membrane-bound/ embedded proteins is also known to regulate their structure and function <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b8">9)</ref>. Despite these findings, whether this is dictated by intracellular concentrations of FFAs has not been well documented. In this regard, using exogenously added fatty acids, we have found a concentration or uptake dependence that drives the extent of fatty acylation. More importantly, by addressing this in primary hepatocytes especially under conditions that show dynamic changes in intracellular FFA levels, we provide a physiological setting for substrate-dependent protein modification, as discussed below.</p><p>Intracellular pools of FFAs in hepatocytes are determined by flux through lipogenesis, lipolysis, and β-oxidation. It is important to note that these processes are in turn regulated by anabolic and catabolic demands during fed and fasted conditions. Specifically, the availability of glucose under these states is known to dictate the FFA pool inside cells. Therefore, even though glucose-dependent fatty acid metabolism has been well studied, whether that impinges on global protein fatty acylation has not been addressed thus far. In this regard, here, we clearly illustrate that cells grown in media containing HG or LG show robust changes in hydroxylamine-sensitive protein fatty acylation. To reiterate, these findings indicate a cross-talk between two key nutrient sources and as to how the availability of carbohydrates influences post-translational modification brought about by fatty acids. Moreover, this will likely have an impact on evaluating the impact of glucose metabolism on protein fatty acylation under various physiological and pathological states.</p><p>To provide a mechanistic basis for fatty acid flux dependence, we perturbed cellular uptake and mitochondrial β-oxidation by inhibiting CD36 and CPT1, respectively. While the role of CD36 was anticipated, we have found that inhibiting mitochondrial uptake/utilization via CPT1 has a comparable effect vis-à-vis both soluble FFA pools and hydroxylamine-sensitive protein fatty acylation status. Mitochondrial fatty acid oxidation is coupled to metabolic sensing via AMPK, Sirtuins, and mTOR, which collectively also govern cellular physiology in fed and fasted states. In this regard, our results demonstrate the involvement of AMPK and TOR signaling and also provide new evidence on potential unexplored mechanisms that operate in fed and fasted states in determining the extent of fatty acylation.</p><p>We and others have previously shown the role of SIRT4 in cellular physiology and mitochondrial fatty acid metabolism. Consistent with this, SIRT4, which mediates an anabolic state, downregulates global fatty acylation. Given that we have recently found the pivotal role of SIRT4 in coupling mitochondrial metabolism/energetics and AMPK/TOR signaling, which orchestrate fed and fasted physiology <ref type="bibr" target="#b53">(54)</ref>, we investigated if this axis impinges on protein fatty acylation. It is important to note that our findings, using loss-/gain-of-function perturbations and genetic rescue of SIRT4, demonstrate its role in dictating hydroxylamine-sensitive conjugation of fatty acids to proteins. Further, SIRT4 perturbations mimic global protein fatty acylation changes that were observed in fed and fasted conditions. As hypothesized, based on previously described functions of SIRT4, we also found that this is intricately linked with mitochondrial energetics. Notably, combinatorial chemogenetic perturbations employing wildtype and SIRT4-null hepatocytes and treatments with activators/inhibitors that affect β-oxidation, including AMPK and CPT1, have provided confirmatory evidence.</p><p>Our study indicates the importance of physiological states and acyl-CoA abundance in governing protein fatty acylation at a global level. However, it is also likely that specific proteins may show preferential hyper-fatty-acylation even under fed conditions, similar to reports on acetylation of SIRT3dependent targets <ref type="bibr" target="#b56">(57)</ref>. Nonetheless, our findings underscore the overarching control of protein acylation that is dependent upon intracellular fatty acid concentrations and mitochondrial utilization through β-oxidation. Therefore, besides validating the interplay with cellular physiology, our study here provides further mechanistic insights into nutrient inputs-dependent modification of proteins that is mediated by fatty acids.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Animals used</head><p>All animal procedures and projects were approved by and were in accordance with the Institutional Animal Ethics Committee (IAEC) guidelines. C57BL/6 and SIRT4 knockout mice (obtained from Jackson Laboratories, catalog no. 012756) were used for experiments. In the fed-starved experiments, ad libitum-fed mice were used as the fed cohort, and the fasted group mice were starved for 24 h. Liver tissues were collected and snap-frozen in liquid nitrogen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell lines</head><p>HEK293, HEK293T, and C2C12 cells were cultured as recommended by ATCC. Cells were grown either in HG (25 mM) (Sigma-Aldrich, catalog no. D7777) or LG (5 mM) (Sigma-Aldrich, catalog no. D5523) containing Dulbecco's Modified Eagle Medium (DMEM) media as indicated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primary hepatocyte culture</head><p>Hepatocytes were isolated from C57BL/6 and SIRT4 KO mice (8-12 weeks old) by perfusing the liver tissue with collagenase type IV (Sigma-Aldrich, catalog no. C5138) containing media as described in Shaw et al. <ref type="bibr" target="#b53">(54)</ref>. Cell pellet was suspended in DMEM HG media having 10% (v/v) FBS (Gibco, catalog no. 16000-044), counted, and plated in collagencoated plates (5 μg/cm 2 ) (Sigma-Aldrich, catalog no. C3867).</p><p>Cells were allowed to adhere for 6 h, and media were changed to incomplete DMEM HG. Cells were collected post 48 to 72 h of plating after respective treatments.</p><p>Plasmids, transfections, and transduction pBabe puro with/without hSIRT4-HA-Flag was used for transfection to stably overexpress SIRT4 in cell lines using Lipofectamine 2000 (Invitrogen, catalog no. 11668019) following the manufacturer's protocol. SIRT4 overexpression in primary hepatocytes was done using an adenoviral overexpression system as described in Shaw et al. <ref type="bibr" target="#b53">(54)</ref>. The supernatant (Adenovirus) was added 16 to 18 h post cell plating for viral transduction. Media were changed after 18 to 20 h of virus addition. Metabolic shifts and pharmacological treatments were done as described below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drug treatments</head><p>HG and LG treatments were given for 12 h in media containing 10% (v/v) FBS <ref type="bibr" target="#b53">(54,</ref><ref type="bibr" target="#b57">(58)</ref><ref type="bibr" target="#b58">(59)</ref><ref type="bibr" target="#b59">(60)</ref>. For HG, media were replenished 3 h before cell collection. For mTOR inhibition and AMPK activation, 20 nM rapamycin (Sigma-Aldrich, catalog no. R0395) (54, 61, 62) and 0.5 mM AICAR (Sigma-Aldrich, catalog no. A9978) <ref type="bibr" target="#b53">(54,</ref><ref type="bibr" target="#b62">63)</ref> treatments were given in complete HG media for 6 h, respectively. Compound C (20 μM) (Dorsomorphine, Sigma, catalog no. A5499) (63) treatment was given in LG media for 6 h for AMPK inhibition. To induce uncoupling in cells, 0.5 μM FCCP (Sigma-Aldrich, catalog no. C2920) treatment was given in complete HG media for 12 h (64). To inhibit the activity of PATs, 150 μM BSAconjugated/unconjugated 2-BP treatment (Sigma-Aldrich, catalog no. 21604) was given for 16 h in complete LG media <ref type="bibr" target="#b64">(65)</ref><ref type="bibr" target="#b65">(66)</ref><ref type="bibr" target="#b66">(67)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatty acid uptake assay</head><p>Here, 100 μM, 250 μM, and 500 μM palmitate (Sigma-Aldrich, catalog no. P9767) and oleate (Fisher Scientific, catalog no. 75096) conjugated to fatty acid-free BSA were used for feeding cells in incomplete LG media <ref type="bibr" target="#b62">(63)</ref>. Fat-free BSA was used as a control. Etomoxir treatment (Sigma-Aldrich, catalog no. E1905) was given at a concentration of 60 μM for 16 h to inhibit CPT1 <ref type="bibr" target="#b67">(68)</ref>. SSO (Sigma-Aldrich, catalog no. SML2148) was used to inhibit CD36 at a concentration of 50 μM for 12 h. Fatty acid uptake was detected using LC-MS/MS as subsequently described.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acyl exchange assay</head><p>Total protein fatty acylation was detected using a modification in the acyl biotin exchange protocol <ref type="bibr" target="#b68">(69)</ref>. Protein lysates were prepared in RIPA buffer (50 mM Tris HCl pH 7, 150 mM NaCl, 1% Triton X-100, 0.5% w/v Sodium deoxycholate, 0.1% SDS). 80 to 100 μg of lysate was taken per sample and subjected to 50 mM N-ethylmaleimide (Catalog no. E3876) treatment for 2 h on ice to block the free cysteines in proteins. The sample was distributed equally into two tubes, and proteins were precipitated out overnight using chilled acetone at -20 C. One sample was treated with 2 M hydroxylamine, pH 7.2 (NH 2 OH, Hydroxylamine hydrochloride, Sigma-Aldrich, catalog no: 159417) for 2 h on a shaker at 25 C. The control sample was left untreated (-HAM). Hydroxylamine leads to the selective removal of S-linked acyl chains from proteins. Proteins were precipitated overnight and the samples, both ± HAM, were resuspended in lysis buffer to be treated with 0.5 μM rhodamine red C2 maleimide for 2 h on ice (Invitrogen, catalog no. R6029). The proteins were then precipitated overnight with chilled acetone, pelleted down, and visualized using SDS-PAGE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolic labeling with C16 alkyne</head><p>Alkynyl palmitic acid used for metabolic labeling was procured from Sigma Aldrich (catalog no. 900400P), and the protocol was followed as described <ref type="bibr" target="#b69">(70,</ref><ref type="bibr" target="#b70">71)</ref>. To assay palmitoylation, 100 μM C16-alkyne was conjugated with fatty acidfree BSA (5% v/v) (Sigma-Aldrich, catalog no. A7030) in DMEM LG or HG media by sonication (15 min) followed by incubation at room temperature (15 min). Cells were treated in respective media for 18 to 24 h. Only DMSO (Sigma-Aldrich, catalog no. D2650) was added as vehicle control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Click chemistry</head><p>Protein lysates from C16-treated cells were prepared using a lysis buffer and detected using Click chemistry <ref type="bibr" target="#b69">(70,</ref><ref type="bibr" target="#b70">71)</ref>. C16alkynes bound to proteins were conjugated to the fluorescent azide in a copper-catalyzed Huisgen cycloaddition reaction. 30 to 50 μg of protein lysate was treated with AlexaFluor 488 azide (Invitrogen, catalog no. A10266) in the presence of TCEP (Sigma-Aldrich, catalog no. C4706), TBTA (Sigma-Aldrich, catalog no. 678937), CuSO 4 , and in the dark, at room temperature for 1 h. The reaction was terminated by precipitating the protein overnight, in chilled acetone. Samples were assessed using SDS-PAGE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Detection/visualization of S-acylation on gel</head><p>Samples boiled in Laemmli buffer were run on polyacrylamide gels containing 12 to 15% resolving and 4% stacking. Gels were imaged using Typhoon 7000 (GE Healthcare). C16-alkyne samples labeled with AlexaFluor 488 azide using click chemistry, and Rhodamine red C2 maleimide labeled using acyl exchange were visualized at 488 nm and 548 nm, respectively. Imaging at 647 nm was done to visualize the protein ladder. Gels were then either stained using Coomassie staining solution for protein normalization, or samples were transferred onto PVDF membrane by Western blotting, blocked in 5% skimmed milk, and probed with antibody for βactin (catalog no. A1978) or β-tubulin (catalog no. T8328) as loading controls, both from Sigma Aldrich.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence</head><p>C16 alkyne treatment was given to cells grown on coverslips, as stated previously, for 4 h. Media were removed from wells, and coverslips were washed in PBS. Fixation was done using 4% PFA for 10 min. Cells were then permeabilized using 0.1% Triton X100 for 5 min at room temperature. Click reaction was done on the coverslips using AlexaFluor 488 azide in a 100 μl reaction volume containing TCEP and CuSO 4 in PBS <ref type="bibr" target="#b70">(71)</ref>. The reaction was carried out in the dark at room temperature. Six to eight washes of PBS were given for each coverslip to remove excess stain. Coverslips were further mounted using an antifade solution. Imaging was done using a Zeiss 510 confocal microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatty acid release assay and LC-MS</head><p>Cells were collected postrespective treatments, washed in PBS, pelleted down, and stored at -80 C until further processing. Pellets were resuspended in PBS by probe sonication (water sonication used in adenovirus-containing samples). Suspensions were then centrifuged at 100,000g for 40 min at 4 C. The supernatant was used as the cell soluble fraction. The pellet (membrane fraction) was further used for delipidation by treating it with the methanol-chloroform solution as reported earlier <ref type="bibr" target="#b71">(72,</ref><ref type="bibr" target="#b72">73)</ref>. The protein layer was collected and washed in methanol:chloroform: PBS solution and was resuspended in PBS using probe sonication. The amount of protein was quantified using a BCA protein estimation kit (Pierce). Samples were divided into two for treatment with and without hydroxylamine for 2 h at 25 C on a shaker. The reaction was stopped using methanol:chloroform in a 1:2 ratio spiked with C17:1 FFA (1 nmol as an internal standard). The organic layer was collected and dried in a nitrogen stream. FFAs were detected using LC-MS/MS using protocols previously reported by us <ref type="bibr" target="#b73">(74)</ref><ref type="bibr" target="#b74">(75)</ref><ref type="bibr" target="#b75">(76)</ref>. Values were normalized to internal control 17:1 FFA and the respective protein concentrations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA isolation and PCR</head><p>Total cellular RNA was extracted using Trizol (catalog no. 15596018) as per the manufacturer's instructions. One microgram of total RNA was used for cDNA preparation using SuperScript IV reverse transcriptase kit (Catalog no. 18090200).</p><p>PCR was done using KAPA SYBR FAST Universal 2X qPCR Master Mix (Catalog no. KK4618). The following primer pairs were used for assaying overexpression of human Sirt4, forward (5 0 -CAGCGCTTCATCACCCTTTC-3 0 ) and reverse (5 0 -CCT ACGAAGTTTCTCGCCCA-3 0 ), and normalized to mouse Actinb, forward (5 0 -GCATGGGTCAGAAGGATTCC-3 0 ) and reverse (5 0 -ACGCAGCTCATTGTAGAAGG-3 0 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data processing and analysis</head><p>In-gel fluorescence, Western blot, and cell immunofluorescence images were analyzed using the ImageJ software. Student's t test and analysis of variance were used for statistical analysis. Data were processed in Microsoft Excel, and the statistical significance was calculated using Excel or GraphPad Prism. The results are expressed as means ± standard deviations (SD)/standard error (SE) as indicated. All experiments were performed at least twice (N) with a minimum of three to four replicates (n).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure1. Methodology for assessing fatty acylation of proteins. Cells and mice tissues were subjected to fed and fasted paradigms and further processed using three methods: (i) Click chemistry or (ii) modified acyl exchange methods for qualitative assessment, as visualized by fluorescent gel imaging, and (iii) quantitative assessment for fatty acid release from proteins performed using LC-MS/MS analysis.</figDesc><graphic coords="2,85.15,552.53,423.59,151.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Nutritional states drive differential protein fatty acylation. A, NIH 3T3 cells were grown under high glucose (HG) and low glucose (LG) conditions in the presence of C16-alkynyl fatty acid (FA) for 4 h. Cells were fixed, permeabilized, and subjected to click chemistry reaction with AlexaFluor 488 azide: (i) imaging done using confocal microscopy (scale bar 100 microns) and (ii) quantification of fluorescence intensity (n = 30). Data are analyzed by the Student's t test. A value of p ≤ 0.05 was considered statistically significant, ***p ≤ 0.001. B, HEK293 cells were treated with 100 μM C16-alkynyl FA probes under LG and HG conditions. Controls were treated with DMSO instead of FA. Cellular proteins were extracted and reacted with AlexaFluor 488 azide (N = 2):(i) Samples were resolved using gel electrophoresis and in-gel fluorescence was visualized using a Typhoon imaging system. (ii) Heat map depicting lane quantitation of band intensities. C, acyl exchange done using protein lysates (N = 2, n = 3): (i) C2C12 myoblasts grown in LG and HG media (n = 3) subjected to acyl exchange for total S-acylation using Rhodamine maleimide, tubulin used as loading control (ii) Heat map showing the quantitation of mean band intensities from three independent replicates for differential S-acylation in C2C12 cells in LG and HG.</figDesc><graphic coords="3,202.79,311.65,106.93,79.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Estimation of protein fatty acylation in fed and fasted states in cells and tissues. A and B, primary hepatocytes were grown under HG and LG conditions (n = 5-7). A, free fatty acid (FFA) released from membrane fractions after hydroxylamine treatment and (B) the associated cellular FFA pools. C and D, fatty acid content from liver tissue collected from 10-to 12-weeks-old ad libitum fed and 24 h fasted C57BL6 mice (N = 2, n = 3) (C) post hydroxylamine treatment in membrane isolates and (D) their respective cellular FFA pools. Data are represented as mean ± SEM and analyzed by the Student's t test and ANOVA. A value of p ≤ 0.05 was considered statistically significant. ***p ≤ 0.001. HG, high glucose; LG, low glucose.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .Figure 5 .Figure 6 .</head><label>456</label><figDesc>Figure 4. S-Fatty acylation of proteins is governed by substrate pools in a metabolic state. A and B, primary hepatocytes were grown in the presence of either BSA alone or 250 μM BSA-conjugated palmitate (N = 3, n = 3). A, Palmitate pools in the soluble fraction. B, corresponding palmitate release assay for membrane-bound fatty acids. C and D, primary hepatocytes grown in the presence of BSA-conjugated palmitate in the presence and absence of CD36 inhibitor (SSO). C, cellular palmitate levels (N = 2, n = 3) and (D) protein palmitoylation detected in membrane fraction after hydroxylamine treatment (N = 3, n = 3). E, depiction of cells treated with fatty acid transporter CD36 inhibitor, SSO. Data are represented as mean ± SEM and analyzed by the Student's t test and ANOVA. A value of p ≤ 0.05 was considered statistically significant. ***p ≤ 0.001. FFA, free fatty acid; SSO, succinimidyl oleate sodium.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Impact of mitochondrial fatty acid transport on fatty acylation. Primary hepatocytes grown in the presence of BSA or BSA-conjugated oleate in the presence of CPT-1 inhibitor, etomoxir (N = 2, n = 3). A, fatty acid release assessed from membrane fractions post hydroxylamine treatment; B, corresponding cellular FFA pools. C, schematic representation of the interplay of anabolic, catabolic, and mitochondrial regulations modulated using chemical inhibitors and genetic perturbations impinging on regulatory kinases and thereby the protein fatty acylation. Data are represented as mean ± SEM and analyzed by the Student's t test and ANOVA. A value of p ≤ 0.05 was considered statistically significant. ***p ≤ 0.001. FFA, free fatty acid; LG, low glucose; SSO, succinimidyl oleate sodium.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Mitochondrial sirtuin SIRT4 regulates global S-fatty acylation. A, NIH 3T3 cells stably overexpressing control and SIRT4 were grown under LG and HG conditions in the presence of C16-alkynyl FA for 4 h. Cells were fixed, permeabilized, and reacted with Alexa Fluor 488 azide (N = 2, n = 30). (i) Imaging was done using confocal microscopy (scale bar 100 microns), (ii) quantification of fluorescence intensity. B, click chemistry-based analysis of protein palmitoylation in control and SIRT4 overexpressing HEK293T stable cells subjected to C16-alkyne treatment in LG and HG-containing media, DMSO was used as control (N = 2), (i) visualized by in-gel fluorescence, (ii) heat map depicting band intensities in respective lanes. C, free fatty acids estimated postrelease using hydroxylamine treatment in SIRT4-devoid hepatocytes with and without Ad-SIRT4 overexpression (n = 5). D, estimate of cellular FFA pools extracted from SIRT4-devoid hepatocytes post overexpressing hSIRT4 (n = 5). Data are represented as mean ± SEM and analyzed by the Student's t test and ANOVA. A value of p ≤ 0.05 was considered statistically significant. ***p ≤ 0.001; ### p ≤ 0.001. HG, high glucose; LG, low glucose.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Absence of SIRT4 mimics fasted state and leads to increased protein acylation. A and B, SIRT4-null hepatocytes transduced with either Ad-CMV or Ad-SIRT4 grown in LG media were subjected to treatment with SSO, CD36 inhibitor (N = 2, n = 3). A, their cellular pools were assayed for free fatty acid content (A), and membrane fractions were analyzed for fatty acid release posthydroxylamine treatment (B). C and D, primary hepatocytes from SIRT4null mice were treated with Compound C, an AMPK inhibitor in low glucose (N = 2, n = 3), (C) fatty acid release analyzed from membrane fractions post hydroxylamine treatment and (D) respective cellular fraction. Data are represented as mean ± SEM and analyzed by the Student's t test and ANOVA. A value of p ≤ 0.05 was considered statistically significant. ***p ≤ 0.001; ## p ≤ 0.01; ### p ≤ 0.001. FFA, free fatty acid; LG, low glucose; SSO, succinimidyl oleate sodium.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J. Biol. Chem. (2024) 300(1) 105563 3</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>J. Biol. Chem. (2024) 300(1) 105563 5</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>J. Biol. Chem. (2024) 300(1) 105563 7</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>J. Biol. Chem. (2024) 300(1) 105563 9</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>J. Biol. Chem. (2024) 300(1) 105563 11</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>J. Biol. Chem. (2024) 300(1) 105563 13</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments-We thank <rs type="person">Dr Kalidas Kohale</rs> and <rs type="person">Dr Shital Suryavanshi</rs> (<rs type="grantNumber">TIFR-AH</rs>) and <rs type="person">Dr Suraj Ingle</rs>, <rs type="person">Dr Sagar Tarte</rs>, <rs type="person">Ms Ritika Gupta</rs>, <rs type="person">Mr Chetan Sable</rs> (<rs type="affiliation">National Facility for Gene Function in Health and Disease, IISER Pune</rs>) for help with the animal experiments. We thank <rs type="person">Hema P. Bagul</rs> for her help with the C16alkyne experiment. We thank <rs type="person">Dr Abinaya Rajendran</rs>, <rs type="person">Alaumy Joshi</rs>, and <rs type="person">Saddam Shekh</rs> for technical assistance with the LC-MS/MS experiments. Author contributions-M. T., S. K., C. B., N.-P. B., A. C., S. S. K., and U. K.-S. methodology; M. T., S. K., C. B., N.-P. B., A. C., S. S. K., and U. K.-S. formal analysis; T. M., S. K., B. C., N.-P. B., A. C., S. S. K., and U. K.-S. investigation; M. T., S. K., N.-P. B., S. S. K., and U. K.-S. conceptualization; M. T., S. K., and U. K.-S. writing-original draft; M. T., S. K., A. C., S. S. K., and U. K.-S. visualization; S. K., B. C., and A. C. validation. S. S. K. and U. K.-S. writing-review &amp; editing; S. S. K. and U. K.-S. supervision; S. S. K. and U. K.-S. funding acquisition; U. K.-S. project administration. Funding and additional information-This study was supported by funds from <rs type="funder">DAE/TIFR-Govt. of India</rs> (Project Identification no. <rs type="grantNumber">RTI4003</rs>, <rs type="grantNumber">DAE OM no. 1303/2/2019/R&amp;D-II/DAE/2079</rs> and <rs type="funder">National Analytical Facility for Nutrition &amp; Metabolism)</rs> to <rs type="person">U.K.</rs>, <rs type="funder">Swarnajayanti Fellowship (DST Govt. of India</rs>. Grant number <rs type="grantNumber">DST/ SJF/LSA-02/2012-13</rs>) to U.K., <rs type="grantName">SwarnaJayanti Fellowship</rs> from the <rs type="funder">Science and Engineering Research Board</rs> (SERB), <rs type="funder">Department of Science and Technology (DST), Government of India</rs> (Grant number <rs type="grantNumber">SB/SJF/2021-22/01</rs>) to S. S. K., and the <rs type="funder">Department of Science &amp; Technology-Funds for Improvement of S&amp;T Infrastructure Development (DST-FIST)</rs> (grant number <rs type="grantNumber">SR/FST/LSII-043/2016</rs>) to the <rs type="institution">Department of Biology, IISER Pune</rs>. We also thank the <rs type="institution">National Facility</rs> for Gene Function in Health and Disease (supported by a grant from the <rs type="funder">Department of Biotechnology, Government of India</rs>; <rs type="grantNumber">BT/INF/22/SP17358/2016</rs>) at <rs type="institution">IISER Pune</rs> for maintaining and providing mice used in this study. A.C. thanks a <rs type="grantName">Graduate Student Fellowship</rs> from the <rs type="funder">Council for Scientific and Industrial Research (CSIR)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_n65abvb">
+					<idno type="grant-number">TIFR-AH</idno>
+				</org>
+				<org type="funding" xml:id="_276Z39m">
+					<idno type="grant-number">RTI4003</idno>
+				</org>
+				<org type="funding" xml:id="_EHbjepF">
+					<idno type="grant-number">DAE OM no. 1303/2/2019/R&amp;D-II/DAE/2079</idno>
+				</org>
+				<org type="funding" xml:id="_9WGQyed">
+					<idno type="grant-number">DST/ SJF/LSA-02/2012-13</idno>
+					<orgName type="grant-name">SwarnaJayanti Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_PnhWcFG">
+					<idno type="grant-number">SB/SJF/2021-22/01</idno>
+				</org>
+				<org type="funding" xml:id="_Mz5BSWZ">
+					<idno type="grant-number">SR/FST/LSII-043/2016</idno>
+				</org>
+				<org type="funding" xml:id="_hnQt5tW">
+					<idno type="grant-number">BT/INF/22/SP17358/2016</idno>
+					<orgName type="grant-name">Graduate Student Fellowship</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All the data presented here are within the manuscript. If additional information is required, S. K. (skhatri3575@gmail. com) or S. S. K. (siddhesh@iiserpune.ac.in) or U. K.-S. (ullas@tifr.res.in) can be contacted through email.</p><p>Supporting information-This article contains supporting information.</p><p>Conflict of interest-The authors declare no conflict of interest with the contents of this article. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Metabolites regulate cell signaling and growth via covalent modification of proteins</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Figlia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Willnow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Teleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="156" to="170" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The regulatory role of key metabolites in the control of cell signaling</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Milanesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Coccetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tripodi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomolecules</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">862</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Proteome-wide post-translational modification statistics: frequency analysis and curation of the swiss-prot database</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Khoury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Baliban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Floudas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fatty acylation of proteins: the long and the short of it</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="120" to="131" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Expression of a constitutively active Akt Ser/Thr kinase in 3T3-L1 adipocytes stimulates glucose uptake and glucose transporter 4 translocation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Summers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Birnbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="31372" to="31378" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cholesterol sensitivity of endogenous and myristoylated</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Di Vizio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cinar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boucher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Akt Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="6238" to="6246" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Myristoylated Naked2 antagonizes Wnt-beta-catenin activity by degrading Dishevelled-1 at the plasma membrane</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Van Raay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Willert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="13561" to="13568" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Akt is S-palmitoylated: a new layer of regulation for Akt</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blaustein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Piegari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martínez Calejman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Manese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">626404</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rapid and transient palmitoylation of the tyrosine kinase Lck mediates Fas signaling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Akimzhanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boehning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="11876" to="11880" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Palmitoylation regulates regulator of G-protein signaling (RGS) 16 function. II. Palmitoylation of a cysteine residue in the RGS box is critical for RGS16 GTPase accelerating activity and regulation of Gicoupled signalling</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Osterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Waheed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hiol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Davey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="19309" to="19316" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The lipid habitats of neurotransmitter receptors in brain</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Borroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Vallés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Barrantes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1858</biblScope>
+			<biblScope unit="page" from="2662" to="2670" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Role of S-palmitoylation by ZDHHC13 in mitochondrial function and metabolism in liver</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N S</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Roan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">2182</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Identification of palmitoylated mitochondrial proteins using a bio-orthogonal azido-palmitate analogue</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kostiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Corvi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Plummer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Prescher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hangauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="721" to="732" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">On the mechanism of fatty acid-induced proton transport by mitochondrial uncoupling protein</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Garlid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Orosz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Modrianský</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vassanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jezek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="2615" to="2620" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Regulation of UCP1 and mitochondrial metabolism in brown adipose tissue by reversible succinylation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Softic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Verdin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="844" to="857" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Curation of the mammalian palmitoylome indicates a pivotal role for palmitoylation in diseases and disorders of the nervous system and cancers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Butland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lavallée-Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calzolari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1004405</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Metabolomics of sebum reveals lipid dysregulation in Parkinson&apos;s disease</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sinclair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Trivedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Walton-Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kunath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1592</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dysregulated fatty acid metabolism in hepatocellular carcinoma</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hepat. Oncol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="241" to="251" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Fatty acylation of proteins: new insights into membrane targeting of myristoylated and palmitoylated proteins</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1451</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Heterogeneous fatty acylation of Src family kinases with polyunsaturated fatty acids regulates raft localization and signal transduction</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nazarian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Erdjument-Bromage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bornmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tempst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="30987" to="30994" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mass spectrometric analysis of GAP-43/neuromodulin reveals the presence of a variety of fatty acylated species</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Neubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="33032" to="33040" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The molecular mechanism of DHHC protein acyltransferases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="157" to="167" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Features and regulation of nonenzymatic post-translational modifications</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harmel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fiedler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="244" to="252" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The causes and consequences of nonenzymatic protein acylation trends</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hoogewijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Murphy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="921" to="932" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Intracellular localization and tissue-specific distribution of human and yeast DHHC cysteine-rich domain-containing proteins</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Igarashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1761</biblScope>
+			<biblScope unit="page" from="474" to="483" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">DHHC protein S-acyltransferases use similar ping-pong kinetic mechanisms but display different acyl-CoA specificities</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Jennings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="7236" to="7245" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Covalent lipid modifications of proteins</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="431" to="435" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Insights into auto-S-fatty acylation: targets, druggability, and inhibitors</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1567" to="1579" />
+			<date type="published" when="2021">2021</date>
+			<publisher>RSC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">ABHD10 is an S-depalmitoylase affecting redox homeostasis through peroxiredoxin-5</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Thorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1232" to="1240" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">SIRT6 regulates TNF-α secretion through hydrolysis of long-chain fatty acyl lysine</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Charron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sebastian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">496</biblScope>
+			<biblScope unit="page" from="110" to="113" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The pool of fatty acids covalently bound to platelet proteins by thioester linkages can be altered by exogenously supplied fatty acids</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Muszbek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haramura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Cluette-Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Van Cott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laposata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lipids</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="331" to="S337" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Palmitic acid: physiological role, metabolism and nutritional implications</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Carta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Murru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Banni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Manca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">902</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Differences in partitioning of meal fatty acids into blood lipid fractions: a comparison of linoleate, oleate, and palmitate</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Mcquaid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Frayn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Fielding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="64" to="E71" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">SIRT4 coordinates the balance between lipid synthesis and catabolism by repressing malonyl CoA decarboxylase</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>German</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>De Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Koves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="686" to="698" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Nutrient modulation of palmitoylated 24-kilodalton protein in rat pancreatic islets</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Komatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamauchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kojima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endocrinology</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="5232" to="5241" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Glucose stimulation of protein acylation in the pancreatic β-cell</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdel-Ghany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Straub</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="667" to="671" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Glut4 palmitoylation at Cys223 plays a critical role in Glut4 membrane trafficking</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Du</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">460</biblScope>
+			<biblScope unit="page" from="709" to="714" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Brain insulin resistance impairs hippocampal synaptic plasticity and memory by increasing GluA1 palmitoylation through FoxO3a</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fusco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mainardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Scala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Natale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lapenta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2009">2017. 2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Nutrient-dependent changes of protein palmitoylation: impact on nuclear enzymes and regulation of gene expression</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fusco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grassi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">3820</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Fatty acid oxidation is directly regulated by carbohydrate metabolism during exercise</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jeukendrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wagenmakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Saris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="268" to="275" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A hydroxylamine probe for profiling S-acylated fatty acids on proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schulte-Zweckel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dwivedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brockmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Janning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Triola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="11183" to="11186" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Protein acetylation and acetyl coenzyme a metabolism in budding yeast</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Galdieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rogerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lleshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vancura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eukaryot. Cell</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1472" to="1483" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">CD36 enhances fatty acid uptake by increasing the rate of intracellular esterification but not transport across the plasma membrane</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brunaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hamilton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="7254" to="7261" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Regulation of hepatic fatty acid elongase and desaturase expression in diabetes and obesity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Botolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Christian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jayaprakasam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="2028" to="2041" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Specific inhibition of mitochondrial fatty acid oxidation by 2-bromopalmitate and its coenzyme A and carnitine esters</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Chase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Tubbs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="55" to="65" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Profiling targets of the irreversible palmitoylation inhibitor 2-bromopalmitate</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Davda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>El Azzouny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Tom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Majmudar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Kennedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1912" to="1917" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the P2X7 receptor, an ATP-gated channel, controls its expression and association with lipid rafts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gonnord</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Delarasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Auger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Benihoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prigent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Cuif</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="795" to="805" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">2-Bromopalmitate and 2-(2-hydroxy-5nitro-benzylidene)-benzo[b]thiophen-3-one inhibit DHHC-mediated palmitoylation in vitro</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Jennings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Nadolski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="233" to="242" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Inhibition of protein palmitoylation, raft localization, and T cell signaling by 2bromopalmitate and polyunsaturated fatty acids</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hermida-Matsumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="261" to="270" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">S-palmitoylation sorts membrane cargo for anterograde transport in the Golgi</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ernst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Syed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bottanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hacke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="479" to="493" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Conceptualizing eukaryotic metabolic sensing and signaling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Laxman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Indian Inst. Sci</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="59" to="77" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Fasting: molecular mechanisms and clinical applications</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">D</forename><surname>Longo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Mattson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="181" to="192" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">SIRT4 regulates ATP homeostasis and mediates a retrograde signaling via AMPK</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Titus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aging (Albany NY)</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="835" to="849" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Anabolic SIRT4 exerts retrograde control over TORC1 signaling by glutamine sparing in the mitochondria</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Talwadekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Rashida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Acharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khatri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="212" to="219" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">SIRT4 represses peroxisome proliferator-activated receptor α activity to suppress hepatic fat oxidation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>De Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Finley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sweeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Schug</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="4552" to="4561" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">SIRT4 regulates fatty acid oxidation and mitochondrial gene expression in liver and muscle cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nasrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fortier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">C</forename><surname>Bare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="31995" to="32002" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Calorie restriction and SIRT3 trigger global reprogramming of the mitochondrial protein acetylome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Dittenhafer-Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Selen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Boersma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="186" to="199" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Negative regulation of AMPK signaling by high glucose via E3 ubiquitin ligase MG53</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="629" to="637" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>e5</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">High glucose-mediated oxidative stress impairs cell migration</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Lamers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vicente-Manzanares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Horwitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Santos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">22865</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Long term high glucose exposure induces premature senescence in retinal endothelial cells</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bertelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pedrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mcdonnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pathak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Peixoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">929118</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Rapamycin treatment improves neuron viability in an in vitro model of stroke</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Jimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Digicaylioglu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">68281</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Regulation of GSK3 cellular location by FRAT modulates mTORC1-dependent cell growth and sensitivity to rapamycin</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Fei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Nagiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Mutvei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lamprakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="19523" to="19529" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Monounsaturated fatty acids protect against palmitate-induced lipoapoptosis in human umbilical vein endothelial cells</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Sevits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Battson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Cox-York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Gentile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">226940</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">FR58P1a; a new uncoupler of OXPHOS that inhibits migration in triple-negative breast cancer cells via Sirt1/AMPK/β1-integrin pathway</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Urra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Córdova-Delgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Ramírez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Peña-Ahumada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rios</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">13190</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Targeting protein palmitoylation decreases palmitate-induced sphere formation of human liver cancer cells</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Med. Rep</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="939" to="947" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">2-Bromopalmitate reduces protein deacylation by inhibition of acyl-protein thioesterase enzymatic activities</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Pedro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Vilcaes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Tomatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Daniotti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">75232</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Lipopolysaccharide upregulates palmitoylated enzymes of the phosphatidylinositol cycle: an insight from proteomic studies</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Soboci Nska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Roszczenko-Jasi Nska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zaręba-Kozioł</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hromada-Judycka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Matveichuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Traczyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="233" to="254" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Loss of hepatic oscillatory fed microRNAs abrogates refed transition and causes liver dysfunctions</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Maniyadath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chattopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2212" to="2226" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Palmitoylated proteins: purification and identification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1573" to="1584" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Rapid and selective detection of fatty acylated proteins using omega-alkynyl-fatty acids and click chemistry</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kostiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Perinpanayagam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Hak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siddam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1566" to="1580" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Imaging the lipidome: omega-alkynyl fatty acids for detection and cellular visualization of lipidmodified proteins</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Hannoush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arenas-Ramirez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="581" to="587" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">A chemical-genetic screen identifies ABHD12 as an oxidized-phosphatidylserine lipase</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Kelkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ravikumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mehendale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="169" to="178" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">A superfamily-wide activity atlas of serine hydrolases in Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mhetre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Ratnaparkhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kamat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1312" to="1324" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Biochemical characterization of the PHARC-associated serine hydrolase ABHD12 reveals its preference for very-long-chain lipids</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shaikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajendran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mhetre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kamat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="page" from="16953" to="16963" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Lipidomics suggests a new role for ceramide synthase in phagocytosis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pathak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mehendale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mallik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kamat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2280" to="2287" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">A multi-omics analysis reveals that the lysine deacetylase ABHD14B influences glucose metabolism in mammals</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajendran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Khandelwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ratnaparkhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kamat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">102128</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">S-acylation of Ca 2+ transport proteins: molecular basis and functional consequences</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-02-13">13 February 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Raphaël</forename><surname>Néré</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cell Physiology and Metabolism</orgName>
+								<orgName type="institution">University of Geneva</orgName>
+								<address>
+									<settlement>Geneva</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sana</forename><surname>Kouba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cell Physiology and Metabolism</orgName>
+								<orgName type="institution">University of Geneva</orgName>
+								<address>
+									<settlement>Geneva</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amado</forename><surname>Carreras-Sureda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cell Physiology and Metabolism</orgName>
+								<orgName type="institution">University of Geneva</orgName>
+								<address>
+									<settlement>Geneva</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Nicolas</forename><surname>Demaurex</surname></persName>
+							<email>nicolas.demaurex@unige.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cell Physiology and Metabolism</orgName>
+								<orgName type="institution">University of Geneva</orgName>
+								<address>
+									<settlement>Geneva</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cell Physiology and Metabolism</orgName>
+								<orgName type="institution">University of Geneva</orgName>
+								<address>
+									<settlement>Geneva</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">S-acylation of Ca 2+ transport proteins: molecular basis and functional consequences</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-13">13 February 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E2A5BAA8F36D684133ED7802586F87D2</idno>
+					<idno type="DOI">10.1042/BST20230818</idno>
+					<note type="submission">Received: 13 December 2023 Revised: 26 January 2024 Accepted: 29 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Calcium (Ca 2+ ) regulates a multitude of cellular processes during fertilization and throughout adult life by acting as an intracellular messenger to control effector functions in excitable and non-excitable cells. Changes in intracellular Ca 2+ levels are driven by the coordinated action of Ca 2+ channels, pumps, and exchangers, and the resulting signals are shaped and decoded by Ca 2+ -binding proteins to drive rapid and long-term cellular processes ranging from neurotransmission and cardiac contraction to gene transcription and cell death. S-acylation, a lipid post-translational modification, is emerging as a critical regulator of several important Ca 2+ -handling proteins. S-acylation is a reversible and dynamic process involving the attachment of long-chain fatty acids (most commonly palmitate) to cysteine residues of target proteins by a family of 23 proteins acyltransferases (zDHHC, or PATs). S-acylation modifies the conformation of proteins and their interactions with membrane lipids, thereby impacting intra-and intermolecular interactions, protein stability, and subcellular localization. Disruptions of S-acylation can alter Ca 2+ signalling and have been implicated in the development of pathologies such as heart disease, neurodegenerative disorders, and cancer. Here, we review the recent literature on the S-acylation of Ca 2+ transport proteins of organelles and of the plasma membrane and highlight the molecular basis and functional consequence of their S-acylation as well as the therapeutic potential of targeting this regulation for diseases caused by alterations in cellular Ca 2+ fluxes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Ca 2+ signalling in physiology Ca 2+ ions act as secondary messengers in eukaryotic organisms to co-ordinate a wide range of physiological functions, including neurotransmission, muscle contraction, immune regulation, and fertilization <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>. The concentration of Ca 2+ ions at rest is maintained ∼ 100 nM in the cytoplasm, five orders of magnitude lower than the extracellular Ca 2+ concentration of 1-2 mM. Inside cellular compartments, Ca 2+ ranges between 100 and 200 nM in mitochondria, whereas in the endoplasmic/sarcoplasmic reticulum (ER/SR), Ca 2+ levels are maintained at higher concentration ranging from 100 to 500 mM. Ca 2+ levels are controlled in both time and space to prevent cytotoxicity and enable appropriate responses to various stimuli. This task is achieved through a repertoire of Ca 2+ channels, pumps and exchangers, all of which are under the control of various Ca 2+ sensing and auxiliary proteins. These Ca 2+ handling proteins are susceptible to a range of post-translational modifications (PTMs) that significantly influence their operational characteristics, activity levels, degradation pathways, subcellular localization, and interactions with other cellular components. These intricate modifications encompass oxidative and reductive modifications, glycosylation, ubiquitination, and acylation <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. Here, we summarize recent studies reporting the S-acylation of Ca 2+ transporters, detailing the biochemical assays used, the residues and enzymes identified, and the functional consequence of this PTM for calcium fluxes and cellular functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S-acylation: definition, characteristics and mechanism</head><p>S-acylation (also known as S-palmitoylation) involves the formation of a thioester bond between a fatty acid molecule and a cysteine residue in a protein, linking the sulfur atom of the cysteine to the carbonyl group of the fatty acid (Figure <ref type="figure" target="#fig_0">1</ref>). This bond is reversible and allows the dynamic attachment and detachment of the fatty acid to the protein, influencing the protein's function and cellular localization. We refer to this process as S-acylation throughout this review. S-acylation (Figure <ref type="figure" target="#fig_0">1</ref>) is catalysed by enzymes with multiple transmembrane domains (four or six) bearing a conserved cysteine-rich region between transmembrane domains 2 and 3. This aspartate-histidine-histidine-cysteine (zDHHC) motif [9] defines a group of zDHHC-palmitoyl acyltransferases (zDHHC-PATs) of which 23 isoforms exist in humans <ref type="bibr" target="#b9">[10]</ref>. The zDHHC domain contains a catalytic triad with the initial Asp polarizing the second His, which acts as a base to extract a proton from the terminal Cys to turn this cysteine into a thiolate nucleophile. This nucleophile group can attack the α-carbon of the fatty acyl-coenzyme A (CoA) thioester carbonyl molecule, resulting in acylated zDHHC-PAT. The S-acylated zDHHC-PAT can then bind its protein substrate and transfer the acyl group <ref type="bibr" target="#b10">[11]</ref>. Protein de-acylation The palmitoyl group is transferred from the palmitoyl-Coenzyme A to the free thiol groups of cysteines by zDHHC-PAT enzymes (typically with 4, or 6, transmembrane domains, with the catalytic DHHC domain located in a cytosolic loop). The thioester-linked fatty acid is then removed by protein thioesterases (APTs) to regenerate free thiol groups (Created with Biorender.com).</p><p>(de-palmitoylation) involves the hydrolysis of the thioester bond, a process greatly accelerated by the two main acyl-protein thioesterases APT1 and APT2. APT enzymes contain a serine-histidine-aspartic acid catalytic triad that catalyses the breaking of thioester bonds, a long hydrophobic tunnel accommodating the attached lipid <ref type="bibr" target="#b11">[12]</ref>, and a lid-loop covering the catalytic site and determining the product release rate of the enzyme <ref type="bibr" target="#b12">[13]</ref>. Another family of proteins called ABHD17 can contribute to the de-palmitoylation of Ras-family proteins <ref type="bibr" target="#b13">[14]</ref>, and is a target for anti-cancer drugs <ref type="bibr" target="#b14">[15]</ref>. The following section summarizes studies reporting the S-acylation of Ca 2+ channels, exchangers, and pumps that control the fluxes of Ca 2+ ions at the plasma membrane and in intracellular organelles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S-acylation of Ca 2+ channels, pumps and exchangers</head><p>Voltage-gated Ca 2+ channels</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CaV1.2</head><p>Voltage-gated Ca 2+ channels (Ca v ) are composed of multiple subunits including a pore-forming α subunit and an accessory β subunit (Table <ref type="table" target="#tab_0">1</ref>). They control excitation-contraction coupling in muscle, neurotransmitter release in neurons, and insulin secretion by pancreatic beta cells <ref type="bibr" target="#b15">[16]</ref>. The pore-forming α1C subunit of Ca v 1.2, a L-type voltage-dependent Ca 2+ channel encoded by the CACNA1C gene, was recently reported to be S-acylated in ventricular myocytes using resin-assisted capture of acylated proteins (Acyl-RAC) <ref type="bibr" target="#b16">[17]</ref>. Acyl-RAC, along with acyl-biotin exchange and acyl-PEG exchange, rely on the breaking of disulfuric bonds, blocking of the free cysteines and cleaving of the S-acylated cysteine <ref type="bibr" target="#b17">[18]</ref>. The freed cysteine can then be captured, and the protein analysed using Western-Blot or mass spectrometry. The S-acylation sites were mapped to the channel N terminus (C136) and to the linker between the two first domains of the protein (C519 and C543) (Figure <ref type="figure" target="#fig_1">2</ref>). When expressed in HEK-293 cells, α1C bearing the triple substitution C136/519/543A was not acylated and mediated whole-cell currents with reduced voltage-sensitivity (+10-mV positive shift) but preserved activation kinetics. The triple cysteine substitution reduced Ca 2+ transients recorded in the presence of nifedipine when introduced in a dihydropyridine-resistant α1C in cardiomyocytes. Palmitoylation therefore controls the voltagesensitivity of Ca v 1.2 and this regulatory mechanism could be targeted pharmacologically to prevent fatal cardiac arrythmia <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b18">19]</ref>.</p><p>The β subunits, encoded in four genes with additional diversity generated by alternative splicing, function as regulators of Ca v channel trafficking and gating. Mutations in Ca v β2, encoded by the CACNB2 gene, are associated with mental disorders and cardiovascular diseases <ref type="bibr" target="#b19">[20]</ref>. S-acylation of two N-terminal cysteines (C3 and C4) targets Ca v β2 to the plasma membrane (Figure <ref type="figure" target="#fig_1">2</ref>) and Ca v channels containing an S-acylation-deficient β2a subunit (C3S/C4S) exhibit reduced currents amplitude and lack the distinguishing biophysical properties of Ca v β2a channels <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>. CACNB2 is highly expressed in human pancreatic islets and expression of Ca v β2a but not of its non-acylated C3S/C4S mutant increased surface expression of the pore-forming subunit Ca v 1.2α1 in insulin-secreting β-cells, increasing basal Ca 2+ levels and inducing apoptosis <ref type="bibr" target="#b23">[24]</ref>.</p><p>S-acylation thus regulates the activity of Ca v 1.2 channels by controlling both the surface expression of accessory subunits and the voltage sensitivity of pore-forming subunits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CALHM1</head><p>The Ca 2+ homeostasis modulator 1 (CALHM1, encoded by the CALHM1 gene) is a voltage-gated, ATP-and Ca 2+ -permeable channel (Table <ref type="table" target="#tab_0">1</ref>) that mediates sweet, bitter and umami perception in taste bud cells <ref type="bibr" target="#b24">[25]</ref> and whose deficiency impairs memory flexibility in mice <ref type="bibr" target="#b25">[26]</ref>. CALHM1 was shown to be S-acylated by acyl-biotin exchange and to incorporate palmitate by metabolic labelling and click chemistry, establishing that the channel is S-acylated <ref type="bibr" target="#b26">[27]</ref>. Combined substitution of two cysteine residues, C100 and C207 (Figure <ref type="figure" target="#fig_1">2</ref>), but not substitution or either residue individually, prevented CALHM1 S-acylation and increased ATP release by the overexpressed channel. These residues are located within the juxta-membrane regions of CALHM1 third and fourth transmembrane domain and appear to function as compensatory sites for S-acylation. The C100S/C207S mutation reduced CALHM1 association with detergent-resistant membranes without impacting channel synthesis, degradation, or cell surface expression. zDHHC3, 7 and 20, but none of the other 20 acyltransferases screened, enhanced CALHM1 S-acylation when overexpressed. These three enzymes co-immunoprecipitated with CALHM1-FLAG and decreased CALHM1 S-acylation when down-regulated, establishing that they mediate CALHM1 S-acylation. Endogenous CALHM1 tagged with the V5 epitope was detected by acyl-biotin exchange in taste cells of mice, highlighting that the channel is S-acylated in vivo. When expressed in Xenopus oocytes, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CALHM3</head><p>Heteromeric CALHM1/3 channels also undergo S-acylation <ref type="bibr" target="#b27">[28]</ref>. Unlike CALHM1, CALHM3 by itself cannot form a functional channel but enhances the trafficking and gating of CALHM1. Using the approaches detailed above, CALHM3 was shown to be reversibly S-acylated at three intracellular cysteine residues (C99, C200, and C204) (Figure <ref type="figure" target="#fig_1">2</ref>) and zDHHC3/zDHHC15 identified as the acylating enzymes. The acylation-deficient C99/ 200/204S protein retained the ability to enhance the surface expression of co-expressed CALHM1, but heteromeric CALHM1/3 channels bearing the triple mutation had reduced activity compared with wild-type heteromeric channels. It appears therefore that S-acylation of CALHM3 positively regulates the activity of heteromeric CALHM1/3 channels, while the S-acylation of CALHM1 negatively regulates its activity in monomeric channels. This differential regulation occurs without changes in the surface expression of either protein and likely reflects alterations in channel gating. The contribution of CALHM1 S-acylation to the activity of heteromeric CALHM1/3 channels remains to be established.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transient receptor potential channels TRPC1</head><p>The TRPC1 channel, the first cloned mammalian transient receptor potential (TRP) channel encoded by the TRPC1 gene, is a non-selective cation channel that regulates Ca 2+ influx in response to cell surface receptor activation (Table <ref type="table" target="#tab_0">1</ref>). TRPC1 is widely expressed in humans and is present in diverse cellular compartments, including the ER, plasma membrane, and intracellular vesicles. Genetic and functional studies have linked TRPC1 to diabetic nephropathy, Parkinson's disease, and cancer <ref type="bibr" target="#b28">[29]</ref>. In silico screening with CSS-Palm 2.0, a freely available software for predicting S-acylation sites relying on clustering and scoring of putative S-acylation patterns <ref type="bibr" target="#b29">[30]</ref>, identified seventeen novel palmitoyl substrates, of which 10, including the TRPC1 ion channel, were confirmed to be acylated by metabolic incorporation of radioactive palmitate. The S-acylation of TRPC1 and all other tested substrates was attributed to the Golgi-localized zDHHC3 enzyme, as determined using the DHHC palmitoylating enzyme library <ref type="bibr" target="#b30">[31]</ref>. However, the effect of this S-acylation has not been yet investigated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TRPC5</head><p>TRPC5, encoded by the TRPC5 gene, is a Ca 2+ -permeable cation channel (Table <ref type="table" target="#tab_0">1</ref>) predominantly expressed in the central nervous system (CNS) with limited expression in the kidney and cardiovascular system. TRPC5 is activated following engagement of surface receptors linked to Gq and phospholipase C, and/or Gi proteins and  has been linked genetically to anxiety, seizures, and cold sensing <ref type="bibr" target="#b31">[32]</ref>. TRPC5 undergoes PTMs, including S-glutathionylation at C176 and C178, leading to excess Ca 2+ influx and increased Ca 2+ -dependent apoptosis in the striatum of Huntington's disease (HD) <ref type="bibr" target="#b32">[33]</ref>. More recently, C181 in TRPC5 N-terminal residue was identified as critical for its function. Utilizing click chemistry with biotin-azide and 17-octadecynoid acid (17-ODYA), S-acylation at C181 was shown to stabilize the tetrameric assembly of TRPC5 during its trafficking to the plasma membrane. Treatment with the S-acylation inhibitor 2-BP significantly reduced TRPC5 channel activity and surface expression <ref type="bibr" target="#b33">[34]</ref>. S-acylation thus enhance the membrane stability of TRPC, providing a therapeutic strategy to mitigate TRPC5 toxicity in HD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TRPM7 and TRPM6</head><p>The dual-function TRPM7 channel/kinase, encoded by the TRPM7 gene, combines a membrane cation channel (Table <ref type="table" target="#tab_0">1</ref>) with an intracellular kinase domain and is essential for embryonic development in mice <ref type="bibr" target="#b34">[35]</ref>. TRPM7 is ubiquitously expressed and regulates physiological processes such as cell growth, adhesion, and proliferation and has been associated with cancer proliferation, neuronal cell death, and other pathologies <ref type="bibr" target="#b35">[36]</ref>.</p><p>The ion channel region of TRPM7 catalyses the fluxes of divalent cations (Mg 2+ and Ca 2+ ) across cell membranes, while its kinase region regulates gene expression through histone phosphorylation. TRPM7 resides both at the plasma membrane and within intracellular vesicles, where it controls the uptake and release of zinc.</p><p>Using resin-assisted capture, TRPM7 was found to be S-acylated in cardiovascular tissues from mice, rats, and humans <ref type="bibr" target="#b36">[37]</ref>. The S-acylation site was mapped to a cluster of cysteines on the Trp domain at the C-terminal (C1143, C1144, and C1146) (Figure <ref type="figure" target="#fig_1">2</ref>) and the closely related TRPM6 channel was also S-acylated at this site (on C1125 and C1126) (Figure <ref type="figure" target="#fig_1">2</ref>). Mutation of the three cysteines of TRPM7 to alanine prevented ER export and non-acylated TRPM7 chimaera or Cys-mutants remained sequestered within intracellular vesicles, had reduced surface expression, and reduced Ca 2+ uptake. Mutation of TRPM7 residues predicted to bind the Golgi-resident enzyme zDHHC17 reduced TRPM7 S-acylation, while re-expression of the surface-resident zDHHC5 enhanced TRPM7 S-acylation. TRPM7 thus appears to be sequentially S-acylated in the ER, Golgi, and PM, and to depend on S-acylation to reach the plasma membrane and to mediate Ca 2+ fluxes. The cluster of cysteines is retained in many TRPV and TRPC channels, raising the possibility that this regulation is shared within the TRP superfamily.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TRPM8</head><p>TRPM8, encoded by the TRPM8 gene, is a cation channel (Table <ref type="table" target="#tab_0">1</ref>) with permeability to both monovalent and divalent cations. It serves as a sensor for cold and is activated by drops in temperature, organic agents (menthol and icilin), voltage, pressure, and osmolality <ref type="bibr" target="#b37">[38]</ref>. In silico screening with CSS-Palm 2.0 identified TRPM8 as S-acylation substrate, a prediction subsequently validated through metabolic incorporation of radioactive palmitate, and the Golgi-localized zDHHC3 enzyme as mediating its S-acylation. The impact of TRPM8 S-acylation remains unexplored <ref type="bibr" target="#b30">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TRPML1</head><p>The mucolipin TRP Cation Channel 1 (TRPML1, encoded by the MCOLN1 gene) is a non-selective cation channel that mediates Ca 2+ release from late endosomes and lysosomes (Table <ref type="table" target="#tab_0">1</ref>). Mutations in MCOLN1 have been linked to mucolipidosis type IV, a lysosomal storage disorder characterized by severe neurological and ophthalmologic abnormalities <ref type="bibr" target="#b38">[39]</ref>. Using palmitate labelling and cysteine mutagenesis, TPRML1 was shown to be acylated on three consecutive cysteines at position 565-567 (Figure <ref type="figure" target="#fig_1">2</ref>). Full length channels bearing the triple Cys substitution failed to internalize after stimulation, indicating that S-acylation promotes TRPML1 endocytosis <ref type="bibr" target="#b39">[40]</ref>. S-acylation of TRPML1 was enhanced following stimulation of gastric parietal cells with histamine, suggesting that dynamic S-acylation of TRPML1 might target TRPML1 to specific lipid microdomains during activation of parietal cells <ref type="bibr" target="#b40">[41]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TRPML3</head><p>TRPML3, also known as Mucolipin-3, encoded by the MCOLN3 gene, is an endolysosomal cation channel (Table <ref type="table" target="#tab_0">1</ref>) involved in the regulation of endosomal Ca 2+ and pH and in autophagosome biogenesis <ref type="bibr" target="#b41">[42]</ref>. Gain-of-function mutations in TRPML3 cause deafness and behavioural alterations in mice while Trpml3-deficient mice exhibit lung emphysema due to impaired clearance of elastase by alveolar macrophages <ref type="bibr" target="#b42">[43]</ref>. Using metabolic labelling and mass spectroscopy, TRPML3 was shown to undergo S-acylation on three C-terminal cysteines, C550, C551, and C549 (Figure <ref type="figure" target="#fig_1">2</ref>), a modification reduced by zDHHC1 or zDHHC11 silencing. Serine substitution of these three cysteines did not impair channel function or subcellular localization but reduced its surface expression and prevented TRPML3 trafficking to autophagic structures, suggesting that S-acylation controls TRPML3 trafficking between subcellular compartments <ref type="bibr" target="#b43">[44]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PKD2-L1</head><p>The polycystin proteins (PC, PKD), linked to polycystic kidney diseases, comprise a class of 6-transmembrane channel proteins (PKD2, PKD2-L1, PKD2-L2; TRPPs) that form Ca 2+ -permeable channels in primary cilia to drive hedgehog signalling during vertebrate development <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>. PKD2-L1 ( polycystin-2L1, polycystin-L, TRPP2, formerly TRPP3, encoded by the PKD2L1 gene) is a non-selective cation channel (Table <ref type="table" target="#tab_0">1</ref>) activated by the washout of extracellular acid (acid-evoked off response), highly expressed in the tongue taste receptor cells. PKD2-L1 implication in sour taste detection was recently ruled out by the identification of loss of function genetic variants in Gumuz Ethiopians who had normal sour recognition despite a complete loss of channel function <ref type="bibr" target="#b46">[47]</ref>. Human PKD2-L1 was found by acyl-biotin exchange to be S-acylated at C38 (Figure <ref type="figure" target="#fig_1">2</ref>) and inhibition of S-acylation with 2-BP or alanine substitution of C38 reduced PKD2-L1-mediated Ca 2+ currents in Xenopus oocytes <ref type="bibr" target="#b47">[48]</ref>. A GFP-tagged N-terminal domain bearing the C38A mutation failed to decorate the plasma membrane when expressed in HEK-293 cells, indicating that S-acylation contributes to membrane anchoring. Whether S-acylation contributes to the targeting of PKD2-L1 to cilia or to its function in gustatory receptors cells is unknown.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ligand-gated ionotropic ion channels</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NMDA receptors</head><p>The N-methyl-D-aspartate (NMDA) receptor, a type of glutamate receptor, functions as the primary excitatory neurotransmitter in the human brain. It is permeable to Ca 2+ , Na + , and K + and its permeability to ions is strongly dependent on the composition of the subunit (Table <ref type="table" target="#tab_0">1</ref>). NMDA receptors underly neuronal processes such as long-term potentiation, synaptic plasticity, and memory formation. Excessive stimulation of NMDA receptors cause excitotoxicity and contributes to the pathophysiology of severe diseases, including epilepsy and Alzheimer's disease <ref type="bibr" target="#b48">[49]</ref>. Using metabolic incorporation of radioactive palmitate, NR2A and NR2B subunits of the NMDA receptor were shown to exhibit two distinct clusters of S-acylation sites in their C-terminal region.</p><p>The first cluster consists of three conserved cysteines located in the juxta-membrane region just beyond transmembrane domain 4; C848, C853, and C870 in NR2A and C849, 854, and 871 in NR2B (Figure <ref type="figure" target="#fig_1">2</ref>). S-acylation within this cluster enhances the phosphorylation of tyrosine-based internalization motifs by Src family protein kinases, increasing the surface expression of NMDA receptors <ref type="bibr" target="#b49">[50]</ref>. The second cluster comprises four conserved cysteines in the middle of the C-terminus, C1214, C1217, C1236, and C1239 in NR2A and C1215, C1218, C1242, and C1245 in NR2B (Figure <ref type="figure" target="#fig_1">2</ref>). S-acylation of the second cluster, facilitated by a distinct palmitoyl transferase known as zDHHC3, a Golgi-specific protein with a DHHC zinc finger domain exhibiting PAT activity towards both AMPA <ref type="bibr" target="#b50">[51]</ref> and GABAA receptors <ref type="bibr" target="#b51">[52]</ref>, causes the receptors to accumulate in the Golgi apparatus and reduces receptor surface expression <ref type="bibr" target="#b49">[50]</ref>. These findings indicate that S-acylation of NR2 subunits has a dual role, differentially modulating receptor trafficking and hence synaptic plasticity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AMPA receptors</head><p>The α-amino-3-hydroxy-5-methyl-4-isoxazole propionate (AMPA) receptor, a ligand-gated cation channel (Table <ref type="table" target="#tab_0">1</ref>), mediates the rapid phase of excitatory postsynaptic currents in the CNS <ref type="bibr" target="#b52">[53]</ref>. Comprising four subunits (GluR1, GluR2, GluR3, and GluR4, encoded by the GRIA1-4 genes), the AMPA receptor undergoes various PTMs. S-acylation of two distinct sites was shown to regulate AMPA receptor localization <ref type="bibr" target="#b50">[51]</ref>. Using radiolabeled palmitic acid, two cysteines were identified by mutagenesis as acylated (Figure <ref type="figure" target="#fig_1">2</ref>), one in the second transmembrane domain and another in the C terminal domain of GluR1-4. Mutation of these cysteines to serines did not disrupt the assembly of GluR1/GluR2 heteromers expressed in HEK-293 cells or alter their biophysical properties. Enforced expression of Golgi-resident zDHHC3 enhanced the S-acylation of the TM2 cysteines (Figure <ref type="figure" target="#fig_1">2</ref>) and reduced surface expression of AMPA receptors by promoting their accumulation in the Golgi apparatus. In contrast, mutation of the C-terminal cysteine did not impact surface expression of AMPA receptor subunits but enhanced the association of GluR1 with the 4.1N protein, which stabilizes receptors at the cell surface by interacting with the actin cytoskeleton. Stimulation of cortical cultured neurons with glutamate promoted the de-acylation of the AMPA receptor, linking receptor S-acylation to its activity. These data indicate that S-acylation of AMPA receptor subunits modulates receptor trafficking and may be regulated by synaptic activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>P2X7 receptor</head><p>The purinergic ionotropic P2X7 receptor (P2X7R, encoded by the P2RX7 gene) is a cation channel (Table <ref type="table" target="#tab_0">1</ref>) gated by ATP involved in inflammation and neuropathic pain, expressed in haematopoietic, epithelial, and neuronal cells <ref type="bibr" target="#b53">[54]</ref>. P2X7R was shown to accumulate tritiated palmitate via thioester bonds and to associate with detergent-resistant membranes in a 2-BP but ATP-independent manner in HEK-293 cells and primary macrophages <ref type="bibr" target="#b54">[55]</ref>. Among 16 potential sites, 4 clusters of cysteine residues in the channel C-terminal domain were involved in S-acylation, the substitution of juxta-membrane residues, C371, C373, and C374 (Figure <ref type="figure" target="#fig_1">2</ref>), reducing and the substitution of distal residues abrogating palmitic acid incorporation. The S-acylation-defective P2X7R mutants did not associate with detergent-resistant membranes, had reduced halflife and cell surface expression, increased proteasomal degradation, and colocalized with calnexin and Lamp1 <ref type="bibr" target="#b54">[55]</ref>. S-acylation of P1X7R thus involves multiple C-terminal cysteine residues and controls the channel surface expression and association with lipid rafts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Store-operated Ca 2+ channels</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Orai1</head><p>The Ca 2+ -selective ion channel ORAI1 (Table <ref type="table" target="#tab_0">1</ref>), encoded by the ORAI1 gene, is the pore component of the store-operated Ca 2+ entry pathway. This Ca 2+ Release-Activated Channel (CRAC) mediates intracellular signals that control the proliferation of T cells and loss-of-function mutations in ORAI1 cause severe combined immunodeficiencies. Effective immune responses require Ca 2+ entry through ORAI1 when T cell receptors interact with antigen-presenting cells at the immune synapse (IS) <ref type="bibr" target="#b55">[56]</ref>. We and others have shown by H 3 -palmitate and PEG incorporation that ORAI1 is S-acylated at cysteine residue C143 (Figure <ref type="figure" target="#fig_1">2</ref>) and that this PTM positively regulates store-operated Ca 2+ entry <ref type="bibr" target="#b56">[57,</ref><ref type="bibr" target="#b57">58]</ref>. ORAI1 S-acylation by zDHHC20 targets the Ca 2+ channel to lipid rafts, enhancing the recruitment and signalling of T-cell receptors at the IS in Jurkat T cells. The S-acylation-deficient ORAI1 C143A mutant mediated reduced CRAC currents and was poorly recruited to the IS, severely impairing synapse formation and T cell activation. S-acylation of ORAI1 thus controls the recruitment and function of channels and receptors at the IS to mediate efficient T cell responses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STIM1</head><p>The stromal interaction molecule 1 (STIM1, encoded by the STIM1 gene) is an ER-resident protein with a single transmembrane domain that, upon Ca 2+ depletion of the ER, undergoes a series of conformational changes that promote its translocation to cortical ER structures, where it traps and gate ORAI Ca 2+ -permeable channels. STIM1 is primarily expressed in T cells and in skeletal muscles <ref type="bibr" target="#b58">[59]</ref> and as ORAI1 is critical for T cells activation <ref type="bibr" target="#b59">[60]</ref> and muscle development <ref type="bibr" target="#b60">[61]</ref>. Using Acyl-RAC, STIM1 was shown to be S-acylated on cysteine 437 (Figure <ref type="figure" target="#fig_1">2</ref>) in Jurkat T cells and HEK-293 cells. This S-acylation is required for a fully functional SOCE and for efficient STIM1-ORAI1 puncta formation and colocalization <ref type="bibr" target="#b61">[62]</ref>, indicating that S-acylation positively regulates STIM1 activation step(s).</p><p>Ca 2+ pumps and exchangers</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NCX1</head><p>The sodium-calcium exchanger 1 (NCX1, encoded by the SLC8A1 gene) is a prototypical case of regulation of a Ca 2+ transporter by S-acylation (Table <ref type="table" target="#tab_0">1</ref>). NCX1 catalyses the bidirectional, electrogenic exchange of one Ca 2+ for three Na + ions, driven by the transmembrane sodium gradient. NCX1 shapes Ca 2+ signals that control the contractility of cardiac muscle and alterations in the Ca 2+ extruding activity of NCX1 are associated with cardiac ischaemia, heart failure, and arrythmia. NCX1 is S-acylated on a single residue, C739 (Figure <ref type="figure" target="#fig_1">2</ref>), a process regulated by a distal amphipathic helix (aa 740-756) that directly interacts with DHHC-PATs <ref type="bibr" target="#b62">[63]</ref>. This reversible PTM (the only reported so far for NCX1) enhances the inactivation of the exchanger <ref type="bibr" target="#b63">[64]</ref>. Subsequent reports by the Fuller group identified zDHHC5 and APT-1 as the enzymes mediating dynamic NCX1 S-acylation and de-acylation at the plasma membrane, respectively, and revealed that S-acylation increases the affinity of NCX1 for ordered lipids and for its endogenous exchange inhibitory peptide (XIP) <ref type="bibr" target="#b64">[65]</ref>. 2-BP and the C739A mutation decreased intermolecular fluorescence resonance energy transfer (FRET) between tagged NCX1 without altering the monomer/dimer ratio, indicating that S-acylation enhances interactions between NCX1 protomers. Pharmacological manipulations of cellular cholesterol altered FRET signals of WT but not of non-S-acylated NCX1-C739A, which partitioned in cholesterol-poor domains in giant plasma membrane vesicles, indicating that S-acylation controls the affinity of NCX1 for lipid rafts. Biochemically, 2-BP and the C739A mutation decreased the ability of biotinylated XIP to pull-down NCX1 by interacting with a binding site (709-728) within the NCX1 regulatory intracellular loop. Functionally, the C739A mutation enhanced the resting cytosolic Ca 2+ concentration in HEK-293 cells by augmenting Na + -driven Ca 2+ entry across the exchanger. This comprehensive study establish that S-acylation controls the inactivation of the exchanger by enhancing its affinity for lipids and for its endogenous inhibitory motif. The recently reported cryo-EM structures of human cardiac NCX1 <ref type="bibr" target="#b65">[66]</ref> will provide insight into the structural basis of this modulation which has important functional consequences and clinical implications as dysregulation of NCX1 S-acylation has been linked to heart failure and left ventricular hypertrophy <ref type="bibr" target="#b66">[67]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SERCA</head><p>The sarco-ER Ca 2+ pump is an intracellular pump that transports Ca 2+ from the cytoplasm into the lumen of the ER or, in muscle, SR. SERCA catalyses Ca 2+ transport across the membrane using the energy derived from ATP hydrolysis. Using acyl-RAC and LC-MS/MS, the SERCA 1A isoform (encoded by the ATP2A1 gene) was shown to be S-acylated on eight cysteines located throughout its cytoplasmic domain, C12, C344, C349, C364, C471, C636, C674 and C675 (Figure <ref type="figure" target="#fig_1">2</ref>) <ref type="bibr" target="#b67">[68]</ref>. Out of these eight acylated cysteines, six are conserved in SERCA2 and SERCA3. The functional impact of SERCA S-acylation is currently not known. However, it has been observed that 2-BP treatment leads to enrichment of SERCA2b at ER-mitochondrial contact sites, indicating that S-acylation might regulate SERCA localization <ref type="bibr" target="#b68">[69]</ref>.</p><p>Ca 2+ release channels</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IP3R1</head><p>The inositol 1,4,5-trisphosphate receptor is an intracellular channel that releases Ca 2+ from the ER into the cytosol upon binding inositol trisphosphate (InsP3) (Table <ref type="table" target="#tab_0">1</ref>). IP3R converts external cues into intracellular Ca 2+ signals and plays a fundamental role in a wide spectrum of cellular processes in both excitable and nonexcitable cells. Mammals express three distinct IP3R isoforms (type 1-3, encoded by the ITPR1-3 genes) that have overlapping yet distinct expression patterns with most of the cells expressing more than one isoform <ref type="bibr" target="#b69">[70]</ref>. Loss-of-function mutations in IP3R1 lead to neurological disorder while loss-of-function mutation in IP3R2 and IP3R3 lead to exocrine disorders and cancer <ref type="bibr" target="#b70">[71]</ref>. Using Acyl-biotin exchange and MS from rat overexpressing ITPR1, Cys 56 and 849 and potentially 2214 of IP3R1 (Figure <ref type="figure" target="#fig_1">2</ref>) were identified as S-acylated <ref type="bibr" target="#b71">[72]</ref>. Their substitution reduced S-acylation by 75%, suggesting that other cysteines might be S-acylated. Genetic invalidation of the ER-localized selenium-containing protein, selenoprotein K (Selk), or of its associated PAT zDHHC6 decreased IPTR1 S-acylation and impaired receptor stability and InsP3-mediated Ca 2+ release. S-acylation by an ER-bound zDHHC6/Selk complex thus promotes the stable expression and function of IP3R1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ryanodine receptor</head><p>The ryanodine receptors (RyRs) are another class of Ca 2+ -release channels (Table <ref type="table" target="#tab_0">1</ref>) comprising three isoforms (RyR1-3, encoded by the RYR1-3 genes) that orchestrate muscle contraction <ref type="bibr" target="#b72">[73]</ref> and neurotransmitter release <ref type="bibr" target="#b73">[74]</ref>. Malfunctions in RyRs have been linked to the onset of myopathies, diabetes, and neurodegenerative diseases <ref type="bibr" target="#b72">[73]</ref>. Among the isoforms, RYR1 is primary expressed in skeletal muscle, RYR2 predominates in myocardium, while RYR3 is more widespread with expression in the brain <ref type="bibr" target="#b74">[75]</ref>. Using acyl-RAC, LC-MS/MS, and palmitate incorporation, RyR1 was found to be S-acylated on 18 distinct cysteine residues distributed within multiple functional domains (Figure <ref type="figure" target="#fig_1">2</ref>) <ref type="bibr" target="#b67">[68]</ref>. Preventing S-acylation with hydroxylamine reduced ryanodine binding in intact SR vesicles while 2-BP reduced stimulus-coupled Ca 2+ release in mouse myofibers <ref type="bibr" target="#b67">[68]</ref>. S-acylation of RyR1 at multiple sites thus enhances the SR Ca 2+ release and might promote excitationcontraction coupling in skeletal muscle.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>In this review, we summarize recent studies addressing the molecular basis and functional consequence of the S-acylation of Ca 2+ transport proteins, a rapidly evolving field. From our inventory, it appears that no straight prediction can be made as to the expected effects of S-acylation on the function of a Ca 2+ transport protein as summarized in Figure <ref type="figure" target="#fig_1">2</ref> and Table <ref type="table" target="#tab_0">1</ref>. While positive modulation of transport activity is frequently reported, several transporters are negatively modulated by S-acylation and opposite effects have been reported to result from the S-acylation of distinct residues on the same transport protein. Gains of function are mostly linked to an enhanced trafficking of the transport proteins or to their increased interactions with membrane lipids, a prominent feature. However, S-acylation has been reported to either target or remove transport proteins from lipid rafts, and the mere accumulation of transporters in these lipid domains does not necessary implies a gain of function.</p><p>A better understanding of the dynamic impact of S-acylation on the structural constraints of Ca 2+ transport by membrane proteins is therefore required to model the consequences of this regulation for cellular Ca 2+ fluxes. Currently, over 40 ion channel subunits, including some Ca 2+ channels mentioned in this review, have been experimentally confirmed to undergo S-acylation. Advances in proteomics will likely increase the number of S-acylated Ca 2+ signalling molecules identified. To predict the functional consequences of S-acylation on Ca 2+ transport, several points must be addressed: (1) developing tools for time-resolved analysis of protein palmitoylation, to better relate the PTM with alterations in Ca 2+ transport, (2) designing selective inhibitors of individual zDHHC enzymes, to establish the molecular basis of ( potentially) multiple S-acylation cascades, as the widely used inhibitor 2-BP has several off-target effects on enzymes involved in lipid metabolism, (3) mapping the spatiotemporal pattern of S-acylation during a transport protein life cycle, (4) modelling the effect of S-acylation on distinct steps of Ca 2+ transport, to move beyond the simplistic 'membrane anchor' model, <ref type="bibr" target="#b4">(5)</ref> exploring the complex interactions between S-acylation and other PTMs such as phosphorylation, and (6) examining the functional consequences of S-acylation at both the cellular and organism levels, with the aim to unveil novel therapeutic strategies. Future research should aim to uncover the structural constrains imposed by S-acylation on the fluxes of ions across these membrane proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perspectives</head><p>• S-acylation is a dynamic PTM that regulates the activity of Ca 2+ transport proteins driving neurotransmission, cardiac contraction, and immune responses.</p><p>• S-acylation modulates the activity of Ca 2+ pumps, channels, and exchangers by altering their conformation and interactions with membrane lipids.</p><p>• Establishing the structural constrains imposed by S-acylation on the activity of Ca 2+ transporters could be exploited to treat neuronal, cardiac and immune diseases.</p><p>formal analysis, investigation, writingreview and editing, visualization, supervision, project administration, funding acquisition.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Protein S-acylation cycle.</figDesc><graphic coords="2,148.08,263.91,359.00,385.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. S-acylation of Ca2+ handling proteins. (Created with Biorender.com).</figDesc><graphic coords="7,46.72,77.27,442.56,581.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>S-acylation of Ca 2+ transporters</figDesc><table><row><cell>Part 1 of 3</cell></row></table><note><p>Continued</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>S-acylation of Ca 2+ transporters</figDesc><table><row><cell>Part 2 of 3</cell></row></table><note><p><p>Continued</p>the non-acylated C100S/C207S channel had an increased conductance and a voltage sensitivity shifted by -20 mV, activating at more negative voltages and with faster activation kinetics. S-acylation thus targets CALHM1 to lipid rafts and alters its voltage dependence to down-regulate the channel activity.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 .</head><label>1</label><figDesc>S-acylation of Ca 2+ transporters Part 3 of 3</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Functional</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Modified</cell><cell>Modifying</cell><cell></cell><cell>consequences</cell><cell></cell></row><row><cell>Gene</cell><cell cols="2">Protein Function</cell><cell>Localization</cell><cell>cysteine(s)</cell><cell cols="2">enzyme(s) Technique(s)</cell><cell>of S-acylation</cell><cell>References</cell></row><row><cell>ITPR1</cell><cell>IP3R</cell><cell>Receptor and</cell><cell>ER</cell><cell>C56 (2214) and</cell><cell>ZDHHC6</cell><cell>Mass spectroscopy,</cell><cell>Increased IP3R</cell><cell>[72]</cell></row><row><cell></cell><cell></cell><cell>Ca 2+ release</cell><cell></cell><cell>C849</cell><cell></cell><cell>acyl-biotin exchange</cell><cell>protein levels and</cell><cell></cell></row><row><cell></cell><cell></cell><cell>channel</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Ca 2+ release</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>activity</cell><cell></cell></row><row><cell>RYR1</cell><cell>RyR1</cell><cell>Ca 2+ release</cell><cell>ER</cell><cell>C24, C36,</cell><cell>-</cell><cell>Acyl-RAC, LC-MS/</cell><cell>Increased RYR1</cell><cell>[68]</cell></row><row><cell></cell><cell></cell><cell>channel</cell><cell></cell><cell>C253, C305,</cell><cell></cell><cell>MS, palmitate turnover</cell><cell>Ca 2+ release</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>C537, C1040,</cell><cell></cell><cell>assay</cell><cell>activity</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>C1674, C2021,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>C2237, C2326,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>C2363, C2555,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>C2565, C3170,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>C3193, C3402</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>and C3635</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2024 The Author(s). This is an open access article published by Portland Press Limited on behalf of the Biochemical Society and distributed under the Creative Commons Attribution License 4.0 (CC BY).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Biochemical Society Transactions (2024) 52 407-421 https://doi.org/10.1042/BST20230818</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors declare that there are no competing interests associated with the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open Access</head><p>Open access for this article was enabled by the participation of University of Geneva in an all-inclusive Read &amp; Publish agreement with Portland Press and the Biochemical Society under a transformative agreement with Individual. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Calcium signaling in platelets</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Varga-Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nieswandt</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1538-7836.2009.03455.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1538-7836.2009.03455.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Thromb. Haemost</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1057" to="1066" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An emerging role for calcium signaling in cancer-Associated fibroblasts</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sadras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Monteith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Roberts-Thomson</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms222111366</idno>
+		<ptr target="https://doi.org/10.3390/ijms222111366" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<date type="published" when="2021">2021. 11366</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Calcium control of neurotransmitter release</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sudhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/cshperspect.a011353</idno>
+		<ptr target="https://doi.org/10.1101/cshperspect.a011353" />
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb. Perspect. Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2012">2012. 011353</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ca 2+ signaling during mammalian fertilization: requirements, players, and adaptations</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vanderheyden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Fissore</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/cshperspect.a006767</idno>
+		<ptr target="https://doi.org/10.1101/cshperspect.a006767" />
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb. Perspect. Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Molecular basis of calcium signaling in lymphocytes: STIM and ORAI</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Hogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rao</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.immunol.021908.132550</idno>
+		<ptr target="https://doi.org/10.1146/annurev.immunol.021908.132550" />
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="491" to="533" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of voltage-gated ion channels</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cassinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Viñola-Renart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Benavente-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Navarro-Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Capera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Felipe</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms23169357</idno>
+		<ptr target="https://doi.org/10.3390/ijms23169357" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Regulation of cardiovascular calcium channel activity by post-translational modifications or interacting proteins</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W Z</forename><surname>Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Soong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00424-020-02398-x</idno>
+		<ptr target="https://doi.org/10.1007/s00424-020-02398-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Pflügers Arch</title>
+		<imprint>
+			<biblScope unit="volume">472</biblScope>
+			<biblScope unit="page" from="653" to="667" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Post-translational modification of Cav1.2 and its role in neurodegenerative diseases</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphar.2021.775087</idno>
+		<ptr target="https://doi.org/10.3389/fphar.2021.775087" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Thematic review series: lipid posttranslational modifications. protein palmitoylation by a family of DHHC protein S-acyltransferases</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vasudevan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+		<idno type="DOI">10.1194/jlr.R600007-JLR200</idno>
+		<ptr target="https://doi.org/10.1194/jlr.R600007-JLR200" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1118" to="1127" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Intracellular localization and tissue-specific distribution of human and yeast DHHC cysteine-rich domain-containing proteins</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Igarashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbalip.2006.03.010</idno>
+		<ptr target="https://doi.org/10.1016/j.bbalip.2006.03.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1761</biblScope>
+			<biblScope unit="page" from="474" to="483" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Substrate recruitment by zDHHC protein acyltransferases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I P</forename><surname>Malgapo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsob.210026</idno>
+		<ptr target="https://doi.org/10.1098/rsob.210026" />
+	</analytic>
+	<monogr>
+		<title level="j">Open Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2021">2021. 210026</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Crystal structure of the human acyl protein thioesterase I from a single X-ray data set to 1.5 Å</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Devedjiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Dauter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Kuznetsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L Z</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Derewenda</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0969-2126(00)00529-3</idno>
+		<ptr target="https://doi.org/10.1016/S0969-2126(00)00529-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1137" to="1146" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A hydrophobic anchor mechanism defines a deacetylase family that suppresses host response against YopJ effectors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bürger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Willige</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chory</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-02347-w</idno>
+		<ptr target="https://doi.org/10.1038/s41467-017-02347-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2017">2017. 2201</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">ABHD17 proteins are novel protein depalmitoylases that regulate N-Ras palmitate turnover and subcellular localization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Conibear</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.11306</idno>
+		<ptr target="https://doi.org/10.7554/eLife.11306" />
+		<imprint>
+			<date type="published" when="2015">2015. 11306</date>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">ABHD17 regulation of plasma membrane palmitoylation and N-Ras-dependent cancer growth</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Remsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Suciu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Zambetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Hanigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Firestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inguva</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41589-021-00785-8</idno>
+		<ptr target="https://doi.org/10.1038/s41589-021-00785-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="856" to="864" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">L-type Ca V 1.2 calcium channels: from in vitro findings to in vivo function</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Flockerzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wegener</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00016.2013</idno>
+		<ptr target="https://doi.org/10.1152/physrev.00016.2013" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="303" to="326" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the pore-forming subunit of Ca(v)1.2 controls channel voltage sensitivity and calcium transients in cardiac myocytes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W S</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dobi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gök</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Da Silva Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Robertson-Gray</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.2207887120</idno>
+		<ptr target="https://doi.org/10.1073/pnas.2207887120" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<date type="published" when="2023">2023. 2207887120</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Protein S-palmitoylation: advances and challenges in studying a therapeutically important lipid modification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/febs.15781</idno>
+		<ptr target="https://doi.org/10.1111/febs.15781" />
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="861" to="882" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Shaping a new Ca 2+ conductance to suppress early afterdepolarizations in cardiac myocytes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Madhvani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pantazis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garfinkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Weiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/jphysiol.2011.219600</idno>
+		<ptr target="https://doi.org/10.1113/jphysiol.2011.219600" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">589</biblScope>
+			<biblScope unit="page" from="6081" to="6092" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Voltage-gated calcium channels and their auxiliary subunits: physiology and pathophysiology and pharmacology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Dolphin</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/JP272262</idno>
+		<ptr target="https://doi.org/10.1113/JP272262" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page" from="5369" to="5390" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Identification of palmitoylation sites within the L-type calcium channel β2a subunit and effects on channel function</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Chien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Shirokov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hosey</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.271.43.26465</idno>
+		<ptr target="https://doi.org/10.1074/jbc.271.43.26465" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="26465" to="26468" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Membrane targeting of L-type calcium channels</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Chien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Perez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hosey</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.273.36.23590</idno>
+		<ptr target="https://doi.org/10.1074/jbc.273.36.23590" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="23590" to="23597" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Unique regulatory properties of the type 2a Ca 2+ channel β subunit caused by palmitoylation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Platano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Olcese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Costantin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stefani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Birnbaumer</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.95.8.4690</idno>
+		<ptr target="https://doi.org/10.1073/pnas.95.8.4690" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="4690" to="4695" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of Ca 2+ channel subunit CaVβ2a induces pancreatic beta-cell toxicity via Ca 2+ overload</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kazim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Storm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Renström</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbrc.2017.07.117</idno>
+		<ptr target="https://doi.org/10.1016/j.bbrc.2017.07.117" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">491</biblScope>
+			<biblScope unit="page" from="740" to="746" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">CALHM1 ion channel mediates purinergic neurotransmission of sweet, bitter and umami tastes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taruno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vingtdeux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohmoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dvoryanchikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature11906</idno>
+		<ptr target="https://doi.org/10.1038/nature11906" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">495</biblScope>
+			<biblScope unit="page" from="223" to="226" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">CALHM1 deficiency impairs cerebral neuron activity and memory flexibility in mice</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vingtdeux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Frattini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chandakkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Adrien</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep24250</idno>
+		<ptr target="https://doi.org/10.1038/srep24250" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016">2016. 24250</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Post-translational palmitoylation controls the voltage gating and lipid raft association of the CALHM1 channel</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taruno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakajo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohsaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kido</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/JP274164</idno>
+		<ptr target="https://doi.org/10.1113/JP274164" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">595</biblScope>
+			<biblScope unit="page" from="6121" to="6145" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Posttranslational regulation of CALHM1/3 channel: N-linked glycosylation and S-palmitoylation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ikeshita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kanamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taruno</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.202002632R</idno>
+		<ptr target="https://doi.org/10.1096/fj.202002632R" />
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<date type="published" when="2021">2021. 21527</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">TRPC1</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nesin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tsiokas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mammalian Transient Receptor Potential (TRP) Cation Channels</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Nilius</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Flockerzi</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin/Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page">222</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">CSS-Palm 2.0: an updated software for palmitoylation sites prediction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/protein/gzn039</idno>
+		<ptr target="https://doi.org/10.1093/protein/gzn039" />
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng. Des. Sel</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="639" to="644" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">In silico screening for palmitoyl substrates reveals a role for DHHC1/3/10 (zDHHC1/3/ 11)-mediated neurochondrin palmitoylation in its targeting to Rab5-positive endosomes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M112.431676</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M112.431676" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<date type="published" when="2013">2013. 19816. 19829</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">TRPC5</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Zholos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mammalian Transient Receptor Potential (TRP) Cation Channels</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Nilius</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Flockerzi</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin/Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page">222</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Increased TRPC5 glutathionylation contributes to striatal neuron loss in Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Jeong</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/brain/awv188</idno>
+		<ptr target="https://doi.org/10.1093/brain/awv188" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="3030" to="3047" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">TRPC5 channel instability induced by depalmitoylation protects striatal neurons against oxidative stress in Huntington&apos;s disease</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2019.118620</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamcr.2019.118620" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1867</biblScope>
+			<date type="published" when="2020">2020. 118620</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Deletion of Trpm7 disrupts embryonic development and thymopoiesis without altering Mg 2+ homeostasis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Clapham</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1163493</idno>
+		<ptr target="https://doi.org/10.1126/science.1163493" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="756" to="760" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The pathophysiologic roles of TRPM7 channel</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>So</surname></persName>
+		</author>
+		<idno type="DOI">10.4196/kjpp.2014.18.1.15</idno>
+		<ptr target="https://doi.org/10.4196/kjpp.2014.18.1.15" />
+	</analytic>
+	<monogr>
+		<title level="j">Korean J. Physiol. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Palmitoylation regulates cellular distribution of and transmembrane Ca flux through TrpM7</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D L</forename><surname>Camargo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ceca.2022.102639</idno>
+		<ptr target="https://doi.org/10.1016/j.ceca.2022.102639" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Calcium</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<date type="published" when="2022">2022. 102639</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Palchevskyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Czarnocki-Cieciura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vistoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gervasoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nowak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Beccari</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s42003-023-05425-6</idno>
+		<ptr target="https://doi.org/10.1038/s42003-023-05425-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1065">2023. 1065</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Regulation of TRPML1 function</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Waller-Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lloyd-Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BST20140311</idno>
+		<ptr target="https://doi.org/10.1042/BST20140311" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="442" to="446" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Two di-leucine motifs regulate trafficking of mucolipin-1 to lysosomes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vergarajauregui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Puertollano</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1600-0854.2006.00387.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1600-0854.2006.00387.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="337" to="353" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A role for the Ca 2+ channel TRPML1 in gastric acid secretion, based on analysis of knockout mice</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muallem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Soyombo</surname></persName>
+		</author>
+		<idno type="DOI">10.1053/j.gastro.2010.11.040</idno>
+		<ptr target="https://doi.org/10.1053/j.gastro.2010.11.040" />
+	</analytic>
+	<monogr>
+		<title level="j">Gastroenterology</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="857" to="867" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Mucolipin-3 regulates luminal calcium, acidification, and membrane fusion in the endosomal pathway</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lelouvier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Puertollano</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M110.169185</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M110.169185" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="9826" to="9832" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Lung emphysema and impaired macrophage elastase clearance in mucolipin 3 deficient mice</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Butz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Rosato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jeridi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-021-27860-x</idno>
+		<ptr target="https://doi.org/10.1038/s41467-021-27860-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Palmitoylation controls trafficking of the intracellular Ca 2+ channel MCOLN3/TRPML3 to regulate autophagy</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muallem</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15548627.2018.1518671</idno>
+		<ptr target="https://doi.org/10.1080/15548627.2018.1518671" />
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="327" to="340" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Direct recording and molecular identification of the calcium channel of primary cilia</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Decaen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Vien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Clapham</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12832</idno>
+		<ptr target="https://doi.org/10.1038/nature12832" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">504</biblScope>
+			<biblScope unit="page" from="315" to="318" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Primary cilia are specialized calcium signalling organelles</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Decaen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Doerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Febvay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Clapham</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12833</idno>
+		<ptr target="https://doi.org/10.1038/nature12833" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">504</biblScope>
+			<biblScope unit="page" from="311" to="314" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Adaptive selection drives TRPP3 loss-of-function in an Ethiopian population</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Izquierdo-Serra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Acosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Edo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lloret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moret</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-78081-z</idno>
+		<ptr target="https://doi.org/10.1038/s41598-020-78081-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020">2020. 20999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Regulation of TRPP3 channel function by N-terminal domain palmitoylation and phosphorylation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Beauchamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hussein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hofmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M116.756544</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M116.756544" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page" from="25678" to="25691" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Glutamate, glutamate receptors, and downstream signaling pathways</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Willard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koochekpour</surname></persName>
+		</author>
+		<idno type="DOI">10.7150/ijbs.6426</idno>
+		<ptr target="https://doi.org/10.7150/ijbs.6426" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="948" to="959" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Dual palmitoylation of NR2 subunits regulates NMDA receptor trafficking</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Huganir</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2009.08.017</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2009.08.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="213" to="226" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Differential regulation of AMPA receptor subunit trafficking by palmitoylation of two distinct sites</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rumbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Huganir</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2005.06.035</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2005.06.035" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="709" to="723" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The γ2 subunit of GABA A receptors is a substrate for palmitoylation by GODZ</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Panzanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alldred</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sassoè-Pognetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.1037-04.2004</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.1037-04.2004" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="5881" to="5891" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Involvement of glutamate in learning and memory</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gasbarri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pompili</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Identification of Neural Markers Accompanying Memory</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Alfredo</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Amsterdam, Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="63" to="77" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">P2x7 interactions and signalingmaking head or tail of it</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krautloher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramírez-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nicke</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnmol.2019.00183</idno>
+		<ptr target="https://doi.org/10.3389/fnmol.2019.00183" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mol. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the P2X7 receptor, an ATP-gated channel, controls its expression and association with lipid rafts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gonnord</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Delarasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Auger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Benihoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prigent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Cuif</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.08-114637</idno>
+		<ptr target="https://doi.org/10.1096/fj.08-114637" />
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="795" to="805" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Immune synapse residency of Orai1 alters Ca 2+ response of T cells</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Voros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Panyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hajdu</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms222111514</idno>
+		<ptr target="https://doi.org/10.3390/ijms222111514" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<date type="published" when="2021">2021. 11514</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">S-acylation by ZDHHC20 targets ORAI1 channels to lipid rafts for efficient Ca 2+ signaling by Jurkat T cell receptors at the immune synapse</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carreras-Sureda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ji-Hee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frieden</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.72051</idno>
+		<ptr target="https://doi.org/10.7554/eLife.72051" />
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">S-acylation of Orai1 regulates store-operated Ca 2+ entry</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kodakandla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tewari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boehning</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.258579</idno>
+		<ptr target="https://doi.org/10.1242/jcs.258579" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<date type="published" when="2022">2022. 258579</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Tissue-based map of the human proteome</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uhlén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fagerberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Hallström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lindskog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Oksvold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mardinoglu</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1260419</idno>
+		<ptr target="https://doi.org/10.1126/science.1260419" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<date type="published" when="2015">2015. 1260419</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">STIM1 controls T cell-mediated immune regulation and inflammation in chronic infection</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Desvignes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Weidinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vaeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ribierre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1172/JCI80273</idno>
+		<ptr target="https://doi.org/10.1172/JCI80273" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="2347" to="2362" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">STIM1 signalling controls store-operated calcium entry required for development and contractile function in skeletal muscle</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Graham</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncb1731</idno>
+		<ptr target="https://doi.org/10.1038/ncb1731" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="688" to="697" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Dynamic S-acylation of the ER-resident protein stromal interaction molecule 1 (STIM1) is required for store-operated Ca 2+ entry</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kodakandla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tewari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Akimzhanov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbc.2022.102303</idno>
+		<ptr target="https://doi.org/10.1016/j.jbc.2022.102303" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<date type="published" when="2022">2022. 102303</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Insights into the molecular basis of the palmitoylation and depalmitoylation of NCX1</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gök</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kerekes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Plain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Kuo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ceca.2021.102408</idno>
+		<ptr target="https://doi.org/10.1016/j.ceca.2021.102408" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Calcium</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<date type="published" when="2021">2021. 102408</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the Na/Ca exchanger cytoplasmic loop controls its inactivation and internalization during stress signaling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L J</forename><surname>Ashford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hilgemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.15-276493</idno>
+		<ptr target="https://doi.org/10.1096/fj.15-276493" />
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="4532" to="4543" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Dynamic palmitoylation of the sodium-calcium exchanger modulates its structure, affinity for lipid-ordered domains, and inhibition by XIP</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gök</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Plain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2020.107697</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep.2020.107697" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<date type="published" when="2020">2020. 107697</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Structural mechanisms of the human cardiac sodium-calcium exchanger NCX1</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ottolia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-023-41885-4</idno>
+		<ptr target="https://doi.org/10.1038/s41467-023-41885-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">6181</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Dynamic but discordant alterations in zDHHC5 expression and palmitoylation of its substrates in cardiac pathologies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boguslavskyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rankin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Burton</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2022.1023237</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2022.1023237" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022. 1023237</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Regulation of the skeletal muscle ryanodine receptor/Ca 2+ -release channel RyR1 by S-palmitoylation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chaube</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Plummer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">A</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Laurita</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M114.548925</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M114.548925" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="8612" to="8619" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Palmitoylated TMX and calnexin target to the mitochondria-associated membrane: MAM targeting by palmitoylation</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Lynes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Benson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ellgaard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/emboj.2011.384</idno>
+		<ptr target="https://doi.org/10.1038/emboj.2011.384" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="457" to="470" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Inositol trisphosphate receptor Ca 2+ release channels</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Foskett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O D</forename><surname>Mak</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00035.2006</idno>
+		<ptr target="https://doi.org/10.1152/physrev.00035.2006" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="593" to="658" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Pathophysiological consequences of isoform-specific IP3 receptor mutations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kerkhofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Seitaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Monaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bultynck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Parys</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2018.06.004</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamcr.2018.06.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1865</biblScope>
+			<biblScope unit="page" from="1707" to="1717" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Stable expression and function of the inositol 1,4,5-triphosphate receptor requires palmitoylation by a DHHC6/selenoprotein K complex</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Fredericks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Osterheld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mercier</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1417176111</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1417176111" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="16478" to="16483" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Ryanodine receptor dysfunction in human disorders</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kushnir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wajsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Marks</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2018.07.011</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamcr.2018.07.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1865</biblScope>
+			<biblScope unit="page" from="1687" to="1697" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Calcium stores in hippocampal synaptic boutons mediate short-term plasticity, store-operated Ca 2+ entry, and spontaneous transmitter release</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Emptage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fine</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0896-6273(01)00190-8</idno>
+		<ptr target="https://doi.org/10.1016/S0896-6273(01)00190-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="197" to="208" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Ryanodine receptors: structure, expression, molecular details, and function in calcium release</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Lanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Georgiou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hamilton</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/cshperspect.a003996</idno>
+		<idno type="PMID">20961976</idno>
+		<idno type="PMCID">PMC2964179</idno>
+		<ptr target="https://doi.org/10.1101/cshperspect.a003996" />
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Biol</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

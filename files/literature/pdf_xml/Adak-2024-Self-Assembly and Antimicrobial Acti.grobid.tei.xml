@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Self-Assembly and Antimicrobial Activity of Lipopeptides Containing Lysine-Rich Tripeptides</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-11">January 11, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anindyasundar</forename><surname>Adak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Valeria</forename><surname>Castelletto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><forename type="middle">De</forename><surname>Sousa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kimon-Andreas</forename><surname>Karatzas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Callum</forename><surname>Wilkinson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nikul</forename><surname>Khunti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jani</forename><surname>Seitsonen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ian</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">sı Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Self-Assembly and Antimicrobial Activity of Lipopeptides Containing Lysine-Rich Tripeptides</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-11">January 11, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">60C5F601DBE60D49C4B9B8400C59C0D8</idno>
+					<idno type="DOI">10.1021/acs.biomac.3c01184</idno>
+					<note type="submission">Received: October 31, 2023 Revised: December 21, 2023 Accepted: December 21, 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Metrics &amp; More Article Recommendations</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The conformation and self-assembly of two pairs of model lipidated tripeptides in aqueous solution are probed using a combination of spectroscopic methods along with cryogenic-transmission electron microscopy (cryo-TEM) and small-angle X-ray scattering (SAXS). The palmitoylated lipopeptides comprise C 16 -YKK or C 16 -WKK (with two L-lysine residues) or their respective derivatives containing D-lysine (k), i.e., C 16 -Ykk and C 16 -Wkk. All four molecules self-assemble into spherical micelles which show structure factor effects in SAXS profiles due to intermicellar packing in aqueous solution. Consistent with micellar structures, the tripeptides in the coronas have a largely unordered conformation, as probed using spectroscopic methods. The molecules are found to have good cytocompatibility with fibroblasts at sufficiently low concentrations, although some loss of cell viability is noted at the highest concentrations examined (above the critical aggregation concentration of the lipopeptides, determined from fluorescence dye probe measurements). Preliminary tests also showed antimicrobial activity against both Gram-negative and Gram-positive bacteria.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ INTRODUCTION</head><p>Peptide amphiphiles (PAs) are a remarkable class of molecules built from biomimetic elements that can be designed to produce self-assembled nanostructures with an impressive range of demonstrated bioactivities. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> They can be designed and constructed in various ways. One class of PA is surfactantlike peptides (SLPs) in which the peptide sequence has an amphiphilic character due to sequences of hydrophobic and hydrophilic amino acids. Another class of PAs is formed by the covalent conjugation of lipid chains or aromatic moieties to peptides. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> Generally, the PAs are constructed by the attachment of a lipid chain or aromatic moiety at the Nterminal of the desired peptide sequences. In the self-assembly process, the lipid chain or aromatic moiety will be at the core of the nanostructure because of its hydrophobic character, and a hydrophilic or charged C-terminal peptide will form the exterior corona of the nanostructure and act as a polar headgroup. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> Depending on the peptide sequence, length, and properties of the hydrophobic moiety, different self-assembled nanostructures are formed. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> The most commonly reported are fibers (or nanofibers, also known as fibrils or nanofibrils), these being favored by sequences that drive β-sheet conformation. However, other morphologies including nanotubes, nanorings, and nanosheets are also observed. Lip-opeptide micelles (including wormlike micelles and spherical micelles) have also been observed for conjugates containing αhelical peptides <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> or short peptide sequences, <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> conjugates containing intrinsically disordered peptides, <ref type="bibr" target="#b21">22</ref> or even cyclic lipopeptides. <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> Antimicrobial peptides (AMPs) are currently attracting attention because of the antibiotic resistance of traditional antibiotics. One class of AMPs is endogenous molecules, which can be found in the innate immune system of living organisms. <ref type="bibr" target="#b27">28</ref> Another type of AMP contains cationic residues that interact with anionic or zwitterionic bacterial cell membranes, leading to lysis and the leakage of ions, nutrients, and cytoplasmic components, and ultimately killing the bacteria without the threat of bacterial resistance. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> Based on this mode of action, several AMPs have been designed, developed, and isolated from various organisms. <ref type="bibr" target="#b30">31</ref> Among the diverse applications of PAs, they can show useful in vivo AMP activity because their N-terminus is protected by acylation, which improves stability against proteolytic degradation. This can also be enhanced by incorporating nonnatural residues or D-amino acid variants into the peptide sequence. <ref type="bibr" target="#b31">32</ref> Among studies reported on lipidated lysine-rich short-peptides, the self-assembled structures of mono-and di-lipidated KKK and KEK peptides have been probed, and the formation of a ribbon-like structure was observed for di-lipid peptide conjugates, but for the mono-lipid peptide conjugate, no dominant self-assembled nanostructure was observed. <ref type="bibr" target="#b32">33</ref> The self-assembly of C 16 -KKF and C 16 -KKFF cleaved from the PA C 16 -KKFFVLK led to the formation of spherical micelles. <ref type="bibr" target="#b33">34</ref> Later, the antimicrobial activity of C 16 -KKFF in a hybrid material with alginate and graphene oxide was examined, and significant antimicrobial activity specific to the Gram-positive bacterium Listeria monocytogenes was noted. <ref type="bibr" target="#b34">35</ref> Another recent study reports a very thorough investigation of the selfassembly, antibacterial, and wound-healing properties of lysine-rich lipopeptides incorporating amyloid sequences to drive β-sheet fibril formation. <ref type="bibr" target="#b35">36</ref> Laverty and co-workers developed antimicrobial lipopeptides of the form C n -OOWW (n = 6-16, and O denotes ornithine, the analogue of lysine with one less methyl group in the side chain). <ref type="bibr" target="#b36">37</ref> Most closely related to the study here, Makovitzki et al. reported lipopeptides comprising palmitic acid conjugated to cationic di-and tri-peptides containing all L-amino acids or mixed D,Lsequences and observed significant antimicrobial activity, although the conjugates containing D-amino acid did not display any enhanced activity compared to those based on Lamino acids. <ref type="bibr" target="#b37">38</ref> Watson et al. reported a comprehensive comparison of cellular uptake and delivery ability of two cellpenetrating peptides P16 and its truncated version P7, where the tripeptide WKK at the C-terminal of both peptides played a crucial role. <ref type="bibr" target="#b38">39</ref> Further, this class of amphiphilic molecule has been further developed or biomedical applications by the design of novel conjugates linking hydrophilic peptides and hydrophobic molecules such as drugs. <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41</ref> Here, we report on a series of designed lipopeptides bearing minimal cationic sequences to confer the expected antimicrobial properties. The tripeptides contain two lysine residues (as either L-or D-amino acids, K or k, respectively) as well as aromatic residues tyrosine (Y) or tryptophan (W) to modulate amphiphilicity. The self-assembly propensity of all 20 <ref type="bibr" target="#b2">3</ref> = 8000 native tripeptide sequences has been examined by computer simulation, and it was observed that those tripeptides that included hydrophilic residues along with aromatic residue were more prone to self-assembly propensity. <ref type="bibr" target="#b41">42</ref> The results of this study indicate that YKK and WKK are not expected to have a high aggregation tendency. High aggregation propensity is generally favored by sequences with aromatic residues as the second and/or third positions, whereas positively charged or hydrogen-bonding residues occupy the N-terminal position and acidic residues are favored at the C-terminus. We reasoned that conjugation of our tripeptides to N-terminal hexadecyl (C 16 ) (palmitoyl) chains would lead to surfactant-like lipopeptides with amphiphilic character.</p><p>Herein, we present a study of self-assembly and preliminary bioactivity (cytocompatibility and antimicrobial activity) investigations of the four lipopeptides C 16 -YKK, C 16 -Ykk, C 16 -WKK, and C 16 -Wkk with structures as shown in Figure <ref type="figure" target="#fig_0">1</ref>.</p><p>Here, they are abbreviated as P1, P1D, P2, and P2D, respectively. The conformation of the four conjugates was studied in aqueous solution using circular dichroism (CD) and Fourier transform infrared (FTIR) spectroscopies. Critical aggregation concentrations (CACs) were determined from fluorescence probe assays. The mode of self-assembly was determined using cryogenic-transmission electron microscopy (cryo-TEM) and small-angle X-ray scattering (SAXS). These techniques show that all four molecules form spherical micelles above the CAC. Cell viability studies show low cytotoxicity to fibroblasts at sufficiently low concentrations (although some loss of viability was observed for some molecules above the CAC). Assays to estimate minimum inhibitory concentration (MIC) values indicate that the compounds display significant antimicrobial effects against Gram-negative Escherichia coli, Salmonella enterica, and Gram-positive Staphylococcus aureus.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ EXPERIMENTAL SECTION (MATERIALS AND</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS)</head><p>Materials. Chemicals. Rink amide resin, Fmoc amino acids, diisopropylethylamine (DIPEA), and O-(1-benzotriazolyl)-1,1,3,3tetramethyluronium hexafluorophosphate (HBTU), and triisopropylsilane (TIS) were obtained from Sigma-Aldrich. Methanol, trifluoroacetic acid (TFA), piperidine, diethyl ether, phenol, dichloromethane, N,N′-dimethylformamide (DMF), HPLC grade water, and HPLC grade acetonitrile were purchased from Thermo-Fisher. Lipopeptides were purified using an Agilent 1200 HPLC with a Supelco C-18 column (Zorbax ODS HPLC column 15 × 4.6 mm, 5 μm) using a gradient of acetonitrile/water at a flow rate of 1.2 min/ml, for a runtime of 30 min.</p><p>Synthesis of Lipopeptides. Solid-phase peptide synthesis was performed using Rink amide resin as the solid support. Piperidine (20% v/v) in DMF was used for the deprotection of the Fmoc [fluorenylmethoxycarbonyl] group. For each coupling step, Fmoc amino acids (5 equiv), DIPEA (12 equiv), and HBTU (5 equiv) were used by dissolving in DMF. The reactions for the coupling step and deprotection step were performed by purging nitrogen gas for 6 h and 30 min, respectively. The free carboxylic group of palmitic acid was coupled at the N-terminal of the synthesized peptide using HBTU and DIPEA in DMF for 6 h. The lipopeptide was cleaved from the resin with a cocktail mixture containing TFA, TIS, and H 2 O [96:2.0:2.0 (v/v/v)], at room temperature for 4 h. Next, TFA was evaporated with nitrogen gas to a minimum volume, and ice-cold diethyl ether was added to yield a white precipitate. The precipitate was centrifuged, lyophilized, and purified by reversed-phase highperformance liquid chromatography. Each synthesized final molecule was characterized by HPLC (SI Figures <ref type="figure" target="#fig_0">S1,</ref><ref type="figure" target="#fig_2">S3</ref>, S5, and S7) and ESI-MS (SI Figures <ref type="figure" target="#fig_1">S2,</ref><ref type="figure" target="#fig_3">S4</ref>, S6, and S8). The mass values obtained agree with the expected molar masses P1 and P1D: M theo = 674.51 g mol -1 and P2 and P2D: M theo = 697.53 g mol -1 . The observed values are P1: M obs = 675.51 g mol -1 , P1D: M obs = 675.52 g mol -1 , P2: M obs = 698.53 g mol -1 , and P2D: M obs = 698.53 g mol -1 . The purities of the lipopeptides analyzed by HPLC are as follows: P1 = 99.62%, P1D = 99.70%, P2 = 99.49%, and P2D = 96.69% (SI Figures <ref type="figure" target="#fig_2">S1-S3</ref>, S5, and S7).</p><p>Sample Preparation. Measured amounts of lipopeptide were dissolved in water to obtain samples with defined concentrations in wt %, and their pH was measured using a Mettler-Toledo FiveEasy pH meter with a Sigma-Aldrich micro-pH combination electrode (glass body), and the pH was found to be approximately 4.6 for the samples studied here.</p><p>CD Spectroscopy. The CD spectra of the lipopeptides were obtained by using a Chirascan spectropolarimeter (Applied Photophysics, Leatherhead, UK) equipped with a thermal controller. The samples were placed in 0.1 mm quartz cells. All the spectra were recorded 3 times in the range of 280 to 180 nm, with 0.5 nm step, 1 nm bandwidth, and 1 s collection time per step. Here, each CD spectrum of the sample was background subtracted using the spectrum of water.</p><p>FTIR Spectroscopy. The FTIR spectra of the lipopeptides were recorded using a Thermo-Scientific Nicolet iS5 instrument with a deuterated triglycine sulfate (DTGS) detector, with a Specac Pearl liquid cell containing CaF 2 plates, where the sample was fixed. A total of 128 scans for each sample were recorded over the range of 900-4000 cm -1 .</p><p>Fluorescence Spectroscopy. Fluorescence experiments were carried out using a Varian Cary Eclipse spectrofluorometer in 4 mm inner-width quartz cuvettes. Excitation and emission bandwidths of 2.5 nm were used as the experimental settings. The temperature was set at 25 °C for all of the experiments. The CAC value for all of the lipopeptides was assessed by fluorescence experiments with 8-anilo-1naphthalenesulfonic acid (ANS). ANS is a suitable fluorophore to determine the CAC value, due to changes in local hydrophobicity. <ref type="bibr" target="#b42">43</ref> For this assay, various concentrations of samples were prepared in 2 × 10 -3 wt % ANS solution. Fluorescence spectra were recorded from 400 to 670 nm with λ ex = 356 nm.</p><p>To determine the CAC value of individual lipopeptides, the results were plotted as I/I 0 versus log(c/wt %), where I stands for the maximum fluorescence intensity of ANS containing the various concentrations of samples and I 0 stands for the intensity for the control, i.e., ANS solution without lipopeptide.</p><p>Cryogenic-Transmission Electron Microscopy. Imaging was carried out using a field emission cryoelectron microscope (JEOL JEM-3200FSC), operating at 200 kV. Images were taken in bright field mode and using zero loss energy filtering (omega type) with a slit width of 20 eV. Micrographs were recorded using a Gatan Ultrascan 4000 CCD camera. The specimen temperature was maintained at -187 °C during the imaging. Vitrified specimens were prepared using an automated FEI Vitrobot device using Quantifoil 3.5/1 holey carbon copper grids with a hole size of 3.5 μm. Just prior to use, grids were plasma cleaned using a Gatan Solarus 9500 plasma cleaner and then transferred into the environmental chamber of an FEI Vitrobot at room temperature and 100% humidity. Thereafter, 3 μL of sample solution was applied on the grid and was blotted twice for 5 s and then vitrified in a 1/1 mixture of liquid ethane and propane at a temperature of -180 °C. The grids with vitrified sample solution were maintained at liquid nitrogen temperature and then cryo-transferred to the microscope.</p><p>Small-Angle X-ray Scattering. SAXS experiments were performed on beamline B21 at Diamond (Didcot, UK). The sample solutions were loaded into the 96-well plate of an EMBL BioSAXS robot and then injected via an automated sample exchanger into a quartz capillary (1.8 mm internal diameter) with the X-ray beam. The quartz capillary was enclosed in a vacuum chamber to avoid parasitic scattering. After the sample was injected into the capillary and reached the X-ray beam, the flow was stopped during SAXS data acquisition. Beamline B21 operates with a fixed camera length (3.9 m) and fixed energy (12.4 keV). The images were captured by using a PILATUS 2 M detector. Data processing was performed by using the dedicated beamline software ScÅtter.</p><p>Cell Lines. L929 murine fibroblast cell lines (ECACC General Cell Collection) were grown in Dulbecco's modified Eagle's medium (DMEM) supplemented with 10% fetal bovine serum (FBS), 20 mM HEPES, and 1% GlutaMAX. The cells were maintained at pH 7.4, 37 °C, and 5% CO 2 in 25 cm 2 cell culture flasks.</p><p>Cytotoxicity Assays. For the cytotoxicity assay, approximately 6000 cells per well were seeded in 96-well plates. The medium was exchanged after 24 h by adding solutions of different concentrations of the lipopeptides ranging from 0.05 to 0.0001 wt %. After 48 h of treatment, cell viability was assessed using an MTT [3-(4, 5dimethylthiazolyl-2)-2, 5-diphenyltetrazolium bromide] assay. Here, the culture medium was removed, followed by the addition of a solution of MTT in DMEM medium at a concentration of 0.5 mg/ mL. The plate was incubated for 4 h at 37 °C. Next, to dissolve the formazan crystals, dimethyl sulfoxide was added. Thereafter, using an automatic plate reader, the absorbance was measured at 560 nm. Cell survival was expressed as a percentage of viable cells in the presence of peptides compared with control cells grown in their absence. The assay was repeated three times, and the results were averaged. Statistical significance was tested using multiple Student's t-tests.</p><p>Antibacterial Susceptibility Assay. Antibacterial susceptibility testing was performed using a broth microdilution assay, against both Gram-negative and Gram-positive bacteria, as previously described by Kourmentza et al. <ref type="bibr" target="#b43">44</ref> The target strains used were E. coli K-12, S. enterica NCTC 5188, and S. aureus NCDO 949. The test compounds were dissolved in water, filter-sterilized, and further diluted in Mueller-Hinton broth (MHB) which was used as the growth medium for the tests. 2-fold dilutions were performed, and 100 μL of each dilution was transferred to each well of 96-well plates. The final test concentration range of the compounds was 1.95-1000 μg/mL. Additionally, the 96-well plates contained wells with 200 μL of growth medium that served as sterility controls and wells filled with 100 μL of growth medium and 100 μL of inoculum that served as growth controls. The remaining wells were inoculated with 100 μL of a bacterial culture. The bacterial suspensions were prepared from overnight cultures in MHB. The bacterial density was adjusted to 0.5 McFarland (standard), and the suspensions were subsequently diluted 100 times using the growth medium. The 96-well plates were incubated at 37 °C for 24 h and the OD at 620 nm of the wells was assessed for growth. The MIC was defined as the lowest concentration of the antimicrobial agent tested that prevented any discernible growth after 24 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ RESULTS</head><p>The four lipopeptides C 16 -YKK abbreviated as P1, analogue C 16 -Ykk abbreviated as P1D, C 16 -WKK abbreviated as P2, and its D-lysine analogue C 16 -Wkk abbreviated as P2D were Biomacromolecules synthesized by solid-phase peptide synthesis methods. Rink amide resin was used as a solid support, and all the protected amino acids were coupled through an amide bond with HBTU and DIPEA as coupling agents. Piperidine was used for Fmoc group deprotection. After the synthesis of the peptides, they were cleaved from the resin by TFA, precipitated in ice-cold diethyl ether, and characterized by ESI-MS, and their purity was checked by reverse-phase HPLC. The characterization data are shown in SI Figures <ref type="figure" target="#fig_8">S1-S8</ref>. We first examined the peptide conformation using spectroscopic methods. CD spectra are shown in Figure <ref type="figure" target="#fig_1">2</ref>. In the CD spectra, the 0.25 and 0.5 wt % aqueous solutions of P1 displayed a minimum with a negative band at 190 nm and positive bands near 200 nm and 225-230 nm, which suggests unordered and/or extended (polyproline II-like) coil conformation <ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref> (Figure <ref type="figure" target="#fig_1">2A</ref>), and similar features are seen for P1D and P2D (Figure <ref type="figure" target="#fig_1">2B,</ref><ref type="figure">D</ref>). The spectrum for P2 in Figure <ref type="figure" target="#fig_1">2C</ref> features a negative minimum at 200 nm rather than a positive maximum, although the secondary maximum at 225-230 nm is still present. The band in the CD spectra in the range of 225-230 nm is due to the aromatic amino acid chromophore, i.e., tyrosine for P1 and P1D and tryptophan for P2 and P2D. <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> Next, FTIR spectra were measured. Spectra covering the amide I′ and II′ regions are shown in Figure <ref type="figure" target="#fig_2">3</ref>, the amide I region being important to characterize the secondary structure of peptides. From Figure <ref type="figure" target="#fig_2">3</ref>, bands in the range of 1500-1700 cm -1 were observed for P1, P2, and P2D, which suggest the formation of disordered conformation. <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref> For all the lipopeptides, a broad peak in the amide II′ region centered around 1590-1600 cm -1 was observed, which can be assigned to aromatic side chain bands. <ref type="bibr" target="#b52">53</ref> The presence of the palmitoyl chain in each lipopeptide can be confirmed by the appearance of the peaks corresponding to the CH/CH 2 /CH 3 stretching modes of the lipid chains, showing bands centered at ∼2850 and ∼2920 cm -1 in the FTIR spectra (Figure <ref type="figure">S9</ref>). <ref type="bibr" target="#b53">54</ref> To determine CAC values of these lipopeptides, fluorescence probe assays using ANS were performed. <ref type="bibr" target="#b42">43</ref> Emission spectra of the four lipopeptides were collected at different concentrations after excitation at 356 nm. At higher concentrations, an emission peak at 486 nm is visible. By plotting the fluorescence intensity (I/I 0 ) at 486 nm as a function of the concentration (Figure <ref type="figure" target="#fig_0">S10</ref>), the concentration at the breakpoint (corresponding to the CAC) was found to be 0.00645 ± 0.05 wt % for P1 (Figure <ref type="figure" target="#fig_3">4A</ref>), 0.00707 ± 0.03 wt % for P1D (Figure <ref type="figure" target="#fig_3">4B</ref>), 0.00204 ± 0.04 wt % for P2 (Figure <ref type="figure" target="#fig_3">4C</ref>), and 0.00257 ± 0.05 wt % for P2D (Figure <ref type="figure" target="#fig_3">4D</ref>). The lower CAC values for P2 and P2D are due to the higher hydrophobicity of tryptophan than tyrosine.</p><p>To investigate the self-assembled nanostructure of these peptides, cryo-TEM imaging was performed for 1 wt % solutions, above the measured CAC values. The images shown in Figure <ref type="figure" target="#fig_4">5</ref> show small spherical micelles for all samples. The mean diameter of the micelles for all four lipopeptides is in the range of 4-9 nm.</p><p>More quantitative information about these self-assembled nanostructures was obtained from SAXS, also performed for 1 wt % aqueous solutions of the four lipopeptides. Measured SAXS data along with fitted intensity profiles are shown in Figure <ref type="figure" target="#fig_5">6</ref>. Consistent with cryo-TEM, the form factors for P1, P1D, P2, and P2D can be fitted based on the core-shell sphere structure corresponding to a hydrophobic core and peptide corona. The fit parameters listed in SI Table <ref type="table" target="#tab_1">S1</ref> show outer radii in the range (2.47-2.90 ± 0.4) nm, consistent with cryo-TEM. The inner core radius is 1.45-1.56 nm, which is   consistent with the length of an extended C 16 lipid chain plus the first hydrophobic amino acid (Y or W). The resulting shell thicknesses are in the range of 1.02-1.34 nm, the value for P2 being significantly larger than for the other three lipopeptides. The shell thickness may be compared to the length of a tripeptide in an extended structure (such as PPII), 3 × 0.31 nm = 0.93 nm (residue translation value taken from ref 55) and is in good agreement with this value for P1, P1D, and P2D. For P2, the shell thickness from SAXS data fitting is larger, suggesting a more extended conformation or a greater hydration layer. The form factor parameters are the same within uncertainties for the other three lipopeptides. The association number can be estimated for P1 (similar values are expected for P1D and P2D since the micelle radius and molecular volume are similar) using the volume of a micelle V mic = 4/3π(2.52 nm) <ref type="bibr" target="#b2">3</ref> = 67.0 nm 3 , while the molecular volume V mol = 0.62 nm 3 was obtained from the hydrophobicity surface/molecular volume calculation in UCSF Chimera. <ref type="bibr" target="#b55">56</ref> This leads to an estimated association number p = V mic /V mol = (108 ± 20). A schematic showing a micelle of P1 with this association number is presented in Figure <ref type="figure" target="#fig_6">7</ref>.</p><p>As well as a contribution due to form factor, it was necessary to allow for structure factor effects in the SAXS data, which produced the broad peak near q = 0.04 Å -1 evident for all four samples in the data in Figure <ref type="figure" target="#fig_5">6</ref>. The simplest structure factor, that for hard spheres, is able to account for this feature, and the fit parameters are included in SI Table <ref type="table" target="#tab_1">S1</ref>. The hard sphere radius is R HS = 7.9 nm with an effective volume fraction ϕ p = 0.15 for P1, P1D, and P2D; however, the fit parameters for P2 differ with a smaller hard sphere radius R HS = 6.7 nm and larger ϕ p = 0.21. The origin of this difference is at present unclear, but it indicates a difference in intermolecular interactions which may be due to conformational differences, indicated by the CD spectrum in Figure <ref type="figure" target="#fig_1">2C</ref> compared with that for the other three lipopeptides and the SAXS form factor analysis just discussed. Peptide WKK seems to be more extended than the other sequences, leading to micelles with a larger shell thickness (although with a lower effective hard sphere radius and larger volume fraction perhaps due to the expanded micelle corona occupying more of the available volume).</p><p>To be useful for potential application in vivo, for example, as antimicrobial materials, bioactive molecules must have selective activity and should not be cytotoxic to mammalian cells. Here, the cytotoxicity of all the lipopeptides was investigated by MTT assays on L929 murine fibroblast cell lines. This is an assay of cell metabolic activity. For all the lipopeptides, the cytotoxicity results were obtained after 48 h of cell culture. The data in Figure <ref type="figure" target="#fig_8">8</ref> show that the cell viability is very high (there was no significant difference when compared with control cells) at the lower lipopeptide concentrations for all of the lipopeptides. However, considering concentrations (0.05 wt %) above the CAC for all samples, cell viabilities are as follows: for P1 53.1 ± 5.1% (Figure <ref type="figure" target="#fig_8">8A</ref>), for P1D 44.1 ± 7.6% (Figure <ref type="figure" target="#fig_8">8B</ref>), for P2 20.2 ± 2.8% (Figure <ref type="figure" target="#fig_8">8C</ref>), and for P2D 13.0 ± 1.1% (Figure <ref type="figure" target="#fig_8">8D</ref>), respectively. These results suggest that self-assembled aggregates are not well tolerated, whereas monomers are completely noncytotoxic.</p><p>Since all the molecules are biocompatible at low concentrations, their antibacterial efficacy was examined in preliminary tests using a broth microdilution assay against both   <ref type="table" target="#tab_1">S1</ref>). Data sets are offset vertically for ease of visualization. Gram-negative and Gram-positive bacteria. Here, E. coli K-12, S. enterica NCTC 5188 were cultured as Gram-negative bacteria and S. aureus NCDO 949 was used as a model Grampositive bacterium. The lipopeptides were dissolved in water, filter-sterilized, and further diluted in Mueller-Hinton broth, which was used as the growth medium for the experiment to determine MIC values. All four lipopeptides showed antibacterial activity against the tested strains. E. coli was most susceptible to compounds P1 and P1D with MICs falling within the range of 15.63-31.25 μg/mL (Table <ref type="table" target="#tab_1">1</ref>). The highest MIC determined was for compound P2 against S. enterica, being within the range of 62.5-250 μg/mL, and all the other MIC determinations are within the range of 31.25-62.5 μg/mL. Overall, the P1 analogues have lower MIC values than those for the P2 analogues, especially for S. enterica. The lower range MIC value for E. coli for P1, P1D, and P2 equates to a concentration of approximately 22-23 μM. This is somewhat higher than values reported for these and other bacteria by Makovitzki et al. <ref type="bibr" target="#b37">38</ref>   In summary, all four lipopeptides form spherical micelles, which present lysine residues with high cationic charge at the surface and have good cytocompatibility (below the CAC and in some cases above it) and antimicrobial activity. The lipopeptides form spherical micelles with a similar compact size (radius 2.5-2.9 nm), based on a hydrophobic lipid interior and a shell of unordered/extended peptides (based on conformational analysis from CD and FTIR). Peptide P2 exhibits some unexpected conformational differences compared with the other three lipopeptides, with a distinct CD spectrum and differences in the SAXS form factor and structure factor parameters which indicate a larger peptide corona in the micelles as well as smaller effective hard sphere radius. It may be noted that cation-π interactions are expected for our lipopeptides due to interactions between the aromatic residues and lysines. In particular, this has been modeled for tryptophan (with indole π system) interacting with lysine (cationic), and it could be a factor in the distinct behavior of C 16 -WKK (P2) although this cannot be the full explanation because P2D does not exhibit distinct behavior. There will, however, be a complex interplay between cation-π, electrostatic, and conformational (chirality) effects. For all four lipopeptides, the CAC values were obtained from fluorescence probe measurements using ANS, which exhibits enhanced fluorescence in local hydrophobic environments.</p><p>All four lipopeptides are cytocompatible with the murine fibroblasts employed at concentrations below the CAC. They also show antimicrobial activity against the Gram-negative and Gram-positive bacteria studied in the preliminary assays presented. In the antimicrobial tests, we used three different bacterial organisms. The first was the Gram-negative bacterium E. coli, which is a commensal microorganism found in the intestinal tract of humans and other warm-blooded animals which also includes pathogenic strains including O157:H7. The second was S. enteritidis NCTC 5188, also a Gramnegative bacterium that is one of the most well-known foodborne pathogens, and the third was the Gram-positive bacterium S. aureus that is also a commensal organism residing in the skin of humans and other animals and is also a human  pathogen that can cause a wide range of diseases ranging from foodborne illness to nosocomial infections. All compounds tested exerted antimicrobial activity against both Gram-negative bacteria E. coli K-12, S. enteritidis NCTC 5188, and against the Gram-positive bacterium S. aureus NCDO 949. This clearly indicates that these compounds have a relatively broad range of antimicrobial activity, although further work on a wider range of organisms would be required to establish this pattern. E. coli K-12 was relatively more susceptible to compounds P1 and P1D. However, no major differences were observed between the compounds and the microorganisms tested, apart from the increased variability between replicates for compound P2.</p><p>From the results in Figure <ref type="figure" target="#fig_8">8</ref>, it was observed that the concentration at which the lipopeptides show toxicity to L929 fibroblasts is above 0.006 wt %, i.e., 0.06 mg/mL. The lower MIC values of these lipopeptides for antimicrobial studies are around 0.015-0.03 mg/mL. In this concentration range, the lipopeptides are completely noncytotoxic. Thus, these lipopeptides are promising for future in vivo studies. Here, MIC values are found in the ten's of micromolar range, which compares well with previous results, although these are higher than values found for lipopeptides containing more cationic lysine residues (C 16 -KKK and C 16 -KkK). <ref type="bibr" target="#b37">38</ref> Thus, a larger number of lysine residues can enhance antimicrobial activity, although this must be balanced against reduced cytocompatibility, for instance, C 16 -KKK shows the highest hemolysis among all conjugates studied by Makovitzki et al. <ref type="bibr" target="#b37">38</ref> The comparable range of MIC values for our lipopeptides compared with those from tripeptide conjugates containing two lysines in this report is also promising for future in vivo applications, already demonstrated by these authors via a murine model of fungal infection. Our obtained MIC values are higher than those for nonpeptide antimicrobial pharmaceutical molecules in clinical practice, with MIC50 values of 0.04-4 μg/mL for E. coli, for example. <ref type="bibr" target="#b56">57</ref> However, they are lower than those reported for the clinically relevant cyclic lipopeptide polymyxins including colistin against S. aureus, but not Gram-negative bacteria. <ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b58">59</ref> Our MIC values are comparable to those reported for some AMPs under development for clinical application. <ref type="bibr" target="#b59">60</ref> It is notable that our lipopeptides are active against more challenging Gram-negative bacteria (with an additional outer cell membrane that Grampositive bacteria lack). This is consistent with the proposed mode of action of cationic AMPs in disrupting bacterial cell membranes which are enriched in anionic lipids compared with mammalian cells, rich in zwitterionic lipids. <ref type="bibr" target="#b60">61</ref> Future work should extend the preliminary in vitro antimicrobial tests reported here, to in vivo studies, also the mode of action could be investigated. The development of resistance as well as activity against biofilms could be examined, as assessed, for example, in our study on surfactant-like peptides that contain arginine, <ref type="bibr" target="#b61">62</ref> rather than lysine as cationic residue as in the present work. There is scope to further improve the activity of our AMPs by a combination therapy approach, as already used with antimicrobial agents in clinical practice. Since our initial results show promise, we also plan in the future to examine activity against other bacteria and to further probe biocompatibility via hemolysis assays.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ ASSOCIATED CONTENT</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>* sı Supporting Information</head><p>The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.biomac.3c01184.</p><p>HPLC and MS data for lipopeptides, FTIR spectra, fluorescence spectra from CAC assay, and SAXS data fit parameters (PDF)</p><p>■ </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Structures of (A) P1, (B) P1D, (C) P2, and (D) P2D. All peptides have an amidated C-terminus.</figDesc><graphic coords="2,315.44,60.44,239.98,366.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. CD spectra of (A) P1, (B) P1D, (C) P2, and (D) P2D in 0.25 and 0.5 wt % aqueous solutions.</figDesc><graphic coords="4,51.48,192.98,239.98,177.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. FTIR spectra of (A) P1, (B) P1D, (C) P2, and (D) P2D in 0.25 and 0.5 wt % aqueous solutions, respectively.</figDesc><graphic coords="4,315.44,60.44,239.98,165.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. CAC assay using ANS fluorescence peak intensity to determine the CAC value for (A) P1, (B) P1D, (C) P2, and (D) P2D.</figDesc><graphic coords="4,315.44,300.08,239.98,181.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Cryo-TEM images from 1 wt % solutions (A) P1, (B) P1D, (C) P2, and (D) P2D.</figDesc><graphic coords="5,51.48,60.44,239.98,239.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. SAXS data for 1 wt % aqueous solution of the four lipopeptides. Open symbols represent measured data (every 5th data point shown for convenience), and solid lines are fitted intensity profiles considering both form and structure factors (fit parameters listed in SI TableS1). Data sets are offset vertically for ease of visualization.</figDesc><graphic coords="5,58.28,340.50,226.32,185.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Model of a micelle of P1 based on SAXS fit parameters.</figDesc><graphic coords="5,375.48,161.97,119.96,113.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>■</head><label></label><figDesc>DISCUSSION AND CONCLUSIONS</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Cell viability data for P1 (A), P1D (B), P2 (C), and P2D (D). The error bar corresponds to the standard deviation of the value from the mean (n = 3, *p &lt; 0.05, **p &lt; 0.01 by performing a two-tailed Student's t-test).</figDesc><graphic coords="6,143.49,60.43,319.92,194.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>for C 16 -KKK and C 16 -KkK, although it is comparable to their values for C 16 -KGK and C 16 -KLK (for Gram-positive, lower for Gram-negative) and is lower than MIC values for most bacterial species for C 16 -KAK, C 16 -KLK and C 16 -Kk and C 16 -K. The values in Table 1 also compare favorably, in general, with those reported by Laverty et al. for C n -OOWW lipopeptides, although the latter do seem more active against Staphylococcus strains for longer chain homologues.<ref type="bibr" target="#b36">37</ref> </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Antibacterial Susceptibility Assay Showing MIC Values of the Lipopeptides against Gram-Negative Bacteria E. coli K-12, S. enterica NCTC 5188, and Gram-Positive Bacteria S. aureus NCDO 949 after 24 h Incubation Time</figDesc><table><row><cell>lipopeptides</cell><cell></cell><cell>S. enterica NCTC-</cell><cell>S. aureus NCDO</cell></row><row><cell>(μg/mL)</cell><cell>E. coli K-12</cell><cell>5188</cell><cell>949</cell></row><row><cell>P1</cell><cell>15.63-31.25</cell><cell>31.25-62.5</cell><cell>31.25-62.5</cell></row><row><cell>P1D</cell><cell>15.63-31.25</cell><cell>31.25</cell><cell>31.25</cell></row><row><cell>P2</cell><cell>15.63-62.5</cell><cell>62.5-250</cell><cell>31.25-62.5</cell></row><row><cell>P2D</cell><cell>31.25-62.5</cell><cell>62.5</cell><cell>31.25-62.5</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>AUTHOR INFORMATION Corresponding Author Ian</head><label></label><figDesc>W. Hamley -School of Chemistry, Pharmacy and Food Biosciences, University of Reading, Reading RG6 6AH, U.K.; orcid.org/0000-0002-4549-0926; Email: I.W.Hamley@ reading.ac.uk</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://doi.org/10.1021/acs.biomac.3c01184Biomacromolecules 2024, 25, 1205-1213</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors</head><p>Anindyasundar Adak -School of Chemistry </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Lipopeptides: from self-assembly to bioactivity</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5CC01535A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun. (Camb)</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="8574" to="8583" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">25th anniversary article: supramolecular materials for regenerative medicine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boekhoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Stupp</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201304606</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1642" to="1659" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Small bioactive peptides for biomaterials design and therapeutics</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.7b00522?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="14015" to="14041" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Self-sorting in supramolecular assemblies</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Stupp</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/D1SM00113B</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="3902" to="3912" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Self-assembly, bioactivity, and nanomaterials applications of peptide conjugates with bulky aromatic terminal groups</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsabm.2c01041?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Bio. Mater</title>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="384" to="409" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Alanine-rich amphiphilic peptide containing the RGD cell adhesion motif: a coating material for human fibroblast attachment and culture</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gouveia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Connon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nykänen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C3BM60232J</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="362" to="369" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structural properties of soluble peptide amphiphile micelles</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Trent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Marullo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tirrell</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1sm05862b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="9572" to="9582" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Self-assembly and mineralization of peptide-amphiphile nanofibers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Hartgerink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Beniash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Stupp</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1063187</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="issue">5547</biblScope>
+			<biblScope unit="page" from="1684" to="1688" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Hydrogelation of a Naphthalene Diimide Appended Peptide Amphiphile and Its Application in Cell Imaging and Intracellular pH Sensing</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Singha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pramanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ukil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Das</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.biomac.7b01048?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomacromolecules</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3630" to="3641" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Wormlike micelle formation in peptide-lipid conjugates driven by secondary structure transformation of the headgroups</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tirrell</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp901727q?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="issue">42</biblScope>
+			<biblScope unit="page" from="13711" to="13714" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Control of heme coordination and catalytic activity by conformational changes in peptide-amphiphile assemblies</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Kronenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Fry</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.7b01588?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page" from="8497" to="8507" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Self-assembly of a peptide amphiphile: transition from nanotape fibrils to micelles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Miravet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Segarra-Maset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Tena-Solsona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Dehsorkhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+		<idno type="DOI">10.1039/c3sm27899a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3558" to="3564" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor agonist lipopeptides selfassemble into distinct nanostructures</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kirkham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dehsorkhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C4CC07511K</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun. (Camb)</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">100</biblScope>
+			<biblScope unit="page" from="15948" to="15951" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Selfassembled micellar structures of lipopeptides with variable number of attached lipid chains revealed by atomistic molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.8b07877?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="9605" to="9615" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The effect of pH on the self-assembly of a collagen derived peptide amphiphile</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dehsorkhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adamcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mezzenga</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3sm51029h</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="6033" to="6036" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Self-assembly of peptide amphiphiles: From molecules to nanostructures to biomaterials</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Webber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Stupp</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bip.21328</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biopolymers</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Peptide based amphiphiles</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Löwik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Van Hest</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B212638A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="234" to="245" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Morphological Control of Chromophore Spin State in Zinc Porphyrin-Peptide Assemblies</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Diroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Gosztola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Cohn</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.9b09935?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="233" to="241" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Temperature-responsive self-assembled nanostructures from lysinebased surfactants with high chain length asymmetry: From tubules and helical ribbons to micelles and vesicles</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Marques</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C9SM00399A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="3700" to="3711" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Self-assembly of lipopeptides containing short peptide fragments derived from the gastrointestinal hormone PYY 3-36 : from micelles to amyloid fibrils</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Torras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Alemán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.8b11097?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="614" to="621" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Polymorphism of asymmetric catalysts based on amphiphilic lipopeptides in solution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Edwards-Gayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Aguilar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Alves</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/D0SM00245C</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="4615" to="4624" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Order from disorder with intrinsically disordered peptide amphiphiles</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacoby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Segal Asher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Abutbul Ionita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shinar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Azoulay-Ginsburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zemach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Koren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Danino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Kozlov</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.1c06133?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="11879" to="11888" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Self-assembly of three bacterially-derived bioactive lipopeptides</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dehsorkhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jauregi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coutte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chataigné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jacques</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3sm51514a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">40</biblScope>
+			<biblScope unit="page" from="9572" to="9578" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Self-assembly of the cyclic lipopeptide daptomycin: spherical micelle formation does not depend on the presence of calcium chloride</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kirkham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rambo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cphc.201600308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemPhysChem</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="2118" to="2122" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Aggregation of the naturally occurring lipopeptide, surfactin, at interfaces and in solution: an unusual type of surfactant?</title>
+		<author>
+			<persName><forename type="first">H.-H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Darton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Penfold</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la802913x?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="4211" to="4218" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Micellization activity of the natural lipopeptide [Glu1, Asp5] surfactin-C15 in aqueous solution</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Garamus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Willumeit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mu</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp908675s?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2712" to="2718" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Designer peptide amphiphiles: selfassembly to applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Das</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.9b01837?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">33</biblScope>
+			<biblScope unit="page" from="10704" to="10724" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Mode of action of membrane active antimicrobial peptides</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shai</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bip.10260</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biopolymers</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="236" to="248" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Design, synthesis, and nanostructure-dependent antibacterial activity of cationic peptide amphiphiles</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>De Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Sheridan</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsami.8b17808?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2790" to="2801" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Membrane active antimicrobial peptides: translating mechanistic insights to design</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lakshminarayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Beuerman</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnins.2017.00073</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">73</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Designing antimicrobial peptides: Form follows function</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Fjell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schneider</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrd3591</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Drug Discovery</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="51" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Antimicrobial Peptides: Therapeutic Potentials</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mishig-Ochir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1586/14787210.2014.976613</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev. Anti-Infect. Ther</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1477" to="1486" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Exploring architectures at the nanoscale: The interplay between hydrophobic twin lipid chains and head groups of designer peptide amphiphiles in the self-assembly process and application</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C6SM00147E</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="4352" to="4360" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Tuning Self-Assembled Nanostructures Through Enzymatic Degradation of a Peptide Amphiphile</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dehsorkhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la401025r?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="6665" to="6672" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Hybrid membrane biomaterials from selfassembly in polysaccharide and peptide amphiphile mixtures: controllable structural and mechanical properties and antimicrobial activity</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Karatzas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hermida-Merino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Swioklo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Connon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stasiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C6RA27244D</idno>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="8366" to="8375" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Amyloid-Inspired Engineered Multidomain Amphiphilic Injectable Peptide Hydrogel-An Excellent Antibacterial, Angiogenic, and Biocompatible Wound Healing Material</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsami.3c06599?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="33457" to="33479" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of short, synthetic cationic lipopeptides</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laverty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Gilmore</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1747-0285.2010.00973.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol. Drug. Des</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="563" to="569" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Antimicrobial lipopolypeptides composed of palmitoyl di-and tricationic peptides: In vitro and in vivo activities, self-assembly to nanostructures, and a plausible mode of action</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Makovitzki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shai</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi8011675?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">40</biblScope>
+			<biblScope unit="page" from="10630" to="10636" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Shortened penetratin cell-penetrating peptide is insufficient for cytosolic delivery of a Grb7 targeting peptide</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Del Borgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-I</forename><surname>Aguilar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wilce</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsomega.6b00561?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>ACS Omega</publisher>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="670" to="677" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Supramolecular nanostructures formed by anticancer drug assembly</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Cheetham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Lock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cui</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja3115983?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2907" to="2910" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Unravelling the Complexity of Supramolecular Copolymerization Dictated by Triazine-Benzene Interactions</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Cheetham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Cui</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.9b09848?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="17107" to="17111" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Exploring the sequence space for (tri-) peptide self-assembly to design and discover new hydrogels</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Frederix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Abul-Haija</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kalafatovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Pappas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Javid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Ulijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tuttle</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchem.2122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="30" to="37" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Self-assembly of angiotensin-converting enzyme inhibitors captopril and lisinopril and their crystal structures</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Barnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sandu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.1c01340?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="9170" to="9178" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of lipopeptide biosurfactants against foodborne pathogen and food spoilage microorganisms and their cytotoxicity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kourmentza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gromada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Degraeve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vanier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ravallec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coutte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Karatzas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jauregi</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2020.561060</idno>
+		<idno>No. 561060</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Circular dichroism</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Woody</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0076-6879(95)46006-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page" from="34" to="71" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Self-assembly of peptide-amphiphile nanofibers: the roles of hydrogen bonding and amphiphilic packing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Paramonov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-W</forename><surname>Jun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Hartgerink</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja060573x?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="7291" to="7298" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Circular dichroism spectrum of peptides in the poly (Pro) II conformation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Woody</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja901218m?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="8234" to="8245" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Influence of end-capping on the self-assembly of model amyloid peptide fragments</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cenker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adamcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mezzenga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Miravet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Escuder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rodriguez-Llansola</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp111168s?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2107" to="2116" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Circular dichroism and linear dichroism</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rodger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nordén</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Linear dichroism and circular dichroism: a textbook on polarized-light spectroscopy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nordén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rodger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dafforn</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Cambridge</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The use and misuse of FTIR spectroscopy in the determination of protein structure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Mantsch</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/10409239509085140</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Rev. Biochem Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="95" to="120" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Biological applications of infrared spectroscopy</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Stuart</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>Chichester</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Infrared spectroscopy of proteins</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbabio.2007.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta. Bioenerg</title>
+		<imprint>
+			<biblScope unit="volume">1767</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1073" to="1101" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Alpha helical surfactant-like peptides self-assemble into pH-dependent nanostructures</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/D0SM02095H</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3096" to="3104" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Proteins: structures and molecular properties</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Creighton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Freeman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">UCSF Chimera�a visualization system for exploratory research and analysis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Pettersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Goddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Couch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Greenblatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Ferrin</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20084</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1605" to="1612" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Resistance mechanisms in Pseudomonas aeruginosa and other nonfermentative gram-negative bacteria</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hancock</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/514909</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="93" to="S99" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>Suppl. 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Lipidated peptide dendrimers killing multidrug-resistant bacteria</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Siriwardena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-H</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Javor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.7b11037?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="423" to="432" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Polymyxin derivatives as broadspectrum antibiotic agents</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nimmagadda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C9CC06908A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun. (Camb)</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">87</biblScope>
+			<biblScope unit="page" from="13104" to="13107" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Designing and optimizing new antimicrobial peptides: all targets are not the same</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barreto-Santamaría</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Patarroyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Curtidor</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10408363.2019.1631249</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Rev. Clin. Lab. Sci</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="351" to="373" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Restructuring of lipid membranes by an arginine-capped peptide bolaamphiphile</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-A</forename><surname>Karatzas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Edwards-Gayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Greco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.8b01014?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1302" to="1311" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Selective antibacterial activity and lipid membrane interactions of arginine-rich amphiphilic peptides</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Edwards-Gayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castelletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seitsonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruokolainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Hamley</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsabm.9b00894?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Bio. Mater</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1165" to="1175" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

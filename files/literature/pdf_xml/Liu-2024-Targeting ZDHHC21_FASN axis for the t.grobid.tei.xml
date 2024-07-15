@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Targeting ZDHHC21/FASN axis for the treatment of diffuse large B-cell lymphoma</title>
+				<funder ref="#_5ww6hT3">
+					<orgName type="full">National Natural Science Foundation of Chongqing</orgName>
+				</funder>
+				<funder ref="#_AzgbtTf">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_Gd7Dv3x">
+					<orgName type="full">Chongqing Science and Health Joint medical research project</orgName>
+				</funder>
+				<funder ref="#_wW5NWmZ">
+					<orgName type="full">Young Doctor Incubation Program of Xinqiao Hospital, Army Medical University</orgName>
+				</funder>
+				<funder ref="#_cSdjCCy">
+					<orgName type="full">Army Medical University</orgName>
+				</funder>
+				<funder ref="#_V44pcY7">
+					<orgName type="full">Military Clinical Medical Innovation Project of Xinqiao hospital</orgName>
+				</funder>
+				<funder ref="#_UdGjEnp #_PGqk9gS">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-09">9 January 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Bangdong</forename><surname>Liu</surname></persName>
+							<idno type="ORCID">0000-0002-9460-3739</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Xianlan</forename><surname>Zhao</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shihao</forename><surname>Zhang</surname></persName>
+							<idno type="ORCID">0009-0008-9913-1348</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Qiong</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xinlei</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dezhi</forename><surname>Huang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jing</forename><surname>Xia</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Naya</forename><surname>Ma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yishuo</forename><surname>Duan</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Xi</forename><surname>Zhang</surname></persName>
+							<email>zhangxxi@sina.com</email>
+							<idno type="ORCID">0000-0002-9460-3739</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jun</forename><surname>Rao</surname></persName>
+							<idno type="ORCID">0000-0003-3344-2932</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 Medical Center of Hematology, Xinqiao Hospital, Army Medical University, </orgName>
+								<address><addrLine>Chongqing, China. Chongqing, China. Guangzhou, China.</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 State Key Laboratory of Trauma and Chemical Poisoning, Chongqing Key Laboratory of Hematology and Microenvironment, Jinfeng Laboratory, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 Department of Basic Medicine, Zhongshan School of Medicine, Sun Yat-sen University,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Targeting ZDHHC21/FASN axis for the treatment of diffuse large B-cell lymphoma</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-09">9 January 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">986547C04394528FABB5F675BA6BC55E</idno>
+					<idno type="DOI">10.1038/s41375-023-02130-5</idno>
+					<note type="submission">Received: 23 August 2023 Revised: 15 December 2023 Accepted: 15 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>S-palmitoylation is essential for cancer development via regulating protein stability, function and subcellular location, yet the roles S-palmitoylation plays in diffuse large B-cell lymphoma (DLBCL) progression remain enigmatic. In this study, we uncovered a novel function of the palmitoyltransferase ZDHHC21 as a tumor suppressor in DLBCL and identified ZDHHC21 as a key regulator of fatty acid synthetase (FASN) S-palmitoylation for the first time. Specifically, ZDHHC21 was downregulated in DLBCL, and its expression level was associated with the clinical prognosis of patients with DLBCL. In vitro and in vivo experiments suggested that ZDHHC21 suppressed DLBCL cell proliferation. Mechanistically, ZDHHC21 interacted with FASN and mediated its palmitoylation at Cys1317, resulting in a decrease in FASN protein stability and fatty acid synthesis, consequently leading to the inhibition of DLBCL cell growth. Of note, an FDA-approved small-molecule compound lanatoside C interacted with ZDHHC21, increased ZDHHC21 protein stability and decreased FASN expression, which contributed to the suppression of DLBCL growth in vitro and in vivo. Our results demonstrate that ZDHHC21 strongly represses DLBCL cell proliferation by mediating FASN palmitoylation, and suggest that targeting ZDHHC21/FASN axis is a potential therapeutic strategy against DLBCL.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Diffuse large B-cell lymphoma (DLBCL) is the most common hematologic malignancy <ref type="bibr" target="#b0">[1]</ref>. Although almost half of patients can achieve long-term remission with standard rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone (R-CHOP) immunochemotherapy, the majority of relapsed patients succumb to DLBCL <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. Therefore, it is necessary to explore novel therapeutic strategies for patients with DLBCL.</p><p>DLBCL cells are characterized by upregulation of fatty acid synthesis and are highly addictive to lipids for cell growth, regardless of their cell of origin <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. Furthermore, fatty acid synthase (FASN), a key multienzyme complex responsible for de novo lipogenesis, is highly upregulated in DLBCL, but the mechanism underlying FASN overexpression remains unclear <ref type="bibr" target="#b5">[6]</ref>. Previous studies have found that inhibiting FASN activity resulted in a robust decline in tumor growth and dramatically induced apoptosis in DLBCL <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b7">8]</ref>. Nevertheless, current inhibitors targeting FASN have restricted clinical applications because of their certain pharmacological limitations <ref type="bibr" target="#b8">[9]</ref>. Therefore, exploring the molecular mechanism underlying the significantly enhanced expression of FASN may contribute to more effective therapeutic strategies for DLBCL.</p><p>Protein S-palmitoylation is a reversible post-translational modification that refers to the thioesterification of a 16-carbon fatty acid (palmitate) covalently bound to internal cysteine residues <ref type="bibr" target="#b9">[10]</ref>. To date, emerging studies have revealed that protein palmitoylation plays a crucial role in various diseases, especially cancers, by altering the subcellular localization, protein stability and function of important oncogenes and tumor suppressors <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. For example, glucose transporter member 1 (GLUT1) S-palmitoylation is required for maintaining its plasma membrane localization and promotes glioblastoma tumorigenesis <ref type="bibr" target="#b13">[14]</ref>. Another study found that S-palmitoylation stabilizes PD-L1 by blocking its ubiquitination, consequently inhibiting PD-L1 degradation and contributing to the immune escape of breast cancer cells <ref type="bibr" target="#b15">[15]</ref>.</p><p>In mammalian cells, S-palmitoylation is catalyzed by 23 members of the Asp-His-His-Cys (DHHC)-family of palmitoyl Sacyltransferases, and palmitate removal is mediated by serine hydrolases, including acyl-protein thioesterases <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b16">16,</ref><ref type="bibr" target="#b17">17]</ref>. A previous study found that ZDHHC21 is required for endogenous androgen receptor palmitoylation, membrane localization, and signal transduction in breast cancer cells <ref type="bibr" target="#b18">[18]</ref>. Moreover, a recent study reported that ZDHHC21 could regulate oxidative phosphorylation by mediating adenylate kinase 2 (AK2) S-palmitoylation and induce differentiation block and stemness in acute myeloid leukemia <ref type="bibr" target="#b19">[19]</ref>. Thus, targeting protein S-palmitoylation or enzymes involved in S-palmitoylation dynamics has valuable clinical potential and can represent candidate therapies for certain cancers. However, the roles S-palmitoylation or the responsible enzyme plays in lymphomagenesis and cancer development remain enigmatic.</p><p>In the present study, we demonstrated for the first time that the palmitoyltransferase ZDHHC21 interacted with and palmitoylated FASN at Cys1317, which led to a decrease in FASN protein stability and fatty acid synthesis and consequently resulted in the inhibition of DLBCL cell proliferation. Of note, an FDA-approved small-molecule compound, lanatoside C, was found to combine with ZDHHC21 and suppress DLBCL cell growth in vitro and in vivo by regulating ZDHHC21/FASN axis and fatty acid synthesis. Taken together, our results not only reveal a novel biological function of ZDHHC21 as a tumor suppressor in DLBCL and identify it as a key regulator for FASN palmitoylation for the first time but also establish targeting ZDHHC21/FASN axis as a promising therapeutic strategy for patients with DLBCL.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture</head><p>Human DLBCL cell lines, including SU-DHL-2, SU-DHL-4, SU-DHL-6, Toledo and Pfeiffer, were purchased from American Type Culture Collection (ATCC; Manassas, VA) and maintained in RPMI-1640 supplemented with 10% FBS. OCI-LY1 and OCI-LY3 cells were maintained in IMDM supplemented with 10% FBS. HEK293T cells were maintained in DMEM supplemented with 10% FBS. All cell lines were authenticated using short tandem repeat (STR) DNA profiling and verified to be mycoplasma-free.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patients and specimens</head><p>Tissue microarrays of human DLBCL and normal tissues (HLymB085PT01) were purchased from Shanghai Outdo Biotech Company (Shanghai, China). For the use of these clinical materials for research purposes, prior patients' consents and approval from the Institutional Research Ethics Committee were acquired.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RT-PCR</head><p>Reverse transcription and real-time quantitative PCR using SYBR PCR Master Mix (Vazyme Biotech, Nanjing, China) were performed with specific RT-PCR primers. The primers used for the amplification of indicated genes were listed in Supplementary Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Western blot analysis</head><p>The primary antibodies used in this study were anti-ZDHHC21 (Novus, Cat# NBP1-57049), anti-Flag (CST, Cat# 8146), anti-HA (CST, Cat# 3724), anti-FASN (Santa Cruz, Cat# sc-48357), anti-FASN (CST, Cat# 3180), anti-biotin (CST, Cat# 7075), anti-α-tubulin (Proteintech, Cat# 11224-1-AP) and anti-Myc (CST, Cat# 2278).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Co-immunoprecipitation and mass spectrometry analysis</head><p>HEK293T cells were transfected with vector or ZDHHC21-Flag plasmid for 48 h and then lysed with 1 ml lysis buffer [20 mM Tris-HCl (pH 7.4), 300 mM NaCl, 1% Triton-X100, 1 mM EDTA and 1 mM PMSF]. Anti-Flag magnetic beads were washed with 1 ml lysis buffer containing 150 mM NaCl three times and incubated with cell lysate overnight at 4°C. Then, SDS-PAGE and silver staining were performed, and whole bands were excised for MS analysis by Applied Protein Technology (Shanghai, China).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CCK8 assay</head><p>To determine whether ZDHHC21 suppresses the growth of DLBCL cells in vitro, 5 × 10 3 cells in which ZDHHC21 was overexpressed or depleted were resuspended in 180 μl culture medium and inoculated in 96-well plates. Next, 20 μl CCK8 reagent was added, and the absorbance at 450 nm was measured after 2 h. For the lanatoside C treatment study, 8 × 10 3 OCI-LY1 and SU-DHL-2 cells were inoculated in 96-well plates, and the absorbance at 450 nm was measured.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acyl-biotinyl exchange (ABE) assay</head><p>The ABE assay was performed as previously described with slight modifications <ref type="bibr" target="#b20">[20]</ref>. In brief, DLBCL cells were harvested and washed with 1 ml PBS twice and then lysed in 1 ml lysis buffer [100 mM Tris-HCl (pH 7.2), 150 mM NaCl, 5 mM EDTA, 2.5% SDS, 5 mM PMSF]. The cell lysates were incubated with 10 mM N-ethylmaleimide (NEM) at 4 °C overnight to cap the free cysteine residues and then purified by sequentially adding methanol, chloroform and distilled water in a ratio of 4:1.5:3 relative to sample volumes. The protein pellets were resuspended in 1.2 ml resuspension buffer [100 mM Tris-HCl (pH 7.2), 150 mM NaCl, 5 mM EDTA, 2.5% SDS, 8 M urea], purified two more times to thoroughly remove the excess NEM and then incubated with 0.5 M hydroxylamine (HAM) for 1 h at room temperature to cleave palmitoylation thioester bonds. Then, the mixture was incubated with 0.1 mM biotin-HPDP for 1 h at room temperature. The samples were purified by methanol-chloroform-water precipitation and then resuspended in resuspension buffer, boiled at 100 °C for 10 min, subjected to SDS-PAGE, and analyzed by immunoblotting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolic labeling and click reaction</head><p>Metabolic labeling and click reaction assays were performed according to the published procedure with slight modifications <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b21">21]</ref>. In brief, cells were labeled with alkynyl probes for 12 h, harvested, washed with 1 ml icecold DPBS and lysed with 1 ml lysis buffer [50 mM Tris-HCl (pH 7.4), 150 mM NaCl, 0.1% Triton X-100, 0.1% SDS, 5 mM PMSF] supplemented with 50 mM NEM. The next steps were performed as described in the Click Chemistry Tools web server.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Free fatty acid assay</head><p>Content of free fatty acid was detected using Free Aliphatic Acid Assay Kit (Bioss, Cat # AK230). In brief, DLBCL cells were lysed and the free fatty acid combined with copper ions to form copper salts of fatty acid which dissolved in chloroform and was later measured by spectrophotometric method at 550 nm. The content of free fatty acid was calculated using copper ion concentration, and the free fatty acid content of ZDHHC21 overexpressed or silenced cells was compared with that of vector cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FASN activity assay</head><p>FASN enzyme activity was detected using Fatty Acid Synthetase Activity Assay Kit (Abbkine, Cat # KTB2240). 5×10 6  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular docking</head><p>Molecular docking calculations were conducted using the Dock6 program in Yinfo Cloud Computing Platform. The 3D structure of small-molecule library of FDA-approved drugs was constructed with energy minimization in MMFF94 force field. The 3D structure of ZDHHC21 protein (PDB code: AF_AFQ8IVQ6F1) was downloaded from the RCSB Protein Data Bank (http://www.rcsb.org/).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tumor xenograft assay</head><p>All experimental procedures were approved by the Institutional Animal Care and Use Committee of Army Medical University. For xenograft experiments, 6-week-old female BALB/c nude mice were purchased from Beijing Vital River Laboratory Animal Technology (Beijing, China) and maintained in microisolator cages.</p><p>To evaluate whether ZDHHC21 suppresses the growth of DLBCL cells in vivo, 1 × 10 7 cells in which ZDHHC21 was overexpressed or -depleted were resuspended in 100 μl PBS and subcutaneously injected into BALB/c nude mice. Tumor volumes were measured every two days, the BALB/c nude mice were sacrificed after nearly four weeks, and xenograft tumors were removed and weighed.</p><p>For the lanatoside C treatment study, 1 × 10 7 SU-DHL-6 cells were subcutaneously injected into BALB/c nude mice. When tumor volumes reached nearly 100 mm 3 , vehicle or lanatoside C (6 mg/kg) was administered intraperitoneally every two days, and the tumor volumes and mouse body weights were measured every two days. Then, the mice were sacrificed, and xenograft tumors were obtained. At least five nude mice per group were used to ensure the adequate power and each mouse with different weight was randomly allocated. Measurements of tumor volumes and weights were not performed in a blinded manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bioinformatics and statistical analysis</head><p>DLBCL-specific ZDHHC21 RNA expression data were downloaded from the GEO datasets (https://www.ncbi.nlm.nih.gov/). Some samples of the GSE10846 and GSE53786 cohorts used for survival analysis were deleted due to loss of patients' clinical information and the log-rank test was used to analyze overall survival in patients with DLBCL. Comparisons between two groups were analyzed using the unpaired, two-tailed Student's t test. For pairwise multiple comparisons, one-way ANOVA followed by Dunnett's multiple comparison test was used as appropriate. The sample size was determined by power analysis to achieve a minimum effect size of 0.5 with p &lt; 0.05, and all sample sizes were appropriate for the assumption of normal distribution. Variance within each group of data was estimated and was similar between compared groups. Data analysis was performed by two independent investigators who were blinded to the sample groups. All error bars represent the mean ± SD derived from three independent experiments. P values &lt; 0.05 were considered statistically significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC21 expression is downregulated in DLBCL and correlates with poor prognosis</head><p>We began our study by examining the expression level of ZDHHC21 in archived tissue specimens using immunohistochemical (IHC) staining. Serial sections of human DLBCL and normal lymphoid tissues were used to detect ZDHHC21 and CD19 expression, which acted as a B-cell marker. As shown in Fig. <ref type="figure" target="#fig_0">1A</ref>, ZDHHC21 expression was significantly downregulated in both germinal center B-cell like (GCB) and non-GCB DLBCL tissues, compared with that in CD19 positive cells of normal lymphoid tissues. Consistently, the expression level of ZDHHC21 in 7 DLBCL cell lines was evidently decreased as exhibited by RT-PCR assay (Fig. <ref type="figure" target="#fig_0">1B</ref>). Next, we employed GEO datasets to identify the expression level of ZDHHC21 mRNA in patients with DLBCL. As shown in Fig. <ref type="figure" target="#fig_0">1C</ref>, ZDHHC21 expression was markedly declined in DLBCL tissues compared with that in B cells from normal human tonsils. To explore the circumstances of low ZDHHC21 expression in DLBCL, we firstly performed ZDHHC21 copy number variation analysis of 48 DLBCL cases in The Cancer Genome Atlas (TCGA) dataset and found that 3 out of 48 cases (6.25%) showed heterozygous deletion in ZDHHC21 locus. Next, we assessed the mutation status of ZDHHC21 in cBioPortal for Cancer Genomics dataset and the results suggested that only 1 out of 135 cases (0.74%) showed mutation in ZDHHC21 locus. Moreover, methylation status of ZDHHC21 in TCGA DLBCL cohort was also analyzed. There are nine methylation specific probes targeting ZDHHC21 locus and the correlation between them and ZDHHC21 expression was analyzed. As shown in Supplementary Fig. <ref type="figure" target="#fig_0">1A,</ref><ref type="figure">B</ref>, the methylation level of probe cg01785060 and cg00775695 significantly negatively correlated with ZDHHC21 expression level, suggesting that their methylation level might regulate the expression of ZDHHC21. Whereafter, EWAS DNA methylation database was employed and we found that there existed no significant difference between the methylation level of DLBCL patients and healthy lymph node control. Besides, transcriptional activation or repression mediated by transcription factor is also an important way to regulate gene expression. DLBCL is characterized by activation of NF-κB, JAK/STAT3 and other pathways <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b22">22]</ref>. To further investigate whether these transcription factors could regulate ZDHHC21 expression in DLBCL, we searched the promoter sequence of ZDHHC21 using JASPAR database and the results showed that there existed potential binding sites of NFKB1, NFKB2 and STAT3 (Supplementary Fig. <ref type="figure" target="#fig_0">1C</ref>), and we further found that NFKB1 and NFKB2 expression significantly negatively correlated with ZDHHC21 expression in ABC subtype DLBCL patients but not in GCB subtype according to GSE53786 cohort. However, STAT3 expression and ZDHHC21 expression was significantly negatively correlated in GCB subtype DLBCL patients but not in ABC subtype (Supplementary Fig. <ref type="figure" target="#fig_0">1D</ref>). The above results suggested that NFKB1, NFKB2 and STAT3 might repress ZDHHC21 transcription by binding its promoter. Taken together, deletion in ZDHHC21 locus and transcriptional regulation mediated by transcription factor might contribute to the low expression of ZDHHC21 in DLBCL.</p><p>Meanwhile, Kaplan-Meier survival analysis showed that low expression of ZDHHC21 was associated with shorter overall survival times in patients diagnosed with DLBCL (Fig. <ref type="figure" target="#fig_0">1D,</ref><ref type="figure">E</ref>). Next, we combined the International Prognostic Index (IPI) with ZDHHC21 expression (with ZDHHC21 low expression defined as 1 point) and established the IPI-21 system, allowing greater discrimination among highest-risk and lowest-risk patients (Supplementary Fig. <ref type="figure" target="#fig_1">2A-D</ref>). Taken together, these data indicated a significant downregulation of ZDHHC21 with prognostic value in DLBCL, warranting further investigation about whether downregulated ZDHHC21 plays a role in the progression of DLBCL.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC21 suppresses DLBCL cell proliferation in vitro</head><p>The strong relationship between downregulated ZDHHC21 and poor prognosis in DLBCL prompted us to investigate whether ZDHHC21 suppresses DLBCL cell proliferation. To this end, we constructed stable DLBCL cell lines in which ZDHHC21-WT and ZDHHC21-mutant were overexpressed (Supplementary Fig. <ref type="figure">3A</ref>, cysteine at 120 was mutated to alanine, and palmitoyltransferase activity was lost) in SU-DHL-6 cells, as well as in SU-DHL-2 and Toledo cell lines silenced for ZDHHC21 (Supplementary Fig. <ref type="figure">3B</ref>). When these SU-DHL-6 cells were tested for their proliferation ability with CCK8 and EdU assays, we found that ectopic overexpression of ZDHHC21-WT, but not ZDHHC21-mutant, significantly decreased the proliferation capabilities (Fig. <ref type="figure" target="#fig_1">2A</ref>, Supplementary Fig. <ref type="figure">3C,</ref><ref type="figure">D</ref>). Conversely, depletion of ZDHHC21 markedly increased cell proliferation capabilities in SU-DHL-2 and Toledo cells compared with that of the vector cells (Fig. <ref type="figure" target="#fig_1">2B,</ref><ref type="figure">C</ref>, Supplementary Fig. <ref type="figure">3C,</ref><ref type="figure">E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC21 inhibits DLBCL tumor growth in vivo</head><p>Furthermore, the biological function of ZDHHC21 was examined in vivo by subcutaneously inoculating the indicated cells into nude mice. As shown in Fig. <ref type="figure" target="#fig_1">2D</ref>, the growth rate of ZDHHC21-WToverexpressing cells was significantly slowed in vivo, which was confirmed by H&amp;E and Ki-67 staining (Fig. <ref type="figure" target="#fig_1">2H,</ref><ref type="figure">I</ref>). In addition, decreased tumor weights were observed in ZDHHC21-WToverexpressing cells (Fig. <ref type="figure" target="#fig_1">2E</ref>). However, no significant phenotypes were observed in ZDHHC21-mutant-overexpressing cells. In contrast, tumor growth was significantly accelerated when ZDHHC21 was depleted in SU-DHL-2 cells (Fig. <ref type="figure" target="#fig_1">2F,</ref><ref type="figure">G</ref>), and the percentages of Ki-67 positive cells were markedly increased compared with those of the vector cells (Fig. <ref type="figure" target="#fig_1">2J</ref>). Taken together, our results indicate that ZDHHC21 is a strong suppressor of DLBCL growth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC21 interacts with FASN and mediates its S-palmitoylation</head><p>To further elucidate the mechanism by which ZDHHC21 suppresses DLBCL cell proliferation, co-immunoprecipitation (Co-IP) combined with mass spectrometry was performed to identify the intracellular binding partner of ZDHHC21. As shown in Fig. <ref type="figure">3A</ref>, 1127 proteins were identified in the ZDHHC21-Flag group, while 915 proteins were identified in the control group. To improve the screening efficiency, we removed proteins whose abundances were less than 10 ^7 and whose ZDHHC21-Flag versus control group fold changes were less than 3. Finally, 227 candidates were identified, a large proportion of which were involved in metabolic pathways, as exhibited by cluster analysis (Fig. <ref type="figure">3B</ref>). As shown in Fig. <ref type="figure">3C</ref>, the heatmap showed the top 10 proteins, among which fatty acid synthase attracted our interest  because it plays a vital role in fatty acid synthesis which is essential for DLBCL cell growth, and it is not known whether it could be palmitoylated <ref type="bibr" target="#b23">[23,</ref><ref type="bibr" target="#b24">24]</ref>. To validate that ZDHHC21 interacts with FASN, Co-IP using the indicated magnetic beads or antibodies was performed, and the results showed that ZDHHC21 efficiently and reciprocally co-immunoprecipitated with FASN in HEK293T and Toledo cells (Fig. <ref type="figure">3D-F</ref>). To further investigate whether ZDHHC21 regulates FASN S-palmitoylation, acyl-biotinyl exchange (ABE) assay was performed to quantify the palmitoylation level of FASN. Our data showed that the endogenous palmitoylation level of FASN was dramatically increased in cells ectopically overexpressing ZDHHC21-WT, whereas no similar phenotype was observed in cells overexpressing ZDHHC21-mutant, and palmitoylated FASN was markedly reduced upon ZDHHC21 depletion (Fig. <ref type="figure">3G,</ref><ref type="figure">H</ref>). Taken together, our data suggest that ZDHHC21 interactively binds to FASN and mediates its S-palmitoylation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC21 suppresses FASN expression and fatty acid synthesis</head><p>To further investigate whether ZDHHC21 regulates FASN expression, western blotting assay was used to quantify the expression level of FASN. The results suggested that FASN expression was markedly decreased in cells ectopically overexpressing ZDHHC21-WT but not in those overexpressing ZDHHC21-mutant and that significantly elevated FASN expression was observed in ZDHHC21depleted cells (Fig. <ref type="figure">4A</ref>). To further confirm that ZDHHC21 regulates FASN expression in a manner dependent on palmitoyltransferase activity, ZDHHC21-overexpressing cells were treated with 2-BP, a general palmitoylation inhibitor, and subsequently, the expression level of FASN was dramatically increased in SU-DHL-6 and HEK293T cells (Fig. <ref type="figure">4B</ref>). Consistently, FASN enzyme activity and fatty acid level were downregulated in cells overexpressing ZDHHC21-WT but not in those overexpressing ZDHHC21-mutant. Nevertheless, silencing ZDHHC21 significantly enhanced FASN enzyme activity and fatty acid level (Fig. <ref type="figure">4C-F</ref>). Taken together, our data suggest that ZDHHC21 decreases FASN expression, FASN enzyme activity and fatty acid synthesis in a palmitoylation-dependent manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC21 suppresses DLBCL proliferation in a FASN-mediated fatty acid synthesis-dependent manner</head><p>As it has been demonstrated that FASN-mediated fatty acid synthesis promotes the proliferation of DLBCL, we next sought to investigate whether ZDHHC21 suppresses DLBCL proliferation in a FASN-mediated fatty acid synthesis-dependent manner. For this purpose, we treated ZDHHC21-depleted DLBCL cells with orlistat, an inhibitor of FASN and found that ZDHHC21 depletion induced increase in proliferation ability, FASN enzyme activity and fatty acid level in DLBCL cells could be attenuated by treatment of orlistat (Fig. <ref type="figure">4G-J</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ZDHHC21 mediates FASN S-palmitoylation at Cys1317 and reduces its protein stability</head><p>To further investigate the molecular mechanism by which ZDHHC21 regulates FASN expression, RT-PCR assay was performed, and no significant change in FASN mRNA level was observed (Fig. <ref type="figure">5A-C</ref>). Furthermore, a cycloheximide chase experiment was determined to explore whether ZDHHC21 could regulate FASN protein stability. Our data showed that wild-type ZDHHC21, but not mutant ZDHHC21, decreased the half-life of FASN protein (Fig. <ref type="figure">5D</ref>), whereas ZDHHC21 depletion significantly prolonged FASN protein stability (Fig. <ref type="figure">5E</ref>).</p><p>To determine the specific site of FASN S-palmitoylation, we first analyzed the FASN sequence and found 46 cysteine residues. Next, we predicted the potential site of FASN S-palmitoylation using the CSS-Palm web server (csspalm.biocuckoo.org/), and the results indicated that Cys779 and Cys1317 displayed potent potential to be palmitoylated. For this analysis, PD-L1, whose S-palmitoylation site has been confirmed, was used as a positive control (Fig. <ref type="figure">5F</ref>) <ref type="bibr" target="#b15">[15,</ref><ref type="bibr" target="#b25">25]</ref>. Therefore, FASN Cys779 and Cys1317 were mutated to alanine respectively, and alkynyl palmitic acid incorporation assay was performed to examine their S-palmitoylation level. Our data demonstrated that both the C779A and C1317A mutations dramatically reduced the palmitoylation level of FASN. Moreover, ZDHHC21 significantly enhanced the palmitoylation level of wild-type and C779A-mutant FASN but not C1317A-mutant FASN, suggesting that both Cys779 and Cys1317 could be palmitoylated but only palmitoylation at Cys1317 was mediated by ZDHHC21 (Fig. <ref type="figure">5G</ref>). Further cycloheximide chase experiments also confirmed that the C1317A mutation was related to clearly prolonged FASN half-life compared with that of wild-type FASN (Fig. <ref type="figure">5H</ref>). Taken together, these data suggest that ZDHHC21 mediates FASN palmitoylation at Cys1317 and decreases its protein stability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Targeting ZDHHC21/FASN axis with lanatoside C displays potential antitumor activity in DLBCL</head><p>The above results suggested that ZDHHC21 significantly suppressed the proliferation of DLBCL, so we reasoned that enhancing ZDHHC21 expression level or its palmitoyltransferase activity could be an effective strategy to attenuate the rapid proliferation of DLBCL cells. For this purpose, we searched the RCSB PDB database (http://www.rcsb.org/) and found a dimensional structure of the human ZDHHC21 protein, which was shown in Supplementary Fig. <ref type="figure">4A</ref>. On the basis of the RCSB PDB database Model Confidence, the predicted local distance difference test (pLDDT) global scores were 88.56, indicating that the dimensional structure of ZDHHC21 was credible. According to the UniProt database (http://www.uniprot.org/), amino acids 90-140 were defined as the catalytic domain of ZDHHC21, suggesting that this structure could be crucial for ZDHHC21 palmitoyl acyltransferase activity and function. To screen small-molecule compounds that target ZDHHC21, molecular docking was performed between ZDHHC21 (amino acids 90-140) and a small-molecule compound library of FDA-approved drugs, which contains 2,950 compounds. The top-10 ranked candidate small-molecule compounds, based on druggable criteria and binding affinity, were chosen for further analysis. Whereafter, IC50 assay was performed to screen the potential anti-DLBCL drugs, and among the 10 candidates, lanatoside C (LC) appealed to us because of its low IC50 in DLBCL cells and high affinity for ZDHHC21, as exhibited by molecular docking results (Supplementary Fig. <ref type="figure">4B,</ref><ref type="figure">C</ref>). LC has previously shown great potential antitumor activity in some solid tumors and multiple myeloma <ref type="bibr" target="#b26">[26,</ref><ref type="bibr" target="#b27">27]</ref>. To further verify the results of molecular docking, LC or biotinylated LC was incubated with LY1 and SU-DHL-2 cell lysates, followed by pull-down assay using streptavidin magnetic beads and immunoblotting experiment. The results showed that ZDHHC21 was detected in the biotinylated LC enriched protein but not in the LC control sample, suggesting that LC interacted with ZDHHC21 (Fig. <ref type="figure" target="#fig_2">6A</ref>, Fig. <ref type="figure">3</ref> ZDHHC21 interacts with FASN and mediates its S-palmitoylation. A Venn diagram showed the enriched proteins of control vector and ZDHHC21-Flag groups. B The enriched pathways of ZDHHC21-binding proteins are shown as exhibited by clustering analysis. C Heatmap of Log10-peptide abundances change in the control and ZDHHC21-Flag groups showed FASN as a potential binding partner of ZDHHC21. D Cell lysates from HEK293T cells expressing Flag-FASN and HA-ZDHHC21 were co-immunopurified with anti-Flag or anti-HA magnetic beads, and western blot assay was performed to validate the interaction between Flag-FASN and HA-ZDHHC21. E, F Cellular extracts were harvested from Toledo cells and incubated with anti-FASN or anti-ZDHHC21 antibodies. Western blotting assay was performed to confirm the interaction between FASN and ZDHHC21 in DLBCL cells. G, H The indicated DLBCL cells were lysed in 1 ml lysis buffer and incubated with 10 mM N-ethylmaleimide (NEM) at 4 °C overnight to cap the free cysteine residues. Then, the cell lysates were incubated with 0.5 M hydroxylamine (HAM) for 1 h at room temperature to cleave palmitoylation thioester bonds. Finally, the mixture was incubated with 0.1 mM biotin-HPDP for 1 hour at room temperature and enriched by Streptavidin magnetic beads, followed by SDS-PAGE and immunoblotting. FASN palmitoylation level was quantified by densitometry with Image J. Fig. <ref type="figure">4</ref> ZDHHC21 suppresses DLBCL proliferation in a FASN-mediated fatty acid synthesis-dependent manner. A The expression level of FASN was decreased by overexpression of ZDHHC21-WT, but not the mutant, and increased in ZDHHC21-silenced cells as exhibited by western blot (top). The intensity of FASN expression was quantified by densitometry with α-tubulin as a normalizer (bottom). B The expression level of FASN was significantly downregulated in ZDHHC21-WT-overexpressing cells but obviously increased upon 2-BP treatment for 9 h as exhibited by western blot (top) and the intensity of FASN expression was quantified by densitometry with α-tubulin as a normalizer (bottom). C, D The FASN activity was examined in the indicated cells (each bar represents the mean ± SD derived from three independent experiments, one-way ANOVA followed by Dunnett's multiple comparison test, **p &lt; 0.01, ***p &lt; 0.001). E, F The fatty acid level was examined in the indicated cells (each bar represents the mean ± SD derived from three independent experiments, one-way ANOVA followed by Dunnett's multiple comparison test, *p &lt; 0.05, **p &lt; 0.01). G-J The control-vector and ZDHHC21-silenced cells were treated with orlistat. The growth rate, FASN activity and the fatty acid level was examined in the indicated cells (each bar represents the mean ± SD derived from three independent experiments, one-way ANOVA followed by Tukey's multiple comparison test, *p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001).</p><p>LC might contribute to the interaction between ZDHHC21 and FASN or palmitoyl-CoA and the effect would not appear when ZDHHC21 itself was sufficient for FASN complete palmitoylation. To further investigate the effects LC exerted in DLBCL cells, WB and ABE experiments were performed. Our data showed that LC promoted ZDHHC21 expression in a dose-dependent manner, and consistently, FANS palmitoylation was evidently enhanced and FASN expression level was obviously abrogated after treatment with LC in SU-DHL-2 and LY1 cells (Fig. <ref type="figure" target="#fig_2">6C,</ref><ref type="figure">D</ref>). In addition, LC significantly prolonged ZDHHC21 protein half-life and evidently abrogated ZDHHC21 ubiquitination, suggesting that LC repressed ZDHHC21 degradation by the ubiquitin-proteasome pathway (Fig. <ref type="figure" target="#fig_2">6E,</ref><ref type="figure">F</ref>).</p><p>To further test this hypothesis, CCK8 and free fatty acid assays were performed, and the results revealed that treatment with LC markedly reduced free fatty acid level and dramatically alleviated the proliferation of LY1 and SU-DHL-2 cells in a dose-dependent manner (Fig. <ref type="figure" target="#fig_2">6G-J</ref>).</p><p>To verify the antitumor effect of LC in vivo, SU-DHL-6 cells were subcutaneously inoculated into nude mice. When tumors reached almost 100 mm 3 , we randomly divided the mice into 2 groups, followed by intraperitoneal administration of vehicle or LC (6 mg/ kg) every two days (Fig. <ref type="figure" target="#fig_3">7A</ref>). As shown in Fig. <ref type="figure" target="#fig_3">7B-E</ref>, the growth rate of DLBCL cells and tumor weights dramatically declined upon treatment with LC, but no significant change was observed in mice body weights compared with those of the vehicle control group. Consistently, markedly upregulated ZDHHC21 and significantly reduced FASN expression level and percentage of Ki67positive cells were observed in the LC group, as exhibited by IHC assay (Fig. <ref type="figure" target="#fig_3">7F,</ref><ref type="figure">G</ref>). In addition, the tumor tissues derived from the vehicle control and LC groups were harvested, and the fatty acid content was measured. Our data showed that fatty acid level was significantly decreased after treatment with LC in vivo (Fig. <ref type="figure" target="#fig_3">7H</ref>). Taken together, the above results collectively determined that targeting ZDHHC21/FASN axis with LC exerts powerful antitumor activity in DLBCL in vitro and in vivo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>A previous study has shown that ZDHHC21 mediates endogenous androgen receptor palmitoylation and enhances membrane trafficking in breast cancer cells <ref type="bibr" target="#b18">[18]</ref>. In addition, a recent study reported that ZDHHC21 is highly expressed in acute myeloid leukemia cells and mediates AK2 palmitoylation as well as mitochondrial localization to promote cancer development <ref type="bibr" target="#b19">[19]</ref>. Our study demonstrates that palmitoyltransferase ZDHHC21 is downregulated in DLBCL cells and suppresses their proliferation. These findings indicate that ZDHHC21 acts as a tumor suppressor to inhibit malignant progression of DLBCL by facilitating FASN palmitoylation, suggesting that aberrant expression of ZDHHC21 differs in different types of cancer and that the specific biological function of ZDHHC21 may be context-dependent.</p><p>Increased de novo fatty acid synthesis is an important hallmark of cancer cells, and fatty acid biosynthesis is catalyzed by multifunctional, homodimeric fatty acid synthase <ref type="bibr" target="#b23">[23,</ref><ref type="bibr" target="#b28">28,</ref><ref type="bibr" target="#b29">29]</ref>. Moreover, DLBCL cells are highly reliant on lipids for cell proliferation <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. Therefore, it is of great importance to explore the therapeutic vulnerability of de novo fatty acid synthesis in DLBCL cells. However, the molecular mechanisms underlying the significantly enhanced fatty acid synthesis in DLBCL are not completely understood.</p><p>Our study suggested that ZDHHC21 suppressed FASN expression and fatty acid synthesis in a palmitoylation-dependent manner in DLBCL. Notably, an FDAapproved compound LC was identified and found to increase ZDHHC21 expression and decrease FASN expression as well as fatty acid synthesis, consequently suppressing DLBCL growth in vitro and in vivo. Previous studies have shown that LC inhibits the proliferation of various solid tumors and multiple myeloma <ref type="bibr" target="#b26">[26,</ref><ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b30">30,</ref><ref type="bibr" target="#b31">31]</ref>. Our study is the first demonstration that LC exhibits anti-tumor activity in lymphoma by targeting palmitoylation and fatty acid synthesis, suggesting that ZDHHC21/FASN axis can potentially be a promising therapeutic target for patients with DLBCL.</p><p>Elevated FASN expression is frequently observed in multiple cancers and has been demonstrated to promote cancer cell proliferation, survival and metastasis, which results in a higher risk of disease-related death <ref type="bibr" target="#b23">[23,</ref><ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b32">[32]</ref><ref type="bibr" target="#b33">[33]</ref><ref type="bibr" target="#b34">[34]</ref>. The expression level of FASN in cancer cells can be regulated at various biological levels. For instance, SREBP is one of the most crucial transcription factors that contributes to the elevated FASN level in cancer cells <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b36">36]</ref>. In addition, various post-translational modifications, including ubiquitination, acetylation and sumoylation, have emerged as important contributors to FASN upregulation in multiple cancers <ref type="bibr" target="#b37">[37]</ref><ref type="bibr" target="#b38">[38]</ref><ref type="bibr" target="#b39">[39]</ref>. A previous study has suggested that the ubiquitin-specific protease USP2a interacts with and removes ubiquitin from FASN, subsequently preventing ubiquitin-mediated degradation in prostate cancer <ref type="bibr" target="#b40">[40]</ref>. To our knowledge, our study represents the first demonstration that ZDHHC21-mediated FASN S-palmitoylation at Cys1317 inhibits FASN protein stability, exhibiting a novel mode of post-translational regulation of FASN expression and extending our understanding of FASN regulation in cancer cells.</p><p>Protein S-palmitoylation is a post-translational modification that goes hand in hand with fatty acid synthesis and fatty acid synthetase <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b41">41]</ref>. Previous studies have suggested that FASN synthesizes endogenous fatty acid that can be converted into palmitoyl-CoA and then bind to cysteine residues of the target proteins and numerous proteins were reported to be palmitoylated in a FASN-dependent manner. For example, Ali et al. demonstrated that FASN mediates EGFR palmitoylation in EGFRmutated non-small cell lung cancer cells and regulates the sensitivity of tyrosine kinase inhibitors <ref type="bibr" target="#b42">[42]</ref>. In addition, MYD88 was found to be FASN-dependently palmitoylated by ZDHHC6 in neutrophils <ref type="bibr" target="#b43">[43]</ref>. However, whether FASN itself can be palmitoylated remains unknown. Our present study found that FASN could be palmitoylated by ZDHHC21 at Cys1317 in DLBCL, leading to a decline in its protein stability. Interestingly, ZDHHC21-mediated palmitoylation-dependent downregulation of FASN results in Fig. <ref type="figure">5</ref> ZDHHC21 mediates FASN S-palmitoylation at Cys1317 and reduces its protein stability. A-C Validation of ZDHHC21 and FASN mRNA expression level as determined by RT-PCR analyses (each bar represents the mean ± SD derived from three independent experiments, one-way ANOVA followed by Dunnett's multiple comparison test, ** p &lt; 0.01, ***p &lt; 0.001). D, E The indicated cells were treated with cycloheximide for 0, 3, 6 and 9 h and the expression level of FASN was determined by western blot assay (left), and the intensity of FASN expression for each time point was quantified by densitometry with α-tubulin as a normalizer (right). F The potential sites of FASN S-palmitoylation were predicted using the CSS-Palm web server with PD-L1 as a positive control. G HEK293T cells were transfected with Flagtagged wild-type FASN or C779A and C1317A mutants, combined with or without HA-tagged ZDHHC21. After 48 h, the indicated cells were metabolically labeled with alkynyl PA (50 μM) for 12 h. The cell lysate was co-immunopurified with anti-Flag magnetic beads, and then the Flag-FASN palmitoylation level was examined with a click reaction assay. H HEK293T cells were transfected with Flag-tagged wild-type FASN or C1317A mutants. Forty-eight hours after transfection, the indicated cells were treated with cycloheximide. Then, western blot assay was performed to examine flag expression (left), and the intensity of flag expression for each time point was quantified by densitometry with αtubulin as a normalizer (right).  decreased fatty acid synthesis, which may in turn reduce palmitoylation of other FASN-dependent palmitoylated proteins because of decreased palmitate level; therefore, these results suggest that global protein palmitoylation regulation mediated by ZDHHC21 could exist in this context in DLBCL.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig.1ZDHHC21 expression is downregulated in DLBCL with prognostic value. A The expression level of ZDHHC21 in normal lymphoid tissues and DLBCL tumor tissues with CD19 as a B-cell marker, as evaluated by IHC assay (magnification ×400, scale bar, 20 μm). B The expression of ZDHHC21 is downregulated in DLBCL cell lines compared with B lymphocytes derived from healthy volunteers using qRT-PCR analysis (each bar represents the mean ± SD derived from three independent experiments). C Analyses of ZDHHC21 expression in GSE56315 DLBCL cohorts (two-tailed Student's t test. ***p &lt; 0.001). D, E Kaplan-Meier survival analysis of overall survival in the GSE10846 (D) and GSE53786 (E) DLBCL cohorts based on ZDHHC21 expression, with ZDHHC21 median expression level as the cutoff value to define "high" and "low".</figDesc><graphic coords="4,107.55,59.30,389.77,599.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 ZDHHC21 inhibits DLBCL tumor growth in vitro and in vivo. A-C The growth rate of cells in which ZDHHC21 is stably overexpressed (A) and depleted (B, C) was examined with CCK8 assay (each bar represents the mean ± SD derived from three independent experiments, oneway ANOVA followed by Dunnett's multiple comparison test, ***p &lt; 0.001). D, E The control-vector, ZDHHC21-WT and ZDHHC21-C120A cells were subcutaneously inoculated into nude mice. We measured tumor volume every two days from day 13 to day 25, and the mice were sacrificed on day 25. Tumor growth curve (D) and tumor weight at the end of the experiments (E) are shown (each bar represents the mean ± SD derived from four independent experiments, one-way ANOVA followed by Dunnett's multiple comparison test, *p &lt; 0.05, **p &lt; 0.01, **p &lt; 0.001). F, G The control-vector and ZDHHC21-depleted cells were subcutaneously inoculated into nude mice. Tumor volume was measured once every two days from day 16 to day 28. Tumor growth curve (F) and tumor weight at day 28 (G) are shown (each bar represents the mean ± SD derived from four independent experiments, two-tailed Student's t test, **p &lt; 0.01). H Representative images of H&amp;E and Ki67 staining as well as the expression level of ZDHHC21 as exhibited by IHC assay (magnification 400×, Scale bar, 20 μm). I, J Percentages of Ki67-positive cells in the indicated tissue are shown (each bar represents the mean ± SD derived from three independent experiments, oneway ANOVA followed by Dunnett's multiple comparison test or two-tailed Student's t test, *p &lt; 0.05, ** p &lt; 0.01).</figDesc><graphic coords="5,108.57,59.30,368.62,546.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Targeting ZDHHC21/FASN axis with lanatodide C suppresses DLBCL cell proliferation in vitro. A Pull down and immunoblotting experiment using streptavidin magnetic beads showed that biotinylated LC interacted with ZDHHC21. B 20 μg, 50 μg or 100 μg purified ZDHHC21 with or without lanatoside C (1 μM) was added to a 96-well plate containing reaction buffer (50 mM Tris HCl, 150 mM NaCl, pH 7.4) to incubate for 10 min at 37 °C. Whereafter, 100 μg purified FASN and palmitoyl-CoA (1 mM) were added to incubate for 30 min at 37 °C and FASN palmitoylation level was assessed using ABE assay. Quantification was performed by densitometry. C, D WB and ABE experiments were performed to examine the ZDHHC21 expression, FASN expression and FASN palmitoylation after treatment with LC for 72 h in LY1 (C) and SU-DHL-2 (D) cells. E DLBCL cells were treated with cycloheximide for 0, 4, 8 and 12 h combined with or without LC treatment. Next, ZDHHC21 expression was determined by western blot assay (left) and the intensity of ZDHHC21 expression for each time point was quantified by densitometry with α-tubulin as a normalizer (right). F The ubiquitination assay confirmed that LC largely abrogated ZDHHC21 ubiquitination. G, H The fatty acid level of the indicated cells is shown after 72 h of lanatodide C treatment (each bar represents the mean ± SD derived from three independent experiments, one-way ANOVA followed by Dunnett's multiple comparison test, **p &lt; 0.01, ***p &lt; 0.001). I, J CCK8 assay was performed to determine the growth rate of the indicated cells (each bar represents the mean ± SD derived from three independent experiments, one-way ANOVA followed by Dunnett's multiple comparison test, *p &lt; 0.05, ***p &lt; 0.001).</figDesc><graphic coords="11,67.75,59.30,450.49,531.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 7</head><label>7</label><figDesc>Fig. 7 Lanatodide C inhibits DLBCL tumor growth in vivo. A A schema showing the experimental design of our mouse experiments. SU-DHL-6 cells were subcutaneously inoculated into nude mice, followed by intraperitoneal administration of vehicle or LC (6 mg/kg) once every two days from day 18 to day 28. At day 28, the xenograft tumors were removed. B Representative images of xenograft tumors at the end of the experiments. C Tumor growth curve (each bar represents the mean ± SD derived from five independent experiments, two-tailed Student's t test, **p &lt; 0.01). D Tumor weight at day 28 (each bar represents the mean ± SD derived from five independent experiments, two-tailed Student's t test, ** p &lt; 0.01). E Body weight of mouse (each bar represents the mean ± SD derived from five independent experiments, ns, not significant). F Representative images of H&amp;E and Ki67 staining as well as the expression level of ZDHHC21 and FASN as exhibited by IHC assay (magnification ×400, scale bar, 20 μm). G The percentages of Ki67 positive cells are shown (each bar represents the mean ± SD derived from three independent experiments, two-tailed Student's t test, ***p &lt; 0.001). H The fatty acid level of the indicated tissue is shown (each bar represents the mean ± SD derived from three independent experiments, two-tailed Student's t test, ***p &lt; 0.001).</figDesc><graphic coords="12,98.76,59.30,407.29,558.03" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Leukemia (2024) 38:351 -364</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>This work was supported by <rs type="funder">Young Doctor Incubation Program of Xinqiao Hospital, Army Medical University</rs> (<rs type="grantNumber">2022YQB018</rs>); the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">82070208</rs>), the <rs type="funder">Military Clinical Medical Innovation Project of Xinqiao hospital</rs> (<rs type="grantNumber">2021JSLC0003</rs>), <rs type="funder">National Natural Science Foundation of Chongqing</rs> (<rs type="grantNumber">cstc2020jcyj-msxmX0433</rs>), the <rs type="grantName">Translational Research Grant of NCRCH</rs> (<rs type="grantNumber">2020ZKZC02</rs>, <rs type="grantNumber">2021WWB05</rs>), and <rs type="funder">Chongqing Science and Health Joint medical research project</rs> (<rs type="grantNumber">2023QNXM047</rs>); <rs type="programName">Young Doctor Incubation Program of Xinqiao Hospital</rs>, <rs type="funder">Army Medical University</rs> (<rs type="grantNumber">2022YQB022</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_wW5NWmZ">
+					<idno type="grant-number">2022YQB018</idno>
+				</org>
+				<org type="funding" xml:id="_AzgbtTf">
+					<idno type="grant-number">82070208</idno>
+				</org>
+				<org type="funding" xml:id="_V44pcY7">
+					<idno type="grant-number">2021JSLC0003</idno>
+				</org>
+				<org type="funding" xml:id="_5ww6hT3">
+					<idno type="grant-number">cstc2020jcyj-msxmX0433</idno>
+					<orgName type="grant-name">Translational Research Grant of NCRCH</orgName>
+				</org>
+				<org type="funding" xml:id="_UdGjEnp">
+					<idno type="grant-number">2020ZKZC02</idno>
+				</org>
+				<org type="funding" xml:id="_Gd7Dv3x">
+					<idno type="grant-number">2021WWB05</idno>
+				</org>
+				<org type="funding" xml:id="_cSdjCCy">
+					<idno type="grant-number">2023QNXM047</idno>
+					<orgName type="program" subtype="full">Young Doctor Incubation Program of Xinqiao Hospital</orgName>
+				</org>
+				<org type="funding" xml:id="_PGqk9gS">
+					<idno type="grant-number">2022YQB022</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>The data supporting the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Fig. <ref type="figure">4D</ref>). Given that LC was predicted to bind with the catalytic domain of ZDHHC21 according to the results of molecular docking, in vitro enzyme activity assay was performed to confirm whether LC affects the enzymatic function of ZDHHC21. As shown in Fig. <ref type="figure">6B</ref>, ZDHHC21 enhanced FASN palmitoylation level in a dose-dependent manner. Furthermore, LC could promote FASN palmitoylation in ZDHHC21-20μg group, suggesting that LC might contribute to the enzymatic function of ZDHH21. However, no significant change was observed in ZDHHC21-50μg and ZDHHC21-100μg group. We suspected that</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>BL designed research approaches, performed the experiments, analyzed data and drafted the paper. XZ, SZ, QL and XL contributed to sample acquisition and other experiments. DH, JX, NM and YD performed clinical data analyses. XZ and JR conceived the ideas, supervised progress and extensively edited and communicated regarding the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>COMPETING INTERESTS</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIONAL INFORMATION Supplementary information</head><p>The online version contains supplementary material available at https://doi.org/10.1038/s41375-023-02130-5.</p><p>Correspondence and requests for materials should be addressed to Xi Zhang or Jun Rao.</p><p>Reprints and permission information is available at http://www.nature.com/ reprints Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Genetic and functional drivers of diffuse large B cell lymphoma</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Moffitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Waldrop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="481" to="494" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>e415</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Genetic heterogeneity of diffuse large B-cell lymphoma</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Grubor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Mieczkowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1398" to="1403" />
+			<date type="published" when="2013">2013</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Diffuse large B-cell lymphoma</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Sehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">384</biblScope>
+			<biblScope unit="page" from="842" to="858" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Lipid addiction of diffuse large B-cell lymphoma (DLBCL): fatty acid synthase (FASN) and PI3K dependent cell death identifies a novel therapeutic paradigm</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dashnamoorthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Abermil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lansigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kinlaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gartenhaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1284" to="1284" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The lipid addiction of diffuse large B-cell lymphoma (DLBCL) and potential treatment strategies with novel fatty acid synthase (FASN) small molecule inhibitors</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dashnamoorthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Abermil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Behesti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kozlowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lansigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Kinlaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">4490</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dysregulation of fatty acid synthesis and glycolysis in non-Hodgkin lymphoma</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Bhatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Freemerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Makowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Rathmell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Dittmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="11818" to="11823" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthase induced S6Kinase facilitates USP11-eIF4B complex formation for sustained oncogenic translation in DLBCL</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kapadia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Nanaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bhalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bhandary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lapidus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">829</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Inhibition of fatty acid synthase suppresses c-Met receptor kinase and induces apoptosis in diffuse large B cell lymphoma</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Uddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Al-Kuraya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">4787</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The multifaceted roles of fatty acid synthesis in cancer</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rohrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schulze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Cancer</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="732" to="749" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation and cancer</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">46666</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Palmitoylation: policing protein stability and traffic</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Protein lipidation: occurrence, mechanisms, biological functions, and enabling technologies</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aramsangtienchai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="919" to="988" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Protein lipidation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Nadolski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="5202" to="5210" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<idno>DHHC9-mediated GLUT1</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">S-palmitoylation promotes glioblastoma glycolysis and tumorigenesis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">5872</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Inhibiting PD-L1 palmitoylation enhances T-cell immune responses against tumours</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Brosseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="306" to="317" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The metabolic serine hydrolases and their functions in mammalian physiology and disease</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="6022" to="6063" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The physiology of protein S-acylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="341" to="376" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">DHHC-7 and -21 are palmitoylacyltransferases for sex steroid receptors</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pedram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Razandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Levin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="188" to="199" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Palmitoyltransferase ZDHHC21 regulates oxidative phosphorylation to induce differentiation block and stemness in AML</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="365" to="381" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Palmitoylated proteins: purification and identification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1573" to="1584" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of NOD1 and NOD2 is required for bacterial sensing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Coyaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Selvabaskaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="460" to="467" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A probabilistic classification tool for genetic subtypes of diffuse large B cell lymphoma with therapeutic implications</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Phelan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Coulibaly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roulland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Cell</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="551" to="568" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>e14</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthase and the lipogenic phenotype in cancer pathogenesis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Menendez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lupu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Cancer</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="763" to="777" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Molecular pathways: fatty acid synthase</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Infante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="5434" to="5438" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Palmitoylation stabilizes PD-L1 to promote breast tumor growth</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="83" to="86" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Lanatoside C sensitizes glioblastoma cells to tumor necrosis factor-related apoptosis-inducing ligand and induces an alternative cell death pathway</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Badr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wurdinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Niers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Whalen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Degterev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuro Oncol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1213" to="1224" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Targeting the Otub1/c-Maf axis for the treatment of multiple myeloma</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="1478" to="1490" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Fatty-acid synthase and human cancer: new perspectives on its role in tumor biology</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Kuhajda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="202" to="208" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Structure and molecular organization of mammalian fatty acid synthase</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Asturias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Chadick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Witkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Joshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="225" to="232" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Lanatoside C inhibits cell proliferation and induces apoptosis through attenuating Wnt/beta-catenin/c-Myc signaling pathway in human gastric cancer cell</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="280" to="292" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Novel therapeutic strategies targeting UCP2 in uterine leiomyosarcoma</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nagao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yokoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol Res</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page">106693</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Coexpression of fatty acid synthase and caveolin-1 in pancreatic ductal adenocarcinoma: implications for tumor progression and clinical outcome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Witkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lisanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Cycle</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="3021" to="3025" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthesis is required for breast cancer brain metastasis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Kodack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Abbott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Cancer</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="414" to="428" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Destabilization of fatty acid synthase by acetylation inhibits de novo lipogenesis and tumor cell growth</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="6924" to="6936" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Sterol regulatory element-binding proteins: transcriptional activators of lipid synthesis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Horton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1091" to="1095" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Diminished hepatic response to fasting/refeeding and liver X receptor agonists in mice with selective deficiency of sterol regulatory element-binding protein-1c</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Horton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="9520" to="9528" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthase: an emerging target in cancer</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Fhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">3935</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Destabilization of fatty acid synthase by acetylation inhibits de novo lipogenesis and tumor cell growth</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="6924" to="6936" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">SUMOylation protects FASN against proteasomal degradation in breast cancer cells treated with grape leaf extract</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Floris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mazarei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barberis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomolecules</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">529</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The isopeptidase USP2a regulates the stability of fatty acid synthase in prostate cancer</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Graner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Migita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Weinstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Cell</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="253" to="261" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Fatty acids and cancer-amplified ZDHHC19 promote STAT3 activation through S-palmitoylation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Jarugumilli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">573</biblScope>
+			<biblScope unit="page" from="139" to="143" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Fatty acid synthase mediates EGFR palmitoylation in EGFR mutated non-small cell lung cancer</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Levantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Teo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Clohessy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">8313</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Toll-like receptor mediated inflammation requires FASN-dependent MYD88 palmitoylation</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="907" to="916" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

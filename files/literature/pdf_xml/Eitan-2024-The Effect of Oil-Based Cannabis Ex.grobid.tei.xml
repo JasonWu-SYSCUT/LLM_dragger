@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Effect of Oil-Based Cannabis Extracts on Metabolic Parameters and Microbiota Composition of Mice Fed a Standard and a High-Fat Diet</title>
+				<funder ref="#_bCszq3d">
+					<orgName type="full">Israeli Ministry of Agriculture and Rural Development</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-16">16 January 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Deanne</forename><forename type="middle">H</forename><surname>Hryciw</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Adi</forename><surname>Eitan</surname></persName>
+							<idno type="ORCID">0000-0002-1429-6741</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Ofer</forename><surname>Gove</surname></persName>
+							<email>ofer.gover@mail.huji.ac.il</email>
+							<idno type="ORCID">0000-0002-8341-6209</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Liron</forename><surname>Sulimani</surname></persName>
+							<idno type="ORCID">0000-0003-1652-5920</idno>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Meiri</surname></persName>
+							<email>dmeiri@technion.ac.il</email>
+							<idno type="ORCID">0000-0003-1652-5920</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Naama</forename><surname>Shterzer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Erez</forename><surname>Mills</surname></persName>
+							<email>erez.mills@mail.huji.ac.il</email>
+						</author>
+						<author>
+							<persName><forename type="first">Betty</forename><surname>Schwartz</surname></persName>
+							<email>betty.schwartz@mail.huji.ac.il</email>
+							<idno type="ORCID">0000-0002-9705-3162</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 The Institute of Biochemistry, Food Science and Nutrition, The Robert H. Smith Faculty of Agriculture, Food and Environment, The Hebrew University of Jerusalem, </orgName>
+								<address><addrLine>Rehovot 9190401, Israel</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 Cannasoul Analytics, </orgName>
+								<address><addrLine> 9 Tarshish Industrial Park, Caesarea 3079822, Israel</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 The Laboratory of Cancer Biology and Cannabinoid Research, Department of Biology, Technion-Israel Institute of Technology, </orgName>
+								<address><addrLine> Haifa 3200003, Israel</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 4 The Department of Animal Sciences, The Robert H. Smith Faculty of Agriculture, Food and Environment, The Hebrew University of Jerusalem,</orgName>
+								<address><addrLine> Rehovot 9190401, Israel</addrLine></address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Effect of Oil-Based Cannabis Extracts on Metabolic Parameters and Microbiota Composition of Mice Fed a Standard and a High-Fat Diet</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-16">16 January 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8E3CD577B7674FD2F917CADBAAE02142</idno>
+					<idno type="DOI">10.3390/ijms25021073</idno>
+					<note type="submission">Received: 11 December 2023 Revised: 10 January 2024 Accepted: 13 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Eitan, A.</term>
+					<term>Gover, O.</term>
+					<term>Sulimani, L.</term>
+					<term>Meiri, D.</term>
+					<term>Shterzer, N.</term>
+					<term>Mills, E.</term>
+					<term>Schwartz, B. The Effect of Oil-Based Cannabis Extracts on obesity</term>
+					<term>cannabis</term>
+					<term>endocannabinoid system</term>
+					<term>microbiota</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The prevalence of obesity and obesity-related pathologies is lower in frequent cannabis users compared to non-users. It is well established that the endocannabinoid system has an important role in the development of obesity. We recently demonstrated that prolonged oral consumption of purified ∆-9 Tetrahydrocannabinol (THC), but not of cannabidiol (CBD), ameliorates diet-induced obesity and improves obesity-related metabolic complications in a high-fat diet mouse model. However, the effect of commercially available medical cannabis oils that contain numerous additional active molecules has not been examined. We tested herein the effects of THC-and CBD-enriched medical cannabis oils on obesity parameters and the gut microbiota composition of C57BL/6 male mice fed with either a high-fat or standard diet. We also assessed the levels of prominent endocannabinoids and endocannabinoid-like lipid mediators in the liver. THC-enriched extract prevented weight gain by a high-fat diet and attenuated diet-induced liver steatosis concomitantly with reduced levels of the lipid mediators palmitoyl ethanolamide (PEA) and docosahexaenoyl ethanolamide (DHEA) in the liver. In contrast, CBD-enriched extract had no effect on weight gain, but, on the contrary, it even exacerbated liver steatosis. An analysis of the gut microbiota revealed that mainly time but not treatment exerted a strong effect on gut microbiota alterations. From our data, we conclude that THC-enriched cannabis oil where THC is the main constituent exerts the optimal anti-obesity effects.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Obesity is a major risk factor for the development of multiple diseases such as type-2 diabetes, non-alcoholic fatty liver disease (NAFLD), and cardiovascular disorders <ref type="bibr" target="#b0">[1]</ref>. It is well established that the endocannabinoid system (ECS) plays a major role in the development of obesity by regulating appetite, metabolic processes, and energy balance <ref type="bibr" target="#b1">[2]</ref>. Dysregulation of the ECS results in a high endocannabinoid 'tone', leading to increased appetite, lipogenesis, adipogenesis, and a decrease in energy expenditure, which further escalates adiposity, thus creating a vicious cycle <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. The central role of this system in obesity development makes it a worthy therapeutic target for the treatment of obesity and associated comorbidities.</p><p>The ECS is a complex system comprised of several bioactive lipids of which the two most-studied are N-arachidonoylethanolamide (AEA) and 2-arachidonoylglycerol (2-AG) <ref type="bibr" target="#b3">[4]</ref>. These bioactive lipids interact with both membrane-bound and nuclear receptors, leading to a broad range of physiological effects <ref type="bibr" target="#b3">[4]</ref>. The two main endocannabinoid receptors are the G-coupled receptors CB1 and CB2, which are expressed throughout the central nervous system and many other tissues, including organs affecting metabolic homeostasis <ref type="bibr" target="#b3">[4]</ref>. In recent years, additional receptors and "endocannabinoid-like" mediators have been identified as part of the extended ECS <ref type="bibr" target="#b4">[5]</ref>. Among them are congeners of AEA (N-acylethanolamines (NAEs)) and 2-AG (2-monoacyleglycerols (2-MAGs)), and N-acyl-amino acids (NAAs) <ref type="bibr" target="#b4">[5]</ref>.</p><p>Previous studies have demonstrated the link between the ECS and the gut microbiota in relation to obesity. For example, a blockade of CB1 was suggested to ameliorate diet-induced obesity by increasing the relative abundance of Akkermansia muciniphila, a commensal Gram-negative bacterium with beneficial effects on metabolism <ref type="bibr">[6]</ref>. Moreover, alterations in the ECS are implicated in the dysregulation of lipopolysaccharide (LPS) levels, gut integrity disruption, and dysbiosis of the gut microflora <ref type="bibr" target="#b6">[7]</ref>. Microbiota composition is altered in obese settings, and compelling evidence suggests that these alterations influence several metabolic pathways that contribute to obesity-induced metabolic disorders <ref type="bibr" target="#b7">[8]</ref>. Decreased alpha diversity and changes in the ratio of Bacteroidetes to Firmicutes are some of the markers that are associated with obesity <ref type="bibr" target="#b7">[8]</ref>.</p><p>The ECS can be activated by the consumption of exogenous cannabinoids, such as phytocannabinoids found in the Cannabis sativa (C. sativa) plant <ref type="bibr" target="#b8">[9]</ref>. The C. sativa plant has been used as an effective therapeutic agent for thousands of years. The plant contains hundreds of natural compounds of which more than 100 have been identified as phytocannabinoids <ref type="bibr" target="#b9">[10]</ref>. The major two are cannabidiol (CBD) and ∆9-tetrahydrocannabinol (THC), the latter being the predominant psychoactive component in C. sativa. Both demonstrated therapeutic properties in different settings <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. In recent years, there has been an increase in the use of purified cannabinoids and medical cannabis, mainly in the form of whole plant extracts that contain, in addition to phytocannabinoids, a full spectrum of metabolites with potential therapeutic properties, such as terpenes and flavonoids <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. For example, cannflavins, prenylated flavonoids found in C. sativa, exert anti-inflammatory activities by inhibiting the microsomal prostaglandin E2 (PGE2) synthase-1 and the 5-lipoxygenase activities, leading to reduced PGE2 and leukotriene production, respectively <ref type="bibr" target="#b13">[14]</ref>. Medical cannabis is commonly used as an appetite stimulator in pathological conditions such as cancer and HIV <ref type="bibr" target="#b10">[11]</ref>. Paradoxically, several studies have established the association between cannabis exposure and reduced risk of obesity and metabolic diseases <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref>. Moreover, various compounds comprising cannabis, as well as whole cannabis extracts, have been shown to exert anti-obesity properties in animal models <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>. In this regard, the effect of THC was suggested to be, in part, due to alterations in the gut microbiota <ref type="bibr" target="#b18">[19]</ref>.</p><p>We have recently shown that prolonged oral consumption of purified THC, but not CBD, ameliorates diet-induced obesity and improves obesity-related metabolic complications in a high-fat diet mouse model <ref type="bibr" target="#b23">[24]</ref>. In the same experimental model, we investigated the effect of cannabis-based oil preparations enriched with either THC (Erez) or CBD (Avidekel) on obesity-related metabolic parameters, and these are reported herein.</p><p>To our knowledge, no studies hitherto have examined the effect of commercially available medical cannabis oil-based preparations on obesity parameters in a rodent model. Based on our recent findings and the data stated above, we hypothesize that prolonged exposure to whole plant extracts may produce anti-obesity properties, possibly through alterations in the gut microbiota. In the current study, we investigate the effect of orally administered THC-and CBD-enriched medical cannabis oils (Erez and Avidekel, respectively, provided by Tikun Olam) in mice fed a normal diet or a high-fat diet inducing obesity, with emphasis on microbiota alterations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Erez (THC-Enriched) but Not Avidekel (CBD-Enriched) Reduces Weight Gain</head><p>The effect of prolonged oral consumption of CBD-enriched (Avidekel) and THCenriched (Erez) medical cannabis oils was evaluated in mice fed a standard diet (STD) and a high-fat diet (HFD). The oil preparations used in the study were analyzed for cannabinoid and terpene content (Supplemental Figures <ref type="figure" target="#fig_1">S1</ref> and<ref type="figure" target="#fig_3">S2</ref> and Tables <ref type="table">S2</ref> and<ref type="table">S3</ref>). Treatment with medical cannabis oils did not affect weight gain, caloric intake, or fat pad weights in mice fed a standard diet, though adipocyte size was decreased in mice treated with Erez extract (Figure <ref type="figure" target="#fig_1">1A</ref>-C, left columns). In mice fed a high-fat diet, treatment with Erez extract prevented weight gain, while treatment with Avidekel extract significantly increased fat pad weights (Figure <ref type="figure" target="#fig_1">1A,</ref><ref type="figure">C</ref>). Both treatments decreased adipocytes in the epididymal fat (Figure <ref type="figure" target="#fig_1">1D</ref>).</p><p>Int. J. Mol. Sci. 2024, 25, x FOR PEER REVIEW 3 of 14</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Erez (THC-Enriched) but Not Avidekel (CBD-Enriched) Reduces Weight Gain</head><p>The effect of prolonged oral consumption of CBD-enriched (Avidekel) and THC-enriched (Erez) medical cannabis oils was evaluated in mice fed a standard diet (STD) and a high-fat diet (HFD). The oil preparations used in the study were analyzed for cannabinoid and terpene content (Supplemental Figures <ref type="figure" target="#fig_1">S1</ref> and<ref type="figure" target="#fig_3">S2</ref> and Tables <ref type="table">S2</ref> and<ref type="table">S3</ref>). Treatment with medical cannabis oils did not affect weight gain, caloric intake, or fat pad weights in mice fed a standard diet, though adipocyte size was decreased in mice treated with Erez extract (Figure <ref type="figure" target="#fig_1">1A</ref>-C, left columns). In mice fed a high-fat diet, treatment with Erez extract prevented weight gain, while treatment with Avidekel extract significantly increased fat pad weights (Figure <ref type="figure" target="#fig_1">1A,</ref><ref type="figure">C</ref>). Both treatments decreased adipocytes in the epididymal fat (Figure <ref type="figure" target="#fig_1">1D</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Avidekel Increases Adipose Tissue Inflammation in STD Mice</head><p>Abnormal expansion of the adipose tissue, as seen in obesity, promotes inflammation <ref type="bibr" target="#b24">[25]</ref>. Thus, we next examined whether the decreased adiposity and weight gain by using Erez extract were associated with decreased adipose inflammation. In mice fed a high-fat diet, both Erez (p &lt; 0.002) and Avidekel (p &lt; 0.05) extracts increased the gene expression of the pro-inflammatory cytokine IL-1β (Figure <ref type="figure" target="#fig_3">2A</ref>). In mice on a standard diet, Avidekel extract significantly increased adipose tissue inflammation, as demonstrated by the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Avidekel Increases Adipose Tissue Inflammation in STD Mice</head><p>Abnormal expansion of the adipose tissue, as seen in obesity, promotes inflammation <ref type="bibr" target="#b24">[25]</ref>. Thus, we next examined whether the decreased adiposity and weight gain by using Erez extract were associated with decreased adipose inflammation. In mice fed a high-fat diet, both Erez (p &lt; 0.002) and Avidekel (p &lt; 0.05) extracts increased the gene expression of the pro-inflammatory cytokine IL-1β (Figure <ref type="figure" target="#fig_3">2A</ref>). In mice on a standard diet, Avidekel extract significantly increased adipose tissue inflammation, as demonstrated by the increased gene expression of markers abundant on the surface of the monocytes and macrophages F4/80 (p &lt; 0.001, Figure <ref type="figure" target="#fig_3">2B</ref>) and CD14 (p &lt; 0.0001, Figure <ref type="figure" target="#fig_3">2C</ref>), in addition to the pro-inflammatory cytokine INF-γ (p &lt; 0.0001, Figure <ref type="figure" target="#fig_3">2D</ref>). The last two were also upregulated by using Erez extract compared to vehicle-treated mice (Figure <ref type="figure" target="#fig_3">2C,</ref><ref type="figure">D</ref>). Notably, mice treated with Erez extract exhibited significantly less adipose inflammation compared to those treated with Avidekel (Figure <ref type="figure" target="#fig_3">2B-D</ref> increased gene expression of markers abundant on the surface of the monocytes and macrophages F4/80 (p &lt; 0.001, Figure <ref type="figure" target="#fig_3">2B</ref>) and CD14 (p &lt; 0.0001, Figure <ref type="figure" target="#fig_3">2C</ref>), in addition to the pro-inflammatory cytokine INF-γ (p &lt; 0.0001, Figure <ref type="figure" target="#fig_3">2D</ref>). The last two were also upregulated by using Erez extract compared to vehicle-treated mice (Figure <ref type="figure" target="#fig_3">2C,</ref><ref type="figure">D</ref>). Notably, mice treated with Erez extract exhibited significantly less adipose inflammation compared to those treated with Avidekel (Figure <ref type="figure" target="#fig_3">2B-D</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Erez Extract Improves Diet-Induced Liver Steatosis</head><p>A central pathology of obesity is fatty liver disease, which is instigated by excessive accumulation of lipids in the liver (steatosis) <ref type="bibr" target="#b25">[26]</ref>. Thus, we next examined the effect of Avidekel and Erez extracts on liver parameters. HFD-induced fatty liver, as indicated by increased lipid droplets, liver weight, hepatic triglyceride content, steatosis score, and serum cholesterol (Figure <ref type="figure" target="#fig_4">3A-F</ref>). Avidekel treatment further exacerbated liver steatosis, significantly increasing lipid droplets compared to vehicle and Erez treatments (Figure <ref type="figure" target="#fig_4">3B</ref>). Notably, Erez treatment alleviated liver steatosis compared to Avidekel treatment, as demonstrated by the decreased liver weight, serum cholesterol levels, and steatosis score (Figure <ref type="figure" target="#fig_4">3C,</ref><ref type="figure">E,</ref><ref type="figure">F</ref>, respectively). The latter was also significantly lower compared to vehicletreated mice (Figure <ref type="figure" target="#fig_4">3F</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Erez Extract Improves Diet-Induced Liver Steatosis</head><p>A central pathology of obesity is fatty liver disease, which is instigated by excessive accumulation of lipids in the liver (steatosis) <ref type="bibr" target="#b25">[26]</ref>. Thus, we next examined the effect of Avidekel and Erez extracts on liver parameters. HFD-induced fatty liver, as indicated by increased lipid droplets, liver weight, hepatic triglyceride content, steatosis score, and serum cholesterol (Figure <ref type="figure" target="#fig_4">3A-F</ref>). Avidekel treatment further exacerbated liver steatosis, significantly increasing lipid droplets compared to vehicle and Erez treatments (Figure <ref type="figure" target="#fig_4">3B</ref>). Notably, Erez treatment alleviated liver steatosis compared to Avidekel treatment, as demonstrated by the decreased liver weight, serum cholesterol levels, and steatosis score (Figure <ref type="figure" target="#fig_4">3C,</ref><ref type="figure">E,</ref><ref type="figure">F</ref>, respectively). The latter was also significantly lower compared to vehicletreated mice (Figure <ref type="figure" target="#fig_4">3F</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 3. Effect of Avidekel and Erez extract on obesity-induced steatosis. (A). Representative liver tissue sections stained with H&amp;E (magnification ×100). (B). Morphological analysis of liver droplet density (n = 5). (C). Liver weights. (D). Levels of hepatic triglycerides (n = 3). (E). Serum cholesterol (n = 3). (F)</head><p>. Severity of steatosis was blindly scored as described by Liang et al. <ref type="bibr" target="#b26">[27]</ref> (n = 3). Data are shown as mean ± SEM. * p &lt; 0.05, ** p &lt; 0.002, **** p &lt; 0.0001. Statistical significance was determined by using two-way ANOVA followed by Tukey's post hoc test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Erez Extract Reduces Liver Levels of DHEA and PEA in High-Fat Diet-Fed Mice</head><p>The endocannabinoid system plays a major role in obesity-induced liver steatosis <ref type="bibr" target="#b27">[28]</ref>. To determine whether the improvement in liver steatosis by using Erez extract was mediated by modulation of the ECS, we next examined in mice fed a high-fat diet the levels of the well-known endocannabinoids AEA and 2-AG, as well as other family members of NAEs, 2-MAGs, and NAAs that together act as mediators within the endocannabinoidome <ref type="bibr" target="#b4">[5]</ref>. No significant differences were observed in AEA and 2-AG levels in livers from vehicle-or extract-treated mice, though a trend toward lowered 2-AG levels could be seen in mice treated with medicinal cannabis oils. Mice treated with Erez extract demonstrated decreased levels of NAEs (DHEA and PEA), compared to vehicle-treated mice (Table <ref type="table" target="#tab_1">1</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Erez Extract Reduces Liver Levels of DHEA and PEA in High-Fat Diet-Fed Mice</head><p>The endocannabinoid system plays a major role in obesity-induced liver steatosis <ref type="bibr" target="#b27">[28]</ref>. To determine whether the improvement in liver steatosis by using Erez extract was mediated by modulation of the ECS, we next examined in mice fed a high-fat diet the levels of the well-known endocannabinoids AEA and 2-AG, as well as other family members of NAEs, 2-MAGs, and NAAs that together act as mediators within the endocannabinoidome <ref type="bibr" target="#b4">[5]</ref>. No significant differences were observed in AEA and 2-AG levels in livers from vehicleor extract-treated mice, though a trend toward lowered 2-AG levels could be seen in mice treated with medicinal cannabis oils. Mice treated with Erez extract demonstrated decreased levels of NAEs (DHEA and PEA), compared to vehicle-treated mice (Table <ref type="table" target="#tab_1">1</ref>).</p><p>The presence of THC and CBD and their respective metabolites were assessed in liver tissues to examine the pharmacological exposure to the active molecules. Both THC and CBD and their respective metabolites were present in the liver tissues (Figure <ref type="figure" target="#fig_7">4</ref>). As expected, mice treated with Avidekel extract demonstrated elevated levels of CBD compared to THC and vice versa in mice treated with Erez extract (Figure <ref type="figure" target="#fig_7">4</ref>).    The presence of THC and CBD and their respective metabolites were assessed in liver tissues to examine the pharmacological exposure to the active molecules. Both THC and CBD and their respective metabolites were present in the liver tissues (Figure <ref type="figure" target="#fig_7">4</ref>). As expected, mice treated with Avidekel extract demonstrated elevated levels of CBD compared to THC and vice versa in mice treated with Erez extract (Figure <ref type="figure" target="#fig_7">4</ref>).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Effect of Avidekel and Erez Extracts on the Microbiota</head><p>Interaction between the ECS and the gut microbiota is suggested to take part in the development of obesity and obesity-related metabolic disorders [6, <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b18">19]</ref>. We performed an alpha diversity analysis, which characterizes the microbiota community in three ways: observed richness, evenness, and Shannon diversity index, a metric that weighs the number of species by their relative evenness data <ref type="bibr" target="#b28">[29]</ref>. In addition, we looked at the Firmicutes/Bacteroidetes (F/B) ratio, which is associated with maintaining homeostasis <ref type="bibr" target="#b29">[30]</ref>. Four different time points were chosen to assess how diet and treatment influenced microbiota composition. T1 represents microbiota after one month of HFD; T2 represents microbiota one day before the start of treatment; T3 represents microbiota one day after the start of treatment; and T4 represents microbiota on the day of sacrifice.</p><p>At T1, the richness, evenness, and diversity of the microbial community (alpha diversity) in mice fed a high-fat diet was lower compared to mice fed a standard diet, whereas the F/B ratio was increased by a high-fat diet (Figure <ref type="figure" target="#fig_10">5A-D</ref>). In mice fed a high-fat diet, alterations in gut microbiota could be observed within each group and between groups at different time points after treatment commencement (Figure <ref type="figure" target="#fig_10">5E-H</ref>). Considering time as a factor, all treatment groups demonstrated reduced alpha diversity and an increase in the F/B ratio over time (Figure <ref type="figure" target="#fig_10">5E-H</ref>). Considering treatment as a factor, at T3, a significant shift in microbiota composition could be seen in mice treated with Erez extract compared to Avidekel, as indicated by the lower alpha diversity metrics of the former (Figure <ref type="figure" target="#fig_10">5E-G</ref>). No differences were observed between all treatment groups at T4. Mice fed a standard diet exhibited a higher F/B ratio over time, and when considering treatment as a factor, mice treated with Avidekel extract showed a decreased F/B ratio at T4 compared to vehicle-treated mice (Figure <ref type="figure" target="#fig_10">5L</ref>). The gut microbial community of mice fed a high-fat diet, or a standard diet, exhibited a decrease in the relative abundance of bacteroidales at T4, which was accompanied by an increase in Lactobacillales in mice fed a high-fat diet and an increase in clostridiales in mice fed a standard diet (Figure <ref type="figure" target="#fig_11">6</ref>).</p><p>different time points were chosen to assess how diet and treatment influenced microbiota composition. T1 represents microbiota after one month of HFD; T2 represents microbiota one day before the start of treatment; T3 represents microbiota one day after the start of treatment; and T4 represents microbiota on the day of sacrifice.</p><p>At T1, the richness, evenness, and diversity of the microbial community (alpha diversity) in mice fed a high-fat diet was lower compared to mice fed a standard diet, whereas the F/B ratio was increased by a high-fat diet (Figure <ref type="figure" target="#fig_10">5A-D</ref>). In mice fed a high-fat diet, alterations in gut microbiota could be observed within each group and between groups at different time points after treatment commencement (Figure <ref type="figure" target="#fig_10">5E-H</ref>). Considering time as a factor, all treatment groups demonstrated reduced alpha diversity and an increase in the F/B ratio over time (Figure <ref type="figure" target="#fig_10">5E-H</ref>). Considering treatment as a factor, at T3, a significant shift in microbiota composition could be seen in mice treated with Erez extract compared to Avidekel, indicated by the lower alpha diversity metrics of the former (Figure <ref type="figure" target="#fig_10">5E-G</ref>). No differences were observed between all treatment groups at T4. Mice fed a standard diet exhibited a higher F/B ratio over time, and when considering treatment as a factor, mice treated with Avidekel extract showed a decreased F/B ratio at T4 compared to vehicle-treated mice (Figure <ref type="figure" target="#fig_10">5L</ref>). The gut microbial community of mice fed a high-fat diet, or a standard diet, exhibited a decrease in the relative abundance of bacteroidales at T4, which was accompanied by an increase in Lactobacillales in mice fed a high-fat diet and an increase in clostridiales in mice fed a standard diet (Figure <ref type="figure" target="#fig_11">6</ref>).  The gut microbial richness was estimated by observed species; the diversity was evaluated by using the Shannon index; and Evenness was measured by using the Shannon Evenness index. Alpha diversity metrics: richness, evenness, diversity, and Firmicutes/Bacteroidetes ratio at T1 (A-D), HFDfed mice (E-H), and STD-fed mice (I-L). The line shows the average, and the whiskers show the minimum and maximum (n = 4-7). * p &lt; 0.05, ** p &lt; 0.002, *** p &lt; 0.001, **** p &lt; 0.0001. Statistical significance was calculated by using non-parametric Mann-Whitney (A-D) and Kruskal-Wallis (E-L) tests. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Discussion</head><p>We previously demonstrated that prolonged oral treatment with THC prevented HFD-induced body weight gain and improved metabolic alterations after diet-induced obesity in C57BL/6 male mice <ref type="bibr" target="#b23">[24]</ref>. Here we show that prolonged oral administration of THC-enriched medical cannabis oil (Erez extract) similarly prevented HFD-induced weight gain and improved liver steatosis. These effects were associated with decreased levels of liver PEA and DHEA. In contrast, CBD-enriched medical cannabis oil (Avidekel extract) demonstrated a contrasting effect to that of Erez extract and had no beneficial effect on diet-induced obesity in mice.</p><p>The effect of orally administered commercially available medical cannabis oil on obesity parameters has not been described previously. Evidence suggests that several compounds in the plant may exert anti-obesity effects, including the terpenes D-Limonene and β-Caryophyllene, which are found in Avidekel (Supplementary Table <ref type="table">S2</ref>) and Erez extracts (Supplementary Table <ref type="table">S3</ref>), alongside the main phytocannabinoids THC and CBD <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. Whole plant extracts are suggested to be more effective compared to purified isolates administered, an effect that is also known as the 'entourage effect' <ref type="bibr" target="#b30">[31]</ref>.</p><p>Our results indicate that THC, which is the main constituent of Erez cannabis extract, exerts anti-obesity effects and prevents weight gain in HFD-fed mice. This could be attributed to the ability of THC to produce tolerance when consumed frequently, as in the case of cannabis users <ref type="bibr" target="#b31">[32]</ref>. The tolerance produced by THC leads to reduced CB1 density and coupling efficacy that may be beneficial in obesity, where the endocannabinoid system is overactivated <ref type="bibr" target="#b31">[32]</ref>. In support of this, our results show that Erez extract prevented weight gain in mice fed a high-fat diet while not affecting the weights of mice fed a standard diet. Another possible explanation for the resistance to diet-induced obesity, while not affecting caloric intake, is increased energy expenditure induced by THC consumption. Indeed, a recent study showed that daily administration of THC to adolescent mice caused a reduction in weight gain partly due to heightened energy expenditure <ref type="bibr" target="#b32">[33]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Discussion</head><p>We previously demonstrated that prolonged oral treatment with THC prevented HFD-induced body weight gain and improved metabolic alterations after diet-induced obesity in C57BL/6 male mice <ref type="bibr" target="#b23">[24]</ref>. Here we show that prolonged oral administration of THC-enriched medical cannabis oil (Erez extract) similarly prevented HFD-induced weight gain and improved liver steatosis. These effects were associated with decreased levels of liver PEA and DHEA. In contrast, CBD-enriched medical cannabis oil (Avidekel extract) demonstrated a contrasting effect to that of Erez extract and had no beneficial effect on diet-induced obesity in mice.</p><p>The effect of orally administered commercially available medical cannabis oil on obesity parameters has not been described previously. Evidence suggests that several compounds in the plant may exert anti-obesity effects, including the terpenes D-Limonene and β-Caryophyllene, which are found in Avidekel (Supplementary Table <ref type="table">S2</ref>) and Erez extracts (Supplementary Table <ref type="table">S3</ref>), alongside the main phytocannabinoids THC and CBD <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. Whole plant extracts are suggested to be more effective compared to purified isolates administered, an effect that is also known as the 'entourage effect' <ref type="bibr" target="#b30">[31]</ref>.</p><p>Our results indicate that THC, which is the main constituent of Erez cannabis extract, exerts anti-obesity effects and prevents weight gain in HFD-fed mice. This could be attributed to the ability of THC to produce tolerance when consumed frequently, as in the case of cannabis users <ref type="bibr" target="#b31">[32]</ref>. The tolerance produced by THC leads to reduced CB1 density and coupling efficacy that may be beneficial in obesity, where the endocannabinoid system is overactivated <ref type="bibr" target="#b31">[32]</ref>. In support of this, our results show that Erez extract prevented weight gain in mice fed a high-fat diet while not affecting the weights of mice fed a standard diet. Another possible explanation for the resistance to diet-induced obesity, while not affecting caloric intake, is increased energy expenditure induced by THC consumption. Indeed, a recent study showed that daily administration of THC to adolescent mice caused a reduction in weight gain partly due to heightened energy expenditure <ref type="bibr" target="#b32">[33]</ref>.</p><p>HFD-fed mice treated with Erez and Avidekel extract exhibited fewer hypertrophic adipocytes, even though the up-regulation of the pro-inflammatory cytokine il-1β, could be seen in the adipose tissue of both treated groups. Interestingly, adipose tissue inflammation was exacerbated in mice fed a standard diet and treated with medical cannabis extracts, especially that of Avidekel, as demonstrated by the elevated mRNA expression of the macrophage markers F4/80 and CD14 and pro-inflammatory cytokine INF-γ. Because Avidekel extract is high in CBD and contains considerable amounts of the terpenes β-Myrcene and β-caryophyllene (Supplementary Table <ref type="table">S4</ref>), all of which possess anti-inflammatory properties, it was expected to have an anti-inflammatory effect <ref type="bibr" target="#b22">[23,</ref><ref type="bibr">34,</ref><ref type="bibr" target="#b34">35]</ref>. Indeed, a previous study demonstrated the anti-inflammatory properties of Avidekel extract, which overcame the bell-shaped dose-response that is typically seen in treatments with purified CBD <ref type="bibr" target="#b35">[36]</ref>. Nevertheless, the majority of publications demonstrated immunomodulatory effects of CBD in pro-inflammatory conditions; however, in basal conditions, CBD can induce a pro-inflammatory response, which is consistent with our observations <ref type="bibr" target="#b36">[37]</ref>. It could be speculated that the pro-inflammatory response by the cannabis oil preparations could imply preconditioning of the adipose tissue, enhancing their therapeutic effect <ref type="bibr" target="#b24">[25]</ref>. Though this subject is beyond the scope of the study, it is worthy of future research.</p><p>Opposing effects of Erez and Avidekel extracts were seen in obesity-induced liver steatosis parameters as the latter demonstrated increased liver weight, lipid droplets, and serum cholesterol levels compared to the former. Overall, Erez extract attenuated liver steatosis, while Avidekel extract increased the severity of liver steatosis as indicated by the low and high steatosis scores. Interestingly, although Avidekel extract and Erez extract contained negligible amounts of THC and CBD, respectively, the liver tissues from both treatments presented considerable amounts of the active molecules and their respective metabolites. Though the large standard deviation can account partially for these results, it is important to consider the implications of the accumulation of THC in certain tissues when consuming CBD-enriched cannabis extracts. The improvement by using Erez extract was associated with decreased levels of the N-acylethanolamines (NAEs), PEA and DHEA. Previous studies have shown that the dietary administration of PEA, an endogenous ligand of peroxisome proliferator-activated receptor (PPAR)-α, can improve diet-induced metabolic complications, including liver steatosis <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b38">39]</ref>. Yet, levels of PEA are increased in cirrhotic liver tissues and in activated hepatic stellate cells (HSCs) which play a crucial role in promoting the pathogenesis of liver disease <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>. In this regard, the increased levels of PEA in vehicle-treated mice could imply an initial indicator of liver dysfunction, which Erez extract prevented. However, the implication of this finding warrants further investigation. Although DHEA, an ω-3 derived anti-inflammatory lipid mediator, was also significantly decreased by using the Erez extract, the low levels detected in the liver suggest a minor role of this endocannabinoid-like mediator in liver steatosis <ref type="bibr" target="#b41">[42]</ref>.</p><p>Previous studies have attributed the beneficial effect of ECS manipulation in obese settings to changes in the gut microbial community; thus, we aimed to examine changes in the gut microbiota of mice during treatment <ref type="bibr">[6,</ref><ref type="bibr" target="#b18">19]</ref>. An alteration in the gut microbiota could be seen initially in mice fed a high-fat diet, as indicated by the lower alpha diversity and increased Firmicutes/Bacteroidetes ratio, both of which are linked to obesity-associated dysbiosis <ref type="bibr" target="#b7">[8]</ref>. Interestingly, a negative shift of the gut microbiota, reflected by the decrease in alpha diversity, was observed after the first administration of the Erez extract compared to the Avidekel extract in mice fed a high-fat diet. This initial effect of Erez extract suggests that the treatment has an adverse effect on the gut microbiota, as alpha diversity is considered the most common indicator to assess gut microbiota health <ref type="bibr" target="#b42">[43]</ref>. However, this immediate effect did not last, and at the end of the study, no significant alterations could be seen between treatment groups. Moreover, all groups, regardless of treatment, demonstrated a decrease in alpha diversity and an increase in the Firmicutes/Bacteroidetes ratio over time, indicating that time was the dominant factor for gut microbiota alterations.</p><p>The current study demonstrates the superiority of THC-enriched cannabis (Erez) extract in preventing HFD-induced weight gain and relieving obesity-induced liver steatosis compared to CBD-rich cannabis extract. In contrast to other publications, our results suggest that the protective effect of Erez extract does not involve changes in the gut microbial community. The improvement in liver steatosis by using Erez extract was concomitant with decreased levels of liver PEA, which could suggest a protective effect on liver function, though this finding could be secondary to the overall effect of Erez extract on obesity.</p><p>In summary, our results, jointly with our previous report <ref type="bibr" target="#b23">[24]</ref>, provide evidence that THC is the main constituent of cannabis able to exert effective anti-obesity properties. The underlying mechanism requires further investigation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Animals</head><p>All procedures were approved by the animal ethics committee of the Hebrew University of Jerusalem (approval number: AG-23-15437-3). Four-week-old C57BL/6 male mice were purchased from Envigo (Rehovot, Israel) and housed in polycarbonate cages under a 12 h light/dark cycle-controlled temperature and constant humidity. Mice were fed ad libitum with either a standard diet (STD; 2018sx; Harlan Teklad) containing 70% carbohydrates, 20% protein, and 10% fat or a high-fat diet (HFD; TD.06414; Harlan Teklad) containing 60% fat, 20% protein, and 20% carbohydrates. The fatty acid profiles of both the STD and HFD are shown in Supplementary Table <ref type="table" target="#tab_1">S1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Study Compounds</head><p>Erez extract (15% THC) and Avidekel extract (30% CBD) were provided by Tikun Olam Ltd. (Tel-Aviv, Israel). Avidekel and Erez oil preparations used in the study were analyzed for phytocannabinoids (Supplementary Figures <ref type="figure" target="#fig_1">S1</ref> and<ref type="figure" target="#fig_3">S2</ref>, respectively) and terpenes (Supplementary Tables <ref type="table">S2</ref> and<ref type="table">S3</ref>, respectively). CoA Terpene profile was provided by Tikun Olam Ltd. (Tel-Aviv, Israel), and phytocannabinoid analysis was performed by the laboratory for the Mass Spectrometry and Chromatography, the Hebrew University, Rehovot, Israel. Briefly, quantitative analyses of phytocannabinoids in plants and cannabis preparations were carried out using the Dionex Ultimate 3000 RS HPLC, which consisted of a quaternary pump, autosampler, column department, and diode-array detector. Analytes were separated on Acclaim C18 column (250 × 3 mm, 3 µm, Dionex, Sunnyvale, CA, USA) using acetonitrile/water with 0.1% acetic acid gradient. Standards of phytocannabinoids used for identification and quantitative analysis were purchased from Restek (Bellefonte, PA, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Treatments</head><p>Mice were fed with HFD or STD for 14 weeks and then randomly divided into treatment groups (n = 5-7). The dosing schedule was based on consideration of "frequent cannabis use" as determined elsewhere <ref type="bibr" target="#b43">[44]</ref>. Mice were administered 10 µL of THC, CBD, or vehicle control (olive oil) three times a week via noninvasive oral delivery using a micropipette. We incorporated a ramping-dose method of the respective active molecule (THC or CBD), from 10 mg/kg (5 weeks) to 30 mg/kg (5 weeks), to account for the induction of tolerance, which is known to occur rapidly with prolonged cannabis use <ref type="bibr" target="#b31">[32]</ref>. Weight and food intake were measured twice a week during the treatment regime. At the end of the treatments, mice were euthanized via isoflurane overdose, their blood was collected, and serum cholesterol was quantified using a Cobas C-111 chemistry analyzer (Roche Diagnostics, Rotkreuz, Switzerland). Liver and adipose tissues were also collected and further analyzed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">DNA Extraction and Sequencing from Mouse Feces</head><p>Feces were collected at various time points and kept frozen at -20 • C. DNA was extracted by 0.1 mm glass beads disruption in the presence of Tris-saturated phenol, followed by phenol-chloroform extraction and isopropanol precipitation. 16S rDNA library was prepared using V4 primers 515F (GTGYCAGCMGCCGCGGTAA) and 806R (GGACTACN-VGGGTWTCTAAT), according to the Earth Microbiome Project protocol <ref type="bibr" target="#b44">[45]</ref>. Samples were sequenced by Hylabs (Rehovot, Israel) on an Illumina Miseq platform using a V2 250 bp paired-end reagent kit. Sequence processing and taxonomy assignment were performed using QIIME2. Amplicon sequence variants (ASVs) were determined with the Dada2 plugin (version 2020.11.1) using the denoise-paired method. All reads were truncated at position 200; otherwise, default parameters were used. Taxonomy was assigned using a naive Bayes classifier trained on the Greengenes database <ref type="bibr" target="#b45">[46]</ref>. All samples were normalized to 6000 reads per sample, and ASVs with under 5 reads were discarded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">Liver Triglyceride Quantification</head><p>Briefly, 80 mg of liver tissue was homogenized in 0.5 mL of ice-cold 1:1 methanol-Tris (50 mM Tris buffer pH 8) solution. The homogenate was washed twice with 1 mL ice-cold chloroform-methanol (1:1 v/v), and 0.5 mL of 50 mM Tris pH was added and vortexed, and then the mixture was centrifuged at 3000× g at 4 • C for 10 min. The organic phase was transferred to a glass tube and underwent two more extractions with ice-cold chloroform. Then, 1 mL of 5% Triton X-100 in chloroform was added and mixed using vortex. Chloroform was evaporated with N2 gas at 32 • C, and triglycerides were reconstituted with 1 mL of ddH2O. The extracted triglycerides were measured using a colorimetric kit according to manufacturer instructions (Cayman Chemicals, Ann Arbor, MI, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">Histology and Microscopy</head><p>Adipose and liver tissues were embedded in paraffin and sectioned to 5 µM thickness on superfrost slides. Slides were stained using hematoxylin (Hebrew University pathology core facility). The stained slides were photographed using a Canon microscope with a mounted Olympus camera. Adipose cell size and hepatic lipid droplet counts were calculated using Fiji software (version 1.53) <ref type="bibr" target="#b46">[47]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.7.">Liquid Chromatography-High-Resolution Mass Spectrometry (LC-HRMS) Chemical Analysis</head><p>The analysis of endocannabinoids, endocannabinoid-like lipids, and pure THC and CBD from liver samples was performed using Thermo Scientific ultra HPLC system coupled with a Q Exactive TM Focus Hybrid Quadrupole-Orbitrap MS, according to a method developed and validated by David Meiri and colleagues <ref type="bibr" target="#b47">[48]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.8.">RNA Extraction and Real-Time Quantitative PCR</head><p>RNA was extracted from the hepatic tissues using the NucleoSpin RNA extraction kit (Mecherey-Nagel, GmbH, Düren, Germany) according to the manufacturer's instructions. Additionally, RNA was extracted from the adipose tissue using RNeasy Lipid Tissue Mini Kit (Qiagen, Hildan, Germany) according to the manufacturer's instructions. Briefly, 1 µg of total RNA was used to create cDNA using the qScript cDNA Synthesis Kit (Quantabio, Beverly, MA, USA). Relative gene expression was analyzed on QuantStudio 1 Real-Time PCR using SYBR ® Green-Based qPCR (Thermo Fisher, Waltham, MA, USA). Real-time PCR primers are listed in Supplementary Table <ref type="table">S4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.9.">Statistics</head><p>Statistical analyses were performed using GraphPad Prism 9 (GraphPad software, version 9.0.0). Unless otherwise stated, data are expressed as mean ± SEM. Normally distributed data, based on examination of Shapiro-Wilk testing, were tested using two-way ANOVA, followed by Tukey's post hoc test. Alpha diversity metrics were analyzed using Mann-Whitney for two group comparisons, and the Kruskal-Wallis test was used for multiple groups. A difference of p &lt; 0.05 was considered statistically significant.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Effect of Avidekel and Erez extracts on weight gain, caloric intake, fat pad weights, and adipocyte size. Body weight change (A), average caloric intake (B), fat pad weights (C), and quantitative analysis of adipocyte size in epididymal tissue (D) were measured and calculated at the end of the treatment regime (n = 5-7). Data are shown as mean ± SEM. * p &lt; 0.05, ** p &lt; 0.002, *** p &lt; 0.001, **** p &lt; 0.0001. Statistical significance was determined by two-way ANOVA followed by Tukey's post hoc test.</figDesc><graphic coords="3,60.30,241.98,473.16,340.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Effect of Avidekel and Erez extracts on weight gain, caloric intake, fat pad weights, and adipocyte size. Body weight change (A), average caloric intake (B), fat pad weights (C), and quantitative analysis of adipocyte size in epididymal tissue (D) were measured and calculated at the end of the treatment regime (n = 5-7). Data are shown as mean ± SEM. * p &lt; 0.05, ** p &lt; 0.002, *** p &lt; 0.001, **** p &lt; 0.0001. Statistical significance was determined by two-way ANOVA followed by Tukey's post hoc test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Inflammation markers in adipose tissue. mRNA expression of genes involved in inflammation examined in epididymal fat: (A). Interleukin-1 beta (IL-1β). (B). Macrophage receptor F4/80. (C). Monocyte differentiation antigen CD14. (D). Interferon-γ (INF-γ). PPIA was used as a housekeeping gene. The gene expression levels were calculated as ΔΔCT and normalized to the vehicle of each diet (n = 4-6). Data are shown as the mean of fold-change ± SEM. * p &lt; 0.05, ** p &lt; 0.002, *** p &lt; 0.001, **** p &lt; 0.0001. Statistical significance was determined by two-way ANOVA followed by Tukey's post hoc test.</figDesc><graphic coords="4,69.84,149.73,457.75,343.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Inflammation markers in adipose tissue. mRNA expression of genes involved in inflammation examined in epididymal fat: (A). Interleukin-1 beta (IL-1β). (B). Macrophage receptor F4/80. (C). Monocyte differentiation antigen CD14. (D). Interferon-γ (INF-γ). PPIA was used as a housekeeping gene. The gene expression levels were calculated as ∆∆CT and normalized to the vehicle of each diet (n = 4-6). Data are shown as the mean of fold-change ± SEM. * p &lt; 0.05, ** p &lt; 0.002, *** p &lt; 0.001, **** p &lt; 0.0001. Statistical significance was determined by two-way ANOVA followed by Tukey's post hoc test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Effect of Avidekel and Erez extract on obesity-induced steatosis. (A). Representative liver tissue sections stained with H&amp;E (magnification ×100). (B). Morphological analysis of liver droplet density (n = 5). (C). Liver weights. (D). Levels of hepatic triglycerides (n = 3). (E). Serum cholesterol (n = 3). (F). Severity of steatosis was blindly scored as described by Liang et al. [27] (n = 3). Data are shown as mean ± SEM. * p &lt; 0.05, ** p &lt; 0.002, **** p &lt; 0.0001. Statistical significance was determined by using two-way ANOVA followed by Tukey's post hoc test.</figDesc><graphic coords="5,42.26,85.11,511.90,392.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Data are shown as mean ± SEM with n = 3-4 animals per group. Statistical significance was determined using the non-parametric Kruskal-Wallis test. Different subscribed letters indicate significant differences between groups, p &lt; 0.05; 2-AG, 2-arachidonoyl glycerol; AEA, arachidonoyl ethanolamide; DHEA, docosahexanoyl ethanolamide; LEA, linoleoyl ethanolamide; OEA, oleoyl ethanolamide; PEA, palmitoyl ethanolamide; SEA, stearoyl ethanolamide; DEA, docosatetraenoyl ethanolamide; 2-LG, linoleoyl glycerol; NL-Gly, N-linoleoyl glycine; NP-Gly, N-palmitoyl glycine; NA-Gly, N-arachidonoyl glycine; NDH-Gly, N-docosahexaenoyl glycine; NA-Ser, N-arachidonoyl serine; NA-GABA, N-arachidonoyl gamma-aminobutyric acid; NA-Ala, N-arachidonoyl alanine.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>Data are shown as mean ± SEM with n = 3-4 animals per group. Statistical significance was determined using the non-parametric Kruskal-Wallis test. Different subscribed letters indicate significant differences between groups, p &lt; 0.05; 2-AG, 2-arachidonoyl glycerol; AEA, arachidonoyl ethanolamide; DHEA, docosahexanoyl ethanolamide; LEA, linoleoyl ethanolamide; OEA, oleoyl ethanolamide; PEA, palmitoyl ethanolamide; SEA, stearoyl ethanolamide; DEA, docosatetraenoyl ethanolamide; 2-LG, linoleoyl glycerol; NL-Gly, N-linoleoyl glycine; NP-Gly, N-palmitoyl glycine; NA-Gly, N-arachidonoyl glycine; NDH-Gly, N-docosahexaenoyl glycine; NA-Ser, N-arachidonoyl serine; NA-GABA, N-arachidonoyl gamma-aminobutyric acid; NA-Ala, N-arachidonoyl alanine.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Levels of phytocannabinoid metabolites in liver tissue. Levels of THC, CBD, and their metabolites were assessed at the end of the treatment regime as described in materials and methods. Data are shown as mean ± SEM (n = 4).</figDesc><graphic coords="6,170.93,387.43,379.50,168.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Levels of phytocannabinoid metabolites in liver tissue. Levels of THC, CBD, and their metabolites were assessed at the end of the treatment regime as described in materials and methods. Data are shown as mean ± SEM (n = 4).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Alpha diversity and F/B ratios of gut microbiota in mice. Fecal samples were taken at various time points (T1-a month after starting HFD; T2-a day before the start of treatment; T3-one day after the start of the treatment; and T4-day of sacrifice), and gut microbiota were analyzed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Alpha diversity and F/B ratios of gut microbiota in mice. Fecal samples were taken at various time points (T1-a month after starting HFD; T2-a day before the start of treatment; T3-one day after the start of the treatment; and T4-day of sacrifice), and gut microbiota were analyzed. The gut microbial richness was estimated by observed species; the diversity was evaluated by using the Shannon index; and Evenness was measured by using the Shannon Evenness index. Alpha diversity metrics: richness, evenness, diversity, and Firmicutes/Bacteroidetes ratio at T1 (A-D), HFD-fed mice (E-H), and STD-fed mice (I-L). The line shows the average, and the whiskers show the minimum and maximum (n = 4-7). * p &lt; 0.05, ** p &lt; 0.002, *** p &lt; 0.001, **** p &lt; 0.0001. Statistical significance was calculated by using non-parametric Mann-Whitney (A-D) and Kruskal-Wallis (E-L) tests.</figDesc><graphic coords="7,42.61,262.10,524.20,284.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. The relative frequency (%) of microbial taxa at the order level in mice gut microbiota samples. Each vertical bar represents the average fecal sample of the respective treatment group at four different time points (T1-a month after starting HFD; T2-a day before the start of treatment; T3one day after the start of the treatment; and T4-day of sacrifice). Data are shown as percentages (n = 4-7).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. The relative frequency (%) of microbial taxa at the order level in mice gut microbiota samples. Each vertical bar represents the average fecal sample of the respective treatment group at four different time points (T1-a month after starting HFD; T2-a day before the start of treatment; T3-one day after the start of the treatment; and T4-day of sacrifice). Data are shown as percentages (n = 4-7).</figDesc><graphic coords="8,57.39,91.67,481.62,155.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>).</figDesc><table><row><cell>Int. J. Mol. Sci. 2024, 25, x FOR PEER REVIEW</cell><cell>4 of 14</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Levels of endocannabinoids in liver.</figDesc><table><row><cell></cell><cell>Lipid Family</cell><cell>ECs (ng/g Tissue)</cell><cell>Vehicle-HFD</cell><cell>Avidekel-HFD</cell><cell>Erez-HFD</cell></row><row><cell>Liver</cell><cell>NAEs</cell><cell>AEA</cell><cell>23.8 ± 4.8</cell><cell>22.9 ± 3.9</cell><cell>15.8 ± 2.9</cell></row><row><cell></cell><cell></cell><cell>DHEA</cell><cell>6 ± 1.5 a</cell><cell>5.1 ± 0.9 ab</cell><cell>3.3 ± 0.2 b</cell></row><row><cell></cell><cell></cell><cell>LEA</cell><cell>36.8 ± 7.8</cell><cell>23.3 ± 4.7</cell><cell>23.5 ± 3.8</cell></row><row><cell></cell><cell></cell><cell>OEA</cell><cell>33 ± 2.4</cell><cell>35 ± 3.8</cell><cell>21 ± 3.1</cell></row><row><cell></cell><cell></cell><cell>PEA</cell><cell>157 ± 16 a</cell><cell>126 ± 17 ab</cell><cell>91 ± 13 b</cell></row><row><cell></cell><cell></cell><cell>SEA</cell><cell>134 ± 27</cell><cell>117 ± 24</cell><cell>85 ± 13</cell></row><row><cell></cell><cell>2-MAGs</cell><cell>2-AG</cell><cell>1764 ± 572</cell><cell>526 ± 64</cell><cell>691 ± 37</cell></row><row><cell></cell><cell></cell><cell>2-LG</cell><cell>10,362 ± 4853</cell><cell>2362 ± 387</cell><cell>4023 ± 759</cell></row><row><cell></cell><cell>NAAs</cell><cell>NL-Gly</cell><cell>122 ± 41</cell><cell>101 ± 17</cell><cell>70 ± 13</cell></row><row><cell></cell><cell></cell><cell>NP-Gly</cell><cell>366 ± 70</cell><cell>393 ± 47</cell><cell>206 ± 35</cell></row><row><cell></cell><cell></cell><cell>NA-Gly</cell><cell>117 ± 44</cell><cell>115 ± 21</cell><cell>98 ± 23</cell></row><row><cell></cell><cell></cell><cell>NDH-Gly</cell><cell>106 ± 33</cell><cell>77 ± 16</cell><cell>58 ± 10</cell></row><row><cell></cell><cell></cell><cell>NA-Ser</cell><cell>46 ± 19</cell><cell>37 ± 8.9</cell><cell>27 ± 6.9</cell></row><row><cell></cell><cell></cell><cell>NA-GABA</cell><cell>6 ± 2.5</cell><cell>6 ± 1.6</cell><cell>2.6 ± 0.3</cell></row><row><cell></cell><cell></cell><cell>NA-Ala</cell><cell>91 ± 32</cell><cell>88 ± 15</cell><cell>69 ± 16</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Int. J. Mol. Sci. 2024, 25, 1073. https://doi.org/10.3390/ijms25021073 https://www.mdpi.com/journal/ijms</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding: This research was funded by the <rs type="funder">Israeli Ministry of Agriculture and Rural Development</rs>, grant number <rs type="grantNumber">12-05-0025</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_bCszq3d">
+					<idno type="grant-number">12-05-0025</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The following supporting information can be downloaded at: https: //www.mdpi.com/article/10.3390/ijms25021073/s1.</p></div>
+			</div>
+
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p>The data underlying this article will be shared upon reasonable request by the corresponding author.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Institutional Review Board Statement: The animal study protocol was approved by the Ethics Committee of the Hebrew University of Jerusalem (protocol code AG-23-15437-3 4.3.2018).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Health Effects of Overweight and Obesity in 195 Countries over 25 Years</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gbd ; Afshin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Forouzanfar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Reitsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Estep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Mokdad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moradi-Lakeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMoa1614362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">377</biblScope>
+			<biblScope unit="page" from="13" to="27" />
+			<date type="published" when="2015">2015. 2017</date>
+		</imprint>
+	</monogr>
+	<note>Obesity Collaborators</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Endocannabinoid System: Pivotal Orchestrator of Obesity and Metabolic Disease</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Saucisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gatta-Cherifi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cota</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tem.2015.07.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="524" to="537" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Human Microbiome and Obesity: Moving beyond Associations</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maruvada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Leone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chom.2017.10.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="589" to="599" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Endocannabinoid System in Energy Homeostasis and the Etiopathology of Metabolic Disorders</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Silvestri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Di Marzo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmet.2013.03.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="475" to="490" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">New Approaches and Challenges to Targeting the Endocannabinoid System</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Di Marzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="623" to="639" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Blockade of CB1 Cannabinoid Receptor Alters Gut Microbiota and Attenuates Inflammation and Diet-Induced Obesity</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mehrpouya-Bahrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Chitrala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ganewatta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Enos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Velazquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nagarkatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nagarkatti</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-15154-6</idno>
+		<imprint/>
+	</monogr>
+	<note>Sci. Rep. 2017, 7, 15645. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Endocannabinoid System Links Gut Microbiota to Adipogenesis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Muccioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Naslain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bäckhed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Reigstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Delzenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Cani</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/msb.2010.46</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Gut Microbiota Phenotypes of Obesity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Stanislawski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dabelea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lozupone</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41522-019-0091-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Biofilms Microbiomes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Endocannabinoid System and Its Modulation by Phytocannabinoids</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Di Marzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Piscitelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13311-015-0374-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurotherapeutics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="692" to="698" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Pharmacology of Medical Cannabis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Recent Advances in Cannabinoid Physiology and Pathology</title>
+		<meeting><address><addrLine>Bukiya, A.N., Ed; Cham, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="151" to="165" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Cannabis in Cancer Care</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Abrams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guzman</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cpt.108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Pharmacol. Ther</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="575" to="586" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Practical Considerations in Medical Cannabis Administration and Dosing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Maccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Russo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejim.2018.01.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Intern. Med</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="12" to="19" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Oral Administration of Cannabis and ∆-9-Tetrahydrocannabinol (THC) Preparations: A Systematic Review</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Poyatos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Pérez-Acevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papaseit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pérez-Mañá</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hladun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Torrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Busardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Farré</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/medicina56060309</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">56</biblScope>
+			<pubPlace>Medicina</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Flavonoids in Cannabis sativa: Biosynthesis, Bioactivities, and Biotechnology</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bautista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tian</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsomega.1c00318</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Omega</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="5119" to="5123" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Are Cannabis Users Less Likely to Gain Weight? Results from a National 3-Year Prospective Study</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Alshaarawy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Anthony</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ije/dyz044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1695" to="1700" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Decreased Prevalence of Diabetes in Marijuana Users: Cross-Sectional Data from the National Health and Nutrition Examination Survey (NHANES) III</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Rajavashisth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shaheen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Friedman</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2011-000494</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>2, e000494. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Brief Report: Cannabis Smoking and Diabetes Mellitus: Results from Meta-Analysis with Eight Independent Replication Samples</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Alshaarawy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Anthony</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/EDE.0000000000000314</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Epidemiology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="597" to="600" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cannabis Use Is Associated with Reduced Prevalence of Non-Alcoholic Fatty Liver Disease: A Cross-Sectional Study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Adejumo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alliu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Ajayi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Adejumo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Adegbala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Onyeakusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Akinjero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Durojaiye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Bukong</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0176416</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2017">2017. 0176416</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Prevention of Diet-Induced Obesity Effects on Body Weight and Gut Microbiota in Mice Treated Chronically with ∆9-Tetrahydrocannabinol</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Cluny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Keenan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Reimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Le Foll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Sharkey</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0144270</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2015">2015. 0144270</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Cannabis Exposure Associated with Weight Reduction and β-Cell Protection in an Obese Rat Model</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Levendal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Donath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Frost</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phymed.2012.02.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phytomedicine</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="575" to="582" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Cannabidiol Decreases Body Weight Gain in Rats: Involvement of CB2 Receptors</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ignatowska-Jankowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Jankowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Swiergiel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2010.12.031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page" from="82" to="84" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Promotes Anti-Obesity in 3T3-L1 Adipocytes and High-Calorie Diet-Induced Obese Rats by Activating the AMPK Signaling Pathway</title>
+		<author>
+			<persName><forename type="first">J.-T</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>D-Limonene</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu15020267</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">López-Roa, R.I. β-Caryophyllene, a Dietary Cannabinoid, Protects Against Metabolic and Immune Dysregulation in a Diet-Induced Obesity Mouse Model</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Franco-Arroyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Viveros-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S M</forename><surname>Zepeda-Morales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Roldán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Márquez-Aguirre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Zepeda-Nuño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Velázquez-Juárez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fafutis-Morris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Food</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="993" to="1002" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The Effect of Orally Administered ∆9-Tetrahydrocannabinol (THC) and Cannabidiol (CBD) on Obesity Parameters in Mice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Eitan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sulimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schwartz</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms241813797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">13797</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Adipose Tissue Inflammation and Metabolic Dysfunction in Obesity</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Autieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scalia</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpcell.00379.2020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol.-Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="375" to="C391" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Lipid Metabolism and Liver Inflammation. I. Hepatic Fatty Acid Uptake: Possible Role in Steatosis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bradbury</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpgi.00413.2005</idno>
+		<idno>194-G198</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol.-Gastrointest. Liver Physiol</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Establishment of a General NAFLD Scoring System for Rodent Models and Comparison to Human Liver Pathology</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Menke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Driessen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Koek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lindeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stoop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Havekes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kleemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Van Den Hoek</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0115922</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014">2014. 115922</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Endocannabinoid System as a Key Mediator during Liver Diseases: New Insights and Therapeutic Openings</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mallat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Teixeira-Clerc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Deveaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lotersztajn</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1476-5381.2011.01397.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="1432" to="1440" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Drivers of Microbiome Biodiversity: A Review of General Rules, Feces, and Ignorance. mBio</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Reese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.01294-18</idno>
+		<idno>01294-18</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">9</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Influence of Probiotics on the Firmicutes/Bacteroidetes Ratio in the Treatment of Obesity and Inflammatory Bowel Disease</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stojanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berlec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Štrukelj</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/microorganisms8111715</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microorganisms</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="1715">2020. 1715</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Entourage Effect and Analytical Chemistry: Chromatography as a Tool in the Analysis of the Secondary Metabolism of Cannabis sativa L</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Silva Sofrás</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Desimone</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1381612829666221103093542</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Pharm. Des. 2023</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="394" to="406" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Cannabis Use and the Development of Tolerance: A Systematic Review of Human Evidence</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharyya</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neubiorev.2018.07.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Biobehav. Rev</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Adolescent Exposure to Low-Dose THC Disrupts Energy Balance and Adipose Organ Homeostasis in Adulthood</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-M</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Colleluori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Squire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1227" to="1241" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>e7</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Myrcene Attenuates Renal Inflammation and Oxidative Stress in the Adrenalectomized Rat Model</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U S</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hellman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Jayaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Petroianu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adem</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules25194492</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Cannabinoid CB2 Receptor Potentiates Obesity-Associated Inflammation, Insulin Resistance and Hepatic Steatosis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Deveaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cadoudal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ichigotani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Teixeira-Clerc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Louvet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Van Nhieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Belot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zimmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Even</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0005844</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>4, e5844. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Overcoming the Bell-shaped Dose-response of Cannabidiol by Using Cannabis Extract Enriched in Cannabidiol</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gallily</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yekhtin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Hanuš</surname></persName>
+		</author>
+		<idno type="DOI">10.4236/pp.2015.62010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol. Pharm</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="75" to="85" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Cannabidiol Differentially Regulates Basal and LPS-Induced Inflammatory Responses in Macrophages</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Muthumalage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rahman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.taap.2019.114713</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lung Epithelial Cells, and Fibroblasts. Toxicol. Appl. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<date type="published" when="2019">2019. 114713</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Palmitoleoylethanolamide Is an Efficient Anti-Obesity Endogenous Compound: Comparison with Oleylethanolamide in Diet-Induced Obesity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tovar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Gavito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vargas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Soverchia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hernandez-Folgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jagerovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Baixeras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ciccocioppo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rodríguez De Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Decara</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu13082589</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2021">2021. 2589</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Palmitoylethanolamide Counteracts Hepatic Metabolic Inflexibility Modulating Mitochondrial Function and Efficiency in Diet-Induced Obese Mice</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Annunziata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pirozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cavaliere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trinchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Di Guida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nitrato Izzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cimmino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Paciello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Biase</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.201901510RR</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="350" to="364" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Circulating and Hepatic Endocannabinoids and Endocannabinoid-Related Molecules in Patients with Cirrhosis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caraceni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Viola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Piscitelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giannone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berzigotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cescon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Domenicali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petrosino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Giampalma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Riili</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1478-3231.2009.02137.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Liver Int</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="816" to="825" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Hepatic Stellate Cell Activation: A Source for Bioactive Lipids</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">O</forename><surname>Shmarakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Blaner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbalip.2019.02.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Et Biophys. Acta (BBA)-Mol. Cell Biol. Lipids</title>
+		<imprint>
+			<biblScope unit="volume">1864</biblScope>
+			<biblScope unit="page" from="629" to="642" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Immunomodulating Effects of 13-and 16-Hydroxylated Docosahexaenoyl Ethanolamide in LPS Stimulated RAW264.7 Macrophages</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Bus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Krimpen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Hooiveld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Boekschoten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Witkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Albada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G J</forename><surname>Balvers</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbalip.2021.158908</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Et Biophys. Acta (BBA)-Mol. Cell Biol. Lipids</title>
+		<imprint>
+			<date type="published" when="1866">2021. 1866. 158908</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Health and Disease Markers Correlate with Gut Microbiome Composition across Thousands of People</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Manor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kornilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lovejoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Magis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-18871-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">5206</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Cannabis Use in Youth Is Associated with Limited Alterations in Brain Structure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F G</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Roalf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Satterthwaite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Calkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ruparel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Gur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Gur</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41386-019-0347-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1362" to="1369" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A Communal Catalogue Reveals Earth&apos;s Multiscale Microbial Diversity</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ladau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Locey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Prill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tripathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ackermann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature24621</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">551</biblScope>
+			<biblScope unit="page" from="457" to="463" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">An Improved Greengenes Taxonomy with Explicit Ranks for Ecological and Evolutionary Analyses of Bacteria and Archaea</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goodrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Nawrocki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Z</forename><surname>Desantis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hugenholtz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2011.139</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="610" to="618" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">An Open-Source Platform for Biological-Image Analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schindelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kaynig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Longair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pietzsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Preibisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rueden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmid</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="676" to="682" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Fiji</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cannabinoidomics-An Analytical Approach to Understand the Effect of Medical Cannabis Treatment on the Endocannabinoid Metabolome</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sulimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelfand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Amsalem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Lewitus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meiri</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.talanta.2020.121336</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Talanta</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<date type="published" when="2020">2020. 121336</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

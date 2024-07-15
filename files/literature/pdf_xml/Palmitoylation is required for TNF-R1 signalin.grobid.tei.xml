@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Palmitoylation is required for TNF-R1 signaling</title>
+				<funder ref="#_HvSyAkW">
+					<orgName type="full">NIGMS</orgName>
+				</funder>
+				<funder ref="#_eVaMYdA">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_bb9hxMs #_2JDygNV #_wsMqvvy #_ns4bYXw #_6XAeCeH">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Philipp</forename><surname>Zingler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vinzenz</forename><surname>Särchen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Timo</forename><surname>Glatter</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Facility for Mass Spectrometry and Proteomics</orgName>
+								<orgName type="institution">MPI for Terrestrial Microbiology</orgName>
+								<address>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lotta</forename><surname>Caning</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carina</forename><surname>Saggau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rahul</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Chicago</orgName>
+								<address>
+									<settlement>Chicago</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bryan</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Chicago</orgName>
+								<address>
+									<settlement>Chicago</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dieter</forename><surname>Adam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wulf</forename><surname>Schneider-Brachert</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Infection Prevention and Infectious Diseases</orgName>
+								<orgName type="institution">University of Regensburg</orgName>
+								<address>
+									<addrLine>Franz-Josef-Strauss Allee 11</addrLine>
+									<postCode>93053</postCode>
+									<settlement>Regensburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Infection Prevention and Infectious Diseases</orgName>
+								<orgName type="institution">University of Regensburg</orgName>
+								<address>
+									<addrLine>Franz-Josef-Strauss Allee 11</addrLine>
+									<postCode>93053</postCode>
+									<settlement>Regensburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stefan</forename><surname>Schütze</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jürgen</forename><surname>Fritsch</surname></persName>
+							<email>juergen.fritsch@ukr.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Infection Prevention and Infectious Diseases</orgName>
+								<orgName type="institution">University of Regensburg</orgName>
+								<address>
+									<addrLine>Franz-Josef-Strauss Allee 11</addrLine>
+									<postCode>93053</postCode>
+									<settlement>Regensburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Immunology</orgName>
+								<orgName type="institution">Christian-Albrechts-University of Kiel</orgName>
+								<address>
+									<settlement>Kiel</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Infection Prevention and Infectious Diseases</orgName>
+								<orgName type="institution">University of Regensburg</orgName>
+								<address>
+									<addrLine>Franz-Josef-Strauss Allee 11</addrLine>
+									<postCode>93053</postCode>
+									<settlement>Regensburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Palmitoylation is required for TNF-R1 signaling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0E3C1A5D4E0FE730ABD1A0CE3DA20146</idno>
+					<idno type="DOI">10.1186/s12964-019-0405-8</idno>
+					<note type="submission">Received: 8 May 2019 Accepted: 28 July 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-04T08:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Palmitoylation</term>
+					<term>TNF-R1</term>
+					<term>Death receptor</term>
+					<term>Signal transduction</term>
+					<term>NFκB</term>
+					<term>Compartmentalization</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Binding of tumor necrosis factor (TNF) to TNF-receptor 1 (TNF-R1) can induce either cell survival or cell death. The selection between these diametrically opposed effects depends on the subcellular location of TNF-R1: plasma membrane retention leads to survival, while endocytosis leads to cell death. How the respective TNF-R1 associated signaling complexes are recruited to the distinct subcellular location is not known. Here, we identify palmitoylation of TNF-R1 as a molecular mechanism to achieve signal diversification.</p><p>Methods: Human monocytic U937 cells were analyzed. Palmitoylated proteins were enriched by acyl resin assisted capture (AcylRAC) and analyzed by western blot and mass spectrometry. Palmitoylation of TNF-R1 was validated by metabolic labeling. TNF induced depalmitoylation and involvement of APT2 was analyzed by enzyme activity assays, pharmacological inhibition and shRNA mediated knock-down. TNF-R1 palmitoylation site analysis was done by mutated TNF-R1 expression in TNF-R1 knock-out cells. Apoptosis (nuclear DNA fragmentation, caspase 3 assays), NF-κB activation and TNF-R1 internalization were used as biological readouts.</p><p>Results: We identify dynamic S-palmitoylation as a new mechanism that controls selective TNF signaling. TNF-R1 itself is constitutively palmitoylated and depalmitoylated upon ligand binding. We identified the palmitoyl thioesterase APT2 to be involved in TNF-R1 depalmitoylation and TNF induced NF-κB activation. Mutation of the putative palmitoylation site C248 interferes with TNF-R1 localization to the plasma membrane and thus, proper signal transduction.</p><p>Conclusions: Our results introduce palmitoylation as a new layer of dynamic regulation of TNF-R1 induced signal transduction at a very early step of the TNF induced signaling cascade. Understanding the underlying mechanism may allow novel therapeutic options for disease treatment in future.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Tumor necrosis factor alpha (TNF) regulates a variety of cellular processes ranging from inflammation, proliferation, to differentiation, and can induce various forms of cell death. TNF signal transduction occurs via binding of the ligand to two different receptors: TNF-R1 and TNF-R2, two members of the TNF-receptor superfamily. TNF-R1 belongs to the subgroup of death receptors (DR) and can induce cell death via its C-terminal "death domain" (DD). The selective recruitment of distinct adaptor proteins to the activated TNF-R1 determines whether cell survival or cell death signaling prevails <ref type="bibr" target="#b0">[1]</ref>. Immediately upon ligand binding, the "complex I" adaptor proteins TRADD, RIP1, TRAF2, and c-IAP1 are recruited to the DD of TNF-R1. Signaling from "complex I" is regulated by ubiquitination and finally triggers NF-κB nuclear translocation <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>. We and others have shown that this initial signaling cascade is based on plasma membrane resident TNF-R1. One mechanism that shifts the system toward cell death signaling is K63ubiquitination of TNF-R1, leading to its internalization by formation of TNF-containing endosomes (receptosomes) <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. TNF-R1 internalization triggers K48-ubiquitination and subsequent proteasomal degradation of TRAF2 and RIP1, followed by "complex II" formation by the recruitment of the "death inducing signaling complex" (DISC) proteins FADD and caspase-8 <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10]</ref>. TNF-receptosomes are also a source for the production of reactive oxygen species by recruitment of riboflavin kinase <ref type="bibr" target="#b10">[11]</ref>. Together, these events are the initial triggers for cell death.</p><p>Intracellular trafficking of TNF-receptosomes and fusion with trans-Golgi vesicles facilitates maturation towards a multivesicular/lysosomal compartment. Here, a proteolytic cascade leads to the formation of ceramide via acid sphingomyelinase (aSMase) and translocation of active cathepsin D (CtsD) into the cytoplasm. CtsD cleaves and then degrades the antiapoptotic chaperone HSP90, and activates BID by truncation to tBID. tBID is involved in mitochondrial outer membrane permeabilization and cell death <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>. Many players involved in the regulation of TNF-R1 signal transduction are known (for review, see <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16]</ref>). What remains enigmatic is: How are these proteins recruited to a distinct subcellular localization (i.e. discrete membrane domains or compartments) to form functional protein complexes at the right time upon TNF stimulation?</p><p>The reversible post-translational protein modification of cysteine residues with a palmitic acid through thioester formation (S-palmitoylation) is known to modulate target protein interactions with lipids and with other proteins. The palmitoyl group is attached to a target protein by palmitoyl acyltransferases (PAT) containing the characteristic Asp-His-His-Cys (DHHC) motif. In mammals, 23 zDHHC containing proteins have been identified. Palmitoylation is fully reversible and depalmitoylation is catalyzed by palmitoyl thioesterases (PTE). The best-described PTEs are the cytosolic APT1, APT2, and the lysosomal PPT1, but the family is growing, e.g. through the identification of the ABDH17 proteins <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>. Palmitoylation of proteins can have various different functions and has an impact on different biological processes and diseases, as summarized in various extensive reviews <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>.</p><p>Here, we identify palmitoylation as a novel molecular switch that modulates TNF-R1 mediated signaling. Our initial observations that pharmacological interference with palmitoylation modulates TNF-R1 internalization prompted us to investigate how lipidation regulates TNF-R1 signaling. We focused on the palmitoylation state of TNF-R1, showing that its de-palmitoylation in response to TNF is mediated by the PTE APT2. Knock down of APT2 enhances apoptosis but blocks signaling via NF-κB. Mutagenesis of the putative palmitoylation site C248 altered TNF-R1 surface expression resulting in both, reduced cell death and NF-κB signaling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PIC: cOmplete protease inhibitor cocktail (Roche).</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antibodies</head><p>Cell Signaling: anti-CD71 (#13113), anti-cleaved Caspase 3 (#9661S), anti-His (#2365), anti-IκBα (#4814), anti-Integrinα6 (#3750), anti-STX6 (#2869), anti-TNF-R1 (#3736), anti-PARP (#9542S).</p><p>ENZO: anti-Ceramide (15B4; ALX-804-196-T050). LSbio: anti-Lypla2/APT2 (LS-C158086).</p><p>LifeTechnologies: anti-mouse Alexafluor488 (A21202). Millipore: anti-mouse light chain (AP200P), anti-rabbit light chain (MAB201P).</p><p>Proteintech: anti-βActin (HRP-60008), anti-GAPDH (HRP-60004).</p><p>Santa Cruz Biotechnology: anti-Rab5B (sc-598). Sigma-Aldrich: anti-PPT1 (HPA021546). ThermoFisher: anti-Lypla1/APT1 (PA5-28034).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell culture</head><p>Human U937 cells (DSMZ Braunschweig, Germany) were maintained in RPMI 1640 medium (Gibco, Life Technologies) supplemented with 5% v/v FCS (Gibco, Life Technologies) and 1% v/v Pen/Strep (Merck Millipore) under standard cell culture conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TNF-R1 knock-out by CRISPR/Cas9</head><p>CRISPR/Cas9 plasmids (Sigma-Aldrich Target ID1: HS0000079005; Target ID2: HS0000079009) were nucleofected (Lonza). After transfection cells were FACS sorted for GFP positive signal and single clones were isolated and further characterized.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generation of TNF-R1 constructs and generation of virus particles</head><p>FLAG-TNF-R1 C248S was ordered from Geneart and cloned into pMOWS vector (validated by sequencing: pMOWSfwd 5′-TATCCAGCCCTCACTCCTTCTCTAG-3′; pMOWS rev 5′-CCACATAGCGTAAAAGGAGCAAC-3′). To generate virus particles, vector was transfected to Gryphon™ cells (Allele Biotechnology) using lipofectamine 2000. After two days, virus containing supernatant was centrifuged (450 x g, 4 °C, 5 min) sterile filtrated (0.45 μm) and added to 0.5 × 10 6 ΔTNF-R1 U937 cells in the presence of 5 μg/ml Polybrene. Next day, medium changed to standard cell culture medium and 1.5 μg/ml puromycinwas added after 24 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Internalization assay</head><p>TNF-R1 internalization was analyzed by imaging flow cytometry (ISX MK2, Amnis/EMD Millipore). For this 10 6 cells/sample were incubated with biotinylated TNF (NFTA0, Biotechne) coupled to streptavidin Alexa-fluor488 (Life Technologies) on ice for 20 min, followed by synchronized receptor internalization at 37 °C. Where inhibitors were used, these were pre-incubated for 20 min at room temperature followed by the incubation on ice. Internalization was stopped by addition of cold PBS / cell mask (dilution 1:20,000; Life Technologies), incubation for 5 min on ice sedimentation and fixation of the cells in 2% PFA/PBS. At least 5000 images per experiment were acquired using the Inspire software (200.1.388.0) and analyzed using the Amnis IDEAS software (6.0.154.0).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of protein surface expression</head><p>Cells were labeled as for internalization measurement. At least 5000 images per experiment were acquired using the Inspire software (200.1.388.0) and fluorescence intensity of Ch2 (Alexafluor488) was analyzed using Amnis IDEAS software (6.0.154.0).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Apoptosis assay</head><p>For apoptosis measurement by imaging flow cytometry, cells were incubated for the times indicated in the figure with TNF (100 ng/ml) under standard cell culture conditions. 30 min before end Hoechst stain (Sigma-Aldrich) was added to the culture medium finally diluted 1:10, 000. Up to 10,000 images were captured per assay and quantified using Amnis IDEAS software (6.0.154.0) .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PTE activity assay</head><p>PTE activity was analyzed by imaging flow cytometry (Amnis/EMD Millipore). In brief, 10 6 U937 cells were pre-incubated for 10 min at room temperature followed by 10 min on ice with DPP-2 or DPP-3 fluorescent probes (provided by B.C. Dickinson) <ref type="bibr" target="#b21">[22]</ref>. The APT2 selective inhibitor ML349 (#5344, bio-techne), the APT1 selective inhibitor ML349 (#5345, bio-techne) and the pan PTE inhibitor Palmostatin B (Sigma-Aldrich) were used as controls. TNF was added and incubated for another 20 min on ice. Activation was triggered by temperature shift to 37 °C for the indicated time points, followed by immediate cooling/fixation in 2%PFS/PBS. The plasma membrane was stained using cell mask deep red stain (1:10.000 in PBS) for 5 min on ice, followed by washing with PBS. Images were acquired using the Inspire software (200.1.388.0) and changes in fluorescence intensity were analyzed using the IDEAS software (6.0.154.0).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ceramide detection</head><p>Ceramide was analyzed by imaging flow cytometry (Amnis/EMD Millipore). In brief, cells were incubated with ML349 (50 μM, Tocris), GW4869 <ref type="bibr" target="#b19">(20</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolic 17-ODYA labeling</head><p>The labeling protocol was adapted from <ref type="bibr" target="#b24">[25]</ref>. In brief, to shed TNF-R1 from the cell surface and to trigger transport from the PM cells were washed in PBS and incubated in the presence of 150 μM histamine for 3 h in FCS free medium at cell culture conditions as adapted from Wang et al <ref type="bibr" target="#b25">[26]</ref>. Histamine treated and untreated cells were then incubated for 16 h in the presence of 100 μM 17-ODYA (#90270, Cayman), followed by membrane sedimentation as described for acylRAC. After the temperature shift for the respective time point, cells were resuspended in 1 ml of IP lysis buffer (50 mM Tris-HCL (pH 7.4), 150 mM NaCl, 1% NP-40, 0.25% Nadeoxycholate, 1% Triton X-100, 1 mM EDTA, Benzonase (Merck) and PIC for 45 min on ice and subsequently 10x sheared using a G21 gauge needle. The lysate was centrifuged 10 min at 10,000 x g and 50 μl protein G Microbeads were added to the supernatant and incubated for 2 h at 4 °C. Upon purification using μ Columns (Miltenyi), 10 μl eluate was analyzed by SDS-PAGE/WB.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Detection of cleaved Caspase-3 and PARP1</head><p>Cells were pre-incubated for 45 min with 50 μM ML349 followed by addition of 100 ng/ml TNF for 6 h and lysis in TNE (1 M Tris pH 8.0, 5 M NaCl, 1% NP40, 0.5 M EDTA; PIC). Proteins were analyzed by SDS-PAGE/WB.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of IκB degradation</head><p>Cells were cooled on ice for 15 min, followed by incubation with TNF for 15 min, and a temperature shift for the indicated times to 37 °C. Cells were then lysed in 50 mM Tris-HCL (pH 7.4), 150 mM NaCl, 1% NP-40, 0.25% Na-deoxycholate, 1% Triton X-100, 1 mM EDTA, Benzonase (Merck) and PIC, followed by BCA assay and SDS-PAGE/WB.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SDS-PAGE and Western blot</head><p>Where described, protein samples were labeled with lightning red (Serva) diluted 1:50 in protein sample buffer and then separated on anyKD (Biorad) or 12.5% SDS-PAGE gels. Subsequently, total protein staining was analyzed using a Typhoon trio (GE Healthcare). After transfer to PVDF membranes (Carl Roth), membranes were blocked with 5% skimmed milk/TBST, incubated with primary antibodies overnight at 4 °C, followed by washing with TBST and incubation with HRP-conjugated second step antibodies for one hour. Luminescence was detected using ECL reagent and x-ray films (GE Healthcare). Films were scanned and where mentioned, densitometric quantification was performed using ImageJ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expression and activity assay of APT2 and in vitro depalmitoylation</head><p>Recombinant APT2 was generated as described <ref type="bibr" target="#b21">[22]</ref>. Purified rAPT2 was incubated with crude membrane fractions for 2 h at 37 °C, followed by acylRAC and WB.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Silencing of APT2</head><p>For APT2 silencing, shRNA encoding plasmids (sc-78, 672-SH, Santa Cruz) were nucleofected using Amaxa (Lonza), followed by puromycin treatment to generate stable pools.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inhibition of palmitoylation interferes with TNF-R1 internalization</head><p>Internalization and trafficking of TNF-R1 is a prerequisite for the diversification of TNF signal transduction, implicating a putative role of palmitoylation to selectively recruit proteins to distinct signaling platforms in these events <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b26">27]</ref>. In this study, we focused on the monocytic cell line U937, as it responds to to TNF binding with both, NF-κB activation and apoptosis induction without further need for cell death sensitization by i.e. cycloheximide. Application of the commonly used palmitoylation inhibitor 2-bromopalmitate (2BrP) decreased TNF-R1 internalization after 30 min in 50% of the cells (Fig. <ref type="figure" target="#fig_0">1a,</ref><ref type="figure">b</ref>). To analyze this, cells were cooled down on ice in the presence/ absence of 2BrP followed by labeling the receptor with biotinylated-TNF/Streptavidin-Alexafluor488. A temperature shift to 37 °C subsequently allowed internalization of the TNF recepors, which was quantified by imaging flow cytometry. Importantly, the surface expression of TNF-R1 at steady state, prior to internalization was not affected by the inhibitor (Fig. <ref type="figure" target="#fig_0">1a,</ref><ref type="figure">c</ref>). These results indicate that S-palmitoylation plays a functional role in TNF signaling. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of TNF-R1 palmitoylation</head><p>Based on the observation that perturbation of S-palmitoylation by 2BrP altered TNF signaling, we hypothesized that TNF-R1 may be palmitoylated itself, as palmitoylation of other death receptors (i.e. CD95, DR4 and DR6) and implications on their downstream signaling has been reported before <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref>. To confirm this assumption, we used acylRAC to enrich palmitoylated proteins from untreated and 10 min TNF stimulated cells <ref type="bibr" target="#b23">[24]</ref>. Figure <ref type="figure" target="#fig_0">1d</ref> and e shows the assessment of the purity of the samples by WB and SDS-PAGE. Probing WB for TNF-R1, we detected constitutive palmitoylation of TNF-R1 while no difference between untreated and TNF treated samples was apparent (Fig. <ref type="figure" target="#fig_0">1d</ref>, first panel). Interestingly, by comparing the input fractions (Σ TC ) and the HA fractions, not all cellular TNF-R1 appears to be palmitoylated. This could be explained by either inefficient capturing during acylRAC or by the assumption that only a certain pool of TNF-R1 is palmitoylated (i.e. receptors at the plasma membrane). As controls, we analyzed the samples for known palmitoylated proteins (CD71, STX6, Rab5B and PPT1) and β Actin and CoxIV as a non palmitoylated controls. Figure <ref type="figure" target="#fig_0">1e</ref> depicts the total protein stain to ensure equal loading <ref type="bibr" target="#b30">[31]</ref>. The total membrane input (Σ tc ) +/-TNF contains a variety of proteins, while fewer bands are visible in the hydroxylamine (HA) fraction. The control (Tris) lanes are absent of protein, indicating the enrichment was successful.</p><p>To investigate whether endogenous TNF may affect TNF-R1 palmitoylation, we incubated U937 in the presence of an anti-TNF-Fab' for 14 days, followed by acyl-RAC/WB analysis. In both, untreated and TNF-Fab' treated cells, TNF-R1 was found to be palmitoylated (Additional file 1: Figure <ref type="figure" target="#fig_0">S1</ref>).</p><p>Figure <ref type="figure" target="#fig_0">1f</ref> shows validation of TNF-R1 palmitoylation by metabolic labeling using the 17-ODYA <ref type="bibr" target="#b24">[25]</ref>. TNF-R1 was initially depleted from the PM using histamine treatment <ref type="bibr" target="#b25">[26]</ref> (left panel). During recovery, 17-ODYA was incorporated, biotinylated by click chemistry and precipitated, followed by western blot analysis (right panels). We observed no metabolic labeling of TNF-R1 in cells without previous histamine treatment (data not shown). We conclude that TNF-R1 palmitoylation on at least one site occurs during ER/Golgi to PM translocation.</p><p>As the signal relayed by TNF-R1 can change over time from proliferation to cell death, we hypothesized that TNF-R1 palmitoylation might also change over time. Indeed, using acylRAC and western blot analysis, we observed that the constitutive TNF-R1 palmitoylation was followed by de-palmitoylation at later time points (Fig. <ref type="figure" target="#fig_0">1g-j</ref>). As an attempt to quantify TNF-induced changes in palmitoylation of TNF-R1 and other proteins, we applied similar acylRAC samples to mass spectrometric analysis. The overall changes were modest and could not be quantified (Additional file 4: Table <ref type="table">S1</ref>). TNF-R1 was also not among the identified proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of TNF-R1 palmitoylation sites</head><p>Comparing the TNF-R1 sequence across species revealed four conserved (C223, 248, 395, 433) and two less conserved cysteine residues (C304 and 442) (Additional file 2: Figure <ref type="figure" target="#fig_2">S2</ref>). Figure <ref type="figure" target="#fig_2">2a</ref> shows a topology model of TNF-R1 including the cysteine residues in its intracellular domain. The occurrence of palmitoylation sites in close proximity to transmembrane domains (TMD) or even within TMD is common between other receptor systems <ref type="bibr" target="#b31">[32]</ref>. Palmitoylation of CD95, DR4 and DR6 occurs on cysteines close to the respective TMD <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b32">33]</ref>. Using was shed from the cell surface by histamine treatment (red). After 16 h recovery (black curve) the expression resembled the untreated status (green curve). TNF-R1 was labeled using biotinTNF:Streptavidin alexafluor488. Fluorescence intensity mas measured by imaging flow cytometry. Right panel: During recovery phase, 17-ODYA was added to the cells and incorporated into protein palmitoylated within this time frame. After biotinylation of 17-ODYA by click-chemistry and precipitation using streptavidin microbeads, the material was analyzed by WB and compared to lysate as input control. Upper panel: Probing for TNF-R1 showed TNF-R1 in the 17-ODYA treated and the lysate fraction (input). Lower panel: Biotinylated Concanavalin A was used as positive control for biotinylated proteins. g TNF-R1 WB from acylRAC samples isolated from 0 to 60 min shows a constant decrease in palmitoylated TNF-R1 up to 60 min. h Total protein staining for equal loading prior to WB. i WB of total cell lysate corresponding to the fractions of Fig. <ref type="figure" target="#fig_0">1g</ref> and<ref type="figure">h</ref>. The total amount of TNF-R1 was constant over time with a slight decrease at 60 min. β Actin serves as loading control. j Quantitative WB analysis showing TNF-R1 depalmitoylation kinetics (n = 8). All values were normalized to the total TNF-R1 abundance in cell lysates. ***: significant TNF-R1 depalmitoylation (p ≤ 0.001) the CSS-palm algorithm, Cys248 was predicted as one putative palmitoylation site <ref type="bibr" target="#b33">[34]</ref>. Thus, we next generated TNF-R1 knock-out U937 cells (ΔTNF-R1) and retransfected them with FLAG-tagged C248S mutated TNF-R1 (C248S). TNF-R1 expression was analyzed by WB, showing that C248S cellular expression was higher compared to TNF-R1 in wt U937 cells (Fig. <ref type="figure" target="#fig_2">2b</ref>). The two bands recognized by TNF-R1 antibodies are indicated by arrowheads filled (lower MW) empty (higher MW). Conversely, TNF-R1 surface labeling revealed a reduced surface expression of C248S (filled green) compared to TNF-R1 wt (green) (Fig. <ref type="figure" target="#fig_2">2c</ref>), suggesting that Cys248 is involved in the transport of TNF-R1 to the cell surface. Incubation of labeled cells for 30 min at 37 °C increased fluorescence intensity due to clustering and internalization of the receptors (TNF-R1 wt : red; TNF-R1 C248S : filled red Fig. <ref type="figure" target="#fig_2">2c</ref>). We next analyzed TNF induced apoptosis, showing that TNF-R1 C248S expression restores apoptosis induction compared to ΔTNF-R1 cells, while the percentage of apoptotic cells was less compared to wt cells (Fig. <ref type="figure" target="#fig_2">2d</ref>). TNF induced NF-κB activation was quantified by measuring IκB degradation by WB (Fig. <ref type="figure" target="#fig_2">2e</ref>), showing that NF-κB activation was reduced.</p><p>To analyze whether the cysteine 248 is the only putative palmitoylation site, we performed acylRAC from wt and mutant TNF-R1 expressing cells (Fig. <ref type="figure" target="#fig_2">2f</ref> ). While TNF-R1 was precipitated in both cell lines, the signal was reduced in TNF-R1 C248S expressing cells compared to wt cells. Interestingly, the resulting protein band pattern was altered. While the HA fraction from wt cells showed mainly the high MW variant of TNF-R1 (empty arrowhead), the lower MW variant (filled arrowhead) is much more prominent in TNF-R1 C248S expressing cells. Thus, we conclude that C248 is not the only TNF-R1 palmitoylation site but it is required for proper transport of the receptor to the plasma membrane and also for the activation of NF-κB.</p><p>Despite large efforts, expression of wildtype or other cysteine mutated TNF-R1 in ΔTNF-R1 U937 cells was toxic and thus, could not be included in the analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification of APT2 as a TNF-R1 palmitoyl thioesterase</head><p>As we observed depalmitoylation of TNF-R1, we strived to identify the responsible enzyme. PPT1 has been reported to be localized in lysosomes, while APT1 and APT2 are localized in the cytoplasm <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>. Thus, we focused on APT1 and 2 and performed TNF-R1 signaling complex (TNF-RSC) co-IP using Fc60TNF as bait: Fig. <ref type="figure" target="#fig_3">3a</ref> shows an initial constitutive and after 10 min a decreasing interaction of APT1, while APT2 is transiently recruited with a maximum at 5 min. TNF-R1 gets ubiquitinated and thus its molecular weight increases in the same period, as reported before <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b34">35]</ref>. To investigate the role of APT1 and 2, we treated cells with TNF and measured the enzyme activity in live cells using fluorescent "depalmitoylation probes" (DPPs) and imaging flow cytometry <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref>. DPP-2 reports on global depalmitoylase activities, while DPP-3 has increased preference for APT1 <ref type="bibr" target="#b21">[22]</ref>. Figure <ref type="figure" target="#fig_3">3b</ref>, left side shows the transient TNF/time dependent increase in the fluorescent signal from DPP-2. The peak correlated with the observed transient APT2:TNF-RSC interaction (Fig. <ref type="figure" target="#fig_3">3a</ref>). However, DPP-3 showed no change in fluorescent signal upon stimulation, indicating that APT1 is not activated within the same time frame (Fig. <ref type="figure" target="#fig_3">3b</ref>, right side). If APT1 also has a role in TNF-R1 signaling, as the co-IP suggests, has to be analyzed.</p><p>We next investigated the impact of APT2 inhibition on TNF-R1 palmitoylation using the selective inhibitor ML349 (Fig. <ref type="figure" target="#fig_3">3c</ref>) <ref type="bibr" target="#b37">[38]</ref>. The WB (left panel) and its quantification (right panel) show TNF-R1 depalmitoylation upon 30 min TNF stimulation. Incubation with ML349 followed by TNF treatment blocked TNF-R1 depalmitoylation, and incubation with ML349 alone led to accumulation of palmitoylated TNF-R1.</p><p>We next overexpressed and purified recombinant APT2 (rAPT2) for further functional analysis (Fig. <ref type="figure" target="#fig_3">3d</ref>). The upper panel shows enrichment of rAPT2, the lower panel shows analysis of the enzyme activity using the fluorescent probe (DPP-2). To check if APT2 de-palmitoylates TNF-R1 in vitro, incubation with rAPT was performed prior to acylRAC and WB analysis (Fig. <ref type="figure" target="#fig_3">3e</ref>): Palmitoylation of TNF-R1 decreased while other palmitoylated proteins (CD71, Integrin α6, PPT-1 and Rab5) were not affected. How this selectivity is achieved remains to be clarified.</p><p>To investigate the in vivo role of APT2 in TNF signaling, cells were then incubated with different concentrations of the inhibitor ML349. First, we observed slightly reduced TNF-R1 internalization from ~70% in untreated to ~45-60% of the ML349 treated cells (Fig. <ref type="figure" target="#fig_4">4a</ref>). Second, analysis of apoptosis unexpectedly revealed enhanced apoptosis for ML349 (Fig. <ref type="figure" target="#fig_4">4b</ref>). Probing WB for cleaved PARP1, and cleaved caspase-3 further validated these findings: Both proteins displayed enhanced cleavage upon 6 h co-incubation with TNF and ML349 (Fig. <ref type="figure" target="#fig_4">4c</ref>).</p><p>Based on previous observations that apoptosis induction requires TNF-R1 internalization, we wondered, how this effect can be explained while TNF-R1 is inhibited using 50 μM ML349. Earlier reports by us and others showed activation of PM/caveolae resident nSMase in response to TNF, resulting in ceramide formation and apoptosis induction <ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref>. In our experiments, TNF also induced increased ceramide levels, which was enhanced by co-incubation with ML349 (Fig. <ref type="figure" target="#fig_4">4d</ref>). Inhibition of nSMase using GW4869 blocked ceramide production. Since overnight incubation with GW4869 was toxic, we monitored caspase activity after 4 h TNF stimulation (Fig. <ref type="figure" target="#fig_4">4e</ref>), showing that pretreatment with the Pharmacological inhibition of APT2 resulted in reduced NF-κB activation in response to TNF, compared to TNF treated cells in the absence of the APT2 inhibitor (Fig. <ref type="figure" target="#fig_4">4f</ref>). Down modulation of APT2 using shRNA (Fig. <ref type="figure" target="#fig_5">5a</ref>) interestingly enhanced TNF-R1 surface expression compared to wt cells (Fig. <ref type="figure" target="#fig_5">5b</ref>). The inhibitory effect on TNF-R1 depalmitoylation was similar to inhibition of APT2 using ML349 (Fig. <ref type="figure" target="#fig_5">5c</ref>). Down modulation of APT2 did not reduce TNF-R1 internalization (Fig. <ref type="figure" target="#fig_5">5d</ref>) and increased the apoptotic response (Fig. <ref type="figure" target="#fig_5">5e</ref>) which is in line with the effects of ML349 shown before in Fig. <ref type="figure" target="#fig_4">4b</ref>. Interestingly, treatment of U937 cells with TNF resulted in slightly stronger signals for PPT-1 in acylRAC samples, which was also apparent in Fig. <ref type="figure" target="#fig_3">3c</ref>.</p><p>Activation of the NF-κB pathway was also blocked in shAPT2 cells (Fig. <ref type="figure" target="#fig_5">5f</ref> ), similar to pharmacological APT2 inhibition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Several earlier studies by us and others showed that the biological outcome of TNF signaling depends on the subcellular localization of the activated TNF-R1 <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16]</ref>. Receptors residing in the plasma membrane signal for cell survival via "complex I" formation while endocytosis of TNF-R1 changes signaling capacity to induction of cell death by DISC recruitment / "complex II" formation <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b43">44]</ref>. These diametrically opposed effects have to be tightly regulated, to ensure controlled biological outcomes. While we recently showed that TNF-R1 has to be K63-ubiquitinated to allow its internalization and thereby, switching to cell death signaling <ref type="bibr" target="#b4">[5]</ref> others showed that linear ubiquitination of TNF-R1 is essential for NF-κB signaling <ref type="bibr" target="#b44">[45]</ref>. How the formation of the distinct signaling complexes is orchestrated in the correct spatio-temporal context is still unknown. S-palmitoylation of proteins is a reversible mechanism to modulate protein-protein and protein-membrane interactions, mainly by changing their affinity for membranes/lipid rafts/detergent resistant membranes (DRM) <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47]</ref>. While many surface proteins have been described to be palmitoylated, this has not been investigated in the context of TNF-R1 signaling. For three other members of the TNF-receptor-superfamily (CD95, DR4 and DR6) palmitoylation has been reported. Intriguingly, palmitoylation of CD95 and DR4 is required for lipid raft localization and cell death signaling <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref>, palmitoylation of DR6 prevents association with lipid rafts <ref type="bibr" target="#b29">[30]</ref>.</p><p>Three groups reported that TNF-R1:lipid raft association is essential for ERK and NF-κB regulation <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49]</ref>, suggesting a possible involvement of palmitoylation. Other groups reported TNF-R1 association and cell death induction with caveolae-like structures, which represent a subgroup of lipid rafts/DRM <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51]</ref>. In addition, D' Alessio and colleagues showed that TNF-R1 shedding by TACE is also dependent on lipid raft microdomains <ref type="bibr" target="#b51">[52]</ref>, which may also regulate the recently described subsequent TNF-R1 intramembrane ripping by γ-secretase <ref type="bibr" target="#b26">[27]</ref>. Also, changes in the lipid raft proteome in response to TNF point towards a role of palmitoylation of regulatory elements in this phenomenon <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>. However, the role of lipid rafts for TNF-R1 signaling is not fully understood and may depend on the cell type investigated. In contrast to the HT1080 cell line <ref type="bibr" target="#b34">[35]</ref>, TNF-R1-induced apoptosis has been reported to depend on lipid rafts in the U937 myeloid cell line <ref type="bibr" target="#b48">[49]</ref>. In primary mouse macrophages, lipid rafts/caveolae appear to be important for transducing TNF-R1 signaling to the MAPK/ERK pathway but not to NF-κB activation <ref type="bibr" target="#b49">[50]</ref>. A selective lipid raft dependency of TNF-R1 signaling to p42 MAPK/ERK was observed in primary mouse macrophages <ref type="bibr" target="#b48">[49]</ref>, but in human airway smooth muscle cells NF-κB and MAPK activation by TNF was found to be independent of lipid rafts <ref type="bibr" target="#b54">[55]</ref>. In the human endothelial cell line EA.hy926, TNF-R1-mediated activation of phosphatidyl-inositol 3-kinase (PI3K), but not of NF-κB, seems to originate from caveolae after interaction of TNF-R1 with caveolin-1. From these caveolae, TNF-R1 can also be internalized in a clathrin independent manner <ref type="bibr" target="#b55">[56]</ref>. By contrast, disruption of lipid rafts in HT1080 fibrosarcoma blocked NF-κB activation and sensitized cells to apoptosis <ref type="bibr" target="#b34">[35]</ref>. Ali and colleagues recently showed that TNF mediated necrosome formation occurs in caveolin-1-containing DRM <ref type="bibr" target="#b56">[57]</ref>. We recently identified the anti-epilepsy drug Phenhydan® as potent inhibitor of both, TNF-R1 mediated NF-κB and cell death signaling by influencing lipid raft formation <ref type="bibr" target="#b57">[58]</ref>. Thus, redistribution of TNF-R1 into DRM/lipid rafts and nonraft regions of the membranes seems to regulate the diversity of signaling responses by TNF in various cell types, but the quality of signals transduced from lipid rafts varies significantly between different cell lines.</p><p>We identified constitutive palmitoylation of TNF-R1 but the number, exact sites and which PAT are involved is still unclear and has to be unraveled in further studies. In an acylRAC proteome analysis of TNF-R1 CRISPR/ Cas9 edited cells, which is part of a different project, we identified one TNF-R1 peptide (data not shown). Analysis of acylRAC samples by MS in this study did not result in identification of TNF-R1 peptides. The low coverage of peptides identified by mass spectrometry is in line with two earlier reports <ref type="bibr" target="#b58">[59,</ref><ref type="bibr" target="#b59">60]</ref>, as well as with our own unpublished proteomic analyses of TNF-receptosomes, suggesting that it is challenging to detect TNF-R1 by MS. As an attempt to directly show palmitoylation of TNF-R1 by MS, TNF-R1 IP was performed followed by MS analysis selectively searching for TNF-R1 peptides with and without putative + 238,22 Da mass shift by palmitoylation. Despite a TNF-R1 sequence coverage of 39%, detection of peptides containing any of the intracellular cysteines was lacking (data not shown).</p><p>Mutagenesis of the putative palmitoylation site C248 led to high overall cellular TNF-R1 expression but reduced TNF-R1 surface expression. IκB degradation was blocked in C248S cells. Compared to TNF-R1 knock-out cells cell death was restored but on a lower level. We assume that C248 palmitoylation is required for Golgi to PM transport, which is in line with the report by Wang et al., showing that surface TNF-R1 is shed from the cell surface in response to histamine and subsequently replenished by TNF-R1 from an intracellular Golgi pool <ref type="bibr" target="#b25">[26]</ref>. This is supported by our observation that upon PM-depletion of TNF-R1 by histamine, palmitoylation of the receptor was validated by metabolic labeling with 17-ODYA. In 2009, Rossin et al. claimed that DR4 but not TNF-R1 and DR5 are palmitoylated, using metabolic labeling with radioactive palmitate <ref type="bibr" target="#b27">[28]</ref>. In this study TNF-R1 was probably not detected due to the unfitting timeframe for metabolic labeling or due to the fact that only a fraction of all cellular TNF-R1 is palmitoylated at a time.</p><p>Altered subcellular distribution of TNF-R1 may also result in reduced glycosylation/sialylation of TNF-R1 <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b60">61]</ref>. This could explain the different band patterns observed by acylRAC/WB obtained from wt and C248S cells. Han and colleagues showed that lacking TNF-R1 N-glycosylation reduced TNF binding to TNF-R1 diminishing downstream signaling <ref type="bibr" target="#b60">[61]</ref>. Holdbrooks and colleagues reported that α2-6 sialylation of TNF-R1 inhibits TNF-induced TNF-R1 internalization and apoptosis induction <ref type="bibr" target="#b5">[6]</ref>. Lacking sialylation could result in enhanced basal TNF-R1 internalization, which could also explain the reduced surface expression, that we observed in cells carrying a mutation in the C248 palmitoylation site in TNF-R1.</p><p>We found that APT2 is involved in TNF-R1 de-palmitoylation which may be prerequisite for lipid raft translocation and NF-κB activation as reported by others <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b48">49]</ref>. This would be in line with our recent report, showing that interfering with membrane composition using Phenhydan®, also blocks NF-kB activation <ref type="bibr" target="#b57">[58]</ref>. Pharmacological APT2 inhibition resulted in reduced internalization while lowering the inhibitor concentration reversed this effect. This might be explained by the effect that other PTE like APT1 are activated to compensate for APT2 function and/or APT2 has further roles in TNF-R1 signaling <ref type="bibr" target="#b61">[62]</ref>. Unexpectedly, we observed an increase in apoptosis upon APT2 inhibition and shRNA mediated knock-down. We and others have shown that TNF-R1 activation induces pro-apoptotic ceramide production by plasma membrane resident nSMase <ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref>. Decreased TNF-R1 internalization by APT2 inhibition led to enhanced ceramide levels, which could be blocked by nSMase inhibition. Palmitoylation of nSMase-2 has been described before <ref type="bibr" target="#b62">[63]</ref>. Moylan and colleagues showed that nSMase-3 can be activated by TNF in detergent resistant membranes, leading to ROS and ceramide production <ref type="bibr" target="#b42">[43]</ref>. TNF-R1 is linked to nSMase by EED, which in turn interacts with integrins <ref type="bibr" target="#b63">[64]</ref>. Palmitoylation of Integrinα6 by zDHHC3 has been described before <ref type="bibr" target="#b64">[65]</ref>.</p><p>In glioma cells, Integrinα6β1 prevents TNF induced apoptosis <ref type="bibr" target="#b65">[66]</ref>. Palmitoylation of TNF-R1, nSMase and integrins might allow pre-assembly of these proteins in the same membrane compartment.</p><p>We also observed APT1:TNF-R1 interaction by co-IP, while the function of APT1 in the TNF-RSC remains to be investigated. The lysosomal PTE PPT1 has recently been linked to TNF signaling by showing that PPT1/ Cln-1 deficiency results in resistance to TNF induced apoptosis induction which is in line with our observations that TNF-receptosomes have to maturate into multivesicular bodies and lysosomes for full apoptosis induction <ref type="bibr" target="#b66">[67]</ref>. Interestingly, we observed higher PPT1 levels in acylRAC samples upon TNF stimulation. Direct PPT1:TNF-R1 interaction has not been observed.</p><p>Earlier reports showed that transmembrane TNF is palmitoylated which regulates its affinity to TNF-R1 <ref type="bibr" target="#b67">[68,</ref><ref type="bibr" target="#b68">69]</ref>. FasL and also the putative DR6 ligand APP require palmitoylation for their biological function <ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref>. We ruled out a possible role for endogenous TNF on TNF-R1 palmitoylation by co-culture with TNF targeting Fab.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Based on our results and reports from other groups, we propose the following model of de-palmitoylation events in the regulation of TNF-R1 signal transduction (Fig. <ref type="figure">6</ref>):</p><p>Fig. <ref type="figure">6</ref> Model. TNF-R1 is palmitoylated in the ER (PAT x ) or Golgi (PAT y ) and transported to caveolae in the plasma membrane. After TNF binding, TNF-R1 is either de-palmitoylated by APT2, resulting in translocation to another lipid raft compartment, complex I formation and signaling for NF-κB activation. Alternatively, TNF-R1 may translocate out of caveolae and TNF-receptosomes are formed by clathrin dependent internalization. This allows complex II/DISC formation by intracellular maturation. In case of APT2 depletion/inhibition, activated TNF-R1 induces nSMase dependent ceramide production in caveolae which triggers cell death TNF-R1 is palmitoylated in the Golgi to allow transport to distinct plasma membrane domains (i.e. caveolae). Activation of TNF-R1 requires TNF-R1 de-palmitoylation by APT2, allowing translocation to another lipid raft compartment and recruitment of the "complex I" proteins TRADD, RIP-1 and TRAF2, which is also palmitoylated in response to TNF. This induces NF-κB activation and cell survival. Capturing activated TNF-R1 in its steady state plasma membrane/caveolae localization after APT2 inhibition results in a strongly enhanced activation of nSMase and ceramide production, resulting in a shift to apoptosis. Internalization of TNF-R1 which may occur from both caveolae and unstructured plasma membrane is neither affected by C248S mutation nor APT2 down modulation.</p><p>In sum, our study demonstrates that palmitoylation represents a novel layer of regulation in TNF-R1 signaling. Observation of TNF-R1 ubiquitination <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b72">73,</ref><ref type="bibr" target="#b73">74]</ref>, glycosylation <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b60">61]</ref> and TNF-R1 phosphorylation <ref type="bibr" target="#b74">[75,</ref><ref type="bibr" target="#b75">76]</ref>, highlight the importance of posttranslational modifications for proper TNF signaling to maintain homeostasis. Further in-depth characterization and understanding their role in TNF but also in TRAIL and FasL signal transduction may provide a means to interfere and modulate signaling on a new level and might provide access for pharmaceutical intervention for future disease treatment (i.e. chronic inflammatory diseases and cancer).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 (</head><label>1</label><figDesc>Fig. 1 (See legend on next page.)</figDesc><graphic coords="5,127.28,94.85,340.76,444.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>(</head><label></label><figDesc>See figure on previous page.) Fig. 1 Palmitoylation is involved in TNF signaling. a TNF-R1 internalization in response to activation by TNF, quantified by imaging flow cytometry. Representative images of cells kept on ice (upper panel) versus 30 min internalization at 37 °C (lower panel) are shown (TNF/TNF-R1: green, plasma membrane: red). b Treatment of cells with the palmitoylation inhibitor 2-bromopalmitate (2BrP; 50 μM) decreases TNF-R1 internalization. Quantification was performed by imaging flow cytometry. Data of three independent experiments +/-SD are shown. c The TNF-R1 surface expression at steady state is not reduced in 2BrP treated cells. Quantification was performed by imaging flow cytometry. d WB of acylRAC enriched proteins were probed for TNF-R1. Compared to the the total amount in the input, TNF-R1 appears partially palmitoylated as revealed in the captured acylRAC fraction. Known palmitoylated proteins served as positive control: CD71, STX6, Rab5 and PPT1 are present in the input (Σ tc ) and the (hydroxyl amine) (HA) fractions while Tris lanes show no signals. No difference for untreated (Ø) or 10 min TNF treated cells is apparent. CoxIV and β Actin serve as negative controls. e Total protein staining (lightning red) prior to WB. The hydroxylamine (HA) samples contain enriched protein, while the Tris lanes contain negligible protein. Samples were from untreated (Ø) or 10 min TNF treated cells. Σ tc represents the input (cell lysate) for acylRAC. f Left panel: TNF-R1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Analysis of the putative palmitoylation site C248. a Topology model of TNF-R1 depicting all intracellular cysteine residues and functional domains. The mutated C248 is indicated in red. b TNF-R1 C248S was expressed in TNF-R1 deficient (ΔTNF-R1) cells. WB analysis of total TNF-R1 expression. The upper panel shows TNF-R1. The third panel shows the FLAG-tag of the construct. Low MW TNF-R1 is indicated by filled arrowheads, high MW TNF-R1 is indicated by empty arrowheads. β Actin serves as loading control. c Analysis of TNF-R1 surface expression and internalization. Left histogram: wildtype TNF-R1 expressing cells, right histogram: C248S-TNF-R1 expressing cells. ΔTNF-R1 (black curve), 0 °C/ surface TNF-R1 (green) or 30 min, 37 °C/internalized TNF-R1 (red). The shift of the curve/increase in fluorescence intensity is due to TNF-R1 internalization and accumulation in endosomes (TNF-receptosomes). The dashed line marks the medium wt surface expression in both histograms. One representative experiment is shown. Sample images for wt (upper panels) and C248S cells (lower panels) are shown below. The left panels show surface TNF-R1, the right panels show internalized TNF-R1. d Apoptosis induction in U937 (wt, ΔTNF-R1 and C248S) analyzed by quantification of nuclear DNA fragmentation. Representative untreated cell with intact nucleus (violet) (upper left panel) and 20 h TNF treated cell with fragmented nucleus (upper right panel). The diagram shows mean values of 3 experiments with up to 10,000 imaged cells. e Degradation of IκB was analyzed upon stimulation of wt and TNF-R1 C248S expressing cells with TNF by WB. Actin serves as loading control. One representative experiment is shown. f AcylRAC from TNF-R1 wt (left side) and TNF-R1 C248S (right side) expressing cells. Input represents the total membrane fraction used for acylRAC. The WB was probed for TNF-R1 or actin as negative control. Low MW TNF-R1 is indicated by filled arrowheads, high MW TNF-R1 is indicated by empty arrowheads</figDesc><graphic coords="7,127.28,94.85,340.76,440.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Activation and function of PTE in response to TNF. a APT1 and APT2 are part of the TNF-RSC: TNF-R1 was activated, lysed in the presence of detergents and precipitated using Fc60TNF, activating only TNF-R1. Panel one: TNF-R1 displaying the reported increase in K63-ubiquitination in response to TNF [5]. Panel two: Constitutive TNF-RSC:APT1 interaction, decreasing at 10 min. Panel three: Transient recruitment of APT2 to the TNF-RSC. Panels 4-6 show WB with 10 μg of input lysate. b Activation of endogenous S-depalmitoylases in response to TNF, analyzed by imaging flow cytometry using fluorescent probes: DPP-2 for global S-depalmitoylation and DPP-3 for APT1 activity. Left panel one: Representative images of inactive APT2. Left panel two: Shows cells with activated fluorescent probe (DPP-2; green) in response to TNF. PM is stained in red. Panel three: histograms representing enzyme activity. Dashed black: untreated cells. Green: addition of DPP-2 and TNF to cells kept on ice. Addition of DPP-2/ TNF at 37 °C for 5 min (red), 10 min (orange), 15 min (blue). Black: DPP-2/Palmostatin B (pan PTE inhibitor). Dashed red: DPP-2/ML349 (APT2 selective inhibitor). Right panels: DPP-3 is not activated in response to TNF (same order and color code as A). c Left panel: representative WB from acylRAC probed for TNF-R1 at the conditions: no TNF (ctrl), 30 min TNF, ML349 with 30 min TNF, and ML349. PPT-1 serves as loading control. Right panel: WB quantification by densitometry. WB loading control, see Additional file 3: Figure S3. d His 6 rAPT2 was expressed in and affinity purified from E. coli. WB was probed using APT2 and His antibodies. rAPT2 activity after 20 min incubation at the conditions: DPP-2 (light grey), DPP-2 + APT2 (black), DPP-2 + APT2 + Palmostatin B (medium grey), DPP-2 + Palmostatin B (dark grey). e WB of input and acylRAC +/-rAPT2 (30 μM, 1 h 37 °C): Palmitoylation of TNF-R1 decreases while CD71, integrin α6, PPT-1 and Rab5 are not affected. The lower panel shows quantification of the WB for TNF-R1 normalized to PPT-1 levels</figDesc><graphic coords="9,127.28,94.85,340.76,450.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 The biological function of pharmacological APT2 inhibition in TNF signaling. The dashed black lines indicate wt apoptosis and internalization levels upon stimulation with TNF. Abbreviation: ML349 (349). All experiments show mean values (+/-SD) of 3-5 independent experiments. a TNF-R1 internalization in response to activation by TNF. Ctrl: TNF-R1 internalization increases upon 30 min incubation at 37 °C in the presence of TNF. Incubation with ML349 (I: 50 μM, II: 25 μM, III: 12.5 μM, IV: 6.35 μM) reduced internalization. b Apoptosis induction analyzed by quantification of nuclear DNA fragmentation. 20 h TNF treatment increased apoptotic cells. Incubation with ML349 (25 μM) increased apoptosis rate. Higher concentrations of ML349 resulted in excess apoptosis without TNF. c Apoptosis induction analyzed by WB. Panel one: PARP1 cleavage. Panel two: active caspase-3. Panel three: actin as loading control. d Ceramide production after 10 min stimulation with TNF. TNF induces ceramide formation, which is increased upon APT2 inhibition by ML349. nSMase inhibition by GW4869 (10 μM) protects from ceramide production. e Caspase-3 activity was monitored up to 70 min upon addition of 100 ng/ml TNF, 25 μM ML349, 2 μM GW4869. One representative experiment of three measurements in duplicates is shown. f Degradation of IκB was analyzed upon stimulation with TNF by WB. Actin serves loading control. One representative experiment is shown</figDesc><graphic coords="10,127.28,94.85,340.76,431.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5</head><label>5</label><figDesc>Fig.5The biological function of APT2 knock-down in TNF signaling. a APT2 expression was knocked-down by shRNA and validated by WB. shAPT2 pool A3II (marked by an asterisk) was used for further experiments. GAPDH was used as loading control. b The histogram shows that TNF-R1 surface expression is higher (red curve) in shAPT2 cells compared to wt (green curve) cells. Sample images from wt (green box) and shAPT2 (red box) cells are shown below. TNF-R1 is labeled using biotinylated-TNF:Streptavidin-alexafluor488 (green), the plasma membrane is labeled with cell mask (red). c TNF-R1 palmitoylation was analyzed by acylRAC. U937 wt cells +/-ML349 were compared to shAPT cells. WB was probed for TNF-R1, PPT1 served as loading control. One representative experiment is shown. d TNF-R1 internalization was not affected by shAPT2 knock-down. Mean values of three experiments are shown. e TNF induced apoptosis is enhanced in shAPT2 cells. Mean values of three experiments are shown. f IκB degradation is inhibited in shAPT2 compared to U937 wt cells. One representative experiment is shown</figDesc><graphic coords="11,127.28,94.85,340.76,383.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,127.28,417.20,340.76,255.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>The resulting pellet was resuspended in 150 μl 25 mM HEPES [pH 7.4], 25 mM NaCl, 0.5% Triton X-100, PIC. The click reaction was made up fresh with the final concentrations: 500 μM biotin-azide (#13040, Cayman)), 2 mM CuCO 4 , 0.2 mM TBTA (#678937, Sigma Aldrich)</figDesc><table /><note><p>and 4 mM ascorbic acid (fresh) in a total volume of 200 μl. After 2 h incubation at RT, proteins were acetone precipitated and then resuspended in 500 μl 50 mM TRIS-HCl [pH 7.5], 150 mM NaCl, 1% NP-40, 1% Triton X-100, 1 mM EDTA, 0.25% Na-deoxycholate. 20 μl Streptavidin-microbeads (#130-048-102, Miltenyi) were added and incubated overnight at 4 °C. After purification via μColums (Miltenyi) and elution using SDS-Sample buffer containing β-mercaptoethanol, 15 μl were used for SDS-PAGE/WB. Immunoprecipitation 5 × 10 7 cells were washed with ice-cold PBS followed by incubation with 100 ng/ml Fc60TNF for 20 min on ice.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Anti-TNF-Fab fragment was kindly provided by <rs type="person">D. Männel</rs> (<rs type="affiliation">University of Regensburg</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The project was funded by grants given to J.F. by the medical faculty of the <rs type="institution">Christian-Albrechts-University of Kiel</rs> and the Kreitz foundation, by grants given to S.S. by the <rs type="grantNumber">DFG SCHU733/14-1</rs>, <rs type="projectName">CRC877</rs> Project <rs type="grantNumber">B1</rs> and <rs type="grantNumber">EXC306-PWTP1</rs>, by grants given to D.A. by the <rs type="grantNumber">DFG CRC 877</rs> Project <rs type="grantNumber">B2</rs>, and <rs type="grantNumber">EXC306-PWTP1</rs>, and the <rs type="funder">NIGMS</rs> of the <rs type="funder">NIH</rs> (<rs type="grantNumber">R35 GM119840</rs>) given to B.C.D..</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_bb9hxMs">
+					<idno type="grant-number">DFG SCHU733/14-1</idno>
+					<orgName type="project" subtype="full">CRC877</orgName>
+				</org>
+				<org type="funding" xml:id="_2JDygNV">
+					<idno type="grant-number">B1</idno>
+				</org>
+				<org type="funding" xml:id="_wsMqvvy">
+					<idno type="grant-number">EXC306-PWTP1</idno>
+				</org>
+				<org type="funding" xml:id="_ns4bYXw">
+					<idno type="grant-number">DFG CRC 877</idno>
+				</org>
+				<org type="funding" xml:id="_6XAeCeH">
+					<idno type="grant-number">B2</idno>
+				</org>
+				<org type="funding" xml:id="_HvSyAkW">
+					<idno type="grant-number">EXC306-PWTP1</idno>
+				</org>
+				<org type="funding" xml:id="_eVaMYdA">
+					<idno type="grant-number">R35 GM119840</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>All data generated or analyzed during this study are included in this published article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional files</head><p>Additional file 1: Figure <ref type="figure">S1</ref>. Endogenous TNF does not affect TNF-R1 palmitoylation. U937 cells were cultured for 14 days in the presence of 0.5 μg/ml anti-TNF-Fab'-Fragment or left untreated (ctrl). Prior to stimulation with exogenous TNF (10 min, 100 ng/ml), cells were washed and acylRAC/ WB was performed. One representative experiment is shown. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate N/A</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Regulation of tumour necrosis factor signalling: live or let die</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Blaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Mak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nri3834</idno>
+		<ptr target="https://doi.org/10.1038/nri3834" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="362" to="374" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Induction of TNF receptor I-mediated apoptosis via two sequential signaling complexes</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Micheau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tschopp</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0092-8674(03)00521-x</idno>
+		<ptr target="https://doi.org/10.1016/s0092-8674" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page">521</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Holding RIPK1 on the ubiquitin leash in TNFR1 signaling</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peltzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Darding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Walczak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tcb.2016.01.006</idno>
+		<ptr target="https://doi.org/10.1016/j.tcb.2016.01.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Compartmentalization of TNF receptor 1 signaling: internalized TNF receptosomes as death signaling vesicles</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schneider-Brachert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.immuni.2004.08.017</idno>
+		<ptr target="https://doi.org/10.1016/j.immuni.2004.08.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="415" to="428" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Cell fate decisions regulated by K63 ubiquitination of tumor necrosis factor receptor 1</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fritsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MCB.00048-14</idno>
+		<ptr target="https://doi.org/10.1128/MCB" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="48" to="62" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">ST6Gal-I sialyltransferase promotes tumor necrosis factor (TNF)-mediated cancer cell survival via sialylation of the TNF receptor 1 (TNFR1) death receptor</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Holdbrooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Britain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Bellis</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M117.801480</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M117.801480" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="page" from="1610" to="1622" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Altering the sphingolipid acyl chain composition prevents LPS/ GLN-mediated hepatic failure in mice by disrupting TNFR1 internalization</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ali</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cddis.2013.451</idno>
+		<ptr target="https://doi.org/10.1038/cddis.2013.451" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">STAT1 mediates transmembrane TNF-alpha-induced formation of death-inducing signaling complex and apoptotic signaling via TNFR1</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cdd.2016.162</idno>
+		<ptr target="https://doi.org/10.1038/cdd.2016.162" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="660" to="671" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">CARP-2 is an endosome-associated ubiquitin ligase for RIP and regulates TNF-induced NF-kappaB activation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2008.04.017</idno>
+		<ptr target="https://doi.org/10.1016/j.cub.2008.04.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Current biology : CB</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="641" to="649" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Alix and ALG-2 make a link between endosomes and neuronal death</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Mahul-Mellier</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BST0370200</idno>
+		<ptr target="https://doi.org/10.1042/BST0370200" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="200" to="203" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Riboflavin kinase couples TNF receptor 1 to NADPH oxidase</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yazdanpanah</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature08206</idno>
+		<ptr target="https://doi.org/10.1038/nature08206" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">460</biblScope>
+			<biblScope unit="page" from="1159" to="1163" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Caspase-8 and caspase-7 sequentially mediate proteolytic activation of acid sphingomyelinase in TNF-R1 receptosomes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Edelmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/emboj.2010.326</idno>
+		<ptr target="https://doi.org/10.1038/emboj.2010.326" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="379" to="394" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Cathepsin D links TNF-induced acid sphingomyelinase to bid-mediated caspase-9 and -3 activation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heinrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.cdd.4401382</idno>
+		<ptr target="https://doi.org/10.1038/sj.cdd.4401382" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="550" to="563" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">TNF induced cleavage of HSP90 by cathepsin D potentiates apoptotic cell death</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fritsch</surname></persName>
+		</author>
+		<idno type="DOI">10.18632/oncotarget.12411</idno>
+		<ptr target="https://doi.org/10.18632/oncotarget.12411" />
+	</analytic>
+	<monogr>
+		<title level="j">Oncotarget</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="75774" to="75789" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Endocytic regulation of cytokine receptor signaling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cendrowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maminska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miaczynska</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cytogfr.2016.07.002</idno>
+		<ptr target="https://doi.org/10.1016/j.cytogfr.2016.07.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Cytokine &amp; growth factor reviews</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Role of ubiquitination and proteolysis in the regulation of pro-and anti-apoptotic TNF-R1 signaling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zingler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sarchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Heck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schütze</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2017.07.017</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamcr.2017.07.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta Mol Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">1864</biblScope>
+			<biblScope unit="page" from="2138" to="2146" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Identification of PSD-95 Depalmitoylating enzymes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yokoi</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.0419-16.2016</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.0419-16.2016" />
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="6431" to="6444" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">ABHD17 proteins are novel protein depalmitoylases that regulate N-Ras palmitate turnover and subcellular localization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Conibear</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.11306</idno>
+		<ptr target="https://doi.org/10.7554/eLife.11306" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">11306</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Enzymatic protein depalmitoylation by acyl protein thioesterases</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Conibear</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BST20140235</idno>
+		<ptr target="https://doi.org/10.1042/BST20140235" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="193" to="198" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The physiology of protein S-acylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00032.2014</idno>
+		<ptr target="https://doi.org/10.1152/physrev.00032.2014" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="341" to="376" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">New links between S-acylation and cancer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/path.4339</idno>
+		<ptr target="https://doi.org/10.1002/path.4339" />
+	</analytic>
+	<monogr>
+		<title level="j">J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="4" to="6" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A fluorescent probe for cysteine depalmitoylation reveals dynamic APT signaling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Elvira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.2262</idno>
+		<ptr target="https://doi.org/10.1038/nchembio.2262" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="150" to="152" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Site-specific analysis of protein S-acylation by resinassisted capture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Forrester</surname></persName>
+		</author>
+		<idno type="DOI">10.1194/jlr.D011106</idno>
+		<ptr target="https://doi.org/10.1194/jlr.D011106" />
+	</analytic>
+	<monogr>
+		<title level="j">J Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="393" to="398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Proteomic analysis of S-nitrosylation and denitrosylation by resin-assisted capture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Forrester</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt.1545</idno>
+		<ptr target="https://doi.org/10.1038/nbt.1545" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="557" to="559" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Nonradioactive analysis of dynamic protein palmitoylation. Current protocols in protein science / editorial board, John E. coligan</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/0471140864.ps1415s73</idno>
+		<ptr target="https://doi.org/10.1002/0471140864.ps1415s73" />
+	</analytic>
+	<monogr>
+		<title level="j">Unit</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Histamine antagonizes tumor necrosis factor (TNF) signaling by stimulating TNF receptor shedding from the cell surface and Golgi storage pool</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M212662200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M212662200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="21751" to="21760" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Gamma-secretase activity is required for regulated intramembrane proteolysis of tumor necrosis factor (TNF) receptor 1 and TNF-mediated pro-apoptotic signaling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chhibber-Goel</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M115.679076</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M115.679076" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page" from="5971" to="5985" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of the TRAIL receptor DR4 confers an efficient TRAIL-induced cell death signalling</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rossin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Derouet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Abdel-Sater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Hueber</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BJ20081212</idno>
+		<ptr target="https://doi.org/10.1042/BJ20081212" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">419</biblScope>
+			<biblScope unit="page">192</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of CD95 facilitates formation of SDS-stable receptor aggregates that initiate apoptosis signaling</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tchikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schütze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Peter</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.emboj.7601460</idno>
+		<ptr target="https://doi.org/10.1038/sj.emboj.7601460" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="221" to="231" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Functional analysis of the posttranslational modifications of the death receptor 6</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zajedova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Doubravska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andera</forename><forename type="middle">L</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2009.07.008</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamcr.2009.07.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1793</biblScope>
+			<biblScope unit="page" from="1579" to="1587" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Epicocconone staining: a powerful loading control for Western blots</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Moritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Marz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schulenborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Friauf</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pmic.201300089</idno>
+		<ptr target="https://doi.org/10.1002/pmic.201300089" />
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="162" to="168" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of membrane proteins (review)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Charollais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Der Goot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/09687680802620369</idno>
+		<ptr target="https://doi.org/10.1080/09687680802620369" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Membr Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="55" to="66" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A novel role of microtubular cytoskeleton in the dynamics of caspase-dependent Fas/CD95 death receptor complexes during apoptosis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Doma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chakrabandhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Hueber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.febslet.2010.01.059</idno>
+		<ptr target="https://doi.org/10.1016/j.febslet.2010.01.059" />
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">584</biblScope>
+			<biblScope unit="page" from="1033" to="1040" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">CSS-Palm 2.0: an updated software for palmitoylation sites prediction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ren</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/protein/gzn039</idno>
+		<ptr target="https://doi.org/10.1093/protein/gzn039" />
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng Des Sel</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="639" to="644" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Recruitment of TNF receptor 1 to lipid rafts is essential for TNFalpha-mediated NF-kappaB activation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Legler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Micheau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Doucey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tschopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="655" to="664" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Michael addition-based probes for ratiometric fluorescence imaging of protein S-depalmitoylases in live cells and tissues</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Cham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C7SC02805A</idno>
+		<ptr target="https://doi.org/10.1039/C7SC02805A" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="7588" to="7592" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Multidimensional control of Cas9 by evolved RNA polymerase-based biosensors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kentala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acschembio.7b00532</idno>
+		<ptr target="https://doi.org/10.1021/acschembio.7b00532" />
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem Biol</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Acyl protein thioesterase 1 and 2 (APT-1, APT-2) inhibitors palmostatin B, ML348 and ML349 have different effects on NRAS mutant melanoma cells</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vujic</surname></persName>
+		</author>
+		<idno type="DOI">10.18632/oncotarget.6907</idno>
+		<ptr target="https://doi.org/10.18632/oncotarget.6907" />
+	</analytic>
+	<monogr>
+		<title level="j">Oncotarget</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="7297" to="7306" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Novel tumor necrosis factor-responsive mammalian neutral sphingomyelinase-3 is a Ctail-anchored protein</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Krut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wiegmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kashkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yazdanpanah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krönke</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M511306200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M511306200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="13784" to="13793" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">TNF-receptor I defective in internalization allows for cell death through activation of neutral sphingomyelinase</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neumeyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yexcr.2006.03.014</idno>
+		<ptr target="https://doi.org/10.1016/j.yexcr.2006.03.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Exp Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="2142" to="2153" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The Polycomb group protein EED couples TNF receptor 1 to neutral sphingomyelinase</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Philipp</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0908486107</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0908486107" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="1112" to="1117" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Caveolae-mediated effects of TNF-alpha on human skeletal muscle cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dargelos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yexcr.2018.07.027</idno>
+		<ptr target="https://doi.org/10.1016/j.yexcr.2018.07.027" />
+	</analytic>
+	<monogr>
+		<title level="j">Exp Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="623" to="631" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Neutral sphingomyelinase-3 mediates TNF-stimulated oxidant activity in skeletal muscle</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Moylan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.redox.2014.07.006</idno>
+		<ptr target="https://doi.org/10.1016/j.redox.2014.07.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="910" to="920" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A toolbox for the immunomagnetic purification of signaling organelles</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tchikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lucius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schutze</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/tra.12631</idno>
+		<ptr target="https://doi.org/10.1111/tra.12631" />
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="246" to="258" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">LUBAC-recruited CYLD and A20 regulate gene activation and cell death by exerting opposing effects on linear ubiquitin in signaling complexes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Draber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2015.11.009</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep.2015.11.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2258" to="2272" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Fatty acylation of proteins: the long and the short of it</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Resh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.plipres.2016.05.002</idno>
+		<ptr target="https://doi.org/10.1016/j.plipres.2016.05.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="120" to="131" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Mechanistic effects of protein palmitoylation and the cellular consequences thereof Chemistry and physics of lipids</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blaskovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adibekian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Van Der Goot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemphyslip.2014.02.001</idno>
+		<ptr target="https://doi.org/10.1016/j.chemphyslip.2014.02.001" />
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cholesterol level determines viability and mitogenicity, but it does not affect sodium butyrate-dependent sensitization of Colo 205 cells to TNF-alpha-induced apoptosis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Orzechowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pajak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gajkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Orzechowski</surname></persName>
+		</author>
+		<idno type="DOI">10.3892/or.2010.1081</idno>
+		<ptr target="https://doi.org/10.3892/or.2010.1081" />
+	</analytic>
+	<monogr>
+		<title level="j">Oncol Rep</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="573" to="582" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Differential regulation of TNF-R1 signaling: lipid raft dependency of p42mapk/erk2 activation, but not NF-kappaB activation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Doan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Windmiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Riches</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="7654" to="7660" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">TNF-alpha-mediated apoptosis is initiated in caveolae-like domains</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="7217" to="7223" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Targeting of tumor necrosis factor receptor 1 to low density plasma membrane domains in human endothelial cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>D'alessio</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M110.122853</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M110.122853" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="23868" to="23879" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Plasma membrane microdomains regulate TACEdependent TNFR1 shedding in human endothelial cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>D'alessio</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1582-4934.2011.01353.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1582-4934.2011.01353.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="627" to="636" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Dataset of differential lipid raft and global proteomes of SILAC-labeled cystic fibrosis cells upon TNF -alpha stimulation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chhuon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dib.2016.08.012</idno>
+		<ptr target="https://doi.org/10.1016/j.dib.2016.08.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Data in brief</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="51" to="56" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Changes in lipid raft proteome upon TNF-alpha stimulation of cystic fibrosis cells</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chhuon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jprot.2016.07.003</idno>
+		<ptr target="https://doi.org/10.1016/j.jprot.2016.07.003" />
+	</analytic>
+	<monogr>
+		<title level="j">J Proteome</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="246" to="253" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Spatial compartmentalization of tumor necrosis factor (TNF) receptor 1-dependent signaling pathways in human airway smooth muscle cells. Lipid rafts are essential for TNF-alpha-mediated activation of RhoA but dispensable for the activation of the NF-kappaB and MAPK pathways</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Nixon</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M605738200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M605738200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="34705" to="34715" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Caveolae participate in tumor necrosis factor receptor 1 signaling and internalization in a human endothelial cell line</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>D'alessio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al-Lamki</forename><surname>Rs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Pober</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0002-9440(10)62346-2</idno>
+		<ptr target="https://doi.org/10.1016/S0002-9440" />
+	</analytic>
+	<monogr>
+		<title level="j">Am J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="62346" to="62348" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Herpes simplex virus 1 ICP6 impedes TNF receptor 1-induced necrosome assembly during compartmentalization to detergent-resistant membrane vesicles</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Roback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Mocarski</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.RA118.004651</idno>
+		<ptr target="https://doi.org/10.1074/jbc.RA118.004651" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="page" from="991" to="1004" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The anticonvulsive Phenhydan® suppresses death receptor initiated cell death</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mörke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Recruitment of the linear ubiquitin chain assembly complex stabilizes the TNF-R1 signaling complex and is required for TNF-mediated gene induction</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Haas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2009.10.013</idno>
+		<ptr target="https://doi.org/10.1016/j.molcel.2009.10.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="831" to="844" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">NAK is recruited to the TNFR1 complex in a TNFalphadependent manner and mediates the production of RANTES: identification of endogenous TNFR-interacting proteins by a proteomic approach</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuai</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M411037200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M411037200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="53266" to="53271" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The role of N-glycan modification of TNFR1 in inflammatory microglia activation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10719-015-9619-1</idno>
+		<ptr target="https://doi.org/10.1007/s10719-015-9619-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Glycoconj J</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="685" to="693" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Temporal profiling establishes a dynamic S-Palmitoylation cycle</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Won</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acschembio.8b00157</idno>
+		<ptr target="https://doi.org/10.1021/acschembio.8b00157" />
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1560" to="1568" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Neutral sphingomyelinase 2 is palmitoylated on multiple cysteine residues</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Hannun</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M611249200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M611249200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="10047" to="10056" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>Role of palmitoylation in subcellular localization</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">HIV-1 Nef mimics an integrin receptor signal that recruits the polycomb group protein Eed to the plasma membrane</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Witte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="179" to="190" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Palmitoylation by DHHC3 is critical for the function, expression, and stability of integrin alpha6beta4</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rabinovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hemler</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00018-012-0924-6</idno>
+		<ptr target="https://doi.org/10.1007/s00018-012-0924-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="2233" to="2244" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Endothelial expression of TNF receptor-1 generates a proapoptotic signal inhibited by integrin alpha6beta1 in glioblastoma</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1158/0008-5472.CAN-11-2621</idno>
+		<ptr target="https://doi.org/10.1158/0008-5472.CAN-11-2621" />
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1428" to="1437" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Palmitoyl protein thioesterase 1 modulates tumor necrosis factor alpha-induced apoptosis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tardy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2009.03.007</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamcr.2009.03.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1793</biblScope>
+			<biblScope unit="page" from="1250" to="1258" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of TNF alpha is involved in the regulation of TNF receptor 1 signalling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2012.11.009</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamcr.2012.11.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1833</biblScope>
+			<biblScope unit="page" from="602" to="612" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Transmembrane TNF (pro-TNF) is palmitoylated</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Utsumi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">500</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Identification of a lysine-rich region of Fas as a raft nanodomain targeting signal necessary for Fas-mediated cell death</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rossin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yexcr.2010.03.002</idno>
+		<ptr target="https://doi.org/10.1016/j.yexcr.2010.03.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Exp Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="page" from="1513" to="1522" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of human FasL modulates its cell death-inducing function</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guardiola-Serrano</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cddis.2010.62</idno>
+		<ptr target="https://doi.org/10.1038/cddis.2010.62" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">88</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Palmitoylated APP forms dimers, cleaved by BACE1</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bhattacharyya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Fenn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Tanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Kovacs</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0166400</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0166400" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">166400</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">SPATA2 links CYLD to the TNFalpha receptor signaling complex and modulates the receptor signaling outcomes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Satpathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Choudhary</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/embj.201694300</idno>
+		<ptr target="https://doi.org/10.15252/embj.201694300" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1868" to="1884" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Phosphorylation and linear ubiquitin direct A20 inhibition of inflammation</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">E</forename><surname>Wertz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature16165</idno>
+		<ptr target="https://doi.org/10.1038/nature16165" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">528</biblScope>
+			<biblScope unit="page" from="370" to="375" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Phosphorylation of tumor necrosis factor receptor CD120a (p55) by p42mapk/erk2 induces changes in its subcellular localization</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cottin</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.274.46.32975</idno>
+		<ptr target="https://doi.org/10.1074/jbc.274.46.32975" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="32975" to="32987" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Hierarchical phosphorylation of the TNF-alpha receptor, TNF-R1, by p42Mapk/Erk at basic pro-directed kinase sites</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Van Linden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cottin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Frankel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Riches</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi050058w</idno>
+		<ptr target="https://doi.org/10.1021/bi050058w" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="6980" to="6989" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

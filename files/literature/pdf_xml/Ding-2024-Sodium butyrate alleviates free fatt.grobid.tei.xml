@@ -1,0 +1,2053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sodium butyrate alleviates free fatty acid-induced steatosis in primary chicken hepatocytes via the AMPK/PPARa pathway</title>
+				<funder>
+					<orgName type="full">Jiangxi, China)</orgName>
+				</funder>
+				<funder ref="#_acz2z6A">
+					<orgName type="full">Thousand Talents Plan</orgName>
+				</funder>
+				<funder ref="#_TY23CUP #_VTrwkSt">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_mdWwnVA">
+					<orgName type="full">Natural Science Foundation of Jiangxi Province</orgName>
+				</funder>
+				<funder ref="#_bFqUxJz">
+					<orgName type="full">Graduate Innovative Special Fund Projects of Jiangxi Province</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jiayi</forename><surname>Ding</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiuyue</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jinyan</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xinyi</forename><surname>Cheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Huabin</forename><surname>Cao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaoquan</forename><surname>Guo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guoliang</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><surname>Zhuang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Animal Population Health</orgName>
+								<orgName type="department" key="dep2">College of Animal Science and Technology</orgName>
+								<orgName type="laboratory">Jiangxi Provincial Key Laboratory for Animal Health</orgName>
+								<orgName type="institution">Jiangxi Agricultural University</orgName>
+								<address>
+									<postCode>330045</postCode>
+									<settlement>Nanchang, Jiangxi</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sodium butyrate alleviates free fatty acid-induced steatosis in primary chicken hepatocytes via the AMPK/PPARa pathway</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C99C75C32959FF727F4F9B1A749DCD6F</idno>
+					<idno type="DOI">10.1016/j.psj.2024.103482</idno>
+					<note type="submission">Received November 9, 2023. Accepted January 16, 2024.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-27T04:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>sodium butyrate</term>
+					<term>free fatty acid</term>
+					<term>primary chicken hepatocyte</term>
+					<term>steatosis 2024 Poultry Science 103:103482</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Fatty liver hemorrhagic syndrome (FLHS) is a prevalent metabolic disorder observed in egg-laying hens, characterized by fatty deposits and cellular steatosis in the liver. Our preliminary investigations have revealed a marked decrease in the concentration of butyric acid in the FLHS strain of laying hens. It has been established that sodium butyrate (NaB) protects against metabolic disorders. However, the underlying mechanism by which butyrate modulates hepato-lipid metabolism to a great extent remains unexplored. In this study, we constructed an isolated in vitro model of chicken primary hepatocytes to induce hepatic steatosis by free fatty acids (FFA). Our results demonstrate that treatment with NaB effectively mitigated FFA-induced hepatic steatosis in chicken hepatocytes by inhibiting lipid accumulation, downregulating the mRNA expression of lipo-synthesisrelated genes (sterol regulatory element binding transcription factor 1 (SREBF1), acetyl-CoA carboxylase 1 (ACC1), fatty acid synthase (FASN), stearoyl-CoA desaturase 1 (SCD1), liver X receptor a (LXRa), 3hydroxy-3-methylglutaryl-CoA reductase (HMGR)) (P &lt; 0.05), and upregulating the mRNA and protein expression of AMP-activated protein kinase a1 (AMPKa1), peroxisome proliferator-activated receptor a (PPARa), and carnitine palmitoyl-transferase 1A (CPT1A) (P &lt; 0.05). Moreover, AMPK and PPARa inhibitors (Compound C (Comp C) and GW6471, respectively) reversed the protective effects of NaB against FFA-induced hepatic steatosis by blocking the AMPK/ PPARa pathway, leading to lipid droplet accumulation and triglyceride (TG) contents in chicken primary hepatocytes. With these findings, NaB can alleviate hepatocyte lipoatrophy injury by activating the AMPK/PPARa pathway, promoting fatty acid oxidation, and reducing lipid synthesis in chicken hepatocytes, potentially being able to provide new ideas for the treatment of FLHS.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Fatty liver hemorrhagic syndrome (FLHS) is a frequent metabolic disorder in high-producing laying hens featuring hepatic fat accumulation and abnormal lipid metabolism, which can lead to acute mortality and a rapid decline in egg production, causing significant economic losses for the poultry industry. The development of FLHS is influenced by various factors, including environmental conditions, genetic predisposition, hormonal imbalances, nutritional factors, gut microbiota composition, and metabolic status <ref type="bibr">(Wang et al., 2020)</ref>. Currently, considerable progress has been made in comprehending FLHS, but the development of robust diagnostic and therapeutic strategies is still at an early stage <ref type="bibr" target="#b10">(Guo et al., 2021;</ref><ref type="bibr" target="#b25">Meng et al., 2021;</ref><ref type="bibr" target="#b22">Liu et al., 2022)</ref>. Further research and clinical trials are needed to establish more effective approaches for diagnosing and treating FLHS.</p><p>Recently, evidence has revealed the vital role of the gut microbiota and associated bacterial metabolites in governing and regulating essential physiological processes and metabolic pathways in the human body <ref type="bibr" target="#b7">(Fang et al., 2022;</ref><ref type="bibr">Palmn€ as-B edard et al., 2022)</ref>. Gut symbiotic bacteria generate short-chain fatty acids (SCFA) via the fermentation of indigestible dietary fibers, among which butyric acid emerges as a principal constituent in this metabolic pathway. Prior studies have shown that butyrate could be utilized as an energy source by colonocytes <ref type="bibr" target="#b6">(Donohoe et al., 2011)</ref>. Meanwhile, butyrate exerts multiple beneficial effects in mammals. These include the regulation of gut hormone secretion and the inhibition of pro-inflammatory factor 1 production <ref type="bibr" target="#b20">(Lin et al., 2012;</ref><ref type="bibr" target="#b24">Matt et al., 2018)</ref>. These effects are closely associated with the pathogenetic mechanisms involved in developing fatty liver disease. Recently, butyrate has been shown to activate the G protein-coupled receptors, GPR41 and GPR43, which have been implicated in regulating energy metabolism and immune function <ref type="bibr" target="#b18">(Kimura et al., 2011;</ref><ref type="bibr" target="#b3">Chang et al., 2014;</ref><ref type="bibr" target="#b2">Byrne et al., 2015)</ref>. In addition, sodium butyrate (NaB) can enhance peroxisome proliferator-activated receptor a (PPARa) mRNA transcription level and restore b-oxidation of fatty acids (FA) in the mice liver on a high-fat diet, thus reducing liver fat deposition <ref type="bibr" target="#b35">(Sun, 2018)</ref>. Numerous seemingly contradictory findings show sophisticated interactions between gut microbiota, butyrate content, and host immunity and metabolism <ref type="bibr" target="#b29">(Qin et al., 2012;</ref><ref type="bibr" target="#b42">Zhang et al., 2016;</ref><ref type="bibr" target="#b4">Chen et al., 2020)</ref>. Nevertheless, the intrinsic mechanisms by which butyrate regulates lipid metabolism in the liver have not been more thoroughly investigated.</p><p>AMPK functions as an intracellular receptor and regulator of cellular energy, playing a critical role in maintaining cellular homeostasis. Liver kinase B1 (LKB1) regulates the activation of AMPK, which in turn influences the synthesis and breakdown of FA <ref type="bibr" target="#b33">(Shaw et al., 2005)</ref>. Activation of AMPK inhibits the dimerization of acetyl-CoA carboxylase (ACC), subsequently reducing its activity and impeding FA synthesis. Simultaneously, a decrease in malonyl coenzyme A (malonyl-CoA) values accelerates FA oxidation within the mitochondria <ref type="bibr" target="#b26">(Munday et al., 1988;</ref><ref type="bibr" target="#b5">Cho et al., 2010)</ref>. This process is controlled by PPARa, which detects fluctuations in the body's energy state and regulates FA utilization, ketone synthesis rates, and fat storage under low and high energy conditions. Additionally, PPARa is a factor in mitochondrial FA transport and regulation of b-oxidation <ref type="bibr" target="#b11">(Hashimoto et al., 2000;</ref><ref type="bibr" target="#b40">Xu et al., 2002)</ref>. Research has shown that PPARa can upregulate the expression of CPT1, CPT2, and carnitine acylcarnitine translocase (CACT), thereby enhancing lipolysis mediated by lipoprotein lipase (LPL) to reduce triglyceride (TG) levels, and reducing the secretion of hepatic LPL inhibitor apolipoprotein C-III to improve LPL activity indirectly <ref type="bibr" target="#b12">(Hertz et al., 1995;</ref><ref type="bibr" target="#b32">Schoonjans et al., 1996;</ref><ref type="bibr" target="#b1">Brandt et al., 1998)</ref>. Consequently, AMPK and PPARa play crucial roles in sustaining the equilibrium of lipid metabolism. Activation of AMPK and PPARa using active substances may hold potential as targets for allied diseases.</p><p>We previously reported that aberrant activation of the AMPK/PPARa signaling channel, dysbiosis of the gut microbiota, and reduced production of SCFA, particularly butyric acid, are associated with the development of FLHS <ref type="bibr" target="#b9">(Gao et al., 2019;</ref><ref type="bibr" target="#b15">Huang et al., 2022;</ref><ref type="bibr" target="#b45">Zhou et al., 2022)</ref>. Therefore, we hypothesize that supplementation of NaB alone could ameliorate lipid accumulation in the livers of FLHS. We further postulated that this amelioration could be linked to regulating crucial genes involved in FA metabolism, such as AMPK/ PPARa. Our results showed that butyrate effectively alleviates lipid accumulation and liver damage induced by FFA in primary chicken hepatocytes through modulation of the AMPK/PPARa signaling channel. Based on these findings, the prospective future of NaB is in mitigating steatohepatitis and positioning it as a promising therapeutic intervention for managing FLHS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell Isolation, Culture, and Treatment</head><p>Referring to the previous culture method for isolation and bio-culture of primary chicken liver cells <ref type="bibr" target="#b14">(Huang, 2019)</ref>, the 12-day-old chicken embryo of Hy-Line Variety Brown layer chickens were taken for cell experiment in vitro. The livers were chopped into small portions (approximately 1 mm 3 ), washed with phosphate buffered saline (PBS) 3 to 5 times, then digested with 0.1% collagenase at 37°C for 10 to 15 min. Digestion was terminated by additional Dulbecco's modified Eagle's medium (DMEM) (Gibco, CA) containing 10% fetal bovine serum (FBS) (Bioind, Israeli). Hepatocytes were collected by filtration through 200-mesh and 500-mesh cell sieves and centrifugation at 4°C, 1,200 rpm for 5 min (Centrifuge 5810 R, Eppendorf, Germany). Hepatocytes were resuspended and diluted in serum-free medium (1 £ 10 6 cells/mL), plated into tissue culture plates after cell counting, and then maintained at 37°C and 5% CO 2 . All hepatocytes were gathered for subsequent experiments.</p><p>The first experiment (Exp1) examined the toxicity of NaB (Selleck, Houston, TX) in chicken hepatocytes. Cells were taken after 48 h of incubation in 96-well cell culture plates, washed twice, and added to serum-free medium pre-warmed to 37°C respectively containing 0, 0.5, 1, 1.5, and 2 mmol/L NaB. Six replicates were set up for each concentration, and the cells were treated for 24h. Our preliminary data supported the choice of 0.25, 0.5, and 1 mmol/L doses for 24 h, showing remarkable efficacy while preserving adequate cell viability. Based on the previous study, a high-fat cell additive (containing 12 mmol/L sodium oleate (OA) and 6 mmol/L sodium palmitate (PA); Kunchuang, Xi'an, China) formulated as 1 mmol/L free fatty acids (FFA) (keeping the ratio of OA and PA concentrations at 2:1) was selected for the second experiment (Exp2) to establish hepatic steatosis model in primary hepatocytes.</p><p>To investigate the roles of AMPK and PPARa in NaB preventing steatosis of chicken hepatocytes, Comp C (Sigma-Aldrich, Shanghai, China) and GW6471 (Selleck), an ATP-competitive AMPK inhibitor and a selective PPARa antagonist, were separately used to inhibit AMPK and PPARa in chicken hepatocellular adipose degeneration model. Twenty-five milligram Comp C powder dissolved in 1.2516 mL DMSO to make a 50 mmol/L masterbatch; 10 mg GW6471 powder dissolved in 1.6138 mL DMSO to make a 10 mmol/L masterbatch. In the third experiment (Exp3), hepatocytes were cultured with/without 0.5 mol/L NaB, 1 mmol/L FFA, and 15 mmol/L Comp C, while others were cultured with/without 0.5 mol/L NaB, 1 mmol/L FFA, and 4 mmol/L GW6471. All hepatocytes were collected for subsequent experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calculating Cell Damage</head><p>The Cell Counting Kit-8 (CCK-8) (Bimake, Charlotte, NC) served to determine the cell viability. The CCK-8 working solution was formulated at a ratio of 100:10, and 100 mL of the mixture was added to each well and incubated at 37°C for 1 h under dark conditions. The optical density (OD) was determined using a multimode reader (Molecular Devices, Shanghai, China), which was adjusted to 450 nm. Three independent runs of each experiment were performed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Determination of Biochemical Indexes Related to Liver Fat Metabolism</head><p>After washing twice, the treated cells were scraped off and resuspended in 1 mL PBS. Following centrifugation of the cell suspension at 1,000 rpm for 10 min, the precipitate was taken and added to 300 mL of physiological saline, and the hepatocytes were completely fragmented using a homogenizer (Servicebio, Wuhan, China). Hepatocyte homogenates were measured for TG, total cholesterol (T-CHO), high-density lipoprotein cholesterol (HDL-C), and low-density lipoprotein cholesterol (LDL-C) using commercially available assay kits (Nanjing Jiancheng Institute of Bioengineering, Nanjing, China) according to the manufacturer's recommendations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chicken Hepatocytes Oil Red O Staining</head><p>Chicken hepatocytes were fixed and stained according to the requirements of the oil red O staining kit (Solarbio, Beijing, China). After the operation, the picture results were used in a microscope to observe and obtain. Microscopic examination showed that the red or orange-red substances were lipid droplets, and the nuclei were blue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA Extraction and Real-Time Quantitative Polymerase Chain Reaction</head><p>Following the manufacturer's instructions, total RNA was extracted using the TransZol Up reagent (TransGen, Beijing, China), and measured with a GeneQuant 1300 spectrophotometer. Then the mRNA therein was reverse transcribed into cDNA using TransScript Uni All-in-One First-Strand cDNA Synthesis SuperMix for qPCR (One-Step gDNA Removal) (TransGen). Primers for the amplification of AMPKa1, PPARa, CPT1, sterol regulatory element binding transcription factor 1 (SREBF1), ACC, fatty acid synthase (FASN), stearoyl-CoA desaturase 1 (SCD1), liver X receptor a (LXRa), 3hydroxy-3-methylglutaryl-CoA reductase (HMGR) and b-Actin were designed by NCBI and synthesized by Tsingke Biotechnology Company (Beijing, China) (Table <ref type="table">1</ref>). The Real-time PC Detection System (Bio-Rad CFX384 Touch, Foster City, CA) was used to conduct real-time quantitative polymerase chain reaction using ChamQ SYBR qPCR Master Mix (Vazyme, Nanjing, China). A hot start at 95°C for 30 s, denaturation at 95°C for 5 s, and annealing/ extension at 60°C for 30 s made up the PCR protocol. Forty cycles were performed in total. b-Actin was used as a housekeeping gene, and the mRNA expression levels of related genes were analyzed using the 2 ÀDDCT approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein Extraction and Western Blot</head><p>Proteins were detached from hepatocytes using a lysate (RIPA lysate: phenylmethylsulfonyl fluoride: phosphatase inhibitor = 100:1:1) (Solarbio), and protein consistency was assayed with a BCA Protein Assay Kit (Beyotime, Beijing, China). Western Blot was carried out as the method described previously <ref type="bibr" target="#b46">(Zhuang et al., 2019)</ref>, equal amounts of total cellular proteins were separated by sodium dodecyl sulfate-polyacrylamide gel Table <ref type="table">1</ref>. Sequence of target genes primer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene names</head><p>GenBank accession no. Sequence of primer (5 0 -3 0 )</p><formula xml:id="formula_0">AMPKa1 NM_001039603.1 F:CAACTACCTGGCTTCCGAGA R:CGAAGTCATCCCGATTATAGCTC PPARa NM_001001464 F:ACGGAGTTCCAATCGC R:AACCCTTACAACCTTCACAA CPT1 AY675193 F:GGAGAACCCAAGTGAAAGTAATGAA R:TGGAAACGACATAAAGGCAGAA SREBF1 NM_204126.2 F:CATTGGGTCACCGCTTCTTCGTG R:CGTTGAGCAGCTGAAGGTACTCC ACC NM_205505.1 F:TGGACTGGAAAACGTCTCGG R:CACAGGTACGCCTTTACCGT FASN NM_205155 F:AAAGCAATTCGTCACGGACA R:GGCACCATCAGGACTAAGCA SCD1 NM_204890.1 F:TAACAGCTGGATCTCACCGC R:CGGAGAACTTGTGGTGGACA LXRa NM_204542.2 F:CAACTACCTGGCTTCCGAGA R:CGAAGTCATCCCGATTATAGCTC HMGR NM_204485.2 F:CTGGGTTTGGTTCTTGTTCA R:ATTCGGTCTCTGCTTGTTCA b-Actin NM_205518.1 F:CTGACCCTGAAGTACCCCAT R:TGTCATCTTCTCTCTGTTGGCTT</formula><p>electrophoresis (SDS-PAGE) and analyzed by using primary antibodies as indicated, such as anti-AMP-activated protein kinase a1 (AMPKa1) (Bioss, Beijing, China), anti-p-AMPKa1 (Bioss), anti-PPARa (Proteintech, Wuhan, China), anti-carnitine palmitoyl-transferase 1A (CPT1A) (Bioss), anti-FASN (Proteintech), anti-SREBF1 (Proteintech). As a reference, glyceraldehyde-3-phosphate dehydrogenase (GAPDH) (Servicebio) was applied. Corresponding secondary antibodies were also used, such as HRP-conjugated Affinipure Goat Anti-Mouse IgG (H+L) (Proteintech) and HRPconjugated Affinipure Goat Anti-Rabbit IgG (H+L) (Proteintech). Detection was performed using an ECL chemiluminescent substrate (Abbkine, Wuhan, China). The strips were imaged on a Gel Imaging System (Bio-Rad) and ImageJ software was used to quantify the relative optical density of the bands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analyses</head><p>Statistical comparisons among groups were made by 1-way ANOVA with SPSS 25.0 and presented as mean § standard deviation (mean § SD). At last, data graphs were generated by GraphPad Prism 9 software. Differences were considered significant at P &lt; 0.05 and indicated as follows: ns P &gt; 0.05; compared with the Con group, * P &lt; 0.05, ** P &lt; 0.01; compared with the FFA group, # P &lt; 0.05, ## P &lt; 0.01.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dysfunction of Lipid Metabolism Brought on by FFA Stimulation in Hepatocytes Can be Mitigated by NaB</head><p>Hepatocyte cell viability was not dramatically altered following treatment with 0.5 to 1 mmol/L NaB (P &gt; 0.05), whereas it significantly decreased hepatocyte activity at the concentration of 1.5 to 2 mmol/L (P &lt; 0.01; Figure <ref type="figure" target="#fig_0">1A</ref>). Treatment of hepatocytes with low, medium, and high concentrations of NaB, respectively, greatly reduced the large number of lipid droplets produced by FFA stimulation (P &lt; 0.01; Figures <ref type="figure" target="#fig_0">1B</ref> and<ref type="figure" target="#fig_0">1C</ref>). Meanwhile, FFA stimulation markedly enhanced the TG, T-CHO, HDL-C, and LDL-C contents among hepatocytes by comparison with the Control group (Con) (P &lt; 0.01), and 0.25 to 1 mmol/L NaB treatment significantly inhibited the increasing of TG and LDL-C contents caused by FFA stimulation among hepatocytes (P &lt; 0.01; Figure <ref type="figure" target="#fig_0">1D</ref>). These discoveries demonstrated that NaB suppresses the excessive fat buildup among hepatocytes brought on by FFA activation.</p><p>Sodium Butyrate (NaB) Alters Elements involved in Lipid Metabolism and AMPK/PPARa Correlated Factors Manifestation within Hepatocytes Activated by FFA. Free fatty acids substantially enhanced the quantities of SREBF1, ACC1, LXRa and HMGR mRNA (P &lt; 0.01; Fig- <ref type="table">ures 2A, 2B, 2E,</ref> and<ref type="table">2F</ref>), inhibited the quantities of AMPKa1 mRNA (P &lt; 0.01; Figure <ref type="figure" target="#fig_1">2G</ref>) and PPARa and CPT1 mRNA (P &lt; 0.01; Figures <ref type="figure" target="#fig_1">2H</ref> and<ref type="figure" target="#fig_1">2I</ref>) with respect to Con group. However, different concentrations of NaB all blocked the FFA-stimulated hepatocyte-induced increase in adipogenesis-related factors to varying degrees, and the effect was particularly significant in the mRNA expression of ACC1, FASN, and LXRa (P &lt; 0.01; Figure <ref type="figure" target="#fig_1">2A</ref>). Sodium butyrate addition increased the expression of AMPKa1 mRNA at least 1.8 folds in FFA-treated hepatocytes (P &lt; 0.01; Figure <ref type="figure" target="#fig_1">2B</ref>). In addition, the results showed that FFA activation of hepatocytes led to a decrease in the concentrations of p-AMPKa1, PPARa, and CPT1A proteins (P &lt; 0.01; Figures <ref type="figure" target="#fig_2">3A-3D</ref>) and an increase in the concentrations of SREBF1 and FASN proteins (P &lt; 0.01; Figures <ref type="figure" target="#fig_2">3A, 3E,</ref> and<ref type="figure" target="#fig_2">3F</ref>). Treatment with medium concentration of NaB resulted in significantly higher levels of p-AMPKa1, PPARa, and CPT1A proteins in FFA-treated hepatocytes (P &lt; 0.01; Figures <ref type="figure" target="#fig_2">3A-3D</ref>). But all 3 concentrations of NaB treatment resulted in a significant decrease in SREBF1 and FASN protein contents in FFA-treated hepatocytes (P &lt; 0.01; Figures <ref type="figure" target="#fig_2">3A, 3E,</ref> and<ref type="figure" target="#fig_2">3F</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sodium Butyrate Ameliorates FFA-Induced Lipid Metabolism Disorders by AMPK Signaling</head><p>As a critical regulator of maintaining cellular homeostasis and energy, the buildup of intracellular lipid droplets can be reduced by AMPK. Thus, hepatocytes were treated with the NaB, FFA, and AMPK inhibitor Comp C to examine the role of AMPK in alleviating lipid metabolism problems by NaB treatment. Oil red staining analysis showed that NaB treatment resulted in a significant reduction in the number of lipid droplets in FFA-stimulated hepatocytes (P &lt; 0.01), whereas the addition of the AMPK inhibitor Comp C twice increased the number of lipid droplets when compared with that in the FFA + NaB group (P &lt; 0.01; Figures <ref type="figure" target="#fig_3">4A</ref> and<ref type="figure" target="#fig_3">4B</ref>); the similar results were seen in the TG content assay (P &lt; 0.01; Figure <ref type="figure" target="#fig_3">4C</ref>). Compound C (Comp C) further effectively downregulated p-AMPKa1 protein expression in FFA-stimulated hepatocytes (P &lt; 0.01), but it did not lead to a decrease in p-AMPKa1 protein expression and an increase in SREBF1 protein expression in hepatocytes co-treated with NaB and FFA (P &lt; 0.01; Figures <ref type="figure" target="#fig_4">5A, 5B,</ref> and<ref type="figure" target="#fig_4">5E</ref>). However, the levels of PPARa and CPT1A proteins were significantly increased in hepatocytes induced by NaB with FFA (P &lt; 0.01), whereas they were significantly decreased under Comp C treatment (P &lt; 0.01; Figures <ref type="figure" target="#fig_4">5A, 5C,</ref> and<ref type="figure" target="#fig_4">5D</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sodium Butyrate Ameliorates FFA-Induced Lipid Metabolism-Related Problems by Activation of AMPK/PPARa Signaling</head><p>To explore the role of PPARa in mitigating lipid metabolism disorders in NaB therapy, the hepatocytes were stimulated with NaB, FFA, and PPARa inhibitor GW6471. When contrasted to the Con group, FFA stimulation raised lipid droplet quantities (P &lt; 0.01); NaB exposure effectively inhibited the FFA-induced increase in the number of lipid droplets in hepatocytes (P &lt; 0.01), whereas the addition of GW6471 in turn increased the number of lipid droplets under both NaB and FFA treatments (P &lt; 0.01; Figures <ref type="figure" target="#fig_5">6A</ref> and<ref type="figure" target="#fig_5">6B</ref>). Similar outcomes were also observed when TG content was determined (P &lt; 0.01; Figure <ref type="figure" target="#fig_5">6C</ref>).</p><p>Sodium butyrate treatment increased the expression of PPARa and CPT1A proteins in FFA-stimulated hepatocytes (P &lt; 0.01), whereas the expression of PPARa and CPT1A proteins decreased dramatically in hepatocytes after the addition of FFA, NaB, and GW6471 (P &lt; 0.01; Figures <ref type="figure" target="#fig_6">7A, 7C,</ref> and<ref type="figure" target="#fig_6">7D</ref>). Under treatment with GW6471, NaB treatment still led to an upregulation of p-AMPKa1 protein expression among FFA-induced hepatocytes (P &lt; 0.01; Figures <ref type="figure" target="#fig_6">7A</ref> and<ref type="figure" target="#fig_6">7B</ref>). Consistent with prediction, GW6471 inhibited the down-regulation of SREBF1 protein expression under NaB and FFA treatment (P &lt; 0.01; Figures <ref type="figure" target="#fig_6">7A</ref> and<ref type="figure" target="#fig_6">7E</ref>). Combining the previous results, NaB might ameliorate chicken hepatocyte steatosis through the AMPK/ PPARa signaling pathway. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Fatty liver hemorrhagic syndrome is a common metabolic disorder characterized by hepatic fat accumulation and cellular steatosis, which can lead to sudden death and a dramatic decline in egg production among adult laying hens <ref type="bibr" target="#b46">(Zhuang et al., 2019)</ref>. Butyrate, a SCFA formed by microbial fermentation, has been shown to positively affect energy metabolism in skeletal muscle, brown adipose tissue, and pancreatic b-cells <ref type="bibr" target="#b16">(Ji et al., 2019)</ref>. Previous reports have suggested that dysbiosis of the gut microbiota and reduced production of SCFA, especially butyric acid, may be associated with FLHS incidence <ref type="bibr" target="#b41">(Yang et al., 2023)</ref>. Nevertheless, it remains to be seen whether butyric acid can regulate lipid metabolism in chicken liver and alleviate hepatocellular steatosis, thus serve as a means of preventing or treating FLHS in the future. The current work demonstrated that NaB has a practical protective effect against FFA-induced hepatic steatosis in primary chicken hepatocytes and identified its mechanism of action in hepatocytes, which is expected to serve as a new approach to alleviate hepatic lipid deposition and prevent FLHS.</p><p>Normal hepatic lipid metabolism is particularly important in peak laying hens. While disorders of hepatic lipid metabolism are characterized by elevated TG levels, increased lipoproteins and cellular steatosis. A multitude of investigators have effectively developed in vitro research models to induce hepatic steatosis by applying an excess of FFA <ref type="bibr" target="#b30">(Ricchi et al., 2009;</ref><ref type="bibr" target="#b21">Lin et al., 2020)</ref>. Our recent study showed that the administration of a blend of FFA, composed of OA and PA in a ratio of 2:1, 1 mmol/L as a concentration, significantly induced steatosis in primary chicken hepatocytes after a 24-h treatment characterized by increased levels of TG, T-CHO, HDL-C, and LDL-C, which consistency with previously studies. A study showed that NaB could alleviate hepatic steatosis, improve lipid profile, and enhance liver function primarily by activating the LKB1-AMPK-INSIG signaling pathway <ref type="bibr" target="#b44">(Zhao et al., 2021)</ref>. In the current investigation, after FFA induction, the treatment with 0.25 to 1 mmol/L of NaB dramatically boosted cell viability and lowered the increase in TG content.</p><p>The dynamic balance between lipogenesis and lipolysis is controlled by fundamental lipid metabolism variables <ref type="bibr" target="#b31">(Saponaro et al., 2015)</ref>. During the liposynthesis phase, the transcription factor SREBF1 controls the expression of genes related to FA and cholesterol synthesis in the cell <ref type="bibr" target="#b8">(Ferr e and Foufelle, 2010;</ref><ref type="bibr" target="#b31">Saponaro et al., 2015)</ref>. Previous studies have shown that SREBP-1(-/-) (SREBF1) mice have reduced mRNA expression levels of both FA and TG synthesis-related enzymes, such as ACC and FASN <ref type="bibr" target="#b19">(Liang et al., 2002;</ref><ref type="bibr" target="#b34">Stoeckman and Towle, 2002)</ref>.Recent studies have indicated an elevation in the levels of liver fat synthesis factors (such as ACC, FASN, mRNA and proteins expression) in vitro and in vivo models of fatty liver <ref type="bibr" target="#b38">(Wang et al., 2017)</ref>. Concurrently, in our current study, FFA stimulation showed significant increases in SREBF1 and FASN mRNA and proteins expression levels, whereas the addition of NaB resulted in a decrease in the expression levels of the 2 fat synthesis-related genes and proteins, suggesting that NaB inhibits the FFA-induced increase in fat synthesis. Additionally, we have observed that NaB can promote the expression of FA oxidation genes like PPARa and limit the expression of FA synthesis rate-limiting enzyme genes like ACC. Previous research has revealed that inhibiting ACC activity can decrease intracellular levels of malonyl-CoA, thereby activating FA b-oxidation, including increased PPARa and CPT1 expression <ref type="bibr" target="#b17">(Kim et al., 2017)</ref>. Therefore, our data demonstrate that NaB alleviates FFA-induced lipid metabolism disorders     in hepatocytes by inhibiting lipogenesis and promoting lipolysis.</p><p>It has been demonstrated that the AMPK and PPARa signaling pathways can modulate the expression and activity of critical enzymes involved in lipid metabolism, such as ACC, FASN, and CPT1 <ref type="bibr">(Wang et al., 2020)</ref>. Our experimental results indicate that NaB can enhance the regulation of AMPK and PPARa, essential factors in FA synthesis and oxidation. As a vital cellular energy sensor, AMPK is necessary for controlling the body's inflammatory reactions, oxidative stress, glucose metabolism, and lipid metabolism. Targeting AMPK has been constituted as a potential therapeutic strategy for treating and preventing non-alcoholic fatty liver disease in mammals. By regulating the expression of genes involved in lipogenesis, triglyceride production, reverse cholesterol transport, lipolysis, and FA oxidation, PPAR also plays a variety of roles in lipid metabolism. Activation of PPARa can be an essential pharmacological approach to alleviate fatty liver and type 2 diabetes <ref type="bibr" target="#b27">(Okada-Iwabu et al., 2013;</ref><ref type="bibr" target="#b28">Pawlak et al., 2015)</ref>. Conversely, inhibition of PPARa exacerbates hepatic lipid synthesis <ref type="bibr" target="#b43">(Zhang et al., 2021)</ref>. In the present study, our data suggested that inhibiting AMPK and PPARa can prevent the beneficial effect of NaB on FFA-induced lipid deposition in liver cells. Accumulating evidence has demonstrated that NaB could alleviate hepatic lipid disorders, intestinal inflammation, and other pathologic features by regulating the AMPK and PPARa signaling pathways <ref type="bibr" target="#b13">(Hong et al., 2016;</ref><ref type="bibr" target="#b36">Sun et al., 2018)</ref>. However, the relationship between AMPK and PPARa is complex, particularly in poultry, and has not been extensively studied. Previous studies have shown that AMPK is required to activate PPARa in mice <ref type="bibr" target="#b23">(Luo et al., 2022)</ref>. Additionally, studies have found that activated PPARa can enhance AMPK expression <ref type="bibr" target="#b0">(Bordoloi et al., 2019)</ref>. In the present study, inhibiting AMPK activation with Comp C effectively counteracts the impact of NaB on PPARa protein expression. Interestingly, inhibiting PPARa with GW6471 does not disrupt the activation of the AMPK signaling pathway mediated by NaB. These findings suggest that NaB modulates hepatic lipid metabolism by regulating the interplay between the AMPK and PPARa signaling pathways.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>In summary, NaB promotes fatty acid oxidation and inhibits lipid synthesis in the FFA-induced chicken hepatocellular adipose degeneration model targeting the AMPK/PPARa pathway. Attempts to generate novel therapies for metabolic diseases like FLHS via AMPK/ PPARa activation by NaB may be worthy of pursuit.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Sodium butyrate (NaB) concentration exploration, pathological section and biochemical indicators of chicken hepatocellular adipose degeneration model. Low, medium, and high NaB concentrations represent 0.25, 0.5, and 1 mmol/L concentrations of NaB, respectively. (A) Effect of NaB on the viability of primary chicken embryo hepatocytes. (B) Hepatocyte oil red O stain (400£). (C) Hepatocyte lipid droplet area ratio. (D) The TG, T-CHO, HDL-C, and LDL-C levels of liver cells homogenate. Data are displayed as the mean and standard (mean § SD) deviation of at least 3 separate studies. "*" denotes a change that is significantly different from the Con group (*P &lt; 0.05 and **P &lt; 0.01). "#" denotes a change that is significantly different from the FFA group (#P &lt; 0.05 and ##P &lt; 0.01). It is the same below.</figDesc><graphic coords="5,69.90,45.81,456.00,486.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Effect of NaB on relative genes in FFA induced chicken hepatocellular adipose degeneration model. Transcript levels of mRNA of lipid synthesis-related genes SREBF1 (A), ACC1 (B), FASN (C), SCD1 (D), LXRa (E), and HMGR (F) mRNAs were detected by RT-qPCR in hepatocytes of each group. The mRNA transcript levels of AMPKa1 (G), a key factor gene for energy regulation, PPARa (H), a key factor gene for lipolysis, and CPT1 (I), a rate-limiting enzyme gene for fatty acid oxidation, were detected by RT-qPCR in hepatocytes of each group. RT-qPCR, realtime quantitative polymerase chain reaction.</figDesc><graphic coords="6,69.90,45.81,456.00,406.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Effect of NaB on lipid metabolism relative proteins in FFA induced chicken hepatocellular adipose degeneration model. (A) Hepatocyte-expressed p-AMPKa1, AMPKa1, PPARa, CPT1A, SREBF1, and FASN protein bands under different NaB concentrations with FFA treatment were demonstrated. Protein expression levels of p-AMPKa1 (B), PPARa (C), CPT1A (D), SREBF1 (E), and FASN (F) in hepatocytes of each group was obtained from the analysis of gray values of the bands. (G) Heatmap of p-AMPKa1, PPARa, CPT1A, SREBF1 and FASN protein expression in hepatocytes under different treatments was shown.</figDesc><graphic coords="7,69.90,45.81,456.00,437.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Effect of AMPK inhibition on lipid metabolism in chicken hepatocellular adipose degeneration model induced by FFA and NaB. (A) Hepatocyte oil red O stain (400£). (B) Hepatocyte lipid droplet area ratio. (C) TG concentrations in primary hepatocytes of chicken embryos.</figDesc><graphic coords="8,69.90,45.81,456.00,289.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Effect of AMPK inhibition on proteins related to lipid metabolism in chicken hepatocellular adipose degeneration model induced by FFA and NaB. (A) Hepatocyte-expressed p-AMPKa1, AMPKa1, PPARa, CPT1A, and SREBF1 protein bands under FFA, NaB, and AMPK inhibitor Comp C treatments were demonstrated. Protein expression levels of p-AMPKa1 (B), PPARa (C), CPT1A (D), and SREBF1 (E) in hepatocytes of each group was obtained from the analysis of gray values of the bands.</figDesc><graphic coords="8,69.90,402.80,456.00,312.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Effect of PPARa inhibition on lipid metabolism in chicken hepatocellular adipose degeneration model induced by FFA and NaB. (A) Hepatocyte oil red O stain (400£). (B) Hepatocyte lipid droplet area ratio. (C) TG concentrations in primary hepatocytes of chicken embryos.</figDesc><graphic coords="9,69.90,45.81,456.00,286.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Effects of PPARa inhibition on proteins related to lipid metabolism in chicken hepatocellular adipose degeneration model induced by FFA and NaB. (A) Hepatocyte-expressed p-AMPKa1, AMPKa1, PPARa, CPT1A and SREBF1 protein bands under FFA, NaB, and PPARa inhibitor GW6471 treatments were demonstrated. Protein expression levels of p-AMPKa1 (B), PPARa (C), CPT1A (D), and SREBF1 (E) in hepatocytes of each group was obtained from the analysis of gray values of the bands.</figDesc><graphic coords="9,69.90,388.57,456.00,327.15" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This project was supported by the <rs type="funder">National Natural Science Foundation of China</rs> (no. <rs type="grantNumber">32060819</rs>; Beijing, <rs type="person">P. R. China</rs> and no. <rs type="grantNumber">32373090</rs>; Beijing, P. R. China), <rs type="person">Jiangxi Province</rs> introduces and trains high-level talents of innovation and entrepreneurship '<rs type="funder">Thousand Talents Plan</rs>' (no. <rs type="grantNumber">jxsq2023201060</rs>, <rs type="funder">Jiangxi, China)</rs>, <rs type="funder">Natural Science Foundation of Jiangxi Province</rs> (<rs type="grantNumber">20224BAB215053</rs>, <rs type="funder">Jiangxi, China)</rs> and <rs type="funder">Graduate Innovative Special Fund Projects of Jiangxi Province</rs> (<rs type="grantNumber">YC2022-s387</rs>, <rs type="funder">Jiangxi, China)</rs>. All authors thank all members of clinical veterinary medicine laboratory in the <rs type="affiliation">College of Animal Science and Technology, Jiangxi Agricultural University</rs>, for help in the experimental process.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_TY23CUP">
+					<idno type="grant-number">32060819</idno>
+				</org>
+				<org type="funding" xml:id="_VTrwkSt">
+					<idno type="grant-number">32373090</idno>
+				</org>
+				<org type="funding" xml:id="_acz2z6A">
+					<idno type="grant-number">jxsq2023201060</idno>
+				</org>
+				<org type="funding" xml:id="_mdWwnVA">
+					<idno type="grant-number">20224BAB215053</idno>
+				</org>
+				<org type="funding" xml:id="_bFqUxJz">
+					<idno type="grant-number">YC2022-s387</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCLOSURES</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY MATERIALS</head><p>Supplementary material associated with this article can be found in the online version at doi:10.1016/j. psj.2024.103482.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Gamma-glutamyl carboxylated Gas6 mediates the beneficial effect of vitamin K on lowering hyperlipidemia via regulating the AMPK/SREBP1/PPARa signaling cascade of lipid metabolism</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bordoloi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ozah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kalita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Manna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nutr. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="174" to="184" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fatty acids activate transcription of the muscle carnitine palmitoyltransferase I gene in cardiac myocytes via the peroxisome proliferator-activated receptor alpha</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Djouadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="23786" to="23792" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The role of short chain fatty acids in appetite regulation and energy homeostasis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Frost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Obes. (Lond.)</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1331" to="1338" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The microbial metabolite butyrate regulates intestinal macrophage function via histone deacetylase inhibition</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Offermanns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medzhitov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="2247" to="2252" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Clostridium butyricum, a butyrate-producing probiotic, inhibits intestinal tumor development through modulating Wnt signaling and gut microbiota</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Lett</title>
+		<imprint>
+			<biblScope unit="volume">469</biblScope>
+			<biblScope unit="page" from="456" to="467" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Molecular mechanism for the regulation of human ACC2 through phosphorylation by AMPK</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Cho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="187" to="192" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The microbiome and butyrate regulate energy metabolism and autophagy in the mammalian colon</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Donohoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Garge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>O'connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Bunger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bultman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Metab</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="517" to="526" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Gut dysbiosis in nonalcoholic fatty liver disease: pathogenesis, diagnosis, and therapeutic implications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell. Infect. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">997018</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Hepatic steatosis: a role for de novo lipogenesis and the transcription factor SREBP-1c</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ferr E</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Foufelle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Obes. Metab</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">Suppl 2</biblScope>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of fatty liver hemorrhagic syndrome on the AMP-activated protein kinase signaling pathway in laying hens</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Poult. Sci</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="2201" to="2210" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Serum metabolomic profiling to reveal potential biomarkers for the diagnosis of fatty liver hemorrhagic syndrome in laying hens</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">590638</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Defect in peroxisome proliferator-activated receptor alpha-inducible fatty acid oxidation determines the severity of hepatic steatosis in response to fasting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Yeldandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="28918" to="28928" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mode of action of peroxisome proliferators as hypolipidemic drugs. Suppression of apolipoprotein C-III</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hertz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bishara-Shieban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bar-Tana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="13470" to="13475" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Butyrate alleviates high fat diet-induced obesity through activation of adiponectin-mediated pathway and stimulation of mitochondrial function in the skeletal muscle of mice</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncotarget</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="56071" to="56082" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">The investigation on relationship between AMPK signal pathway in lipid metabolism in primary hepatocytes from laying hens</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<pubPlace>Jiangxi, China</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>M.S. Diss. Jiangxi Agricultural University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Inhibition of hepatic AMPK pathway contributes to free fatty acids-induced fatty liver disease in laying hen</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolites</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">825</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Butyrate stimulates hepatic gluconeogenesis in mouse primary hepatocytes</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Ther. Med</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1677" to="1687" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Acetyl CoA carboxylase inhibition reduces hepatic steatosis but elevates plasma triglycerides in mice and humans: a bedside to bench investigation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Addy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kusunoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Burgess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruddy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Metab</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="394" to="406" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>e396</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Short-chain fatty acids and ketones directly regulate sympathetic nervous system via G protein-coupled receptor 41 (GPR41)</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ichimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Miyauchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hirasawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsujimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="8030" to="8035" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Diminished hepatic response to fasting/refeeding and liver X receptor agonists in mice with selective deficiency of sterol regulatory element-binding protein-1c</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Horton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="9520" to="9528" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Butyrate and propionate protect against dietinduced obesity and regulate gut hormones via free fatty acid receptor 3-independent mechanisms</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frassetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Kowalik</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Nawrocki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Kosinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Szeto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Forrest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Marsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">35240</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Hepatocyte highmobility group box 1 protects against steatosis and cellular stress during high fat diet feeding</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Loughran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>O'doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Billiar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">115</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Protective effects of Abrus cantoniensis Hance on the fatty liver hemorrhagic syndrome in laying hens based on liver metabolomics and gut microbiota</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Vet. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">862006</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Chronic intermittent hypoxia exposure alternative to exercise alleviates high-fat-diet-induced obesity and fatty liver</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">5209</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Butyrate and dietary soluble fiber improve neuroinflammation associated with aging in mice</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Matt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Mailing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1832</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Untargeted and targeted metabolomics profiling reveals the underlying pathogenesis and abnormal arachidonic acid metabolism in laying hens with fatty liver hemorrhagic syndrome</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Poult. Sci</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">101320</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Identification by amino acid sequencing of three major regulatory phosphorylation sites on rat acetyl-CoA carboxylase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Munday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Carling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Hardie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="331" to="338" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The human gut microbiota and glucose metabolism: a scoping review of key bacteria and the potential role of SCFAs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okada-Iwabu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamauchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iwabu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Honma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hamagami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kimura-Someya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Clin. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">503</biblScope>
+			<biblScope unit="page" from="862" to="874" />
+			<date type="published" when="2013">2013. 2022</date>
+		</imprint>
+	</monogr>
+	<note>Nature</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Molecular mechanism of PPARa action and its impact on lipid metabolism, inflammation and fibrosis in non-alcoholic fatty liver disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pawlak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lefebvre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Staels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="720" to="733" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Falony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Okuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lechatelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Renault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Batto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kristiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page" from="55" to="60" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>A metagenomewide association study of gut microbiota in type 2 diabetes</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Differential effect of oleic and palmitic acid on lipid accumulation and apoptosis in cultured hepatocytes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ricchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Odoardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Carulli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Anzivino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ballestri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pinetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Fantoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bertolotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kristiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gastroenterol. Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="830" to="840" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The subtle balance between lipolysis and lipogenesis: a critical point in metabolic homeostasis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Saponaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gaggini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gastaldelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="9453" to="9474" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">PPARalpha and PPARgamma activators direct a distinct tissue-specific transcriptional response via a PPRE in the lipoprotein lipase gene</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schoonjans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peinado-Onsurbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lefebvre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Heyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deeb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Staels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Auwerx</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="5336" to="5348" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The kinase LKB1 mediates glucose homeostasis in liver and therapeutic effects of metformin</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Lamia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vasquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Koo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bardeesy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Depinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Montminy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Cantley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="1642" to="1646" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The role of SREBP-1c in nutritional regulation of lipogenic enzyme gene expression</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Stoeckman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Towle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="27029" to="27035" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Effect of butyrate on alleviating high-fat diet-induced NAFLD and its mechanisms in rats</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sun</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Nanjing, China</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>PhD Diss. Nanjing Agricultural University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Sodium butyrate ameliorates high-fat-diet-induced non-alcoholic fatty liver disease through peroxisome proliferatoractivated receptor a-mediated activation of b oxidation and suppression of inflammation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Agric. Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="7633" to="7642" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Suppression of miR-30a-3p attenuates hepatic steatosis in non-alcoholic fatty liver disease</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Genet</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="691" to="704" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Inhibition of NAMPT aggravates high fat diet-induced hepatic steatosis in mice through regulating Sirt1/AMPKa/SREBP1 signaling pathway</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Xin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lipids Health Dis</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">82</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Abnormal expression of liver autophagy and apoptosis-related mRNA in fatty liver haemorrhagic syndrome and improvement function of resveratrol in laying hens</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Avian Pathol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="171" to="178" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Peroxisome proliferator-activated receptor alpha (PPARalpha) influences substrate utilization for hepatic glucose production</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Trujillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bassilian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Saad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tontonoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Kurland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="50237" to="50244" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Ginkgo biloba extract alleviates fatty liver hemorrhagic syndrome in laying hens via reshaping gut microbiota</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Sci. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">97</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Accelerated dysbiosis of gut microbiota during aggravation of DSS-induced colitis by a butyrate-producing bacterium</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Pang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">27572</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Effects of dibutyl phthalate on lipid metabolism in liver and hepatocytes based on PPARa/ SREBP-1c/FAS/GPAT/AMPK signal pathway</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">A</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Chem. Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page">112029</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Sodium butyrate supplementation inhibits hepatic steatosis by stimulating liver kinase B1 and insulin-induced gene</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Z</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Gastroenterol. Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="857" to="871" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Gut microbiota and serum metabolite potential interactions in growing layer hens exposed to high-ambient temperature</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">877975</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Insulin resistance and metabonomics analysis of fatty liver haemorrhagic syndrome in laying hens induced by a highenergy low-protein diet</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">10141</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

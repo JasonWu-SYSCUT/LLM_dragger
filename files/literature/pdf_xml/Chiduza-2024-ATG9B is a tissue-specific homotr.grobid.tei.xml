@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ATG9B is a tissue-specific homotrimeric lipid scramblase that can compensate for ATG9A</title>
+				<funder>
+					<orgName type="full">Cancer Research UK</orgName>
+				</funder>
+				<funder ref="#_bjhBdb4 #_2XJVzCU">
+					<orgName type="full">Wellcome Trust</orgName>
+				</funder>
+				<funder ref="#_NPU7tvB">
+					<orgName type="full">Medical Research Council</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Research Council</orgName>
+				</funder>
+				<funder ref="#_hSrVaCP #_MbumVJj">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">George</forename><forename type="middle">N</forename><surname>Chiduza</surname></persName>
+							<idno type="ORCID">0000-0003-1037-5749</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Molecular Cell Biology of Autophagy</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Acely</forename><surname>Garza-Garcia</surname></persName>
+							<idno type="ORCID">0000-0003-0307-0138</idno>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Mycobacterial Metabolism and Antibiotic Research Laboratory</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eugenia</forename><surname>Almacellas</surname></persName>
+							<idno type="ORCID">0000-0002-7726-8430</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Molecular Cell Biology of Autophagy</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stefano</forename><surname>De Tito</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Molecular Cell Biology of Autophagy</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Valerie</forename><forename type="middle">E</forename><surname>Pye</surname></persName>
+							<idno type="ORCID">0000-0001-9616-2992</idno>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Chromatin Structure and Mobile DNA Laboratory</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexander</forename><forename type="middle">R</forename><surname>Van Vliet</surname></persName>
+							<idno type="ORCID">0000-0003-4729-4379</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Molecular Cell Biology of Autophagy</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Cherepanov</surname></persName>
+							<idno type="ORCID">0000-0002-0634-538X</idno>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Chromatin Structure and Mobile DNA Laboratory</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Infectious Disease</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Sharon</forename><forename type="middle">A</forename><surname>Tooze</surname></persName>
+							<email>sharon.tooze@crick.ac.uk</email>
+							<idno type="ORCID">0000-0002-2182-3116</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Molecular Cell Biology of Autophagy</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Molecular Cell Biology of Autophagy</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<postCode>NW1 1AT</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="laboratory">Anole_lizard_A ENSACAP00000012906 Anole lizard Anolis carolinensis Anole_lizard_B XP_008121259</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="laboratory">Anole lizard Anolis carolinensis Central_bearded_dragon_B</orgName>
+								<address>
+									<addrLine>XP_020655810.1 Central bearded dragon Pogona vitticeps Corn_snake_XP_034279395.1 XP_034279395</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="laboratory">Corn snake Pantherophis guttatus Chicken_B ENSGALP00010040139 Chicken Gallus gallus Japanese_quail-ENSCJPP00005007903 ENSCJPP00005007903 Japanese quail Coturnix japonica Zebra_finch-ENSTGUP00000022016 ENSTGUP00000022016 Zebra finch Taeniopygia guttata Carp-B-ENSCCRP00000029789 ENSCCRP00000029789 Common carp Cyprinus carpio carpio Zebrafish-ENSDARP00000120741</orgName>
+								<address>
+									<addrLine>ENSDARP00000120741 Zebrafish Danio rerio Cod-ENSGMOP00000051691 ENSGMOP00000051691 Atlantic cod Gadus morhua Eel-ENSMAMP00000023840 ENSMAMP00000023840 Zig-zag Eel Mastacembelus armatus Fugu-ENSTRUP00000005297 ENSTRUP00000005297 Fugu Takifugu rubripes Seabass-ENSDLAP00005062378 ENSDLAP00005062378 European seabass Dicentrarchus labrax Seahorse-XP_019734422.1 XP_019734422.1 Tiger tail seahorse Hippocampus comes Coqui_frog-KAG9468555.1 KAG9468555.1 Coqui frog Eleutherodactylus coqui Rana_temporaria-B XP_040211350.1 Rana temporaria Rana temporaria Xtropicalis_A ENSXETP00000026208 Tropical clawed frog Xenopus tropicalis Geotrypetes_seraphini-XP_033787984.1 XP_033787984.1 Gaboon caecilian Geotrypetes seraphini Microcaecilia_unicolor-XP_030051462.1 XP_030051462.1 Microcaecilia unicolor Microcaecilia unicolor Armadillo_B XP_004458326.1 Nine-banded armadillo Dasypus novemcinctus Sloth_B XP_037693322</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="laboratory">Sloth Choloepus didactylus Human_B ATG9B_HUMAN Human Homo sapiens Blue_whale_B ENSBMSP00010019199 Blue whale Balaenoptera musculus Echidna_B XP_038611400.1 Echidna Tachyglossus aculeatus Platypus_O XP_028933935.1 Platypus Ornithorhynchus anatinus Koala_B ENSPCIP00000007259 Koala Phascolarctos cinereus Wombat_B ENSVURP00010009890 Common wombat Vombatus ursinus Tasmanian_devil_B ENSSHAP00000033349 Tasmanian devil Sarcophilus harrisii Opossum_B ENSMODP00000004795 Opossum Monodelphis domestica Hagfish ENSEBUP00000002125 Hagfish Eptatretus burgeri Lamprey ENSPMAP00000004602 Sea lamprey Petromyzon marinus Carp-ENSCCRP00000001116 ENSCCRP00000001116 Common carp Cyprinus carpio carpio Carp-ENSCCRP00000001205 ENSCCRP00000001205 Common carp Cyprinus carpio carpio Zebrafish ENSDARP00000065410 ENSDARP00000065410 Zebrafish Danio rerio Cod-ENSGMOP00000011632 ENSGMOP00000011632 Atlantic cod Gadus morhua Eel-ENSMAMP00000006061 ENSMAMP00000006061 Zig-zag Eel Mastacembelus armatus Seabass-ENSDLAP00005015764 ENSDLAP00005015764 European seabass Dicentrarchus labrax Fugu-ENSTRUP00000038550 ENSTRUP00000038550 Fugu Takifugu rubripes Seahorse-ENSHCOG00000020389 ENSHCOP00000028046 Tiger tail seahorse Hippocampus comes Coqui_frog</orgName>
+								<address>
+									<addrLine>KAG9469560.1 KAG9469560.1 Coqui frog Eleutherodactylus coqui Rana_temporaria-A XP_040214104.1 Rana temporaria Rana temporaria Dwarf_clawed_frog-KAG8432226.1 KAG8432226</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="laboratory">Dwarf clawed frog Hymenochirus boettgeri Xtropicalis_B ENSXETP00000098693 Tropical clawed frog Xenopus tropicalis Geotrypetes_seraphini_A</orgName>
+								<address>
+									<addrLine>XP_033800758.1 Geotrypetes seraphini Geotrypetes seraphini Microcaecilia_unicolor_A XP_030065876.1 Microcaecilia unicolor Microcaecilia unicolor Armadillo_A XP_012384164</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="laboratory">Nine-banded armadillo Dasypus novemcinctus Human_A ATG9A_HUMAN Human Homo sapiens Sloth_A XP_037705646</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="laboratory">Sloth Choloepus didactylus Blue_whale_A ENSBMSP00010001100 Blue whale Balaenoptera musculus Narwal_O ENSMMNP00015006983 Narwhal Monodon monoceros Koala_A ENSPCIP00000013078 Koala Phascolarctos cinereus Wombat_A ENSVURP00010000335 Common wombat Vombatus ursinus Opossum_A ENSMODP00000053644 Opossum Monodelphis domestica Tasmanian_devil_A ENSSHAP00000037169 Tasmanian devil Sarcophilus harrisii Echidna_A</orgName>
+								<address>
+									<addrLine>XP_038599496.1 Echidna Tachyglossus aculeatus Cassowary_A NXE46587.1 Cassowary Casuarius casuarius Ostrich_O KFV81944.1</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<orgName type="department">George N. Chiduza http://orcid</orgName>
+								<address>
+									<postCode>0000-0003-1037-5749, 0000-0003-0307-0138</postCode>
+									<settlement>Acely Garza-Garcia http://orcid</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<orgName type="department">Eugenia Almacellas http://orcid</orgName>
+								<address>
+									<postCode>0000-0002-7726-8430, 0000-0001-9616-2992</postCode>
+									<settlement>Valerie E Pye http://orcid</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="department">Alexander R. van Vliet http://orcid</orgName>
+								<address>
+									<postCode>0000-0003-4729-4379</postCode>
+									<settlement>Peter Cherepanov</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="department">http://orcid</orgName>
+								<address>
+									<postCode>0000-0002-0634-538X</postCode>
+									<settlement>Sharon A. Tooze</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ATG9B is a tissue-specific homotrimeric lipid scramblase that can compensate for ATG9A</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2AFF8F1A7F226F710F00A62930C27C9D</idno>
+					<idno type="DOI">10.1080/15548627.2023.2275905</idno>
+					<note type="submission">Received 29 March 2023 Revised 5 October 2023 Accepted 20 October 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>ATG: autophagy related</term>
+					<term>CHS: cholesteryl hemisuccinate</term>
+					<term>cryo-EM: single-particle cryogenic electron microscopy</term>
+					<term>CTF: contrast transfer function: CTH: C-terminal α helix</term>
+					<term>FSC: fourier shell correlation</term>
+					<term>HDIR: HORMA domain interacting region</term>
+					<term>LMNG: lauryl maltose neopentyl glycol</term>
+					<term>MD: molecular dynamics simulations</term>
+					<term>MSA: multiple sequence alignment</term>
+					<term>NBD-PE: 1,2-dioleoyl-snglycero-3-phosphoethanolamine-N-(7-nitro-2-1,3-benzoxadiazol-4-yl ammonium salt)</term>
+					<term>POPC: palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine</term>
+					<term>RBG: repeating beta groove domain</term>
+					<term>RMSD: root mean square deviation</term>
+					<term>SEC: size-exclusion chromatography</term>
+					<term>TMH: transmembrane helix ATG9A</term>
+					<term>autophagy</term>
+					<term>cryo-EM</term>
+					<term>membrane protein dynamics</term>
+					<term>phagophore</term>
+					<term>scramblase CONTACT Sharon A. Tooze</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Macroautophagy/autophagy is a fundamental aspect of eukaryotic biology, and the autophagy-related protein ATG9A is part of the core machinery facilitating this process. In addition to ATG9A vertebrates encode ATG9B, a poorly characterized paralog expressed in a subset of tissues. Herein, we characterize the structure of human ATG9B revealing the conserved homotrimeric quaternary structure and explore the conformational dynamics of the protein. Consistent with the experimental structure and computational chemistry, we establish that ATG9B is a functional lipid scramblase. We show that ATG9B can compensate for the absence of ATG9A in starvation-induced autophagy displaying similar subcellular trafficking and steady-state localization. Finally, we demonstrate that ATG9B can form a heteromeric complex with ATG2A. By establishing the molecular structure and function of ATG9B, our results inform the exploration of niche roles for autophagy machinery in more complex eukaryotes and reveal insights relevant across species.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>An autophagosome is a double-membrane organelle formed during autophagy to deliver a portion of cytoplasm to the lysosome for degradation. Autophagy is increased in response to cellular stresses such as nutrient starvation. During the process of macroautophagy, here called autophagy, a small phagophore is nucleated at an omegasome on the endoplasmic reticulum (ER) <ref type="bibr" target="#b0">[1]</ref> and grows through the rapid recruitment of proteins and lipids into a mature autophagosome <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. Autophagy is choreographed by a core group of proteins conserved across eukaryotes, the ATG (autophagy related) proteins. Two of them, ATG2A and ATG9A, collaborate to facilitate direct transfer of lipids to the nascent autophagosome <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>.</p><p>ATG2A is a peripheral membrane protein that belongs to a novel class of repeating beta groove domain (RBG) proteins that can bridge separate bilayers allowing lipid flow between their outer leaflets <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b6">7]</ref>. There are currently no high-resolution structures of ATG2A, likely due to its conformational flexibility, however the predicted atomic model for the protein is consistent with the available lowresolution structures and data from structural mass spectrometry <ref type="bibr" target="#b7">[8]</ref>. In this model, the RBG is a hydrophobic grove that can potentially accommodate lipid acyl chains, lowering the entropic cost of transferring lipids across the aqueous cytosol <ref type="bibr" target="#b4">[5]</ref>. ATG9A is a lipid scramblase, that facilitates equilibration of lipids across the leaflets of a lipid bilayer. Sequence and structural homology suggest the novel ATG9 fold is evolutionarily related to type I ATP binding cassette exporters <ref type="bibr" target="#b5">[6]</ref>. ATG9A forms obligate trimers through domain swapping of transmembrane domains, forming a pore at the center of the trimer that is open to the cytosol, and connected to lateral pores/ branches in each of the protomers. The lateral branches are open to the cytosol and the outer leaflet of the membrane, and in the structures of ATG9A they are occupied by detergent or lipid molecules depending on whether the structures were determined in detergent micelles or in lipid nanodiscs, respectively. Using in vitro scramblase assays, and mutagenesis of residues in the lateral branch and central pore, in combination with molecular dynamics simulations (MD) in a lipid bilayer, these pores have been implicated in lipid scrambling, although the precise mechanism remains to be fully elucidated <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b8">9]</ref>.</p><p>An emerging paradigm is the coupling of RBG lipid transfer proteins to lipid scramblases on either membrane to resolve bilayer asymmetry in source and target membranes that would arise from their lipid transfer activity <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. Through its C terminus ATG2A interacts with ATG9A in a heterotetrameric complex providing a mechanism to couple the lipid transfer and scramblase activities which is essential for autophagosome biogenesis. The central pore and lateral branches of ATG9A are also connected to the cytosol through perpendicular branches formed at the protomer interfaces. Integrative modeling of the ATG9A-ATG2A complex suggested that these branches may facilitate direct lipid hand over between ATG9A and ATG2A <ref type="bibr" target="#b7">[8]</ref>. TMEM41B and VMP1 are ER resident lipid scramblases that interact with the N terminus of ATG2A and are thought, in concert with ATG9A to form the core lipid transfer complex at ER-phagophore contacts sites, where presumably local lipid synthesis in the ER thermodynamically drives lipid flow through the complex into the elongating phagophore <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>.</p><p>ATG9A localizes to the trans-Golgi network and endosomal compartments from where, under nutrient starvation, it re-localizes in small vesicles around omegasomes. This dispersal from the trans-Golgi network and endosomal compartment to the sites of autophagy nucleation is essential for autophagosome biogenesis <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref>. The dispersed ATG9A compartment dynamically interacts with and delivers other autophagy effectors to the omegasome <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. It has also been speculated that ATG9A vesicles are the seeding membrane of the nascent phagophore, as shown in yeast and is consistent with the ATG9A-ATG2A-TMEM41B-VMP1 lipid scramblase-lipid transfer protein partnership model described above <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19]</ref>. However, this is controversial since ATG9A could not be detected in the mammalian phagophore <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b19">20]</ref>.</p><p>Although ATG9A is referred to as the only integral membrane protein among the ATG proteins, ATG9B was discovered and reported simultaneously with ATG9A <ref type="bibr" target="#b20">[21]</ref>. ATG9B is described as a vertebrate specific paralog and, in contrast to the ubiquitously expressed ATG9A, is enriched in the placenta and pituitary gland suggesting a specialized role (https://www.proteinatlas.org/) <ref type="bibr" target="#b21">[22]</ref>. ATG9B was shown to play a role in autophagy, has been implicated in tumorigenesis, particularly hepatocellular carcinoma and, has been proposed as a target for autophagy inhibition in gliomas, as well as other pathologies <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>. Its importance notwithstanding, the molecular structure and functions of ATG9B, as well as its cellular localization and trafficking have not been studied to the same extent as ATG9A. Here, we present a structure of human ATG9B from single-particle cryogenic electron microscopy (cryo-EM) and conformational heterogeneity analysis from these data that inform the understanding of the molecular mechanisms not only of ATG9B but ATG9 domain proteins generally. We demonstrate that ATG9B is a functional lipid scramblase and report a preliminary analysis of ATG9B cellular localization and trafficking.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bioinformatic analyses of ATG9B</head><p>To reconstruct the evolution of ATG9B and develop hypotheses for its potential molecular and cellular functions we turned to multiple protein sequence analyses. A maximum-likelihood phylogenetic tree (Figure <ref type="figure" target="#fig_0">1A</ref>) was generated from an alignment of the ATG9 domain (Pfam domain PF04109), residues 185-676 in human ATG9B (Figure <ref type="figure" target="#fig_0">1B</ref>), of 71 ATG9 Chordata homologs (Table <ref type="table" target="#tab_0">1</ref>). ATG9A and ATG9B are paralogous proteins only present in jawed vertebrates (gnathostomes). Basal vertebrates such as hagfish and lampreys have only one ATG9 gene. Interestingly, the longer branch lengths of mammalian ATG9B in the tree compared to those of ATG9A indicates that the ATG9 domain sequences of the mammalian ATG9Bs are changing faster than those of the mammalian ATG9A (Figure <ref type="figure" target="#fig_0">1A</ref>). Shannon entropy (H value) analysis of two separate multiple sequence alignments (MSAs) of the full-length human orthologs of ATG9A and ATG9B was also performed, where a H value less than one is considered conserved and H value greater than two is considered variable <ref type="bibr" target="#b26">[27]</ref>. In this analysis, consistent with the phylogenetic analysis, the ATG9 domains of ATG9A and ATG9B had median H values of 0.24 and 0.90 respectively (Figure <ref type="figure" target="#fig_0">1B,</ref><ref type="figure">C</ref>).</p><p>In both ATG9A and B, the ATG9 domain is flanked by predicted intrinsically disordered regions of different lengths. These regions feature sections that are conserved across paralogs as well as sections that are ortholog or taxon specific. The median H values of these regions outside the ATG9 domains of ATG9A and ATG9B were, 0.68 and 1 in the conserved N terminus region; 0.88 and 1.17 in the C-terminal α-helices region; 1.55 and 1.77 in the rest of the C terminus (Figure <ref type="figure" target="#fig_0">1B,</ref><ref type="figure">C</ref>). These values indicate that the N-and C-terminal regions of each paralog have greater variability than their corresponding ATG9 domain. In mammals, the N terminus of ATG9B is about 143 residues longer than that of ATG9A and contains regions of compositional bias, specifically a proline rich region (residues 22-43 in human ATG9B) and polar residue rich regions (residues 49-119 in human ATG9B) (Figure <ref type="figure" target="#fig_0">1B</ref>). Residues 144-184 of human ATG9B correspond to residues 1-36 of human ATG9A. In ATG9A, this region includes the tyrosine-based sorting motif, YxxΦ (x= any residue; Φ = large hydrophobic residue), which plays a role in the trafficking of ATG9A (8-YQRL-11 in human ATG9A) by mediating interaction with the trafficking adaptor protein complexes, AP1, AP2 and AP4. This motif is conserved in ATG9B (151-YERL-154 in human ATG9B), suggesting that ATG9B may interact with the same adaptor proteins <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref>. In human ATG9A, constitutive phosphorylation by SRC kinase of Tyr8 within this sorting motif promotes the interaction with AP1 and AP2 and can also support starvation induced ULK1 phosphorylation on Ser14 <ref type="bibr" target="#b31">[32]</ref>. This ULK1 phosphorylation site is not conserved in ATG9B. The glycosylation motif in ATG9A (99-NHS-101 in human) is conserved in ATG9B (248-NHT-250 in human) suggesting that ATG9B may be modified by N-linked glycans. After the ATG9 domain, the C terminus of mammalian ATG9B is about 85 residues shorter than that of mammalian ATG9A but the conserved regions include putative α helices as described in the detailed structural analysis of human ATG9B below. However, the HORMA domain interacting region (HDIR) (832-839 in human) that mediates ATG9A-ATG13-ATG101 complex formation is not conserved in ATG9B (Figure <ref type="figure" target="#fig_0">1B</ref>) <ref type="bibr" target="#b33">[33,</ref><ref type="bibr" target="#b34">34]</ref>.</p><p>The homology of the ATG9 domains and conservation of the tyrosine-based motif suggests that ATG9B shares a similar fold and molecular functions as ATG9A, as well as similar trafficking in cells. To test this hypothesis, we determined the molecular structure, tested for scramblase activity, and characterized the intracellular localization of human ATG9B.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Purification and single particle cryo-EM of ATG9B</head><p>Full-length ATG9B, N-terminally tagged with a triple FLAG epitope, was transiently overexpressed in Expi293 cells. The protein was extracted from membranes into detergent micelles and affinity purified using anti-FLAG resin (Figure <ref type="figure" target="#fig_1">2A</ref>). Before cryo-EM grid preparation, the sample was further purified by size-exclusion chromatography (SEC). In SEC, the affinity purified sample produced a monodisperse peak at 2.0 mL retention volume, where the ATG9A trimer elutes on the same column in these conditions <ref type="bibr" target="#b7">[8]</ref>, as well as a minor peak at 2.8 mL retention volume corresponding to 3×FLAG peptide used to elute ATG9B from the affinity resin (Figure <ref type="figure" target="#fig_1">2B</ref>). Imaging of cryo-EM grids prepared from fractions of the SEC peak at 2 mL showed single particles consistent with the monodispersity of the protein material. 2D class averages of these particles revealed visible secondary structure features and a clear 3-fold symmetry (Figure <ref type="figure" target="#fig_1">2C</ref>,D; Table <ref type="table" target="#tab_1">2</ref>). Further image processing with and without C3 symmetry imposed resulted in 3D reconstructions of ATG9B homotrimer at a global resolution of 4.2 Å (EMD-17789) and 4.6 Å (EMD-17790), respectively, while the local resolution in the core regions of the symmetry-imposed structure ranged between 3.2 and 3.8 Å (Figure <ref type="figure" target="#fig_1">2E,</ref><ref type="figure">F</ref>). Although imposing C3 symmetry during refinement improved overall resolution, it introduced minor artifacts in the cryo-EM map that were absent when the volume was refined without symmetry (Figure <ref type="figure" target="#fig_0">S1</ref>). Likely resulting from conformational heterogeneity, the artifacts could be partially corrected by postprocessing the reconstruction using DeepEMhancer <ref type="bibr" target="#b35">[35]</ref>, which considerably aided building of the atomistic model (Figure <ref type="figure" target="#fig_2">3A</ref>, Movie 1, PDB ID 8POE). Most of the backbone and side chains of residues corresponding to ATG9B amino acid positions 191-674 were visible in the cryo-EM maps (Figure <ref type="figure" target="#fig_0">S1E</ref>). By contrast, the N-and C-terminal regions were not, presumably due to conformational variability and/or intrinsic disorder (Figure <ref type="figure" target="#fig_2">3B</ref>). ATG9B forms a homotrimer with a pore at its center connected to perpendicular branches formed at the protomer interfaces. Each protomer has a lateral branch that connects to the central pore and the perpendicular branches. These features are characteristic of the ATG9 domain structures determined to date and so is the hydrophilic nature of most of the residues lining the pores, suggesting a conserved functional mechanism (Figure <ref type="figure" target="#fig_2">3C</ref>). Having determined a structure for ATG9B we compared it to ATG9A and explored the conformational dynamics of ATG9B in the cryo-EM dataset.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conformational dynamics of the ATG9B homotrimer</head><p>As reported for other ATG9 domain proteins <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b36">36,</ref><ref type="bibr" target="#b37">37]</ref>, the ATG9B subunits share an extensive interaction interface within the homotrimer, with an approximately 2,494Å 2 buried molecular surface area per subunit. The homomeric interfaces are predominantly mediated by domain swapped transmembrane helix (TMH) 3 and 4 of one protomer with TMH1 and reentrant membrane helix 1 of the adjacent protomer (Figure <ref type="figure" target="#fig_3">4A</ref>). TMHs 3 and 4 in each protomer are connected to the rest of the protomer by two flexible loops and a four-helix bundle. The equivalent structural elements were shown to mediate relative motions of the ATG9A protomers between the state A and B conformers. For consistency with nomenclature adopted for other ATG9 domain proteins we refer collectively to these structural features of ATG9B as the HINGE region (Figure <ref type="figure" target="#fig_3">4A</ref>) <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b36">36]</ref>. The degree of structural homology between the structure of ATG9B and those of ATG9A is very high overall, except for the region comprising TMHs 3 and 4. Thus, structural alignments of ATG9B monomers resulted in Cα root mean square deviation (RMSD) of 2.97 Å across 453 pairs with ATG9A in state A (PDB ID 6WQZ; Figure <ref type="figure" target="#fig_3">4B</ref>), 3.30 Å across 448 residues pairs with ATG9A in state B (PDB ID 6WR4; Figure <ref type="figure" target="#fig_3">4C</ref>), and 3.38 Å across 457 residue pairs with ATG9A in lipid nanodiscs (PDB ID 7JLP); Figure <ref type="figure" target="#fig_3">4D</ref>). By contrast, excluding TMHs 3 and 4 from the alignments decreased the RMSDs to 1.15 Å over 315 residue pairs, 1.11 Å over 304 residue pairs, and 1.10 Å over 345 residue pairs, respectively. We note that the relative positions of TMHs 3 and 4 in ATG9B were found to be intermediate to the one observed in the ATG9A structures (Figures <ref type="figure" target="#fig_3">4B-D</ref>).</p><p>Multibody refinement <ref type="bibr" target="#b38">[38]</ref> of ATG9B micelles, where each subunit of the homotrimer is defined as a rigid entity, revealed conformational heterogeneity in the relative orientations of the protomers in the cryo-EM data. Approximately 88% of the variance in the particle set could be accounted for by 9 eigen vectors/principal components (Figure <ref type="figure" target="#fig_1">S2A</ref>). Motion along vectors 1 (~13% of variance), 4 (~10% of variance) and 7 (~8% of variance) were chosen for visualization as these three illustrate the three types of relative motion between the protomers represented by the 9 vectors (Movie 1). ATG9B particles, particularly along eigen vector 4, occupy a continuous distribution of conformational states that lie in-between what would be the equivalent of ATG9A state A and B. The observation that the diameters of the central and perpendicular pores are not constant but are rather dynamic may have functional implications (Movie 1).</p><p>Comparison of the globally refined consensus ATG9B structure with the models generated using AlphaFold (AF) <ref type="bibr" target="#b39">[39]</ref> (predicted Local Distance Difference Test/pLDDT &gt;50) was also insightful with respect to the conformational dynamics of the protein (Figure <ref type="figure" target="#fig_3">4E</ref> and<ref type="figure" target="#fig_1">S2B</ref>). Structural alignment of the entire protomers resulted in a Cα RMSD of 2.37 Å across 461 residue pairs and 0.98 Å across 377 residues pairs excluding TMHs 3 and 4, because these helices are in a closed state B-like conformation in the AF model (Figure <ref type="figure" target="#fig_3">4D</ref>). Another striking difference between the experimental and AF predictions of ATG9B are the C-terminal α helices (CTHs) downstream of the ATG9 domain (185-676) specifically 703-714 (CTH1), 721-746 (CTH2), 764-773 (CTH3), 789-805 (CTH4), and 823-848 (CTH5) forming a helix bundle above the HINGE region creating a C-terminal platform (Figure <ref type="figure" target="#fig_0">1C</ref>). AF similarly predicts a C-terminal platform in ATG9A: CTH1 and 2 of ATG9A have been visualized experimentally in the state A structure and crosslinking mass spectrometry has shown that the C terminus beyond the ATG9 domain folds back to interact with the domain, supporting the AF predictions (Figure <ref type="figure" target="#fig_3">4B</ref>,D and S2C) <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b36">36]</ref>. The C-terminal platforms of both ATG9B and ATG9A occlude the cytosolic openings of the central pore and perpendicular branches (Figure <ref type="figure" target="#fig_1">S2D</ref>); the conservation of their sequence suggests that they have a functional role (Figure <ref type="figure" target="#fig_0">1C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ATG9B lipid binding and scramblase activity</head><p>ATG9A and Saccharomyces cerevisiae Atg9 were demonstrated to be lipid scramblases, and lipid binding to the lateral branch (Site I) and the vertical opening of the central pore (Site II) have been implicated in this activity <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b8">9]</ref>. To determine whether these lipid binding sites were preserved in ATG9B, we applied Consurf and Jalview conservation analyses in combination with lipid docking using Swiss Dock <ref type="bibr" target="#b40">[40]</ref>. In total, 23 putative lipid interacting residues at both sites of ATG9B were identified based on equivalence to ATG9A residues found in proximity (&lt;5 Å) to observed lipids in the nanodisc structure (PDB ID 7JLP) <ref type="bibr" target="#b5">[6]</ref>. Of these, 5 were identified as putative lipid head group interacting and 18 as acyl chain interacting residues (Table <ref type="table" target="#tab_2">3</ref>). The head group interacting residues were either charged or polar (Arg146, Tyr249, Glu69, Tyr471, Ser423 in ATG9A) and thus capable of forming electrostatic interactions with the hydrophilic lipid head. Of the 23 residues, twelve are fully conserved among Chordata ATG9s and a further 6 are replaced by an amino acid with the same physicochemical properties (Table <ref type="table" target="#tab_2">3</ref>). Among the head group interacting residues Arg146 and Tyr249 of ATG9A are substituted to Gln295 and Leu398 in ATG9B, respectively. The position of the acyl chain interacting residue Leu373 of ATG9A is occupied by a hydrophobic residue, except in the ATG9B orthologs from primates, rodents, lagomorphs and shrews (Euarchontoglires), that feature an Arg residue in the equivalent positions (corresponding to Arg524 in humanATG9B). Another taxon-specific difference is Ser423 in ATG9A, which is fully conserved across species and in both paralogs except in marsupial ATG9B, where there is a cysteine residue instead.</p><p>Using in silico methods, we docked palmitoyl-2-oleoyl-snglycero-3-phosphocholine (POPC) onto the lateral branch (Site I) and vertical opening of the central pore (Site II) of the ATG9B structure (Figure <ref type="figure" target="#fig_2">S3</ref>). This lipid was found bound at these sites within ATG9A homotrimer embedded in lipid nanodiscs, so this structure could be used to validate the in silico docking results. The docking poses for POPC at Sites I and II of ATG9B that were most similar to, and in the case of Site I was also the top scoring pose in the docking, were chosen for analysis. Twenty of the 23 predicted lipid interacting residues were &lt; 5 Å of the docked lipid (Figure <ref type="figure" target="#fig_5">5A -C</ref>; Table <ref type="table" target="#tab_2">3</ref>). There were several plausible docking poses predicted at each site and interacting residues besides those identified by correspondence to ATG9A were also predicted, suggesting flexibility in the protein-lipid interaction at these sites and potential differences between the paralogs.</p><p>The favorable docking of POPC and the high conservation of the identified putative lipid interacting residues suggested that ATG9B is a lipid scramblase. To test this hypothesis, we reconstituted purified ATG9B and ATG9A in liposomes doped with fluorescent lipid, 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine-N-(7-nitro-2-1,3-benzoxadiazol-4-yl ammonium salt) (NBD-PE). To monitor potential scrambling activity, we measured the quenching of NBD fluorescence upon the addition of dithionite. For both ATG9B and ATG9A, the NBD fluorescence was reduced to a greater extent than in control (without protein) that is ~ 22%, ~23% and ~ 41% of the maximum fluorescence respectively, consistent with the ATG9 proteins mediating equilibration of NBD-PE between the bilayer leaflets of the liposomes (Figure <ref type="figure" target="#fig_5">5D</ref>). These data could be fit by least squares regression to a "plateau followed by one phase exponential decay" function with R 2 values of 0.9988, 0.9965 and 0.9743 for the control, ATG9A and ATG9B data respectively, indicating that the kinetics of NBD-PE chemical reduction by dithionite and scrambling are indistinguishable by this assay <ref type="bibr" target="#b41">[41]</ref>. To compare ATG9A and ATG9B scramblase activity, we analyzed the normalized change in fluorescence at a time point after which the NBD-PE in the outer leaflet had been reduced in the control samples, as previously described <ref type="bibr" target="#b5">[6]</ref>. No significant difference was detected between the activities of the two paralogs by this assay, confirming that ATG9B is an active lipid scramblase similar to ATG9A (Figure <ref type="figure" target="#fig_5">5D -E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ATG9B can function in the autophagy pathway</head><p>The high level of homology shared by the core domains of ATG9B and ATG9A, as well as the ability of ATG9B to scramble lipids in vitro led us to hypothesize that ATG9B could also be functional for autophagy. Indeed, ATG9B was previously shown to play a role in autophagy <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b25">26]</ref>, however its ability to substitute for ATG9A function has not been tested. Since the trafficking of ATG9A between different membrane compartments is critical for its role in autophagy, we investigated the intracellular localization of ATG9B. We expressed human ATG9B with an N-terminal GFP tag as we were unable to produce or obtain a specific antibody to detect ATG9B in cells by immunofluorescence. Like ATG9A, ATG9B was mainly co-localized with the Golgi marker GOLGA2/GM130, to a lesser extent with early endosomes, positive for EEA1, and recycling endosomes labeled using RAB11 (Figure <ref type="figure">6A</ref>). ATG9A dispersal upon nutrient starvation is required for its function during autophagosome biogenesis <ref type="bibr" target="#b14">[15]</ref>. Concordantly, ATG9B dispersed upon starvation, compared to "fed" conditions, and lost its co-localization with the Golgi marker GOLGA2 (Figure <ref type="figure">6B,</ref><ref type="figure">C</ref>). Additionally, in HEK293A cells transiently overexpressing mCherry-ATG9A and eGFP-ATG9B the two proteins mainly colocalized in the Golgi region, as expected (Figure <ref type="figure" target="#fig_7">7A</ref>). However, live imaging experiments revealed that although the vesicular compartment of ATG9A and ATG9B partially overlap they were also present in distinct vesicular pools, which may indicate different biological functions (Figure <ref type="figure" target="#fig_7">7B</ref>, Movie 2). We next tested whether ATG9B was involved in the autophagy pathway. To this aim, autophagy flux was analyzed in cells where endogenous ATG9A was genetically knocked out (ATG9A KO cells) and rescued by exogenously expressing either 3×FLAG-6×His-ATG9A or 3×FLAG-6×His-ATG9B (Figure <ref type="figure" target="#fig_7">7C</ref>). Compared to wild type cells, ATG9A KO cells failed to engage autophagy upon starvation, as shown by the accumulation of the autophagy receptor SQSTM1/p62 (~2 fold, p value = 0.021) and the decrease of LC3B lipidation (LC3B-II), which was reduced by at least 2 fold under nutrient starvation alone (p value = 0.042) (Figure <ref type="figure" target="#fig_7">7D</ref>) and when combined with bafilomycin A 1 treatment (p value &lt; 0.0001) (Figure <ref type="figure" target="#fig_7">7E</ref>). Overexpression of FLAG-tagged ATG9B restored the autophagic flux to a similar extent as ATG9A overexpression, as measured by the increase in LC3-II upon starvation and Bafilomycin A1, as well as the degradation of SQSTM1 upon starvation-induced autophagy (Figure <ref type="figure" target="#fig_7">7C-E</ref>). These results support our conclusion that ATG9B shares similar   membrane compartments as ATG9A, disperses upon nutrient starvation and is functional for autophagy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ATG9B can form a complex with ATG2A</head><p>ATG9A forms a complex with ATG2A to facilitate lipid delivery during autophagosome biogenesis. ATG9B also interacts with ATG2A as demonstrated by their coimmunoprecipitation (Figure <ref type="figure" target="#fig_8">8A</ref>). To determine whether the interaction was direct, we purified the ATG9B-ATG2A complex (Figure <ref type="figure" target="#fig_8">8B</ref>) and imaged it by cryo-EM. Microscopy revealed particles with rod-like ATG2A and globular ATG9B domain (Figure <ref type="figure" target="#fig_8">8C,</ref><ref type="figure">D</ref>). 2D class averages of particles from these data revealed crotchet shaped particles similar to those reported for the ATG9A-ATG2A complex indicating that ATG9B and ATG2A can interact directly and form a heterotetrametric complex (Figure <ref type="figure" target="#fig_8">8E</ref>). As was the case for the ATG9A-ATG2A complex, a reliable 3D reconstruction of the ATG9B-ATG2A complex could not be achieved likely due to flexibility of ATG2A, for which the is no high-resolution structure despite several attempts <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b42">42]</ref>. Taken together, results show that ATG9B can take the place of ATG9A in autophagy and likely does so by a similar molecular mechanism involving lipid delivery to the nascent phagophore.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>According to our molecular phylogenetic analysis, the emergence of ATG9A and ATG9B was likely the result of the genome duplication that gave rise to jawed vertebrates (gnathostomes). In mammals, the ATG9 domain of ATG9B appears to be undergoing rapid evolution. By contrast, the ATG9 domain of ATG9A seems to be under more stringent selection pressures, presumably conserving more of the functions of the parental gene (Figure <ref type="figure" target="#fig_0">1</ref>). It remains to be explored whether the greater divergence observed for the ATG9 domain of mammalian ATG9B is a result of positive selection driven by the development of a new function, or of a relaxation of functional constrains due to gene redundancy. Others have suggested that ATG9B may have acquired novel functions during placental evolution <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b43">43]</ref>. The ATG9 domain is conserved across eukaryotes supporting a common molecular structure and function. We showed that ATG9B forms homotrimers maintained by extensive interactions in the membrane via domain swapping of TMHs 3 and 4 with the adjacent protomer interlocking them together (Figure <ref type="figure" target="#fig_2">3</ref>).</p><p>The conformation of our consensus structure is in a transition state between the open (state A) and closed (state B) conformers reported for ATG9A <ref type="bibr" target="#b36">[36]</ref>. Multibody analysis of ATG9B particles used in the consensus refinement of the structure revealed that the protomers are flexibly orientated relative to each other, occupying a continuous distribution of conformational states, including but not limited to the open and closed states described for ATG9A (Figure <ref type="figure" target="#fig_3">4</ref>, Movie 1). By extension, both the diameter of the perpendicular branch, which has been suggested to provide access to lipids from the cytosolic side through ATG2A, and the central pore, which has been demonstrated to play a role in lipid scrambling, are dynamic, effectively dilating and contracting (Movie 1) <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b36">36]</ref>.</p><p>Considerable conformational variability was anticipated by MD of the yeast Atg9 structure in lipid membrane <ref type="bibr" target="#b8">[9]</ref>. The Atg9 structure was determined in an open state A-like conformation which transitioned to a closed state B-like conformation during the simulation reducing exposure of the hydrophobic bilayer core to the solvated central pore. These results suggested potential mechanisms for modulating these conformational dynamics specifically through changes in the physical properties of the lipid bilayer, such as lateral pressure and rigidity, which can in turn be modulated by the lipid composition of the membrane <ref type="bibr" target="#b44">[44,</ref><ref type="bibr" target="#b45">45]</ref>.</p><p>Given the conservation of the ATG9 domain across eukaryotes, its conformational dynamics are likely conserved and play a role in the molecular functions of the ATG9 proteins. A potential role for the state A/B-like conformational dynamics in the lipid scrambling mechanism has been proposed <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b8">9]</ref>. Recently, a mutant of yeast Atg9, Atg9 F627 that shown to be unable to rescue autophagy flux but did not affect scramblase or lipid transfer activity in vitro <ref type="bibr" target="#b46">[46]</ref>. It was suggested, based on the functional characterization of this yeast mutant and the human ATG9A F382A (F533 in human mutant in TMH3, that the trimerization interfaces of the protein may play a role beyond lipid delivery and this change at these interfaces may be the cause of the defective autophagy flux. Based on the structural analysis reported here we suggest that the proposed disruption of the trimerization interfaces may impair the conformational dynamics described for Atg9 and ATG9A <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b8">9]</ref> and here for ATG9B.</p><p>Sequence conservation of putative lipid binding sites in ATG9A and ATG9B and lipid docking suggested that ATG9B is a functional lipid scramblase, which we have confirmed for ATG9B using an in vitro scramblase assay (Figure <ref type="figure" target="#fig_5">5</ref>). Although most of the putative lipid interacting residues are conserved between ATG9B and ATG9A, some residues have diverged in the mammalian ATG9B orthologs suggesting that there might be differences in lipid species preference. However, the measured scramblase activity of ATG9B and ATG9A were quantitatively indistinguishable in the liposomes used here (Figure <ref type="figure" target="#fig_5">5</ref>). It has been suggested that these scramblase assays, such as the one used here, may not be sensitive enough to detect subtle differences between proteins and substrates and thus may not recapitulate the cellular conditions necessary to bring such subtleties to the fore <ref type="bibr" target="#b46">[46]</ref>. It does appear however, if only qualitatively, that the scramblase activity is similar to that of ATG9A in the context of macroautophagy. Along the same lines the results of the cell-based experiments would support a conservation of this function, but we cannot exclude that the rescue is also due to other conserved functional properties of ATG9A and ATG9B (Figure <ref type="figure" target="#fig_7">7</ref>).</p><p>Due to the different lengths of the N-and C-termini in ATG9A and ATG9B, these regions may confer distinguishing activities to the two paralogs. We note that the N-terminal region of most mammalian orthologs contains a stretch of 6 proline residues (29-PMPLPPPPPP -38 in human). Translation of poly-proline sequences, in particular those with more than 3 prolines, are typically thought to contribute to ribosome stalling and require the translation elongation factor EIF5A <ref type="bibr" target="#b47">[47]</ref>. Furthermore, the 5' sequence of the canonical isoform 1 (Q674R7-1) lacks a defined Kozak consensus site. Thus, the translation of the full-length protein encoded by the canonical isoform may be highly regulated and tissues expressing ATG9B may preferentially use EIF5A resulting in the translation of a protein corresponding to the canonical isoform 1.</p><p>Alternatively, it is possible that a start site downstream of the predicted start codon may be the initiating codon, for example Met105, which has a Kozak sequence. This hypothesis remains to be The low homology of the N-and C-termini suggests that potential interactions mediated by these regions and their regulation may differ between the ATG9A and ATG9B. Interestingly, the ATG13-ATG101 interacting HDIR in the C terminus of ATG9A <ref type="bibr" target="#b33">[33,</ref><ref type="bibr" target="#b34">34]</ref>, is not conserved in ATG9B. Based on this ATG9B may interact differently or not at all with ATG13 and ATG101. The ATG9A-ATG13-ATG101 interaction has been shown to play a role in mitophagy by recruiting the ULK1 complex and increasing the efficiency of ATG2A lipid transfer activity as part of a ATG9A-ATG2A-ATG13-ATG101 complex <ref type="bibr" target="#b33">[33,</ref><ref type="bibr" target="#b34">34]</ref>. Given that age-related decrease in mouse ATG9B expression has been linked to accumulation of aberrant mitochondria in heart muscle <ref type="bibr" target="#b23">[24]</ref>, it would be interesting to explore if ATG9B is involved in mitophagy and if so, how this mechanism differs from that described for ATG9A given the absence of the HDIR region. Investigating the effect on ATG9B-ATG2A interaction on lipid transfer especially compared to the ATG9A-ATG2A-ATG13-ATG101 complex or the ATG9B-containing complex, if it exists, may also be insightful for understanding the potential specialization of ATG9B. Another notable difference in the termini of the paralogs is the absence of the ULK1 phosphosite (Ser14 in ATG9A) in the N terminus of ATG9B. Phosphorylation of Ser14 has been shown to stimulate increased ATG9A interaction with AP1 and AP2 in response to nutrient starvation promoting the budding of ATG9A vesicles from the trans-Golgi network which is required for autophagy <ref type="bibr" target="#b31">[32]</ref>. We show that ATG9B, like ATG9A localizes to the trans-Golgi network and disperses from this compartment upon nutrient starvation however, it remains to be tested if this ATG9B dispersal is regulated by ULK1 or ULK1 phosphorylation of ATG9B. Our live cell imaging of both ATG9A and ATG9B shows that the two proteins partially co-localize in vesicular-tubular compartments. However, further experiments are needed to fully explore ATG9B trafficking, and to determine if it is functionally redundant or is involved in different intracellular functions from those described for its paralog (Figure <ref type="figure">6</ref>, Movie 2).</p><p>In conclusion, our study demonstrates the conserved molecular structure and scramblase activity of ATG9B and ATG9A providing solid ground and context for the interpretation of further work exploring the potential specialized role of ATG9B, in normal and aberrant physiology. We reveal insights into the conformational dynamics of the protein which has implications for understanding the detailed molecular mechanisms of lipid scrambling and potentially other novel functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proteins sequence analysis and molecular phylogenetic analysis</head><p>Sequences were selected manually from Ensembl and NCBI making an effort to cover a wide variety of Chordata taxon <ref type="bibr" target="#b48">[48,</ref><ref type="bibr" target="#b49">49]</ref>. MUSCLE and MAFFT were used to calculate the MSA <ref type="bibr" target="#b50">[50,</ref><ref type="bibr" target="#b51">51]</ref>. Inspection and edition of MSA was done using Jalview <ref type="bibr" target="#b52">[52]</ref>. For phylogenetic calculations, alignments were trimmed to comprise only the ATG9 domain as defined by InterPro/PFAM <ref type="bibr" target="#b53">[53]</ref>. Phylogeny was calculated with IQtree 1.6.11 using 100 standard bootstrap replicates <ref type="bibr" target="#b54">[54]</ref>. The best-fit model selected by Modelfinder was JTT+I+G4 <ref type="bibr" target="#b55">[55]</ref>. Trees were visualized and prepared with Dendroscope <ref type="bibr" target="#b56">[56]</ref>. To analyze divergence in the flexible regions of ATG9B we used the two separate ortholog MSA as provided by Ensembl Compara, removed incomplete sequences and sequences from invertebrates, and obtained Shannon entropy (H) scores for each position in the individual alignments using the Protein Variability Server <ref type="bibr" target="#b26">[27]</ref>. Results were visualized using ggplot2_3.4.2 (https://cran.r-project.org/web/packages/ ggplot2/citation.html). The raw MSAs and tree can be accessed on Mendeley data (https://data.mendeley.com/data sets/sxnyrhycff/2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell lines and cell culture</head><p>HEK293A cell lines were obtained from Cell Services at The Francis Crick Institute. Cells were grown in DMEM high glucose (Sigma, D6429) supplemented with 10% heatinactivated fetal bovine serum (Gibco 10,270-106). Cells were incubated at 37°C, 10% CO 2 and 90-95% of relative humidity. Specific experimental conditions are indicated in figure legends. Expi293 cells (ThermoFisher Scientific, A14527) were cultured in suspension in Expi293 expression medium (ThermoFisher Scientific, A1435101) at 8% CO 2 , 37°C. ATG9A KO cells (Cell services at The Francis Crick Institute) were generated by CRISPR-Cas9 as described in <ref type="bibr" target="#b7">[8]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasmids and DNA transfection</head><p>DNA transfection for experiments in HEK293A was performed following the manufacturer's instructions using Lipofectamine 2000 (Invitrogen 11,668-019) in 1:5 Opti-MEM:DMEM medium (Gibco 31,985-047). For protein In house co-IP pcDNA3.1-3×FLAG-ATG2A</p><p>In house Protein production production in Expi293 cells were transfected using polyethyleneimine (Polysciences 23,966-1) as described in <ref type="bibr" target="#b7">[8]</ref>. A ratio of 3:1, polyethyleneimine: plasmid DNA, was used for transfecting 3×FLAG-6×His-TEV-ATG9A (Genscript), 3×FLAG-ATG2A <ref type="bibr" target="#b7">[8]</ref> or 3×FLAG-6×His-TEV-ATG9B (Genscript) in all cloned separately into pcDNA3.1(+) vector (Table <ref type="table" target="#tab_3">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein purification</head><p>Expi293 cells in suspension at 3 -4 × 10 6 cells/mL were transfected with 3×FLAG-6×His-TEV-ATG9B in pcDNA3.1(+) using polyethyleneimine and harvested after 72 h by centrifugation at 500 g for 10 min. Buffers used at various stages in the ATG9B purification were made in 50 mM Tris-HCl, pH 8.5, 200 mM NaCl, 1 mM TCEP (Merck 646,547), 10% glycerol (base buffer). Cells were resuspended in 2.5 mL of base buffer per g supplemented with 2× cOmplete protease inhibitor tablets (Roche 0,505,648,900). An equal volume of 1.8% w/v n-dodecyl-β-D-maltoside and CHS (cholesteryl hemisuccinate) mixed at a ratio of 5:1 in base buffer (Genron, NB-39 -00,015-1 g, and CH210-1 GM, respectively) was added to lyse the resuspended cells and solubilize ATG9B. After incubation at 4°C with agitation the lysate was centrifuged at for 20 min at 4000 g and the supernatant incubated with anti-DYKDDDDK G1 affinity resin (Genscript, L00432), using 167 µl resin slurry per g of cells, for 2 h at 4°C with agitation. The resin was removed from the lysate by centrifugation at 1,000 g for 2 min at 4°C and the resin was washed 5 times with a volume of wash buffer (20 mM Tris-HCl, pH 8.5, 500 mM NaCl, 1 mM TCEP, 10% glycerol supplemented with 0.001% w/v LMNG [Genron, NG310-25 GM] and 0.0002% w/v CHS) equal to the volume of resin added to the lysate. The washed resin was incubated with wash buffer (supplemented with 2.5 mM adenosine 5'-triphosphate [ThermoFisher Scientific, R0441] and 5 mM MgCl 2 ) overnight at 4°C with agitation. The resin was washed 5 times with 0.001%w/v LMNG-CHS (5:1) in base buffer (elution buffer). ATG9B was eluted from the resin with 3×FLAG peptide (Peptide Chemistry STP, The Francis Crick Institute) at 240 µg/mL in the same buffer for 20 min. The elution was repeated twice without the 20-min incubation. The eluted fractions were pooled and concentrated to 100 µl before loading on a superose 6 5/150 GL column (Cytivia 29,091,597). For cryogrid preparation the column was equilibrated with 20 mM Tris-HCl, 200 mM NaCl, 0.001% w/v LMNG-CHS (5:1), pH 8.5, otherwise, elution buffer was used. 3×FLAG-6×His-TEV-ATG9A in pcDNA3.1(+) and 3×FLAG-ATG2A in pcDNA3.1(+) were expressed as above in Expi293 cells. ATG9A was purified as previously described <ref type="bibr" target="#b7">[8]</ref>. Briefly ATG9A-expressing cells were resuspended and lysed in 1.2% LMNG-CHS in base buffer without 10% glycerol by agitation at 4°C for 40 min. The lysate was centrifuged at 4000 g for 20 min and the supernatant incubated with anti-DYKDDDDK G1 affinity resin for 2 h before washing the resin with base buffer without 10% glycerol supplemented with 0.001% w/v LMNG-CHS (5:1). ATG9A was eluted using 3×FLAG peptide as described above. For purification of the ATG9B-2A complex, cells expressing ATG9B and ATG2A were mixed after resuspension, and the complex purified and analyzed by SEC using the same protocol as described for ATG9B alone.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cryo-EM single particle analysis</head><p>Four µL of peak SEC fractions of ATG9B and ATG9B-2A at ~0.3 mg/ml were applied to gold C-flat grids (Electron Microscopy Sciences, CF-1.2/1.3-4Au-50) and incubated for 60 s at 100% humidity before blotting for 3 s and plunge freezing in liquid ethane using a Vitribot VI (ThermoFisher Scientific).</p><p>ATG9B particles were imaged on a Krios Titan G3i microscope (FEI) operating at 300 keV and equipped with a K2 Summit direct electron detector (Gatan) and a BioQuantum energy filter (Gatan). Initially 17,551 micrograph movies were collected at a calibrated magnification of 46,296, resulting in a pixel size of 1.08 Å at the specimen level, 20 eV energy filter slit, a nominal defocus range -1 to -3 µm, and a total dose of 48 e -/Å 2 , fractionated over 32 frames. The micrograph movies were aligned and summed, applying dose weighting as implemented in MotionCor2 <ref type="bibr" target="#b57">[57]</ref>, and contrast transfer function (CTF) parameters were estimated using Gctf software <ref type="bibr" target="#b59">[58]</ref>. Particles, initially picked with crYOLO <ref type="bibr" target="#b60">[59]</ref>, were subjected to reference-free 2D classification in cryoSPARC <ref type="bibr" target="#b61">[60]</ref>. The resulting 2D class averages, low pass filtered to 20 Å, were used as templates to pick all micrographs using Gautomatch (http://www.mrc-lmb.cam.ac. uk/kzhang/). The resulting set of 4,022,224 particles were subjected to several rounds of 2D classification in cryo-SPARC, where junk and poorly defined particles were discarded after each round, yielding 195,921 particles. 3D reconstructions from this particle set displayed anisotropy as assessed by 3DFSC software <ref type="bibr" target="#b62">[61]</ref>. To mitigate this pathology, a second dataset of 19,666 micrograph movies was collected using imaging parameters as above, but with a 30° stage tilt. Following motion correction with MotionCor2, 2,796,248 particles were picked. Local CTF estimation for all particles picked on the tilted data was performed using goCTF <ref type="bibr" target="#b63">[62]</ref>. After several consecutive rounds of 2D classification in cryoSPARC 42,168 particles remained in well-defined classes. These were combined with the 185,789 particles from the untilted dataset and subjected to 3D classification in RELION-3.1, starting with an Ab initio model generated in cryoSPARC. The 3D classification into 3 classes, without imposing symmetry, resulted in a single high-resolution class. The resulting 160,986 particles were used for unbinned 3D refinement, followed by CTF refinement in cryoSPARC and Bayesian polishing in RELION-3.1. The polished particles were subjected to 3D classification in cryoSPARC into two Ab initio classes, with maximum resolution set to 8 A, class similarity 0.1, with no symmetry imposed resulting in a single well-defined class comprising 152,410 particles. These were used for another round of Ab initio classification to yield the set of 104,050 particles, which were used to generate the final reconstructions using non-uniform refinement in cryoSPARC with and without C3 symmetry imposed. The resolution reported is according to the gold-standard FSC 0.143 criterion <ref type="bibr" target="#b64">[63,</ref><ref type="bibr" target="#b65">64]</ref> (Figure <ref type="figure" target="#fig_0">S1B</ref> and Table <ref type="table" target="#tab_0">1</ref>). As assessed using 3DFSC software <ref type="bibr" target="#b62">[61]</ref>, the final reconstructions retained moderate anisotropy (Figure <ref type="figure" target="#fig_0">S1C</ref>), resulting in a 3D FSC sphericity of 0.967. For illustration purposes and to aid model building, the cryo-EM maps were postprocessed using DeepEMhancer <ref type="bibr" target="#b35">[35]</ref>. To analyze molecular motions, multibody refinement <ref type="bibr" target="#b38">[38,</ref><ref type="bibr" target="#b67">65]</ref> was performed in Relion-4.0. During multibody refinement, each of the three protomers, including TMH3 and 4 donated by the neighboring ATG9B chain, was defined as a rigid body. ATG9B-2A grids were imaged using a Talos Arctica microscope (FEI) operating at 200 keV and equipped with a Falcon III direct electron detector (Gatan). In total, 4,939 micrograph stacks were acquired at a calibrated magnification of 111,111 and a pixel size of 1.26 Å. Data collection was conducted in using the linear integration mode of the Falcon III detector, with a defocus range of -1.0 to -3.5 µm, and a total dose of 82 e -/Å 2 over 10 frames. The micrograph stacks were aligned and summed with dose weighting using MotionCor2, and CTF parameters were estimated using Gctf. The initial set of 810,427 particles picked in crYOLO using the general model, were subjected to reference-free 2D classification in RELION-3.1 <ref type="bibr" target="#b68">[66]</ref>. Well-defined 2D class averages were used as templates for auto-picking particles from micrographs using RELION-3.1 resulting in a set of 800,092 particles. These were subjected to several rounds of 2D classification in cryoSPARC and RELION-4.0. Extensive classification efforts notwithstanding, a reliable 3D reconstruction could not be achieved for the ATG9B-2A complex due to flexibility of ATG2A.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ATG9B atomic model building</head><p>A monomer of the AlphaFold model of ATG9B state the number of the model and residues used (predicted Local Distance Difference Test &gt; 50) was rigid body docked into the postprocessed C3 cryo-EM map from cryoSPARC using UCSF Chimera <ref type="bibr" target="#b70">[67]</ref> followed by removal of regions that were not supported by the cryo-EM map. Secondary structure elements were fitted into the map using real-space refinement in COOT <ref type="bibr" target="#b71">[68]</ref>. This new model was then adjusted residue by residue to better fit the model to the map and while maintaining reasonable protein geometry which was assessed iteratively using MolProbity <ref type="bibr" target="#b72">[69]</ref>. The model of the monomer was replicated to produce the trimer and the homo-trimer structure was subjected to real space refinement using Phenix program suite <ref type="bibr" target="#b73">[70]</ref> in the cryo-EM map refined imposing C3 symmetry (Figure <ref type="figure" target="#fig_0">S1E</ref>).</p><p>Lipid docking was performed on the monomer using the SwissDock server (http://www.swissdock.ch/). The SMILE representation for 1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (PubChem ID 5,497,103) was used to generate a 3D model of the lipid in UCSF Chimera and the model was energy minimized before submitting to server for docking. Visualization of docking results was done using UCSF Chimera. Structure alignment and figure preparation were done using USCF Chimera and Chimera X. Conservation analysis was done on the MSA used for the phylogenetic analysis using Consurf <ref type="bibr" target="#b74">[71]</ref> and Jalview <ref type="bibr" target="#b52">[52]</ref>. The raw MSA used for the conservation analysis can be accessed Mendeley data (https://data.mendeley.com/datasets/sxnyrhycff/2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lipid scramblase assay</head><p>POPC, 1,2-dioleoyl-sn-glycero-3-phosphatydil-L-serine and NBD-PE (Avanti Polar Lipids, 850457C,840035C, 850757C) was mixed at a molar ratio of 95.5:5:0.5 in chloroform then dried under N 2 and for an hour under vacuum. The lipid film was resuspended at room temperature with mixing in 80 mM HEPES, 150 mM NaCl, pH 7.5 (liposome buffer) to a final concentration of 3 mM. The liposomes were subjected to 3 cycles of freeze thaw before extrusion 21 times through a 400nm pore filter (Avanti polar lipids, Merck 610,007). For proteoliposome reconstitution, purified ATG9B and ATG9A at 5 µM in 20 mM Tris-HCl, pH 8.5, 500 mM NaCl, 1 mM TCEP, 10% glycerol supplemented with 0.001% w:v LMNG were incubated for 1 h with mixing at 4°C, at a final protein concentration of 55 nM, with 654 µM liposome preparation and 0.44% w/v Triton X-100 (Thermofisher Scientific 13,454,259) in scramblase assay buffer (liposome buffer supplemented with TCEP to a final concentration 0.3 mM). Bio-beads were added, and the mixture incubated overnight with agitation at 4°C to adsorb the detergents. For the assay the liposomes were diluted 10.4-fold with assay buffer and NBD-PE fluorescence measured for 100 seconds before reducing it with dithionite (20 µM final concentration).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell lysis and western blotting</head><p>For cell lysis, cells were washed three times with ice-cold phosphate-buffered saline (PBS; 137 mM NaCl, 2.7 mM KCl, 8 mM Na 2 HPO 4 , and 2 mM KH 2 PO 4 , pH 7.4), scraped and lysed in TNTE buffer (20 mM Tris-HCl pH 7.4, 5 mM EDTA, 150 mM NaCl, 0.5% Triton X-100) supplemented with protease (Roche, cOmplete EDTA-free 05,056,489,001 and phosphatase inhibitors (Roche, Phostop EASYpack, 04 906 837 001). Cell lysates were centrifuged at 13,000 × g for 10 min at 4°C. Protein concentration was determined using Pierce BCA Protein Assay kit (ThermoFisher Scientific 23,227) following manufacturer's instructions. Lysates were prepared for electrophoresis in Laemmli SDS-sample buffer and incubated at 65°C for 10 min. Samples were resolved by SDS-PAGE on NuPage 4-12% Bis-Tris Gel (Invitrogen, NP0336) using MES SDS running buffer (Invitrogen, NP0002) and transferred to Immobilon-P transfer membranes (Millipore, IPVH00010). Membranes were blocked with 5% nonfat dry milk (BioRad 1,706,404) in PBS containing 0.1% Tween-20 (PBS-T) for 1 h at room temperature. Incubation of primary antibodies was performed overnight at 4°C in 5% nonfat dry milk or 3.5% BSA (Roche 10,735,086,001). After three washes in PBS-T, membranes were incubated for 1 h at room temperature with secondary antibodies (1:5000) diluted in 5% nonfat milk. Upon incubation, membranes were washed three times with PBS-T and protein detection was performed by using Immobilon Classico Western HRP Substrate (Millipore, WBLUC0500) or Immobilon Crescendo Western HRP Substrate (Millipore, WBLUR0500). Blots were scanned with Amersham ImageQuant 800 (Cytiva). Densitometry analysis of western blots was performed using FIJI (https://fiji.sc/). All the antibodies used in this study are reported with the corresponding working concentrations in Table <ref type="table" target="#tab_3">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence and confocal microscopy</head><p>Cells were grown on poly-D-lysine treated coverslips to reach 70% confluency the day of the experiments. After the treatments, cells were fixed with 4% paraformaldehyde in PBS supplemented with 0.1 mM CaCl 2 , 0.1 mM MgCl 2 for 10 min at room temperature. Cells were washed three times with PBS before adding 50 mM NH 4 Cl for 10 min at room temperature and then permeabilized with 50 μg/mL digitonin (Merck Millipore; D141) for 5 min at room temperature. Cells were then washed with PBS and blocked in 5% BSA (in PBS for 30 min at room temperature. Coverslips were incubated upside down with primary antibody in 1% BSA in PBS 1 h at room temperature, then washed three times with PBS and incubated upside down with secondary antibody in 1% BSA in PBS for 1 h. Finally, coverslips were washed three times in PBS and once with deionized water before mounting them on glass microscope slides using 10 µL Mowiol mounting solution (Millipore,475904). Fluorescence images were acquired using a Zeiss LSM 880 Airyscan confocal microscope with Plan-Apochromat 63×/1.4 Oil DIC M27 objective lens. Zeiss ZEN imaging software was used to acquire the images, and, after acquisition, processing was performed using an Airyscan processing tool on the ZEN software provided by Zeiss. All the antibodies used in this study are reported with the corresponding working concentrations in Table <ref type="table" target="#tab_0">S1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Live imaging</head><p>Cells transfected with eGFP-ATG9B or eGFP-ATG9B /mCherry-ATG9A were seeded on glass-bottom microwell dishes (MatTek Corp., P35G-1.5-14-C) to reach 70% confluency the day of the experiment. Cells were imaged using a Zeiss LSM 880 Airyscan confocal microscope with Plan-Apochromat 63×/1.4 Oil DIC M27 objective lens. Live imaging was performed using Zeiss ZEN imaging software and the acquired movies were processed using an Airyscan processing tool on the ZEN software provided by Zeiss. Plasmids used in this study are listed in Table <ref type="table" target="#tab_0">S1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunoprecipitation</head><p>HEK293A cells overexpressing GFP-ATG2A and 3×FLAG-6×His-ATG9A or 3×FLAG-6×His-ATG9B were lysed on ice in TNTE buffer with protease inhibitors as above. The lysate was centrifuged at 21,000 g for 10 min and supernatant incubated with binding control agarose beads (ChromoTek, bab-20) for 1 h at 4°C. The cleared lysate was incubated with GFP-TRAP beads (ChromoTek, Gta-20) overnight at 4°C. The beads were washed four times with TNTE buffer before eluting by incubating with 2.5× Laemmli SDS sample buffer for 5 min at 65°C. Sample were resolved by SDS-PAGE on NuPage 4-12% Bis-Tris Gels before transfer to Immobilon-P transfer membranes. Membranes were blocked before incubating with primary and secondary antibodies as described above. Antibodies used can be found in Table <ref type="table" target="#tab_3">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Statistical tests and analyses were performed using Graphpad Prism 9. The samples sizes, meanings of error bars, type of statistical test performed and the p values are detailed in the figure legends and figures.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Sequence architecture, variability and evolution of vertebrate ATG9A and ATG9B. (A) phylogenetic tree estimated from a multiple sequence alignment of the ATG9 domain of ATG9A and ATG9B from 71 Chordata species. See table 1 for species names, and accession numbers. (B) sequence features, motifs, domain boundaries and selected posttranslational modifications of human ATG9A (Q7Z3C6-1) and human ATG9B (Q674R7-1). (C) Shannon entropy values (H) obtained for the Ensembl orthologs alignments of ATG9A and of ATG9B. The experimental regular secondary structure features (α-helices in rectangles and β-strands in triangles) are shown in dark gray; in dashed lines and light gray are those predicted by AlphaFold.</figDesc><graphic coords="3,77.93,52.87,453.65,562.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Purification and single particle cryo-EM of ATG9B. (A) Coomassie Blue stained gel of purified ATG9B (MWM = molecular weight markers) (B) size exclusion chromatogram of purified ATG9B. (C) Representative cryo-EM micrograph of purified ATG9B in vitrified ice and (D) 2D class averages of particles from these data. (E) FSC (fourier shell correlation) of the C3 symmetry imposed 3D reconstruction of ATG9B (EMD-17789). (F) C3 symmetry-imposed 3D reconstruction of ATG9B from cryo-EM colored by local resolution (Å).</figDesc><graphic coords="6,77.87,52.87,453.89,598.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Topology and pores of ATG9B structure. (A) postprocessed cryo-EM map (C3) of ATG9B colored by protomers, except domain swapped transmembrane helices (EMD-17789). (B) ribbon representation of atomic model of ATG9B built from C3 imposed 3D reconstruction colored by protomer (PDB ID 8POE). (C) slice throughs of ATG9B isosurface colored by electrostatic potential with central pore and branches highlighted.</figDesc><graphic coords="8,77.93,52.99,453.65,562.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Conformational analysis of ATG9B. (A) ATG9B trimer in lipid bilayer (blue and red lattices), the transmembrane domains and HINGE region of one protomer (orange red) is highlighted. Structural alignments of ATG9B and (B) ATG9A state a (PDB ID 6WQZ), (C) ATG9A state B (PDB ID 6WR4), (D) ATG9A in nanodisc (PDB ID 7JLP) and (E) AlphaFold model of ATG9B. The faint gray vertical lines are the axis from which the relative rotations of TMH 4 to the rest of the protomer is measured between the compared structures. The arrow indicates the direction of rotation from the ATG9B structure to the compared structure and the magnitude of this rotation is indicated next to the arrow. RMH: reentrant membrane helix.</figDesc><graphic coords="9,77.36,53.03,454.13,511.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>mammalian ATG9B. Can potentially interact with lipid acyl chains as well. human ATG9B. Close enough to form lipid head group interactions. interacting with POPC head group are highlighted in yellow and those interacting with POPC acyl chains are highlighted in Consurf grade indicates conservation<ref type="bibr" target="#b8">(9)</ref> or variability (1) at this position in the sequence. Conserved columns in the MSA are indicated by "*' (score of 11 with default amino acid property grouping), and columns with mutations where all properties are conserved are marked with a '+" (score of 10, indicating all properties are conserved).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Lipid docking suggests ATG9B is a functional lipid scramblase. (A) POPC (yellow sticks) docked at putative lipid bindings Site I (red box) and Site II (yellow box). Structure of ATG9B shown as surface colored by lipophilicity/hydrophobicity. Close up of POPC in Site I (B) and Site II (C). in vitro scramblase assay activity of ATG9B and ATG9A in proteoliposomes. Error bars are standard deviation (SD) (n = 3), statistical analysis was done using one-way Kruskal-Wallis test (****; p &lt; 0.0001). Data were fit to a 'plateau followed exponential decay function with R 2 values of 0.9988, 0.9965 and 0.9743 for the control, ATG9A and ATG9B data respectively (D). (E) quantification of change of fluorescence in ATG9A vs ATG9B at 200 seconds, normalized to ATG9A, error bars are SD (n = 5), statistical analysis done by unpaired t-test.</figDesc><graphic coords="11,77.65,52.99,454.13,485.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure</head><label></label><figDesc>Figure ATG9B intracellular localization dispersal upon starvation. (A) Representative images of immunofluorescence experiments in HEK293A cells transiently over-expressing eGFP-ATG9B and stained for GOLGA2/GM130 as a Golgi marker, EEA1 as an early endosomal marker and RAB11 as a recycling endosomal marker. (B) Representative images of immunofluorescence experiments in HEK293A cells transiently over-expressing eGFP-ATG9B and stained for GOLGA2 as Golgi marker in fed or 2 h EBSS starvation conditions. Merge of green (eGFP-ATG9B) and red (GOLGA2) is shown. (C) quantification from 3 independent experiments of ATG9B dispersal as ratio between Golgi:total fluorescence comparing fed/starvation conditions. Error bars are SD. Statistical analysis was done using t-test; ****, p ≤ 0.001. Scale bar: 5 µm.</figDesc><graphic coords="12,92.05,52.98,425.33,255.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. ATG9B is functional autophagy. (A) Representative images of immunofluorescence experiments in HEK293A cells transiently over-expressing eGFP-ATG9B, mCherry-ATG9A, stained for GOLGA2/GM130 as Golgi marker. Scale bar: 5 µm. (B) montage of live cell imaging of mCherry-ATG9B and eGFP-ATG9A. Scale bar: 5 µm. (C) autophagy flux rescue experiments in ATG9A WT or ATG9A KO cells overexpressing FLAG-ATG9B or FLAG-ATG9A for 24 h. Cells were cultured in full medium (F) or either with EBSS (S) or EBSS supplemented with 100 nM bafilomycin A 1 (SB) for 2 h and then processed by western blot. Indicated antibodies were used. Quantification of (D) LC3 lipidation and (E) SQSTM1 from three independent experiments. Error bars correspond to SD and dots represent each experiment normalised to ATG9A WT control. Statistical analysis was done using one-way ANOVA; *, P ≤ 0.05; ****, P ≤ 0.001.</figDesc><graphic coords="13,77.93,53.13,453.65,450.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. ATG9B forms stable complex with ATG2A. (A) co-immunoprecipitation by GFP-TRAP of 3×FLAG-His 6 -TEV-ATG9B or 3×FLAG-His 6 -TEV-ATG9A by cell lysates. Representative experiment of n = 3 (B) Coomassie Brilliant Blue stained gel of co-purified ATG9B and ATG2A and (C) SEC of this sample. (D) Representative cryo-EM micrograph of ATG9B-2A sample and (E) 2D class averages from these data. Movie 1. Conformational dynamics of ATG9B along eigen vectors 1, 4 and 7 of multibody analysis of cryo-EM data. Movie 2. Live cell imaging of eGFP-ATG9B and mCherry-ATG9A. Movies can be found via the preview link below https://data.mendeley.com/datasets/sxnyrhycff/2</figDesc><graphic coords="14,92.05,53.14,425.33,391.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Species names and accession numbers of ATG9 homologs used in phylogenetic analysis.</figDesc><table><row><cell>Label</cell><cell>Accession code</cell><cell>Common name</cell><cell>Scientific name</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Cryo-EM data collection, image processing and model building.</figDesc><table><row><cell>Magnification</cell><cell>46,296</cell></row><row><cell>Voltage (kV)</cell><cell>300</cell></row><row><cell>Number of frames</cell><cell>32</cell></row><row><cell>Electron exposure (e-/Å2)</cell><cell>48</cell></row><row><cell>Defocus range (microns)</cell><cell>-1 to -3</cell></row><row><cell>Pixel size (Å)</cell><cell>1.08</cell></row><row><cell>Symmetry imposed</cell><cell>C3 or C1</cell></row><row><cell>Initial particle number</cell><cell>68,18,472</cell></row><row><cell>Final particle number</cell><cell>1,04,050</cell></row><row><cell>Map resolution (Å)</cell><cell>4.2(C3); 4.6(C1)</cell></row><row><cell>FSC threshold</cell><cell>0.143</cell></row><row><cell>Model building</cell><cell></cell></row><row><cell>Starting model</cell><cell>ATG9B Alphafold</cell></row><row><cell>Chains</cell><cell>3</cell></row><row><cell>Non-hydrogen atoms</cell><cell>10497</cell></row><row><cell>Protein residues</cell><cell>1371</cell></row><row><cell>Ligands</cell><cell>0</cell></row><row><cell>Validation</cell><cell></cell></row><row><cell>Molprobity clash score</cell><cell>9.34</cell></row><row><cell>Poor rotamers (%)</cell><cell>0</cell></row><row><cell>Ramachandran plot</cell><cell></cell></row><row><cell>Favoured (%)</cell><cell>97.24</cell></row><row><cell>Allowed (%)</cell><cell>2.76</cell></row><row><cell>Disallowed (%)</cell><cell>0</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Lipid binding site analysis.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Antibodiees and plasmids.</figDesc><table><row><cell>Antigen</cell><cell>Source</cell><cell>Dilution</cell><cell>Use</cell></row><row><cell>Antibodies</cell><cell></cell><cell></cell><cell></cell></row><row><cell>ATG9A</cell><cell>CRUK (in-house)</cell><cell>1/1000</cell><cell>WB</cell></row><row><cell>ATG9B</cell><cell>Abcam, ab117591</cell><cell>1/1000</cell><cell>WB</cell></row><row><cell>SQSTM1</cell><cell>Cell Signalling Technology 39,749</cell><cell>1/2000</cell><cell>WB</cell></row><row><cell>ACTB</cell><cell>Abcam, ab8227</cell><cell>1/2000</cell><cell>WB</cell></row><row><cell>LC3B</cell><cell>Abcam, ab48394</cell><cell>1/2000</cell><cell>WB</cell></row><row><cell>GFP</cell><cell>CRUK (in-house)</cell><cell>1/1000</cell><cell>WB</cell></row><row><cell>FLAG</cell><cell>Sigma-Aldrich, F3165</cell><cell>1/1000</cell><cell>WB</cell></row><row><cell>EEA1</cell><cell>BD Biosciences 610,456</cell><cell>1/500</cell><cell>IF</cell></row><row><cell>GOLGA2/GM130</cell><cell>BD Biosciences 610,823</cell><cell>1/1000</cell><cell>IF</cell></row><row><cell>RAB11</cell><cell>Abcam, ab228924</cell><cell>1/400</cell><cell>IF</cell></row><row><cell>LAMP1</cell><cell>BD Pharmigen 555,798</cell><cell>1/400</cell><cell>IF</cell></row><row><cell>Plasmid</cell><cell>Origin</cell><cell>Use</cell><cell></cell></row><row><cell>pcDNA3.1-3×FLAG-6×His-TEV-ATG9A</cell><cell>Genescript</cell><cell cols="2">Protein production/Autophagy rescue experiments/co-IP</cell></row><row><cell>pcDNA3.1-3×FLAG-6×His-TEV-ATG9B</cell><cell>Genescript</cell><cell cols="2">Protein production/Autophagy rescue experiments/co-IP</cell></row><row><cell>pcDNA3.1-mCherry-3×FLAG-6×His-TEV-ATG9A</cell><cell>Genescript</cell><cell>Live imaging experiments</cell><cell></cell></row><row><cell>pcDNA3.1-eGFP-3×FLAG-6×His-TEV-ATG9B</cell><cell>Genescript</cell><cell>Live imaging experiments</cell><cell></cell></row><row><cell>pcDNA3.1-eGFP-ATG2A</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank the <rs type="institution">Structural Biology Science Technology Platform at the Francis Crick Institute</rs>, particularly <rs type="person">Andrea Nans</rs>, for assistance with cryo-EM data collection and computing. We also acknowledge <rs type="person">Danny Lang</rs>, <rs type="person">John Roche</rs>, and <rs type="person">Mike Gavrielides</rs> for technical assistance with data storage and processing as well <rs type="person">Matthew Butt</rs> for assistance with molecular movie preparation. Finally, we thank members of the <rs type="institution">Molecular Cell Biology of Autophagy lab</rs> for helpful discussions of the work as it was being undertaken.</p></div>
+<div><head>Disclosure statement</head><p>No potential conflict of interest was reported by the author(s).</p></div>
+			</div>
+			<div type="funding">
+<div><p>Ostrich Struthio camelus australis Flycatcher_O-cds-ENSFALT00000004408 ENSFALP00000004385 Collared flycatcher Ficedula albicollis Kakapo XP_030342785.1 Kakapo Strigops habroptila Goose-ENSABRG00000000296_cds ENSABRP00000000260 Pink-footed goose Anser brachyrhynchus Chicken_A ENSGALP00010031034 Chicken Gallus gallus Central_bearded_dragon_A ENSPVIP00000029031 Central bearded dragon Pogona vitticeps Eastern_fence_lizard XP_042317609.1 Eastern fence lizard Sceloporus undulatus Brown-spotted_pit_viper XP_015672179.1 Brown-spotted pit viper Protobothrops mucrosquamatus Burmese_python XP_007419864.1 Burmese python Python bivittatus Corn_snake_XP_034289648.1 XP_034289648.1 Corn snake Pantherophis guttatus Komodo_dragon-XP_044294227.1 <rs type="programName">XP_044294227.1 Komodo dragon Varanus komodoensis Townsend's_least_gecko XP_048341084.1 Townsend</rs>'s least gecko Sphaerodactylus townsendi Gekko-XP_015280563.1 XP_015280563.1 <rs type="programName">Gekko Gekko japonicus Sand_lizard XP_033016151.1 Sand lizard Lacerta agilis Wall_lizard_A ENSPMRP00000028251 Wall lizard Podarcis</rs> muralis</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The work was supported by the <rs type="funder">Cancer Research UK</rs> [CC2058]; <rs type="funder">Cancer Research UK</rs> [CC2134]; <rs type="funder">European Research Council</rs> [788708]; <rs type="funder">Medical Research Council</rs> [CC2058]; <rs type="funder">Medical Research Council</rs> [<rs type="grantNumber">CC2134</rs>]; <rs type="funder">Wellcome Trust</rs> [<rs type="grantNumber">CC2134</rs>]; <rs type="funder">Wellcome Trust</rs> [<rs type="grantNumber">CC2058</rs>].</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_hSrVaCP">
+					<orgName type="program" subtype="full">XP_044294227.1 Komodo dragon Varanus komodoensis Townsend&apos;s_least_gecko XP_048341084.1 Townsend</orgName>
+				</org>
+				<org type="funding" xml:id="_MbumVJj">
+					<orgName type="program" subtype="full">Gekko Gekko japonicus Sand_lizard XP_033016151.1 Sand lizard Lacerta agilis Wall_lizard_A ENSPMRP00000028251 Wall lizard Podarcis</orgName>
+				</org>
+				<org type="funding" xml:id="_NPU7tvB">
+					<idno type="grant-number">CC2134</idno>
+				</org>
+				<org type="funding" xml:id="_bjhBdb4">
+					<idno type="grant-number">CC2134</idno>
+				</org>
+				<org type="funding" xml:id="_2XJVzCU">
+					<idno type="grant-number">CC2058</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Autophagosome formation from membrane compartments enriched in phosphatidylinositol 3-phosphate and dynamically connected to the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Axe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manifava</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.200803137</idno>
+		<idno type="PMID">18725538</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Bio</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="685" to="701" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The role of Atg proteins in autophagosome formation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mizushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshimori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohsumi</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-cellbio-092910-154005</idno>
+		<idno type="PMID">21801009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Cell Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="107" to="132" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Autophagosome biogenesis: from membrane growth to closure</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Melia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Lystad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Simonsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.202002085</idno>
+		<idno type="PMID">32357219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Bio</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Emerging roles of ATG proteins and membrane lipids in autophagosome formation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Tooze</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41421-020-0161-3</idno>
+		<idno type="PMID">32509328</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Discov</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">ATG2 transports lipids to promote autophagosome biogenesis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Valverde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Boggavarapu</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201811139</idno>
+		<idno type="PMID">30952800</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Bio</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="1787" to="1798" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Structure, lipid scrambling activity and role in autophagosome formation of ATG9A</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Kinch</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41594-020-00520-2</idno>
+		<idno type="PMID">33106659</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1194" to="1201" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Levine TP Sequence analysis and structural predictions of lipid transfer bridges in the repeating beta groove (RBG) superfamily reveal past and present domain variations affecting form, function and interactions of VPS13, ATG2, SHIP164, Hobbit and tweek</title>
+		<idno type="DOI">10.1177/25152564221134328</idno>
+		<idno type="PMID">36571082</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Contact</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">ATG9A and ATG2A form a heteromeric complex essential for autophagosome formation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Chiduza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Maslen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2022.10.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="4324" to="4339" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Atg9 is a lipid scramblase that mediates autophagosomal membrane expansion</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matoba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kotani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41594-020-00518-w</idno>
+		<idno type="PMID">33106658</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1185" to="1193" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Reinisch KM Inter-organelle lipid transfer: a channel model for Vps13 and chorein-N motif proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lees</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ceb.2020.02.008</idno>
+		<idno type="PMID">32213462</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="66" to="71" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">An alliance between lipid transfer proteins and scramblases for membrane expansion</title>
+		<author>
+			<persName><forename type="first">Jcm</forename><surname>Holthuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Menon</surname></persName>
+		</author>
+		<idno type="DOI">10.12703/r-01-0000015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fac Rev</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A model for a partnership of lipid transfer proteins and scramblases in membrane expansion and organelle biogenesis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghanbarpour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Valverde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Melia</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.2101562118</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<date type="published" when="2021">2021. 2101562118</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Pubmed PMID</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">De novo phosphatidylcholine synthesis is required for autophagosome membrane formation and maintenance during autophagy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andrejeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15548627.2019.1659608</idno>
+		<idno type="PMID">31517566</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1044" to="1060" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">De novo lipogenesis fuels adipocyte autophagosome and lysosome membrane dynamics</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Rowland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guilherme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Henriques</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-023-37016-8</idno>
+		<idno type="PMID">36914626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1362</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Starvation and ULK1-dependent cycling of mammalian Atg9 between the TGN and endosomes</title>
+		<author>
+			<persName><forename type="first">Arj</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eyw</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.03172</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="3888" to="3900" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Dynamic and transient interactions of Atg9 with autophagosomes, but not membrane integration, are required for autophagy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Razi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Dooley</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.e11-09-0746</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1860" to="1873" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">ATG9A shapes the forming autophagosome through Arfaptin 2 and phosphatidylinositol 4-kinase IIIβ</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Judith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hbj</forename><surname>Jefferies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boeing</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201901115</idno>
+		<idno type="PMID">30917996</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Bio</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="1634" to="1652" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Reconstitution of autophagosome nucleation defines Atg9 vesicles as seeds for membrane formation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sawa-Makarska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Coudevylle</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaz7714</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Atg9 vesicles are an important membrane source during early steps of autophagosome formation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kakuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Watanabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201202061</idno>
+		<idno type="PMID">22826123</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Bio</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="219" to="233" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Temporal analysis of recruitment of mammalian ATG proteins to the autophagosome formation site</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Koyama-Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Itakura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<idno type="DOI">10.4161/auto.25529</idno>
+		<idno type="PMID">23884233</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1491" to="1499" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Endothelial nitric-oxide synthase antisense (NOS3AS) gene encodes an autophagy-related protein (APG9-like2) highly expressed in trophoblast</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Carson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Caniggia</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M413957200</idno>
+		<idno type="PMID">15755735</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="18283" to="18290" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">An atlas of the protein-coding genes in the human, pig, and mouse brain</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sjöstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fagerberg</surname></persName>
+		</author>
+		<idno type="PMID">32139519</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">367</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Atg9b deficiency suppresses autophagy and potentiates endoplasmic reticulum stress-associated hepatocyte apoptosis in Hepatocarcinogenesis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.7150/thno.18225</idno>
+		<idno type="PMID">28740555</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Theranostics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2325" to="2338" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Aging is associated with a decline in Atg9b-mediated autophagosome formation and appearance of enlarged mitochondria in the heart</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Moyzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lampert</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/acel.13187</idno>
+		<idno type="PMID">32627317</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aging Cell</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">ASCL2 maintains stemness phenotype through ATG9B and sensitizes gliomas to autophagy inhibitor</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/advs.202105938</idno>
+		<idno type="PMID">35882624</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2105938</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Human papillomavirus 16E6/E7 activates autophagy via Atg9B and LAMP1 in cervical cancer cells</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tingting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shizhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Songfa</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cam4.2351</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="4404" to="4416" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">PVS: a web server for protein sequence variability analysis tuned to facilitate conserved epitope discovery</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garcia-Boronat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Diez-Rivero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Reinherz</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkn211</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Atg9A trafficking through the recycling endosomes is required for autophagosome formation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Imai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fujita</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.196196</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="3781" to="3791" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><surname>Popovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dikic</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/embr.201337995</idno>
+		<idno type="PMID">24603492</idno>
+	</analytic>
+	<monogr>
+		<title level="m">TBC1D5 and the AP2 complex regulate ATG9 trafficking and initiation of autophagy</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="392" to="401" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">AP-4 mediates export of ATG9A from the trans -Golgi network to promote autophagosome formation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mattera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1717327114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="10697" to="E10706" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">AP-4 vesicles contribute to spatial control of autophagy via RUSC-dependent peripheral delivery of ATG9A</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Itzhak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Edgar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-06172-7</idno>
+		<idno type="PMID">30262884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3958</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Regulation of mATG9 trafficking by src-and ULK1-mediated phosphorylation in basal and starvation-induced autophagy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="184" to="201" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1038/cr.2016.146</idno>
+		<idno type="PMID">27934868</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Structural basis for ATG9A recruitment to the ULK1 complex in mitophagy initiation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Lam</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.adg2997</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Adv</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Metamorphic proteins at the basis of human autophagy initiation and lipid transfer</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lugarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>David</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2023.04.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="2077" to="2090" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">DeepEMhancer: a deep learning solution for cryo-EM volume post-processing</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sanchez-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gomez-Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cuervo</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s42003-021-02399-1</idno>
+		<idno type="PMID">34267316</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">874</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Structure of human ATG9A, the only transmembrane protein of the core autophagy machinery</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Guardia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lian</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2020.107837</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">107837</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Subnanometer resolution cryo-EM structure of Arabidopsis thaliana ATG9</title>
+		<author>
+			<persName><forename type="first">Ltf</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jsk</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15548627.2019.1639300</idno>
+		<idno type="PMID">31276439</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="575" to="583" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Characterisation of molecular motions in cryo-EM single-particle data by multi-body refinement in RELION</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kimanius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lindahl</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.36861</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">36861</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Highly accurate protein structure prediction for the human proteome</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tunyasuvunakool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03828-1</idno>
+		<idno type="PMID">34293799</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="page" from="590" to="596" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">a protein-small molecule docking web service based on EADock DSS</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grosdidier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zoete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Michielin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Swissdock</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkr366</idno>
+		<idno type="PMID">21624888</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="270" to="W277" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Reconstitution of proteoliposomes for phospholipid scrambling and nonselective channel assays</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Falzone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Accardi</surname></persName>
+		</author>
+		<idno type="PMID">32112325</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">2127</biblScope>
+			<biblScope unit="page" from="207" to="225" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The autophagic membrane tether ATG2A transfers lipids between membranes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Otomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Otomo</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.45777</idno>
+		<idno type="PMID">31271352</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Molecular conservation of marsupial and eutherian placentation and lactation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Guernsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Chuong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cornelis</surname></persName>
+		</author>
+		<idno type="PMID">28895534</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Cantor RS Lipid composition and the lateral pressure profile in Bilayers</title>
+		<idno type="DOI">10.1016/S0006-3495(99)77415-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="2625" to="2639" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Lateral pressure profile, spontaneous curvature frustration, and the incorporation and conformation of proteins in membranes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.107.107938</idno>
+		<idno type="PMID">17704167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="3884" to="3899" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Atg9 interactions via its transmembrane domains are required for phagophore expansion during autophagy</title>
+		<author>
+			<persName><forename type="first">Chumpen</forename><surname>Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gómez-Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verlhac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/15548627.2022.2136340</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1459" to="1478" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">eIF5A promotes translation of polyproline motifs</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B-S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Woolstenhulme</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2013.04.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="35" to="45" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Database resources of the national center for biotechnology information</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Sayers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Brister</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="20" to="D26" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cunningham</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">D988-D995</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Allen</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">D988-D995</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allen</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">D988-D995</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<date type="published" when="2022">2022. 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">MUSCLE: multiple sequence alignment with high accuracy and high throughput</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Edgar</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkh340</idno>
+		<idno type="PMID">15034147</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1792" to="1797" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">MAFFT multiple sequence alignment software version 7: improvements in performance and usability</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Katoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Standley</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/mst010</idno>
+		<idno type="PMID">23329690</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="772" to="780" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Jalview version 2 -a multiple sequence alignment editor and analysis workbench</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Procter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dma</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp033</idno>
+		<idno type="PMID">19151095</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1189" to="1191" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">InterPro in 2022</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Paysan-Lafosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chuguransky</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkac993</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="418" to="D427" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies</title>
+		<author>
+			<persName><forename type="first">L-T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Haeseler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msu300</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="268" to="274" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">ModelFinder: fast model selection for accurate phylogenetic estimates</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalyaanamoorthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Q</forename><surname>Minh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tkf</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.4285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="587" to="589" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Dendroscope 3: an interactive tool for rooted phylogenetic trees and networks</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Huson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scornavacca</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/sysbio/sys062</idno>
+		<idno type="PMID">22780991</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Biol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1061" to="1067" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">MotionCor2: anisotropic correction of beam-induced motion for improved cryo-electron microscopy</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Palovcak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Armache</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="331" to="332" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1038/nmeth.4193</idno>
+		<idno type="PMID">28362437</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Real-time CTF determination and correction</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gctf</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsb.2015.11.003</idno>
+		<idno type="PMID">26592709</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">SPHIRE-crYOLO is a fast and accurate fully automated particle picker for cryo-EM</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Merino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stabrin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s42003-019-0437-z</idno>
+		<idno type="PMID">31240256</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">218</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Punjani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rubinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Fleet</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.4169</idno>
+		<idno type="PMID">28165473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="290" to="296" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Addressing preferred specimen orientation in single-particle cryo-EM through tilting</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Z</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.4347</idno>
+		<idno type="PMID">28671674</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="793" to="796" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">geometrically optimized CTF determination for single-particle cryo-EM</title>
+		<author>
+			<persName><surname>Su M Goctf</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsb.2018.11.012</idno>
+		<idno type="PMID">30496818</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="22" to="29" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Optimal Determination of Particle Orientation, Absolute Hand, and Contrast Loss in Single-particle Electron Cryomicroscopy</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Henderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2003.07.013</idno>
+		<idno type="PMID">14568533</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">333</biblScope>
+			<biblScope unit="page" from="721" to="745" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Prevention of overfitting in cryo-EM structure determination</title>
+		<author>
+			<persName><forename type="first">Shw</forename><surname>Scheres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="853" to="854" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1038/nmeth.2115</idno>
+		<idno type="PMID">22842542</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Multi-body refinement of cryo-EM images in RELION</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shw</forename><surname>Scheres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Methods in molecular biology</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Walker</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Totowa, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Humana Press Inc</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="145" to="160" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">implementation of a Bayesian approach to cryo-EM structure determination</title>
+		<author>
+			<persName><forename type="first">Shw</forename><surname>Scheres</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Relion</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="519" to="530" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1016/j.jsb.2012.09.006</idno>
+		<idno type="PMID">23000701</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">UCSF Chimeraa visualization system for exploratory research and analysis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Pettersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Goddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.20084</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Chem</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1605" to="1612" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Coot: model-building tools for molecular graphics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowtan</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S0907444904019158</idno>
+		<idno type="PMID">15572765</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Biol Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2126" to="2132" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">MolProbity: all-atom structure validation for macromolecular crystallography</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Arendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Headd</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S0907444909042073</idno>
+		<idno type="PMID">20057044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Biol Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="12" to="21" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Real-space refinement in PHENIX for cryo-EM and crystallography</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Afonine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Read</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S2059798318006551</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="531" to="544" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">ConSurf 2016: an improved methodology to estimate and visualize evolutionary conservation in macromolecules</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ashkenazy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="344" to="W350" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1093/nar/gkw408</idno>
+		<idno type="PMID">27166375</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

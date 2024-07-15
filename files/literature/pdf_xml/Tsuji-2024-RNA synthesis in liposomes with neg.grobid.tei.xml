@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-02-21">21 February 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Gakushi</forename><surname>Tsuji</surname></persName>
+							<email>gakushi@u-fukui.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Applied Chemistry and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">University of Fukui</orgName>
+								<address>
+									<postCode>910-8507</postCode>
+									<settlement>Fukui</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Life Science Innovation Center</orgName>
+								<orgName type="institution">University of Fukui</orgName>
+								<address>
+									<postCode>910-8507</postCode>
+									<settlement>Fukui</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ayu</forename><surname>Shimomura</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Applied Chemistry and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">University of Fukui</orgName>
+								<address>
+									<postCode>910-8507</postCode>
+									<settlement>Fukui</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shota</forename><surname>Fukuoka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Applied Chemistry and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">University of Fukui</orgName>
+								<address>
+									<postCode>910-8507</postCode>
+									<settlement>Fukui</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masaya</forename><surname>Oki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Applied Chemistry and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">University of Fukui</orgName>
+								<address>
+									<postCode>910-8507</postCode>
+									<settlement>Fukui</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Life Science Innovation Center</orgName>
+								<orgName type="institution">University of Fukui</orgName>
+								<address>
+									<postCode>910-8507</postCode>
+									<settlement>Fukui</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-21">21 February 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5D1F717369E1DED241A24A8094E3C87A</idno>
+					<idno type="DOI">10.1266/ggs.23-00297</idno>
+					<note type="submission">Received 17 October 2023, accepted 2 January 2024; J-STAGE Advance</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>liposome</term>
+					<term>freeze-thaw</term>
+					<term>inner content mixing</term>
+					<term>RNA synthesis</term>
+					<term>flow cytometry</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Cell-sized liposomes, called giant unilamellar vesicles (GUVs), have been used as compartments in artificial cell models to encapsulate various biochemical reactions including RNA replication, protein synthesis <ref type="bibr">(Noireaux et al., 2005)</ref> and RNA self-replication <ref type="bibr" target="#b10">(Kita et al., 2008)</ref>. It has also been repor ted that GU Vs can undergo morphological changes by synthesized tubulin <ref type="bibr" target="#b7">(Hayashi et al., 2016)</ref> and actin filaments <ref type="bibr" target="#b29">(Tsai and Koenderink, 2015;</ref><ref type="bibr" target="#b27">Tanaka et al., 2018)</ref>, and photosynthesis by synthesized bacteriorhodopsin to promote protein synthesis <ref type="bibr" target="#b1">(Berhanu et al., 2019)</ref>, in GUVs. In addition, GUVs are useful for applying directed evolution of proteins and rRNA using random mutagenesis of DNA, including β-glucuronidase <ref type="bibr" target="#b16">(Nishikawa et al., 2012)</ref>, α-hemolysin <ref type="bibr" target="#b6">(Fujii et al., 2014)</ref> and 16S rRNA <ref type="bibr" target="#b15">(Murase et al., 2018)</ref>. Although many biochemical reactions have been reconstituted in GUVs as an artificial cell model, internal biochemical reactions are not constitutive because substrates, including amino acids and nucleic acids, cannot pass through the lipid membrane. To solve this problem, some researchers developed the method of supplying small molecules via pores in the liposome membrane using pore-forming proteins such as α-hemolysin <ref type="bibr" target="#b25">(Song et al., 1996;</ref><ref type="bibr" target="#b5">Fujii et al., 2013)</ref> and artificial transmembrane proteins <ref type="bibr" target="#b34">(Xu et al., 2020)</ref>, as well as supplying macromolecules via pores formed by streptolysin O <ref type="bibr" target="#b3">(Duncan and Schlegel, 1975;</ref><ref type="bibr" target="#b2">Bhakdi et al., 1985;</ref><ref type="bibr" target="#b23">Sekiya et al., 2007;</ref><ref type="bibr" target="#b31">Tsuji et al., 2021)</ref>. However, pores caused GUV rupture <ref type="bibr" target="#b31">(Tsuji et al., 2021)</ref>, and a concentration gradient is required to transport and deliver substrates and enzymes through pores from the RNA synthesis in liposomes with negatively charged lipids after fusion via freezing-thawing</p><p>The freezing-thawing (F/T) method for fusing giant unilamellar vesicles (GUVs) can provide substrates, enzymes and membrane material simultaneously and repetitively, and is useful for constructing a recursive model of an artificial cell. However, enzymatic efficiency after F/T is reduced due to rupture of the GUVs and leakage of the inner solution during F/T. Previously, liposomes composed of 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) and a negatively charged lipid, such as 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-(1'-rac-glycerol) (POPG), showed lower rupture and leakage rates during F/T. In this study, we investigated the effect of POPG on the supply of components required for T7 RNA polymerase reactions via F/T by flow cytometry analysis. We found that the addition of POPG to liposome preparations reduced the efficiency of RNA synthesis. In addition, DNA was concentrated during F/T and RNA synthesis occurred after F/T in liposomes composed of POPC and POPG. Our results provide new insights for more efficient supply of substrates and enzymes by the F/T method, thereby increasing the utility of the F/T method for the construction of recursive bioreactors.</p><p>outside to the inside.</p><p>Another way to supply substrates, including enzymes, is by vesicle fusion, which does not require a concentration gradient to supply molecules. Several types of methods for fusion between liposomes have been reported, including peptide-induced fusion <ref type="bibr" target="#b19">(Nomura et al., 2004;</ref><ref type="bibr" target="#b14">Mora et al., 2020)</ref>, DNA-induced fusion <ref type="bibr" target="#b8">(Huebner et al., 1999;</ref><ref type="bibr" target="#b13">Maruyama et al., 2008)</ref>, electrofusion <ref type="bibr" target="#b28">(Terasawa et al., 2012;</ref><ref type="bibr" target="#b26">Sunami et al., 2018)</ref>, pH-jump-induced fusion and fission <ref type="bibr" target="#b11">(Kurihara et al., 2015)</ref>, and freeze-thaw-induced fusion and fission <ref type="bibr" target="#b30">(Tsuji et al., 2016;</ref><ref type="bibr" target="#b12">Litschel et al., 2018)</ref>.</p><p>Initially, the freezing-thawing (F/T) method employed a higher proportion of content mixing between liposomes, but 50-70% of GUVs were ruptured and 50% of the inner solution leaked into the outer solution. In addition, five-fold more concentrated substrates were required for enzymatic activity in liposomes after F/T, probably due to the high leakage rate <ref type="bibr" target="#b30">(Tsuji et al., 2016)</ref>. To reduce leakage, it has been reported that liposomes composed of 1-palmitoyl-2oleoyl-sn-glycero-3-phospho-(1'-rac-glycerol) (POPG) and 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) (POPG liposomes) can prevent GUV rupture during F/ T and reduce inner solution leakage <ref type="bibr" target="#b24">(Shimomura et al., 2022)</ref>. However, it remains unknown whether enzyme and substrate delivery can be improved and enzymatic reactions activated in POPG liposomes after F/T.</p><p>In the present study, we focused on the supply of substrates a nd enzy mes required for the T7 R NA polymerase reaction by F/T of liposomes with or without POPG. First, we investigated the difference in the efficiency of T7 RNA polymerase reaction in liposomes possessing or lacking POPG. Next, we prepared nutrient liposomes that encapsulated all the components required for the T7 RNA polymerase reaction without template DNA, and DNA liposomes encapsulating DNA without the enzyme or NTPs. We then mixed these liposomes and evaluated GUV rupture during F/T in liposomes composed of POPC with or without POPG by flow cytometry (FCM) analysis. In addition, we stained RNA with SYBR Green II and analyzed mean fluorescence by FCM to evaluate whether RNA synthesis occurred after F/T. We found that transcription occurred in POPG liposomes and that the template DNA in POPG liposomes was condensed during F/T. Thus, we concluded that liposomes composed of POPC and POPG are a better compartment for substrate delivery via F/T.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head><p>RNA synthesis in negatively charged liposomes To i nvest igat e whet her l ipid c omposit ion c a n a f fec t biochemical reactions in liposomes, we used R NA synthesis with T7 RNA polymerase as a model biochemical reaction and analyzed the reaction efficiency by FCM and f luorescence microscopy. First, we determined the optimal DNA concentration in the liposome by preparing liposomes composed of POPC only by the water-in-oil transfer method, encapsulating different concentrations of template DNA and T7 RNA polymerase with all substrates of the reaction (Supplementary Fig. <ref type="figure" target="#fig_0">S1</ref>). To detect RNA, we added SYBR Green II to the outer solution after incubation for 0 or 2 h, placed the sample on ice for 15 min, and then replaced the outer solution to remove unreacted SYBR Green II molecules (Fig. <ref type="figure" target="#fig_0">1A</ref>). We found that the concentration of 1 nM template DNA in liposomes resulted in slightly higher green fluorescence compared to other conditions before the RNA synthesis reaction (Supplementary Fig. <ref type="figure" target="#fig_0">S1</ref>, 1 nM condition), because the template DNA can interact with SYBR Green II and be detected by FCM, due to the higher concentration of DNA (Supplementary Fig. <ref type="figure" target="#fig_0">S1</ref>, 1 nM without enzyme condition).</p><p>In addition, RNA synthesis was barely detected by FCM at concentrations of 10 pM and 1 pM template DNA (Supplementary Fig. <ref type="figure" target="#fig_0">S1</ref>).</p><p>Next, liposomes containing POPC and the negatively charged lipid POPG were prepared with POPG proportions of 10%, 30% and 50% (w/w) to investigate the effect of negatively charged lipids on the biochemical reaction.</p><p>After incubation of the prepared liposomes, followed by SYBR Green II staining, we analyzed light scattering and green fluorescence by FCM. To compare the proportion of GUV numbers in total particle numbers (GUV proportion), we measured light scattering of liposome samples by FCM (Supplementary Fig. <ref type="figure">S2A</ref>) and determined GUVs as described in previous studies <ref type="bibr" target="#b17">(Nishimura et al., 2009;</ref><ref type="bibr" target="#b9">Kajii et al., 2022)</ref>. We found that POPG liposomes had a slightly higher GUV proportion than that of liposomes composed of POPC only, which is consistent with another report <ref type="bibr" target="#b24">(Shimomura et al., 2022)</ref> (Supplementary Fig. <ref type="figure">S2B</ref>), while the morphology of the liposomes was similar under all conditions (Supplementary Fig. <ref type="figure">S2C</ref>). In addition, the level of green f luorescence was not increased in POPG 50% liposomes and was lower in POPG 10% and 30% liposomes than in liposomes composed of POPC alone (Fig. <ref type="figure" target="#fig_0">1B</ref> and<ref type="figure" target="#fig_0">1C</ref>). Furthermore, we found that SYBR Green II could accumulate on the membrane of POPG 50% liposomes, since the level of green fluorescence was higher in the POPG 50% liposomes before incubation than in the other conditions (Fig. <ref type="figure" target="#fig_0">1B</ref> and<ref type="figure" target="#fig_0">1C</ref>). These results indicated that POPG slightly inhibited the enzyme activity of T7 RNA polymerase. It has previously been reported that polyamines, including spermidine, which was used in this study, can enhance in vitro T7 RNA polymerase activity <ref type="bibr" target="#b4">(Frugier et al., 1994)</ref>. Since spermidine is positively charged under physiological pH conditions <ref type="bibr" target="#b33">(Weisell et al., 2010)</ref>, it can interact with the negatively charged lipid membrane and thus inhibit the RNA synthesis reaction. We concluded that while POPG inhibits RNA synthesis in liposomes, the T7 RNA polymerase reaction could work in liposomes as a model reaction.</p><p>RNA synthesis after liposome fusion via F/T in liposomes composed of POPC only It is difficult for liposomes to take up substrates from the outer solution through the lipid membrane because of the lack of pores in the membrane. Therefore, we investigated whether the T7 RNA polymerase reaction could occur after liposome fusion via F/T. First, we prepared two types of liposomes, one encapsulating all requirements for RNA synthesis except template DNA (nutrient liposomes) and the other encapsulating template DNA without NTPs or T7 RNA polymerase (DNA liposomes). We then mixed these liposomes, centrifuged them, and performed liposome fusion by F/T, followed by incubation at 37 °C, and stained the RNA with SYBR Green II (Fig. <ref type="figure">2A</ref>). We analyzed the GUV proportion before and after F/T, and after the RNA synthesis reaction (Fig. <ref type="figure">2B</ref> and Supplementary Fig. <ref type="figure">S3</ref>). Consistent with previous reports <ref type="bibr" target="#b30">(Tsuji et al., 2016;</ref><ref type="bibr" target="#b24">Shimomura et al., 2022)</ref>, the GUV proportion decreased during F/T (Fig. <ref type="figure">2B</ref>), and the number of particles in the region of forward scatter (FSC) higher than 10 5 decreased, indicating that large-sized liposomes were ruptured (Supplementary Fig. <ref type="figure">S3</ref>). In addition, no notable increase  of green f luorescence level was observed from dot plots (Fig. <ref type="figure">2C</ref>), and the mean level, which indicates the amount of RNA, did not increase during incubation after F/T (Fig. <ref type="figure">2D</ref>) compared with RNA synthesis in liposomes without F/T (Fig. <ref type="figure" target="#fig_0">1C</ref>). Moreover, we could not observe green fluorescent signals by fluorescence microscopy (Fig. <ref type="figure">2E</ref>).</p><note type="other">Figures Figure 1</note><p>Qβ replicase-mediated RNA replication was observed after F/T in liposomes composed of POPC only <ref type="bibr" target="#b30">(Tsuji et al., 2016)</ref>, although it required five-fold more concentrated substrates in the nutrient liposomes because the liposomes showed a higher rupture rate and a higher inner solution leakage ratio during F/T <ref type="bibr" target="#b30">(Tsuji et al., 2016;</ref><ref type="bibr">Shimomura et al., 2022)</ref>. This could be one of the reasons why T7 RNA polymerase showed lower synthesis efficiency despite twofold higher concentrations of encapsulated NTPs and T7 RNA polymerase. Therefore, we next investigated whether lower leakage in POPG liposomes, which were reported to have a lower rupture rate and a lower inner solution leakage ratio during F/T <ref type="bibr" target="#b24">(Shimomura et al., 2022)</ref>, could overcome this low efficiency of RNA synthesis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA synthesis after liposome fusion in POPG liposomes</head><p>To investigate whether the addition of POPG to the liposome membrane can promote RNA synthesis after liposome fusion by F/T, we prepared two liposome populations, nutrient liposomes and DNA liposomes, with POPC:POPG ratios of 9:1, 7:3, and 1:1 (w/ w), mixed the two populations, and performed F/T. We encapsulated 1 nM DNA in the DNA liposomes, as in the experiments in Fig. <ref type="figure">2</ref>. First, we found that while the GUV proportion was higher in the liposomes with POPG than in those composed of POPC alone, the GUV proportion decreased during F/T (Fig. <ref type="figure">3A</ref> and Supplementary Fig. <ref type="figure">S4</ref>). Nevertheless, the green fluorescence level increased during incubation after F/T (Fig. <ref type="figure">3B</ref>). Furthermore, we found that the mean levels of green fluorescence in the liposomes after F/T and before incubation (Fig. <ref type="figure">3B</ref>) were higher than the levels of encapsulation (Fig. <ref type="figure" target="#fig_0">1C</ref>, before incubation). It has been reported that liposomes ruptured under freezing conditions, the inner solution was released and mixed, and the liposomes then re-encapsulated the solution during the thawing step <ref type="bibr" target="#b21">(Peter and Schwille, 2023)</ref>. The encapsulation efficiency of DNA in anionic liposomes under the lyophilization method is low due to the negative charge of DNA <ref type="bibr" target="#b32">(Wang and Huang, 1987)</ref>.</p><p>To solve this problem, positively charged polyamines are widely used to condense DNA into polyplexes and achieve a higher encapsulation efficiency of DNA molecules in anionic liposomes <ref type="bibr" target="#b22">(Pinnapireddy et al., 2017)</ref>. Taking these observations together, a possible explanation for the higher green fluorescence after F/T and before incubation is that the template DNA interacted with spermidine, which is positively charged under this experimental condition, and partially formed a condensed polyplex structure, and thus was concentrated during the F/T process. Although it requires further investigation, we concluded that substrates of the T7 RNA polymerase reaction were efficiently supplied by F/T in liposomes containing POPG.</p><p>Next, we prepared liposomes with ATTO 633-DOPE to confirm by fluorescence microscopy that RNA synthesis occurred inside the liposomes, and found that green f luorescence was detected inside the membrane (Fig. <ref type="figure">3C</ref>). In addition, we found that the green f luorescence signal accumulated in the anionic POPG 30% and 50% liposome membranes, as well as the POPG 10% membrane (Fig. <ref type="figure">3C</ref>), and the green fluorescence intensity increased with POPG concentration, which was consistent with the FCM result (Fig. <ref type="figure">3B</ref>). Furthermore, the fluorescence intensity of POPG 50% liposomes before reaction was equivalent to that of POPG 30% liposomes after reaction (Fig. <ref type="figure">3B</ref>), perhaps because DNA strongly accumulated in the membrane, as suggested in Fig. <ref type="figure" target="#fig_0">1C</ref> and fluorescence microscopy images (Fig. <ref type="figure">3C</ref>). These results indicate that the inclusion of POPG in the membrane is effective in providing substrates for biochemical reactions via liposome fusion by F/T. We also investigated whether a lower concentration of template DNA would be sufficient for RNA synthesis after F/T. We prepared DNA liposomes containing 100 pM template DNA, instead of 1 nM, mixed them with nutrient liposomes and then subjected them to F/T. We found that the decrease in the GUV proportion was lower in liposomes composed of POPG 30% (Supplementary Fig. <ref type="figure">S5A</ref> and<ref type="figure">S5B</ref>). In addition, RNA synthesis was promoted in the POPG 30% liposomes (Supplementary Fig. <ref type="figure">S5C</ref>). Furthermore, the levels of f luorescence were higher in the liposomes after F/T, which was consistent with the experiments performed with 1 nM template DNA. These results indicated that GUV rupture and inner solution leakage was one of the reasons that RNA synthesis did not occur in liposomes composed of POPC alone (Fig. <ref type="figure">2D</ref>).</p><p>Finally, we investigated why GUV rupture was higher in liposomes encapsulating the RNA synthesis reaction than in those encapsulating f luorescent proteins, such as transferrin-Alexa 488 and 647, as reported previously <ref type="bibr" target="#b24">(Shimomura et al., 2022)</ref>. We hypothesized that an imbalance between the composition of the inner solution, which contains T7 RNA buffer and dithiothreitol (DTT), and the outer solution might cause GUV rupture. To test this, we suspended liposomes composed of POPG 10% and 30% in outer solution containing T7 RNA buffer and DTT, and performed F/T. We did not include POPG 50% liposomes in this experiment because they showed lower transcriptional efficiency than other preparations after F/ T (Fig. <ref type="figure">3B</ref>). We then analyzed FSC-SSC plots, and found that the decrease in GUV proportion was slightly lower in the condition of F/T with T7 RNA buffer and DTT (Fig. <ref type="figure">4A</ref> and Supplementary Fig. <ref type="figure">S6A</ref>) than in the condition of F/T without these components (Fig. <ref type="figure">3A</ref>), while the morphology of the liposomes was similar before and after F/ T (Supplementary Fig. <ref type="figure">S6B</ref>). These results indicated that the presence of the same reaction buffer inside and outside the liposomes was effective in preventing GUV rupture during F/T. However, the amount of RNA synthesized in liposomes fused in the outer solution with T7 RNA polymerase buffer and DTT was lower than that in the outer solution without T7 buffer (Fig. <ref type="figure">3B</ref> and Fig. <ref type="figure">4B</ref>).</p><p>These results indicate that T7 RNA polymerase buffer and DTT slightly ameliorate GUV rupture during F/T, while, contrary to our hypothesis, they inhibit RNA synthesis after F/ T. We concluded that the effect of POPG in preventing GUV rupture during F/T inhibits the efficiency of biochemical reactions in liposomes after fusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>M a t e r i a l s 1-P a l m i t o y l -2 -o l e o y l -s n -g l y c e r o -3phosphochol i ne (POPC) a nd 1-pa l m it oyl-2 -oleoylsn-glycero-3 -phospho-(1'-rac-glycerol) (POPG) were purchased from Avanti Polar Lipids (Alabaster, AL, USA). L iqu id pa ra f f i n (0. 8 6 -0. 8 9 g /m l at 2 0 °C) and chloroform were purchased from Wako (Osaka, Japan). ATTO 633-conjugated 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine (DOPE) was purchased from ATTO-TEC (Siegen, Germany). T7 RNA polymerase was purchased from Takara Bio (Shiga, Japan).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Liposome preparation and RNA synthesis in liposomes</head><p>The water-in-oil emulsion transfer method was described previously <ref type="bibr" target="#b20">(Pautot et al., 2003;</ref><ref type="bibr" target="#b30">Tsuji et al., 2016</ref><ref type="bibr" target="#b31">Tsuji et al., , 2021))</ref>. Briefly, POPC and POPG were dissolved in chloroform at 0.1 mg/μl, mixed with liquid paraffin to make a 5 mg/ml lipid solution, and heated at 80 °C for 30 min. The lipids were then mixed in specified ratios for each experiment. We added ATTO 633-DOPE to a final concentration of 5 μg/ml for f luorescence microscopy obser vation experiments. After mixing the lipid mixture, we added 20 μl inner solution (50 mM HEPES-KOH (pH 8.0), 350 mM potassium glutamate, 500 mM sucrose, 2 mM NTPs, 5 mM DTT, 1× T7 RNA polymerase buffer, T7 RNA polymerase and template DNA at the indicated concentrations) to 400 μl lipid mixture, mixed for 20 s on a vortex mixer, and tapped for 20 s. This mixing procedure was repeated three times. The resultant water-in-oil emulsion was incubated on ice for 10 min. Next, 400 μl of emulsion was gently overlaid on 200 μl of outer solution (50 mM HEPES-KOH, 350 mM potassium glutamate and 1 M glucose) in a new tube and incubated on ice for 10 min. This tube was centrifuged at 18,000 × g for 30 min at 4 °C. The liposome pellet was collected through a hole pierced in the bottom of the tube with a needle. The collected liposomes were centrifuged at 18,000 × g for 5 min. Finally, the liposome pellet was suspended in incubation buffer (50 mM HEPES-KOH and 1 M glucose). After liposome preparation, liposomes were incubated at 37 °C for 2 h for RNA synthesis. For fusion experiments, we prepared nutrient liposomes which encapsulated the inner solution with 2× concentrated NTPs and T7 RNA polymerase and without template DNA at the indicated condition, and prepared DNA liposomes encapsulating the inner solution without NTPs or T7 RNA polymerase.</p><p>Template DNA preparation Template DNA for the T7 RNA polymerase reaction in liposomes was prepared by two series of polymerase chain reaction (PCR) as follows.</p><p>First, a DNA encoding a ribosome binding site and LwCas13a was amplified from pC019 <ref type="bibr" target="#b0">(Abudayyeh et al., 2017)</ref> (Addgene plasmid #91909) by PCR using primers 1 and 3 (described below). The amplified fragments were then used for PCR amplification of the template DNA encoding the T7 promoter, ribosome binding site and LwCas13a using primers 2 and 3. The total size of the amplified fragment was 3,551 bp as described previously <ref type="bibr" target="#b9">(Kajii et al., 2022)</ref>. Primer 1: 5'-AAGGAGATATACCAATGAAAGTGACCAAG GTCGACGGCA-3' Primer 2: 5'-ACATGGATCCGAAATTAATACGACTCACT ATAGGGAGACCACAA CGGTTTCCCTCTAGAAATAATTTTGTTTAACTTTAAG AAGGAGATATACCA-3' Primer 3: 5'-GCTAGGATCCTAGTTATTCATTATTCCAG GGCCTTGTACTCGAAC ATCACT-3'</p><p>Freezing and thawing for liposome fusion Liposome fusion by F/T was described in previous reports <ref type="bibr" target="#b30">(Tsuji et al., 2016;</ref><ref type="bibr" target="#b12">Litschel et al., 2018)</ref>. Brief ly, nutrient liposome and DNA liposome suspensions with equal numbers of liposome particles were mixed and then centrifuged at 18,000 × g for 10 min at 4 °C. The liposome suspension was then frozen in liquid nitrogen for 5 min, thawed at room temperature for 10 min, resuspended, and centrifuged at 18,000 × g for 5 min at 4 °C. The supernatant was gently replaced with the same volume of incubation buffer.</p><p>Flow cytometry Each liposome preparation was analyzed by FCM on a FACS Canto II (BD Biosciences, San Jose, CA, USA). Forward scatter (FSC) and side scatter (SSC) were measured to collect the liposome data and the GUV region was determined as previously reported <ref type="bibr" target="#b17">(Nishimura et al., 2009;</ref><ref type="bibr" target="#b9">Kajii et al., 2022)</ref>. We then measured the fluorescence of SYBR Green II in the liposome fusion experiment. SYBR Green II was excited with a 488-nm semiconductor laser, and the emission was detected with a 530 ± 15-nm band-pass filter (FITC-A).</p><p>Fluorescence microscopy Images of liposomes were obtained using an Axio Observer Z1 microscope (Carl Zeiss) equipped with a 63× Plan-Neofluar objective lens (NA = 1.4). SYBR Green II was excited with an LED (470 nm) and measured with a detector set to a 525 ± 25-nm band-pass filter. ATTO 633-DOPE was excited with an LED (590 nm) and measured with a detector set to a 629 ± 31-nm band-pass filter.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Effect of addition of POPG on RNA synthesis in liposomes. (A) Schematic representation of the experimental conditions. (B) Liposomes were prepared with the indicated proportion of POPG and incubated at 37 °C for 0 or 2 h, after which SYBR Green II fluorescence and forward light scatter were measured by FCM. (C) Mean SYBR Green II fluorescence of GUVs for three independent experiments is shown. Error bars indicate standard error (n = 3).</figDesc><graphic coords="3,58.61,47.31,484.29,698.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 Fig. 2 .</head><label>22</label><figDesc>Figure 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 Fig. 3 .</head><label>33</label><figDesc>Figure 3</figDesc><graphic coords="5,66.41,284.67,484.35,698.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 Fig. 4 .</head><label>44</label><figDesc>Figure 4</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>G. T. designed the experiments; G. T., A. S. and S. F. performed and analyzed the experimental data; and G. T. and M. O. wrote the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICTS OF INTEREST</head><p>The authors declare no conflicts of interest.</p><p>This research was supported by grants from the Life Science Innovation Center of University of Fukui, Grant numbers LSI22203 and LSI23201.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">RNA targeting with CRISPR-Cas13</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">O</forename><surname>Abudayyeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gootenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Essletzbichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Joung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Belanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Verdine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B T</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kellner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Regev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="page" from="280" to="284" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A r tif icial photosynthetic cell producing energy for protein synthesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Berhanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuruma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1325</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mechanism of membrane damage by streptolysin-O</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhakdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tranum-Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sziegoleit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="52" to="60" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effect of streptolysin O on erythrocyte membranes, liposomes, and lipid dispersions. A protein-cholesterol interaction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schlegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="160" to="174" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Synthetic polyamines stimulate in vitro transcription by T7 RNA polymerase</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frugier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Florentz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Hosseini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Lehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Giegé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2784" to="2790" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">In vitro evolution of α-hemolysin using a liposome display</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kazuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="16796" to="16801" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Liposome display for in vitro selection and evolution of membrane proteins</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kazuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1578" to="1591" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reversible morphological control of tubulin-encapsulating g iant liposomes by hydrostatic pressure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nishiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kazayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Toyota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takiguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="3794" to="3802" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Lipid-DNA complex formation: reorganization and rupture of lipid vesicles in the presence of DNA as observed by cryoelectron microscopy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huebner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Battersby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Grimm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cevc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="3158" to="3166" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of sugars on giant unilamellar vesicle preparation, fusion, PCR in liposomes, and pore formation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kajii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shimomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Higashide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsuji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="8871" to="8880" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Replication of genetic information with self-encoded replicase in liposomes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hosoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ichihashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsukada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Urabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2403" to="2410" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A recursive vesicle-based model protocell with a primitive model cell cycle</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kurihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Okura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Toyota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugawara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8352</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Freezethaw cycles induce content exchange between cell-sized lipid vesicles</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Litschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ganzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Movinkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heymann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mutschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schwille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New J. Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">55008</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Directed aggregation and fusion of lipid vesicles induced by DNA-surfactants</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maruyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hiraki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kemori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf. B Biointerfaces</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="119" to="124" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Controlled peptide-mediated vesicle fusion assessed by simultaneous dual-colour time-lapsed f luorescence microscopy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J V</forename><surname>Kolck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rossen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Š</forename><surname>Pokorná</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koukalová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Šachl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3087</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">In vitro evolution of unmodified 16S rRNA for simple ribosome reconstitution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Murase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ichihashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Synth. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="576" to="583" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Construction of a gene screening system using giant unilamellar liposomes and a f luorescenceactivated cell sorter</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ichihashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="5017" to="5024" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Population analysis of structural properties of giant liposomes by flow cytometry</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hosoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Toyota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujinami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Oguma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="10439" to="10443" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Toward an artificial cell based on gene expression in vesicles</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Noireau X</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bar-Ziv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Salman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Libchaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="P8" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microscopic observations reveal that fusogenic peptides induce liposome shrinkage prior to membrane fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Inaba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nagata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hotani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takiguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="3420" to="3425" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Production of unilamellar vesicles using an inverted emulsion</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pautot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Frisken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2870" to="2879" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Elucidating the mechanism of freeze-thaw driven content mixing between protocells</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schwille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSystemsChem</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2023">2023. 202300008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Composite liposome-PEI/nucleic acid lipopolyplexes for safe and efficient gene delivery and gene knockdown</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Pinnapireddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Duse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Strehlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bakowsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf. B Biointerfaces</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="93" to="101" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Ultrastructural analysis of the membrane insertion of domain 3 of streptolysin O</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sekiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tatsuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sakakura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nagamune</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Infect</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1341" to="1350" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effects of charged lipids on giant unilamellar vesicle fusion and inner content mixing via freeze-thawing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shimomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsuji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="2022">2022. 202200550</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Structure of staphylococcal α-hemolysin, a heptameric transmembrane pore</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Hobaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shustak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cheley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bayley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gouaux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="1859" to="1866" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Flow cytometric analysis to evaluate morphological changes in giant liposomes as observed in electrofusion experiments</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="88" to="96" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Repetitive stretching of g iant liposomes utilizing the nematic alignment of confined actin</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Phys</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Coupling of the fusion and budding of giant phospholipid vesicles containing macromolecules</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Terasawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="5942" to="5947" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Shape control of lipid bilayer membranes by confined actin bundles</title>
+		<author>
+			<persName><forename type="first">F.-C</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Koenderink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="8834" to="8847" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sustainable proliferation of liposomes compatible with inner RNA replication</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="590" to="595" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Exchange of proteins in liposomes through streptolysin O pores</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sunami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ichihashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1966" to="1973" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">pH-sensitive immunoliposomes mediate target-cell-specif ic deliver y and controlled expression of a foreign gene in mouse</title>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="7851" to="7855" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Synthesis and biological characterization of novel charge-deficient spermine analogues</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weisell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Hyvönen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Häkkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Grigorenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pietilä</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lampinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Kochetkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alhonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vepsäläinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Keinänen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="5738" to="5748" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Computational design of transmembrane pores</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Gamal El-Din</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Uyeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">585</biblScope>
+			<biblScope unit="page" from="129" to="134" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

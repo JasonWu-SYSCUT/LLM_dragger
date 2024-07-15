@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Glutathione-dependent depalmitoylation of phospholemman by peroxiredoxin 6</title>
+				<funder ref="#_vAufHDh">
+					<orgName type="full">British Heart Foundation</orgName>
+				</funder>
+				<funder ref="#_2Fmxzup #_t4sy4zR #_3NyA5xh">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-17">January 17, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jacqueline</forename><surname>Howie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Cardiovascular and Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cellular and Systems Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lindsay</forename><forename type="middle">B</forename><surname>Tulloch</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cellular and Systems Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elaine</forename><surname>Brown</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Cardiovascular and Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Cardiovascular and Metabolic Medicine and Sciences</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Niall</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+							<email>n.fraser@dundee.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cellular and Systems Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><surname>Fuller</surname></persName>
+							<email>will.fuller@glasgow.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Cardiovascular and Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Louise</forename><surname>Reilly</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cellular and Systems Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fiona</forename><forename type="middle">B</forename><surname>Ashford</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cellular and Systems Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><surname>Kennedy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Cardiovascular and Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cellular and Systems Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Krzysztof</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Cardiovascular and Metabolic Health</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Division of Cellular and Systems Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Dundee</orgName>
+								<address>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Karen</forename><forename type="middle">L</forename><surname>Aughton</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Cardiovascular and Metabolic Medicine and Sciences</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jason</forename><forename type="middle">K C</forename><surname>Mak</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Cardiovascular and Metabolic Medicine and Sciences</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Glutathione-dependent depalmitoylation of phospholemman by peroxiredoxin 6</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-17">January 17, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">68FBD7E014330D6A1106E8F9CC8224EC</idno>
+					<idno type="DOI">10.1016/j.celrep.2024.113679</idno>
+					<note type="submission">Received: September 22, 2022 Revised: November 2, 2023 Accepted: January 1, 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-12T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Highlights d Identify peroxiredoxin 6 (Prdx6) as a thioesterase d Protein depalmitoylation by Prdx6 occurs via its catalytic cysteine d Phospholemman depalmitoylation by Prdx6 is glutathione dependent d Prdx6 thioesterase activity confers redox sensitivity on the Na pump</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In brief</head><p>The activities and cellular localizations of membrane proteins are frequently controlled by palmitoylation, a reversible covalent post-translational modification. Here, Howie et al. have shown that peroxiredoxin 6 is a novel thioesterase that removes palmitate from the acylated protein phospholemman in a glutathionedependent mechanism, conferring redox sensitivity on Na pump activity.</p><p>Glutathione-dependent depalmitoylation of phospholemman by peroxiredoxin 6</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>The reversible acylation of cysteine residues of proteins via a thioester bond between the sulfhydryl side chain and the fatty acid palmitate (palmitoylation) regulates membrane association, subcellular location, trafficking, turnover rate, and enzymatic activity of both peripheral and integral membrane proteins. <ref type="bibr" target="#b0">1</ref> Palmitoylation is achieved enzymatically via the activity of a family of transferase enzymes that have a zinc-finger-containing Asp-His-His-Cys (zDHHC) motif in their active site. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> To date, relatively few palmitate-removing thioesterases have been identified: known depalmitoylases include acyl-protein thioesterase 1 (APT1), <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> APT2, <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b5">6</ref> palmitoyl-protein thioesterase 1 (PPT1), <ref type="bibr" target="#b6">7</ref> and certain members of the ab-hydrolase (ABHD) serine hydrolase family of enzymes. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> The discoveries that ABHD17 depalmitoylates N-ras <ref type="bibr" target="#b9">10</ref> and post-synaptic density protein 95 (PSD-95) <ref type="bibr" target="#b8">9</ref> and that ABHD10 depalmitoylates Prdx5 <ref type="bibr" target="#b10">11</ref> suggest that the breadth of depalmitoylating enzymes is much greater than has been appreciated to date. Although the palmitoylation of most proteins turns over slowly, some proteins are rapidly palmitoylated and depalmitoylated. <ref type="bibr" target="#b7">8</ref> The type 1 integral membrane protein phospholemman (PLM) regulates the ubiquitous sodium/potassium ATPase (Na pump) in excitable tissues such as cardiac muscle by modifying its substrate affinity and maximum transport rate. <ref type="bibr" target="#b11">12</ref> Phosphorylation of PLM by protein kinase A (PKA) and PKC activates the pump <ref type="bibr" target="#b12">13</ref> ; palmitoylation of cysteines adjacent to the lipid bilayer by zDHHC5 inhibits the pump. <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> Although PLM phosphorylation enhances its palmitoylation, <ref type="bibr" target="#b13">14</ref> the mechanisms underlying PLM depalmitoylation remain undetermined.</p><p>In this study, we have shown that PLM and peroxiredoxin 6 (Prdx6) physically interact in cardiac myocytes. Prdx6 catalyzes the reduction of hydrogen peroxide, fatty acid hydroperoxides, and phospholipid hydroperoxides <ref type="bibr" target="#b16">17</ref> in a two-step reaction in which the Prdx6 active-site nucleophilic cysteine is first oxidized and then regenerated using glutathione. <ref type="bibr" target="#b17">18</ref> Furthermore, Prdx6 has phospholipase A2 activity and can bind phospholipids. <ref type="bibr" target="#b18">19</ref> Here, we report that the Prdx6 active-site cysteine can also remove palmitate from PLM by nucleophilic attack of the thioester bond prior to the sulfhydryl group being regenerated in a glutathione-dependent manner. Hence, Prdx6 links the palmitoylation status of PLM to the redox (glutathione) status of the cell.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PLM and Prdx6 physically associate in ventricular muscle</head><p>Previously, using tandem mass spectrometry, we identified numerous proteins that co-immunoprecipitate with the cardiac Na pump complex. <ref type="bibr" target="#b19">20</ref> Apart from the Na pump a subunit, relatively few of these proteins interacted directly with PLM. We sought to identify PLM-interacting proteins by treating digitonin-permeabilized rat ventricular myocytes with a series of homo-and hetero-bifunctional crosslinking reagents that had a variety of distances between their reactive groups and then immunoblotting the crosslinking reactions for PLM (Figure <ref type="figure" target="#fig_0">1A</ref>). Sulfosuccinimidyl 6-[a-methyl-a-(2-pyridyldithio)toluamido]hexanoate (Sulfo-LC-SMPT; reactive toward sulfhydryls and primary amines; distance between reactive groups: 2 nm) quantitatively crosslinked PLM to a protein whose molecular weight was 20-25 kDa (as the crosslinked adduct had a gel mobility of ca. 37 kDa). The adduct was only recognized in immunoblots with antibodies raised against the extracellular, but not the intracellular, regions of PLM (Figure <ref type="figure" target="#fig_0">1B</ref>), suggesting that the interaction between the unidentified protein and PLM occurs in the cytosol and masks the epitope in the PLM intracellular domain that the antibody against the PLM C-tail normally recognizes. We evaluated a variety of detergents (including Triton X-100, Na deoxycholate, and sodium dodecyl sulfate [SDS]) and found that crosslinking between PLM and the unidentified protein was abolished in their presence, suggesting that this protein-protein interaction cannot be studied by co-immunoprecipitation. Furthermore, the crosslinked adduct was resistant to solubilization unless SDS was used, which prevented us from immunoprecipitating after crosslinking.</p><p>In separate experiments to identify PLM-interacting proteins, a yeast 2-hybrid screen based on the split-ubiquitin system was conducted in which full-length murine PLM fused to the C-terminal half of ubiquitin was used as bait and a murine adult heart cDNA library fused to the N-terminal half of ubiquitin was used as prey (Dualsystems Biotech). Among the potential PLM interactors identified, Prdx6 was chosen for further analysis and shown to bind directly to PLM in a pairwise interaction test. We therefore investigated whether the 37 kDa crosslinked adduct identified in myocytes was PLM bound to Prdx6. Figure <ref type="figure" target="#fig_0">1C</ref> indicates that antibodies against PLM and Prdx6 both recognize the 37 kDa adduct. In myocytes treated with Sulfo-LC-SMPT, Prdx6 migrates at 25 (monomeric Prdx6), 37 (PLM-Prdx6 adduct), and 50 kDa (possibly Prdx6 crosslinked to its glutathione donor GST-p) (Figure <ref type="figure" target="#fig_0">1C</ref>). A crosslinked sample was separated on a single-well gel and transferred to a polyvinylidene difluoride (PVDF) membrane, which was subsequently divided and separately probed for PLM and Prdx6 (Figure <ref type="figure" target="#fig_0">1D</ref>). When the membrane was joined back together, the crosslinked adduct recognized by both the PLM and Prdx6 antibodies showed identical mobility on SDS-polyacrylamide gel electrophoresis (PAGE). We therefore concluded that the crosslinked adduct consisted of Prdx6 bound to PLM.</p><p>The interaction between PLM and Prdx6 is modified by glutathione loading in cells Next, we investigated whether the interaction between PLM and Prdx6 in ventricular myocytes could be modified by promoting either PLM phosphorylation or Prdx6 oxidation. Figure <ref type="figure" target="#fig_0">1E</ref> indicates that the phosphorylation status of PLM does not modify its interaction with Prdx6. Furthermore, the PLM-Prdx6 interaction was not affected by treatment of cells with either exogenous hydrogen peroxide (an oxidizing agent) or the free radical scavenger mercaptopropionyl glycine (an anti-oxidant) (Figure <ref type="figure" target="#fig_0">1E</ref>). However, we did find that treating cells with N-acetyl-cysteine (NAC) abolished the interaction between PLM and Prdx6. NAC is a cell-permeable form of cysteine that increases cellular levels of glutathione, as cysteine availability is the rate-limiting step in glutathione synthesis. <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> Unlike the other members of the Prdx family, whose physiological reductant is thioredoxin, Prdx6 utilizes glutathione. <ref type="bibr" target="#b16">17</ref> Therefore, we hypothesized that the effect of increasing cellular glutathione levels via NAC promoted the activity of PLM-bound Prdx6 toward PLM changing either the structure and/or function of the PLM C-tail, causing Prdx6 to dissociate from it. As Prdx6 is a cellular reducing agent, <ref type="bibr" target="#b16">17</ref> we first investigated whether Prdx6 bound to PLM protected either the Na pump complex or its locality from oxidative stress. However, we found no evidence that the presence of Prdx6 protected either PLM or the Na pump a subunit from direct oxidation (by assessing reactive cysteine availability with biotinylated iodoacetamide <ref type="bibr" target="#b22">23</ref> ) or modification by oxidized lipids (by measuring protein carbonyl content with 2,4-dinitrophenylhydrazine).</p><p>Manipulating cellular glutathione levels modifies the palmitoylation status of PLM in a Prdx6-dependent manner We investigated palmitoylation of PLM in enzymatically dispersed rat ventricular myocytes by resin-assisted capture of acylated proteins (acyl-RAC) followed by quantitative immunoblotting. Glutathione-loading myocytes (using NAC or cell-permeable glutathione ethyl ester) acutely decreased palmitoylation of PLM but not the caveolar structural protein caveolin 3 (Figure <ref type="figure" target="#fig_1">2A</ref>). A similar effect was observed when FT-293 cells engineered to express PLM tagged with yellow fluorescent protein (YFP) were glutathione loaded with NAC (Figure <ref type="figure" target="#fig_1">2B</ref>). The effect of glutathione depletion on PLM palmitoylation was assessed by treating the PLM-YFP FT-293 stable cell line with buthionine sulfoximine (BSO; 100 mM, overnight), which inhibits the first enzyme in glutathione biosynthesis g-glutamylcysteine synthase. Figure <ref type="figure" target="#fig_1">2C</ref> shows that depletion of cellular glutathione in cultured cells caused enhanced palmitoylation of PLM.</p><p>The thioesterases identified to date (APT1, APT2, PPT1, ABHD17, ABHD10) are all serine hydrolases; other members of this protein family have also been suggested to have thioesterase activity. <ref type="bibr" target="#b7">8</ref> The nucleophilic active-site serine of these hydrolases attacks the thioester bond linking palmitate to cysteine to facilitate protein depalmitoylation. We considered that the pKa of the nucleophilic cysteine in the active site of Prdx6 (C47, pKa 6.3 <ref type="bibr" target="#b18">19</ref> ) might also be sufficiently low to facilitate the transfer of palmitate from PLM to Prdx6. Since regeneration of the Prdx6 active site is glutathione dependent, we explored the possibility that the effect of manipulating cellular glutathione on PLM palmitoylation is mediated by altering the rate of regeneration of the Prdx6 sulfhydryl group following depalmitoylation of PLM. Figure <ref type="figure" target="#fig_1">2D</ref> shows that the glutathione-loading-dependent decrease in PLM palmitoylation in FT-293 cells is abolished following small interfering RNA (siRNA)-mediated silencing of Prdx6, identifying Prdx6 as the glutathione ''sensor'' responsible for this effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitate transfer from PLM to Prdx6</head><p>To determine whether transfer of palmitate from PLM to Prdx6 occurs, we reconstituted the recombinant GST-tagged intracel-lular region of PLM and His-tagged wild-type and C47S Prdx6 in vitro. GST-PLM was acylated by incubation with 17-octadecynoic acid (ODYA) co-enzyme A (CoA). The acylated GST-PLM was then biotinylated by reaction of the alkyne-containing 17-ODYA with biotin azide in a copper (I)-catalyzed Huisgen cycloaddition. <ref type="bibr" target="#b23">24</ref> Biotinylation of GST-PLM was hydroxylamine sensitive (Figure <ref type="figure" target="#fig_2">3A</ref>), confirming that the click reaction reported protein acylation.</p><p>Incubation of in-vitro-acylated GST-PLM with Prdx6 led to transfer of the biotinylated acyl moiety to wild-type, but not C47S, Prdx6 (Figure <ref type="figure" target="#fig_2">3A</ref>), indicating that palmitate transfer between these proteins is possible and requires the active-site cysteine of Prdx6. We considered the possibility that either glutathione alone or DTT (the reducing agent used to protect the prdx6 active-site cysteine during protein preparation) participated in the in vitro PLM deacylation reaction. In-vitro-acylated GST-PLM was reacted with cyanine5.5 azide and incubated with wild-type prdx6, glutathione, or DTT. Only prdx6 deacylated GST-PLM in these experiments (Figure <ref type="figure" target="#fig_2">3B</ref>). Furthermore, a small proportion of Prdx6 was found to be palmitoylated in rat ventricular myocytes (Figure <ref type="figure" target="#fig_2">3C</ref>). Transient expression of wild-type and C47S Prdx6 in HEK cells confirmed that the active-site cysteine in Prdx6 can be palmitoylated (Figure <ref type="figure" target="#fig_2">3D</ref>).</p><p>To determine whether the low pKa of the Prdx6 active-site cysteine (C47) was required for it to be palmitoylated, R132, which makes a major contribution to stabilizing the C47 thiolate anion, <ref type="bibr" target="#b24">25</ref> was mutated to both Ala (aliphatic side chain) and Glu (negative charge). Neutralizing (R132A) or reversing (R132E) the positive charge of R132 in the Prdx6 active site prevented C47 from becoming palmitoylated (Figure <ref type="figure" target="#fig_2">3D</ref>), indicating that Prdx6 palmitoylation required the active-site cysteine to have a low pKa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmostatin B inhibits palmitate transfer from PLM to Prdx6</head><p>Most depalmitoylating enzymes (thioesterases) that have been identified to date are inhibited by palmostatin B. We considered the possibility that PLM may also be depalmitoylated by other thioesterase enzymes. Although acute application of palmostatin B did not alter basal levels of PLM palmitoylation, it did abolish the impact of glutathione loading on PLM palmitoylation (Figure <ref type="figure" target="#fig_2">3E</ref>). We also found that palmostatin B blocked the transfer of palmitate from PLM to Prdx6 in vitro (Figure <ref type="figure" target="#fig_2">3F</ref>) and therefore concluded that palmostatin B is an inhibitor of Prdx6 depalmitoylation activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantitative proteomic analysis of the effect of glutathione loading on protein palmitoylation in rat ventricular myocytes</head><p>We investigated the impact of glutathione loading on palmitoylation of all proteins in freshly dispersed rat ventricular myocytes using a quantitative proteomic approach employing isobaric tags (iTraq <ref type="bibr" target="#b25">26</ref> ) to compare the relative abundance of proteins purified by acyl-RAC from untreated and NAC-treated cells. As assessed by SDS-PAGE and Coomassie staining, the complement of palmitoylated proteins was not grossly different between control and NAC-treated rat myocytes (Figure <ref type="figure" target="#fig_3">4A</ref>) nor mouse hearts that had been perfused with NAC and subjected to fatty acyl biotin exchange (FAE; Figure <ref type="figure" target="#fig_3">4B</ref>). iTraq analysis showed that the vast majority of the 751 identified palmitoylated proteins in rat cardiac myocytes had the same relative palmitoylation following glutathione loading (representative target proteins are shown in Fig- <ref type="figure" target="#fig_3">ure 4C</ref>). However, a small number of proteins whose relative palmitoylation was reduced by glutathione loading were identified, most notably cavins 2 (serum deprivation-response protein [SDPR]) and 4 (muscle-related coiled-coil protein [MURC]) as well as myosin heavy chain isoform 6 (uppermost protein band marked in Fig- <ref type="figure" target="#fig_3">ure 4A</ref>). In contrast, several proteins showed enhanced palmitoylation following glutathione loading (e.g., clathrin heavy chain; Figure <ref type="figure" target="#fig_3">4C</ref>), suggesting that glutathione inhibits their depalmitoylation. Full proteomic data are recorded in Table <ref type="table">S1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prdx6 is the only cytoplasmic peroxiredoxin with thioesterase activity</head><p>We evaluated the ability of recombinant peroxiredoxins to acquire palmitate from both palmitoylated proteins in cell lysates and in-vitro-acylated GST-PLM. HEK cells were loaded with 17-ODYA and palmitoylated proteins visualized by reaction with cyanine5.5 azide (Figure <ref type="figure">5A</ref>). Cell lysates were incubated with different His-tagged peroxiredoxins, which were subsequently purified by Ni 2+ -affinity chromatography. Transfer of palmitate from acylated proteins in the cell lysates to the recombinant peroxiredoxins was evaluated by SDS-PAGE and in-gel fluorescence (Figure <ref type="figure">5B</ref>). Wild-type Prdx6 acquired palmitate from the cell lysates but not C47S Prdx6, Prdx1, nor Prdx2, suggesting that the ability to depalmitoylate proteins is unique to Prdx6 among peroxiredoxin isoforms. Similarly, only recombinant wild-type Prdx6 acquired palmitate from in-vitro-acylated GST-PLM (Figure <ref type="figure">5C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Here, we describe the transfer of palmitate from the cardiac phosphoprotein PLM to the anti-oxidant protein Prdx6 through a nucleophilic transfer reaction involving the active-site cysteine of Prdx6, the regeneration of which is glutathione dependent. We suggest that cellular events in which palmitate is transferred between proteins, including both protein palmitoylation and depalmitoylation reactions, may be favored simply because the pKa of the recipient cysteine is lower than that of the donor.</p><p>The ability of a peptide cysteine thiolate anion to cleave the thioester bond in palmitoyl CoA has long been known. <ref type="bibr" target="#b26">27</ref> This present study demonstrates that thioester bonds linking palmitate groups to cysteine sulfhydryl groups on proteins are also vulnerable to cleavage by thiolate ions in other proteins, suggesting that any nucleophilic active center may depalmitoylate via this mechanism. Although all thioesterases identified to date have active-site nucleophilic serines, our results suggest that depalmitoylating enzymes do not necessarily require such a serine. A reaction scheme suggested by the experimental data is presented in Figure <ref type="figure">6</ref>.</p><p>The transfer of palmitate to a nucleophilic recipient cysteine is highly similar to the transthiolation reactions that occur between E1, E2, and E3 ubiquitin ligases. In that context, the active-site cysteine of an E1 ubiquitin ligase binds ubiquitin via a thioester bond. Transfer of ubiquitin to the E2 ligase is ATP independent and relies on nucleophilic attack of this thioester bond by the active-site cysteine of the E2 ligase. <ref type="bibr" target="#b27">28</ref> Specificity of ubiquitin transfer is achieved by protein-protein interactions between E1, E2, and E3 ligases akin to that observed here between Prdx6 and PLM.</p><p>Among the cellular events regulated by Prdx6, it has previously been shown to interact with both k opioid receptors and Gai in a JNK-dependent fashion to regulate opioid receptor sensitivity/ tolerance. <ref type="bibr" target="#b28">29</ref> Prdx6 activity in this context was thought to reduce Gai palmitoylation via increased free radical production rather than direct depalmitoylation. Nevertheless, the observations of Schattauer and colleagues are consistent with the possibility of Prdx6 functioning as a thioesterase. Interestingly, glutathione supplementation also reduces Gaq palmitoylation in the context of wound healing, <ref type="bibr" target="#b29">30</ref> suggesting that glutathione-dependent depalmitoylation may also occur in other physiological contexts.</p><p>As increasing cellular levels of glutathione increased the rate of PLM depalmitoylation, it suggests that glutathione availability is a rate-determining step in this reaction. Regeneration of the Prdx6 active-site cysteine is dependent first on the glutathione donor GST-p1, which glutathionylates Prdx6 C47, and then the spontaneous reduction of glutathionylated Prdx6 by free cellular glutathione. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> Hence, both steps in the regeneration of Prdx6 are glutathione dependent. This, and the relatively low affinity of GST-p1 for glutathione, <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b30">31</ref> probably explains how supra-physiological concentrations of cellular glutathione increase the rate of both Prdx6 regeneration and PLM depalmitoylation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Redox regulation of the Na pump</head><p>The relationship between Prdx6 and PLM establishes a link between the palmitoylation status of PLM and the redox (glutathione) status of the cell. The redox sensitivity of the cardiac Na pump is well established <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> ; notably, the cardiac Na pump is rapidly inhibited upon glutathione depletion, <ref type="bibr" target="#b32">33</ref> but the molecular basis of this effect has remained unclear. As PLM palmitoylation inhibits the Na pump, <ref type="bibr" target="#b13">14</ref> we propose that glutathionesensitive depalmitoylation of PLM by Prdx6 acts as a redox sensor for the pump, reducing its activity at times of oxidative stress. Palmitoylation of PLM turns over quickly: we have previously reported phosphorylation-induced palmitoylation within 10 min of agonist application, <ref type="bibr" target="#b13">14</ref> and in the present study, manipulating cellular glutathione results in changes within 60 min. As the pump is a major consumer of cellular ATP, its acute inhibition at times of glutathione depletion may protect cardiomyocytes against precipitous ATP depletion and possible cell death. PLM palmitoylation will also prevent terminal cysteine oxidation at times of cellular redox stress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitate transfer by Prdx6</head><p>As well as being an anti-oxidant, Prdx6 has phospholipase A2 activity. <ref type="bibr" target="#b18">19</ref> The lack of palmitate transfer to C47S Prdx6 indicates that the phospholipase and thioesterases activities of Prdx6 are distinct, as the Prdx6 phospholipase activity is conferred by a catalytic triad of residues consisting of H26, S32, and D140. <ref type="bibr" target="#b34">35</ref> However, the lipid-binding properties of Prdx6 conferred by this triad are relevant for its targeting to caveolar microdomains <ref type="bibr" target="#b18">19</ref> (in which PLM resides <ref type="bibr" target="#b19">20</ref> ), and may also assist in targeting Prdx6 to palmitoylated PLM, because the interaction between the two is abolished following depalmitoylation of PLM. Prdx6 has also previously been shown to transfer palmitate to lysophosphatidylcholine (lysoPC). <ref type="bibr" target="#b35">36</ref> It is, therefore, conceivable that the palmitate that Prdx6 receives from PLM is subsequently transferred to lysoPC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wider implications</head><p>A significant proportion of palmitoylated cysteines are low-pKa nucleophiles. <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38</ref> Palmitoylation by zDHHC protein acyltransferases (zDHHC-PATs) may therefore be achieved as a result of nucleophilic palmitate transfer from the DHHC motif to the substrate protein, much as we report here from PLM to Prdx6. This is consistent with a paradigm in which the specificity of a palmitoylation/depalmitoylation reaction is achieved by a protein-protein interaction and the movement of palmitate itself by a nucleophilic transfer controlled by the pKa of the recipient thiol.</p><p>Emerging data support the concept that zDHHC-PAT substrate specificity is determined by protein-protein interactions involving regions of the enzyme far removed from their active site. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> Limitations of the study Although considerable evidence has been provided demonstrating that Prdx6 depalmitoylates PLM, it is not yet clear whether Prdx6 is a specific thioesterase that only depalmitoylates PLM or if it has activity toward other palmitoylated proteins.</p><p>When the effect of glutathione loading on protein palmitoylation in rat ventricular myocytes was investigated using quantitative proteomics, several proteins whose relative palmitoylation was reduced by glutathione loading were identified, including cavins 2 (SDPR) and 4 (MURC) as well as myosin heavy chain isoform 6. Further experiments will be required to determine whether the observed reduction in palmitoylation that occurred on glutathione loading was mediated via Prdx6. Furthermore, in the quantitative proteomics experiment, several proteins were found to have enhanced palmitoylation following glutathione loading such as clathrin heavy chain, suggesting that glutathione may inhibit their depalmitoylation. The molecular basis of this observation currently remains unexplored.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p>Prdx1 and Prdx2 were expressed in BL21 (DE3) cells (induction conditions: 0.5 mM IPTG, 2h at 37 C) and purified using nickelsepharose.</p><p>In vitro palmitoylation 17-ODYA CoA was synthesized from 17-ODYA (1 mM) and CoA (5 mM) by acyl CoA synthetase (10 mUnits/mL) in the presence of 10 mM ATP for 60 min at 37 C. Recombinant GST-PLM was immobilized on glutathione Sepharose beads and acylated by incubation with 17-ODYA CoA or Palmitoyl Alkyne-Coenzyme A for 30 min at 37 C. Unreacted fatty acyl CoA was removed by washing the beads 5 times in 1% Triton X-100 in PBS, and acylated GST-PLM was biotinylated by copper (I) catalyzed Huisgen cycloaddition in the presence of 1 mM TCEP, 1 mM CuSO 4 , 0.1 mM TBTA and 0.1 mM biotin azide in 50 mM TRIS pH 8.0 and 1% Triton X-100. Beads were washed 5 times with 1% Triton X-100 in PBS. The hydroxylamine-sensitivity of biotin incorporation confirms that it reports acylation of GST-PLM. GST was not acylated by the same protocol. In some experiments biotin azide was replaced with cyanine 5.5 azide, and acylation visualized using in-gel fluorescence.</p><p>Prior to reconstitution with acylated biotinylated GST-PLM, His-tagged wild type and C47S Prdx6 were reduced by incubation with 10 mM DTT in 1% Triton X-100 in PBS. The final concentration of dithiothreitol (DTT) in the transfer reaction was 1 mM. Reactions proceeded for 30 min at 37 C, and were quenched by addition of SDS PAGE loading buffer and immediately separated using SDS PAGE, transferred, and probed with streptavidin-horseradish peroxidase (strep-HRP).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantitative proteomics</head><p>Palmitoylated proteins were purified from control and glutathione-loaded rat ventricular myocytes by acyl-RAC, and eluted in Laemmli buffer supplemented with 100 mM DTT. Proteins were subjected to SDS PAGE for 1 cm, Coomassie stained, excised as a single band, subjected to in gel digestion, labeled with isobaric tags (iTraq), separated by cation exchange into 10 fractions, and analyzed by mass spectrometry on an LTQ Orbitrap Velos Pro (Thermo) at the FingerPrints Proteomics Unit, School of Life Sciences, University of Dundee. Peptides were matched and assigned using Mascot with a minimum 2 peptides with ion score &gt;34 required for identification. For analysis, rat IPI identifiers supplied by Mascot were mapped to human Uniprot identifiers using a custom-built IPI to Uniprot dictionary. iTraq ratios for all proteins identified from glutathione-loaded cells relative to control cells are reported in Table <ref type="table">S1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palmitate transfer</head><p>FT-293 cells were loaded overnight with 17-ODYA (20 mM) conjugated to fatty acid-free BSA. Cells were lyzed in 1% Triton X-100 in 50 mM TRIS pH 8.0, and palmitoylated proteins visualized by reaction with 20 mM cyanine5.5-azide in the presence of 2 mM CuSO 4 , 0.2 mM TBTA and 4 mM ascorbate. Lysates were spiked with His-tagged recombinant peroxiredoxins and 10 mM b-mercaptoethanol. Following incubation at 37 C for 60 min, the peroxiredoxins were purified using Ni-sepharose beads. Palmitoylated proteins were visualized after separation by SDS PAGE using in-gel fluorescence with a Li-COR infrared imaging system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>QUANTIFICATION AND STATISTICAL ANALYSIS</head><p>Quantitative data are presented as mean ± SEM. One-way ANOVA analysis was performed on data that had one independent variable and one quantitative dependent variable (Figures <ref type="figure" target="#fig_1">2A</ref> and<ref type="figure" target="#fig_1">2B</ref>, 2D; 3E). The Student's T test was used to compare mean values between 2 groups (Figure <ref type="figure" target="#fig_1">2C</ref>).</p><p>All statistical analysis was carried out using GraphPad Prism. The statistical details for all experiments with quantitative data can be found in the relevant Figure legend. n refers to the number of independent biological experimental replicates that had been carried out.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Interaction between PLM and Prdx6 in rat ventricular myocytes (A) Sulfo-LC-SMPT (sulfosuccinimidyl 6-[a-methyl-a-(2-pyridyldithio)toluamido] hexanoate; 5 mM) quantitatively crosslinked PLM to a 20-25 kDa protein (electrophoretic mobility of PLM 15 kDa, electrophoretic mobility of crosslinked adduct 37 kDa). DSP (dithiobis[succinimidyl propionate]; 2 mM), EGS (ethylene glycol bis[succinimidylsuccinate]; 2 mM), DTSSP (3,3 0 -dithiobis[sulfosuccinimidylpropionate]; 2 mM), S-EGS (ethylene glycol bis[sulfosuccinimidylsuccinate]; 2 mM), S-LC-SMPT (5 mM), MBS (m-maleimidobenzoyl-N-hydroxysuccinimide ester; 1 mM), DPDPB (1,4-Di-[3'-(2 0 -pyridyldithio)propionamido] butane; 0.8 mM), and APDP (N-[4-(p-azidosalicylamido)butyl]-3-(2-pyridyldithio) propionamide; 1 mM). (B) Crosslinking masks the epitope of an antibody raised against the carboxyl terminus of PLM (C) but not one against the amino terminus (N). (C) Multiple different Prdx6 and PLM antibodies recognized the 37 kDa crosslinked adduct (mono, monoclonal; poly, polyclonal). (D) A single crosslinked sample was separated in a single-lane gel. Following transfer, one-half of the membrane was probed for Prdx6 and one-half for PLM. The 37 kDa crosslinked band exactly aligned when the two halves of the membrane were reunited. (E) Pharmacological treatments that promoted PLM phosphorylation (left) or Prdx6 oxidation (right) had no effect on the PLM-Prdx6 interaction, but glutathione-loading cells with NAC abolished crosslinking between Prdx6 and PLM. Cell treatments: Veh, vehicle (ethanol); Bis, 1 mM bisindolylmaleimide; PMA, 300 nM phorbol-12-myristate-13-acetate; Forsk, 10 mM forskolin, with all applied for 10 min at 35 C; H 2 O 2 , hydrogen peroxide, applied for 5 min at 35 C; MPG, 1 mM mercaptopropionyl glycine, and NAC, 10 mM N-acetyl cysteine, both applied for 60 min at 35 C. Western blots are representative of at least 5 independent biological replicates.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Manipulating cellular glutathione modifies the palmitoylation status of PLM in a Prdx6-dependent manner (A and B) Glutathione-loading (A) rat ventricular myocytes (n = 4) or (B) FT-293 cells engineered to express PLM-YFP (n = 3) with either NAC or glutathione ethyl ester (60 min) significantly reduced the palmitoylation of PLM. (C) Glutathione-depleting FT-293 cells engineered to express PLM-YFP (with buthionine sulfoximine [BSO], overnight) significantly enhanced PLM palmitoylation (n = 8). (D) Prdx6 silencing in FT-293 cells expressing PLY-YFP (left) abolished the effect of glutathione loading on PLM palmitoylation (right) (n = 5). *p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001, and ****p &lt; 0.0001; (A, B, and D) one-way ANOVA; (C) Student's t test. UF, unfractionated; B, beads. All experimental repeats were biological replicates. A representative blot is provided for each quantitative experiment. Bar chart data are expressed as mean ± SEM.</figDesc><graphic coords="5,374.75,460.21,142.27,180.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Palmitate transfer from PLM to Prdx6 (A) Palmitate transfer from PLM to Prdx6. Recombinant GST-PLM was acylated in vitro by incubation with 17-ODYA CoA and then biotinylated by reaction with biotin azide in the presence of copper (I) and detected using strep-HRP. Labeling specificity was confirmed by HA treatment. 17-ODYA was transferred from PLM to wild-type (WT), but not catalytically inactive (C47S), recombinant Prdx6. (B) Recombinant GST-PLM was acylated in vitro by incubation with 17-ODYA CoA and then biotinylated by reaction with cyanine5.5 azide in the presence of copper (I) and detected using in gel fluorescence. GST-PLM is deacylated by WT Prdx6 but not by either glutathione (GSH; 5 mM) or DTT (1 mM) alone. (C) A fraction of Prdx6 in rat ventricular myocytes was palmitoylated. (D) Prdx6 can be palmitoylated at C47 but only when it has a low pKa. HEK cells were transiently transfected with empty vector (EV), WT, C47S, R132A, or R132E mutants in the presence and absence of NAC. Prdx6 palmitoylation at C47 was reduced by glutathione loading. Mutation of R132 (which makes a major contribution to stabilizing the C47 thiolate anion) to either Ala (A) or Glu (E) blocked palmitoylation of Prdx6. (E) Treatment of ARVM with palmostatin B did not alter basal levels of PLM palmitoylation but did abolish the effect of glutathione loading on PLM palmitoylation (n = 5). (F) Palmostatin B blocked the transfer of palmitate from PLM to Prdx6 in vitro. *p &lt; 0.05; one-way ANOVA. UF, unfractionated; B, beads. All experimental repeats were biological replicates. A representative blot is provided for each quantitative experiment. Bar chart data are expressed as mean ± SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Effect of glutathione loading on protein palmitoylation in cardiac tissue (A) Palmitoylated proteins were purified by acyl-RAC from control and NAC-loaded RVM, separated by SDS-PAGE, and stained with Coomassie. Few gross differences in the cardiac palmitoyl proteome were evident; notable decreases in abundance are marked with arrows. (B) Mouse hearts perfused with NAC were subjected to FAE and palmitoylated proteins detected with strep-HRP. Glutathione loading did not have a gross impact on protein palmitoylation. (C) Mouse hearts perfused with NAC were subjected to acyl-RAC and palmitoylated proteins immunoblotted as shown. Of the targets investigated, only PLM showed reduced palmitoylation following glutathione loading. Western blots are representative of at least 3 biological replicates.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .Figure 6 .</head><label>56</label><figDesc>Figure 5. Prdx6 is the only Prdx isoform with depalmitoylase activity (A) FT-293 cells were loaded with ODYA and palmitoylated proteins visualized by reaction with Cy5.5 azide. (B) Prdx6, but not Prdx1 or Prdx2, acquired palmitate from cell lysates after labeling palmitoylated proteins with Cy5.5. (C) Prdx6, but not Prdx1 or Prdx2, acquired palmitate from in vitro acylated GST-PLM after labeling with Cy5.5. Experiments are representative of at least 3 biological replicates.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="1,55.16,173.54,285.82,285.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE REAGENT</head><label>REAGENT</label><figDesc></figDesc><table><row><cell>or RESOURCE</cell><cell>SOURCE</cell><cell>IDENTIFIER</cell></row><row><cell>Antibodies</cell><cell></cell><cell></cell></row><row><cell>Phospholemman</cell><cell>Custom made, amino terminus</cell><cell>Fuller, W.et al. 42</cell></row><row><cell>Phospholemman</cell><cell>Custom made, amino terminus</cell><cell>Fuller, W.et al., 13 Tulloch, L.B.et al. 14</cell></row><row><cell>Phospholemman</cell><cell>Custom made, carboxyl terminus</cell><cell>Song, J.et al. 43</cell></row><row><cell>Phospholemman</cell><cell>Abcam ab76597</cell><cell>RRID:</cell></row><row><cell></cell><cell></cell><cell>AB_1952372</cell></row><row><cell>Peroxiredoxin 6</cell><cell>Abcam ab133348</cell><cell>RRID:</cell></row><row><cell></cell><cell></cell><cell>AB_11155931</cell></row><row><cell>Peroxiredoxin 6</cell><cell>Thermo Fisher Scientific</cell><cell>LFMA0018 (discontinued)</cell></row><row><cell>Flotillin-1</cell><cell>BD Biosciences 610821</cell><cell>RRID: AB_398140</cell></row><row><cell>Flotillin-2</cell><cell>BD Biosciences 610384</cell><cell>RRID: AB_397767</cell></row><row><cell>Caveolin-1</cell><cell>BD Biosciences 610406</cell><cell>RRID: AB_397788</cell></row><row><cell>Caveolin-3</cell><cell>BD Biosciences 610421</cell><cell>RRID: AB_397801</cell></row><row><cell>Heterotrimeric G protein a subunit</cell><cell>Thermo Fisher Scientific PA1-1000</cell><cell>RRID: AB_2232440</cell></row><row><cell>Clathrin heavy chain</cell><cell>BD Biosciences 610499</cell><cell>RRID: AB_397865</cell></row><row><cell>Bacterial and virus strains</cell><cell></cell><cell></cell></row><row><cell>One Shot TM BL21(DE3) Chemically Competent E. coli</cell><cell>Thermo Fisher Scientific</cell><cell>C600003</cell></row><row><cell>Chemicals, peptides, and recombinant proteins</cell><cell></cell><cell></cell></row><row><cell>Recombinant prdx6 (wild type)</cell><cell>In house</cell><cell>N/A</cell></row><row><cell>Recombinant prdx6 (C47S)</cell><cell>In house</cell><cell>N/A</cell></row><row><cell>Recombinant prdx1 (wild type)</cell><cell>In house</cell><cell>N/A</cell></row><row><cell>Recombinant prdx1 (C53S)</cell><cell>In house</cell><cell>N/A</cell></row><row><cell>Recombinant prdx2 (wild type)</cell><cell>In house</cell><cell>N/A</cell></row><row><cell>Collagenase, Type 2</cell><cell>Worthington Biochemical Corp</cell><cell>LS004177</cell></row><row><cell>Digitonin</cell><cell>Merck-Millipore</cell><cell>D141</cell></row><row><cell>DSP (Dithiobis[succinimidyl propionate])</cell><cell>Thermo Fisher Scientific</cell><cell>22585</cell></row><row><cell>DTSSP (3,3 0 -Dithiobis[sulfosuccinimidylpropionate])</cell><cell>Thermo Fisher Scientific</cell><cell>21578</cell></row><row><cell>EGS (Ethylene glycol bis[succinimidylsuccinate])</cell><cell>Thermo Fisher Scientific</cell><cell>21565</cell></row><row><cell>S-EGS (Ethylene glycol bis[sulfosuccinimidylsuccinate])</cell><cell>Thermo Fisher Scientific</cell><cell>21566</cell></row><row><cell>S-LC-SMPT (sulfosuccinimidyl 6-[a-methyl-a-</cell><cell>Thermo Fisher Scientific</cell><cell>21568</cell></row><row><cell>(2-pyridyldithio)toluamido]hexanoate)</cell><cell></cell><cell></cell></row><row><cell>MBS (m-Maleimidobenzoyl-N-hydroxysuccinimide ester)</cell><cell>Thermo Fisher Scientific</cell><cell>22311</cell></row><row><cell>DPDPB (1,4-Di-[3'-(2 0 -pyridyldithio)propionamido]butane)</cell><cell>Thermo Fisher Scientific</cell><cell>21702</cell></row><row><cell>APDP (N-[4-(p-azidosalicylamido)butyl]-3-</cell><cell>Thermo Fisher Scientific</cell><cell>27720</cell></row><row><cell>(2-pyridyldithio) propionamide)</cell><cell></cell><cell></cell></row><row><cell>Bisindolylmaleimide I</cell><cell>Merck-Millipore</cell><cell>203290</cell></row><row><cell>Phorbol 12-myristate 13-acetate</cell><cell>Merck-Millipore</cell><cell>524400</cell></row><row><cell>Forskolin</cell><cell>Merck-Millipore</cell><cell>344270</cell></row><row><cell>Hydrogen Peroxide solution</cell><cell>Merck-Millipore</cell><cell>H1009</cell></row><row><cell>N-Acetyl-L-cysteine</cell><cell>Merck-Millipore</cell><cell>A9165</cell></row><row><cell>L-Buthionine-sulfoximine</cell><cell>Merck-Millipore</cell><cell>B2515</cell></row><row><cell>N-(2-Mercaptopropionyl)glycine</cell><cell>Merck-Millipore</cell><cell>M6635</cell></row><row><cell>Glutathione reduced ethyl ester</cell><cell>Merck-Millipore</cell><cell>G1404</cell></row><row><cell>S-Methyl Methanethiosulphonate</cell><cell>Merck-Millipore</cell><cell>64306-1ML</cell></row><row><cell>Thiopropyl Sepharose 6B</cell><cell>Cytiva</cell><cell>17042001</cell></row><row><cell>Hydroxylamine Sulfate</cell><cell>Thermo Fisher Scientific</cell><cell>10701861</cell></row></table><note><p>(Continued on next page) 10 Cell Reports 43, 113679, February 27, 2024</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p>Cell Reports 43, 113679, February 27, 2024Article</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_1"><p>Cell Reports 43, 113679, February 27, 2024Article</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_2"><p>Cell Reports 43, 113679, February 27, 2024Article</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_3"><p>Cell Reports 43, 113679, February 27, 2024 Article</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12" xml:id="foot_4"><p>Cell Reports 43, 113679, February 27, 2024 Article</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work was supported by the <rs type="funder">British Heart Foundation</rs> with grants <rs type="grantNumber">RG/07/ 001</rs> and <rs type="grantNumber">RG/12/4/29426</rs> awarded to M.J.S. and W.F., <rs type="grantNumber">RG/17/15/33106</rs> to M.J.S., N.J.F., and W.F., and <rs type="grantNumber">FS/13/22/30126</rs> to W.F.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_vAufHDh">
+					<idno type="grant-number">RG/07/ 001</idno>
+				</org>
+				<org type="funding" xml:id="_2Fmxzup">
+					<idno type="grant-number">RG/12/4/29426</idno>
+				</org>
+				<org type="funding" xml:id="_t4sy4zR">
+					<idno type="grant-number">RG/17/15/33106</idno>
+				</org>
+				<org type="funding" xml:id="_3NyA5xh">
+					<idno type="grant-number">FS/13/22/30126</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STAR+METHODS</head><p>Detailed methods are provided in the online version of this paper and include the following: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>Conceptualization, W.F. and N.J.F.; methodology, J.H., L.B.T., N.J.F., and W.F.; investigation, J.H., L.B.T., E.B., L.R., F.B.A., J.K., K.J.W., K.L.A., J.K.C.M., and N.J.F.; writing -original draft, W.F. and N.J.F.; writing -review &amp; editing, N.J.F. and M.J.S.; supervision, W.F.; project administration, W.F.; funding acquisition, M.J.S., N.J.F., and W.F.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATION OF INTERESTS</head><p>The authors declare no competing interests. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Continued</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESOURCE AVAILABILITY</head><p>Lead contact Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Will Fuller (will.fuller@glasgow.ac.uk).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials availability</head><p>All reagents generated in the study are available from the lead contact without restrictions.</p><p>Data and code availability d The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE <ref type="bibr" target="#b43">44</ref> partner repository with the dataset identifier PXD047858. d This paper does not report original code. d Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS Animals</head><p>This study utilized cardiac tissue from male adult C5BL/6J mice (20-25g, 6-10 weeks age) and male adult Sprague-Dawley Rat rats (200-300g, 7-10 weeks age). Animals were maintained in social groups with free access to food and water under a 12-h light-dark cycle. All protocols involving animals were approved by the University of Glasgow Animal Welfare and Ethics Review Board. Rat and mouse hearts were collected postmortem after sacrificing animals using a method designated Schedule 1 by the Animals (Scientific Procedures) Act 1986 (overdose of pentobarbital administered via intraperitoneal injection followed by cervical dislocation).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell lines</head><p>FT-293 T-REx cells engineered to express PLM-YFP have been described elsewhere. <ref type="bibr" target="#b13">14</ref> Cells were maintained in Dulbecco's Modified Eagle's.</p><p>Medium (DMEM) medium containing 10% fetal bovine serum, 1% penicillin and streptomycin, 100 mg/mL hygromycin, and 15 mg/mL blasticidin in a 37 C incubator with 5% CO 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD DETAILS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isolation of rat ventricular myocytes</head><p>Calcium-tolerant rat ventricular myocytes were isolated by retrograde perfusion of collagenase. Myocytes were allowed to recover from the isolation procedure for 2 h at 35 C before experimentation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crosslinking</head><p>All crosslinking reagents were applied to isolated ventricular myocytes in phosphate-buffered saline (PBS) supplemented with 0.05% digitonin for 30 min at 4 C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cellular palmitoylation assays</head><p>Palmitoylated proteins were purified from SDS-solubilized cell or tissues lysates using fatty acyl biotin exchange (FAE <ref type="bibr" target="#b13">14</ref> ) or resin-assisted capture of acylated proteins (acyl-RAC <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b44">45</ref> ). Relative palmitoylation values for PLM, Flotillin-1 (Control, HEK cells) and Caveolin-3 (Control, myocytes) were determined by dividing the band intensities of the bead (B) samples with that of the corresponding unfractionated (UF) samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Glutathione loading and depletion</head><p>Isolated rat ventricular myocytes, mouse hearts perfused in the Langendorff mode, and cultured cells were glutathione-loaded by incubating with 10 mM N-acetyl cysteine for 60 min at 35 C-37 C. Cultured cells were depleted of glutathione by treatment with the g-glutamylcysteine synthetase inhibitor buthionine sulfoximine (100 mM) overnight.</p><p>Prdx6 silencing FT-293 expressing PLM-YFP cells were transfected using Lipofectamine 2000 with either SMARTpool siRNA directed against human Prdx6 or a non-targeting control pool (scrambled) and cells treated then lyzed 72 h later.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasmids and recombinant proteins</head><p>Wild type, C47S, R132A and R132E Prdx6 cDNAs were subcloned into pcDNA 3.1 and expressed in HEK cells by transfection using Lipofectamine 2000. GST-tagged PLM was purified as described previously. <ref type="bibr" target="#b12">13</ref> His-tagged Prdx6 (wild type and C47S),</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Palmitoylation: policing protein stability and traffic</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Protein palmitoylation by a family of DHHC protein S-acyltransferases</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vasudevan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deschenes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1118" to="1127" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fatty acyl recognition and transfer by an integral membrane S-acyltransferase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Rajashankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page">6326</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Small-molecule inhibition of APT1 affects Ras localization and signaling</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vartak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Menninger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hedberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Balamurugan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Renner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gerauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scho ¨lermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="449" to="456" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Active and dynamic mitochondrial S-depalmitoylation revealed by targeted fluorescent probes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Elvira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Sandoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Zaballa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Z</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Van Der Goot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">334</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Acylprotein thioesterase 2 catalyzes the deacylation of peripheral membrane-associated GAP-43</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Tomatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Trenchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Daniotti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2010">2010. 15045</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Protein acyl thioesterases (Review)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zeidman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Magee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Membr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="32" to="41" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Global profiling of dynamic protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adibekian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Tully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="84" to="89" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Identification of PSD-95 Depalmitoylating Enzymes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yokoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="6431" to="6444" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">ABHD17 proteins are novel protein depalmitoylases that regulate N-Ras palmitate turnover and subcellular localization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Conibear</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Elife 4, e11306</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">ABHD10 is an S-depalmitoylase affecting redox homeostasis through peroxiredoxin-5</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kathayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Thorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dickinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1232" to="1240" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Regulation of the cardiac sodium pump</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Tulloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Calaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1357" to="1380" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">FXYD1 phosphorylation in vitro and in adult rat cardiac myocytes: threonine 69 is a novel substrate for protein kinase C</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Mclatchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pavlovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="1346" to="C1355" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The inhibitory effect of phospholemman on the sodium pump requires its palmitoylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Tulloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="36020" to="36031" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Substrate recognition by the cell surface palmitoyl transferase DHHC5</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Vlachaki Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L J</forename><surname>Ashford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Calaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mcclafferty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shipston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="17534" to="17539" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Greasing the wheels or a spanner in the works? Regulation of the cardiac sodium pump by palmitoylation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Plain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Tulloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Rev. Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="175" to="191" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Peroxiredoxin 6, a 1-Cys peroxiredoxin, functions in antioxidant defense and lung phospholipid metabolism. Free Radic</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Manevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1422" to="1432" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Activation of the antioxidant enzyme 1-CYS peroxiredoxin requires glutathionylation mediated by heterodimerization with pi GST</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Manevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Feinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="3780" to="3785" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Binding of peroxiredoxin 6 to substrate determines differential phospholipid hydroperoxide peroxidase and phospholipase A(2) activities</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Manevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shuvaeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dodia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Feinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Biochem. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">485</biblScope>
+			<biblScope unit="page" from="139" to="149" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A Separate Pool of Cardiac Phospholemman That Does Not Regulate or Associate with the Sodium Pump: MULTIMERS OF PHOSPHOLEMMAN IN VENTRICULAR MUSCLE</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wypijewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Tulloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Aughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Mclatchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Calaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="13808" to="13820" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Regulation of hepatic glutathione synthesis: current concepts and controversies</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Faseb. J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1169" to="1183" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Biologic and pharmacologic regulation of mammalian glutathione synthesis. Free Radic</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">W</forename><surname>Griffith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="922" to="935" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Thiol oxidation in signaling and response to stress: detection and quantification of physiological and pathophysiological thiol modifications. Free Radic</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Clavreul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sethuraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1099" to="1108" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A Decade of Click Chemistry in Protein Palmitoylation: Impact on Discovery and New Biology</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Hannoush</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="236" to="246" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Crystal structure of a novel human peroxidase enzyme at 2.0 A resolution</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Rhee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ryu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="400" to="406" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Multiplexed protein quantitation in Saccharomyces cerevisiae using aminereactive isobaric tagging reagents</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hattan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Khainovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Daniels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1154" to="1169" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Myelin P0 glycoprotein and a synthetic peptide containing the palmitoylation site are both autoacylated</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bharadwaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Bizzozero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1805" to="1815" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">RING-type E3 ligases: master manipulators of E2 ubiquitin-conjugating enzymes and ubiquitination</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Metzger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pruneda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Klevit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Weissman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1843</biblScope>
+			<biblScope unit="page" from="47" to="60" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Peroxiredoxin 6 mediates Galphai protein-coupled receptor inactivation by cJun kinase</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Schattauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Land</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Reichard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Abraham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Burgeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Kuhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E M</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chavkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">743</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">N-Acetylcysteine accelerates amputation stump healing in the setting of diabetes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Zayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Belaygorod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Naim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Semenkovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Faseb. J</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2686" to="2695" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Characterization of the complex of glutathione S-transferase pi and 1-cysteine peroxiredoxin</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Ralat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Misquitta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Manevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Colman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Biochem. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">474</biblScope>
+			<biblScope unit="page" from="109" to="118" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Direct evidence for the formation of a complex between 1-cysteine peroxiredoxin and glutathione S-transferase pi with activity changes in both enzymes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Ralat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Manevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Colman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="360" to="372" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Modulation of cardiac Na(+)-K+ pump current: role of protein and nonprotein sulfhydryl redox status</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Haddock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hearse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="page" from="297" to="H307" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Measurement of Na + -K + pump current in isolated rabbit ventricular myocytes using the whole-cell voltage-clamp technique. Inhibition of the pump by oxidant stress</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsuura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circ. Res</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="91" to="101" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Structure and phospholipase function of peroxiredoxin 6: identification of the catalytic triad and its role in phospholipid substrate binding</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Manevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shuvaeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Feinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2306" to="2318" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A novel lysophosphatidylcholine acyl transferase activity is expressed by peroxiredoxin 6</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dodia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Sorokina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Feinstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="587" to="596" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Primary sequence requirements for S-acylation of beta(2)-adrenergic receptor peptides</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Be ´langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ansanay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Qanbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bouvier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="59" to="64" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">On the mechanism of protein palmitoylation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E P</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ungermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1053" to="1057" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The Golgi S-acylation machinery comprises zDHHC enzymes with major differences in substrate affinity and S-acylation activity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lemonidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Gorleku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Sanchez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grefen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3870" to="3883" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Peptide array-based screening reveals a large number of proteins interacting with the ankyrin-repeat domain of the zDHHC17 S-acyltransferase</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lemonidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="page" from="17190" to="17202" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Identification of a Novel Sequence Motif Recognized by the Ankyrin Repeat Domain of zDHHC17/13 S-Acyltransferases</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lemonidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Sanchez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="page" from="21939" to="21950" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Ischemiainduced phosphorylation of phospholemman directly activates rat cardiac Na/K-ATPase</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Eaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shattock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Faseb. J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="197" to="199" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Overexpression of phospholemman alters contractility and [Ca(2+)](i) transients in adult rat myocytes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Qureshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Rothblum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Cheung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Heart Circ. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="576" to="H583" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The PRIDE database resources in 2022: a hub for mass spectrometry-based proteomics evidences</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Perez-Riverol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bandla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Garcı ´a-Seisdedos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hewapathirana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kamatchinathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Prakash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frericks-Zipper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eisenacher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="543" to="D552" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Site-specific analysis of protein S-acylation by resin-assisted capture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Forrester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hultman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moseley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Stamler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Casey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="393" to="398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

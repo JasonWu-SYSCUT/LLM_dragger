@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Exploring protein-protein interactions and oligomerization state of pulmonary surfactant protein C (SP-C) through FRET and fluorescence self-quenching</title>
+				<funder ref="#_aBvnM84 #_Vu7RzRF">
+					<orgName type="full">European Regional Development Fund</orgName>
+				</funder>
+				<funder ref="#_VmPb6P9">
+					<orgName type="full">Spanish Ministry of Science and Innovation Grant</orgName>
+				</funder>
+				<funder ref="#_q79Qg5k">
+					<orgName type="full">Spanish Ministry of Science and Innovation. Luís M. S. Loura</orgName>
+				</funder>
+				<funder ref="#_HMC2ySd #_FzE8PQP">
+					<orgName type="full">FCT-Fundação para a Ciência e a Tecnologia</orgName>
+				</funder>
+				<funder ref="#_Dx4Xfdq">
+					<orgName type="full">Comunidad de Madrid</orgName>
+				</funder>
+				<funder ref="#_tNpmRzE">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mishelle</forename><surname>Mor An-Lalangui</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biochemistry and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Biology</orgName>
+								<orgName type="institution">Complutense University</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Research Institute &quot;Hospital</orgName>
+								<address>
+									<addrLine>12 de Octubre (imas12)&quot;</addrLine>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><surname>Coutinho</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">iBB Institute for Bioengineering and Bioscience</orgName>
+								<orgName type="institution" key="instit1">IST</orgName>
+								<orgName type="institution" key="instit2">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Institute for Health and Bioeconomy at IST</orgName>
+								<orgName type="laboratory">Associate Lab i4HB</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Chemistry and Biochemistry</orgName>
+								<orgName type="department" key="dep2">Faculty of Sciences</orgName>
+								<orgName type="institution">University of Lisbon</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manuel</forename><surname>Prieto</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">iBB Institute for Bioengineering and Bioscience</orgName>
+								<orgName type="institution" key="instit1">IST</orgName>
+								<orgName type="institution" key="instit2">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Institute for Health and Bioeconomy at IST</orgName>
+								<orgName type="laboratory">Associate Lab i4HB</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Alexander</forename><surname>Fedorov</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">iBB Institute for Bioengineering and Bioscience</orgName>
+								<orgName type="institution" key="instit1">IST</orgName>
+								<orgName type="institution" key="instit2">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Institute for Health and Bioeconomy at IST</orgName>
+								<orgName type="laboratory">Associate Lab i4HB</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Jesús Pérez-Gil</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biochemistry and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Biology</orgName>
+								<orgName type="institution">Complutense University</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Research Institute &quot;Hospital</orgName>
+								<address>
+									<addrLine>12 de Octubre (imas12)&quot;</addrLine>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Luís</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Loura</surname></persName>
+							<email>lloura@ff.uc.pt</email>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">Coimbra Chemistry Centre</orgName>
+								<orgName type="department" key="dep3">Institute of Molecular Sciences (CQC-IMS)</orgName>
+								<orgName type="institution">University of Coimbra</orgName>
+								<address>
+									<settlement>Coimbra</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="laboratory">CNC Centre for Neuroscience and Cell Biology</orgName>
+								<orgName type="institution">University of Coimbra</orgName>
+								<address>
+									<settlement>Coimbra</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Faculty of Pharmacy</orgName>
+								<orgName type="institution">University of Coimbra</orgName>
+								<address>
+									<settlement>Coimbra</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Begoña</forename><surname>García-Álvarez</surname></persName>
+							<email>begoga01@ucm.es</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biochemistry and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Biology</orgName>
+								<orgName type="institution">Complutense University</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Research Institute &quot;Hospital</orgName>
+								<address>
+									<addrLine>12 de Octubre (imas12)&quot;</addrLine>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Biochemistry and Molecular Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Chemistry</orgName>
+								<orgName type="institution">Complutense University</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luís</forename><forename type="middle">M S</forename><surname>Loura</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aitziber</forename><forename type="middle">L</forename><surname>Cortajarena</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">Coimbra Chemistry Centre</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="department">Institute of Molecular Sciences (CQC-IMS)</orgName>
+								<orgName type="institution">University of Coimbra</orgName>
+								<address>
+									<settlement>Coimbra</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Biochemistry and Molecular Biology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<orgName type="department">Faculty of Biology</orgName>
+								<orgName type="institution">Complutense University</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Exploring protein-protein interactions and oligomerization state of pulmonary surfactant protein C (SP-C) through FRET and fluorescence self-quenching</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0C7948E92B1DEB2F0AA2DE1869C6DF2D</idno>
+					<idno type="DOI">10.1002/pro.4835</idno>
+					<note type="submission">Received: 10 July 2023 Revised: 3 November 2023 Accepted: 6 November 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-25T07:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>FRET</term>
+					<term>oligomerization state</term>
+					<term>protein-protein interaction</term>
+					<term>pulmonary surfactant</term>
+					<term>selfquenching</term>
+					<term>surfactant protein C (SP-C)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Pulmonary surfactant (PS) is a lipid-protein complex that forms films reducing surface tension at the alveolar air-liquid interface. Surfactant protein C (SP-C) plays a key role in rearranging the lipids at the PS surface layers during breathing. The N-terminal segment of SP-C, a lipopeptide of 35 amino acids, contains</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>two palmitoylated cysteines, which affect the stability and structure of the molecule. The C-terminal region comprises a transmembrane α-helix that contains a ALLMG motif, supposedly analogous to a well-studied dimerization motif in glycophorin A. Previous studies have demonstrated the potential interaction between SP-C molecules using approaches such as Bimolecular Complementation assays or computational simulations. In this work, the oligomerization state of SP-C in membrane systems has been studied using fluorescence spectroscopy techniques. We have performed self-quenching and FRET assays to analyze dimerization of native palmitoylated SP-C and a non-palmitoylated recombinant version of SP-C (rSP-C) using fluorescently labeled versions of either protein reconstituted in different lipid systems mimicking pulmonary surfactant environments. Our results reveal that doubly palmitoylated native SP-C remains primarily monomeric. In contrast, non-palmitoylated recombinant SP-C exhibits dimerization, potentiated at high concentrations, especially in membranes with lipid phase separation. Therefore, palmitoylation could play a crucial role in stabilizing the monomeric α-helical conformation of SP-C. Depalmitoylation, high protein densities as a consequence of membrane compartmentalization, and other factors may all lead to the formation of protein dimers and higher-order oligomers, which could have functional implications under certain pathological conditions and contribute to membrane transformations associated with surfactant metabolism and alveolar homeostasis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>The alveoli are responsible for gas exchange between the air in the lungs and the bloodstream. They are coated by two main types of alveolar cells: type I (AT1) cells, which comprise about 95% of the alveolus surface and type II (AT2) cells encompassing the remaining 5%, approximately <ref type="bibr" target="#b28">(Guillot et al., 2013)</ref>. AT1 cells are thin and flat cells that take part in the exchange of gases while AT2 cells have a cuboidal morphology and secrete Pulmonary Surfactant (PS). The PS is a lipid-protein multilayered complex that forms films lining the alveolar surface and reduce surface tension <ref type="bibr" target="#b26">(Goerke, 1998)</ref>. Once synthesized in the endoplasmic reticulum, PS is assembled into lamellar bodies (LBs), which once secreted are rapid and efficiently adsorbed into the air-liquid interface. In this way, PS film is the first physical contact with harmful particles inhaled during breathing and contributes to the innate defense system of the lung <ref type="bibr" target="#b13">(Chroneos et al., 2010)</ref>. Both biophysical and immunological functions of PS depend on its composition which is mainly lipids (90% of PS mass), particularly saturated lipids as dipalmitoyl phosphatidylcholine (DPPC, 40%), unsaturated lipids (35%), and neutral lipids as cholesterol (8%-10%) <ref type="bibr" target="#b17">(Daniels &amp; Orgeig, 2003)</ref>. The remaining 10% of PS mass encompasses surfactant proteins (SPs): SP-A, SP-B, SP-C, and SP-D <ref type="bibr" target="#b17">(Daniels &amp; Orgeig, 2003;</ref><ref type="bibr" target="#b26">Goerke, 1998)</ref>. They are essential for a proper function of the lung <ref type="bibr" target="#b27">(Griese, 1999)</ref>.</p><p>SP-A and SP-D are hydrophilic proteins, members of the collection family of proteins that are involved in innate immunity <ref type="bibr" target="#b1">(Ariki et al., 2012;</ref><ref type="bibr" target="#b55">Perez-Gil &amp; Weaver, 2010)</ref>. Deficiency or dysfunction of SP-A and SP-D has been associated with various lung disorders, including acute respiratory distress syndrome (ARDS) and chronic obstructive pulmonary disease (COPD) <ref type="bibr" target="#b49">(Mason et al., 1998;</ref><ref type="bibr" target="#b55">Perez-Gil &amp; Weaver, 2010;</ref><ref type="bibr" target="#b65">Silveyra &amp; Floros, 2012)</ref>. On the other hand, SP-B and SP-C are small cationic and highly hydrophobic proteins <ref type="bibr" target="#b17">(Daniels &amp; Orgeig, 2003;</ref><ref type="bibr" target="#b26">Goerke, 1998)</ref>. They are essential for the biophysical function of PS due to their ability to rearrange lipids from PS membranes and interfacial films during compression-expansion breathing cycles <ref type="bibr" target="#b53">(Parra &amp; Pérez-Gil, 2015;</ref><ref type="bibr" target="#b64">Serrano &amp; Pérez-Gil, 2006)</ref>. Lack of SP-B results in respiratory failure and death shortly after birth, while SP-C deficiency causes lung failure at long term <ref type="bibr" target="#b0">(Amin et al., 2001;</ref><ref type="bibr" target="#b14">Clark et al., 1995;</ref><ref type="bibr" target="#b50">Nogee et al., 1994;</ref><ref type="bibr" target="#b70">Tokieda et al., 1997)</ref>.</p><p>The main activity of SP-C consists of the transference of lipids between the lipid monolayer at the air-liquid interface and multilayered membrane reservoirs beneath the monolayer. Additionally, SP-C is able to interact with lipopolysaccharide (LPS) of Gram-negative bacteria as well as CD14 of macrophages, a co-receptor of bacterial LPS <ref type="bibr" target="#b2">(Augusto et al., 2001;</ref><ref type="bibr" target="#b3">Augusto et al., 2002;</ref><ref type="bibr">Augusto, Synguelakis, Johansson, et al., 2003)</ref>. Different evidences indicate that SP-C may play an anti-inflammatory role, as demonstrated by its ability to decrease levels of inflammatory mediators, including tumoral necrosis factor α (TNF-α) and nitric oxide, induced by LPS <ref type="bibr" target="#b4">(Augusto, Synguelakis, Espinassous, et al., 2003;</ref><ref type="bibr" target="#b25">Garcia-Verdugo et al., 2009)</ref>. Thus, SP-C could play a relevant role modulating the immune response against pathogens and maintaining alveolar homeostasis. SP-C is synthetized as a large precursor of 197 amino acid residues (21 kDa) that includes a BRICHOS domain that contributes to a proper folding and palmitoylation of the protein (ten <ref type="bibr" target="#b68">Brinke, Vaandrager, et al., 2002;</ref><ref type="bibr">ten Brinke, van Golde, &amp; Batenburg, 2002)</ref>. This precursor is processed along the SP-B precursor within the lamellar bodies of AT2 cells <ref type="bibr" target="#b51">(Olmeda et al., 2017;</ref><ref type="bibr">ten Brinke, van Golde, &amp; Batenburg, 2002;</ref><ref type="bibr" target="#b76">Weaver, 1998)</ref>. Mature SP-C is the smallest protein of PS (4.2 kDa), composed just by 35 amino acids (FGIPCCPVHLKRLLIVVVVVVLIVV VIVGALLMGL in Homo sapiens), and encompasses about 1% of PS mass <ref type="bibr" target="#b17">(Daniels &amp; Orgeig, 2003;</ref><ref type="bibr" target="#b26">Goerke, 1998;</ref><ref type="bibr" target="#b34">Johansson, 1998)</ref>. It adopts a transmembrane α-helical structure despite its high proportion of aliphatic branched residues, such as valines, typically promoting formation of β sheets <ref type="bibr" target="#b12">(Chou &amp; Fasman, 1978)</ref>. These residues confer an extreme stiffness to the α-helix <ref type="bibr" target="#b36">(Johansson et al., 1994)</ref>. The N-terminal segment of SP-C, constituted by the first 12 amino acids, is not in principle embedded into the membrane and adopts an undefined structure <ref type="bibr" target="#b34">(Johansson, 1998;</ref><ref type="bibr" target="#b56">Plasencia et al., 2001;</ref><ref type="bibr" target="#b73">Vandenbussche et al., 1992)</ref>. However, it is able to interact with anionic lipids of PS layers, such as phosphatidylglycerol (PG), due to its cationic charge. Moreover, cysteine residues of this segment are stoichiometrically palmitoylated <ref type="bibr" target="#b34">(Johansson, 1998;</ref><ref type="bibr">ten Brinke, van Golde, &amp; Batenburg, 2002)</ref>. Palmitoylation has been shown to affect the stability and structure of the protein. It also allows the anchoring of the N-terminal segment to the membrane, modulating SP-C tilting in lipid bilayers. Furthermore, palmitoylated SP-C is more resistant to proteolytic degradation <ref type="bibr" target="#b19">(Dluhy et al., 2003;</ref><ref type="bibr" target="#b58">Roldan et al., 2015;</ref><ref type="bibr" target="#b73">Vandenbussche et al., 1992;</ref><ref type="bibr" target="#b75">Wang et al., 1996)</ref>. The C-terminal region of SP-C comprises the transmembrane α-helix that contains a ALLMG motif. It has been proposed as a dimerization domain analogous to the GxxxG motif present in the membrane protein glycophorin A (GpA), whose homodimerization state has been extensively characterized <ref type="bibr" target="#b38">(Kairys et al., 2004;</ref><ref type="bibr" target="#b47">Luy et al., 2004;</ref><ref type="bibr" target="#b62">Sarabipour &amp; Hristova, 1828)</ref>. Both sequences are conserved among a wide range of species including human SP-C and porcine SP-C. Recently, <ref type="bibr">Barriga et al. have</ref> shown that SP-C molecules could interact with each other using bimolecular fluorescence complementation assays (BiFC) <ref type="bibr" target="#b7">(Barriga et al., 2021)</ref>. However, this technique does not allow discerning between a purely dimeric or an oligomeric structure <ref type="bibr" target="#b31">(Hiatt et al., 2008;</ref><ref type="bibr" target="#b33">Jia et al., 2021)</ref>. In addition, Korolainen et al. have studied through molecular dynamics simulations the potential dimerization of SP-C and they have proposed that SP-C dimerization could depend on a sequence motif larger than AxxxG <ref type="bibr" target="#b41">(Korolainen et al., 2022)</ref>.</p><p>In this work, the oligomerization state of SP-C in membrane systems was studied using fluorescence spectroscopy techniques. Our results show that native doubly palmitoylated SP-C was not able to form dimers or oligomers in POPC membranes where compartmentalization is not possible, in contrast to non-palmitoylated recombinant SP-C, which could dimerize at high concentrations, particularly in the presence of a lipid phase separation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| RESULTS</head><p>The absorption and emission spectra of SP-C labeled with Marina Blue or BODIPY-FL fluorophores upon incorporation into POPC bilayers under diluted conditions are depicted in Figure <ref type="figure">1</ref>. No significant spectral alterations were detected for BODIPY SP-C compared to BODIPY SP-B <ref type="bibr" target="#b72">(Umberger &amp; LaMer, 1945)</ref>, and these spectral profiles are also identical to the ones obtained with the recombinant SP-C protein, rSP-C (results not shown). Upon direct inspection of Figure <ref type="figure">1</ref>, a large overlap between Marina Blue fluorescence emission and BODIPY-FL absorption spectra can be detected, allowing for an efficient FRET interaction. Incorporating fluorophores into a biological structure could influence on the intrinsic structure. To study this issue, we have performed circular dichroism (CD) measurements. Deconvolution of spectra profiles has shown that the probe does not disrupt the essentially alpha-helical structure of the protein (results not shown).</p><p>The photophysical characterization of these two derivatized proteins is presented in Table <ref type="table">1</ref> and<ref type="table">Figure 2</ref>. The fluorescence intensity decay of Marina Blue SP-C is well described by three exponentials, with an additional faster component when compared with previous data <ref type="bibr" target="#b11">(Cabre et al., 2018)</ref>. A similar behavior was obtained for the fluorescence anisotropy decay of Marina Blue SP-C, where the previous limiting anisotropy is now translated by a very long rotational correlation time ϕ = 21.0 ns. For the BODIPY SP-C, its fluorescence intensity decay is successfully described by a single exponential of τ = 6.0 ns, and a long rotational correlation time of ϕ = 14.1 ns is necessary to adequately fit its fluorescence anisotropy decay. It should be stressed that these results are essentially identical to the ones previously described in <ref type="bibr" target="#b11">(Cabre et al., 2018)</ref>, and the small differences are essentially due to a better instrumental time-resolution, allowing for the   detection of ultrafast components in the fluorescence intensity decays.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Protein lateral diffusion and compartmentalization from time-resolved self-quenching</head><p>The self-quenching (SQ) of emission of the BODIPY fluorophore upon aggregation and π-stacking interactions has been reported often in the literature (e.g., <ref type="bibr" target="#b39">Kang et al., 2022;</ref><ref type="bibr" target="#b42">Liu et al., 2019;</ref><ref type="bibr" target="#b52">Pakhomov et al., 2017)</ref>. In the present work, we used both time-resolved and steady-state self-quenching (TRSQ and SSSQ, respectively) as means to probe the lateral diffusion/compartmentalization (from TRSQ) and aggregation (from SSSQ) of the two fluorescently labeled proteins in the different lipid systems. We address the former in this subsection.</p><p>The dependence of BODIPY SP-C and BODIPY rSP-C mean fluorescence lifetimes on their membrane concentrations were analyzed using a Stern-Volmer equation:</p><formula xml:id="formula_0">τ 0 =τ ¼ 1 þ k q τ 0 h i Q ½ ,<label>ð1Þ</label></formula><p>where [Q] is the fluorophore concentration in the lipid phase (equal to that of the fluorescently labeled protein, corrected for the corresponding labeling ratio), τ is the amplitude-averaged mean fluorescence lifetime,</p><formula xml:id="formula_1">τ ¼ X i α i τ i ,<label>ð2Þ</label></formula><p>and &lt;τ&gt; is the intensity-averaged mean fluorescence lifetime,</p><formula xml:id="formula_2">τ h i ¼ P i α i τ 2 i P i α i τ i ,<label>ð3Þ</label></formula><p>The subscript "0" indicates values extrapolated to infinite dilution. The main fitting parameter in the Stern-Volmer plots is the bimolecular collisional quenching rate constant, k q . According to the approximation of <ref type="bibr" target="#b72">Umberger and Lamer (1945)</ref>, it is related to the selfdiffusion coefficient D through</p><formula xml:id="formula_3">k q ¼ 4πN A 2R c ð Þ 2D ð Þ 1 þ 2R c ffiffiffiffiffiffiffiffiffiffiffiffiffi ffi 2 τ 0 h iD p ! ,<label>ð4Þ</label></formula><p>where N A is the Avogadro constant and R c is the collisional radius, which for self-quenching equals to twice the fluorophore radius.</p><p>Stern-Volmer plots for the different systems under study are depicted in Figure <ref type="figure">3</ref>. Note the enlarged ordinate scale in the right plots, indicative of a larger extent of self-quenching for rSP-C, especially in the LM (mixture of DPPC/POPC/POPG, 50/25/15 w/w/w) and LS (full lipid surfactant) systems. Table <ref type="table">2</ref> shows the corresponding D values obtained from solving the non-linear Equation (4) (with R c = 1.0 nm), as well as their 90% confidence intervals. The diffusion coefficient measured for BODIPY SP-C in POPC is typical of a membrane-inserted protein, being in fact similar to that previously obtained for BODIPY SP-B in the same system <ref type="bibr" target="#b11">(Cabre et al., 2018)</ref>, and of the order of what is expected for phospholipids in fluid disordered bilayers ($10 À7 cm 2 /s; <ref type="bibr" target="#b23">Filippov et al., 2003</ref><ref type="bibr" target="#b24">Filippov et al., , 2004))</ref>. A similar extent of dynamic selfquenching, and consequently a similar D value, was measured for BODIPY SP-C in the LM system. At variance, for LS membranes, a larger degree of quenching occurred within the same concentration range, implying a higher diffusion coefficient by approximately an order of magnitude. Such value is unrealistically high for lateral diffusion in lipid bilayers, and reflects compartmentalization of SP-C, resulting in much higher effective SP-C concentrations available for dynamic self-quenching than expected from the bulk membrane concentration in this system.</p><p>Turning now to BODIPY rSP-C, an approximately two-fold increase in D was observed in POPC compared to the value obtained for the palmitoylated protein. This slightly faster lateral diffusion of BODIPY rSP-C compared to BODIPY SP-C could be rationalized on account of the lack of the membrane-inserted acyl chain. On the other hand, compared to POPC, the apparent diffusion coefficient of BODIPY rSP-C is increased by a factor of ffi4 and ffi15 in LM and LS vesicles, respectively. While the results obtained for both proteins in LS are qualitatively similar, the higher apparent diffusion coefficient in LM compared to POPC reveals that BODIPY rSPC probably has a confined distribution in this lipid system, contrary to its palmitoylated counterpart.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Protein aggregation from steadystate self-quenching</head><p>SSSQ of BODIPY-labeled membrane proteins was monitored at λ em = 550 nm, following excitation at λ em = 470 nm (Figure <ref type="figure">4</ref>). The measured fluorescence intensities I F were analyzed first with a formalism that combined dynamical with static quenching, the latter being described by an active sphere term, which accounts for transient statistical nonfluorescent contact pairs, formed at the moment of excitation, but not involved in complexes formation (i.e., with interaction energy below the thermal value) <ref type="bibr" target="#b11">(Cabre et al., 2018;</ref><ref type="bibr" target="#b21">Fernandes et al., 2003)</ref>:</p><formula xml:id="formula_4">I F ¼ C F ½ 1=τ 0 þ k q F ½ exp ÀVN A F ½ ð Þ :<label>ð5Þ</label></formula><p>In this equation, V is the active sphere volume and C is a multiplying factor. From this analysis, we concluded that no aggregation of BODIPY SP-C was apparent in POPC or LM bilayers (a V = 0 being recovered), while a low degree of aggregation was observed for this protein in LS, compatible with formation of statistical contact pairs (active sphere radius R = (3V/ (4π)) 1/3 = 8.9 Å). Conversely, for BODIPY rSP-C, higher active sphere radii were retrieved in all systems, namely 13.8, 26.7, and 18.7 Å for POPC, LM, and LS, respectively. Such values, namely the latter two, are higher than the expected interfluorophore distances for a contact dimer, indicating a higher extent of aggregation than what could be justifiably rationalized as statistical pairs. This led us to alternatively consider a dimerization scheme,</p><formula xml:id="formula_5">2F 1 ⇌ F 2 , K ¼ F 2 ½ = F 1 ½ 2 , F ½ ¼ F 1 ½ þ2 F 2 ½ ,<label>ð6Þ</label></formula><p>where F 1 and F 2 represent monomeric and dimeric fluorophore species, and [F] is the total fluorophore concentration. In these circumstances, the fluorescence intensity will be given by</p><formula xml:id="formula_6">I F ¼ C F 1 ½ 1=τ 0 þ k q F ½ :<label>ð7Þ</label></formula><p>Solving Equation ( <ref type="formula" target="#formula_5">6</ref>) for (for given K and [F] values), and inserting in Equation ( <ref type="formula" target="#formula_6">7</ref>) leads to <ref type="bibr" target="#b21">(Fernandes et al., 2003)</ref>:  Note: The coefficient D (10 À7 cm 2 /s) has been obtained from Equation (4) after fitting Equation ( <ref type="formula" target="#formula_0">1</ref>) to the Stern-Volmer plots of Figure <ref type="figure">3</ref> for either protein in POPC, LM (DPPC/POPC/POPG lipid mixture) or LS (lipid surfactant); 90% confidence intervals are given inside parentheses.</p><formula xml:id="formula_7">I F ¼ C 1=τ 0 þ k q F ½ À1 þ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 1 þ 8K F ½ p 4K :<label>ð8Þ</label></formula><p>This equation holds for the hypothetical situation of a complete protein labeling with fluorophore. However, in the case of incomplete protein labeling, such as in the present situation, three different combinations are possible for dimers, namely labeled/labeled, labeled/unlabeled, and unlabeled/unlabeled protein pairs. Only formation of the first one leads to self-quenching of BODIPY. Under this situation, the concentration of protein in each form can be obtained for a given K value by numerically solving a set of nonlinear equations, as detailed in the Appendix S1. Summing the concentration of the two species with a single labeled protein (either true monomers or unlabeled/labeled dimers) and inserting that sum in the numerator of Equation ( <ref type="formula" target="#formula_6">7</ref>) (in the place of), the theoretical fluorescence intensity is obtained as a function of total protein, and from fitting of this variation to the experimental I F , one recovers K (as well as C), which, in turn, allows estimation of the variable concentrations of the monomeric and dimeric species. (a)   <ref type="figure">c-f</ref>). The solid lines are the best fits to a combined dynamic and static quenching mechanism, with an active sphere (a,b; V = 0 in Equation ( <ref type="formula" target="#formula_4">5</ref>)) or dimerization equilibrium (c-f; Equation (7), see text for K values in each case) formalism. In the latter situation, the fractions of monomeric labeled protein, /[F], are plotted as dotted lines, referring to the secondary ordinate axes of the corresponding panels.</p><p>For the situations where the sphere of action formalism indicated the possibility of aggregation, namely BOD-IPY SP-C in LS or BODIPY rSP-C in POPC, LM, or LS membranes, we used the dimer equilibrium formalism, to obtain K = 1.0 M À1 , 3.9 M À1 , 438 M À1 , and 16.6 M À1 , respectively. For these systems, the corresponding panels of Figure <ref type="figure">4C-F</ref>, respectively, show the fraction of monomeric labeled protein as a function of total fluorescently labeled protein.</p><p>A critical comment should be made here about the quenching models and the best-fit values recovered: (i) there is some scatter in the data for plots E and F; (ii) there is anti-correlation between the two sources of quenching, meaning that an underestimation of the dynamic component may be counterbalanced by an overestimation of the static one, and vice versa; (iii) although the fits in Figure <ref type="figure">4</ref> are satisfactory, higher order aggregates cannot be ruled out; and finally (iv) for simplicity, it is assumed that the quenching efficiency of dimers involving fluorescent units is strictly unity. Still, it can be concluded that these results point to an essentially monomeric distribution of BODIPY SP-C in all systems (a very slight degree of aggregation is apparent only in LS), in contrast to BODIPY rSP-C, for which aggregation can be inferred, most significantly in the LM and LS systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Protein lateral membrane distribution from time-resolved FRET measurements</head><p>The time-resolved emission of Marina Blue SP-C and Marina Blue rSP-C was measured in the absence and in the presence of varying membrane concentrations of BODIPY SP-C and BODIPY rSP-C, respectively. As clearly seen in Figure <ref type="figure">1</ref>, the emission spectrum of Marina Blue and the absorption spectrum of BODIPY display considerable overlap. This allows for an efficient FRET between protein molecules labeled with the two fluorophores, with a Förster distance of 4.93 nm as previously determined <ref type="bibr" target="#b11">(Cabre et al., 2018)</ref>.</p><p>For each lipid system, the fluorescence intensity decays of samples with donor only (vesicles loaded with 5 μM Marina Blue SP-C or Marina Blue rSP-C) and donor + acceptor (vesicles loaded with 5 μM Marina Blue SP-C or Marina Blue rSP-C, and varying concentrations of BODIPY SP-C or BODIPY rSP-C) were measured. For each acceptor concentration, the donor-only sample received a concentration of the corresponding unlabeled protein equal to that of the BODIPY-labeled protein in the corresponding donor + acceptor sample. These two decays were analyzed globally, with linkage of the common decay parameters, as described previously in our study of SP-C/SP-B interactions <ref type="bibr" target="#b11">(Cabre et al., 2018)</ref>. In that work, we also established as the best FRET model a formalism that allows for the possibility of two populations (relative amounts A 1 and A 2 ) of non-equivalent donors, transferring excitation energy to corresponding populations of acceptors (with local two-dimensional concentrations c 1 and c 2 , respectively). Each donor molecule can undergo FRET to acceptors located in the same bilayer leaflet (cis FRET) or in the opposite one (trans FRET), at a transverse distance h = 3.4 nm (see fig. <ref type="figure">7</ref> of <ref type="bibr" target="#b11">Cabre et al., 2018)</ref>. The donor decay in the presence of acceptor, i DA (t), is described by</p><formula xml:id="formula_8">i DA t ð Þ ¼ i D t ð Þ A 1 ρ cis,1 t ð Þρ trans,1 t ð Þ þA 2 ρ cis,2 t ð Þρ trans,2 t ð Þ Â Ã ,<label>ð9Þ</label></formula><p>where i D (t) is the donor decay in the absence of acceptor (described as a sum of up to three exponentials), and the ρ functions, given by</p><formula xml:id="formula_9">ρ cis,i t ð Þ ¼ exp Àc i t 1=3 ,<label>ð10Þ</label></formula><p>and</p><formula xml:id="formula_10">ρ trans,i t ð Þ ¼ exp À 2 c i Γ 2=3 ð ÞÁb Z 1 0 1 À exp Àt b 3 α 6 À Á Â Ã α À3 dα 8 &lt; : 9 = ; ,<label>ð11Þ</label></formula><p>are the cis and trans FRET terms that apply to donor and acceptor population i (i = 1, 2). In the latter equation, Γ is the complete gamma function and b = (R 0 /h)/&lt;τ D &gt; 1/3 <ref type="bibr" target="#b18">(Davenport et al., 1985)</ref>.</p><p>From the recovered acceptor concentrations c 1 and c 2 , an overall acceptor concentration &lt;c&gt; may be calculated obtained by averaging with weights given by the relative amount of donors (q = A 2 /A 1 ):</p><formula xml:id="formula_11">c h i ¼ c 1 þ qc 2 ð Þ = 1 þ q ð Þ,<label>ð12Þ</label></formula><p>which can be compared with the theoretical expectation, obtained from the two-dimensional acceptor concentration n (molecules/unit area) <ref type="bibr" target="#b43">(Loura et al., 1996</ref><ref type="bibr">(Loura et al., , 2000))</ref>:</p><formula xml:id="formula_12">c ¼ nΓ 2=3 ð ÞπR 2 0 = τ D h i 1=3 :<label>ð13Þ</label></formula><p>As an example, Figure <ref type="figure">5</ref> shows experimental decays, fitting curves, as well as residual distributions and residual autocorrelations, for the Marina Blue SP-C/BODIPY SP-C FRET pair in POPC. The corresponding best-fit parameters are given in Table <ref type="table">3</ref>, while the ones for the Marina Blue rSP-C/BODIPY rSP-C FRET pair are shown in Table <ref type="table">4</ref>.</p><p>While both the fitted curves of Figure <ref type="figure">5</ref> and the fitting parameters in Tables 3, 4 concern the analysis of the ongoing hetero-FRET between the MB-and BODIPYlabeled proteins within the framework of Equations ( <ref type="formula" target="#formula_8">9</ref>)-(11) (with two non-equivalent populations of labeled protein), it should be noted that, for both the fluorescently-labeled SP-C and rSP-C in POPC, the decays of the most dilute samples could be successfully analyzed with a simple formalism, considering a single population. This is clear in the approximately equal c 1 and c 2 values obtained for [BODIPY SP-C] = 2.5 μM (Table <ref type="table">3</ref>; even though this is not the case for 1.25 μM, consideration of a single population would lead to an identically good fit, with c = 0.162 ns À3 and global χ 2 = 1.11) and [BODIPY rSP-C] = 1.25, 2.5, and 5 μM (Table <ref type="table">4</ref>). However, using higher acceptor concentrations leads to donor fluorescence intensity decays that can only be successfully analyzed by allowing for a second population. For fluorescently labeled SP-C (Table <ref type="table">3</ref>), this is apparent in a small (&lt;8%) fraction of isolated donors, that is, reporting a decreased local concentration of acceptors (c 2 &lt;&lt; c 1 ). We believe that this result is not very significant, since the calculated average concentration, &lt;c&gt;, remains close to the c 1 value; the residual c 2 component could arise from an imperfect linkage of the donor and acceptor decay samples. Significantly, when c 2 is fixed to zero, the quality of the global fits is not affected, and the recovered isolated donor fractions are consistently &lt;5%.</p><p>To some extent, this situation is also verified for rSP-C (Table <ref type="table">4</ref>). However, somewhat differently for the highest concentrations, when both c 1 and c 2 are optimized, their recovered values are finite, differing by a factor of 2-3, with comparable amplitudes (q is neither very small nor very large, indicating significant contributions of both populations), which points to a slightly more heterogeneous population. This result would be expected for a phase-separated lipid system, with two coexisting phases, with differences in distribution of donor-and  acceptor-labeled proteins according to their respective preferences. This is actually what is observed for the Marina Blue SP-C/BODIPY SP-C FRET pair in the LM and LS systems, where two populations of donors are inferred, one sensing acceptor depletion (0.1 ns À3 &lt; c 1 &lt; 0.4 ns À3 ), while the other reports a local higher acceptor concentration (1.5 ns À3 &lt; c 2 &lt; 3.6 ns À3 ), compatible with a partition coefficient of acceptor between these two phases of c 2 /c 1 <ref type="bibr">(Loura &amp; Prieto, 2000)</ref> ffi10 (see Tables <ref type="table">S1</ref> and<ref type="table">S2</ref>). In fact, in the case of fluorescently labeled SP-C in these more complex membrane systems, composed of both unsaturated and saturated phospholipids and (in the case of LS) cholesterol, an underlying heterogeneous lipid organization is expected. This is not the case for rSP-C in single-component POPC membranes, where the recovery of two distinct and significant populations can only be interpreted as a nonhomogeneous distribution of protein at high concentrations, with possible coexistence of monomers and aggregates, which would account for the lower and higher c values, respectively.</p><p>From Equation ( <ref type="formula" target="#formula_12">13</ref>), a linear dependence of c on the analytical acceptor surface concentration n is expected. n (molecules/Å 2 ) can be readily calculated from the probe:lipid ratio divided by the lipid molecular area (taken as 66 Å 2 for POPC; <ref type="bibr" target="#b22">Filipe et al., 2015)</ref>, and used to obtain theoretical estimates of c. The latter are compared with the &lt;c&gt; values recovered from the decay fits of Marina Blue SP-C and rSP-C in POPC (Figure <ref type="figure">6</ref>). Taking into account that the theoretical line in Figure <ref type="figure">6A</ref> is not a fit (but the direct result of applying Equation ( <ref type="formula" target="#formula_12">13</ref>) with independently obtained parameters), there is good agreement between the theoretical line and the recovered &lt;c&gt; values for SP-C, with linear dependence of the latter on protein concentration being kept up to 7.5 μM (or lipid:protein = 133). Deviations from the theoretical line may stem from several factors, including uncertainty in absolute lipid or protein concentrations, as well as lipid molecular area. Only for very high protein concentration (15 μM, or lipid:protein = 67) a clear deviation from linearity to &lt;c&gt; lower values becomes apparent, probably indicating onset of aggregation. Similar behaviors were observed for this protein in the other lipid systems (Figure <ref type="figure">S1</ref>). In contrast, for rSP-C in POPC, this deviation occurs at lower concentrations, pointing to higher propensity for protein aggregation.</p><p>While the fitting of FRET models to the decays provides important clues regarding the organization of SP-C and rSP-C in the different lipid systems, a simpler, more immediate, and model-independent analysis may be carried out by comparing the FRET efficiencies obtained from time-resolved data, using amplitude averaged lifetimes τ (Equation ( <ref type="formula" target="#formula_1">2</ref>)),</p><formula xml:id="formula_13">E TR ¼ 1 À τ DA =τ D ,<label>ð14Þ</label></formula><p>with those determined, in the same samples, from steady-state measurements, using fluorescence intensities I:</p><formula xml:id="formula_14">E ss ¼ 1 À I DA =I D :<label>ð15Þ</label></formula><p>In both equations, "D" and "DA" denote the donoronly and the donor + acceptor samples, respectively. The presence of donor-acceptor aggregation would give rise to donors quenched with 100% efficiency, invisible in the time-resolved experiment, but whose lack of emission would be reflected in a reduced I DA in the steady-state measurement. This situation would, in turn, be manifested as E SS &gt; E TR . Conversely, the absence of a  <ref type="table">4</ref>). The lines are the theoretical values calculated from the actual acceptor concentrations with Equation (13) (straight line), using the spectroscopic R 0 = 4.93 nm value, and an area/POPC lipid molecule = 0.66 nm 2 <ref type="bibr" target="#b22">(Filipe et al., 2015)</ref>. systematic order relation between E SS and E TR would point to absence of extensive donor-acceptor (and thus protein) aggregation.</p><p>Analysis of Figure <ref type="figure">7</ref> reveals a monotonic variation of E TR , except for rSPC in LS (Figure <ref type="figure">7D</ref>), while data for E SS is largely scattered. This is unsurprising, since the latter depends critically on donor concentration, which is an additional cause of experimental uncertainty. Still, it can be safely concluded that in both POPC and LS membrane systems, the variations of E SS and E TR for the SP-C-based FRET pair have a similar trend of variation (Figures <ref type="figure">7A,</ref><ref type="figure">C</ref>). This is not the case for the rSP-C-based FRET pair. In POPC, E SS and E TR are close, and only at lower acceptor concentrations the higher E SS points out to some extent of static quenching of Marina Blue rSP-C by BODIPY rSP-C, likely caused by aggregation. On the other hand, for LS (Figure <ref type="figure">7D</ref>), E TR displays an erratic dependence on acceptor concentration, around low values, denoting inefficient FRET. This contrasts with the corresponding E SS variation, which shows the expected sublinear increase to values close to unity for acceptor concentration. This behavior can be interpreted as extensive static quenching of most donor fluorophores by acceptors, indicative of aggregation. The TR data reflect that the "surviving" donors, probably monomers segregated from the quenched aggregates, reside mostly in an acceptor-deprived microenvironment, and FRET from them is inefficient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| DISCUSSION</head><p>The homodimerization of SP-C has been investigated in previous in silico or experimental studies, in which the full sequence or the structure of the studied protein were slightly different to that of native SP-C <ref type="bibr" target="#b7">(Barriga et al., 2021;</ref><ref type="bibr" target="#b38">Kairys et al., 2004;</ref><ref type="bibr" target="#b41">Korolainen et al., 2022;</ref><ref type="bibr" target="#b74">Wang et al., 2002)</ref>. In the present work, through a combination of fluorescence self-quenching and hetero-FRET studies we were able to evaluate the interplay between the palmitoylation state of SP-C and the lateral organization of the lipid membranes on the aggregation state and membrane compartmentalization of the protein. For this purpose, three different membrane mimetic systems were explored: (i) POPC membranes, in an entirely fluid disordered state; (ii) DPPC/POPC/POPG (50:25:15 w/w/w) mixed membranes, somehow mimicking in a simplified version the lipid composition of pulmonary surfactant and a likely coexistence of disordered and ordered phases, and (iii) membranes made of full lipid surfactant (LS) directly extracted from native pulmonary surfactant. This complex mixture comprises mainly DPPC, other phospholipids as phosphatidylglycerol phosphatidylinositol and phosphatidylserine, smaller amounts of other phospholipids, and neutral lipids such as cholesterol.</p><p>It had been proposed that SP-C could be able to interact with another molecule of SP-C through the extremely conserved AxxxG motif contained at the end of its α-helix ( <ref type="bibr" target="#b38">Kairys et al., 2004)</ref> or through the PCCP sequence located at its N-terminal <ref type="bibr" target="#b57">(Plasencia et al., 2004)</ref>. However, our analysis from fluorescence intensities obtained during steady-state self-quenching assays reveals that SP-C does not apparently oligomerize within fluid POPC membranes, where compartmentalization is not possible. This result is consistent with the data obtained by Horowitz and collaborators <ref type="bibr" target="#b32">(Horowitz et al., 1993)</ref>. They studied Förster resonance energy transfer between NBDlabeled SP-C and Eoisin 5-isothiocyanate (EITC) SP-C into DPPC:DMPG (7:1) membranes at different temperatures. When the temperatures were higher than the melting temperature of the membranes, the observed extent of FRET was compatible with a uniform distribution of the protein. This points out that SP-C does not dimerize if there is no lipid phase separation on the system under study. We have also studied here the oligomerization state of SP-C in membranes whose composition emulates the lipid composition of PS (LM) and in membranes with the full lipid complexity of PS, here called LS. An important difference between them is the presence of cholesterol, only present in LS, where it regulates the fluidity of segregated ordered-like membrane domains <ref type="bibr" target="#b20">(Doole et al., 2022)</ref>. Concerning LM membranes, our results from self-quenching assays using just BODIPY SP-C are similar to those obtained in POPC membranes. Still, two populations of donors were determined (Table <ref type="table">S1</ref>) indicating that SP-C could be compartmentalized. A similar situation occurs in LS membranes, in which the high apparent diffusion coefficient obtained in this study corroborates our previous observation of fast collisional quenching of wildtype SP-B by wildtype SP-C in the same lipid system <ref type="bibr" target="#b39">(Kang et al., 2022)</ref>. In addition, dimerization constants deduced from steady-state self-quenching in LS membranes seem to point out that monomers of SP-C might exhibit very little aggregation. Research performed by <ref type="bibr" target="#b32">Horowitz et al. (1993)</ref> at temperatures below phase transition in different synthetic lipid systems revealed an increased extent of energy transfer between NBD SP-C and EITC SP-C. However, they could not distinguish between true protein oligomerization and the possible existence of membrane patches enriched in SP-C as a mere consequence of the phase separation, due to the lower sensibility of the equipment used. Considering all these studies, one can conclude that SP-C is likely mainly monomeric, although it is able to form a small amount of dimers if there is a significant lipid phase separation. Some simulation studies have suggested that SP-C could form dimers, but they were performed taking into account just the α-helical segment of SP-C <ref type="bibr" target="#b38">(Kairys et al., 2004)</ref> or the entire molecule of SP-C without palmitoylation <ref type="bibr" target="#b41">(Korolainen et al., 2022)</ref>. In the current study, we have carried out experiments to analyze potential protein oligomerization of a non-palmitoylated recombinant human version of SP-C(rSP-C) expressed in bacteria, lacking the palmitoylation machinery.</p><p>The structure and properties of this recombinant version were studied in detail by <ref type="bibr" target="#b8">Baumgart et al. (2010)</ref>. It has been suggested that palmitic acids of native SP-C could promote a deeper insertion of the N-terminal segment of the protein into membrane layers and a decrease in the degree of tilting of the protein in lipid bilayers <ref type="bibr" target="#b58">(Roldan et al., 2015)</ref>. As a consequence, rSP-C would have different restrictions in the geometry of the protein into the membrane, leading to the possible formation of a higher proportion of dimers than native SP-C. Alternatively, a partial mismatch of the less tilted protein with respect to the membrane thickness could promote an enhanced protein segregation from the lipids, thus favoring protein-protein associations.</p><p>All parameters obtained indicate that rSP-C could form dimers even in POPC membranes. The lateral diffusion coefficient calculated from Stern-Vomer equation is higher than determined for the palmitoylated BODIPYlabeled SP-C in POPC membranes (Table <ref type="table">2</ref>). Steady state self-quenching of rSP-C in POPC membranes demonstrated the existence of aggregation, with a dimerization constant higher than that found for SP-C in LS membranes. Therefore, we conclude that there are more dimers of rSP-C in POPC membranes than dimers of SP-C in LS, where there is a pronounced phase segregation. In addition, according to time resolved FRET parameters (Figure <ref type="figure">6</ref>), the concentration of rSP-C required for aggregation is smaller than the corresponding concentration of SP-C. This is consistent with the study of a dimeric form of a recombinant mutant protein, rSP-C (FFI), in chloroform/methanol solutions using high resolution NMR spectroscopy <ref type="bibr" target="#b36">(Johansson et al., 1994)</ref>. To investigate the influence of phase separation, where rSP-C molecules would be closer due to compartmentalization, LM and LS systems were used. In both systems, the presence of dimers is higher in rSP-C than in POPC membranes (Table <ref type="table">5</ref>). The lateral diffusion coefficient obtained from Stern-Volmer equation for BODIPY rSP-C in LS membranes is larger than that in LM system, potentially indicating a greater segregation of lipid domains, a facilitated interaction between monomers of rSP-C, or a combination of both processes. According to the SP-C state determined in the three lipid systems studied here, the membranes of LS could be the most compartmentalized. Therefore, it would be expected that the formation of rSP-C dimers would be particularly promoted in LS membranes. In contrast, the concentration of rSP-C required for protein-protein interaction is the lowest in LM (Table <ref type="table">5</ref>). This suggests that phase separation promotes oligomerization, but it might not exclusively depend on the degree of compartmentalization but on the nature of the segregated phases, or possible defined protein/lipid interactions, among other possible factors.</p><p>The main structural difference between rSP-C and SP-C is the palmitoylation state. Considering the degree of aggregation detected in POPC membranes, it seems that palmitoylation could prevent, at least partially, the interaction among SP-C monomers. Our results suggest that rSP-C could tend to form more dimers than SP-C, for which dimerization could not be completely established. Despite of this, dimers of native palmitoylated SP-C have been observed, in a minimal proportion, during purification of this protein in different species, such as bovine, canine, porcine, or rat SP-C <ref type="bibr" target="#b6">(Baatz et al., 1992;</ref><ref type="bibr" target="#b15">Creuwels et al., 1995;</ref><ref type="bibr" target="#b47">Luy et al., 2004;</ref><ref type="bibr" target="#b74">Wang et al., 2002)</ref>. The secondary structure proposed for the SP-C preparations analyzed in those studies were β-sheet for the bovine protein and α-helical for the canine protein. Thus, one could expect that the amino acids implied in the formation of the possible homodimers would be different depending on the protein secondary structure. In Baatz and collaborators' assays <ref type="bibr" target="#b6">(Baatz et al., 1992)</ref>, the yielding of fatty acids liberated upon deacylation was lower in SP-C dimers, pointing out that the cysteines in the PCCP motif within the N-terminal segment of SP-C could participate in intermolecular disulfide bonds. Whether the potential formation of intermolecular disulfides precedes or is rather a consequence of protein dimerization/oligomerization, remains to be established. Regarding the formation of dimers in α-helical canine SP-C, it was observed in a non-acylated form of 7 kDa, indicating again the generation of a dimer through intermolecular disulfide biding of PCCP motif as defined in <ref type="bibr" target="#b15">Creuwels et al. (1995)</ref>. In NMR studies with porcine SP-C, two sets of resonances were resolved at the C-terminal segment of the protein, suggesting the potential coexistence of monomers and dimers <ref type="bibr" target="#b36">(Johansson et al., 1994)</ref>. Because of that, Luy et al. investigated a recombinant mutant of human SP-C shifting the PCCP sequence to PFFI <ref type="bibr" target="#b47">(Luy et al., 2004)</ref>. That work supported the three-state model proposed previously for SP-C <ref type="bibr" target="#b66">(Szyperski et al., 1998)</ref>:</p><p>(1) monomeric α-helix, (2) dimeric α-helix, and (3) βsheet fibrils. Such dimeric α-helix structure would not be formed through disulfide bonds due to the absence of cysteines in the sequence of mutant rSP-C (FFI). This interaction could be performed through hydrogen bonds or Van der Waals forces implying the AxxxG motif or the recently proposed region V21xxxVxxxGxxxM33 <ref type="bibr" target="#b38">(Kairys et al., 2004;</ref><ref type="bibr" target="#b41">Korolainen et al., 2022)</ref>. All these studies LM (DPPC/ POPC/POPG lipid mixture)</p><p>• Self-quenching: diffusion similar to POPC, no evidence for aggregation. seem to suggest a connection between SP-C depalmitoylation and the formation of dimers/oligomers. Our results in the present study indicate that, beyond the potential formation of disulfide bonds, the lack of palmitic chains at the N-terminal moiety of the SP-C structure could be a factor promoting by itself protein-protein interactions and the stabilization of higher order oligomers.</p><p>FRET studies performed in this work could not determine the secondary structure of SP-C dimers/oligomers. Currently, the physiological implication of dimerization is not defined. SP-C dimer adopting an α-helix structure could be embedded in the membrane bilayer in an analogous fashion to the monomer, and would be able to achieve the insertion of phospholipids into the interfacial monolayer as well as SP-C monomers, with slight difference in the kinetics <ref type="bibr" target="#b15">(Creuwels et al., 1995)</ref>. It has been hypothesized that SP-C dimers might adopt a rigid transmembrane V-shaped structure that would trigger membrane fragmentation <ref type="bibr" target="#b59">(Roldan et al., 2016)</ref>. Recently, Korolainen et al. have proposed three plausible different structures for non-palmitoylated SP-C homodimers according with its stability or lowest free energy calculated from MD simulations: (1) parallel dimer;</p><p>(2) inverted V-shape dimer, and (3) V-shape dimer <ref type="bibr" target="#b41">(Korolainen et al., 2022)</ref>. Our results from rSP-C selfquenching would imply the formation of rSP-C dimers but considering the distance between the N-terminal end of the molecules of rSP-C in the inverted V-shape topology, this structure seems improbable. The most compatible conformation would be the parallel dimer, although the V-shape dimer cannot be discarded. Vesicles possibly produced by SP-C-promoted membrane fission could be endocytosed by alveolar macrophages or AT2 cells <ref type="bibr" target="#b7">(Barriga et al., 2021;</ref><ref type="bibr" target="#b63">Sehlmeyer et al., 2020)</ref>. In this way, α-helical stable or transient SP-C dimers could participate in processing and homeostasis of different fractions of surfactant in the alveoli. The results from the current work suggest that dimerization of SP-C could be minimal and would depend on phase separation and protein concentration (Table <ref type="table">5</ref>). However, during breathing, local lipid composition, as well as compartmentalization degree and SP-C concentration, is constantly changing in both membranes and interfacial multilayered films of surfactant <ref type="bibr" target="#b40">(Keating et al., 2012;</ref><ref type="bibr" target="#b54">Pastrana-Rios et al., 1994)</ref>. Conversely to α-helix SP-C dimers, the functional behavior of those with a β-sheet structure functions has not been characterized in detail. It has been proposed that they could end forming a β-barrel, similar to some transmembrane proteins such as porin, affecting the lipid transference between bilayers and monolayers during breathing-like compression-expansion dynamics <ref type="bibr" target="#b6">(Baatz et al., 1992)</ref>.</p><p>Previously, the transition from an α-helical SP-C monomer to a protein form with β-sheet conformation has been observed <ref type="bibr" target="#b16">(Cruz et al., 1995;</ref><ref type="bibr" target="#b66">Szyperski et al., 1998;</ref><ref type="bibr" target="#b77">Wüstneck et al., 2003)</ref>. Fibrillogenic amyloidlike aggregates produced by the accumulation of β-sheet strands are related to pathologies as pulmonary fibrosis and alveolar proteinosis <ref type="bibr" target="#b9">(Beers &amp; Mulugeta, 2005;</ref><ref type="bibr" target="#b35">Johansson, 2001;</ref><ref type="bibr" target="#b37">Johansson et al., 2004)</ref>. The BRICHOS sequence contained within the precursor of SP-C (proSP-C) is a chaperone domain that promotes α-helix structure and stabilizes it until palmitoylation of the protein occurs <ref type="bibr" target="#b29">(Gustafsson et al., 2001;</ref><ref type="bibr" target="#b33">Johansson et al., 2009;</ref><ref type="bibr" target="#b61">S anchez-Pulido et al., 2002)</ref>. All this seems to indicate that in absence of this domain, the β-sheet structure that could be eventually formed would be an anomalous, potentially pathogenic, conformation.</p><p>In conclusion, the results of this work suggest that palmitoylation could be important to stabilize the monomeric α-helical conformation of SP-C, which is likely optimal to perform the role of the protein to stabilize the interfacial surfactant films along the demanding breathing dynamics. Eventual depalmitoylation as a consequence of lung injury and oxidation, accumulation of the protein to high densities because of membrane compartmentalization and other potential factors could end in the extensive formation of protein dimers and other possible higher order oligomers that could affect function to extents that need to be analyzed in detail and that could be associated with certain pathogenic situations. It has been proposed that protein oligomerization could be associated with membrane remodeling and the fragmentation of surfactant layers into small vesicles enriched in SP-C, which could thus be prone to uptake by alveolar macrophages or alveolar pneumocytes. The palmitoylation state of SP-C could then serve as part of the sensors triggering surfactant recycling, the metabolism that maintains alveolar homeostasis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Materials</head><p>All synthetic lipids were purchased from Avanti Polar Lipids (Alabaster, AL). The lung surfactant lipid fraction (LS) was isolated from lavages with Tris buffer (5 mM Tris 150 mM NaCl pH 7.0) of porcine lungs. After isolation of lipid-protein complexes by ultracentrifugation (31,000 rpm, 1 h, 4 C; HIMAC CP100NX), PS was purified by density gradient centrifugation as described previously <ref type="bibr" target="#b67">(Taeusch et al., 2005)</ref>. The hydrophobic components of PS were collected by performing an organic extraction <ref type="bibr" target="#b10">(Bligh &amp; Dyer, 1959)</ref> and chromatographed using a Sephadex LH-20 resin equilibrated with chloroform/methanol (2:1, v/v) to separate LS from the hydrophobic proteins. LS fraction was quantified for phosphorous content <ref type="bibr" target="#b60">(Rouser et al., 1970)</ref>.</p><p>The organic extract containing the two hydrophobic surfactant proteins (SP-B and SP-C), was obtained from minced porcine lungs according to the Bligh and Dyer method <ref type="bibr" target="#b10">(Bligh &amp; Dyer, 1959)</ref>. It was then loaded onto a Sephadex LH-20 (GE, Healthcare) chromatography column equilibrated with chloroform/methanol (2:1, v/v) from Merck (Darmstadt, Germany). Finally, SP-B and SP-C contained within the protein fraction resulting from this chromatography were isolated using a Sephadex LH-60 resin equilibrated with chloroform/methanol (1:1, v/v) acidified with a 0.5% volume of HCl (0.1 N).</p><p>Non palmitoylated recombinant SP-C (rSP-C) was purified following the protocol of <ref type="bibr" target="#b46">Lukovic et al. (2006)</ref> with changes as described by <ref type="bibr" target="#b58">Roldan et al. (2015)</ref>. The sequence of rSP-C is GPFGIPCCPVHLKRLLIVVVVVVLI VVVIVGALLMGL, including an extension of two additional amino acids at the N-terminal end with respect to the sequence of human SP-C, as a consequence of the production and purification procedure. This extension had no significant effect on the interfacial activities of the protein as assessed previously <ref type="bibr" target="#b46">(Lukovic et al., 2006)</ref>. Protein concentration was quantified by amino acid analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Protein labeling</head><p>The N-terminal end of SP-C or rSP-C was labeled with BODIPY-FL NHS ester (D2184, Invitrogen, Thermo-Fisher Scientific) or Marina Blue ® NHS ester (1242-5, Fluoroprobes) probes as described <ref type="bibr" target="#b11">(Cabre et al., 2018)</ref> with some modifications. For all labeling reactions except for rSP-C conjugated with Marina Blue, the apparent pH of both pure proteins in the organic solvent (chloroform/ methanol, 1:1, v/v) was adjusted to 7.1 with the appropriate amount of 50 mM Tris in methanol. To label rSP-C with Marina Blue, the solution containing pure rSP-C was slightly alkalinized (pH 7.5). Then, the required probe was incubated overnight at 4 C with pure proteins in a 5:1 probe/protein molar ratio. The labeling procedure was stopped by decreasing the apparent pH to 2 with HCl. Finally, the samples were loaded onto a Sephadex LH-20 resin equilibrated with chloroform/ methanol (1:1, v/v) acidified with a 0.5% of HCl (0.1 N) to separate the labeled protein from free probe. Protein concentration was finally quantified by amino acid analysis.</p><p>The amount of dye conjugated to each protein was calculated using the Lambert-Beer law where the molar extinction coefficients (ε) used were ε 504nm = 82 Â 10 3 M À1 cm À1 for BODIPY-FL and ε 365nm = 19 Â 10 3 M À1 cm À1 for Marina Blue <ref type="bibr" target="#b30">(Haugland, 2002)</ref>. The final dye:protein molar ratios (D/P) determined for the fluorescently-labeled proteins were D/P = 0.5 for BODIPY-FL/SP-C, D/P = 0.8 for BODIPY-FL/rSP-C, D/P = 0.5 for Marina Blue/SP-C, and D/P = 0.7 for Marina Blue/rSP-C, respectively.</p><p>To check whether the introduction of the fluorescent probes could alter protein conformation, we obtained the circular dichroism (CD) spectra of the different proteins reconstituted in micelles of lysophosphatidylcholine (LPC). In brief, proper amounts of each protein and LPC were dried in a 1:7 mass ratio under a stream of nitrogen and then under vacuum for 2 h and samples were resuspended in PBS (4.4 mM KH 2 PO 4 , 5.6 mM Na 2 HPO 4 , 50 mM NaCl, pH 6.8) through five cycles of freeze with liquid nitrogen and thaw at 25 C, vortexing 30 s between each cycle. Quartz cells of 0.1 cm optical path were used to record the CD spectra in a JASCO J-715 Circular Dichroism CD Spectrometer at 25 C. Data analysis was performed with Spectra Manager Software and the BestSel™ online tool was used to achieve CD deconvolution. All the CD spectra were consistent with a mainly alpha-helical conformation for all the protein forms studied, palmitoylated and non-palmitoylated, with and without fluorescent groups attached.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Preparation of multilamellar vesicles (MLVs)</head><p>Three lipid systems were used: (1) 1-palmitoyl-2-oleoylsn-glycero-3-phosphocholine (POPC); (2) a synthetic lipid mixture (LM) composed of DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine), POPC and POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol) (50/25/15, w/w/ w), and (3) the surfactant lipid fraction (LS) obtained from native PS.</p><p>Lipid and lipid/protein MLV samples were prepared by co-drying a proper amount of lipid and fluorescentlylabeled protein under a stream of nitrogen that was finally subjected to vacuum during 2 h. The dried lipid or lipid/protein samples were then suspended in 5 mM Tris, 150 mM NaCl pH 7 at 45 C, frozen with liquid nitrogen, and thawed in a bath at 45 C. Five freeze/thaw cycles were performed with vortexing between each cycle to obtain the desired MLVs <ref type="bibr" target="#b71">(Traïkia et al., 2000)</ref>.</p><p>For the fluorescence self-quenching assays, variable concentrations of BODIPY SP-C or BODIPY rSP-C (namely 1.25, 2, 3.5, 5, and 7.5 μM in reference to the fluorophore concentration) were co-solubilized with 1 mM of the desired lipids in order to obtain the fluorescently-labeled protein-loaded MLVs. For the hetero-Förster Resonance Energy Transfer (FRET) studies, the systems used were similar to the selfquenching assays. However, in this case, a FRET donor, Marina Blue SP-C or Marina Blue rSP-C (5 μM of fluorescently-labeled protein), was also added to prepare the protein-containing MLVs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Fluorescence spectroscopy</head><p>The fluorescence self-quenching and hetero-FRET studies were carried out by performing both steady-state and time-resolved fluorescence measurements of the MLVs containing variable surface concentrations of the fluorescently-labeled native and recombinant SP-C protein. Steady-state measurements were acquired with a Horiba-Jobin Yvon Fluorolog 3-22 (Tokyo, Japan) spectrofluorimeter, using 0.5 Â 0.5 cm quartz cuvettes. For the time-resolved fluorescence measurements, a timecorrelated single-photon timing system was used. Excitation of Marina Blue and BODIPY-labeled proteins was carried out at 340 nm (using the second harmonic of a secondary dye laser of DCM from Coherent DCM 700 series), and 488 nm (using a ps laser diode from Becker &amp; Hickl [Berlin, Germany] series BPS-488-SM), respectively, whereas emission from MB-and BODIPYlabeled proteins was recorded at 455m and 515 nm, respectively. Data analysis was carried out using the TRFA data processor Advanced Version 1.4 from Scientific Software Technologies Center (Belarusian State University, Minsk) <ref type="bibr" target="#b48">(Marquardt, 1963)</ref>. The goodness of the fits was judged from the experimental χ 2 value (χ 2 &lt; 1.5 indicating adequate fitting), weighted residuals and autocorrelation plots.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>U R E 1 Normalized spectra of Marina Blue SP-C and BODIPY SP-C in POPC membranes. The spectra were obtained with 0.5 mol% of Marina Blue SP-C<ref type="bibr" target="#b11">(Cabre et al., 2018)</ref>, and 0.125 mol% of BODIPY SP-C in 1 mM POPC vesicles.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Note:</head><label></label><figDesc>The parameters (with normalized amplitudes inside parentheses) have been determined in samples containing 0.5 mol% Marine Blue SP-C or 0.125 mol% BODIPY SP-C in 1 mM POPC vesicles. τ i are the lifetimes components and ϕ i the rotational correlation times. See text for further details. F I G U R E 2 Fluorescence intensity and anisotropy decays of Marina Blue SP-C and BODIPY SP-C in POPC membranes. (a,b) Fluorescence intensity and (c,d) anisotropy decays of (a,c) Marina Blue SP-C, and (b,d) BODIPY SP-C in POPC vesicles (see</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Dynamic selfquenching of BODIPY SP-C and rSP-C in membranes. Stern-Volmer plots for the dynamic self-quenching studies of BODIPY SP-C (a-c) or BODIPY rSP-C (d-f) in POPC (a,d), DPPC/POPC/POPG lipid mixture (b,e), or LS (lipid surfactant) (c,f). The solid lines are the best fits of Equation (1) to the experimental data of τ=τ 0 ratios (circles) as a function of the concentration of the fluorescently labeled protein used in each case. Note the enlarged ordinate scale in the right plots, indicative of a larger extent of self-quenching for BODIPY rSP-C. T A B L E 2 Lateral diffusion coefficients of BODIPY SP-C and BODIPY rSP-C in membranes. D (10 À7 cm 2 /s)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>U R E 4 Steady-state fluorescence of BODIPY SP-C and BODIPY rSP-C in membranes. Steady-state fluorescence intensity (I F ; circles) of BODIPY SP-C (a-c) or BODIPY rSP-C (d-f) in POPC (a,d), DPPC/POPC/POPG lipid mixture (b,e), or pulmonary surfactant lipid fraction (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>F</head><label></label><figDesc>I G U R E 5 Fluorescence intensity decays of Marina Blue SP-C in POPC membranes in the presence of unlabeled or BODIPY-labeled SP-C. Fluorescence intensity decays of Marina Blue SP-C (5 μM) in POPC vesicles (1 mM), in the presence of unlabeled SP-C (blue lines) or BODIPY SP-C (red lines), of concentration (either unlabeled or labeled with BODIPY), from top to bottom: 1.25, 2.5, 5, 7.5, and 15 μM. In the left panels, the fitting curves (Equations (9)-(11)) to each data set and the instrumental response function are also shown (in black and gray, respectively). The middle and right plots in each row show the residuals and residual auto-correlation plots for the corresponding concentration of unlabeled (blue) or BODIPY-labeled (red) SP-C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>T A B L E 3 Time-resolved fluorescence data from FRET between Marina Blue SP-C and BODIPY SP-C in POPC membranes. Freely adjusted c 1 and c 2 parameters Recovered c 1 /ns À3</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>U R E 6 Overall surface acceptor concentrations as a function of protein content as determined by FRET data. Overall acceptor concentrations &lt;c&gt; (circles) recovered from fitting Equations (9)-(11) to the time-resolved FRET data, with fixed c 2 = 0. (a) fluorescently labeled SP-C in POPC (Figure 5, Table 3); b: fluorescently labeled rSP-C in POPC (Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>U R E 7 FRET efficiencies from Marine Blue SP-C to BODIPY SP-C or rSP-C as calculated from time resolved and steady-state fluorescence. FRET efficiency E calculated from timeresolved (E TR ; filled circles) or steady-state (E SS ; open circles) fluorescence experiments with Marine Blue SP-C/BODIPY SP-C (a,c) or Marina Blue rSP-C/BODIPY rSP-C (b,d) donoracceptor pairs, are compared in the plots, in POPC (a,b) or LS (c,d) membrane systems.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>T A B L E 5 Evidences from fluorescence experiments regarding the oligomeric state of SP-C. quenching: diffusion similar to host lipid, no evidence for aggregation. • FRET: essentially uniform distribution. Small (&lt;5%) fraction of isolated labeled protein for higher concentrations (L/P &lt; 200).• Self-quenching: two-fold faster apparent diffusion compared to SP-C. Static quenching indicates slight evidence for aggregation at high concentrations ($8% protein dimerized at L/P = 100). • FRET: essentially uniform distribution for low concentrations. Heterogeneous distribution for L/P &lt; 200: two donor populations with two-to threefold differences in local acceptor concentration.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Fluorescence intensity and anisotropy decay fitting parameters for fluorescently-labeled Marina Blue SP-C and BODIPY SP-C in POPC membranes.</figDesc><table><row><cell></cell><cell>Marina Blue SP-C</cell><cell>BODIPY SP-C</cell></row><row><cell cols="2">Fluorescence intensity decay parameters</cell><cell></cell></row><row><cell>τ 1 /ns</cell><cell>0.23 (0.26)</cell><cell>6.0 (1.0)</cell></row><row><cell>τ 2 /ns</cell><cell>1.9 (0.17)</cell><cell>-</cell></row><row><cell>τ 3 /ns</cell><cell>5.3 (0.57)</cell><cell>-</cell></row><row><cell>χ 2</cell><cell>1.088</cell><cell>1.115</cell></row><row><cell cols="2">Fluorescence anisotropy decay parameters</cell><cell></cell></row><row><cell>ϕ 1 /ns</cell><cell>0.79 (0.3)</cell><cell>1.2 (0.43)</cell></row><row><cell>ϕ 2 /ns</cell><cell>21.0 (0.69)</cell><cell>14.1 (0.57)</cell></row><row><cell>χ 2</cell><cell>1.205</cell><cell>1.219</cell></row></table><note><p>T A B L E 1</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>Time-resolved fluorescence data of FRET between Marina Blue rSP-C and BODIPY rSP-C in POPC membranes.</figDesc><table><row><cell></cell><cell>0.161</cell><cell>0.280</cell><cell>0.606</cell><cell>0.842</cell><cell>1.206</cell></row><row><cell>Recovered c 2 /ns À3</cell><cell>2.594</cell><cell>0.279</cell><cell>0.024</cell><cell>0.088</cell><cell>0.000</cell></row><row><cell>Recovered q</cell><cell>0.0297</cell><cell>0.856</cell><cell>0.0565</cell><cell>0.0732</cell><cell>0.0264</cell></row><row><cell>Calculated &lt;c&gt;/ns À3 (Equation (13))</cell><cell>0.23</cell><cell>0.28</cell><cell>0.57</cell><cell>0.79</cell><cell>1.18</cell></row><row><cell>Global χ 2 (considering both donor-only and donor-</cell><cell>1.11</cell><cell>1.06</cell><cell>1.28</cell><cell>1.27</cell><cell>1.20</cell></row><row><cell>plus-acceptor decay for each [BODIPY SP-C])</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fixed c 2 = 0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Recovered c 1 /ns À3</cell><cell>0.162</cell><cell>0.280</cell><cell>0.601</cell><cell>0.811</cell><cell>1.206</cell></row><row><cell>Recovered q</cell><cell>0.000</cell><cell>0.000</cell><cell>0.0488</cell><cell>0.0459</cell><cell>0.0264</cell></row><row><cell>Calculated &lt;c&gt;/ns À3 (Equation (13))</cell><cell>0.16</cell><cell>0.28</cell><cell>0.57</cell><cell>0.78</cell><cell>1.18</cell></row><row><cell>Global χ 2 (considering both donor-only and donor-</cell><cell>1.11</cell><cell>1.06</cell><cell>1.28</cell><cell>1.27</cell><cell>1.20</cell></row><row><cell>plus-acceptor decay for each [BODIPY SP-C])</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>[BODIPY rSP-C]/μM</cell><cell>1.25</cell><cell>2.5</cell><cell>5</cell><cell>7.5</cell><cell>15</cell></row><row><cell>Freely adjusted c 1 and c 2 parameters</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Recovered c 1 /ns À3</cell><cell>0.089</cell><cell>0.178</cell><cell>0.290</cell><cell>0.262</cell><cell>0.367</cell></row><row><cell>Recovered c 2 /ns À3</cell><cell>0.089</cell><cell>0.178</cell><cell>0.290</cell><cell>0.520</cell><cell>1.024</cell></row><row><cell>Recovered q</cell><cell>0.773</cell><cell>0.867</cell><cell>2.14</cell><cell>2.16</cell><cell>0.927</cell></row><row><cell>Calculated &lt;c&gt;/ns À3 (Equation (13))</cell><cell>0.089</cell><cell>0.18</cell><cell>0.29</cell><cell>0.44</cell><cell>0.68</cell></row><row><cell>Global χ 2 (considering both donor-only and donor-</cell><cell>1.06</cell><cell>1.27</cell><cell>1.35</cell><cell>0.97</cell><cell>1.18</cell></row><row><cell>plus-acceptor decay for each [BODIPY rSP-C])</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fixed c 2 = 0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Recovered c 1 /ns À3</cell><cell>0.089</cell><cell>0.178</cell><cell>0.290</cell><cell>0.441</cell><cell>0.611</cell></row><row><cell>Recovered q</cell><cell>0.000</cell><cell>0.000</cell><cell>0.000</cell><cell>0.0324</cell><cell>0.0571</cell></row><row><cell>Calculated &lt;c&gt;/ns À3 (Equation (13))</cell><cell>0.09</cell><cell>0.18</cell><cell>0.29</cell><cell>0.43</cell><cell>0.58</cell></row><row><cell>Global χ 2 (considering both donor-only and donor-</cell><cell>1.06</cell><cell>1.27</cell><cell>1.35</cell><cell>0.98</cell><cell>1.24</cell></row><row><cell>plus-acceptor decay for each [BODIPY rSP-C])</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p><p><p>Note: Data obtained from plots in Figure</p>5</p>.</p>T A B L E 4</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p><rs type="person">Begoña García-Álvarez</rs> and <rs type="person">Jesús Pérez-Gil</rs> thanks <rs type="funder">Spanish Ministry of Science and Innovation Grant</rs> (<rs type="grantNumber">PID2021-124932OB-100</rs>) and <rs type="grantName">Community of Madrid Grant</rs> (<rs type="grantNumber">Nanobiocargo P2018/NMT-4389</rs>) for funding this study. Mishelle Mor an<rs type="person">-Lalangui</rs> is a recipient of a <rs type="grantName">FPI fellowship</rs> from the <rs type="funder">Spanish Ministry of Science and Innovation. Luís M. S. Loura</rs> acknowledges funding by the <rs type="funder">European Regional Development Fund</rs>, through <rs type="programName">COMPETE2020-Operational Program for Competitiveness and Internationalization, and Portuguese funds via FCT-Fundação para a Ciência e a Tecnologia</rs>, under projects <rs type="grantNumber">UIDB/00313/2020</rs> and <rs type="grantNumber">UIDP/00313/2020</rs> (Portugal). <rs type="person">Ana Coutinho</rs> and <rs type="person">Manuel Prieto</rs> acknowledge funding from <rs type="funder">FCT-Fundação para a Ciência e a Tecnologia</rs>, under projects <rs type="grantNumber">UIDB/04565/2020</rs>, <rs type="grantNumber">UIDP/04565/2020</rs> and <rs type="grantNumber">LA/P/0140/2020</rs> (Portugal). This work has been supported by a working visit bursary from EBSA.</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="funder">Comunidad de Madrid</rs>, Grant/Award Number: <rs type="grantNumber">P2018/NMT-4389</rs>; <rs type="institution">European Biophysical Societies' Association (EBSA)</rs>; <rs type="programName">Fundação para a Ciência e a Tecnologia</rs>, Grant/Award Numbers:</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_VmPb6P9">
+					<idno type="grant-number">PID2021-124932OB-100</idno>
+					<orgName type="grant-name">Community of Madrid Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_q79Qg5k">
+					<idno type="grant-number">Nanobiocargo P2018/NMT-4389</idno>
+					<orgName type="grant-name">FPI fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_aBvnM84">
+					<idno type="grant-number">UIDB/00313/2020</idno>
+					<orgName type="program" subtype="full">COMPETE2020-Operational Program for Competitiveness and Internationalization, and Portuguese funds via FCT-Fundação para a Ciência e a Tecnologia</orgName>
+				</org>
+				<org type="funding" xml:id="_Vu7RzRF">
+					<idno type="grant-number">UIDP/00313/2020</idno>
+				</org>
+				<org type="funding" xml:id="_HMC2ySd">
+					<idno type="grant-number">UIDB/04565/2020</idno>
+				</org>
+				<org type="funding" xml:id="_FzE8PQP">
+					<idno type="grant-number">UIDP/04565/2020</idno>
+				</org>
+				<org type="funding" xml:id="_tNpmRzE">
+					<idno type="grant-number">LA/P/0140/2020</idno>
+				</org>
+				<org type="funding" xml:id="_Dx4Xfdq">
+					<idno type="grant-number">P2018/NMT-4389</idno>
+					<orgName type="program" subtype="full">Fundação para a Ciência e a Tecnologia</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>UIDB/00313/2020, UIDP/00313/2020, UIDB/04565/2020, UIDP/04565/2020, LA/ P/0140/2020; Ministerio de Ciencia e Innovaci on, Grant/Award Number:</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Surfactant protein deficiency in familial interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Baughman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Tomashefski</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Nogee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Brody</surname></persName>
+		</author>
+		<idno type="DOI">10.1067/mpd.2001.114545</idno>
+		<ptr target="https://doi.org/10.1067/mpd.2001.114545" />
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="85" to="92" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diverse functions of pulmonary collectins in host defense of the lung</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ariki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nishitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuroki</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2012/532071</idno>
+		<ptr target="https://doi.org/10.1155/2012/532071" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Biotechnol</title>
+		<imprint>
+			<biblScope unit="page">532071</biblScope>
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Interaction of bacterial lipopolysaccharide with mouse surfactant protein C inserted into lipid vesicles</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Augusto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Blay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Auger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Blanot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1152/ajplung.2001.281.4.L776</idno>
+		<ptr target="https://doi.org/10.1152/ajplung.2001.281.4.L776" />
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Lung Cell Mol Physiol</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="L776" to="L785" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Structural basis for interactions between lung surfactant protein C and bacterial lipopolysaccharide</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Augusto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Synguelakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chaby</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M111925200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M111925200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="23484" to="23492" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Cellular antiendotoxin activities of lung surfactant protein C in lipid vesicles</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Augusto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Synguelakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Espinassous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lepoivre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chaby</surname></persName>
+		</author>
+		<idno type="DOI">10.1164/rccm.200212-1440OC</idno>
+		<ptr target="https://doi.org/10.1164/rccm.200212-1440OC" />
+	</analytic>
+	<monogr>
+		<title level="j">Am J Respir Crit Care Med</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="335" to="341" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Interaction of pulmonary surfactant protein C with CD14 and lipopolysaccharide</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Augusto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Synguelakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pedron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chaby</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/IAI.71.1.61-67.2003</idno>
+		<ptr target="https://doi.org/10.1128/IAI.71.1.61-67.2003" />
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="61" to="67" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structure and functions of a dimeric form of surfactant protein SP-C: a Fourier transform infrared and surfactometry study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Baatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Whitsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Absolom</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0009-3084(92)90026-l</idno>
+		<ptr target="https://doi.org/10.1016/0009-3084" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem Phys Lipids</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page">90026</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Role of pulmonary surfactant protein Sp-C dimerization on membrane fragmentation: an emergent mechanism involved in lung defense and homeostasis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barriga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moran-Lalangui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Castillo-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mingarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Garcia-Alvarez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2021.183572</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamem.2021.183572" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta Biomembr</title>
+		<imprint>
+			<biblScope unit="volume">1863</biblScope>
+			<biblScope unit="page">183572</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Palmitoylation of pulmonary surfactant protein SP-C is critical for its functional cooperation with SP-B to sustain compression/expansion dynamics in cholesterol-containing surfactant films</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baumgart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">L</forename><surname>Ospina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mingarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rodríguez-Crespo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2010.08.070</idno>
+		<ptr target="https://doi.org/10.1016/j.bpj.2010.08.070" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="3234" to="3243" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Surfactant protein C biosynthesis and its emerging role in conformational lung disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Beers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mulugeta</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.physiol.67.040403.101937</idno>
+		<ptr target="https://doi.org/10.1146/annurev.physiol.67.040403.101937" />
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Physiol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="663" to="696" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A rapid method of total lipid extraction and purification</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Bligh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Dyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/o59-099</idno>
+		<ptr target="https://doi.org/10.1139/o59-099" />
+	</analytic>
+	<monogr>
+		<title level="j">Can J Biochem Physiol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="911" to="917" />
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Homo-and hetero-oligomerization of hydrophobic pulmonary surfactant proteins SP-B and SP-C in surfactant phospholipid membranes</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Cabre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Martinez-Calle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prieto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Olmeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lms</forename><surname>Loura</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.RA117.000222</idno>
+		<ptr target="https://doi.org/10.1074/jbc.RA117.000222" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="page" from="9399" to="9411" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Prediction of the secondary structure of proteins from their amino acid sequence</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Fasman</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9780470122921.ch2</idno>
+		<ptr target="https://doi.org/10.1002/9780470122921.ch2" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv Enzymol Relat Areas Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="45" to="148" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Pulmonary surfactant: an immunological perspective</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Chroneos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sever-Chroneos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Shepherd</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000272047</idno>
+		<ptr target="https://doi.org/10.1159/000272047" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Physiol Biochem</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="13" to="26" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Targeted disruption of the surfactant protein B gene disrupts surfactant homeostasis, causing respiratory failure in newborn mice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Bachurski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Stahlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Stripp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Weaver</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.92.17.7794</idno>
+		<ptr target="https://doi.org/10.1073/pnas.92.17.7794" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="7794" to="7798" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Characterization of a dimeric canine form of surfactant protein C (SP-C)</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Creuwels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Demel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Van Golde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Haagsman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0005-2760(94)00195-5</idno>
+		<ptr target="https://doi.org/10.1016/0005-2760" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1254</biblScope>
+			<biblScope unit="page" from="195" to="195" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Conformational flexibility of pulmonary surfactant proteins SP-B and SP-C, studied in aqueous organic solvents</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Casals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0005-2760(94)00210-p</idno>
+		<ptr target="https://doi.org/10.1016/0005-2760(94)00210-p" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1255</biblScope>
+			<biblScope unit="page" from="68" to="76" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Pulmonary surfactant: the key to the evolution of air breathing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Daniels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Orgeig</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/nips.01438.2003</idno>
+		<ptr target="https://doi.org/10.1152/nips.01438.2003" />
+	</analytic>
+	<monogr>
+		<title level="j">News Physiol Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="151" to="157" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Transverse location of the fluorescent probe 1,6-diphenyl-1,3,5-hexatriene in model lipid bilayer membrane systems by resonance excitation energy transfer</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Dale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Bisby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Cundall</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00336a044</idno>
+		<idno>1021/bi00336a044</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="4097" to="4108" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Deacylated pulmonary surfactant protein SP-C transforms from alpha-helical to amyloid fibril structure via a pH-dependent mechanism: an infrared structural investigation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Dluhy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shanmukh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Leapard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kruger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Baatz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0006-3495(03)74665-7</idno>
+		<ptr target="https://doi.org/10.1016/s0006-3495(03" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="74665" to="74667" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Cholesterol stiffening of lipid membranes</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Doole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kumarage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ashkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00232-022-00263-9</idno>
+		<ptr target="https://doi.org/10.1007/s00232-022-00263-9" />
+	</analytic>
+	<monogr>
+		<title level="j">J Membr Biol</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="385" to="405" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Dependence of M13 major coat protein oligomerization and lateral segregation on bilayer composition</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Loura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prieto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koehorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Spruijt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hemminga</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0006-3495(03)74666-9</idno>
+		<ptr target="https://doi.org/10.1016/s0006-3495(03" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="74666" to="74669" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Behaviour of NBD-head group labelled phosphatidylethanolamines in POPC bilayers: a molecular dynamics study</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Filipe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prates</forename><surname>Ramalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Loura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1039/c5cp01596k</idno>
+		<ptr target="https://doi.org/10.1039/c" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys Chem Chem Phys</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="5" to="01596" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Influence of cholesterol and water content on phospholipid lateral diffusion in bilayers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Filippov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Orädd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lindblom</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la034222x</idno>
+		<ptr target="https://doi.org/10.1021/la034222x" />
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="6397" to="6400" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Lipid lateral diffusion in ordered and disordered phases in raft mixtures</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Filippov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Orädd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lindblom</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(04)74164-8</idno>
+		<ptr target="https://doi.org/10.1016/S0006-3495(04)74164-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="891" to="896" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Synthetic peptides representing the N-terminal segment of surfactant protein C modulate LPS-stimulated TNF-alpha production by macrophages</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Garcia-Verdugo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garcia</forename><surname>De Paco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Espinassous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Gonzalez-Horta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Synguelakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanellopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1177/1753425908100500</idno>
+		<ptr target="https://doi.org/10.1177/1753425908100500" />
+	</analytic>
+	<monogr>
+		<title level="j">Innate Immun</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="53" to="62" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Pulmonary surfactant: functions and molecular composition</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goerke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0925-4439(98)00060-x</idno>
+		<ptr target="https://doi.org/10.1016/s0925-4439(98)00060-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1408</biblScope>
+			<biblScope unit="page" from="79" to="89" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Pulmonary surfactant in health and human lung diseases: state of the art</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Griese</surname></persName>
+		</author>
+		<idno type="DOI">10.1183/09031936.99.13614779</idno>
+		<ptr target="https://doi.org/10.1183/09031936.99.13614779" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur Respir J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1455" to="1476" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Alveolar epithelial cells: master regulators of lung homeostasis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tabary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thouvenin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Rouzic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Corvol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biocel.2013.08.009</idno>
+		<ptr target="https://doi.org/10.1016/j.biocel.2013.08.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biochem Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2568" to="2573" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The palmitoyl groups of lung surfactant protein C reduce unfolding into a fibrillogenic intermediate</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Furusjö</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmbi.2001.4810</idno>
+		<ptr target="https://doi.org/10.1006/jmbi.2001.4810" />
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="937" to="950" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Handbook of fluorescent probes and research products</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Haugland</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+		<respStmt>
+			<orgName>Molecular Probes; Pennsylvania State University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bimolecular fluorescence complementation (BiFC) analysis of protein interactions in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hiatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Shyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Duren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ymeth.2008.06.003</idno>
+		<ptr target="https://doi.org/10.1016/j.ymeth.2008.06.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="185" to="191" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Lipid effects on aggregation of pulmonary surfactant protein SP-C studied by fluorescence energy transfer</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Horowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Baatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Whitsett</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00088a001</idno>
+		<ptr target="https://doi.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="9513" to="9523" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Bimolecular fluorescence complementation (BiFC) and multiplexed imaging of proteinprotein interactions in human living cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bleicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reboulet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S ;</forename><surname>Merabet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nordling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Presto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pro.123</idno>
+		<ptr target="https://doi.org/10.1002/pro.123" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">2350</biblScope>
+			<biblScope unit="page" from="1175" to="1182" />
+			<date type="published" when="2009">2021. 2009</date>
+		</imprint>
+	</monogr>
+	<note>Protein Sci.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Structure and properties of surfactant protein C. Biochim Biophys Acta</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0925-4439(98)00065-9</idno>
+		<ptr target="https://doi.org/10.1016/s" />
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">1408</biblScope>
+			<biblScope unit="page" from="65" to="69" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Membrane properties and amyloid fibril formation of lung surfactant protein C</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bst0290601</idno>
+		<ptr target="https://doi.org/10.1042/bst0290601" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="601" to="606" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The NMR structure of the pulmonary surfactant-associated polypeptide SP-C in an apolar solvent contains a valyl-rich alpha-helix</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Szyperski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Curstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wüthrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00185a042</idno>
+		<ptr target="https://doi.org/10.1021/bi00185a042" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="6015" to="6023" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Proteolytic generation and aggregation of peptides from transmembrane regions: lung surfactant protein C and amyloid beta-peptide</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Tjernberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00018-003-3274-6</idno>
+		<ptr target="https://doi.org/10.1007/s00018-003-3274-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="326" to="335" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Structural model for an AxxxGmediated dimer of surfactant-associated protein C</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kairys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Gilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Luy</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1432-1033.2004.04107.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1432-1033.2004.04107.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="2086" to="2092" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Aggregation turns BODIPY fluorophores into photosensitizers: reversibly switching intersystem crossing on and off for smart photodynamic therapy</title>
+		<author>
+			<persName><forename type="first">Y-F</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-X</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-Y</forename><surname>Niu</surname></persName>
+		</author>
+		<idno type="DOI">10.31635/ccschem.021.202101600</idno>
+		<ptr target="https://doi.org/10.31635/ccschem.021.202101600" />
+	</analytic>
+	<monogr>
+		<title level="j">CCS Chem</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3516" to="3528" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">A modified squeeze-out mechanism for generating high surface pressures with pulmonary surfactant. Biochim Biophys Acta</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Keating</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Tadayyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">O</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Possmayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Veldhuizen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2011.12.007</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamem.2011.12.007" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">1818</biblScope>
+			<biblScope unit="page" from="1225" to="1234" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Dimerization of the pulmonary surfactant protein C in a membrane environment</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Korolainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lolicato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Enkavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kulig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vattulainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0267155</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0267155" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">267155</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Recent progress of BODIPY dyes with aggregation-induced emission</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fchem.2019.00712</idno>
+		<ptr target="https://doi.org/10.3389/fchem.2019.00712" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Chem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">712</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Resonance energy transfer in a model system of membranes: application to gel and liquid crystalline phases</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Loura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prieto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0006-3495(96)79383-9</idno>
+		<ptr target="https://doi.org/10.1016/S0006-3495" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">96</biblScope>
+			<biblScope unit="page" from="79383" to="79389" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Membrane probe distribution heterogeneity: a resonance energy transfer study</title>
+		<author>
+			<persName><forename type="first">Lms</forename><surname>Loura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prieto</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp000246q</idno>
+		<ptr target="https://doi.org/10.1021/jp000246q" />
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Chem B</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="6920" to="6931" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Resonance energy transfer in heterogeneous planar and bilayer systems: theory and simulation</title>
+		<author>
+			<persName><forename type="first">Lms</forename><surname>Loura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prieto</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp000245y</idno>
+		<ptr target="https://doi.org/10.1021/jp000245y" />
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Chem B</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="6911" to="6919" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Production and characterisation of recombinant forms of human pulmonary surfactant protein C (SP-C): structure and surface activity</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lukovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Plasencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Taberner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Salgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Calvete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2006.03.005</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamem.2006.03.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1758</biblScope>
+			<biblScope unit="page" from="509" to="518" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Structure and potential C-terminal dimerization of a recombinant mutant of surfactant-associated protein C in chloroform/methanol</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Luy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sturm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Ulrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Griesinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1432-1033.2004.04106.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1432-1033.2004.04106.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="2076" to="2085" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">An algorithm for least-squares estimation of nonlinear parameters</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Marquardt</surname></persName>
+		</author>
+		<idno type="DOI">10.1137/0111030</idno>
+		<ptr target="https://doi.org/10.1137/0111030" />
+	</analytic>
+	<monogr>
+		<title level="j">J Soc Ind Appl Math</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="431" to="441" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Surfactant protein A and surfactant protein D in health and disease</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Voelker</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajplung.1998.275.1.L1</idno>
+		<ptr target="https://doi.org/10.1152/ajplung.1998.275.1.L1" />
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="1" to="L13" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">A mutation in the surfactant protein B gene responsible for fatal neonatal respiratory disease in multiple kindreds</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Nogee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Garnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Dietz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Demello</surname></persName>
+		</author>
+		<idno type="DOI">10.1172/JCI117173</idno>
+		<ptr target="https://doi.org/10.1172/JCI117173" />
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="1860" to="1863" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Pulmonary surfactant metabolism in the alveolar airspace: biogenesis, extracellular conversions, recycling</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Olmeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Martinez-Calle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aanat.2016.09.008</idno>
+		<ptr target="https://doi.org/10.1016/j.aanat.2016.09.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Ann Anat</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="78" to="92" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">BODIPY-based dye for nowash live-cell staining and imaging</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Pakhomov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">E</forename><surname>Deyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Ratnikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Chumakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Mironiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Kononevich</surname></persName>
+		</author>
+		<idno type="DOI">10.2144/000114577</idno>
+		<ptr target="https://doi.org/10.2144/000114577" />
+	</analytic>
+	<monogr>
+		<title level="j">Biotechniques</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="77" to="80" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Composition, structure and mechanical properties define performance of pulmonary surfactant membranes and films</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemphyslip.2014.09.002</idno>
+		<ptr target="https://doi.org/10.1016/j.chemphyslip.2014.09.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem Phys Lipids</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="153" to="175" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A direct test of the &quot;squeeze-out&quot; hypothesis of lung surfactant function. External reflection FT-IR at the air/water interface</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pastrana-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Flach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brauner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mautone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mendelsohn</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00183a016</idno>
+		<ptr target="https://doi.org/10.1021/bi00183a016" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="5121" to="5127" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Pulmonary surfactant pathophysiology: current models and open questions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Weaver</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physiol.00006.2010</idno>
+		<ptr target="https://doi.org/10.1152/physiol.00006.2010" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiology (Bethesda)</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="132" to="141" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Superficial disposition of the N-terminal region of the surfactant protein SP-C and the absence of specific SP-B-SP-C interactions in phospholipid bilayers</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Plasencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Casals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/0264-6021:3590651</idno>
+		<ptr target="https://doi.org/10.1042/0264-6021" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page">3590651</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The N-terminal segment of pulmonary surfactant lipopeptide SP-C has intrinsic propensity to interact with and perturb phospholipid bilayers</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Plasencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rivas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Keough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj20030815</idno>
+		<ptr target="https://doi.org/10.1042/bj" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">377</biblScope>
+			<biblScope unit="page" from="183" to="193" />
+			<date type="published" when="2004">2004. 20030815</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Palmitoylation as a key factor to modulate SP-C-lipid interactions in lung surfactant membrane multilayers</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Roldan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Goormaghtigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Garcia-Alvarez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2014.10.009</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamem.2014" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1848</biblScope>
+			<biblScope unit="page" from="184" to="191" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Effect of lung surfactant protein SP-C and SP-C-promoted membrane fragmentation on cholesterol dynamics</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Roldan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tkm</forename><surname>Nyholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Slotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Garcia-Alvarez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2016.09.016</idno>
+		<ptr target="https://doi.org/10.1016/j.bpj.2016.09.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="1703" to="1713" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Two dimensional then layer chromatographic separation of polar lipids and determination of phospholipids by phosphorus analysis of spots</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rouser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fkeischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf02531316</idno>
+		<ptr target="https://doi.org/10.1007/bf02531316" />
+	</analytic>
+	<monogr>
+		<title level="j">Lipids</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="494" to="496" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">BRICHOS: a conserved domain in proteins associated with dementia, respiratory distress and cancer</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pulido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Devos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valencia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0968-0004(02)02134-5</idno>
+		<ptr target="https://doi.org/10.1016/s0968-0004(02)02134-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biochem Sci</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="329" to="332" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Glycophorin a transmembrane domain dimerization in plasma membrane vesicles derived from CHO, HEK 293T, and A431 cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sarabipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hristova</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2013.03.022</idno>
+		<ptr target="https://doi.org/10.1016/j.bbamem.2013.03.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="1829" to="1833" />
+			<date type="published" when="1828">1828</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Alveolar dynamics and beyondthe importance of surfactant protein C and cholesterol in lung homeostasis and fibrosis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sehlmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruwisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Roldan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lopez-Rodriguez</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2020.00386</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2020.00386" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">386</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Protein-lipid interactions and surface activity in the pulmonary surfactant system</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Serrano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Gil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemphyslip.2006.02.017</idno>
+		<ptr target="https://doi.org/10.1016/j.chemphyslip.2006.02.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem Phys Lipids</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="105" to="118" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Genetic variant associations of human SP-A and SP-D with acute and chronic lung injury</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Silveyra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Floros</surname></persName>
+		</author>
+		<idno type="DOI">10.2741/3935</idno>
+		<ptr target="https://doi.org/10.2741/3935" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Biosci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="407" to="429" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Pulmonary surfactant-associated polypeptide C in a mixed organic solvent transforms from a monomeric alpha-helical state into insoluble beta-sheet aggregates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Szyperski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vandenbussche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Curstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ruysschaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wüthrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pro.5560071206</idno>
+		<ptr target="https://doi.org/10.1002/pro.5560071206" />
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2533" to="2540" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Inactivation of pulmonary surfactant due to serum-inhibited adsorption and reversal by hydrophilic polymers: experimental</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Taeusch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernardino</forename><surname>De La Serna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zasadzinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.105.062620</idno>
+		<ptr target="https://doi.org/10.1529/biophysj.105.062620" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1769" to="1779" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Structural requirements for palmitoylation of surfactant protein C precursor</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ten Brinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Vaandrager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Haagsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Ridder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Van Golde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Batenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/0264-6021:3610663</idno>
+		<ptr target="https://doi.org/10.1042/0264-6021:3610663" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="page" from="663" to="671" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Palmitoylation and processing of the lipopeptide surfactant protein C. Biochim Biophys Acta</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ten Brinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Van Golde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Batenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1388-1981(02)00248-2</idno>
+		<idno>1388- 1981(02)00248-2</idno>
+		<ptr target="https://doi.org/10.1016/s" />
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="volume">1583</biblScope>
+			<biblScope unit="page" from="253" to="265" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Pulmonary dysfunction in neonatal SP-B-deficient mice</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tokieda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Whitsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Mcconnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajplung.1997.273.4.L875</idno>
+		<ptr target="https://doi.org/10.1152/ajplung.1997.273.4.L875" />
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="L875" to="L882" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Formation of unilamellar vesicles by repetitive freeze-thaw cycles: characterization by electron microscopy and 31Pnuclear magnetic resonance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traïkia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Warschawski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Recouvreur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cartaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Devaux</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s002490000077</idno>
+		<ptr target="https://doi.org/10.1007/s002490000077" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="184" to="195" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The kinetics of diffusion controlled molecular and ionic reactions in solution as determined by measurements of the quenching of fluorescence</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Q</forename><surname>Umberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Lamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja01223a023</idno>
+		<ptr target="https://doi.org/10.1021/ja01223a023" />
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1099" to="1109" />
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Structure and orientation of the surfactantassociated protein C in a lipid bilayer</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vandenbussche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clercx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Curstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jornvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ruysschaert</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1432-1033.1992.tb19848.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1432-1033.1992.tb19848.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="page" from="201" to="209" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Sorting of SP-C proprotein involves homomeric association via a signal anchor domain</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mulugeta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Beers</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M201537200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M201537200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="19929" to="19937" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>Biosynthesis of surfactant protein C (SP-C)</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Acylation of pulmonary surfactant protein-C is required for its optimal surface active interactions with phospholipids</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gurel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Baatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Notter</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.271.32.19104</idno>
+		<ptr target="https://doi.org/10.1074/jbc.271.32.19104" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="19104" to="19109" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Synthesis, processing and secretion of surfactant proteins B and C</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Weaver</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0925-4439(98)00066-0</idno>
+		<ptr target="https://doi.org/10.1016/s0925-4439(98)00066-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1408</biblScope>
+			<biblScope unit="page" from="173" to="179" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Effects of oligomerization and secondary structure on the surface behavior of pulmonary surfactant proteins SP-B and SP-C</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wüstneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wüstneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pison</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0006-3495(03)75002-4</idno>
+		<ptr target="https://doi.org/10.1016/s0006-3495(03)75002-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="1940" to="1949" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
